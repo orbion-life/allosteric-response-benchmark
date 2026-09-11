@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "absolute_tolerance": 1e-08,
+  "relative_tolerance": 1e-08,
+  "numeric_fields_checked": {
+    "results.json": 2178,
+    "sensitivity-results.json": 7861,
+    "independent-response-check.json": 496
+  },
+  "scope": "scientific replay agreement, not continuum or biological accuracy"
+}

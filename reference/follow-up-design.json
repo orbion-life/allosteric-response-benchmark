@@ -1,0 +1,79 @@
+{
+  "stiffnesses": [
+    10,
+    30,
+    100,
+    300,
+    1000
+  ],
+  "beta_at_kappa10": [
+    0.5,
+    1,
+    2
+  ],
+  "strength_grid": 32,
+  "strength_domain": 4,
+  "fixed_spacing_domains": [
+    [
+      49,
+      3
+    ],
+    [
+      65,
+      4
+    ],
+    [
+      81,
+      5
+    ],
+    [
+      97,
+      6
+    ]
+  ],
+  "dimension_grids": {
+    "2": [
+      16,
+      32
+    ],
+    "3": [
+      8,
+      12,
+      16,
+      24
+    ],
+    "4": [
+      4,
+      6,
+      8,
+      12,
+      16
+    ]
+  },
+  "dimension_stiffness": 100,
+  "display_grid_check_stiffness": 100,
+  "display_grid_sizes": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "time_multiples": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2,
+    5,
+    10
+  ],
+  "explicit_walk_powers": [
+    1,
+    2,
+    3,
+    5,
+    8
+  ]
+}
