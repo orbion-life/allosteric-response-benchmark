@@ -31,6 +31,14 @@ jobs:
             experiments/kras/pilot/full-repeat-verification.json
             experiments/kras/pilot/verification.json
             experiments/kras/pilot/repeat-all/*.log
+      - name: Preserve generated arrays when the physical replay fails
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: kras-replay-arrays
+          path: |
+            experiments/kras/pilot/repeat-all/model/*.npz
+            experiments/kras/pilot/repeat-all/results/*.npz
   quantum:
     runs-on: ubuntu-latest
     timeout-minutes: 15
