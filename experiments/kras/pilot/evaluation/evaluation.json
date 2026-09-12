@@ -1,0 +1,630 @@
+{
+  "created_utc": "2026-09-12T10:00:45.776703+00:00",
+  "status": "retrospective engineering pilot; no prospective biological validation",
+  "prediction_freeze_sha256": "7adf384117d677c01700befb291f8fbd4e092b4787628d08bf7d056af3cc87d9",
+  "evaluation_addendum_sha256": "496afa28ef61508b2178b3d52e73670ace6343049c1a13f05a251700b0f860df",
+  "reference": "6OIM chain A MOV",
+  "mapping": "PDBe SIFTS P01116 author1 maps canonical1; resolved atom names compared at every modeled position",
+  "reference_vs_input_mutations": [
+    {
+      "canonical_residue": 12,
+      "input": "GLY",
+      "reference": "CYS"
+    },
+    {
+      "canonical_residue": 51,
+      "input": "CYS",
+      "reference": "SER"
+    },
+    {
+      "canonical_residue": 80,
+      "input": "CYS",
+      "reference": "LEU"
+    },
+    {
+      "canonical_residue": 118,
+      "input": "CYS",
+      "reference": "SER"
+    }
+  ],
+  "missing_reference_residues": [
+    105,
+    106,
+    107
+  ],
+  "all_reference_contact_residues_5A": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    34,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    68,
+    69,
+    72,
+    92,
+    95,
+    96,
+    99,
+    100,
+    103
+  ],
+  "eligible_reference_contact_residues": [
+    9,
+    34,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    68,
+    69,
+    72,
+    92,
+    95,
+    96,
+    99,
+    100,
+    103
+  ],
+  "excluded_reference_contact_residues": [
+    10,
+    11,
+    12,
+    13,
+    16
+  ],
+  "candidate_count": 126,
+  "receiver_count": 18,
+  "methods": [
+    {
+      "method": "Biquadratic d2 grid",
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "reference_heavy_atom_distances_A": [
+        3.160138288113354,
+        4.280462708633262,
+        3.6279598950374297,
+        3.5155837353133825,
+        6.342671203838333
+      ],
+      "hits_at_5A": 4,
+      "precision_at_5": 0.8,
+      "eligible_known_site_mean_score": 3.7858493325328026e-05,
+      "matched_random_mean_score": 1.2157144282654379e-05,
+      "matched_random_2.5pct": 2.958006488839961e-06,
+      "matched_random_97.5pct": 2.368342060719955e-05,
+      "matched_random_fraction_at_least_known_site": 9.999000099990002e-05,
+      "descriptive_hypergeometric_tail": 0.0010875649740103958,
+      "spearman_to_primary": 1.0
+    },
+    {
+      "method": "Harmonic d2 same grid",
+      "top5": [
+        60,
+        62,
+        61,
+        64,
+        69
+      ],
+      "reference_heavy_atom_distances_A": [
+        3.160138288113354,
+        3.6279598950374297,
+        3.5155837353133825,
+        5.139528772173573,
+        4.280462708633262
+      ],
+      "hits_at_5A": 4,
+      "precision_at_5": 0.8,
+      "eligible_known_site_mean_score": 0.00022696265699642941,
+      "matched_random_mean_score": 6.615884132347816e-05,
+      "matched_random_2.5pct": 1.1058801287553563e-05,
+      "matched_random_97.5pct": 0.00013721771826434625,
+      "matched_random_fraction_at_least_known_site": 9.999000099990002e-05,
+      "descriptive_hypergeometric_tail": 0.0010875649740103958,
+      "spearman_to_primary": 0.9972343457067868
+    },
+    {
+      "method": "Distance-Hookean d2 same grid",
+      "top5": [
+        60,
+        62,
+        69,
+        61,
+        65
+      ],
+      "reference_heavy_atom_distances_A": [
+        3.160138288113354,
+        3.6279598950374297,
+        4.280462708633262,
+        3.5155837353133825,
+        6.342671203838333
+      ],
+      "hits_at_5A": 4,
+      "precision_at_5": 0.8,
+      "eligible_known_site_mean_score": 4.18109937481286e-05,
+      "matched_random_mean_score": 1.3363343664699423e-05,
+      "matched_random_2.5pct": 3.196022729133824e-06,
+      "matched_random_97.5pct": 2.6152055652217057e-05,
+      "matched_random_fraction_at_least_known_site": 9.999000099990002e-05,
+      "descriptive_hypergeometric_tail": 0.0010875649740103958,
+      "spearman_to_primary": 0.999982002249719
+    },
+    {
+      "method": "Harmonic all 492 modes",
+      "top5": [
+        34,
+        85,
+        122,
+        123,
+        81
+      ],
+      "reference_heavy_atom_distances_A": [
+        3.4815160490797683,
+        13.707496489147827,
+        18.69642883012689,
+        20.24655281770208,
+        8.690232102769176
+      ],
+      "hits_at_5A": 1,
+      "precision_at_5": 0.2,
+      "eligible_known_site_mean_score": 0.019147315219883543,
+      "matched_random_mean_score": 0.016936303323957524,
+      "matched_random_2.5pct": 0.011057668184343335,
+      "matched_random_97.5pct": 0.02337608196118468,
+      "matched_random_fraction_at_least_known_site": 0.23967603239676033,
+      "descriptive_hypergeometric_tail": 0.5216321213450105,
+      "spearman_to_primary": -0.10823547056617923
+    },
+    {
+      "method": "Equilibrium d2 biquadratic",
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "reference_heavy_atom_distances_A": [
+        3.160138288113354,
+        4.280462708633262,
+        3.6279598950374297,
+        3.5155837353133825,
+        6.342671203838333
+      ],
+      "hits_at_5A": 4,
+      "precision_at_5": 0.8,
+      "eligible_known_site_mean_score": 3.825372267146978e-05,
+      "matched_random_mean_score": 1.2290992829098466e-05,
+      "matched_random_2.5pct": 2.993717664498379e-06,
+      "matched_random_97.5pct": 2.39406081451361e-05,
+      "matched_random_fraction_at_least_known_site": 9.999000099990002e-05,
+      "descriptive_hypergeometric_tail": 0.0010875649740103958,
+      "spearman_to_primary": 0.9999700037495315
+    },
+    {
+      "method": "Equilibrium all-mode harmonic",
+      "top5": [
+        34,
+        85,
+        122,
+        123,
+        81
+      ],
+      "reference_heavy_atom_distances_A": [
+        3.4815160490797683,
+        13.707496489147827,
+        18.69642883012689,
+        20.24655281770208,
+        8.690232102769176
+      ],
+      "hits_at_5A": 1,
+      "precision_at_5": 0.2,
+      "eligible_known_site_mean_score": 0.01929445466294192,
+      "matched_random_mean_score": 0.016982932475836123,
+      "matched_random_2.5pct": 0.011091602948909374,
+      "matched_random_97.5pct": 0.02344756982913891,
+      "matched_random_fraction_at_least_known_site": 0.2308769123087691,
+      "descriptive_hypergeometric_tail": 0.5216321213450105,
+      "spearman_to_primary": -0.09422122234720662
+    },
+    {
+      "method": "Graph heat kernel",
+      "top5": [
+        26,
+        25,
+        122,
+        123,
+        34
+      ],
+      "reference_heavy_atom_distances_A": [
+        19.74249209193206,
+        18.58163181746964,
+        18.69642883012689,
+        20.24655281770208,
+        3.4815160490797683
+      ],
+      "hits_at_5A": 1,
+      "precision_at_5": 0.2,
+      "eligible_known_site_mean_score": 0.005321694732785938,
+      "matched_random_mean_score": 0.006177131943756278,
+      "matched_random_2.5pct": 0.0057387089399372464,
+      "matched_random_97.5pct": 0.006600534858870106,
+      "matched_random_fraction_at_least_known_site": 1.0,
+      "descriptive_hypergeometric_tail": 0.5216321213450105,
+      "spearman_to_primary": -0.46181327334083244
+    },
+    {
+      "method": "Contact degree",
+      "top5": [
+        81,
+        78,
+        111,
+        6,
+        90
+      ],
+      "reference_heavy_atom_distances_A": [
+        8.690232102769176,
+        5.744922105651216,
+        8.837431923358732,
+        10.825245447563765,
+        9.655255304755022
+      ],
+      "hits_at_5A": 0,
+      "precision_at_5": 0.0,
+      "eligible_known_site_mean_score": 16.058823529411764,
+      "matched_random_mean_score": 16.30826470588235,
+      "matched_random_2.5pct": 15.470588235294118,
+      "matched_random_97.5pct": 17.176470588235293,
+      "matched_random_fraction_at_least_known_site": 0.7378262173782622,
+      "descriptive_hypergeometric_tail": 1.0,
+      "spearman_to_primary": 0.03261798288527955
+    },
+    {
+      "method": "Receiver inverse distance",
+      "top5": [
+        57,
+        34,
+        8,
+        81,
+        152
+      ],
+      "reference_heavy_atom_distances_A": [
+        6.713083047303973,
+        3.4815160490797683,
+        6.168634694971004,
+        8.690232102769176,
+        17.071866740342134
+      ],
+      "hits_at_5A": 1,
+      "precision_at_5": 0.2,
+      "eligible_known_site_mean_score": 0.09884227271006119,
+      "matched_random_mean_score": 0.09507950229355994,
+      "matched_random_2.5pct": 0.08855207936270865,
+      "matched_random_97.5pct": 0.10197696145623626,
+      "matched_random_fraction_at_least_known_site": 0.146985301469853,
+      "descriptive_hypergeometric_tail": 0.5216321213450105,
+      "spearman_to_primary": -0.21997150356205478
+    },
+    {
+      "method": "Ohm pinned upstream",
+      "top5": [
+        158,
+        127,
+        128,
+        153,
+        85
+      ],
+      "reference_heavy_atom_distances_A": [
+        18.377584199235763,
+        20.442904490311548,
+        20.754516110957635,
+        20.0200925572286,
+        13.707496489147827
+      ],
+      "hits_at_5A": 0,
+      "precision_at_5": 0.0,
+      "eligible_known_site_mean_score": 0.9095237647058824,
+      "matched_random_mean_score": 0.9547568879588234,
+      "matched_random_2.5pct": 0.8791775382352941,
+      "matched_random_97.5pct": 1.0252276823529411,
+      "matched_random_fraction_at_least_known_site": 0.8803119688031197,
+      "descriptive_hypergeometric_tail": 1.0,
+      "spearman_to_primary": -0.2126314676274907
+    }
+  ],
+  "nonfunctional_pocket_controls": "NOT EXECUTED: no independently established nonfunctional pocket supplied; unannotated regions are not negatives",
+  "matched_random_residues": {
+    "draws": 10000,
+    "seed": 20260912,
+    "degree_tertile_cuts": [
+      13.0,
+      18.33333333333333
+    ],
+    "receiver_distance_tertile_cuts_A": [
+      10.74971553887864,
+      16.906120798762856
+    ],
+    "interpretation": "descriptive conditional random-set distribution, not biological negative pockets or prospective uncertainty"
+  },
+  "grid_sensitivity": [
+    {
+      "case": "biquadratic-d1-n33-e4",
+      "max_abs_C_difference_from_primary": 0.0016313771219132124,
+      "spearman_from_primary": 0.21103862017247846,
+      "top5": [
+        157,
+        51,
+        161,
+        46,
+        4
+      ],
+      "boundary_probability": 3.623868550501395e-14
+    },
+    {
+      "case": "biquadratic-d1-n4-e4",
+      "max_abs_C_difference_from_primary": 0.002560635119009289,
+      "spearman_from_primary": 0.1427971503562055,
+      "top5": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "boundary_probability": 5.028435534918622e-13
+    },
+    {
+      "case": "biquadratic-d1-n65-e4",
+      "max_abs_C_difference_from_primary": 0.0016313771098944514,
+      "spearman_from_primary": 0.21103862017247846,
+      "top5": [
+        157,
+        51,
+        161,
+        46,
+        4
+      ],
+      "boundary_probability": 1.8119342752506968e-14
+    },
+    {
+      "case": "biquadratic-d2-n17-e4",
+      "max_abs_C_difference_from_primary": 5.6233304318404394e-05,
+      "spearman_from_primary": 0.9999760029996253,
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "boundary_probability": 6.826921854046463e-14
+    },
+    {
+      "case": "biquadratic-d2-n33-e4",
+      "max_abs_C_difference_from_primary": 0.0,
+      "spearman_from_primary": 1.0,
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "boundary_probability": 3.413462321827431e-14
+    },
+    {
+      "case": "biquadratic-d2-n41-e5",
+      "max_abs_C_difference_from_primary": 2.1163626406917047e-16,
+      "spearman_from_primary": 1.0,
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "boundary_probability": 1.5795659884208142e-29
+    },
+    {
+      "case": "biquadratic-d2-n49-e6",
+      "max_abs_C_difference_from_primary": 2.1141942363467336e-16,
+      "spearman_from_primary": 1.0,
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "boundary_probability": 3.2381426274932263e-56
+    },
+    {
+      "case": "biquadratic-d2-n65-e4",
+      "max_abs_C_difference_from_primary": 1.1530189183874343e-05,
+      "spearman_from_primary": 1.0,
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "boundary_probability": 1.706731160913726e-14
+    }
+  ],
+  "harmonic_coordinate_compression": [
+    {
+      "d": 1,
+      "max_abs_C_difference_from_all_mode": 0.999994995578182,
+      "frobenius_relative_error": 0.9993256207948884,
+      "candidate_to_receiver_max_abs_C_difference": 0.2183154690705171,
+      "candidate_to_receiver_relative_frobenius_error": 0.9999908729959912,
+      "spearman_to_all_mode": -0.28829696287964013,
+      "top5": [
+        157,
+        51,
+        46,
+        161,
+        44
+      ]
+    },
+    {
+      "d": 2,
+      "max_abs_C_difference_from_all_mode": 0.9999949813785131,
+      "frobenius_relative_error": 0.9978573858357502,
+      "candidate_to_receiver_max_abs_C_difference": 0.21831546317201464,
+      "candidate_to_receiver_relative_frobenius_error": 0.9993667553673203,
+      "spearman_to_all_mode": -0.13267641544806902,
+      "top5": [
+        60,
+        62,
+        61,
+        64,
+        69
+      ]
+    },
+    {
+      "d": 4,
+      "max_abs_C_difference_from_all_mode": 0.9999933313378152,
+      "frobenius_relative_error": 0.9930195459617155,
+      "candidate_to_receiver_max_abs_C_difference": 0.2183154402449754,
+      "candidate_to_receiver_relative_frobenius_error": 0.9990330170641025,
+      "spearman_to_all_mode": -0.14423097112860891,
+      "top5": [
+        63,
+        60,
+        61,
+        62,
+        64
+      ]
+    },
+    {
+      "d": 8,
+      "max_abs_C_difference_from_all_mode": 0.999982594166029,
+      "frobenius_relative_error": 0.9816258002387656,
+      "candidate_to_receiver_max_abs_C_difference": 0.21719992130388155,
+      "candidate_to_receiver_relative_frobenius_error": 0.9836596549055002,
+      "spearman_to_all_mode": 0.35105511811023626,
+      "top5": [
+        34,
+        85,
+        123,
+        36,
+        60
+      ]
+    },
+    {
+      "d": 16,
+      "max_abs_C_difference_from_all_mode": 0.9999443573314666,
+      "frobenius_relative_error": 0.9600579943439554,
+      "candidate_to_receiver_max_abs_C_difference": 0.21523604210956335,
+      "candidate_to_receiver_relative_frobenius_error": 0.9401879580519813,
+      "spearman_to_all_mode": 0.6417187851518561,
+      "top5": [
+        34,
+        85,
+        123,
+        122,
+        124
+      ]
+    },
+    {
+      "d": 32,
+      "max_abs_C_difference_from_all_mode": 0.9997368849507252,
+      "frobenius_relative_error": 0.9236589689006763,
+      "candidate_to_receiver_max_abs_C_difference": 0.15519396920294407,
+      "candidate_to_receiver_relative_frobenius_error": 0.8586056162336633,
+      "spearman_to_all_mode": 0.7669411323584553,
+      "top5": [
+        122,
+        85,
+        34,
+        123,
+        38
+      ]
+    },
+    {
+      "d": 64,
+      "max_abs_C_difference_from_all_mode": 0.9975159228364957,
+      "frobenius_relative_error": 0.8622928101831858,
+      "candidate_to_receiver_max_abs_C_difference": 0.1298609542662075,
+      "candidate_to_receiver_relative_frobenius_error": 0.7916802034605072,
+      "spearman_to_all_mode": 0.911613048368954,
+      "top5": [
+        122,
+        34,
+        85,
+        38,
+        123
+      ]
+    },
+    {
+      "d": 492,
+      "max_abs_C_difference_from_all_mode": 0.0,
+      "frobenius_relative_error": 0.0,
+      "candidate_to_receiver_max_abs_C_difference": 0.0,
+      "candidate_to_receiver_relative_frobenius_error": 0.0,
+      "spearman_to_all_mode": 1.0,
+      "top5": [
+        34,
+        85,
+        122,
+        123,
+        81
+      ]
+    }
+  ],
+  "candidate_mask_sensitivity": [
+    {
+      "minimum_CA_distance_A": 4,
+      "candidate_count": 137,
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "minimum_CA_distance_A": 6,
+      "candidate_count": 126,
+      "top5": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "precision_at_5": 0.8
+    },
+    {
+      "minimum_CA_distance_A": 8,
+      "candidate_count": 110,
+      "top5": [
+        69,
+        62,
+        61,
+        65,
+        64
+      ],
+      "precision_at_5": 0.6
+    }
+  ],
+  "claim_limit": "A converged d2 grid remains only a reduced-coordinate calculation. Failure against the exact all-mode harmonic reference rejects d2 as a validated protein compression, irrespective of any pocket hits."
+}

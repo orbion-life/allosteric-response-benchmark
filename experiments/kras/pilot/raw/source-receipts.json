@@ -1,0 +1,74 @@
+[
+  {
+    "name": "4OBE.pdb",
+    "url": "https://files.rcsb.org/download/4OBE.pdb",
+    "sha256": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2",
+    "bytes": 750465,
+    "fetched_utc": "2026-09-12T09:43:29.765249+00:00"
+  },
+  {
+    "name": "4OBE-entry.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/4OBE",
+    "sha256": "bf6e7fc005d45345d868e8cecd0e0e91add9b4c7135cf898fbcc6ff340fb182f",
+    "bytes": 20489,
+    "fetched_utc": "2026-09-12T09:43:30.411730+00:00"
+  },
+  {
+    "name": "4OBE-entity1.json",
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/4OBE/1",
+    "sha256": "652b2a47f455df8dab9d314a73b345580582ee76e759bf26dba7cc985328cb5c",
+    "bytes": 56132,
+    "fetched_utc": "2026-09-12T09:43:32.094233+00:00"
+  },
+  {
+    "name": "4OBE-mapping.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/4obe",
+    "sha256": "b7fc35c0e19bd8ac44fee88b23b27f7289969c67c22c160e8eac065b656c625a",
+    "bytes": 650,
+    "fetched_utc": "2026-09-12T09:43:32.254456+00:00"
+  },
+  {
+    "name": "6OIM.pdb",
+    "url": "https://files.rcsb.org/download/6OIM.pdb",
+    "sha256": "42deda943440cc8dd3020a2c65ddc260970936d675b47c8b43564195b77d5006",
+    "bytes": 173016,
+    "fetched_utc": "2026-09-12T09:43:32.606046+00:00"
+  },
+  {
+    "name": "6OIM-entry.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/6OIM",
+    "sha256": "5fc1afb967a4eb5097c0c1116a109ec1fb71941b59d38eb04f43a9cf1272b4f8",
+    "bytes": 20220,
+    "fetched_utc": "2026-09-12T09:43:33.212568+00:00"
+  },
+  {
+    "name": "6OIM-entity1.json",
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/6OIM/1",
+    "sha256": "8697e6beb0b5ae16c95db85e2c06b0aff18fa9a8f3d8dcac10ed6527085fd770",
+    "bytes": 40634,
+    "fetched_utc": "2026-09-12T09:43:33.897731+00:00"
+  },
+  {
+    "name": "6OIM-mapping.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/6oim",
+    "sha256": "3d8a4157036d217caf084ba56f3decbc4a418c19b2b66a2ae8f3a3ac2058038b",
+    "bytes": 372,
+    "fetched_utc": "2026-09-12T09:43:34.047426+00:00"
+  },
+  {
+    "name": "P01116-2.fasta",
+    "url": "https://rest.uniprot.org/uniprotkb/P01116-2.fasta",
+    "sha256": "8bcf1d107ea750b5ddc8a0f80b60227d16a3e559a6744798aea46b65fc97663b",
+    "bytes": 274,
+    "verified_local_import_utc": "2026-09-12T10:10:51.852236+00:00",
+    "receipt_type": "Directly verified local copy of the independent validation protocol primary-source download; this timestamp is import/verification time, not a claimed download timestamp."
+  },
+  {
+    "name": "P01116.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P01116.json",
+    "sha256": "54e2d937a79f84a4b9e6039fe4de4632290b1456cfc069b71b98dcd1880140fa",
+    "bytes": 266929,
+    "verified_local_import_utc": "2026-09-12T10:10:51.852835+00:00",
+    "receipt_type": "Directly verified local copy of the independent validation protocol primary-source download; this timestamp is import/verification time, not a claimed download timestamp."
+  }
+]

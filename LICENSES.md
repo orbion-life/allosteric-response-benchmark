@@ -1,0 +1,11 @@
+# Code and scientific-data licenses
+
+- **Original Project Pulsar code and documentation:** MIT, as stated in the root LICENSE. This includes the synthetic, KRAS and quantum-walk implementations authored for this repository.
+- **Ohm:** the pristine source archive in `experiments/kras/pilot/external/ohm-upstream-462a3b1.tar.gz` is pinned to upstream commit `462a3b1318e24ebe2061137fe88af719ef89c0ae`. Its GPL-3.0 license and bundled dependency notices remain inside the archive. The corresponding compatibility patch retains the upstream license. The original source and patch are supplied; no prebuilt Ohm binaries are distributed. See the [official repository](https://bitbucket.org/dokhlab/ohm) and [Wang et al. (2020)](https://doi.org/10.1038/s41467-020-17618-2).
+- **PDB coordinates:** wwPDB distributes archive data under CC0; original scientific attribution is retained in the raw PDB/mmCIF files. See the [wwPDB usage policy](https://www.wwpdb.org/about/usage-policies), [4OBE](https://www.rcsb.org/structure/4OBE) and [6OIM](https://www.rcsb.org/structure/6OIM).
+- **UniProt:** sequence/annotation data are provided under CC BY 4.0. Attribution: the UniProt Consortium; the cached KRAS4B/P01116-2 sequence is unchanged. See the [UniProt license](https://www.uniprot.org/help/license) and [Consortium resource paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC7778908/).
+- **PDBe/SIFTS:** residue mappings are attributed to PDBe/UniProt SIFTS. Cached mappings are retained; derived residue tables are explicitly distinguished. See [SIFTS](https://www.ebi.ac.uk/pdbe/docs/sifts/) and the [PDBe public-data statement](https://www.ebi.ac.uk/pdbe/about/public-data-access-statement).
+
+Research citations and reuse terms are distinct: citing a paper does not relicense its source. The MIT license applies to original code, not to separately licensed third-party archives or databases. Software dependencies are installed using the pinned environment files and retain their own licenses.
+
+The four-target protocol includes additional structures, sequence records and derived mappings. Its [data and software attribution](experiments/kras/protocol/DATA-AND-SOFTWARE-ATTRIBUTION.md) lists every accession and source citation.

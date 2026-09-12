@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-09-12T10:03:07.778431+00:00",
+  "upstream_commit": "462a3b1318e24ebe2061137fe88af719ef89c0ae",
+  "upstream_archive_sha256": "395dc1c3e561e21a65a8a2929331b3eb719ae3d66dba64dfe4c879589da140d5",
+  "patch_sha256": "d558b81d4870a6ad037958a36b1cc87cc06c50b606f787c0a696f9eb8f9f3b57",
+  "comparisons": {
+    "kras.mat": {
+      "expected_sha256": "729fa2c63d69cb0fa79158fd0e02ee9ddd94e3938d325d55ed2c664bc2bf6eed",
+      "replayed_sha256": "729fa2c63d69cb0fa79158fd0e02ee9ddd94e3938d325d55ed2c664bc2bf6eed",
+      "bitwise_equal": true
+    },
+    "primary.nodes": {
+      "expected_sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5",
+      "replayed_sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5",
+      "bitwise_equal": true
+    },
+    "primary.bonds": {
+      "expected_sha256": "d3c2917fe811d7ff3d730d685a141ea1efa164634cd51d627f60ec3ddb2519fc",
+      "replayed_sha256": "d3c2917fe811d7ff3d730d685a141ea1efa164634cd51d627f60ec3ddb2519fc",
+      "bitwise_equal": true
+    },
+    "primary.mdist": {
+      "expected_sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "replayed_sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bitwise_equal": true
+    }
+  },
+  "caveat": "Exact numerical output may vary across compiler, standard library or architecture. The recorded successful repeat uses this host compiler; no cross-platform bitwise portability is claimed.",
+  "source_receipt_sha256": "8da3bfe1cf269a1832c7d6991fb988581e7f04e459dc5eea0c39f5d74b2d4040",
+  "reconstruction_source": "../pilot/replay_ohm.py",
+  "receipt_scope": "Numerical comparison and archive/patch identity preserved; full portable replay commands are provided by the sibling pilot wrapper."
+}

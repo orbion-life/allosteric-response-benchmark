@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "scope": "second independent ideal compilation and151887-shot execution with same pinned inputs, source and seeds; no repeat noisy simulation",
+  "identical_ideal_result": true,
+  "identical_native_gate_counts_and_sample_counts": true,
+  "array_equality": {
+    "fixture.npz": {
+      "q": true,
+      "E": true,
+      "U": true,
+      "pi": true,
+      "L": true,
+      "H": true,
+      "P": true,
+      "M": true,
+      "coefficients": true,
+      "e": true,
+      "raw_basis": true,
+      "orthonormal_basis": true,
+      "reconstruction": true,
+      "raw_A": true,
+      "powers": true,
+      "harmonic_sd": true,
+      "own_d1_harmonic_sd": true,
+      "covariance": true,
+      "C_exact": true,
+      "C_polynomial": true,
+      "overlap_polynomial": true,
+      "gamma_orthonormal": true,
+      "gamma_raw": true,
+      "rho_direct": true,
+      "exact_scores": true,
+      "ranking": true,
+      "score_tail_bound": true,
+      "sampling_score_halfwidth": true,
+      "canonical": true,
+      "receiver": true,
+      "candidate": true
+    },
+    "ideal-response-matrices.npz": {
+      "exact_grid_C": true,
+      "compiled_C": true,
+      "sampled_C": true,
+      "exact_means": true,
+      "sampled_means": true,
+      "exact_scores": true,
+      "sampled_scores": true,
+      "score_halfwidth": true
+    }
+  },
+  "source_sha256": {
+    "run.py": "55787351e9dfbcc51bdfd3aeef3162b1aec90bd7e0ff8595116bf9989dee5556",
+    "model.py": "f46e14722b674b4c4cf49bd72752aecb1ab74853b00d5929c607a910f14b6879",
+    "circuit.py": "33a8711b458480cf8f566f52e2920716c348fa21790d68ff6af759b42a4b27f2"
+  },
+  "original_result_sha256": "b2c055eb24f39a5e0e9eb589fd8f98767d9fe33983605b6fea4e2010b96c47fc",
+  "repeat_result_sha256": "a909c82c372dd19e91073cf0d46f34de6729cf21b377e5153adff00cf842c646"
+}

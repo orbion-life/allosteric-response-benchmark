@@ -1,0 +1,6 @@
+{
+  "target": "MYC",
+  "status": "unresolved",
+  "reason": "No designated ligand-contact truth; consensus/docking are descriptive",
+  "eligible_canonical": []
+}

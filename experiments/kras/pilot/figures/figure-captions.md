@@ -1,0 +1,9 @@
+# Figure captions
+
+**KRAS pilot overview.** Panel a shows the observed alpha-carbon trace of 4OBE chain A, restricted to KRAS4B residues 1–166. Violet markers identify the five primary candidates (60, 69, 62, 61 and 65). Blue markers identify the 18 residues contacting GDP in the input structure. GDP is excluded from the mechanical model. Panel b reports contact counts for five selected residues from the same candidate set. A hit requires a mapped heavy atom within 5 Å of MOV in 6OIM. The reference differs from the input at G12C, C51S, C80L and C118S. The comparison is retrospective. Equal contact counts do not establish equivalent predictive performance.
+
+**Response matrix.** The 166 × 166 matrix preserves the dimensionless signed response at one slow-mode relaxation time. Both retained modes use the full biquadratic energy; all 492 harmonic modes define the common standard deviations of the same quartic observables. The color scale is symmetric about zero. This is a reduced-coordinate result, not a complete protein-dynamics calculation.
+
+**Resolution and compression.** Panel a compares the full response matrix with the finest predeclared 65-point grid, at fixed bounds of ±4 slow-mode standard deviations. The final point has zero reference difference and is omitted from the line. Panel b compares the candidate-to-functional-receiver block of analytic harmonic responses with the exact 492-mode harmonic reference, using the same quartic observables and common normalizers. The dashed line marks the 0.002 engineering tolerance. Grid convergence does not compensate for the failure of coordinate compression.
+
+**Residue score profile.** The violet line is the primary receiver-RMS score. Markers identify the five selected eligible residues. Blue ticks mark functional-receiver residues; black ticks below zero mark reference MOV contacts. Negative tick positions are graphical offsets and are not negative scores.

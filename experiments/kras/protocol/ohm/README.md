@@ -1,0 +1,11 @@
+# Ohm implementation and provenance
+
+The comparator is the authors' public Ohm implementation at commit `462a3b1318e24ebe2061137fe88af719ef89c0ae`, obtained from [the official repository](https://bitbucket.org/dokhlab/ohm). The core and the included compatibility patch retain GPL version 3 terms; [LICENSE-GPL-3.0](LICENSE-GPL-3.0) preserves the upstream license. The patch replaces two private range-adaptor bases with public C++23 equivalents. It does not alter the contact or diffusion numerical formulas. GCC 15.1.0 was the tested compiler.
+
+The current upstream excludes all backbone–backbone contacts, symmetrizes propagation probabilities from the upper triangle, transforms command-line alpha as alpha/10+0.05, and outputs a path-normalized score. These are upstream implementation differences from [Wang et al. (2020)](https://doi.org/10.1038/s41467-020-17618-2). This result is labelled “Ohm, pinned upstream implementation”; it is not an exact reconstruction of the 2020 paper.
+
+The primary run uses 4OBE chain A, reference positions 1–166, the input-GDP receiver, 3.4 Å atom contacts, command-line alpha 4.5 (effective 0.5), cutoff 0.05, 10,000 rounds and seed 11. Repeat seed 11, seeds 29/47 and an effective-alpha 3 sensitivity are retained. Scores are evaluated on the same 126-candidate universe as the mechanical model. Score magnitudes have different definitions and are not compared across methods.
+
+[execution.json](execution.json) preserves scientific arguments, results and hashes with local absolute locations replaced. [independent-replay-verification.json](independent-replay-verification.json) records a clean rebuild from a pristine pinned source archive plus patch, followed by bitwise matching of the contact matrix and three primary output files on the tested host. Exact cross-platform identity is not claimed. The canonical portable build/run source is [the sibling pilot wrapper](../../pilot/replay_ohm.py), with usage in [its README](../../pilot/README.md). The public source archive is kept with that wrapper, not duplicated here.
+
+A successful numerical replay is not a biological validation. The one retrospective KRAS example cannot establish general superiority over Ohm or other static-structure predictors. No executables, object files, system libraries or compiler caches are distributed in this protocol package.

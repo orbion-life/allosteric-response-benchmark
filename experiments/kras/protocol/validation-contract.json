@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-12",
+  "status": "development protocol; not prospectively blinded",
+  "targets": {
+    "KRAS": {
+      "input": {
+        "pdb": "4OBE",
+        "chains": {
+          "A": [
+            "P01116",
+            1,
+            166
+          ]
+        },
+        "sequence_accession": "P01116-2",
+        "rank_chain": "A",
+        "receiver_kind": "ligand",
+        "ligand": "GDP",
+        "ligand_chain": "A"
+      },
+      "N": 166,
+      "receiver_reference_positions": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        28,
+        30,
+        32,
+        116,
+        117,
+        119,
+        120,
+        145,
+        146,
+        147
+      ],
+      "primary_candidate_count": 126,
+      "labels_status": "retrospective designated-ligand labels; not an independent protein cohort",
+      "positive_reference_positions": [
+        9,
+        34,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        68,
+        69,
+        72,
+        92,
+        95,
+        96,
+        99,
+        100,
+        103
+      ],
+      "negative_pockets": [],
+      "negative_status": "not verified; unresolved"
+    },
+    "ABL": {
+      "input": {
+        "pdb": "1OPL",
+        "chains": {
+          "A": [
+            "P00519",
+            242,
+            493
+          ]
+        },
+        "rank_chain": "A",
+        "receiver_kind": "ligand",
+        "ligand": "P16",
+        "ligand_chain": "A"
+      },
+      "N": 252,
+      "receiver_reference_positions": [
+        248,
+        249,
+        253,
+        256,
+        269,
+        270,
+        271,
+        286,
+        290,
+        313,
+        315,
+        316,
+        317,
+        318,
+        321,
+        370,
+        380,
+        381,
+        382
+      ],
+      "primary_candidate_count": 193,
+      "labels_status": "retrospective designated-ligand labels; not an independent protein cohort",
+      "positive_reference_positions": [
+        332,
+        336,
+        337,
+        340,
+        341,
+        344,
+        429,
+        432,
+        433,
+        434,
+        435,
+        437,
+        461,
+        462,
+        463,
+        464,
+        465,
+        468,
+        472,
+        493
+      ],
+      "negative_pockets": [],
+      "negative_status": "not verified; unresolved"
+    },
+    "MYH7": {
+      "input": {
+        "pdb": "5TBY",
+        "chains": {
+          "A": [
+            "P12883",
+            85,
+            778
+          ]
+        },
+        "rank_chain": "A",
+        "receiver_kind": "canonical",
+        "receiver": [
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185
+        ]
+      },
+      "N": 694,
+      "receiver_reference_positions": [
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "primary_candidate_count": 675,
+      "labels_status": "unresolved",
+      "positive_reference_positions": [],
+      "negative_pockets": [],
+      "negative_status": "not verified; unresolved"
+    },
+    "MYC": {
+      "input": {
+        "pdb": "1NKP",
+        "chains": {
+          "A": [
+            "P01106",
+            368,
+            449
+          ],
+          "B": [
+            "P61244",
+            23,
+            102
+          ]
+        },
+        "rank_chain": "A",
+        "receiver_kind": "dna",
+        "dna_chains": [
+          "F",
+          "G"
+        ]
+      },
+      "N": 162,
+      "receiver_reference_positions": [
+        370,
+        371,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        381,
+        382,
+        383,
+        386,
+        406,
+        407,
+        408,
+        409
+      ],
+      "primary_candidate_count": 51,
+      "labels_status": "unresolved",
+      "positive_reference_positions": [],
+      "negative_pockets": [],
+      "negative_status": "not verified; unresolved"
+    }
+  },
+  "primary_family": [
+    "KRAS",
+    "ABL",
+    "MYH7"
+  ],
+  "unresolved_p": 1,
+  "family_correction": "Holm",
+  "alpha": 0.05,
+  "primary_statistic": "mean full-law score over eligible designated-ligand contacts",
+  "matching": {
+    "features": [
+      "contact degree tertile",
+      "minimum receiver C-alpha distance tertile",
+      "RSA >=0.20"
+    ],
+    "enumeration_limit": 100000,
+    "monte_carlo_distinct_draws": 10000,
+    "seed": 20260912,
+    "rng": "NumPy PCG64"
+  },
+  "distal_mask_A": 6,
+  "distal_sensitivity_A": [
+    4,
+    8
+  ],
+  "surface_primary_filter": false,
+  "separate_surface_RSA": 0.2,
+  "surface_sensitivity_RSA": [
+    0.1,
+    0.3
+  ],
+  "ligand_label_heavy_atom_A": 5,
+  "functional_contact_heavy_atom_A": 4,
+  "contact_graph_A": 10,
+  "contact_graph_sensitivity_A": [
+    8,
+    12
+  ],
+  "primary_time": "tau",
+  "time_sensitivity": [
+    "0.1tau",
+    "10tau",
+    "equilibrium"
+  ],
+  "secondary_nonlinear_family": [
+    "KRAS full>harmonic",
+    "KRAS full>Hookean",
+    "ABL full>harmonic",
+    "ABL full>Hookean",
+    "MYH7 full>harmonic",
+    "MYH7 full>Hookean"
+  ],
+  "secondary_statistic": "mean paired tie-aware percentile-rank improvement on eligible positive set",
+  "environment": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "biopython": "1.85"
+  },
+  "mechanical_and_solver_parameters": "Use separately versioned pilot/preanalysis-protocol.json for current KRAS calculation; future-target solver settings require named accuracy reference and recorded gate, not copied blind from KRAS."
+}

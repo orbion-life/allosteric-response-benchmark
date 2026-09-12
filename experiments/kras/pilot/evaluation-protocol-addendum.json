@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-09-12T09:53:14.283137+00:00",
+  "stage": "analytic pilot running; no reference MOV contacts inspected; addendum fixes evaluation controls before labels are derived",
+  "matched_random_residues": "Partition the common eligible candidate universe by degree tertiles and input receiver-distance tertiles (quantile cut values; ties assigned by searchsorted). Draw, without replacement within each cell, the same count as the reference pocket eligible residues. Cells retain reference residues in their sampling universe. 10,000 independent draws, seed20260912. Report known-pocket mean receiver-RMS score and random distribution, not validated negative sites.",
+  "unmatched_random_precision": "Exact hypergeometric top-five hit count distribution on common candidate universe, for descriptive enrichment context only; not prospective test.",
+  "negative_pocket_control": "No experimentally established nonfunctional pocket control presently available. This required biological comparison remains unexecuted.",
+  "uncertainty": "Grid/domain/mode/mask sensitivities are deterministic engineering checks. Sampling null spread is not predictive uncertainty. No bootstrap from one protein is described as cross-target confidence."
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "per_gate_depolarizing_p": 0.0001,
+    "independent_readout_flip": 0.0,
+    "noisy_overlap_means": [
+      [
+        0.001155589058061235,
+        -0.00018913740064657736
+      ],
+      [
+        -0.00018913740064657736,
+        0.001101495615867365
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.0015681497176865552,
+    "max_C_error_vs_exact_grid": 0.001567855070642121,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.3461519491289985e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.004158285354830538,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      27.242784333007876,
+      26.911757416964974,
+      27.11614549998194
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  },
+  {
+    "per_gate_depolarizing_p": 0.0001,
+    "independent_readout_flip": 0.01,
+    "noisy_overlap_means": [
+      [
+        0.00113247727690001,
+        -0.00018535465263364582
+      ],
+      [
+        -0.00018535465263364582,
+        0.0010794657035500177
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.0015681977803233644,
+    "max_C_error_vs_exact_grid": 0.0015679031332789303,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.346193207486313e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      27.242784333007876,
+      26.911757416964974,
+      27.11614549998194
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  },
+  {
+    "per_gate_depolarizing_p": 0.0001,
+    "independent_readout_flip": 0.03,
+    "noisy_overlap_means": [
+      [
+        0.0010862537145775607,
+        -0.0001777891566077827
+      ],
+      [
+        -0.0001777891566077827,
+        0.001035405878915323
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.001568293905596983,
+    "max_C_error_vs_exact_grid": 0.0015679992585525488,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.3462757242009414e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      27.242784333007876,
+      26.911757416964974,
+      27.11614549998194
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  },
+  {
+    "per_gate_depolarizing_p": 0.001,
+    "independent_readout_flip": 0.0,
+    "noisy_overlap_means": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -2.220446049250313e-16
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.0015705528495270193,
+    "max_C_error_vs_exact_grid": 0.0015702582024825851,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.3482148669947195e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      26.901410250051413,
+      26.549301958002616,
+      27.17157154198503
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  },
+  {
+    "per_gate_depolarizing_p": 0.001,
+    "independent_readout_flip": 0.01,
+    "noisy_overlap_means": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -2.1760371282653068e-16
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.0015705528495270193,
+    "max_C_error_vs_exact_grid": 0.0015702582024825851,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.3482148669947195e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      26.901410250051413,
+      26.549301958002616,
+      27.17157154198503
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  },
+  {
+    "per_gate_depolarizing_p": 0.001,
+    "independent_readout_flip": 0.03,
+    "noisy_overlap_means": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -2.0872192862952942e-16
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.0015705528495270193,
+    "max_C_error_vs_exact_grid": 0.0015702582024825851,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.3482148669947195e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      26.901410250051413,
+      26.549301958002616,
+      27.17157154198503
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  },
+  {
+    "per_gate_depolarizing_p": 0.01,
+    "independent_readout_flip": 0.0,
+    "noisy_overlap_means": [
+      [
+        -5.551115123125783e-17,
+        -5.551115123125783e-17
+      ],
+      [
+        -5.551115123125783e-17,
+        0.0
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.0015705528495270193,
+    "max_C_error_vs_exact_grid": 0.0015702582024825851,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.3482148669947195e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      26.955560000031255,
+      26.967232958006207,
+      27.27207816694863
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  },
+  {
+    "per_gate_depolarizing_p": 0.01,
+    "independent_readout_flip": 0.01,
+    "noisy_overlap_means": [
+      [
+        -5.440092820663267e-17,
+        -5.440092820663267e-17
+      ],
+      [
+        -5.440092820663267e-17,
+        0.0
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.0015705528495270193,
+    "max_C_error_vs_exact_grid": 0.0015702582024825851,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.3482148669947195e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      26.955560000031255,
+      26.967232958006207,
+      27.27207816694863
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  },
+  {
+    "per_gate_depolarizing_p": 0.01,
+    "independent_readout_flip": 0.03,
+    "noisy_overlap_means": [
+      [
+        -5.2180482157382354e-17,
+        -5.2180482157382354e-17
+      ],
+      [
+        -5.2180482157382354e-17,
+        0.0
+      ]
+    ],
+    "max_C_device_bias_vs_ideal_circuit": 0.0015705528495270193,
+    "max_C_error_vs_exact_grid": 0.0015702582024825851,
+    "top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_unchanged": true,
+    "max_score_bias": 1.3482148669947195e-06,
+    "device_C_bias_budget": 0.001,
+    "passes_device_C_bias_budget": false,
+    "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+    "rank_bound_separated_with_gate_mixture_bias": false,
+    "density_simulation_seconds_per_pair": [
+      26.955560000031255,
+      26.967232958006207,
+      27.27207816694863
+    ],
+    "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+    "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+  }
+]

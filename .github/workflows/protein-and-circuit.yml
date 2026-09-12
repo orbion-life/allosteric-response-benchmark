@@ -1,0 +1,57 @@
+name: Reproduce KRAS and complete circuit
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  kras:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: experiments/kras/pilot/requirements.txt
+      - run: python -m pip install -r experiments/kras/pilot/requirements.txt
+      - name: Rebuild every physical-model calculation and compare with frozen arrays
+        working-directory: experiments/kras/pilot
+        run: python repeat_all.py
+      - name: Verify contact moments and finite-field response
+        working-directory: experiments/kras/pilot
+        run: python -W error verify.py
+      - name: Repeat the independent synthetic compression check
+        working-directory: experiments/harmonic-coordinate-check
+        run: python verify_math.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: kras-replay
+          path: |
+            experiments/kras/pilot/full-repeat-verification.json
+            experiments/kras/pilot/verification.json
+            experiments/kras/pilot/repeat-all/*.log
+  quantum:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: experiments/kras/quantum/requirements-lock.txt
+      - run: python -m pip install -r experiments/kras/quantum/requirements-lock.txt
+      - name: Recompile and execute ideal, sampled and noisy circuits
+        working-directory: experiments/kras/quantum
+        run: python run.py --output results-ci
+      - name: Reload and verify the persisted circuits and independent algebra
+        working-directory: experiments/kras/quantum
+        run: python verify.py --results results-ci
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quantum-replay
+          path: |
+            experiments/kras/quantum/results-ci/quantum-results.json
+            experiments/kras/quantum/results-ci/verification.json

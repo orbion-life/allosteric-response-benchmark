@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-12",
+  "fresh_directory": true,
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "build_validation_inputs.py"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "extract_reference_labels.py"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "matched_null.py",
+        "--target",
+        "KRAS",
+        "--out",
+        "evaluation/KRAS-null-plan.json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "matched_null.py",
+        "--target",
+        "ABL",
+        "--out",
+        "evaluation/ABL-null-plan.json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "comparisons": {
+    "prepared/MYH7-residue-map.csv": {
+      "expected_sha256": "e15779ccacf876043206f21254b9fc38ca0a8f15a89890bfdb7e493a7329ab6a",
+      "replayed_sha256": "e15779ccacf876043206f21254b9fc38ca0a8f15a89890bfdb7e493a7329ab6a",
+      "bitwise_equal": true
+    },
+    "prepared/MYC-residue-map.csv": {
+      "expected_sha256": "91e81a3804da149411103f8d853485ea8c3027dccd3d133232eff6abf3c413ef",
+      "replayed_sha256": "91e81a3804da149411103f8d853485ea8c3027dccd3d133232eff6abf3c413ef",
+      "bitwise_equal": true
+    },
+    "prepared/ABL-domain.pdb": {
+      "expected_sha256": "28f8bd218b220de93c1856f965eed11b24060f2dc8fba14a5494469a23090083",
+      "replayed_sha256": "28f8bd218b220de93c1856f965eed11b24060f2dc8fba14a5494469a23090083",
+      "bitwise_equal": true
+    },
+    "prepared/MYC-input.json": {
+      "expected_sha256": "2da8f6eb02235be6d6a586b0117eacd8a6f60b805b931e82d449d1bb0d3838e2",
+      "replayed_sha256": "2da8f6eb02235be6d6a586b0117eacd8a6f60b805b931e82d449d1bb0d3838e2",
+      "bitwise_equal": true
+    },
+    "prepared/KRAS-input.json": {
+      "expected_sha256": "d8b13284e30902684869ba4397101244d92323a048e6558700b09590676a24bc",
+      "replayed_sha256": "d8b13284e30902684869ba4397101244d92323a048e6558700b09590676a24bc",
+      "bitwise_equal": true
+    },
+    "prepared/MYH7-input.json": {
+      "expected_sha256": "a97a79690d0cac2eb1098abf4233705eb6cd8d24303f0766cf0541f5c8e26544",
+      "replayed_sha256": "a97a79690d0cac2eb1098abf4233705eb6cd8d24303f0766cf0541f5c8e26544",
+      "bitwise_equal": true
+    },
+    "prepared/input-freeze.json": {
+      "expected_sha256": "aab2e9670fa2d1eb877b5fc024b37623338f7359235a85b45ea72f5f59b6deed",
+      "replayed_sha256": "aab2e9670fa2d1eb877b5fc024b37623338f7359235a85b45ea72f5f59b6deed",
+      "bitwise_equal": true
+    },
+    "prepared/MYH7-domain.pdb": {
+      "expected_sha256": "a857b8c109bb8df457f92340fda5e71905f01618dce39b1bfc93d030b099e306",
+      "replayed_sha256": "a857b8c109bb8df457f92340fda5e71905f01618dce39b1bfc93d030b099e306",
+      "bitwise_equal": true
+    },
+    "prepared/MYC-domain.pdb": {
+      "expected_sha256": "45aa61c2fc7c6f219bf4d918606a8d3dd4e6d7970501758c401bc3c6bc0c2c7f",
+      "replayed_sha256": "45aa61c2fc7c6f219bf4d918606a8d3dd4e6d7970501758c401bc3c6bc0c2c7f",
+      "bitwise_equal": true
+    },
+    "prepared/KRAS-domain.pdb": {
+      "expected_sha256": "6dfe82769e4eb45ada983ecb6d0c0f4db212a9dda02bcd1c083d865fe4f294b2",
+      "replayed_sha256": "6dfe82769e4eb45ada983ecb6d0c0f4db212a9dda02bcd1c083d865fe4f294b2",
+      "bitwise_equal": true
+    },
+    "prepared/ABL-input.json": {
+      "expected_sha256": "2766789025edec14e5f73e93e0ec06d9b320c5ffcee36488427c3d505b668bc5",
+      "replayed_sha256": "2766789025edec14e5f73e93e0ec06d9b320c5ffcee36488427c3d505b668bc5",
+      "bitwise_equal": true
+    },
+    "prepared/ABL-residue-map.csv": {
+      "expected_sha256": "6d7cf4a6aeee96661ead1c5f8e8a8b4be459f87de26d25620aa6a8e8cf768965",
+      "replayed_sha256": "6d7cf4a6aeee96661ead1c5f8e8a8b4be459f87de26d25620aa6a8e8cf768965",
+      "bitwise_equal": true
+    },
+    "prepared/KRAS-residue-map.csv": {
+      "expected_sha256": "19e6fb0b9087a5a2c04a91d45d044c62c1b6838fa5db8f517c8748eb449f0c88",
+      "replayed_sha256": "19e6fb0b9087a5a2c04a91d45d044c62c1b6838fa5db8f517c8748eb449f0c88",
+      "bitwise_equal": true
+    },
+    "evaluation/ABL-null-plan.json": {
+      "expected_sha256": "eef421a600cd06f86d869435912702ad8345ff2992d6b271ed4b9227afb16da1",
+      "replayed_sha256": "eef421a600cd06f86d869435912702ad8345ff2992d6b271ed4b9227afb16da1",
+      "bitwise_equal": true
+    },
+    "evaluation/KRAS-contacts.json": {
+      "expected_sha256": "bf6fa35ffbb60f77b494e41b4aa4217b155a1bdd77a025e348a9ecb6ddc638ad",
+      "replayed_sha256": "bf6fa35ffbb60f77b494e41b4aa4217b155a1bdd77a025e348a9ecb6ddc638ad",
+      "bitwise_equal": true
+    },
+    "evaluation/MYC-contacts.json": {
+      "expected_sha256": "e773babdb4efb757acd1cc686f5dc07d5aa1f91634840b9d773bcc399f23f2af",
+      "replayed_sha256": "e773babdb4efb757acd1cc686f5dc07d5aa1f91634840b9d773bcc399f23f2af",
+      "bitwise_equal": true
+    },
+    "evaluation/MYH7-contacts.json": {
+      "expected_sha256": "824fead9f4809129c8581d62de7d2fe8c2c27d0463dfa4d97e3d48d095d1d8a0",
+      "replayed_sha256": "824fead9f4809129c8581d62de7d2fe8c2c27d0463dfa4d97e3d48d095d1d8a0",
+      "bitwise_equal": true
+    },
+    "evaluation/KRAS-null-plan.json": {
+      "expected_sha256": "0a2cc187f6f06cb9d8f05160b8acf94e8783ccedf7a064bb0a339bc5f22897d2",
+      "replayed_sha256": "0a2cc187f6f06cb9d8f05160b8acf94e8783ccedf7a064bb0a339bc5f22897d2",
+      "bitwise_equal": true
+    },
+    "evaluation/ABL-contacts.json": {
+      "expected_sha256": "275c20cef5c98186a60407cdff56307d33bc30d868a2b066029f6e3583c5dd9b",
+      "replayed_sha256": "275c20cef5c98186a60407cdff56307d33bc30d868a2b066029f6e3583c5dd9b",
+      "bitwise_equal": true
+    }
+  },
+  "scope": "Fresh-directory rerun of input preparation, contact labels and finite-null plans using the stated installed environment; this does not claim a freshly installed OS or four-target response validation."
+}

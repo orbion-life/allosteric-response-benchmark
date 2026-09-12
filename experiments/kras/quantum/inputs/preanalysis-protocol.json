@@ -1,0 +1,108 @@
+{
+  "status": "PREANALYSIS; no response scores or MOV contact labels computed at creation",
+  "created_utc": "2026-09-12T09:45:52.309983+00:00",
+  "input": "4OBE",
+  "input_chain": "A",
+  "input_sha256": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2",
+  "reference": "6OIM",
+  "reference_chain": "A",
+  "reference_ligand": "MOV",
+  "scope": "resolved alpha-carbons mapping to P01116 canonical positions1\u2013166; not the hypervariable tail",
+  "mapping": "PDBe SIFTS author-number range and actual amino-acid comparison; report all mutations/missing labels",
+  "alternate_locations": "maximum occupancy, then blank, then A; one coordinate per atom",
+  "receiver": "input GDP heavy-atom contacts at distance<=4.0\u00c5; exclude water/Mg; GDP removed before mechanics",
+  "candidate_primary": "nonreceiver residues whose minimum C-alpha distance to receiver nodes is >=6\u00c5; no surface filter",
+  "candidate_sensitivity_A": [
+    4,
+    8
+  ],
+  "contacts": "all C-alpha pairs<=10\u00c5 plus resolved consecutive canonical backbone neighbours; no artificial gap bridging",
+  "kappa": 1.0,
+  "beta": 1.0,
+  "mu": 1.0,
+  "units": "angstrom coordinates; uncalibrated model energy/time; kappa model energy/\u00c5\u00b2, beta inverse model energy",
+  "horizon": "tau=1/(mu*lowest_positive_harmonic_eigenvalue)",
+  "normalization": "fixed quartic Ei, analytic all-mode harmonic standard deviations common to all primary model comparisons; own-coordinate harmonic scales exported separately for circuit parity",
+  "primary_case": {
+    "d": 2,
+    "n": 33,
+    "extent_slowest_harmonic_sigma": 4,
+    "energy": "biquadratic"
+  },
+  "grid_cases": [
+    [
+      1,
+      4,
+      4
+    ],
+    [
+      1,
+      33,
+      4
+    ],
+    [
+      1,
+      65,
+      4
+    ],
+    [
+      2,
+      17,
+      4
+    ],
+    [
+      2,
+      33,
+      4
+    ],
+    [
+      2,
+      65,
+      4
+    ],
+    [
+      2,
+      41,
+      5
+    ],
+    [
+      2,
+      49,
+      6
+    ]
+  ],
+  "energies": [
+    "biquadratic",
+    "harmonic",
+    "distance_hookean"
+  ],
+  "analytic_harmonic_dimensions": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    "all"
+  ],
+  "primary_metric": "receiver-RMS of C; top5 unique candidate nodes, descending score, canonical index tie break",
+  "finite_time_ablation": "same-grid equilibrium covariance; also all-mode analytic equilibrium covariance",
+  "classical_baselines": [
+    "same-grid harmonic",
+    "same-grid distance-Hookean",
+    "all-mode analytic harmonic",
+    "graph heat kernel at time1/lowest_nonzero_graph_eigenvalue",
+    "receiver inverse distance",
+    "contact degree"
+  ],
+  "validation": "only after matrices and ranks are saved: sequence-map reference MOV heavy-atom contact residues<=5\u00c5, report all top5 distances, P@5 and all excluded pocket labels",
+  "random_comparison": "finite matched universe, independent target-known-site score comparison under predeclared matching if feasible; unannotated pockets are not negatives",
+  "negative_pockets": "unresolved until independently evidenced controls are supplied; never invent negatives",
+  "sensitivity_acceptance": "max absolute C difference<=0.001 for grid/domain and same top5; coordinate difference<=0.002 against resolved harmonic all-mode reference; report these engineering thresholds and their failures",
+  "physical_diagnostics": "probability any modeled contact strain>0.2, expected max contact strain, strong compression ratio<sqrt(0.5), noncontact CA overlap<2\u00c5, boundary mass; no calibrated biology claims",
+  "random_seed": 20260912,
+  "runtime_limit_seconds_per_case": 120,
+  "interpretation": "retrospective engineering pilot, with benchmark/reference known from challenge; no prospective validation or demonstrated generalization",
+  "changes": "any changes require a dated amendment before rerun, retaining failed outputs"
+}

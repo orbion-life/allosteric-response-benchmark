@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-12",
+  "source_sha256": "9e630d50c4f5f4b98c101ec4fba9d05493bb74ed8e55ac184141474a4304b917",
+  "checks": {
+    "choose_4_2_exact_space": 6,
+    "unique_best_pair_p": 0.16666666666666666,
+    "all_tied_scores_p": 1.0,
+    "holm_3_slots": [
+      0.03,
+      0.08,
+      1
+    ],
+    "invalid_score_rejections": {
+      "nan": "Every eligible score must be finite.",
+      "inf": "Every eligible score must be finite.",
+      "missing": "Scores must cover every eligible candidate."
+    }
+  },
+  "scope": "Focused exact-null, tie, multiplicity and invalid-score checks; not biological calibration."
+}

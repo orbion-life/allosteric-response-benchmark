@@ -1,0 +1,251 @@
+{
+  "target": "KRAS",
+  "reference": "6OIM",
+  "ligand": "MOV",
+  "ligand_auth_seq": 303,
+  "threshold_A": 5.0,
+  "input_freeze_sha256": "aab2e9670fa2d1eb877b5fc024b37623338f7359235a85b45ea72f5f59b6deed",
+  "reference_sha256": "0ab0ab91e9dd078b83cf4149118e31b3f3ac7252eb1e47b1ff11e77574d97de9",
+  "contacts": [
+    {
+      "auth_chain": "A",
+      "auth_seq": 9,
+      "resname": "VAL",
+      "canonical": 9,
+      "distance_A": 3.4470150470733643,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 10,
+      "resname": "GLY",
+      "canonical": 10,
+      "distance_A": 3.496649980545044,
+      "eligible": false,
+      "exclusion_reason": "inside distal exclusion",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 11,
+      "resname": "ALA",
+      "canonical": 11,
+      "distance_A": 4.281801700592041,
+      "eligible": false,
+      "exclusion_reason": "functional receiver",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 12,
+      "resname": "CYS",
+      "canonical": 12,
+      "distance_A": 1.8054274320602417,
+      "eligible": false,
+      "exclusion_reason": "functional receiver",
+      "reference_sequence_match": false
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 13,
+      "resname": "GLY",
+      "canonical": 13,
+      "distance_A": 4.323419094085693,
+      "eligible": false,
+      "exclusion_reason": "functional receiver",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 16,
+      "resname": "LYS",
+      "canonical": 16,
+      "distance_A": 2.765259265899658,
+      "eligible": false,
+      "exclusion_reason": "functional receiver",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 34,
+      "resname": "PRO",
+      "canonical": 34,
+      "distance_A": 3.481515884399414,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 58,
+      "resname": "THR",
+      "canonical": 58,
+      "distance_A": 3.9413552284240723,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 59,
+      "resname": "ALA",
+      "canonical": 59,
+      "distance_A": 3.154876470565796,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 60,
+      "resname": "GLY",
+      "canonical": 60,
+      "distance_A": 3.1601383686065674,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 61,
+      "resname": "GLN",
+      "canonical": 61,
+      "distance_A": 3.5155839920043945,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 62,
+      "resname": "GLU",
+      "canonical": 62,
+      "distance_A": 3.627959966659546,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 63,
+      "resname": "GLU",
+      "canonical": 63,
+      "distance_A": 3.2231221199035645,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 68,
+      "resname": "ARG",
+      "canonical": 68,
+      "distance_A": 3.1557936668395996,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 69,
+      "resname": "ASP",
+      "canonical": 69,
+      "distance_A": 4.280462265014648,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 72,
+      "resname": "MET",
+      "canonical": 72,
+      "distance_A": 3.2767364978790283,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 92,
+      "resname": "ASP",
+      "canonical": 92,
+      "distance_A": 4.7083563804626465,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 95,
+      "resname": "HIS",
+      "canonical": 95,
+      "distance_A": 3.55092453956604,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 96,
+      "resname": "TYR",
+      "canonical": 96,
+      "distance_A": 3.270047426223755,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 99,
+      "resname": "GLN",
+      "canonical": 99,
+      "distance_A": 3.5068540573120117,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 100,
+      "resname": "ILE",
+      "canonical": 100,
+      "distance_A": 4.138163089752197,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 103,
+      "resname": "VAL",
+      "canonical": 103,
+      "distance_A": 3.3603367805480957,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    }
+  ],
+  "eligible_canonical": [
+    9,
+    34,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    68,
+    69,
+    72,
+    92,
+    95,
+    96,
+    99,
+    100,
+    103
+  ],
+  "status": "retrospective designated-ligand labels; not an independent protein cohort"
+}

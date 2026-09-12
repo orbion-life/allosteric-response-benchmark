@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "exact_control_factorization_max_entry_error": 1.1894458619345958e-13,
+  "projected_walk_power_vs_Chebyshev_errors": [
+    0.0,
+    2.892861292184544e-15,
+    5.280785598572276e-15,
+    1.0165166689939693e-14
+  ],
+  "inactive_control_sector_identity_errors": [
+    6.8836458859533626e-15,
+    6.778081318342052e-15,
+    6.665085309027156e-15
+  ],
+  "signed_preparation_overlap_error": 3.885780586188048e-15,
+  "saved_native_circuits_reloaded_and_simulated": [
+    {
+      "pair": [
+        0,
+        0
+      ],
+      "topology": "all_to_all",
+      "absolute_overlap_error": 3.9968028886505635e-15,
+      "qpy_sha256": "ffd3e448a3b8b640b8db94a97a6bd887bb99dfff94787c919ce4dd2a1ab6d061"
+    },
+    {
+      "pair": [
+        0,
+        0
+      ],
+      "topology": "line",
+      "absolute_overlap_error": 4.884981308350689e-15,
+      "qpy_sha256": "c8e2a8abeb1334c40417c86a52d0b02c0db289ca2f86c9e87c89cc3ef27b0a7c"
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "topology": "all_to_all",
+      "absolute_overlap_error": 5.558993323628636e-16,
+      "qpy_sha256": "3bf014289ec359d4ddfe862f9f46ff8bb0a107280c8f501156266d4e028e4509"
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "topology": "line",
+      "absolute_overlap_error": 5.003881811316057e-16,
+      "qpy_sha256": "b667b51a7ad05b2d782472b76b0fe31edeb3de09c47d3ba39dbf25f6c2e78c23"
+    },
+    {
+      "pair": [
+        1,
+        1
+      ],
+      "topology": "all_to_all",
+      "absolute_overlap_error": 3.3306690738754696e-16,
+      "qpy_sha256": "6352ca6ba79c267de83cfebbeb72e0f036e620019aab56473c2f804c475eea95"
+    },
+    {
+      "pair": [
+        1,
+        1
+      ],
+      "topology": "line",
+      "absolute_overlap_error": 2.1094237467877974e-15,
+      "qpy_sha256": "20b281aafc7dd5b210886f83fa6dee16a511cb73685212d0117d5131ff667964"
+    }
+  ],
+  "results_sha256": "b2c055eb24f39a5e0e9eb589fd8f98767d9fe33983605b6fea4e2010b96c47fc",
+  "verified_source_sha256": {
+    "run.py": "55787351e9dfbcc51bdfd3aeef3162b1aec90bd7e0ff8595116bf9989dee5556",
+    "model.py": "f46e14722b674b4c4cf49bd72752aecb1ab74853b00d5929c607a910f14b6879",
+    "circuit.py": "33a8711b458480cf8f566f52e2920716c348fa21790d68ff6af759b42a4b27f2"
+  },
+  "scope": "phase-sensitive algebra and persisted circuit repeat execution; no new protein accuracy claim"
+}

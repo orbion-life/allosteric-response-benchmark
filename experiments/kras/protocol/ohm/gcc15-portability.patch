@@ -1,0 +1,22 @@
+diff --git a/src/jnc/src/core/vec.hpp b/src/jnc/src/core/vec.hpp
+index 35398ff..8dd6469 100644
+--- a/src/jnc/src/core/vec.hpp
++++ b/src/jnc/src/core/vec.hpp
+@@ -46,7 +46,7 @@ DEF_OPERATOR(vec_minus_by, -=);
+ DEF_OPERATOR(vec_times_by, *=);
+ DEF_OPERATOR(vec_divide_by, /=);
+ 
+-template <typename Rt> struct vec_center_impl : public VIEW_CLOSURE {
++template <typename Rt> struct vec_center_impl : public std::ranges::range_adaptor_closure<vec_center_impl<Rt>> {
+   template <typename Vec> Rt operator()(Vec &&vec) const {
+     int n = 0;
+     Rt center;
+@@ -64,7 +64,7 @@ template <typename Rt> struct vec_center_impl : public VIEW_CLOSURE {
+ };
+ template <typename Rt> constexpr auto vec_center = vec_center_impl<Rt>{};
+ 
+-struct vec_print_impl : public VIEW_CLOSURE {
++struct vec_print_impl : public std::ranges::range_adaptor_closure<vec_print_impl> {
+   template <typename Vec> void operator()(Vec &&vec) const { std::cout << vec << ' '; }
+ 
+   template <typename Vec>

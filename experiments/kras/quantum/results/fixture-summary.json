@@ -1,0 +1,205 @@
+{
+  "input_structure": "4OBE",
+  "chain": "A",
+  "retained_residues": 166,
+  "contact_count": 1433,
+  "positive_harmonic_modes": 492,
+  "retained_physical_modes": 1,
+  "grid_values": 4,
+  "grid_extent_harmonic_sigma": 4.0,
+  "grid_spacing": 9.670296186770006,
+  "kappa": 1.0,
+  "beta": 1.0,
+  "mu": 1.0,
+  "tau": 13.150494610292602,
+  "lambda1": 0.07604276718362532,
+  "normalization": "pilot analytic all-492-mode harmonic SD of fixed quartic Ei, common to primary model comparisons",
+  "stationary_probabilities": [
+    1.1043568254554224e-13,
+    0.48826263364038913,
+    0.5117373663591079,
+    3.9240787094631995e-13
+  ],
+  "boundary_probability": 5.028435534918622e-13,
+  "energy_polynomial_max_error": 3.219646771412954e-15,
+  "weighted_basis_reconstruction_max_error": 1.0608918257770661e-16,
+  "raw_monomial_count": 3,
+  "retained_algebraic_rank": 2,
+  "singular_values": [
+    113.00811907520725,
+    0.031006270032041927,
+    2.1250721295071422e-15
+  ],
+  "singular_value_cutoff": 1.0037137261350115e-13,
+  "rank_reduction_scope": "exact observable-span reduction on this coarse grid; does not restore omitted protein motion",
+  "nu": 0.04277405654078924,
+  "z": 0.5624999999999999,
+  "K": 3,
+  "retained_coefficient_sum": 0.9996804132862802,
+  "omitted_coefficient_sum_float": 0.0003195867137197883,
+  "analytic_tail_upper_bound_float": 0.0003198246565203037,
+  "requested_algorithm_C_error_budget": 0.0005,
+  "truncation_selection": "smallest K>=1 meeting C budget and retaining at least 90% of the exact same-grid fifth/sixth ranking gap under conservative score-tail bounds",
+  "all_entry_truncation_C_upper_bound": 6.653165638537142e-07,
+  "observed_all_entry_truncation_C_error": 2.946470443215181e-07,
+  "maximum_absolute_C": 0.0005099959314305615,
+  "zero_response_meets_loose_sampling_cap": true,
+  "exact_same_grid_top5_canonical": [
+    157,
+    161,
+    51,
+    45,
+    44
+  ],
+  "exact_same_grid_fifth_sixth_score_gap": 2.0362690758603074e-08,
+  "shot_family_comparison": {
+    "direct_all_residue_pairs": {
+      "unique_observable_pairs": 13861,
+      "gamma_max_squared": 0.002080254133913147,
+      "response_halfwidth": 0.004,
+      "family_failure_probability": 0.05,
+      "required_uniform_overlap_halfwidth": 1.9234567018989104,
+      "sufficient_shots_per_pair": 8,
+      "sufficient_total_shots": 110888,
+      "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+    },
+    "raw_three_monomial_basis": {
+      "unique_observable_pairs": 6,
+      "gamma_max_squared": 0.00208035363976158,
+      "response_halfwidth": 0.004,
+      "family_failure_probability": 0.05,
+      "required_uniform_overlap_halfwidth": 1.9233647006221137,
+      "sufficient_shots_per_pair": 3,
+      "sufficient_total_shots": 18,
+      "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+    },
+    "orthonormal_grid_basis": {
+      "unique_observable_pairs": 3,
+      "gamma_max_squared": 0.002080353638697956,
+      "response_halfwidth": 0.004,
+      "family_failure_probability": 0.05,
+      "required_uniform_overlap_halfwidth": 1.9233647016054738,
+      "sufficient_shots_per_pair": 3,
+      "sufficient_total_shots": 9,
+      "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+    }
+  },
+  "own_d1_normalization_comparison": {
+    "direct_all_residue_pairs": {
+      "unique_observable_pairs": 13861,
+      "gamma_max_squared": 0.14604596360376418,
+      "response_halfwidth": 0.004,
+      "family_failure_probability": 0.05,
+      "required_uniform_overlap_halfwidth": 0.027397393647824356,
+      "sufficient_shots_per_pair": 35240,
+      "sufficient_total_shots": 488461640,
+      "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+    },
+    "raw_three_monomial_basis": {
+      "unique_observable_pairs": 6,
+      "gamma_max_squared": 0.14605272455886623,
+      "response_halfwidth": 0.004,
+      "family_failure_probability": 0.05,
+      "required_uniform_overlap_halfwidth": 0.027396125389742045,
+      "sufficient_shots_per_pair": 14605,
+      "sufficient_total_shots": 87630,
+      "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+    },
+    "orthonormal_grid_basis": {
+      "unique_observable_pairs": 3,
+      "gamma_max_squared": 0.14605272463112717,
+      "response_halfwidth": 0.004,
+      "family_failure_probability": 0.05,
+      "required_uniform_overlap_halfwidth": 0.027396125376187554,
+      "sufficient_shots_per_pair": 12758,
+      "sufficient_total_shots": 38274,
+      "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+    }
+  },
+  "rank_precision_family_comparison": {
+    "direct_all_residue_pairs": {
+      "unique_pairs": 13861,
+      "chosen_overlap_halfwidth": 0.013753861420300169,
+      "sufficient_shots_per_pair": 139830,
+      "sufficient_total_shots": 1938183630,
+      "scope": "same fixed-grid ranking intervals, common full-mode normalization, same global failure probability"
+    },
+    "raw_three_monomial_basis": {
+      "unique_pairs": 6,
+      "chosen_overlap_halfwidth": 0.01375217791619908,
+      "sufficient_shots_per_pair": 57959,
+      "sufficient_total_shots": 347754,
+      "scope": "same fixed-grid ranking intervals, common full-mode normalization, same global failure probability"
+    },
+    "orthonormal_grid_basis": {
+      "unique_pairs": 3,
+      "chosen_overlap_halfwidth": 0.01375217793290201,
+      "sufficient_shots_per_pair": 50629,
+      "sufficient_total_shots": 151887,
+      "scope": "same fixed-grid ranking intervals, common full-mode normalization, same global failure probability"
+    }
+  },
+  "conservative_uniform_C_gap_cost": {
+    "unique_observable_pairs": 3,
+    "gamma_max_squared": 0.002080353638697956,
+    "response_halfwidth": 5.0906726896507684e-09,
+    "family_failure_probability": 0.05,
+    "required_uniform_overlap_halfwidth": 2.447805039675321e-06,
+    "sufficient_shots_per_pair": 1598027999331,
+    "sufficient_total_shots": 4794083997993,
+    "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+  },
+  "selected_sampling": {
+    "family_size": 3,
+    "failure_probability": 0.05,
+    "ranking_uniform_overlap_cap": 0.02750435586580402,
+    "matrix_uniform_overlap_cap": 1.9233647016054738,
+    "chosen_overlap_halfwidth": 0.01375217793290201,
+    "selection_rule": "minimum of matrix cap and half of the conservative pairwise rank-separation cap",
+    "shots_per_overlap": 50629,
+    "total_shots": 151887,
+    "achieved_uniform_C_halfwidth_bound": 2.8600250220715334e-05,
+    "top5_lower_score_bound": 9.417359493296849e-08,
+    "outside_top5_upper_score_bound": 8.410930170519693e-08,
+    "scope": "simultaneous sampling and truncation bounds for this fixed coarse model only; excludes device bias, grid error and omitted physical modes"
+  },
+  "preprocessing_seconds": 0.029908291005995125,
+  "input_manifest": [
+    {
+      "file": "static-model.npz",
+      "source_within_v8": "pilot/model/static-model.npz",
+      "sha256": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd"
+    },
+    {
+      "file": "coordinate-d1.npz",
+      "source_within_v8": "pilot/model/coordinate-d1.npz",
+      "sha256": "0bcab4ec48a46473999871fa84f75c58354a9d37017f2310f79964272be045a2"
+    },
+    {
+      "file": "static-model.json",
+      "source_within_v8": "pilot/model/static-model.json",
+      "sha256": "601defa17c82aa420b0d624ad2d6913de6ba61f44efb263c4162ded165041d71"
+    },
+    {
+      "file": "4OBE.pdb",
+      "source_within_v8": "pilot/raw/4OBE.pdb",
+      "sha256": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2"
+    },
+    {
+      "file": "source-receipts.json",
+      "source_within_v8": "pilot/raw/source-receipts.json",
+      "sha256": "65aa6d516c2582c80062e312aadea0aad58f777d75a8c3d3280db4b8dbce3832"
+    },
+    {
+      "file": "preanalysis-protocol.json",
+      "source_within_v8": "pilot/preanalysis-protocol.json",
+      "sha256": "0fcae6ed4dc4866f3fb32f63bb29bb38b17dd7552988b776ee4af76d65ca7896"
+    },
+    {
+      "file": "all-mode-harmonic-scales.npz",
+      "source_within_v8": "pilot/model/all-mode-harmonic-scales.npz",
+      "sha256": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c"
+    }
+  ],
+  "scope": "complete-circuit engineering fixture; unvalidated d1/four-point physical representation"
+}

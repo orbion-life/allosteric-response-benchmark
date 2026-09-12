@@ -1,0 +1,26 @@
+{
+  "energy": "biquadratic",
+  "d": 1,
+  "n": 33,
+  "extent_slowest_sigma": 4,
+  "delta_A": 0.9065902675096886,
+  "states": 33,
+  "tau_model_time": 13.150494610292602,
+  "seconds": 0.059259750007186085,
+  "max_stationarity_residual": 1.233903313181613e-16,
+  "boundary_probability": 3.623868550501395e-14,
+  "prob_any_contact_strain_gt_0.2": 1.682992635136095e-09,
+  "mean_max_contact_strain": 0.025169559189625226,
+  "prob_strong_compression": 0.0,
+  "prob_noncontact_CA_overlap_lt_2A": 0.0,
+  "top5_canonical": [
+    157,
+    51,
+    161,
+    46,
+    4
+  ],
+  "max_abs_C": 0.003065728430789499,
+  "normalization": "analytic all-mode harmonic SD of fixed quartic Ei",
+  "prob_sum": 1.0
+}

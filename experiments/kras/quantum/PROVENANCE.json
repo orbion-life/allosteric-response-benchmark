@@ -1,0 +1,28 @@
+{
+  "package": "Project Pulsar complete KRAS-derived quantum-walk fixture",
+  "version": "0.2.0",
+  "date": "2026-09-12",
+  "status": "sanitized public staging; parent will decide final release",
+  "source_data": {
+    "structure": "4OBE",
+    "chain": "A",
+    "url": "https://files.rcsb.org/download/4OBE.pdb",
+    "sha256": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2",
+    "license_url": "https://www.rcsb.org/pages/usage-policy",
+    "license": "CC0-1.0 for PDB archive coordinates"
+  },
+  "accepted_result_sha256": "b2c055eb24f39a5e0e9eb589fd8f98767d9fe33983605b6fea4e2010b96c47fc",
+  "result_binding": "Source and input hashes are embedded in results/quantum-results.json and verified by verify.py.",
+  "scope": "Classical coarse protein model, exact complete synthesized quantum estimator, ideal finite-shot execution and synthetic density-matrix noise; no hardware, no demonstrated protein accuracy or quantum advantage.",
+  "excluded_from_distribution": [
+    "local virtual environment",
+    "private audit files",
+    "editorial reviews",
+    "local command logs",
+    "duplicate naive circuit binaries (regenerable)"
+  ],
+  "upstream_dependency": "Frozen portable model inputs are included. Full regeneration from PDB requires the sibling protein pilot package.",
+  "dependency_lock": "requirements-lock.txt",
+  "python_version_used": "3.12.14",
+  "license": "MIT for project code/docs; upstream data terms separately acknowledged"
+}

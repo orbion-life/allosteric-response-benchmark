@@ -1,0 +1,37 @@
+[
+  {
+    "file": "static-model.npz",
+    "source_within_v8": "pilot/model/static-model.npz",
+    "sha256": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd"
+  },
+  {
+    "file": "coordinate-d1.npz",
+    "source_within_v8": "pilot/model/coordinate-d1.npz",
+    "sha256": "0bcab4ec48a46473999871fa84f75c58354a9d37017f2310f79964272be045a2"
+  },
+  {
+    "file": "static-model.json",
+    "source_within_v8": "pilot/model/static-model.json",
+    "sha256": "601defa17c82aa420b0d624ad2d6913de6ba61f44efb263c4162ded165041d71"
+  },
+  {
+    "file": "4OBE.pdb",
+    "source_within_v8": "pilot/raw/4OBE.pdb",
+    "sha256": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2"
+  },
+  {
+    "file": "source-receipts.json",
+    "source_within_v8": "pilot/raw/source-receipts.json",
+    "sha256": "65aa6d516c2582c80062e312aadea0aad58f777d75a8c3d3280db4b8dbce3832"
+  },
+  {
+    "file": "preanalysis-protocol.json",
+    "source_within_v8": "pilot/preanalysis-protocol.json",
+    "sha256": "0fcae6ed4dc4866f3fb32f63bb29bb38b17dd7552988b776ee4af76d65ca7896"
+  },
+  {
+    "file": "all-mode-harmonic-scales.npz",
+    "source_within_v8": "pilot/model/all-mode-harmonic-scales.npz",
+    "sha256": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c"
+  }
+]

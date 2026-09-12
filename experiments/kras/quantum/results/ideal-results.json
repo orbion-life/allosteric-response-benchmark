@@ -1,0 +1,458 @@
+{
+  "summary": {
+    "maximum_compiled_vs_polynomial_C_error": 2.0166160408230382e-17,
+    "maximum_compiled_vs_exact_grid_C_error": 2.946470443293244e-07,
+    "maximum_sample_vs_exact_grid_C_error": 1.643410957305252e-07,
+    "exact_top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "compiled_top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "sample_top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_lower_bound": 9.41415153539992e-08,
+    "observed_outside_upper_bound": 8.408369978137044e-08,
+    "observed_ranking_intervals_separated": true,
+    "interval_scope": "95% simultaneous sampling plus analytic truncation; same fixed grid and physical slice, no biological or physical-reduction coverage",
+    "total_executed_ideal_shots": 151887
+  },
+  "pairs": [
+    {
+      "pair": [
+        0,
+        0
+      ],
+      "logical": {
+        "configuration_qubits_each": 2,
+        "coefficient_qubits": 2,
+        "readout_qubits": 1,
+        "arithmetic_workspace_qubits": 0,
+        "walk_calls_in_binary_SELECT": 3,
+        "K": 3,
+        "retained_sum": 0.9996804132862802,
+        "controlled_walk_implementation": "factorized",
+        "logical_qubits": 7,
+        "state_preparation": "Qiskit unitary StatePreparation, including signed amplitudes",
+        "walk_construction": "controlled row PREP, SWAP, inverse row PREP, zero-Y reflection"
+      },
+      "all_to_all": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2468,
+        "two_qubit_cx_gates": 2304,
+        "measurements": 1,
+        "depth_including_measurement": 3986,
+        "two_qubit_depth": 2230,
+        "operation_counts": {
+          "u": 2468,
+          "cx": 2304,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "bidirectional_line": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2475,
+        "two_qubit_cx_gates": 4443,
+        "measurements": 1,
+        "depth_including_measurement": 6153,
+        "two_qubit_depth": 4235,
+        "operation_counts": {
+          "cx": 4443,
+          "u": 2475,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "component_counts": {
+        "controlled_PREP_j": {
+          "qubits": 7,
+          "one_qubit_u_gates": 19,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 24,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 19,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_SELECT": {
+          "qubits": 7,
+          "one_qubit_u_gates": 2402,
+          "two_qubit_cx_gates": 2216,
+          "measurements": 0,
+          "depth_including_measurement": 3760,
+          "two_qubit_depth": 2120,
+          "operation_counts": {
+            "u": 2402,
+            "cx": 2216
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 18,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 18,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_PREP_i_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 19,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 24,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 19,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        }
+      },
+      "component_counts_scope": "isolated decompositions; do not sum these to obtain optimized whole-circuit totals",
+      "ideal_readout_probabilities": [
+        0.8776113005155656,
+        0.12238869948443891
+      ],
+      "line_readout_probabilities": [
+        0.8776113005155667,
+        0.12238869948443912
+      ],
+      "ideal_chi": 0.7552226010311267,
+      "polynomial_reference_chi": 0.7552226010311227,
+      "absolute_chi_error": 3.9968028886505635e-15,
+      "executed_ideal_shots": 50629,
+      "seed_simulator": 20260912,
+      "observed_counts": {
+        "1": 6198,
+        "0": 44431
+      },
+      "sample_mean": 0.7551600861166525,
+      "sampling_overlap_error": 6.251491447417656e-05,
+      "synthesis_seconds_all_to_all": 0.023815291991923004,
+      "synthesis_seconds_line": 0.028481790970545262,
+      "isolated_component_synthesis_seconds": 0.04547783295856789,
+      "ideal_simulation_seconds_all_to_all": 0.03330341703258455,
+      "ideal_simulation_seconds_line": 0.04558083298616111,
+      "finite_shot_simulation_seconds": 0.05854058399563655,
+      "total_pair_seconds": 0.5389806249877438
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "logical": {
+        "configuration_qubits_each": 2,
+        "coefficient_qubits": 2,
+        "readout_qubits": 1,
+        "arithmetic_workspace_qubits": 0,
+        "walk_calls_in_binary_SELECT": 3,
+        "K": 3,
+        "retained_sum": 0.9996804132862802,
+        "controlled_walk_implementation": "factorized",
+        "logical_qubits": 7,
+        "state_preparation": "Qiskit unitary StatePreparation, including signed amplitudes",
+        "walk_construction": "controlled row PREP, SWAP, inverse row PREP, zero-Y reflection"
+      },
+      "all_to_all": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2466,
+        "two_qubit_cx_gates": 2304,
+        "measurements": 1,
+        "depth_including_measurement": 3985,
+        "two_qubit_depth": 2230,
+        "operation_counts": {
+          "u": 2466,
+          "cx": 2304,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "bidirectional_line": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2473,
+        "two_qubit_cx_gates": 4443,
+        "measurements": 1,
+        "depth_including_measurement": 6152,
+        "two_qubit_depth": 4235,
+        "operation_counts": {
+          "cx": 4443,
+          "u": 2473,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "component_counts": {
+        "controlled_PREP_j": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_SELECT": {
+          "qubits": 7,
+          "one_qubit_u_gates": 2402,
+          "two_qubit_cx_gates": 2216,
+          "measurements": 0,
+          "depth_including_measurement": 3760,
+          "two_qubit_depth": 2120,
+          "operation_counts": {
+            "u": 2402,
+            "cx": 2216
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 18,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 18,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_PREP_i_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 19,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 24,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 19,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        }
+      },
+      "component_counts_scope": "isolated decompositions; do not sum these to obtain optimized whole-circuit totals",
+      "ideal_readout_probabilities": [
+        0.49999995941061043,
+        0.5000000405893937
+      ],
+      "line_readout_probabilities": [
+        0.49999995941060815,
+        0.5000000405893915
+      ],
+      "ideal_chi": -8.117878330660133e-08,
+      "polynomial_reference_chi": -8.117878386250066e-08,
+      "absolute_chi_error": 5.558993323628636e-16,
+      "executed_ideal_shots": 50629,
+      "seed_simulator": 20260913,
+      "observed_counts": {
+        "0": 25238,
+        "1": 25391
+      },
+      "sample_mean": -0.003021983448221375,
+      "sampling_overlap_error": 0.0030219022694380686,
+      "synthesis_seconds_all_to_all": 0.016834250011015683,
+      "synthesis_seconds_line": 0.026750124990940094,
+      "isolated_component_synthesis_seconds": 0.04627587494906038,
+      "ideal_simulation_seconds_all_to_all": 0.03239404200576246,
+      "ideal_simulation_seconds_line": 0.04660145798698068,
+      "finite_shot_simulation_seconds": 0.05735083296895027,
+      "total_pair_seconds": 0.5458248340291902
+    },
+    {
+      "pair": [
+        1,
+        1
+      ],
+      "logical": {
+        "configuration_qubits_each": 2,
+        "coefficient_qubits": 2,
+        "readout_qubits": 1,
+        "arithmetic_workspace_qubits": 0,
+        "walk_calls_in_binary_SELECT": 3,
+        "K": 3,
+        "retained_sum": 0.9996804132862802,
+        "controlled_walk_implementation": "factorized",
+        "logical_qubits": 7,
+        "state_preparation": "Qiskit unitary StatePreparation, including signed amplitudes",
+        "walk_construction": "controlled row PREP, SWAP, inverse row PREP, zero-Y reflection"
+      },
+      "all_to_all": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2465,
+        "two_qubit_cx_gates": 2304,
+        "measurements": 1,
+        "depth_including_measurement": 3984,
+        "two_qubit_depth": 2230,
+        "operation_counts": {
+          "u": 2465,
+          "cx": 2304,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "bidirectional_line": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2472,
+        "two_qubit_cx_gates": 4443,
+        "measurements": 1,
+        "depth_including_measurement": 6151,
+        "two_qubit_depth": 4235,
+        "operation_counts": {
+          "cx": 4443,
+          "u": 2472,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "component_counts": {
+        "controlled_PREP_j": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_SELECT": {
+          "qubits": 7,
+          "one_qubit_u_gates": 2402,
+          "two_qubit_cx_gates": 2216,
+          "measurements": 0,
+          "depth_including_measurement": 3760,
+          "two_qubit_depth": 2120,
+          "operation_counts": {
+            "u": 2402,
+            "cx": 2216
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 18,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 18,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_PREP_i_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 18,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 18,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        }
+      },
+      "component_counts_scope": "isolated decompositions; do not sum these to obtain optimized whole-circuit totals",
+      "ideal_readout_probabilities": [
+        0.8776113005119011,
+        0.12238869948810165
+      ],
+      "line_readout_probabilities": [
+        0.877611300511903,
+        0.12238869948810167
+      ],
+      "ideal_chi": 0.7552226010237995,
+      "polynomial_reference_chi": 0.7552226010237991,
+      "absolute_chi_error": 3.3306690738754696e-16,
+      "executed_ideal_shots": 50629,
+      "seed_simulator": 20260914,
+      "observed_counts": {
+        "0": 44368,
+        "1": 6261
+      },
+      "sample_mean": 0.7526713938651761,
+      "sampling_overlap_error": 0.0025512071586233365,
+      "synthesis_seconds_all_to_all": 0.01798170799156651,
+      "synthesis_seconds_line": 0.026232582982629538,
+      "isolated_component_synthesis_seconds": 0.0466381250298582,
+      "ideal_simulation_seconds_all_to_all": 0.03274733398575336,
+      "ideal_simulation_seconds_line": 0.04507970798294991,
+      "finite_shot_simulation_seconds": 0.05832741700578481,
+      "total_pair_seconds": 0.5368656670325436
+    }
+  ]
+}

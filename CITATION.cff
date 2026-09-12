@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite this versioned software when using this synthetic benchmark."
+message: "Please cite this versioned software when using this research benchmark."
 title: "Project Pulsar: Allosteric Response Benchmark"
 type: software
 authors:
   - name: "Orbion"
-version: 0.1.0
+version: 0.2.0
 date-released: 2026-09-12
 license: MIT
 repository-code: "https://github.com/orbion-life/allosteric-response-benchmark"
-abstract: "A reproducible synthetic five-node contact-network benchmark of finite-time thermal response, with matched harmonic and biquadratic laws, sensitivity studies and independent operator checks."
+abstract: "Reproducible synthetic and KRAS contact-network benchmarks of thermal linear response, with classical controls, coordinate-compression checks and complete qubitized-walk circuit compilation, simulation and resource accounting."

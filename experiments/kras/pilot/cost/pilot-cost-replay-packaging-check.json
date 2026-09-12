@@ -1,0 +1,25 @@
+{
+  "status": "packaging_checks_passed",
+  "scientific_workload_rerun": false,
+  "checks": [
+    "Both portable scripts parse successfully",
+    "Exact instrument_prepare transformation matches executed isolated prepare.py byte-for-byte",
+    "Scientific source SHA checks match frozen pilot and public staged pilot",
+    "No local user/path prefixes in scripts"
+  ],
+  "files": {
+    "replay_pilot_cost.py": "3f31badb9d814b23e686577fef7975409d49c495b72770bf862db9a2f78ab3da",
+    "pilot-cost-worker.py": "93746a22ab3d0d5548d4acf6d6a691a189fe5b36445fb4d2815abca862c8bd73",
+    "pilot-cost-replay.md": "0539b8bb5adfa2ce1a535d164184e5e71a2ffa24a979639ecac9a6b45203c607",
+    "full-pilot-cost-public.json": "7d3e8f2dfa05ad9ac2b73eeb2864fbb05c37d8bbe9e4e53635b999c274531eb5"
+  },
+  "runtime_dependencies": {
+    "python": "3.12 recommended; measured3.12.14",
+    "numpy": "2.1.3",
+    "scipy": "1.14.1"
+  },
+  "supported_rss_platforms": [
+    "macOS",
+    "Linux"
+  ]
+}

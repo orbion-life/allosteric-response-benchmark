@@ -1,0 +1,1806 @@
+{
+  "version": "0.2.0",
+  "date": "2026-09-12",
+  "files": [
+    {
+      "path": ".github/workflows/protein-and-circuit.yml",
+      "sha256": "c854f97713559e24a848fb2d564078ce061e4f4a384f258615692a5edc440711",
+      "bytes": 2251
+    },
+    {
+      "path": ".github/workflows/reproduce.yml",
+      "sha256": "a79b4180d824d1780146be860bc30398f396970492502a6a9f98a5910957e909",
+      "bytes": 690
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "4e314c972b58ef7d7f34a54be3e9bb0fc5237992676b42b8acdb996dbc788d85",
+      "bytes": 225
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "76ebfa637ee57916146d33c0b60874620eed58fd5c7f7e6f8ccda0a662772574",
+      "bytes": 573
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9",
+      "bytes": 1063
+    },
+    {
+      "path": "LICENSES.md",
+      "sha256": "15d6becd1586713e78e8fff571671f54be105b2857c76c9863206df718e53ec9",
+      "bytes": 2224
+    },
+    {
+      "path": "README.md",
+      "sha256": "eec1de291c42313842ffd807fec84ce9f5608bd072c6ff2ffbce8376a9af8203",
+      "bytes": 9300
+    },
+    {
+      "path": "SYNTHETIC_BENCHMARK.md",
+      "sha256": "f3cd851b8d5fd0b2776f9960a1c55b5576fccba1ffeb10c054e8ecd73a1e02d8",
+      "bytes": 21421
+    },
+    {
+      "path": "contractions.py",
+      "sha256": "56b9b447a3f33415deb20dad59893b2bab65691b06551baf1f13af8adc19a9c4",
+      "bytes": 918
+    },
+    {
+      "path": "docs/experiment-history.md",
+      "sha256": "020779183708f9f8b7604a84e2c9bc8e87fe0ef9a384a6ed4365ac673a384821",
+      "bytes": 1179
+    },
+    {
+      "path": "docs/resolution-and-compression.md",
+      "sha256": "fa7e5ab753c9a060aad4bd3570bd4c9ae2fcd4f0c00ae3b58502c13a38ccdbe6",
+      "bytes": 13450
+    },
+    {
+      "path": "experiment.py",
+      "sha256": "d0ec4a9b4a69e71ad2876ceed2179a161a997d092d216fd2858bda48e45b1e13",
+      "bytes": 15624
+    },
+    {
+      "path": "experiments/harmonic-coordinate-check/README.md",
+      "sha256": "6a4e03cf38fb4da5ae1edcb5c86bd26b408f97a77ec523ae2b81a3978ad5ae5c",
+      "bytes": 1131
+    },
+    {
+      "path": "experiments/harmonic-coordinate-check/math-calculations-independent.json",
+      "sha256": "c9854c08e76894bf35abc38e7da18ccbf3342c8619a7e59a153a32cea05902b6",
+      "bytes": 9532
+    },
+    {
+      "path": "experiments/harmonic-coordinate-check/verify_math.py",
+      "sha256": "e22cd709d4980e8182057c12cf592fa38da3ba924ebccfe39df4f389f6b4c9d0",
+      "bytes": 7369
+    },
+    {
+      "path": "experiments/kras/pilot/LICENSE",
+      "sha256": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9",
+      "bytes": 1063
+    },
+    {
+      "path": "experiments/kras/pilot/README.md",
+      "sha256": "4392cd1bf193b18f140c5fddc44194b55d4d63ef8d9963e9877fc29be74a2d7b",
+      "bytes": 16026
+    },
+    {
+      "path": "experiments/kras/pilot/build_viewer.py",
+      "sha256": "a3e3b1a322709b46056018bfc3e389fde37cd18dbda6d79be84b5e91b90a7ea4",
+      "bytes": 1699
+    },
+    {
+      "path": "experiments/kras/pilot/cost/full-pilot-cost-public.json",
+      "sha256": "7d3e8f2dfa05ad9ac2b73eeb2864fbb05c37d8bbe9e4e53635b999c274531eb5",
+      "bytes": 69266
+    },
+    {
+      "path": "experiments/kras/pilot/cost/pilot-cost-replay-packaging-check.json",
+      "sha256": "10ba10583730969cc2d067feb37cdcea7483721dcec9192aa16e154bdb88fc58",
+      "bytes": 966
+    },
+    {
+      "path": "experiments/kras/pilot/cost/pilot-cost-replay.md",
+      "sha256": "0539b8bb5adfa2ce1a535d164184e5e71a2ffa24a979639ecac9a6b45203c607",
+      "bytes": 3258
+    },
+    {
+      "path": "experiments/kras/pilot/cost/pilot-cost-worker.py",
+      "sha256": "93746a22ab3d0d5548d4acf6d6a691a189fe5b36445fb4d2815abca862c8bd73",
+      "bytes": 8856
+    },
+    {
+      "path": "experiments/kras/pilot/cost/replay_pilot_cost.py",
+      "sha256": "3f31badb9d814b23e686577fef7975409d49c495b72770bf862db9a2f78ab3da",
+      "bytes": 5536
+    },
+    {
+      "path": "experiments/kras/pilot/evaluate.py",
+      "sha256": "d51591107d9300d9912bcf9b8b7d0310cfdd25b2817a5d113a5ebffc72780e69",
+      "bytes": 8651
+    },
+    {
+      "path": "experiments/kras/pilot/evaluation-protocol-addendum.json",
+      "sha256": "496afa28ef61508b2178b3d52e73670ace6343049c1a13f05a251700b0f860df",
+      "bytes": 1250
+    },
+    {
+      "path": "experiments/kras/pilot/evaluation/all-method-top5.csv",
+      "sha256": "a0f377f58ab86a266581189f8a2453f7f1f0b57b00c8329cc7c32a93db4d75b8",
+      "bytes": 4977
+    },
+    {
+      "path": "experiments/kras/pilot/evaluation/evaluation.json",
+      "sha256": "8e2cf6f2ea5f032cdb50f85131494d45cb9b171be90ef2e01341380f006b085a",
+      "bytes": 16541
+    },
+    {
+      "path": "experiments/kras/pilot/evaluation/primary-response-matrix.csv",
+      "sha256": "2231227e118e266abfdd8862effbb5925072f693c22a6fbc5ec2bd21abe3c007",
+      "bytes": 646268
+    },
+    {
+      "path": "experiments/kras/pilot/evaluation/rankings.csv",
+      "sha256": "d4a016284fef917828888fab7a8c27d40056e66c5884afe0299a93e3dacd450a",
+      "bytes": 124172
+    },
+    {
+      "path": "experiments/kras/pilot/evaluation/reference-mapping.npz",
+      "sha256": "4415283f33fa24956d26e8eddf5ea6b3cc6ab6fff9a9c47b32b0daa73129dee3",
+      "bytes": 205258
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm-scores.json",
+      "sha256": "b145466e4c813093d24568391f885ebede2e25df60d059086cea5f835d5e6d19",
+      "bytes": 3438
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm-upstream-462a3b1.tar.gz",
+      "sha256": "395dc1c3e561e21a65a8a2929331b3eb719ae3d66dba64dfe4c879589da140d5",
+      "bytes": 5718438
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/alpha3-scores.csv",
+      "sha256": "e9d69772b89b7522de76953979e229052a2eb26192426eedec32db69633d80ff",
+      "bytes": 22548
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/alpha3.bonds",
+      "sha256": "31d323516e2a8f3cdb5f34d98c51161f62364983baddae4b5753dfc6cefc6d2b",
+      "bytes": 58742
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/alpha3.mdist",
+      "sha256": "85bac54af540b2e03a5ec8e64fe33918fbcd9abe0bb6902bf0436f24a6d539a8",
+      "bytes": 1454
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/alpha3.nodes",
+      "sha256": "fdb629c979e06c70cd5abbbea2cb3b8f9f8ef221294b755f369a5e9da77f9add",
+      "bytes": 1138
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/execution.json",
+      "sha256": "15304c722907a1651a6845d9246fa3f89b091f500b120d34d5436b92445b056d",
+      "bytes": 7593
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/gcc15-portability.patch",
+      "sha256": "d558b81d4870a6ad037958a36b1cc87cc06c50b606f787c0a696f9eb8f9f3b57",
+      "bytes": 972
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/kras.active",
+      "sha256": "581e8644459d82ebab48144261fe235b116c5671ee26b01ab712913914c8f9ed",
+      "bytes": 60
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/kras.ind",
+      "sha256": "57a6b86746a40e3280de29e5768c8ee32ae2b72b09f1b28c74f9ac76156efaf1",
+      "bytes": 2440
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/kras.mat",
+      "sha256": "729fa2c63d69cb0fa79158fd0e02ee9ddd94e3938d325d55ed2c664bc2bf6eed",
+      "bytes": 57955
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/kras.pdb",
+      "sha256": "6dfe82769e4eb45ada983ecb6d0c0f4db212a9dda02bcd1c083d865fe4f294b2",
+      "bytes": 106604
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/ohm-scores.json",
+      "sha256": "b145466e4c813093d24568391f885ebede2e25df60d059086cea5f835d5e6d19",
+      "bytes": 3438
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/primary-scores.csv",
+      "sha256": "e40ba8c35b74f912017f7688b72170b5601f4b3ebada89a943192c3c2c768afb",
+      "bytes": 22424
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/primary.bonds",
+      "sha256": "d3c2917fe811d7ff3d730d685a141ea1efa164634cd51d627f60ec3ddb2519fc",
+      "bytes": 56752
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/primary.mdist",
+      "sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bytes": 1397
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/primary.nodes",
+      "sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5",
+      "bytes": 928
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/repeat-scores.csv",
+      "sha256": "e40ba8c35b74f912017f7688b72170b5601f4b3ebada89a943192c3c2c768afb",
+      "bytes": 22424
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/repeat.bonds",
+      "sha256": "d3c2917fe811d7ff3d730d685a141ea1efa164634cd51d627f60ec3ddb2519fc",
+      "bytes": 56752
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/repeat.mdist",
+      "sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bytes": 1397
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/repeat.nodes",
+      "sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5",
+      "bytes": 928
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/seed29-scores.csv",
+      "sha256": "d33638e26fe08454bbf5dc4539cd075ebf231552b514a2d515bad412647ab818",
+      "bytes": 22429
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/seed29.bonds",
+      "sha256": "9f70e6dce23735ff9822d7d11b6570117923665d7e9b6c1ba184ef68df78f8aa",
+      "bytes": 56718
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/seed29.mdist",
+      "sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bytes": 1397
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/seed29.nodes",
+      "sha256": "ce164171ac1773e48156896c610544eb4ddcec280b111c8c6104eef5b1575c7f",
+      "bytes": 935
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/seed47-scores.csv",
+      "sha256": "7202be3cdd5a6f9f826dcaa24a4548ed2a706b2d6bbf63cce1d6c692a3d64cfa",
+      "bytes": 22426
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/seed47.bonds",
+      "sha256": "3ca0e75fc62ee80b506ec4bb2914f021e00437b3d19ba5e0188548a7a0c01fcd",
+      "bytes": 56652
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/seed47.mdist",
+      "sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bytes": 1397
+    },
+    {
+      "path": "experiments/kras/pilot/external/ohm/seed47.nodes",
+      "sha256": "2a6ed6cdb6f211d3c8187e179e4608d99c900661d89031c6889de66c770ba2c2",
+      "bytes": 930
+    },
+    {
+      "path": "experiments/kras/pilot/figures/figure-captions.md",
+      "sha256": "18a56ebffc5e44eb6278dbd0611b2b1bc6c254e68e73ff54cc179a8f66ffcb1f",
+      "bytes": 1942
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-pilot-overview.pdf",
+      "sha256": "47ce4903ead46e99fe0751625c71e0296413bdaf5e11f5a168248647aaedc443",
+      "bytes": 18393
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-pilot-overview.png",
+      "sha256": "169b5d4c8810eaeb8d6a0fef01114464878d63565211c09e7a12b74ab0659e7e",
+      "bytes": 102224
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-pilot-overview.svg",
+      "sha256": "3e5a1e89fca429c690e9f0f25b05b64a122b888112539efaa2c67eab2c58dcd3",
+      "bytes": 20722
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-residue-scores.pdf",
+      "sha256": "3694a8929a1bad4504d041f193d12c07df0839437ed84bde308f6b180658f71c",
+      "bytes": 14251
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-residue-scores.png",
+      "sha256": "c53f60a4890930855350faf1d1bd805a907abdcd0ecbcda026b4202543649919",
+      "bytes": 68022
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-residue-scores.svg",
+      "sha256": "413d4233ffef78788c390c72eac25e91f7868823805c5baf99d1e4dbd96d7275",
+      "bytes": 19891
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-resolution-and-compression.pdf",
+      "sha256": "2ba01487ca1d9961f5157d9c4379a1680e61040f212fa82c68f03171b15e1062",
+      "bytes": 14397
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-resolution-and-compression.png",
+      "sha256": "12433e667250c3ad20f23522a7a31ce2fb6a254c9882d2db9b9dea83223b82f3",
+      "bytes": 73360
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-resolution-and-compression.svg",
+      "sha256": "486a77cfafa01629d9014eb2a171bb65b1ac02b4b9457581a1e384b5e0facb5e",
+      "bytes": 18595
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-response-matrix.pdf",
+      "sha256": "54f9f0b7c9655f607d7b8df5cff6a074de4d475710e194298d56c234716a93e7",
+      "bytes": 23418
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-response-matrix.png",
+      "sha256": "28237113132e99c1118394c710215f354f9a418b0dc8da5afe0122dbeae4f448",
+      "bytes": 83432
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-response-matrix.svg",
+      "sha256": "ae966552b88fb95c9ed4f0cfeee6b73f876fdf594f8ecf6b5adbc974caf53612",
+      "bytes": 31545
+    },
+    {
+      "path": "experiments/kras/pilot/figures/kras-structure-viewer.html",
+      "sha256": "11e600c50a750f96378bb98aab5cc2db4bad02444f45e27c51468bfb4e5d316f",
+      "bytes": 40391
+    },
+    {
+      "path": "experiments/kras/pilot/figures/viewer-provenance.json",
+      "sha256": "8c5e9ff40439e9eb6ac45dcec0607e795640e96449b55e35c056d78e4b5642c4",
+      "bytes": 51333
+    },
+    {
+      "path": "experiments/kras/pilot/full-repeat-verification.json",
+      "sha256": "9b8818e48eeede1d202aaabb3e997de644994e61fb1a0af4298f26435d39a318",
+      "bytes": 5181
+    },
+    {
+      "path": "experiments/kras/pilot/identity-correction.json",
+      "sha256": "b0e142bcdb8c4001911a89c18f0a22ff22d7f76ba1000699a055d8a8c7338956",
+      "bytes": 757
+    },
+    {
+      "path": "experiments/kras/pilot/manifest.json",
+      "sha256": "2fb96279d2fbbfd7980365c8eec5e2816e0a7c2c82f4268c16a676796f823000",
+      "bytes": 15885
+    },
+    {
+      "path": "experiments/kras/pilot/model/all-mode-harmonic-scales.npz",
+      "sha256": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c",
+      "bytes": 1712
+    },
+    {
+      "path": "experiments/kras/pilot/model/coordinate-d1.npz",
+      "sha256": "0bcab4ec48a46473999871fa84f75c58354a9d37017f2310f79964272be045a2",
+      "bytes": 16900
+    },
+    {
+      "path": "experiments/kras/pilot/model/coordinate-d2.npz",
+      "sha256": "2a26d412221d0ce79d20f4cbd7ade5b91f450d0e45dd9b74b564109bcaa91aca",
+      "bytes": 32433
+    },
+    {
+      "path": "experiments/kras/pilot/model/static-model.json",
+      "sha256": "601defa17c82aa420b0d624ad2d6913de6ba61f44efb263c4162ded165041d71",
+      "bytes": 116083
+    },
+    {
+      "path": "experiments/kras/pilot/model/static-model.npz",
+      "sha256": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd",
+      "bytes": 2047314
+    },
+    {
+      "path": "experiments/kras/pilot/ohm-replay-verification.json",
+      "sha256": "74ed1924c3492c67d665db239f9d272f562ecb32e93eacf1f2e89a2b22bc3dbe",
+      "bytes": 10605
+    },
+    {
+      "path": "experiments/kras/pilot/plot_pilot.py",
+      "sha256": "a9a3e500008ad35a7b7e87db47604dcfd38940a3737b006b46e2444844eb7747",
+      "bytes": 7787
+    },
+    {
+      "path": "experiments/kras/pilot/preanalysis-protocol.json",
+      "sha256": "0fcae6ed4dc4866f3fb32f63bb29bb38b17dd7552988b776ee4af76d65ca7896",
+      "bytes": 3873
+    },
+    {
+      "path": "experiments/kras/pilot/preanalysis-protocol.sha256",
+      "sha256": "ccde6f87b7a151aa575a685f541e76a4b714fc9595f2dbb5eb6d5a8dec877dbc",
+      "bytes": 65
+    },
+    {
+      "path": "experiments/kras/pilot/prediction-freeze.json",
+      "sha256": "7adf384117d677c01700befb291f8fbd4e092b4787628d08bf7d056af3cc87d9",
+      "bytes": 6535
+    },
+    {
+      "path": "experiments/kras/pilot/prepare.py",
+      "sha256": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b",
+      "bytes": 9455
+    },
+    {
+      "path": "experiments/kras/pilot/raw/4OBE-entity1.json",
+      "sha256": "652b2a47f455df8dab9d314a73b345580582ee76e759bf26dba7cc985328cb5c",
+      "bytes": 56132
+    },
+    {
+      "path": "experiments/kras/pilot/raw/4OBE-entry.json",
+      "sha256": "bf6e7fc005d45345d868e8cecd0e0e91add9b4c7135cf898fbcc6ff340fb182f",
+      "bytes": 20489
+    },
+    {
+      "path": "experiments/kras/pilot/raw/4OBE-mapping.json",
+      "sha256": "b7fc35c0e19bd8ac44fee88b23b27f7289969c67c22c160e8eac065b656c625a",
+      "bytes": 650
+    },
+    {
+      "path": "experiments/kras/pilot/raw/4OBE.pdb",
+      "sha256": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2",
+      "bytes": 750465
+    },
+    {
+      "path": "experiments/kras/pilot/raw/6OIM-entity1.json",
+      "sha256": "8697e6beb0b5ae16c95db85e2c06b0aff18fa9a8f3d8dcac10ed6527085fd770",
+      "bytes": 40634
+    },
+    {
+      "path": "experiments/kras/pilot/raw/6OIM-entry.json",
+      "sha256": "5fc1afb967a4eb5097c0c1116a109ec1fb71941b59d38eb04f43a9cf1272b4f8",
+      "bytes": 20220
+    },
+    {
+      "path": "experiments/kras/pilot/raw/6OIM-mapping.json",
+      "sha256": "3d8a4157036d217caf084ba56f3decbc4a418c19b2b66a2ae8f3a3ac2058038b",
+      "bytes": 372
+    },
+    {
+      "path": "experiments/kras/pilot/raw/6OIM.pdb",
+      "sha256": "42deda943440cc8dd3020a2c65ddc260970936d675b47c8b43564195b77d5006",
+      "bytes": 173016
+    },
+    {
+      "path": "experiments/kras/pilot/raw/P01116-2.fasta",
+      "sha256": "8bcf1d107ea750b5ddc8a0f80b60227d16a3e559a6744798aea46b65fc97663b",
+      "bytes": 274
+    },
+    {
+      "path": "experiments/kras/pilot/raw/P01116.json",
+      "sha256": "54e2d937a79f84a4b9e6039fe4de4632290b1456cfc069b71b98dcd1880140fa",
+      "bytes": 266929
+    },
+    {
+      "path": "experiments/kras/pilot/raw/source-receipts.json",
+      "sha256": "aeb223e1ed8d8ba1e10ede287c6d366e01d371001cbba332a3380a4e0bcef941",
+      "bytes": 2996
+    },
+    {
+      "path": "experiments/kras/pilot/repeat_all.py",
+      "sha256": "a8226710235f46fe0d70ab12633b29cba09fd7e6102ccfa315b49265fc6752f9",
+      "bytes": 2014
+    },
+    {
+      "path": "experiments/kras/pilot/replay_ohm.py",
+      "sha256": "332aea8c77521c442ec0a320aa58e74e1f2696fd532ddb6f88db7f4e0c503686",
+      "bytes": 2771
+    },
+    {
+      "path": "experiments/kras/pilot/requirements.txt",
+      "sha256": "b3e9bedf22a4e8f9c034cb6492801aa13e0f2174b93c6b67acbbf23fa5154c1e",
+      "bytes": 247
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-checks.json",
+      "sha256": "afaacd0faf37faa4c83b96d9e515edcda83cc19a8b5172b93b9453c93ce08f05",
+      "bytes": 773
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-harmonic-d1.npz",
+      "sha256": "6c919c8d3d8aadf367478323f3ba7c181864415ec4e1447694bafeda3acdfcd7",
+      "bytes": 987160
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-harmonic-d16.npz",
+      "sha256": "8519362057f2e32ef1b3ba6128080293a2ab1c510ab5d956b88494d41eca4564",
+      "bytes": 981503
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-harmonic-d2.npz",
+      "sha256": "d1666b393e670cf51696764eb085376e2d0b60590e7e46a6db6041a84a7cf660",
+      "bytes": 984062
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-harmonic-d32.npz",
+      "sha256": "b2e1df04f8bc37634811c2a7e5d69bc4006fed5cd7519a642910819a64cd6e02",
+      "bytes": 983183
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-harmonic-d4.npz",
+      "sha256": "d5dca815b27fa9394928d26b8e1d8febccb837508a3d9551fe9b3b9df4f6b198",
+      "bytes": 983985
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-harmonic-d492.npz",
+      "sha256": "99a48586392de66b00ba35426e01f87f44252fb1651ee86ee0ba3a99ba8b14b7",
+      "bytes": 993943
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-harmonic-d64.npz",
+      "sha256": "6513e06f06cf096b2f6281c14ca91332e3e349ad0c9836a03d5a8d298f0574e9",
+      "bytes": 986370
+    },
+    {
+      "path": "experiments/kras/pilot/results/analytic-harmonic-d8.npz",
+      "sha256": "477f433bac3e38929d017700ad1a53333243ea47de151d3f83d8776785a1568f",
+      "bytes": 982831
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d1-n33-e4.json",
+      "sha256": "580ebbff0cfc4fead8cf095748a4baa5c08d12cd94218d78ea02b4561f93e74f",
+      "bytes": 689
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d1-n33-e4.npz",
+      "sha256": "4a69ed2e623cbc584600add7d966f618be0bd600206cc1a1c052b301fb227c84",
+      "bytes": 595743
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d1-n4-e4.json",
+      "sha256": "813e61de6c0e6c052b974f30ad8cd5421f7e42f34d14d8d7723ec8fff76081ed",
+      "bytes": 687
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d1-n4-e4.npz",
+      "sha256": "298d85c5de7bd8fe39df774e17dd74c2808a4c3fccebe82254e861909b7bd8d4",
+      "bytes": 602834
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d1-n65-e4.json",
+      "sha256": "678907c793a4c551cef3e061345f043cffd945c1518425f8a825a4a71daa3947",
+      "bytes": 690
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d1-n65-e4.npz",
+      "sha256": "4b67af72b9bb91c88523e4056cd73db4fae76e53a217fa67ebabc34f2158ad2a",
+      "bytes": 597632
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n17-e4.json",
+      "sha256": "c9655cea89903436479ade33e486770c6274986d71038ae79de792b8316bfc94",
+      "bytes": 702
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n17-e4.npz",
+      "sha256": "66c925f69b8b14e90df2661a085129c9919b9c50b6c00bda3d915b76b8e72111",
+      "bytes": 628337
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n33-e4.json",
+      "sha256": "9b42bd2829114c096085a6dc7a26dbce7ccf0fbb9b92834c8c9faf462e629365",
+      "bytes": 689
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n33-e4.npz",
+      "sha256": "a1b96b71fa7cb064590fd827637f8fd80f37b67fafd73925d7aebbbdad7eb2b9",
+      "bytes": 687138
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n41-e5.json",
+      "sha256": "71ed2960c003ad0691c9c6d6e3da657455e818b763194ac86394572ada958740",
+      "bytes": 705
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n41-e5.npz",
+      "sha256": "ccc8c7883a58dffac1511da9e9f955233ac659d738578ddb4bdaf700f3e8bd54",
+      "bytes": 730816
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n49-e6.json",
+      "sha256": "e27cfb61e47d2f576ce65500965c420bdfa97d6e431e4dcd937e60a22a870a25",
+      "bytes": 704
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n49-e6.npz",
+      "sha256": "2ea9e9cd2f19b04fe068c60c6c06dce3e55d52c99a3700815ee8c4441ab4b9e4",
+      "bytes": 785849
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n65-e4.json",
+      "sha256": "9ae5ef63a5e5adb55365823d091ee663a621f47bf45f3c27b0edff789ca0c944",
+      "bytes": 701
+    },
+    {
+      "path": "experiments/kras/pilot/results/biquadratic-d2-n65-e4.npz",
+      "sha256": "5c4ede2ab6676910e80bbbddc430050ae6cd06a09a560f587fe0b29a8676e780",
+      "bytes": 920055
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d1-n33-e4.json",
+      "sha256": "344eaee266f03c7adc0eb0b816487921e5028fea3e8b4686bc14e07870b77392",
+      "bytes": 695
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d1-n33-e4.npz",
+      "sha256": "9c74f7414c023ad173be02c50e0faecd97daeb4812bff87818ac754cc6fa445f",
+      "bytes": 595714
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d1-n4-e4.json",
+      "sha256": "72e88655778e4f546ec3b214c15a5b0ca004b2e6b9299e94e1ca1e6a725552f2",
+      "bytes": 709
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d1-n4-e4.npz",
+      "sha256": "e99330ce2784d1120dea63aa1913502e458287e02e15cde75c7786755321808d",
+      "bytes": 602694
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d1-n65-e4.json",
+      "sha256": "27cde554964d211e0f06bee9a5c26a9cba0dd7f0e74b4d0255b721f06b637f4a",
+      "bytes": 694
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d1-n65-e4.npz",
+      "sha256": "ab004b54fc707c26eb639095b62f2472d6647107b3c7b68380fdd08499f51089",
+      "bytes": 597657
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n17-e4.json",
+      "sha256": "1bdfe85586b9372b6e3bd39106f5757eb004225057441bbc0beff237c3b61310",
+      "bytes": 691
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n17-e4.npz",
+      "sha256": "346492dad4f87cda48cfc74423708ccdc25a9cfae73673dfbe3c57da5e7c6fa5",
+      "bytes": 628057
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n33-e4.json",
+      "sha256": "7c3ef695f58a2ed317269ad2b2c77689b57cb7f11143ff2e4e608cb08243bfef",
+      "bytes": 710
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n33-e4.npz",
+      "sha256": "460b7f95d095cfa56f2949b9f15027968be97566daa6bc1f2ffa3e2058d8f2c6",
+      "bytes": 687142
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n41-e5.json",
+      "sha256": "2e802d0e15b7432b613f92d39156545ccd68ce0d974b095d1ce9375f1b6f15b0",
+      "bytes": 694
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n41-e5.npz",
+      "sha256": "656a0343f6bb39ca3b28bf62217f4a238f5903ef8eeb8bd2baac754db4b84a18",
+      "bytes": 730481
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n49-e6.json",
+      "sha256": "a1b25f6f6c66ade09e1ae40963c1caa168124bc01b8cd730cf324cdbe27aadf1",
+      "bytes": 691
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n49-e6.npz",
+      "sha256": "e2ba9460fc1a5994d248e3098b42a66c2224e54d511578ddd53cd9baf537bf5c",
+      "bytes": 785178
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n65-e4.json",
+      "sha256": "20e53c6d916182de702381309af68b632b96da0428bee99a2f71f72966f35cb8",
+      "bytes": 706
+    },
+    {
+      "path": "experiments/kras/pilot/results/distance_hookean-d2-n65-e4.npz",
+      "sha256": "f5a42ac622127f02e122df104e46149cb10bcae1d372f6a2f097bd4748a0bb79",
+      "bytes": 919392
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d1-n33-e4.json",
+      "sha256": "a17ab1ee5fb34475bb1d6b6b1633ad517b0876e9b9dd6c9748364126526bc9c3",
+      "bytes": 702
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d1-n33-e4.npz",
+      "sha256": "36f87ec4149548b2419c84d8953d19c55dfa17b1511d9a82c0ab0b62a3818012",
+      "bytes": 594922
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d1-n4-e4.json",
+      "sha256": "8a82b3dabdcdabcab13dea72bf98ed6a49dc340b35e2da8ae4d4742eb3762383",
+      "bytes": 694
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d1-n4-e4.npz",
+      "sha256": "3d820ec374a59344aa9113db36dc294c0f35e53a46b536eeb644e86aad2f038d",
+      "bytes": 594485
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d1-n65-e4.json",
+      "sha256": "8068ecfaaf6a81ce44ed04fda84a6b0e88d5fc9e08e511280a193fab1229de75",
+      "bytes": 699
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d1-n65-e4.npz",
+      "sha256": "d5c55e1fc659a8e3dd81e9ebc7ca2fbc63e37aae78d207dfd2501f4947a36533",
+      "bytes": 596936
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n17-e4.json",
+      "sha256": "0f77d39f8db3dca4d161709763bf88564be4de6fe7ed213f04b0708f02f3e8fc",
+      "bytes": 679
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n17-e4.npz",
+      "sha256": "1494595e128d7bb8f01de9d470e0d5955684dc35dcaa7a54dae9ddc9647ad03b",
+      "bytes": 618404
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n33-e4.json",
+      "sha256": "92149d09e1a67aa5374ec081da9eeaab8b2c350f055b98ea5b3ba5fc1ccaf550",
+      "bytes": 700
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n33-e4.npz",
+      "sha256": "10dde87127b7ae55950ac90bceeafc8c469fe5612ca0896ec3bcb2db827f576b",
+      "bytes": 647336
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n41-e5.json",
+      "sha256": "fe6f084891db0c520e26f56d552ecc8693deb8fd31a5f15ca401f7980f947ff0",
+      "bytes": 697
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n41-e5.npz",
+      "sha256": "fd1405a7b8ae4f8fd553f2a4b02ab05ab16e916c85661a4a16912e70112a752a",
+      "bytes": 669070
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n49-e6.json",
+      "sha256": "9624116b07d29d9c52a73d0c47561123dac34f886f6c6da93c02850de344d369",
+      "bytes": 697
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n49-e6.npz",
+      "sha256": "d0bb0bc4fcd0982c37cf236ea8413f28460df6999d71e8a0f6bc8a704fb8112f",
+      "bytes": 700462
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n65-e4.json",
+      "sha256": "36d8b56d1b2dc48a6e83f2abdcf7f8b6d27bc3a1ed63ae33d5cac3dde079a044",
+      "bytes": 697
+    },
+    {
+      "path": "experiments/kras/pilot/results/harmonic-d2-n65-e4.npz",
+      "sha256": "664fd4fc0f352641494098ad0f40ec1a76f89b5352db84f7a273df1a7d722d46",
+      "bytes": 772739
+    },
+    {
+      "path": "experiments/kras/pilot/results/run-summary.json",
+      "sha256": "0c089f7d412e00b5bdcad82364c32f1e418a9adda40b50a40038ad5c0139d772",
+      "bytes": 19542
+    },
+    {
+      "path": "experiments/kras/pilot/results/structural-baselines.npz",
+      "sha256": "9d7620733b2b3088f6c1673e47ff9e060278036d29bdff0b4b6ef5dc912a4269",
+      "bytes": 195417
+    },
+    {
+      "path": "experiments/kras/pilot/run_pilot.py",
+      "sha256": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053",
+      "bytes": 10676
+    },
+    {
+      "path": "experiments/kras/pilot/verification.json",
+      "sha256": "7b4859c631afe2208fe95e9a4e08594376739c3cdc8652f1f33e5ec4ef80c507",
+      "bytes": 2603
+    },
+    {
+      "path": "experiments/kras/pilot/verify.py",
+      "sha256": "287e346256f6bd615e4ca30fd0ec81e60f641bd46aaa1d6928df69220559a0a7",
+      "bytes": 3198
+    },
+    {
+      "path": "experiments/kras/pilot/viewer-template.html",
+      "sha256": "882668806c2008d33694601de393d79986a35dab038a6565011f54c5db904d28",
+      "bytes": 12312
+    },
+    {
+      "path": "experiments/kras/protocol/DATA-AND-SOFTWARE-ATTRIBUTION.md",
+      "sha256": "ccbbfade8940e666939757b6360f79a64120e855f6ceca0ab3a44e2234f91908",
+      "bytes": 4250
+    },
+    {
+      "path": "experiments/kras/protocol/README.md",
+      "sha256": "317ed062102d5fb27e7a63e42bf9957a056b4c19847dc88ecf7aeb2ed9b9efb1",
+      "bytes": 3775
+    },
+    {
+      "path": "experiments/kras/protocol/artifact-manifest.json",
+      "sha256": "c67c8a077d55dd539ebb7fc43dbd8eb164e7ce60ab7dbf5fdf5b4f6b1ca987b4",
+      "bytes": 13387
+    },
+    {
+      "path": "experiments/kras/protocol/build_validation_inputs.py",
+      "sha256": "2869de3654a061c4664fc96ba28b7d4ab07c90e5df52b41d444f2e55c43a94c5",
+      "bytes": 6757
+    },
+    {
+      "path": "experiments/kras/protocol/evaluation/ABL-contacts.json",
+      "sha256": "275c20cef5c98186a60407cdff56307d33bc30d868a2b066029f6e3583c5dd9b",
+      "bytes": 6394
+    },
+    {
+      "path": "experiments/kras/protocol/evaluation/ABL-null-plan.json",
+      "sha256": "eef421a600cd06f86d869435912702ad8345ff2992d6b271ed4b9227afb16da1",
+      "bytes": 5237
+    },
+    {
+      "path": "experiments/kras/protocol/evaluation/KRAS-contacts.json",
+      "sha256": "bf6fa35ffbb60f77b494e41b4aa4217b155a1bdd77a025e348a9ecb6ddc638ad",
+      "bytes": 6083
+    },
+    {
+      "path": "experiments/kras/protocol/evaluation/KRAS-null-plan.json",
+      "sha256": "0a2cc187f6f06cb9d8f05160b8acf94e8783ccedf7a064bb0a339bc5f22897d2",
+      "bytes": 4285
+    },
+    {
+      "path": "experiments/kras/protocol/evaluation/MYC-contacts.json",
+      "sha256": "e773babdb4efb757acd1cc686f5dc07d5aa1f91634840b9d773bcc399f23f2af",
+      "bytes": 161
+    },
+    {
+      "path": "experiments/kras/protocol/evaluation/MYH7-contacts.json",
+      "sha256": "824fead9f4809129c8581d62de7d2fe8c2c27d0463dfa4d97e3d48d095d1d8a0",
+      "bytes": 169
+    },
+    {
+      "path": "experiments/kras/protocol/evaluation/null-implementation-check.json",
+      "sha256": "f99cdd8dd9bf8c5f23b0ad660a964ad6e2fa235d54f1459a4b65277a1b2c48e3",
+      "bytes": 619
+    },
+    {
+      "path": "experiments/kras/protocol/extract_reference_labels.py",
+      "sha256": "f20ce0f778acf50a49385a9a62e6d18246efbc482418694c51700ed64367f3cf",
+      "bytes": 2621
+    },
+    {
+      "path": "experiments/kras/protocol/matched_null.py",
+      "sha256": "9e630d50c4f5f4b98c101ec4fba9d05493bb74ed8e55ac184141474a4304b917",
+      "bytes": 4074
+    },
+    {
+      "path": "experiments/kras/protocol/mechanical-and-quantum-methods.md",
+      "sha256": "b5e1043ab58790b93f8d887a9910f416c5f9a3de9a70849bb5aa29c6c4d9cd26",
+      "bytes": 8404
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/LICENSE-GPL-3.0",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/README.md",
+      "sha256": "84279e58e39e5a418eeabead2c2508d1c8663e2fe92152c69fd48601584b4b9e",
+      "bytes": 2366
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/alpha3-scores.csv",
+      "sha256": "cd1102a5af1f1a316334ff2ec057977d71e39208c9541fbcaeac80469d62448c",
+      "bytes": 23405
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/alpha3.bonds",
+      "sha256": "31d323516e2a8f3cdb5f34d98c51161f62364983baddae4b5753dfc6cefc6d2b",
+      "bytes": 58742
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/alpha3.mdist",
+      "sha256": "85bac54af540b2e03a5ec8e64fe33918fbcd9abe0bb6902bf0436f24a6d539a8",
+      "bytes": 1454
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/alpha3.nodes",
+      "sha256": "fdb629c979e06c70cd5abbbea2cb3b8f9f8ef221294b755f369a5e9da77f9add",
+      "bytes": 1138
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/execution.json",
+      "sha256": "a28077301f6bace4eadf9fb81720c14486ed4a1a8eff6bde42c57386c52081b6",
+      "bytes": 7666
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/gcc15-portability.patch",
+      "sha256": "d558b81d4870a6ad037958a36b1cc87cc06c50b606f787c0a696f9eb8f9f3b57",
+      "bytes": 972
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/independent-replay-verification.json",
+      "sha256": "995254684f243d75b55e8eaacba9d3918b25f0c52f58b056ff202e29efd572d3",
+      "bytes": 1804
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/kras.active",
+      "sha256": "581e8644459d82ebab48144261fe235b116c5671ee26b01ab712913914c8f9ed",
+      "bytes": 60
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/kras.ind",
+      "sha256": "57a6b86746a40e3280de29e5768c8ee32ae2b72b09f1b28c74f9ac76156efaf1",
+      "bytes": 2440
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/kras.mat",
+      "sha256": "729fa2c63d69cb0fa79158fd0e02ee9ddd94e3938d325d55ed2c664bc2bf6eed",
+      "bytes": 57955
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/kras.pdb",
+      "sha256": "6dfe82769e4eb45ada983ecb6d0c0f4db212a9dda02bcd1c083d865fe4f294b2",
+      "bytes": 106604
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/primary-scores.csv",
+      "sha256": "10331eed9a5507af700d012f50457657b47da97e6fd4d9ac0890c47f4a04eb27",
+      "bytes": 23281
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/primary.bonds",
+      "sha256": "d3c2917fe811d7ff3d730d685a141ea1efa164634cd51d627f60ec3ddb2519fc",
+      "bytes": 56752
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/primary.mdist",
+      "sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bytes": 1397
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/primary.nodes",
+      "sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5",
+      "bytes": 928
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/repeat-scores.csv",
+      "sha256": "10331eed9a5507af700d012f50457657b47da97e6fd4d9ac0890c47f4a04eb27",
+      "bytes": 23281
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/repeat.bonds",
+      "sha256": "d3c2917fe811d7ff3d730d685a141ea1efa164634cd51d627f60ec3ddb2519fc",
+      "bytes": 56752
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/repeat.mdist",
+      "sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bytes": 1397
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/repeat.nodes",
+      "sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5",
+      "bytes": 928
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/scores.json",
+      "sha256": "9da1cc33ab1984a1ee9a770578be9ba0701bb155ddf4f9a6c88a9712c69f642a",
+      "bytes": 3213
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/seed29-scores.csv",
+      "sha256": "74aa914ec8943c00dba3e86c13db7913c31a94447ca39ff45c1a18cb069d01ce",
+      "bytes": 23286
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/seed29.bonds",
+      "sha256": "9f70e6dce23735ff9822d7d11b6570117923665d7e9b6c1ba184ef68df78f8aa",
+      "bytes": 56718
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/seed29.mdist",
+      "sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bytes": 1397
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/seed29.nodes",
+      "sha256": "ce164171ac1773e48156896c610544eb4ddcec280b111c8c6104eef5b1575c7f",
+      "bytes": 935
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/seed47-scores.csv",
+      "sha256": "4972bf1ffdb618471f56deb062e2fcad1329a973ad6e2402637421d1781909e8",
+      "bytes": 23283
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/seed47.bonds",
+      "sha256": "3ca0e75fc62ee80b506ec4bb2914f021e00437b3d19ba5e0188548a7a0c01fcd",
+      "bytes": 56652
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/seed47.mdist",
+      "sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bytes": 1397
+    },
+    {
+      "path": "experiments/kras/protocol/ohm/seed47.nodes",
+      "sha256": "2a6ed6cdb6f211d3c8187e179e4608d99c900661d89031c6889de66c770ba2c2",
+      "bytes": 930
+    },
+    {
+      "path": "experiments/kras/protocol/preparation-replay-verification.json",
+      "sha256": "03be257361189eedc6e1fc695eeb1c60d6527a359da79a7d86842e45e6d7e66a",
+      "bytes": 5912
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/ABL-domain.pdb",
+      "sha256": "28f8bd218b220de93c1856f965eed11b24060f2dc8fba14a5494469a23090083",
+      "bytes": 165491
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/ABL-input.json",
+      "sha256": "2766789025edec14e5f73e93e0ec06d9b320c5ffcee36488427c3d505b668bc5",
+      "bytes": 176488
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/ABL-residue-map.csv",
+      "sha256": "6d7cf4a6aeee96661ead1c5f8e8a8b4be459f87de26d25620aa6a8e8cf768965",
+      "bytes": 33992
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/KRAS-domain.pdb",
+      "sha256": "6dfe82769e4eb45ada983ecb6d0c0f4db212a9dda02bcd1c083d865fe4f294b2",
+      "bytes": 106604
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/KRAS-input.json",
+      "sha256": "d8b13284e30902684869ba4397101244d92323a048e6558700b09590676a24bc",
+      "bytes": 119882
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/KRAS-residue-map.csv",
+      "sha256": "19e6fb0b9087a5a2c04a91d45d044c62c1b6838fa5db8f517c8748eb449f0c88",
+      "bytes": 22364
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/MYC-domain.pdb",
+      "sha256": "45aa61c2fc7c6f219bf4d918606a8d3dd4e6d7970501758c401bc3c6bc0c2c7f",
+      "bytes": 111060
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/MYC-input.json",
+      "sha256": "2da8f6eb02235be6d6a586b0117eacd8a6f60b805b931e82d449d1bb0d3838e2",
+      "bytes": 115935
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/MYC-residue-map.csv",
+      "sha256": "91e81a3804da149411103f8d853485ea8c3027dccd3d133232eff6abf3c413ef",
+      "bytes": 21785
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/MYH7-domain.pdb",
+      "sha256": "a857b8c109bb8df457f92340fda5e71905f01618dce39b1bfc93d030b099e306",
+      "bytes": 450287
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/MYH7-input.json",
+      "sha256": "a97a79690d0cac2eb1098abf4233705eb6cd8d24303f0766cf0541f5c8e26544",
+      "bytes": 457742
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/MYH7-residue-map.csv",
+      "sha256": "e15779ccacf876043206f21254b9fc38ca0a8f15a89890bfdb7e493a7329ab6a",
+      "bytes": 94140
+    },
+    {
+      "path": "experiments/kras/protocol/prepared/input-freeze.json",
+      "sha256": "aab2e9670fa2d1eb877b5fc024b37623338f7359235a85b45ea72f5f59b6deed",
+      "bytes": 2554
+    },
+    {
+      "path": "experiments/kras/protocol/requirements.txt",
+      "sha256": "04dc4da6089a2253845f7838ead5085f3819877381e523a2d19eedc5be35e107",
+      "bytes": 29
+    },
+    {
+      "path": "experiments/kras/protocol/sources/1NKP-sifts.json",
+      "sha256": "a3b3b451cdeeeb40bfdfa4b362bdb63aa1fbea530b6959938c6babbb88916a8f",
+      "bytes": 1277
+    },
+    {
+      "path": "experiments/kras/protocol/sources/1NKP.cif",
+      "sha256": "8176ab2ee454464186c2c50cbf11ad52a65ec0a836bc0ad0ecdf4603966b8517",
+      "bytes": 567856
+    },
+    {
+      "path": "experiments/kras/protocol/sources/1OPL-sifts.json",
+      "sha256": "3ca406d31ed717db1b69254f9b8252150084797a0a5d35909d209c137f672eb5",
+      "bytes": 1225
+    },
+    {
+      "path": "experiments/kras/protocol/sources/1OPL.cif",
+      "sha256": "af3a6348cbf0748243503f3aeec85f8cf0fa37a4989696cbfb4afa7424a97f6a",
+      "bytes": 730696
+    },
+    {
+      "path": "experiments/kras/protocol/sources/4OBE-sifts.json",
+      "sha256": "b7fc35c0e19bd8ac44fee88b23b27f7289969c67c22c160e8eac065b656c625a",
+      "bytes": 650
+    },
+    {
+      "path": "experiments/kras/protocol/sources/4OBE.cif",
+      "sha256": "bc5738721380320d37c216a8f4412ddd3f66fad375c60fc0d0626bc6c277e5d7",
+      "bytes": 888328
+    },
+    {
+      "path": "experiments/kras/protocol/sources/5MO4-sifts.json",
+      "sha256": "a550aefb82fd82b816048ff429c5e635628654b83f56a8f3b8808e6039e596f2",
+      "bytes": 376
+    },
+    {
+      "path": "experiments/kras/protocol/sources/5MO4.cif",
+      "sha256": "5205ad733aec8c4b9e73130c31424f7291e907662493c65ce56ecf298a5843d0",
+      "bytes": 460182
+    },
+    {
+      "path": "experiments/kras/protocol/sources/5TBY-sifts.json",
+      "sha256": "0ecb0f4e9b4a0544d05c76e6f50ab6b4719fa4d6311bc908a97e2227faf483b1",
+      "bytes": 1912
+    },
+    {
+      "path": "experiments/kras/protocol/sources/5TBY.cif",
+      "sha256": "3d9a579847a11335ecf3b1dc858088ca2c046d7ddfa6fea0943ff17b6b319911",
+      "bytes": 2201773
+    },
+    {
+      "path": "experiments/kras/protocol/sources/6C1H-sifts.json",
+      "sha256": "bf7c1c4abac5c8c19d41b4e02b8acca853be26d4218725b33fe2d8dbd4e24f5f",
+      "bytes": 2179
+    },
+    {
+      "path": "experiments/kras/protocol/sources/6C1H.cif",
+      "sha256": "3999fcb2b17f4de74163544a712adf1f28f45fe932d2ce6674db9d8aec9ef63c",
+      "bytes": 2259872
+    },
+    {
+      "path": "experiments/kras/protocol/sources/6OIM-sifts.json",
+      "sha256": "3d8a4157036d217caf084ba56f3decbc4a418c19b2b66a2ae8f3a3ac2058038b",
+      "bytes": 372
+    },
+    {
+      "path": "experiments/kras/protocol/sources/6OIM.cif",
+      "sha256": "0ab0ab91e9dd078b83cf4149118e31b3f3ac7252eb1e47b1ff11e77574d97de9",
+      "bytes": 255266
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P00519.json",
+      "sha256": "5b0171beb95c871df1f6556a2eb198976a3834c9ea3a8134dab893f3947b72db",
+      "bytes": 189053
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P01106.json",
+      "sha256": "a6772da041c31af299e9d9dc6ba61345e3113fa6a1da27a50e0c567178786256",
+      "bytes": 133023
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P01116-1.fasta",
+      "sha256": "60a8a26c3f7bb3d7061a5b37472a7ea106ab391106d7e7d5b725ba7198346b1c",
+      "bytes": 275
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P01116-2.fasta",
+      "sha256": "8bcf1d107ea750b5ddc8a0f80b60227d16a3e559a6744798aea46b65fc97663b",
+      "bytes": 274
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P01116.json",
+      "sha256": "54e2d937a79f84a4b9e6039fe4de4632290b1456cfc069b71b98dcd1880140fa",
+      "bytes": 266929
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P08590.json",
+      "sha256": "b853c41b780384fb52adbac67f51ded906b91f22a2cecbfb45474dd8c47dc11b",
+      "bytes": 41392
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P10916.json",
+      "sha256": "64de6fc8408eed7957c401a8c65e249cb4f766ca633d0dafb165db7315d28265",
+      "bytes": 44034
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P12883.json",
+      "sha256": "5558948a8e6fde7b1d0ee6c11988e9c4a1a7d4bfa0481d2ece60f1c060cc0f3e",
+      "bytes": 240277
+    },
+    {
+      "path": "experiments/kras/protocol/sources/P61244.json",
+      "sha256": "0bcc704f2ab040684770d9da414d405576534959972399a3142d10cd7834eaf2",
+      "bytes": 81779
+    },
+    {
+      "path": "experiments/kras/protocol/sources/download-manifest.json",
+      "sha256": "5005049b92cb68726696c973f0fd41635d49d8022a90099aa85221135e1dc08a",
+      "bytes": 5403
+    },
+    {
+      "path": "experiments/kras/protocol/validation-contract.json",
+      "sha256": "742902e016d9614f9ce05cecf715cc89e5f8248f521754cee1d8d736826a3926",
+      "bytes": 5522
+    },
+    {
+      "path": "experiments/kras/protocol/validation-protocol.md",
+      "sha256": "b8b611e26e5bdbe56e04a402d5ffc9fd344781961db99094a39d086b1ec5658b",
+      "bytes": 23931
+    },
+    {
+      "path": "experiments/kras/quantum/.gitignore",
+      "sha256": "7e610eaf048cf1f74f35eb26066eca48635c03a6ef6ae2a2ba771774c55cb83c",
+      "bytes": 87
+    },
+    {
+      "path": "experiments/kras/quantum/LICENSE",
+      "sha256": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9",
+      "bytes": 1063
+    },
+    {
+      "path": "experiments/kras/quantum/PACKAGE-MANIFEST.json",
+      "sha256": "938445df09b6a07869b9a4867e7a215c312f30d4801ce39f3c3440bf3d99b812",
+      "bytes": 14196
+    },
+    {
+      "path": "experiments/kras/quantum/PROVENANCE.json",
+      "sha256": "16af6d174fb36e71a83d4e6172b12285234035be385a8c6ba0d84bdc38687e9c",
+      "bytes": 1469
+    },
+    {
+      "path": "experiments/kras/quantum/README.md",
+      "sha256": "c056165adf0a3b9d2583346139fe87097e8b045cbb0eeb21d6bf374733970636",
+      "bytes": 15605
+    },
+    {
+      "path": "experiments/kras/quantum/baseline-source/circuit.py",
+      "sha256": "822bd2dd33b37a55387a4fba24a2e996208dbd441eb963b6b5b7e6702d9e4c97",
+      "bytes": 6679
+    },
+    {
+      "path": "experiments/kras/quantum/baseline-source/model.py",
+      "sha256": "f46e14722b674b4c4cf49bd72752aecb1ab74853b00d5929c607a910f14b6879",
+      "bytes": 13778
+    },
+    {
+      "path": "experiments/kras/quantum/baseline-source/run.py",
+      "sha256": "efd3edc2bc6feb09d14f470a94c8a0f44b042ba122ac50a3ce9160fca6989159",
+      "bytes": 16063
+    },
+    {
+      "path": "experiments/kras/quantum/circuit.py",
+      "sha256": "33a8711b458480cf8f566f52e2920716c348fa21790d68ff6af759b42a4b27f2",
+      "bytes": 8203
+    },
+    {
+      "path": "experiments/kras/quantum/compare_runs.py",
+      "sha256": "9437a9cae5568b81808771772c1aca41a8f7172667d4d6dc67fc8ba57da6476e",
+      "bytes": 1926
+    },
+    {
+      "path": "experiments/kras/quantum/inputs/4OBE.pdb",
+      "sha256": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2",
+      "bytes": 750465
+    },
+    {
+      "path": "experiments/kras/quantum/inputs/all-mode-harmonic-scales.npz",
+      "sha256": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c",
+      "bytes": 1712
+    },
+    {
+      "path": "experiments/kras/quantum/inputs/coordinate-d1.npz",
+      "sha256": "0bcab4ec48a46473999871fa84f75c58354a9d37017f2310f79964272be045a2",
+      "bytes": 16900
+    },
+    {
+      "path": "experiments/kras/quantum/inputs/input-manifest.json",
+      "sha256": "8572591361e6b81f2062063ed61dbcc778acb555a8669dac072ba3bb1f4a66d0",
+      "bytes": 1277
+    },
+    {
+      "path": "experiments/kras/quantum/inputs/preanalysis-protocol.json",
+      "sha256": "0fcae6ed4dc4866f3fb32f63bb29bb38b17dd7552988b776ee4af76d65ca7896",
+      "bytes": 3873
+    },
+    {
+      "path": "experiments/kras/quantum/inputs/source-receipts.json",
+      "sha256": "65aa6d516c2582c80062e312aadea0aad58f777d75a8c3d3280db4b8dbce3832",
+      "bytes": 2068
+    },
+    {
+      "path": "experiments/kras/quantum/inputs/static-model.json",
+      "sha256": "601defa17c82aa420b0d624ad2d6913de6ba61f44efb263c4162ded165041d71",
+      "bytes": 116083
+    },
+    {
+      "path": "experiments/kras/quantum/inputs/static-model.npz",
+      "sha256": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd",
+      "bytes": 2047314
+    },
+    {
+      "path": "experiments/kras/quantum/model.py",
+      "sha256": "f46e14722b674b4c4cf49bd72752aecb1ab74853b00d5929c607a910f14b6879",
+      "bytes": 13778
+    },
+    {
+      "path": "experiments/kras/quantum/requirements-lock.txt",
+      "sha256": "b1c9ed44a7d47802f688dd0be4cea2239feae823abcdae32513442da98ee819a",
+      "bytes": 188
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/fixture-summary.json",
+      "sha256": "75188f5cf8b6d21a61f5e49314f103c5c42b836dcdeedb6217358fa7130bf3d6",
+      "bytes": 8548
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/fixture.npz",
+      "sha256": "480064543e27f7e716ab3d3ed0adeee2b760afdda187ad4fcff95e5a31d4f469",
+      "bytes": 700488
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/ideal-response-matrices.npz",
+      "sha256": "3c5faeacd21ca1725a970e4ef6fe3fc50d3b3e7621b4769b95ca05e966055f15",
+      "bytes": 667462
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/ideal-results.json",
+      "sha256": "bb69e5fa933a8d3680b7927fdf4983bdcc4cecb808113841104d615cccc9638e",
+      "bytes": 15208
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.0001-readout0.01.npz",
+      "sha256": "3bea56d5611a112a697ca36d76e6d889c9a68de99db70f947fd3d6f0762300dc",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.0001-readout0.03.npz",
+      "sha256": "0713f9e2a5f75965d432b4988f460bf408c4731aa69d27d6e00723ce9a39b148",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.0001-readout0.npz",
+      "sha256": "ab99875d5a2a69ce80f7e48229fd7b0932ff59b01808e8dbb64b38e2c1c6bf98",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.001-readout0.01.npz",
+      "sha256": "9a91694d6555bcbccbf1feb031df3a1dcbd80ae17b2dab16d38c3e1a589656fe",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.001-readout0.03.npz",
+      "sha256": "f369f65682167a79fa2c1dc9e68eae1cc74b30faefd5775d67b0ac062cde9cef",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.001-readout0.npz",
+      "sha256": "9d0939721b80baac1870e1cf07ba41e8fa6d269429a3115a5f1515dd782979e0",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.01-readout0.01.npz",
+      "sha256": "4937078a1e19c6a2f68d4f5f4e106014da4e84aef4db467dbd8865516d3001c5",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.01-readout0.03.npz",
+      "sha256": "14d7868bf147e436f0aeec4ba43eb847d147a8bc6f08b7cbb3f8407bcbbd241d",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-p0.01-readout0.npz",
+      "sha256": "cb6f17a9528e9336928fd1d48042c580d8818812016b7a79bfab2b539dc85800",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/noise-results.json",
+      "sha256": "9b42317c15d9f760d801ed230da235832ce74c53dd02afa112862036c3b5a3e0",
+      "bytes": 10278
+    },
+    {
+      "path": "experiments/kras/quantum/results-naive/quantum-results.json",
+      "sha256": "446319bfadeddd6634c55882fb514fbdaf1854c7647cb68ac966353a8828a257",
+      "bytes": 38139
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_0_all_to_all.qasm",
+      "sha256": "3d39ecbf3f58a12080e721cc751e98e75757144a506b154a250a971cdea05864",
+      "bytes": 103487
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_0_all_to_all.qpy",
+      "sha256": "ffd3e448a3b8b640b8db94a97a6bd887bb99dfff94787c919ce4dd2a1ab6d061",
+      "bytes": 345173
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_0_line.qasm",
+      "sha256": "bfba5ef4b3a8cc007af1c38aa171807c413d3090edb1f5c8578559f8bafadd44",
+      "bytes": 100178
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_0_line.qpy",
+      "sha256": "6be41d5db5f2596021dedf9bad82a6fcad347dbac002020d97ab80d2fa6b56c5",
+      "bytes": 450827
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_0_logical.qpy",
+      "sha256": "55c3c0303302ad3fa0c73d853dba6822448c83383ef4dc127a62fb3a79a0aba8",
+      "bytes": 111020
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_1_all_to_all.qasm",
+      "sha256": "77efbad081f1a678937dee949fae5afbf18ac56ec7f7cccda3c4a2555fbea91b",
+      "bytes": 103440
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_1_all_to_all.qpy",
+      "sha256": "3bf014289ec359d4ddfe862f9f46ff8bb0a107280c8f501156266d4e028e4509",
+      "bytes": 344985
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_1_line.qasm",
+      "sha256": "4cec8e7ca5120f8df037fde178974bb31c53564ce39b594fdce6de42d2df1d61",
+      "bytes": 100140
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_1_line.qpy",
+      "sha256": "8833c202a8c17a9acd7bfe3437198281db73b40ef83ddb9744d6d029375db8f5",
+      "bytes": 450639
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_0_1_logical.qpy",
+      "sha256": "d99aae9cd5a0433f8f6abbc155aa1069efbbfa3c73d62e608b90dd4337234479",
+      "bytes": 111020
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_1_1_all_to_all.qasm",
+      "sha256": "8f187f94e0f29a20264f09cbeeea89f5e59f19a624267c200b75ded85d462daa",
+      "bytes": 103416
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_1_1_all_to_all.qpy",
+      "sha256": "6352ca6ba79c267de83cfebbeb72e0f036e620019aab56473c2f804c475eea95",
+      "bytes": 344891
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_1_1_line.qasm",
+      "sha256": "baa3296871ce64ba1ee92a218472a120e74a602c2c503637b2224f7d02e70dba",
+      "bytes": 100120
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_1_1_line.qpy",
+      "sha256": "5d97008569271c9f7f88faa95eb105b31ca58ba152d36907b4b74bd956f05d00",
+      "bytes": 450545
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/circuits/basis_1_1_logical.qpy",
+      "sha256": "47c2f0030574f5670cbcfaa9398f701a76ef92940735fa9d6f6873a4d9a8aa91",
+      "bytes": 111020
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/fixture-summary.json",
+      "sha256": "745f148d85e5bafd7f18e48b789bc23c0ec50268bd5a7844147b49ea8cbc29d3",
+      "bytes": 8548
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/fixture.npz",
+      "sha256": "480064543e27f7e716ab3d3ed0adeee2b760afdda187ad4fcff95e5a31d4f469",
+      "bytes": 700488
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/ideal-response-matrices.npz",
+      "sha256": "f930e0cf51db2b3c4f71d0f5f740fcc0dc60d2ea85b94357e8cec3f4f57fef7f",
+      "bytes": 667462
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/ideal-results.json",
+      "sha256": "e04778f12de5e12b270a03a93a61a20b154b61d65ee837ab378671cadaddb8b2",
+      "bytes": 15352
+    },
+    {
+      "path": "experiments/kras/quantum/results-repeat/quantum-results.json",
+      "sha256": "a909c82c372dd19e91073cf0d46f34de6729cf21b377e5153adff00cf842c646",
+      "bytes": 27352
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_0_all_to_all.qasm",
+      "sha256": "3d39ecbf3f58a12080e721cc751e98e75757144a506b154a250a971cdea05864",
+      "bytes": 103487
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_0_all_to_all.qpy",
+      "sha256": "ffd3e448a3b8b640b8db94a97a6bd887bb99dfff94787c919ce4dd2a1ab6d061",
+      "bytes": 345173
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_0_line.qasm",
+      "sha256": "bfba5ef4b3a8cc007af1c38aa171807c413d3090edb1f5c8578559f8bafadd44",
+      "bytes": 100178
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_0_line.qpy",
+      "sha256": "c8e2a8abeb1334c40417c86a52d0b02c0db289ca2f86c9e87c89cc3ef27b0a7c",
+      "bytes": 450827
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_0_logical.qpy",
+      "sha256": "9342d0e22beb29826e80a8426e17317c3c6028793b7bdc3f55dcc2e70c807c6a",
+      "bytes": 111020
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_1_all_to_all.qasm",
+      "sha256": "77efbad081f1a678937dee949fae5afbf18ac56ec7f7cccda3c4a2555fbea91b",
+      "bytes": 103440
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_1_all_to_all.qpy",
+      "sha256": "3bf014289ec359d4ddfe862f9f46ff8bb0a107280c8f501156266d4e028e4509",
+      "bytes": 344985
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_1_line.qasm",
+      "sha256": "4cec8e7ca5120f8df037fde178974bb31c53564ce39b594fdce6de42d2df1d61",
+      "bytes": 100140
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_1_line.qpy",
+      "sha256": "b667b51a7ad05b2d782472b76b0fe31edeb3de09c47d3ba39dbf25f6c2e78c23",
+      "bytes": 450639
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_0_1_logical.qpy",
+      "sha256": "734e4e8699f2e258cf565e744b30776d8e3489b08caa17c8ced2bec164e9e014",
+      "bytes": 111020
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_1_1_all_to_all.qasm",
+      "sha256": "8f187f94e0f29a20264f09cbeeea89f5e59f19a624267c200b75ded85d462daa",
+      "bytes": 103416
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_1_1_all_to_all.qpy",
+      "sha256": "6352ca6ba79c267de83cfebbeb72e0f036e620019aab56473c2f804c475eea95",
+      "bytes": 344891
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_1_1_line.qasm",
+      "sha256": "baa3296871ce64ba1ee92a218472a120e74a602c2c503637b2224f7d02e70dba",
+      "bytes": 100120
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_1_1_line.qpy",
+      "sha256": "20b281aafc7dd5b210886f83fa6dee16a511cb73685212d0117d5131ff667964",
+      "bytes": 450545
+    },
+    {
+      "path": "experiments/kras/quantum/results/circuits/basis_1_1_logical.qpy",
+      "sha256": "1d830e44c25016ab2784a18d4afdb5a5df638608b70310d7fea618cdeca4fa3a",
+      "bytes": 111020
+    },
+    {
+      "path": "experiments/kras/quantum/results/fixture-summary.json",
+      "sha256": "000239282b83f42ed0bbb146444f0dc1a23b974c7d46fdfa6b32d2050b06826b",
+      "bytes": 8549
+    },
+    {
+      "path": "experiments/kras/quantum/results/fixture.npz",
+      "sha256": "480064543e27f7e716ab3d3ed0adeee2b760afdda187ad4fcff95e5a31d4f469",
+      "bytes": 700488
+    },
+    {
+      "path": "experiments/kras/quantum/results/ideal-response-matrices.npz",
+      "sha256": "f930e0cf51db2b3c4f71d0f5f740fcc0dc60d2ea85b94357e8cec3f4f57fef7f",
+      "bytes": 667462
+    },
+    {
+      "path": "experiments/kras/quantum/results/ideal-results.json",
+      "sha256": "881ab783117c15805969d6b2b55b1fcb2e6a6d390a779403ab8bc7b582321786",
+      "bytes": 15351
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.0001-readout0.01.npz",
+      "sha256": "78dd5b16c7d9b47d95d6eb98c712b9a81d284f107c476ba9bec03dd7443682de",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.0001-readout0.03.npz",
+      "sha256": "6660d359edb2a807a1580e780adb4bd637aba956c1a6de3fdf4ecf3eefa5a069",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.0001-readout0.npz",
+      "sha256": "b3e2f2cc71f9e9b57286bb8fe15b48f8a4573c08aac4b07df9338256f983c35f",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.001-readout0.01.npz",
+      "sha256": "d69b1c41ac5f2a4deb9fee2a0da3462b21fd074e330834b860356dde2144d472",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.001-readout0.03.npz",
+      "sha256": "c3b47f42ab0124d71f964310238f1eb48f1f2dc69145b48619d39e0df1ca6118",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.001-readout0.npz",
+      "sha256": "225914f838d0dfc16895f887193f1eab934c9d24003b0a29517b9aefb3c82e9e",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.01-readout0.01.npz",
+      "sha256": "2725e4c7c580194f73d8d7b89df1ef651336ea0e7cf517292cf98a4d6c93d4e0",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.01-readout0.03.npz",
+      "sha256": "bd9d58fcafe95af7c689729ceb993a952fa1cd2b34a9b0a4444d5c98154e72db",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-p0.01-readout0.npz",
+      "sha256": "daeec2285b250d349bf66cf53b17a4fd3105fab2800fe8f5ee3d8b7aa7f0f9c6",
+      "bytes": 222552
+    },
+    {
+      "path": "experiments/kras/quantum/results/noise-results.json",
+      "sha256": "76c765fbbf801d8d9c02e92d4546f48142117f80bcbf6a5d4899ad2fe7efe6e7",
+      "bytes": 10445
+    },
+    {
+      "path": "experiments/kras/quantum/results/preprocessing-scope.json",
+      "sha256": "1779fb8cab9f516ff1367ee11256a46fe7b19a699d7c80a8c521d7408bd14937",
+      "bytes": 957
+    },
+    {
+      "path": "experiments/kras/quantum/results/quantum-results.json",
+      "sha256": "b2c055eb24f39a5e0e9eb589fd8f98767d9fe33983605b6fea4e2010b96c47fc",
+      "bytes": 38445
+    },
+    {
+      "path": "experiments/kras/quantum/results/repeatability.json",
+      "sha256": "99e8e7d64141896376d39ad05cf743fd678c440cee10096f86a5b043a7f19e7f",
+      "bytes": 1816
+    },
+    {
+      "path": "experiments/kras/quantum/results/verification.json",
+      "sha256": "f74669e0d1cbd5d011582a1c1b750358b2176c6cde483080b88f7ccbdc6205dd",
+      "bytes": 2356
+    },
+    {
+      "path": "experiments/kras/quantum/run.py",
+      "sha256": "55787351e9dfbcc51bdfd3aeef3162b1aec90bd7e0ff8595116bf9989dee5556",
+      "bytes": 16212
+    },
+    {
+      "path": "experiments/kras/quantum/verify.py",
+      "sha256": "1f459a47457cdf1fa6d3245df9edfe072bfcfee78b4442a6cd7c45c2116af5a5",
+      "bytes": 4844
+    },
+    {
+      "path": "figures/convergence.png",
+      "sha256": "16f16acaa6d4ed9d9dad0b2bf90046769cf6bac34829f8589527c0d8d6437a37",
+      "bytes": 147750
+    },
+    {
+      "path": "figures/convergence.svg",
+      "sha256": "3d9f0efb935a92bcad23b55a8b86a044a565c34d5290cbe0954bdbb4f265cbe9",
+      "bytes": 89346
+    },
+    {
+      "path": "figures/overview.png",
+      "sha256": "fbd00af8a2e18fe2d531226f124825e834dc80dab509b6fe9b3402e715ee0e5b",
+      "bytes": 95896
+    },
+    {
+      "path": "figures/overview.svg",
+      "sha256": "f2e4ed9f3c6db5007545549761ab94d8383f91cb02f7f5dc27b05996e436e0ae",
+      "bytes": 65405
+    },
+    {
+      "path": "independent_check.py",
+      "sha256": "0190bc1ea4fd3076f2f50fc63ccdbbcf4b283627a3d4ab84af0f509714a77b74",
+      "bytes": 4790
+    },
+    {
+      "path": "make_figures.py",
+      "sha256": "eb7038e8f66851cf249441f3e7a7cbd462c138e0983be3a1de55260668bbdd81",
+      "bytes": 4528
+    },
+    {
+      "path": "pytest.ini",
+      "sha256": "b160d82f7811555051f8966d8e02750a985227c1d022208c784e606946f2eada",
+      "bytes": 42
+    },
+    {
+      "path": "reference/execution.json",
+      "sha256": "e7e1b2e8568970940b37d0425c9ef8eb1e2b3d86c1f7f5f6643481dcab940e18",
+      "bytes": 1467
+    },
+    {
+      "path": "reference/follow-up-design.json",
+      "sha256": "4d7e4a03ab04dbcf7a4f41ffaae4eed3f68c1f39093161a3915d08daf070c041",
+      "bytes": 802
+    },
+    {
+      "path": "reference/independent-response-check.json",
+      "sha256": "93f2314ac3c0bd4a16ade6832e1ac1e2401292e0c2aaa7b104f079752f81d74d",
+      "bytes": 19097
+    },
+    {
+      "path": "reference/results.json",
+      "sha256": "f69868008ee1ababeb180995f32e28537317ccd1d8bdfccde3d6f815bca35378",
+      "bytes": 90064
+    },
+    {
+      "path": "reference/sensitivity-results.json",
+      "sha256": "ea213c4db9740239fc1fc151e6e44ed68d0b1e67bef19f495f892cb9e2635fa5",
+      "bytes": 315726
+    },
+    {
+      "path": "reference/verification.json",
+      "sha256": "9bd136d332e53ac28ad1901a2cd60b985f0b8ad2a9e489e84f3c9f0cd8d110e2",
+      "bytes": 309
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "385223026a76a8f2f5d964ef47fb5027eca892b6d2852bba21d211e2d2a2f771",
+      "bytes": 2094
+    },
+    {
+      "path": "requirements-lock.txt",
+      "sha256": "b3e9bedf22a4e8f9c034cb6492801aa13e0f2174b93c6b67acbbf23fa5154c1e",
+      "bytes": 247
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "3d6693a7ef616b9ffea5b9635e5b8c6095bfd49dba32f761e30b3b49b6a23b18",
+      "bytes": 73
+    },
+    {
+      "path": "runtime_info.py",
+      "sha256": "1c0669a10259e3cf87c69c35a077e5ca579d7d5f8d82357fc8a94e3eca54296e",
+      "bytes": 508
+    },
+    {
+      "path": "sensitivity.py",
+      "sha256": "3a52feb749e8f719541e82c2eb18d9c0fad68b1707f8e659ab1f063d04e60822",
+      "bytes": 14605
+    },
+    {
+      "path": "tests/test_scientific_replay.py",
+      "sha256": "79f69495e5854342a07bedc3f948dfba982a69f1b63270afd56b91035d6936fb",
+      "bytes": 1735
+    },
+    {
+      "path": "verify_results.py",
+      "sha256": "40452cee1aef499de55fb23a91ea1e21b7977cb0eb86feb48e21fb2258126789",
+      "bytes": 2325
+    }
+  ]
+}

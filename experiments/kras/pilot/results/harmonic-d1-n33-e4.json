@@ -1,0 +1,26 @@
+{
+  "energy": "harmonic",
+  "d": 1,
+  "n": 33,
+  "extent_slowest_sigma": 4,
+  "delta_A": 0.9065902675096886,
+  "states": 33,
+  "tau_model_time": 13.150494610292602,
+  "seconds": 0.058973042003344744,
+  "max_stationarity_residual": 1.2202026337704484e-16,
+  "boundary_probability": 6.691748086658955e-05,
+  "prob_any_contact_strain_gt_0.2": 0.0006795783495767698,
+  "mean_max_contact_strain": 0.03198541881382236,
+  "prob_strong_compression": 0.0,
+  "prob_noncontact_CA_overlap_lt_2A": 0.0,
+  "top5_canonical": [
+    157,
+    51,
+    46,
+    161,
+    44
+  ],
+  "max_abs_C": 0.012844656936654526,
+  "normalization": "analytic all-mode harmonic SD of fixed quartic Ei",
+  "prob_sum": 1.0000000000000002
+}

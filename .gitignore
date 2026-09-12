@@ -4,3 +4,9 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .DS_Store
+
+**/.venv/
+experiments/kras/pilot/repeat-all/
+experiments/kras/pilot/replay-ohm/
+experiments/kras/quantum/results-ci/
+experiments/kras/quantum/results-reproduced/

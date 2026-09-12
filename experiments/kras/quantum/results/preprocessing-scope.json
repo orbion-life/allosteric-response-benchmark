@@ -1,0 +1,14 @@
+{
+  "quantum_result_sha256": "b2c055eb24f39a5e0e9eb589fd8f98767d9fe33983605b6fea4e2010b96c47fc",
+  "upstream_analytic_results_sha256": "afaacd0faf37faa4c83b96d9e515edcda83cc19a8b5172b93b9453c93ce08f05",
+  "quantum_fixture_preprocessing_seconds": 0.029908291005995125,
+  "quantum_fixture_preprocessing_scope": "Loads frozen pilot data, evaluates four grid points, constructs reversible chain, weighted basis, coefficient and precision selection. Excludes original PDB parsing/Hessian eigensystem and full harmonic normalization.",
+  "upstream_full492_harmonic_response_seconds": 5.97277741599828,
+  "upstream_full492_scope": "Computes full equal-time/delayed harmonic covariances and saves outputs; more than normalization alone. Excludes initial PDB parsing/eigenbasis.",
+  "unmeasured": [
+    "isolated full-mode normalization time",
+    "initial PDB/Hessian preparation time",
+    "upstream peak memory",
+    "hardware timing and noise calibration"
+  ]
+}

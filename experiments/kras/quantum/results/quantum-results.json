@@ -1,0 +1,1085 @@
+{
+  "status": "complete",
+  "scope": "actual synthesized and simulated complete protein-derived circuit; not hardware or validated physical compression",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "compiler": {
+    "basis_gates": [
+      "u",
+      "cx"
+    ],
+    "optimization_level": 1,
+    "approximation_degree": 1.0,
+    "seed": 20260912,
+    "topologies": [
+      "all-to-all",
+      "bidirectional seven-qubit line"
+    ],
+    "all_to_all_is_hardware_calibrated": false
+  },
+  "simulator": {
+    "max_parallel_threads": 1,
+    "fusion_enable": false,
+    "actual_finite_shots": 151887
+  },
+  "fixture": {
+    "input_structure": "4OBE",
+    "chain": "A",
+    "retained_residues": 166,
+    "contact_count": 1433,
+    "positive_harmonic_modes": 492,
+    "retained_physical_modes": 1,
+    "grid_values": 4,
+    "grid_extent_harmonic_sigma": 4.0,
+    "grid_spacing": 9.670296186770006,
+    "kappa": 1.0,
+    "beta": 1.0,
+    "mu": 1.0,
+    "tau": 13.150494610292602,
+    "lambda1": 0.07604276718362532,
+    "normalization": "pilot analytic all-492-mode harmonic SD of fixed quartic Ei, common to primary model comparisons",
+    "stationary_probabilities": [
+      1.1043568254554224e-13,
+      0.48826263364038913,
+      0.5117373663591079,
+      3.9240787094631995e-13
+    ],
+    "boundary_probability": 5.028435534918622e-13,
+    "energy_polynomial_max_error": 3.219646771412954e-15,
+    "weighted_basis_reconstruction_max_error": 1.0608918257770661e-16,
+    "raw_monomial_count": 3,
+    "retained_algebraic_rank": 2,
+    "singular_values": [
+      113.00811907520725,
+      0.031006270032041927,
+      2.1250721295071422e-15
+    ],
+    "singular_value_cutoff": 1.0037137261350115e-13,
+    "rank_reduction_scope": "exact observable-span reduction on this coarse grid; does not restore omitted protein motion",
+    "nu": 0.04277405654078924,
+    "z": 0.5624999999999999,
+    "K": 3,
+    "retained_coefficient_sum": 0.9996804132862802,
+    "omitted_coefficient_sum_float": 0.0003195867137197883,
+    "analytic_tail_upper_bound_float": 0.0003198246565203037,
+    "requested_algorithm_C_error_budget": 0.0005,
+    "truncation_selection": "smallest K>=1 meeting C budget and retaining at least 90% of the exact same-grid fifth/sixth ranking gap under conservative score-tail bounds",
+    "all_entry_truncation_C_upper_bound": 6.653165638537142e-07,
+    "observed_all_entry_truncation_C_error": 2.946470443215181e-07,
+    "maximum_absolute_C": 0.0005099959314305615,
+    "zero_response_meets_loose_sampling_cap": true,
+    "exact_same_grid_top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "exact_same_grid_fifth_sixth_score_gap": 2.0362690758603074e-08,
+    "shot_family_comparison": {
+      "direct_all_residue_pairs": {
+        "unique_observable_pairs": 13861,
+        "gamma_max_squared": 0.002080254133913147,
+        "response_halfwidth": 0.004,
+        "family_failure_probability": 0.05,
+        "required_uniform_overlap_halfwidth": 1.9234567018989104,
+        "sufficient_shots_per_pair": 8,
+        "sufficient_total_shots": 110888,
+        "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+      },
+      "raw_three_monomial_basis": {
+        "unique_observable_pairs": 6,
+        "gamma_max_squared": 0.00208035363976158,
+        "response_halfwidth": 0.004,
+        "family_failure_probability": 0.05,
+        "required_uniform_overlap_halfwidth": 1.9233647006221137,
+        "sufficient_shots_per_pair": 3,
+        "sufficient_total_shots": 18,
+        "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+      },
+      "orthonormal_grid_basis": {
+        "unique_observable_pairs": 3,
+        "gamma_max_squared": 0.002080353638697956,
+        "response_halfwidth": 0.004,
+        "family_failure_probability": 0.05,
+        "required_uniform_overlap_halfwidth": 1.9233647016054738,
+        "sufficient_shots_per_pair": 3,
+        "sufficient_total_shots": 9,
+        "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+      }
+    },
+    "own_d1_normalization_comparison": {
+      "direct_all_residue_pairs": {
+        "unique_observable_pairs": 13861,
+        "gamma_max_squared": 0.14604596360376418,
+        "response_halfwidth": 0.004,
+        "family_failure_probability": 0.05,
+        "required_uniform_overlap_halfwidth": 0.027397393647824356,
+        "sufficient_shots_per_pair": 35240,
+        "sufficient_total_shots": 488461640,
+        "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+      },
+      "raw_three_monomial_basis": {
+        "unique_observable_pairs": 6,
+        "gamma_max_squared": 0.14605272455886623,
+        "response_halfwidth": 0.004,
+        "family_failure_probability": 0.05,
+        "required_uniform_overlap_halfwidth": 0.027396125389742045,
+        "sufficient_shots_per_pair": 14605,
+        "sufficient_total_shots": 87630,
+        "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+      },
+      "orthonormal_grid_basis": {
+        "unique_observable_pairs": 3,
+        "gamma_max_squared": 0.14605272463112717,
+        "response_halfwidth": 0.004,
+        "family_failure_probability": 0.05,
+        "required_uniform_overlap_halfwidth": 0.027396125376187554,
+        "sufficient_shots_per_pair": 12758,
+        "sufficient_total_shots": 38274,
+        "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+      }
+    },
+    "rank_precision_family_comparison": {
+      "direct_all_residue_pairs": {
+        "unique_pairs": 13861,
+        "chosen_overlap_halfwidth": 0.013753861420300169,
+        "sufficient_shots_per_pair": 139830,
+        "sufficient_total_shots": 1938183630,
+        "scope": "same fixed-grid ranking intervals, common full-mode normalization, same global failure probability"
+      },
+      "raw_three_monomial_basis": {
+        "unique_pairs": 6,
+        "chosen_overlap_halfwidth": 0.01375217791619908,
+        "sufficient_shots_per_pair": 57959,
+        "sufficient_total_shots": 347754,
+        "scope": "same fixed-grid ranking intervals, common full-mode normalization, same global failure probability"
+      },
+      "orthonormal_grid_basis": {
+        "unique_pairs": 3,
+        "chosen_overlap_halfwidth": 0.01375217793290201,
+        "sufficient_shots_per_pair": 50629,
+        "sufficient_total_shots": 151887,
+        "scope": "same fixed-grid ranking intervals, common full-mode normalization, same global failure probability"
+      }
+    },
+    "conservative_uniform_C_gap_cost": {
+      "unique_observable_pairs": 3,
+      "gamma_max_squared": 0.002080353638697956,
+      "response_halfwidth": 5.0906726896507684e-09,
+      "family_failure_probability": 0.05,
+      "required_uniform_overlap_halfwidth": 2.447805039675321e-06,
+      "sufficient_shots_per_pair": 1598027999331,
+      "sufficient_total_shots": 4794083997993,
+      "bound_scope": "uniform independent +/-1 sampling, Hoeffding and union bound; sufficient, not necessary"
+    },
+    "selected_sampling": {
+      "family_size": 3,
+      "failure_probability": 0.05,
+      "ranking_uniform_overlap_cap": 0.02750435586580402,
+      "matrix_uniform_overlap_cap": 1.9233647016054738,
+      "chosen_overlap_halfwidth": 0.01375217793290201,
+      "selection_rule": "minimum of matrix cap and half of the conservative pairwise rank-separation cap",
+      "shots_per_overlap": 50629,
+      "total_shots": 151887,
+      "achieved_uniform_C_halfwidth_bound": 2.8600250220715334e-05,
+      "top5_lower_score_bound": 9.417359493296849e-08,
+      "outside_top5_upper_score_bound": 8.410930170519693e-08,
+      "scope": "simultaneous sampling and truncation bounds for this fixed coarse model only; excludes device bias, grid error and omitted physical modes"
+    },
+    "preprocessing_seconds": 0.029908291005995125,
+    "input_manifest": [
+      {
+        "file": "static-model.npz",
+        "source_within_v8": "pilot/model/static-model.npz",
+        "sha256": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd"
+      },
+      {
+        "file": "coordinate-d1.npz",
+        "source_within_v8": "pilot/model/coordinate-d1.npz",
+        "sha256": "0bcab4ec48a46473999871fa84f75c58354a9d37017f2310f79964272be045a2"
+      },
+      {
+        "file": "static-model.json",
+        "source_within_v8": "pilot/model/static-model.json",
+        "sha256": "601defa17c82aa420b0d624ad2d6913de6ba61f44efb263c4162ded165041d71"
+      },
+      {
+        "file": "4OBE.pdb",
+        "source_within_v8": "pilot/raw/4OBE.pdb",
+        "sha256": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2"
+      },
+      {
+        "file": "source-receipts.json",
+        "source_within_v8": "pilot/raw/source-receipts.json",
+        "sha256": "65aa6d516c2582c80062e312aadea0aad58f777d75a8c3d3280db4b8dbce3832"
+      },
+      {
+        "file": "preanalysis-protocol.json",
+        "source_within_v8": "pilot/preanalysis-protocol.json",
+        "sha256": "0fcae6ed4dc4866f3fb32f63bb29bb38b17dd7552988b776ee4af76d65ca7896"
+      },
+      {
+        "file": "all-mode-harmonic-scales.npz",
+        "source_within_v8": "pilot/model/all-mode-harmonic-scales.npz",
+        "sha256": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c"
+      }
+    ],
+    "scope": "complete-circuit engineering fixture; unvalidated d1/four-point physical representation"
+  },
+  "ideal": {
+    "maximum_compiled_vs_polynomial_C_error": 2.0166160408230382e-17,
+    "maximum_compiled_vs_exact_grid_C_error": 2.946470443293244e-07,
+    "maximum_sample_vs_exact_grid_C_error": 1.643410957305252e-07,
+    "exact_top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "compiled_top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "sample_top5_canonical": [
+      157,
+      161,
+      51,
+      45,
+      44
+    ],
+    "observed_top5_lower_bound": 9.41415153539992e-08,
+    "observed_outside_upper_bound": 8.408369978137044e-08,
+    "observed_ranking_intervals_separated": true,
+    "interval_scope": "95% simultaneous sampling plus analytic truncation; same fixed grid and physical slice, no biological or physical-reduction coverage",
+    "total_executed_ideal_shots": 151887
+  },
+  "compiled_pairs": [
+    {
+      "pair": [
+        0,
+        0
+      ],
+      "logical": {
+        "configuration_qubits_each": 2,
+        "coefficient_qubits": 2,
+        "readout_qubits": 1,
+        "arithmetic_workspace_qubits": 0,
+        "walk_calls_in_binary_SELECT": 3,
+        "K": 3,
+        "retained_sum": 0.9996804132862802,
+        "controlled_walk_implementation": "factorized",
+        "logical_qubits": 7,
+        "state_preparation": "Qiskit unitary StatePreparation, including signed amplitudes",
+        "walk_construction": "controlled row PREP, SWAP, inverse row PREP, zero-Y reflection"
+      },
+      "all_to_all": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2468,
+        "two_qubit_cx_gates": 2304,
+        "measurements": 1,
+        "depth_including_measurement": 3986,
+        "two_qubit_depth": 2230,
+        "operation_counts": {
+          "u": 2468,
+          "cx": 2304,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "bidirectional_line": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2475,
+        "two_qubit_cx_gates": 4443,
+        "measurements": 1,
+        "depth_including_measurement": 6153,
+        "two_qubit_depth": 4235,
+        "operation_counts": {
+          "cx": 4443,
+          "u": 2475,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "component_counts": {
+        "controlled_PREP_j": {
+          "qubits": 7,
+          "one_qubit_u_gates": 19,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 24,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 19,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_SELECT": {
+          "qubits": 7,
+          "one_qubit_u_gates": 2402,
+          "two_qubit_cx_gates": 2216,
+          "measurements": 0,
+          "depth_including_measurement": 3760,
+          "two_qubit_depth": 2120,
+          "operation_counts": {
+            "u": 2402,
+            "cx": 2216
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 18,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 18,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_PREP_i_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 19,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 24,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 19,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        }
+      },
+      "component_counts_scope": "isolated decompositions; do not sum these to obtain optimized whole-circuit totals",
+      "ideal_readout_probabilities": [
+        0.8776113005155656,
+        0.12238869948443891
+      ],
+      "line_readout_probabilities": [
+        0.8776113005155667,
+        0.12238869948443912
+      ],
+      "ideal_chi": 0.7552226010311267,
+      "polynomial_reference_chi": 0.7552226010311227,
+      "absolute_chi_error": 3.9968028886505635e-15,
+      "executed_ideal_shots": 50629,
+      "seed_simulator": 20260912,
+      "observed_counts": {
+        "1": 6198,
+        "0": 44431
+      },
+      "sample_mean": 0.7551600861166525,
+      "sampling_overlap_error": 6.251491447417656e-05,
+      "synthesis_seconds_all_to_all": 0.023815291991923004,
+      "synthesis_seconds_line": 0.028481790970545262,
+      "isolated_component_synthesis_seconds": 0.04547783295856789,
+      "ideal_simulation_seconds_all_to_all": 0.03330341703258455,
+      "ideal_simulation_seconds_line": 0.04558083298616111,
+      "finite_shot_simulation_seconds": 0.05854058399563655,
+      "total_pair_seconds": 0.5389806249877438
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "logical": {
+        "configuration_qubits_each": 2,
+        "coefficient_qubits": 2,
+        "readout_qubits": 1,
+        "arithmetic_workspace_qubits": 0,
+        "walk_calls_in_binary_SELECT": 3,
+        "K": 3,
+        "retained_sum": 0.9996804132862802,
+        "controlled_walk_implementation": "factorized",
+        "logical_qubits": 7,
+        "state_preparation": "Qiskit unitary StatePreparation, including signed amplitudes",
+        "walk_construction": "controlled row PREP, SWAP, inverse row PREP, zero-Y reflection"
+      },
+      "all_to_all": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2466,
+        "two_qubit_cx_gates": 2304,
+        "measurements": 1,
+        "depth_including_measurement": 3985,
+        "two_qubit_depth": 2230,
+        "operation_counts": {
+          "u": 2466,
+          "cx": 2304,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "bidirectional_line": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2473,
+        "two_qubit_cx_gates": 4443,
+        "measurements": 1,
+        "depth_including_measurement": 6152,
+        "two_qubit_depth": 4235,
+        "operation_counts": {
+          "cx": 4443,
+          "u": 2473,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "component_counts": {
+        "controlled_PREP_j": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_SELECT": {
+          "qubits": 7,
+          "one_qubit_u_gates": 2402,
+          "two_qubit_cx_gates": 2216,
+          "measurements": 0,
+          "depth_including_measurement": 3760,
+          "two_qubit_depth": 2120,
+          "operation_counts": {
+            "u": 2402,
+            "cx": 2216
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 18,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 18,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_PREP_i_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 19,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 24,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 19,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        }
+      },
+      "component_counts_scope": "isolated decompositions; do not sum these to obtain optimized whole-circuit totals",
+      "ideal_readout_probabilities": [
+        0.49999995941061043,
+        0.5000000405893937
+      ],
+      "line_readout_probabilities": [
+        0.49999995941060815,
+        0.5000000405893915
+      ],
+      "ideal_chi": -8.117878330660133e-08,
+      "polynomial_reference_chi": -8.117878386250066e-08,
+      "absolute_chi_error": 5.558993323628636e-16,
+      "executed_ideal_shots": 50629,
+      "seed_simulator": 20260913,
+      "observed_counts": {
+        "0": 25238,
+        "1": 25391
+      },
+      "sample_mean": -0.003021983448221375,
+      "sampling_overlap_error": 0.0030219022694380686,
+      "synthesis_seconds_all_to_all": 0.016834250011015683,
+      "synthesis_seconds_line": 0.026750124990940094,
+      "isolated_component_synthesis_seconds": 0.04627587494906038,
+      "ideal_simulation_seconds_all_to_all": 0.03239404200576246,
+      "ideal_simulation_seconds_line": 0.04660145798698068,
+      "finite_shot_simulation_seconds": 0.05735083296895027,
+      "total_pair_seconds": 0.5458248340291902
+    },
+    {
+      "pair": [
+        1,
+        1
+      ],
+      "logical": {
+        "configuration_qubits_each": 2,
+        "coefficient_qubits": 2,
+        "readout_qubits": 1,
+        "arithmetic_workspace_qubits": 0,
+        "walk_calls_in_binary_SELECT": 3,
+        "K": 3,
+        "retained_sum": 0.9996804132862802,
+        "controlled_walk_implementation": "factorized",
+        "logical_qubits": 7,
+        "state_preparation": "Qiskit unitary StatePreparation, including signed amplitudes",
+        "walk_construction": "controlled row PREP, SWAP, inverse row PREP, zero-Y reflection"
+      },
+      "all_to_all": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2465,
+        "two_qubit_cx_gates": 2304,
+        "measurements": 1,
+        "depth_including_measurement": 3984,
+        "two_qubit_depth": 2230,
+        "operation_counts": {
+          "u": 2465,
+          "cx": 2304,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "bidirectional_line": {
+        "qubits": 7,
+        "one_qubit_u_gates": 2472,
+        "two_qubit_cx_gates": 4443,
+        "measurements": 1,
+        "depth_including_measurement": 6151,
+        "two_qubit_depth": 4235,
+        "operation_counts": {
+          "cx": 4443,
+          "u": 2472,
+          "measure": 1
+        },
+        "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+      },
+      "component_counts": {
+        "controlled_PREP_j": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF": {
+          "qubits": 7,
+          "one_qubit_u_gates": 17,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 17,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_SELECT": {
+          "qubits": 7,
+          "one_qubit_u_gates": 2402,
+          "two_qubit_cx_gates": 2216,
+          "measurements": 0,
+          "depth_including_measurement": 3760,
+          "two_qubit_depth": 2120,
+          "operation_counts": {
+            "u": 2402,
+            "cx": 2216
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_COEF_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 18,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 18,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        },
+        "controlled_PREP_i_inverse": {
+          "qubits": 7,
+          "one_qubit_u_gates": 18,
+          "two_qubit_cx_gates": 12,
+          "measurements": 0,
+          "depth_including_measurement": 23,
+          "two_qubit_depth": 12,
+          "operation_counts": {
+            "u": 18,
+            "cx": 12
+          },
+          "gate_set_scope": "abstract universal u/cx gate basis; not a named backend pulse schedule"
+        }
+      },
+      "component_counts_scope": "isolated decompositions; do not sum these to obtain optimized whole-circuit totals",
+      "ideal_readout_probabilities": [
+        0.8776113005119011,
+        0.12238869948810165
+      ],
+      "line_readout_probabilities": [
+        0.877611300511903,
+        0.12238869948810167
+      ],
+      "ideal_chi": 0.7552226010237995,
+      "polynomial_reference_chi": 0.7552226010237991,
+      "absolute_chi_error": 3.3306690738754696e-16,
+      "executed_ideal_shots": 50629,
+      "seed_simulator": 20260914,
+      "observed_counts": {
+        "0": 44368,
+        "1": 6261
+      },
+      "sample_mean": 0.7526713938651761,
+      "sampling_overlap_error": 0.0025512071586233365,
+      "synthesis_seconds_all_to_all": 0.01798170799156651,
+      "synthesis_seconds_line": 0.026232582982629538,
+      "isolated_component_synthesis_seconds": 0.0466381250298582,
+      "ideal_simulation_seconds_all_to_all": 0.03274733398575336,
+      "ideal_simulation_seconds_line": 0.04507970798294991,
+      "finite_shot_simulation_seconds": 0.05832741700578481,
+      "total_pair_seconds": 0.5368656670325436
+    }
+  ],
+  "full_sampling_operation_totals": {
+    "all_to_all": {
+      "one_qubit_u_gates": 374603971,
+      "two_qubit_cx_gates": 349947648,
+      "measurements": 151887
+    },
+    "bidirectional_line": {
+      "one_qubit_u_gates": 375667180,
+      "two_qubit_cx_gates": 674833941,
+      "measurements": 151887
+    }
+  },
+  "classical_comparator": {
+    "repeats": 30,
+    "median_seconds": 0.00017131250933744013,
+    "p90_seconds": 0.00018116306746378543,
+    "times_seconds": [
+      0.00021070899674668908,
+      0.00017958396347239614,
+      0.000172999978531152,
+      0.00017145799938589334,
+      0.00016983295790851116,
+      0.00017037504585459828,
+      0.00016941700596362352,
+      0.00016970798606052995,
+      0.00017370795831084251,
+      0.00016983301611617208,
+      0.00017116701928898692,
+      0.00017012498574331403,
+      0.00016970798606052995,
+      0.00016912503633648157,
+      0.00016900000628083944,
+      0.00016900000628083944,
+      0.00016916700406000018,
+      0.00016904098447412252,
+      0.00016991602024063468,
+      0.00019537500338628888,
+      0.0001977500505745411,
+      0.00017787498654797673,
+      0.00017354200826957822,
+      0.0001710419892333448,
+      0.0001717080012895167,
+      0.00017275003483518958,
+      0.00017579097766429186,
+      0.00017795799067243934,
+      0.0001783330226317048,
+      0.00017654098337516189
+    ],
+    "scope": "small-matrix exponential plus all-residue reconstruction, same grid; shared preprocessing excluded from both solve timings"
+  },
+  "noise_cases": [
+    {
+      "per_gate_depolarizing_p": 0.0001,
+      "independent_readout_flip": 0.0,
+      "noisy_overlap_means": [
+        [
+          0.5049230796791402,
+          -0.013998820439705906
+        ],
+        [
+          -0.013998820439705906,
+          0.5248353291095758
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.0005205216019577889,
+      "max_C_error_vs_exact_grid": 0.0005202269549134595,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 4.4683385654531097e-07,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": true,
+      "worst_case_channel_C_bias_bound": 0.001578468761235352,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.561235083034262,
+        1.5308344169752672,
+        1.55443129199557
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    },
+    {
+      "per_gate_depolarizing_p": 0.0001,
+      "independent_readout_flip": 0.01,
+      "noisy_overlap_means": [
+        [
+          0.4948246180855574,
+          -0.013718844030911788
+        ],
+        [
+          -0.013718844030911788,
+          0.5143386225273843
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.0005415222269091716,
+      "max_C_error_vs_exact_grid": 0.0005412275798648423,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 4.6486147675425515e-07,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": true,
+      "worst_case_channel_C_bias_bound": 0.0016200625369416559,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.561235083034262,
+        1.5308344169752672,
+        1.55443129199557
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    },
+    {
+      "per_gate_depolarizing_p": 0.0001,
+      "independent_readout_flip": 0.03,
+      "noisy_overlap_means": [
+        [
+          0.47462769489839174,
+          -0.01315889121332355
+        ],
+        [
+          -0.01315889121332355,
+          0.4933452093630012
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.0005835234768119364,
+      "max_C_error_vs_exact_grid": 0.000583228829767607,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 5.009167171721539e-07,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": true,
+      "worst_case_channel_C_bias_bound": 0.0017032500883542635,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.561235083034262,
+        1.5308344169752672,
+        1.55443129199557
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    },
+    {
+      "per_gate_depolarizing_p": 0.001,
+      "independent_readout_flip": 0.0,
+      "noisy_overlap_means": [
+        [
+          0.013494653394786782,
+          -0.025013829137108368
+        ],
+        [
+          -0.025013829137108368,
+          0.036603780569899214
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.0015424920007262543,
+      "max_C_error_vs_exact_grid": 0.0015421973536819248,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 1.3241278928775235e-06,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": false,
+      "worst_case_channel_C_bias_bound": 0.004124258889193211,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.55542670795694,
+        1.5702785000321455,
+        1.5861286669969559
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    },
+    {
+      "per_gate_depolarizing_p": 0.001,
+      "independent_readout_flip": 0.01,
+      "noisy_overlap_means": [
+        [
+          0.013224760326891046,
+          -0.0245135525543662
+        ],
+        [
+          -0.0245135525543662,
+          0.03587170495850123
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.0015430532177022678,
+      "max_C_error_vs_exact_grid": 0.0015427585706579384,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 1.324609632359831e-06,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": false,
+      "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.55542670795694,
+        1.5702785000321455,
+        1.5861286669969559
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    },
+    {
+      "per_gate_depolarizing_p": 0.001,
+      "independent_readout_flip": 0.03,
+      "noisy_overlap_means": [
+        [
+          0.012684974191099574,
+          -0.023512999388881864
+        ],
+        [
+          -0.023512999388881864,
+          0.03440755373570526
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.0015441756516542942,
+      "max_C_error_vs_exact_grid": 0.0015438810046099647,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 1.3255731113244507e-06,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": false,
+      "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.55542670795694,
+        1.5702785000321455,
+        1.5861286669969559
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    },
+    {
+      "per_gate_depolarizing_p": 0.01,
+      "independent_readout_flip": 0.0,
+      "noisy_overlap_means": [
+        [
+          -5.869142665204663e-07,
+          -2.0504918025188168e-05
+        ],
+        [
+          -2.0504918025188168e-05,
+          1.3570579645016956e-05
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.0015705540721072193,
+      "max_C_error_vs_exact_grid": 0.00157025942506289,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 1.3482159176401402e-06,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": false,
+      "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.5768771670409478,
+        1.5703802090138197,
+        1.5502589590032585
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    },
+    {
+      "per_gate_depolarizing_p": 0.01,
+      "independent_readout_flip": 0.01,
+      "noisy_overlap_means": [
+        [
+          -5.75175981190057e-07,
+          -2.0094819664684404e-05
+        ],
+        [
+          -2.0094819664684404e-05,
+          1.3299168052116616e-05
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.0015705540476556132,
+      "max_C_error_vs_exact_grid": 0.0015702594006112838,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 1.3482158966272297e-06,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": false,
+      "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.5768771670409478,
+        1.5703802090138197,
+        1.5502589590032585
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    },
+    {
+      "per_gate_depolarizing_p": 0.01,
+      "independent_readout_flip": 0.03,
+      "noisy_overlap_means": [
+        [
+          -5.516994105292383e-07,
+          -1.9274622943676876e-05
+        ],
+        [
+          -1.9274622943676876e-05,
+          1.2756344866315937e-05
+        ]
+      ],
+      "max_C_device_bias_vs_ideal_circuit": 0.001570553998752401,
+      "max_C_error_vs_exact_grid": 0.0015702593517080716,
+      "top5_canonical": [
+        157,
+        161,
+        51,
+        45,
+        44
+      ],
+      "observed_top5_unchanged": true,
+      "max_score_bias": 1.3482158546014093e-06,
+      "device_C_bias_budget": 0.001,
+      "passes_device_C_bias_budget": false,
+      "worst_case_channel_C_bias_bound": 0.0041593775706303794,
+      "rank_bound_separated_with_gate_mixture_bias": false,
+      "density_simulation_seconds_per_pair": [
+        1.5768771670409478,
+        1.5703802090138197,
+        1.5502589590032585
+      ],
+      "readout_treatment": "exact affine transformation of Z expectation for independent final classical bit flips; not extra circuit execution",
+      "noise_scope": "synthetic local depolarization after every synthesized u/cx; no device calibration, T1/T2 or hardware execution"
+    }
+  ],
+  "noise_was_skipped": false,
+  "total_run_seconds": 16.073985625000205,
+  "process_rss_at_start_bytes": 92815360,
+  "process_peak_rss_bytes": 198148096,
+  "memory_scope": "process high-water mark including Python, Qiskit, synthesis and simulators; not an isolated circuit-state allocation",
+  "unmeasured_costs": [
+    "device pulse durations",
+    "physical T1/T2",
+    "queue time",
+    "actual hardware execution",
+    "target-scale state preparation"
+  ],
+  "source_sha256": {
+    "run.py": "55787351e9dfbcc51bdfd3aeef3162b1aec90bd7e0ff8595116bf9989dee5556",
+    "model.py": "f46e14722b674b4c4cf49bd72752aecb1ab74853b00d5929c607a910f14b6879",
+    "circuit.py": "33a8711b458480cf8f566f52e2920716c348fa21790d68ff6af759b42a4b27f2"
+  }
+}

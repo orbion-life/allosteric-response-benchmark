@@ -1,0 +1,26 @@
+{
+  "energy": "distance_hookean",
+  "d": 2,
+  "n": 33,
+  "extent_slowest_sigma": 4,
+  "delta_A": 0.9065902675096886,
+  "states": 1089,
+  "tau_model_time": 13.150494610292602,
+  "seconds": 0.40008066699374467,
+  "max_stationarity_residual": 1.8544841506549062e-16,
+  "boundary_probability": 1.3174100876300376e-12,
+  "prob_any_contact_strain_gt_0.2": 0.009007826866280943,
+  "mean_max_contact_strain": 0.04855273029978975,
+  "prob_strong_compression": 0.0,
+  "prob_noncontact_CA_overlap_lt_2A": 0.0,
+  "top5_canonical": [
+    60,
+    62,
+    69,
+    61,
+    65
+  ],
+  "max_abs_C": 0.0033006223167206072,
+  "normalization": "analytic all-mode harmonic SD of fixed quartic Ei",
+  "prob_sum": 1.0000000000000004
+}

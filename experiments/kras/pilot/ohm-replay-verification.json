@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-09-12T10:03:07.778431+00:00",
+  "upstream_commit": "462a3b1318e24ebe2061137fe88af719ef89c0ae",
+  "upstream_archive_sha256": "395dc1c3e561e21a65a8a2929331b3eb719ae3d66dba64dfe4c879589da140d5",
+  "patch_sha256": "d558b81d4870a6ad037958a36b1cc87cc06c50b606f787c0a696f9eb8f9f3b57",
+  "comparisons": {
+    "kras.mat": {
+      "expected_sha256": "729fa2c63d69cb0fa79158fd0e02ee9ddd94e3938d325d55ed2c664bc2bf6eed",
+      "replayed_sha256": "729fa2c63d69cb0fa79158fd0e02ee9ddd94e3938d325d55ed2c664bc2bf6eed",
+      "bitwise_equal": true
+    },
+    "primary.nodes": {
+      "expected_sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5",
+      "replayed_sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5",
+      "bitwise_equal": true
+    },
+    "primary.bonds": {
+      "expected_sha256": "d3c2917fe811d7ff3d730d685a141ea1efa164634cd51d627f60ec3ddb2519fc",
+      "replayed_sha256": "d3c2917fe811d7ff3d730d685a141ea1efa164634cd51d627f60ec3ddb2519fc",
+      "bitwise_equal": true
+    },
+    "primary.mdist": {
+      "expected_sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "replayed_sha256": "f93907a395933db3e61a1d3911a7cd17186d3380dbb29fe01f8c09fd4067e5c6",
+      "bitwise_equal": true
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "make",
+        "-j2",
+        "contacts",
+        "diffuse",
+        "CC=g++-15",
+        "FLAGS=-std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3"
+      ],
+      "cwd": "replay-ohm/source",
+      "stdout": "g++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c apps/contacts.cpp -o build/release/apps/contacts.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/pdb_residue.cpp -o build/release/src/jnc/src/bio/pdb_residue.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/pdb_types.cpp -o build/release/src/jnc/src/bio/pdb_types.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/pdb.cpp -o build/release/src/jnc/src/bio/pdb.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/pdb_atom.cpp -o build/release/src/jnc/src/bio/pdb_atom.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/bio.cpp -o build/release/src/jnc/src/bio/bio.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/mol2.cpp -o build/release/src/jnc/src/bio/mol2.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/rna_score_dist.cpp -o build/release/src/jnc/src/bio/rna_score_dist.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/pdb_model.cpp -o build/release/src/jnc/src/bio/pdb_model.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/rna_score_dih.cpp -o build/release/src/jnc/src/bio/rna_score_dih.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/pdb_chain.cpp -o build/release/src/jnc/src/bio/pdb_chain.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/bio_types.cpp -o build/release/src/jnc/src/bio/bio_types.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/bio/mol2_types.cpp -o build/release/src/jnc/src/bio/mol2_types.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/core/opt.cpp -o build/release/src/jnc/src/core/opt.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/core/math.cpp -o build/release/src/jnc/src/core/math.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/core/string.cpp -o build/release/src/jnc/src/core/string.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/core/mpi.cpp -o build/release/src/jnc/src/core/mpi.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/math/mat5.cpp -o build/release/src/jnc/src/math/mat5.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/math/mat4.cpp -o build/release/src/jnc/src/math/mat4.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c src/jnc/src/math/cluster.cpp -o build/release/src/jnc/src/math/cluster.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 -c apps/diffuse.cpp -o build/release/apps/diffuse.cpp.o -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 build/release/apps/contacts.cpp.o build/release/src/jnc/src/bio/pdb_residue.cpp.o build/release/src/jnc/src/bio/pdb_types.cpp.o build/release/src/jnc/src/bio/pdb.cpp.o build/release/src/jnc/src/bio/pdb_atom.cpp.o build/release/src/jnc/src/bio/bio.cpp.o build/release/src/jnc/src/bio/mol2.cpp.o build/release/src/jnc/src/bio/rna_score_dist.cpp.o build/release/src/jnc/src/bio/pdb_model.cpp.o build/release/src/jnc/src/bio/rna_score_dih.cpp.o build/release/src/jnc/src/bio/pdb_chain.cpp.o build/release/src/jnc/src/bio/bio_types.cpp.o build/release/src/jnc/src/bio/mol2_types.cpp.o build/release/src/jnc/src/core/opt.cpp.o build/release/src/jnc/src/core/math.cpp.o build/release/src/jnc/src/core/string.cpp.o build/release/src/jnc/src/core/mpi.cpp.o build/release/src/jnc/src/math/mat5.cpp.o build/release/src/jnc/src/math/mat4.cpp.o build/release/src/jnc/src/math/cluster.cpp.o -o install/bin/contacts -lz\ng++-15 -std=c++23 -Wno-everything -lstdc++ -Wwrite-strings -lm -Isrc -MMD -DNDEBUG -O3 build/release/apps/diffuse.cpp.o build/release/src/jnc/src/bio/pdb_residue.cpp.o build/release/src/jnc/src/bio/pdb_types.cpp.o build/release/src/jnc/src/bio/pdb.cpp.o build/release/src/jnc/src/bio/pdb_atom.cpp.o build/release/src/jnc/src/bio/bio.cpp.o build/release/src/jnc/src/bio/mol2.cpp.o build/release/src/jnc/src/bio/rna_score_dist.cpp.o build/release/src/jnc/src/bio/pdb_model.cpp.o build/release/src/jnc/src/bio/rna_score_dih.cpp.o build/release/src/jnc/src/bio/pdb_chain.cpp.o build/release/src/jnc/src/bio/bio_types.cpp.o build/release/src/jnc/src/bio/mol2_types.cpp.o build/release/src/jnc/src/core/opt.cpp.o build/release/src/jnc/src/core/math.cpp.o build/release/src/jnc/src/core/string.cpp.o build/release/src/jnc/src/core/mpi.cpp.o build/release/src/jnc/src/math/mat5.cpp.o build/release/src/jnc/src/math/mat4.cpp.o build/release/src/jnc/src/math/cluster.cpp.o -o install/bin/diffuse -lz\n",
+      "stderr": "clang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nld: warning: ignoring duplicate libraries: '-lstdc++'\nclang: warning: overriding deployment version from '16.0' to '26.0' [-Woverriding-deployment-version]\nld: warning: ignoring duplicate libraries: '-lstdc++'\n"
+    },
+    {
+      "argv": [
+        "replay-ohm/source/install/bin/contacts",
+        "kras.pdb",
+        "-oi",
+        "kras.ind",
+        "-oc",
+        "kras.mat",
+        "-c",
+        "3.4"
+      ],
+      "cwd": "replay-ohm/run",
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "replay-ohm/source/install/bin/diffuse",
+        "aci",
+        "kras.mat",
+        "11+12+13+14+15+16+17+18+28+30+32+116+117+119+120+145+146+147",
+        "primary.nodes",
+        "primary.bonds",
+        "-n",
+        "10000",
+        "-c",
+        "0.05",
+        "-norm",
+        "-a",
+        "4.5",
+        "-seed",
+        "11",
+        "-mdist",
+        "primary.mdist"
+      ],
+      "cwd": "replay-ohm/run",
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "caveat": "Exact numerical output may vary across compiler, standard library or architecture. The recorded successful repeat uses this host compiler; no cross-platform bitwise portability is claimed.",
+  "public_path_normalization": "Absolute local paths were converted to portable relative paths. Numeric results and scientific command arguments were unchanged. The local original is retained in the project audit."
+}

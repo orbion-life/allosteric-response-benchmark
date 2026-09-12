@@ -1,0 +1,184 @@
+{
+  "repeated_utc": "2026-09-12T10:09:42.513274+00:00",
+  "seconds": 68.00152408296708,
+  "scope": "fresh model preparation and all24 finite-grid cases, eight all-mode/retained-mode analytic cases and graph/geometric controls; same host and pinned Python environment",
+  "runs": [
+    {
+      "script": "prepare.py",
+      "code_sha256": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b"
+    },
+    {
+      "script": "run_pilot.py",
+      "code_sha256": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053"
+    }
+  ],
+  "result_files": [
+    {
+      "file": "analytic-harmonic-d1.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "analytic-harmonic-d16.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "analytic-harmonic-d2.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "analytic-harmonic-d32.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "analytic-harmonic-d4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "analytic-harmonic-d492.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "analytic-harmonic-d64.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "analytic-harmonic-d8.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "biquadratic-d1-n33-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "biquadratic-d1-n4-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "biquadratic-d1-n65-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "biquadratic-d2-n17-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "biquadratic-d2-n33-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "biquadratic-d2-n41-e5.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "biquadratic-d2-n49-e6.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "biquadratic-d2-n65-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "distance_hookean-d1-n33-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "distance_hookean-d1-n4-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "distance_hookean-d1-n65-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "distance_hookean-d2-n17-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "distance_hookean-d2-n33-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "distance_hookean-d2-n41-e5.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "distance_hookean-d2-n49-e6.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "distance_hookean-d2-n65-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "harmonic-d1-n33-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "harmonic-d1-n4-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "harmonic-d1-n65-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "harmonic-d2-n17-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "harmonic-d2-n33-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "harmonic-d2-n41-e5.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "harmonic-d2-n49-e6.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "harmonic-d2-n65-e4.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "structural-baselines.npz",
+      "all_arrays_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "all_arrays_bitwise_identical": true,
+  "cross_platform_guarantee": false
+}

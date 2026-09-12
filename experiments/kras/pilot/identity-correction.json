@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-09-12T10:00:44.209966+00:00",
+  "status": "annotation correction; no model parameters, coordinates, scores, receiver or candidates changed",
+  "corrected_identity": "KRAS4B / UniProt P01116-2 residues1\u2013166",
+  "reason": "SIFTS P01116 residue-number mapping is valid here, but the currently displayed P01116-1 sequence is KRAS4A and differs at residue151. 4OBE matches the KRAS4B isoform over all166 modeled residues. The frozen model used accession-level labels, not a claim of canonical-isoform sequence identity.",
+  "source": "https://rest.uniprot.org/uniprotkb/P01116-2.fasta",
+  "fasta_sha256": "8bcf1d107ea750b5ddc8a0f80b60227d16a3e559a6744798aea46b65fc97663b",
+  "checked_residues": 166,
+  "amino_acid_mismatches": []
+}

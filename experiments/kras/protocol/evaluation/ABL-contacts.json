@@ -1,0 +1,264 @@
+{
+  "target": "ABL",
+  "reference": "5MO4",
+  "ligand": "AY7",
+  "ligand_auth_seq": 602,
+  "threshold_A": 5.0,
+  "input_freeze_sha256": "aab2e9670fa2d1eb877b5fc024b37623338f7359235a85b45ea72f5f59b6deed",
+  "reference_sha256": "5205ad733aec8c4b9e73130c31424f7291e907662493c65ce56ecf298a5843d0",
+  "contacts": [
+    {
+      "auth_chain": "A",
+      "auth_seq": 351,
+      "resname": "ARG",
+      "canonical": 332,
+      "distance_A": 3.786709785461426,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 355,
+      "resname": "ASN",
+      "canonical": 336,
+      "distance_A": 4.818652629852295,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 356,
+      "resname": "ALA",
+      "canonical": 337,
+      "distance_A": 3.6788506507873535,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 359,
+      "resname": "LEU",
+      "canonical": 340,
+      "distance_A": 3.2234697341918945,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 360,
+      "resname": "LEU",
+      "canonical": 341,
+      "distance_A": 3.3809993267059326,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 363,
+      "resname": "ALA",
+      "canonical": 344,
+      "distance_A": 3.5739998817443848,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 448,
+      "resname": "LEU",
+      "canonical": 429,
+      "distance_A": 3.266122579574585,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 451,
+      "resname": "ILE",
+      "canonical": 432,
+      "distance_A": 3.6106348037719727,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 452,
+      "resname": "ALA",
+      "canonical": 433,
+      "distance_A": 3.524031639099121,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 453,
+      "resname": "THR",
+      "canonical": 434,
+      "distance_A": 3.47455096244812,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 454,
+      "resname": "TYR",
+      "canonical": 435,
+      "distance_A": 3.865053653717041,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 456,
+      "resname": "MET",
+      "canonical": 437,
+      "distance_A": 4.201380252838135,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 480,
+      "resname": "PRO",
+      "canonical": 461,
+      "distance_A": 4.688117504119873,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 481,
+      "resname": "GLU",
+      "canonical": 462,
+      "distance_A": 2.8206961154937744,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 482,
+      "resname": "GLY",
+      "canonical": 463,
+      "distance_A": 4.393421649932861,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 483,
+      "resname": "CYS",
+      "canonical": 464,
+      "distance_A": 3.8365490436553955,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 484,
+      "resname": "PRO",
+      "canonical": 465,
+      "distance_A": 3.7342782020568848,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 487,
+      "resname": "VAL",
+      "canonical": 468,
+      "distance_A": 3.6844847202301025,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 491,
+      "resname": "MET",
+      "canonical": 472,
+      "distance_A": 4.94447135925293,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 512,
+      "resname": "PHE",
+      "canonical": 493,
+      "distance_A": 3.627934694290161,
+      "eligible": true,
+      "exclusion_reason": "eligible",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 521,
+      "resname": "ILE",
+      "canonical": 502,
+      "distance_A": 3.622063159942627,
+      "eligible": false,
+      "exclusion_reason": "outside modeled domain",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 525,
+      "resname": "VAL",
+      "canonical": 506,
+      "distance_A": 3.6750991344451904,
+      "eligible": false,
+      "exclusion_reason": "outside modeled domain",
+      "reference_sequence_match": true
+    },
+    {
+      "auth_chain": "A",
+      "auth_seq": 529,
+      "resname": "LEU",
+      "canonical": 510,
+      "distance_A": 3.756934881210327,
+      "eligible": false,
+      "exclusion_reason": "outside modeled domain",
+      "reference_sequence_match": true
+    }
+  ],
+  "eligible_canonical": [
+    332,
+    336,
+    337,
+    340,
+    341,
+    344,
+    429,
+    432,
+    433,
+    434,
+    435,
+    437,
+    461,
+    462,
+    463,
+    464,
+    465,
+    468,
+    472,
+    493
+  ],
+  "status": "retrospective designated-ligand labels; not an independent protein cohort"
+}

@@ -1,0 +1,77 @@
+{
+  "verified_utc": "2026-09-12T10:08:11.231166+00:00",
+  "primary_repetition": {
+    "case": "biquadratic d2 n33 extent4",
+    "maximum_absolute_array_differences": {
+      "C": 0.0,
+      "R": 0.0,
+      "pi": 0.0,
+      "U": 0.0,
+      "score": 0.0
+    },
+    "identical_full_candidate_order": true
+  },
+  "contact_covariance_formula": [
+    {
+      "fixture": 0,
+      "Hermite_contraction": 4.310070074597639,
+      "independent_6D_Gauss_Hermite_quadrature": 4.310070074597647,
+      "absolute_difference": 7.993605777301127e-15
+    },
+    {
+      "fixture": 1,
+      "Hermite_contraction": 15.545661135704252,
+      "independent_6D_Gauss_Hermite_quadrature": 15.545661135704252,
+      "absolute_difference": 0.0
+    },
+    {
+      "fixture": 2,
+      "Hermite_contraction": 104.35602612506135,
+      "independent_6D_Gauss_Hermite_quadrature": 104.35602612506148,
+      "absolute_difference": 1.2789769243681803e-13
+    },
+    {
+      "fixture": 3,
+      "Hermite_contraction": 114.16521088324104,
+      "independent_6D_Gauss_Hermite_quadrature": 114.16521088324114,
+      "absolute_difference": 9.947598300641403e-14
+    },
+    {
+      "fixture": 4,
+      "Hermite_contraction": 0.3883968440759082,
+      "independent_6D_Gauss_Hermite_quadrature": 0.38839684407592046,
+      "absolute_difference": 1.226796442210798e-14
+    },
+    {
+      "fixture": 5,
+      "Hermite_contraction": 9.673225283468389,
+      "independent_6D_Gauss_Hermite_quadrature": 9.673225283468394,
+      "absolute_difference": 5.329070518200751e-15
+    }
+  ],
+  "direct_finite_field_response": [
+    {
+      "perturbed_canonical_residue": 4,
+      "one_sided_h": 0.0001,
+      "max_absolute_response_difference": 1.877942149274059e-15
+    },
+    {
+      "perturbed_canonical_residue": 60,
+      "one_sided_h": 0.0001,
+      "max_absolute_response_difference": 6.843677954129852e-15
+    },
+    {
+      "perturbed_canonical_residue": 157,
+      "one_sided_h": 0.0001,
+      "max_absolute_response_difference": 8.514822842712851e-14
+    }
+  ],
+  "actual_KRAS_d1_d2_Wick_checks": "results/analytic-checks.json",
+  "scope": "These checks validate the implementation and exact harmonic contraction. They do not validate a reduced protein model biologically.",
+  "source_sha256": {
+    "prepare.py": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b",
+    "run_pilot.py": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053",
+    "evaluate.py": "d51591107d9300d9912bcf9b8b7d0310cfdd25b2817a5d113a5ebffc72780e69",
+    "verify.py": "287e346256f6bd615e4ca30fd0ec81e60f641bd46aaa1d6928df69220559a0a7"
+  }
+}

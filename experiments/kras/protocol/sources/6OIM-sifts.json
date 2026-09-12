@@ -1,0 +1,1 @@
+{"6oim":{"UniProt":{"P01116":{"name":"RASK_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":1,"unp_end":169,"start":{"author_residue_number":1,"author_insertion_code":"","residue_number":15},"end":{"author_residue_number":169,"author_insertion_code":"","residue_number":183},"identity":0.94,"coverage":0.894}],"identifier":"RASK_HUMAN"}}}}

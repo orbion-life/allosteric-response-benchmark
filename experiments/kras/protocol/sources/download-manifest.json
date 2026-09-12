@@ -1,0 +1,163 @@
+[
+  {
+    "file": "1NKP-sifts.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/1nkp",
+    "sha256": "a3b3b451cdeeeb40bfdfa4b362bdb63aa1fbea530b6959938c6babbb88916a8f",
+    "bytes": 1277,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "1NKP.cif",
+    "url": "https://files.rcsb.org/download/1NKP.cif",
+    "sha256": "8176ab2ee454464186c2c50cbf11ad52a65ec0a836bc0ad0ecdf4603966b8517",
+    "bytes": 567856,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "1OPL-sifts.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/1opl",
+    "sha256": "3ca406d31ed717db1b69254f9b8252150084797a0a5d35909d209c137f672eb5",
+    "bytes": 1225,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "1OPL.cif",
+    "url": "https://files.rcsb.org/download/1OPL.cif",
+    "sha256": "af3a6348cbf0748243503f3aeec85f8cf0fa37a4989696cbfb4afa7424a97f6a",
+    "bytes": 730696,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "4OBE-sifts.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/4obe",
+    "sha256": "b7fc35c0e19bd8ac44fee88b23b27f7289969c67c22c160e8eac065b656c625a",
+    "bytes": 650,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "4OBE.cif",
+    "url": "https://files.rcsb.org/download/4OBE.cif",
+    "sha256": "bc5738721380320d37c216a8f4412ddd3f66fad375c60fc0d0626bc6c277e5d7",
+    "bytes": 888328,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "5MO4-sifts.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/5mo4",
+    "sha256": "a550aefb82fd82b816048ff429c5e635628654b83f56a8f3b8808e6039e596f2",
+    "bytes": 376,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "5MO4.cif",
+    "url": "https://files.rcsb.org/download/5MO4.cif",
+    "sha256": "5205ad733aec8c4b9e73130c31424f7291e907662493c65ce56ecf298a5843d0",
+    "bytes": 460182,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "5TBY-sifts.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/5tby",
+    "sha256": "0ecb0f4e9b4a0544d05c76e6f50ab6b4719fa4d6311bc908a97e2227faf483b1",
+    "bytes": 1912,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "5TBY.cif",
+    "url": "https://files.rcsb.org/download/5TBY.cif",
+    "sha256": "3d9a579847a11335ecf3b1dc858088ca2c046d7ddfa6fea0943ff17b6b319911",
+    "bytes": 2201773,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "6C1H-sifts.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/6c1h",
+    "sha256": "bf7c1c4abac5c8c19d41b4e02b8acca853be26d4218725b33fe2d8dbd4e24f5f",
+    "bytes": 2179,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "6C1H.cif",
+    "url": "https://files.rcsb.org/download/6C1H.cif",
+    "sha256": "3999fcb2b17f4de74163544a712adf1f28f45fe932d2ce6674db9d8aec9ef63c",
+    "bytes": 2259872,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "6OIM-sifts.json",
+    "url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/6oim",
+    "sha256": "3d8a4157036d217caf084ba56f3decbc4a418c19b2b66a2ae8f3a3ac2058038b",
+    "bytes": 372,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "6OIM.cif",
+    "url": "https://files.rcsb.org/download/6OIM.cif",
+    "sha256": "0ab0ab91e9dd078b83cf4149118e31b3f3ac7252eb1e47b1ff11e77574d97de9",
+    "bytes": 255266,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P00519.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P00519.json",
+    "sha256": "5b0171beb95c871df1f6556a2eb198976a3834c9ea3a8134dab893f3947b72db",
+    "bytes": 189053,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P01106.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P01106.json",
+    "sha256": "a6772da041c31af299e9d9dc6ba61345e3113fa6a1da27a50e0c567178786256",
+    "bytes": 133023,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P01116-1.fasta",
+    "url": "https://rest.uniprot.org/uniprotkb/P01116-1.fasta",
+    "sha256": "60a8a26c3f7bb3d7061a5b37472a7ea106ab391106d7e7d5b725ba7198346b1c",
+    "bytes": 275,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P01116-2.fasta",
+    "url": "https://rest.uniprot.org/uniprotkb/P01116-2.fasta",
+    "sha256": "8bcf1d107ea750b5ddc8a0f80b60227d16a3e559a6744798aea46b65fc97663b",
+    "bytes": 274,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P01116.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P01116.json",
+    "sha256": "54e2d937a79f84a4b9e6039fe4de4632290b1456cfc069b71b98dcd1880140fa",
+    "bytes": 266929,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P08590.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P08590.json",
+    "sha256": "b853c41b780384fb52adbac67f51ded906b91f22a2cecbfb45474dd8c47dc11b",
+    "bytes": 41392,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P10916.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P10916.json",
+    "sha256": "64de6fc8408eed7957c401a8c65e249cb4f766ca633d0dafb165db7315d28265",
+    "bytes": 44034,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P12883.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P12883.json",
+    "sha256": "5558948a8e6fde7b1d0ee6c11988e9c4a1a7d4bfa0481d2ece60f1c060cc0f3e",
+    "bytes": 240277,
+    "retrieved_date": "2026-09-12"
+  },
+  {
+    "file": "P61244.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P61244.json",
+    "sha256": "0bcc704f2ab040684770d9da414d405576534959972399a3142d10cd7834eaf2",
+    "bytes": 81779,
+    "retrieved_date": "2026-09-12"
+  }
+]

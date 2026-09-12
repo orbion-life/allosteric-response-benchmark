@@ -1,0 +1,318 @@
+{
+  "status": "Executed upstream Ohm on a static KRAS input; no reference labels used in scoring",
+  "upstream": "https://bitbucket.org/dokhlab/ohm",
+  "commit": "462a3b1318e24ebe2061137fe88af719ef89c0ae",
+  "license": "GPL-3.0",
+  "compiler": "g++-15 (Homebrew GCC 15.1.0) 15.1.0",
+  "input_sha256": "6dfe82769e4eb45ada983ecb6d0c0f4db212a9dda02bcd1c083d865fe4f294b2",
+  "protocol_input_sha256": "d8b13284e30902684869ba4397101244d92323a048e6558700b09590676a24bc",
+  "pilot_input_sha256": "601defa17c82aa420b0d624ad2d6913de6ba61f44efb263c4162ded165041d71",
+  "executable_hashes": {
+    "contacts": "c97cb5c211947128db6913eb8efeb541afddb919b9d0d573ecd81e1e53b04e7f",
+    "diffuse": "da748b409771ae1c134ffb680f17bffe64645500500206b048b8a764a1433cf0"
+  },
+  "results": {
+    "primary": {
+      "cli_alpha": 4.5,
+      "internal_alpha": 0.5,
+      "seed": 11,
+      "rounds": 10000,
+      "top5": [
+        {
+          "residue": 158,
+          "score": 1.22022
+        },
+        {
+          "residue": 127,
+          "score": 1.20809
+        },
+        {
+          "residue": 128,
+          "score": 1.19244
+        },
+        {
+          "residue": 153,
+          "score": 1.18395
+        },
+        {
+          "residue": 85,
+          "score": 1.18185
+        }
+      ],
+      "nodes_sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5"
+    },
+    "repeat": {
+      "cli_alpha": 4.5,
+      "internal_alpha": 0.5,
+      "seed": 11,
+      "rounds": 10000,
+      "top5": [
+        {
+          "residue": 158,
+          "score": 1.22022
+        },
+        {
+          "residue": 127,
+          "score": 1.20809
+        },
+        {
+          "residue": 128,
+          "score": 1.19244
+        },
+        {
+          "residue": 153,
+          "score": 1.18395
+        },
+        {
+          "residue": 85,
+          "score": 1.18185
+        }
+      ],
+      "nodes_sha256": "e17577fb6c8b25505b4e51c5b7dd756dfd37522de0f645fa49dceac6b46dbba5"
+    },
+    "seed29": {
+      "cli_alpha": 4.5,
+      "internal_alpha": 0.5,
+      "seed": 29,
+      "rounds": 10000,
+      "top5": [
+        {
+          "residue": 158,
+          "score": 1.32833
+        },
+        {
+          "residue": 124,
+          "score": 1.18862
+        },
+        {
+          "residue": 86,
+          "score": 1.18185
+        },
+        {
+          "residue": 87,
+          "score": 1.18185
+        },
+        {
+          "residue": 110,
+          "score": 1.18155
+        }
+      ],
+      "nodes_sha256": "ce164171ac1773e48156896c610544eb4ddcec280b111c8c6104eef5b1575c7f"
+    },
+    "seed47": {
+      "cli_alpha": 4.5,
+      "internal_alpha": 0.5,
+      "seed": 47,
+      "rounds": 10000,
+      "top5": [
+        {
+          "residue": 158,
+          "score": 1.22022
+        },
+        {
+          "residue": 153,
+          "score": 1.18395
+        },
+        {
+          "residue": 85,
+          "score": 1.18185
+        },
+        {
+          "residue": 37,
+          "score": 1.17036
+        },
+        {
+          "residue": 57,
+          "score": 1.16757
+        }
+      ],
+      "nodes_sha256": "2a6ed6cdb6f211d3c8187e179e4608d99c900661d89031c6889de66c770ba2c2"
+    },
+    "alpha3": {
+      "cli_alpha": 29.5,
+      "internal_alpha": 3.0,
+      "seed": 11,
+      "rounds": 10000,
+      "top5": [
+        {
+          "residue": 90,
+          "score": 1.98999
+        },
+        {
+          "residue": 25,
+          "score": 1.92271
+        },
+        {
+          "residue": 24,
+          "score": 1.86397
+        },
+        {
+          "residue": 102,
+          "score": 1.78937
+        },
+        {
+          "residue": 69,
+          "score": 1.78747
+        }
+      ],
+      "nodes_sha256": "fdb629c979e06c70cd5abbbea2cb3b8f9f8ef221294b755f369a5e9da77f9add"
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "../pilot/replay-ohm/source/install/bin/contacts",
+        "kras.pdb",
+        "-oi",
+        "kras.ind",
+        "-oc",
+        "kras.mat",
+        "-c",
+        "3.4"
+      ],
+      "elapsed_s": 0.033442708000000015,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "format-sites.py",
+        "A/11+12+13+14+15+16+17+18+28+30+32+116+117+119+120+145+146+147",
+        "kras.ind",
+        "kras.active"
+      ],
+      "elapsed_s": 0.032130167000000015,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "../pilot/replay-ohm/source/install/bin/diffuse",
+        "aci",
+        "kras.mat",
+        "11+12+13+14+15+16+17+18+28+30+32+116+117+119+120+145+146+147",
+        "primary.nodes",
+        "primary.bonds",
+        "-n",
+        "10000",
+        "-c",
+        "0.05",
+        "-norm",
+        "-a",
+        "4.5",
+        "-seed",
+        "11",
+        "-mdist",
+        "primary.mdist"
+      ],
+      "elapsed_s": 0.170220625,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "../pilot/replay-ohm/source/install/bin/diffuse",
+        "aci",
+        "kras.mat",
+        "11+12+13+14+15+16+17+18+28+30+32+116+117+119+120+145+146+147",
+        "repeat.nodes",
+        "repeat.bonds",
+        "-n",
+        "10000",
+        "-c",
+        "0.05",
+        "-norm",
+        "-a",
+        "4.5",
+        "-seed",
+        "11",
+        "-mdist",
+        "repeat.mdist"
+      ],
+      "elapsed_s": 0.16996633300000002,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "../pilot/replay-ohm/source/install/bin/diffuse",
+        "aci",
+        "kras.mat",
+        "11+12+13+14+15+16+17+18+28+30+32+116+117+119+120+145+146+147",
+        "seed29.nodes",
+        "seed29.bonds",
+        "-n",
+        "10000",
+        "-c",
+        "0.05",
+        "-norm",
+        "-a",
+        "4.5",
+        "-seed",
+        "29",
+        "-mdist",
+        "seed29.mdist"
+      ],
+      "elapsed_s": 0.169196334,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "../pilot/replay-ohm/source/install/bin/diffuse",
+        "aci",
+        "kras.mat",
+        "11+12+13+14+15+16+17+18+28+30+32+116+117+119+120+145+146+147",
+        "seed47.nodes",
+        "seed47.bonds",
+        "-n",
+        "10000",
+        "-c",
+        "0.05",
+        "-norm",
+        "-a",
+        "4.5",
+        "-seed",
+        "47",
+        "-mdist",
+        "seed47.mdist"
+      ],
+      "elapsed_s": 0.17007391699999996,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "../pilot/replay-ohm/source/install/bin/diffuse",
+        "aci",
+        "kras.mat",
+        "11+12+13+14+15+16+17+18+28+30+32+116+117+119+120+145+146+147",
+        "alpha3.nodes",
+        "alpha3.bonds",
+        "-n",
+        "10000",
+        "-c",
+        "0.05",
+        "-norm",
+        "-a",
+        "29.5",
+        "-seed",
+        "11",
+        "-mdist",
+        "alpha3.mdist"
+      ],
+      "elapsed_s": 0.18803737500000006,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "caveats": [
+    "This is the 2024 upstream implementation, not exact reconstruction of the 2020 paper.",
+    "Current upstream excludes all backbone-backbone contacts, symmetrizes probabilities from the upper triangle, remaps CLI alpha and transforms ACI through path distance.",
+    "The current implementation computes a path-normalized score unconditionally; -norm is preserved from README but is not a branch in current code.",
+    "No biology accuracy result follows from a successful numerical run."
+  ],
+  "source_record_sha256": "03e434ea405728176c47972f9b86662e1a86354ae4730407f3bd207784661e53",
+  "sanitization": "Local executable locations were replaced with portable replay-relative paths; scientific arguments, hashes, parameters and results are unchanged."
+}

@@ -1,0 +1,1 @@
+{"5mo4":{"UniProt":{"P00519":{"name":"ABL1_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":27,"unp_end":515,"start":{"author_residue_number":null,"author_insertion_code":"","residue_number":7},"end":{"author_residue_number":null,"author_insertion_code":"","residue_number":495},"identity":0.99,"coverage":0.433}],"identifier":"ABL1_HUMAN"}}}}
