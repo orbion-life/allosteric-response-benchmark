@@ -3936,14 +3936,19 @@
       "sha256": "1074eee5d92783a259cdbb8c4ac724f13da7229811e6bcff159ad4060c92dc2b"
     },
     {
+      "path": "experiments/observable-preserving-reduction/audit/package-integration-receipt.json",
+      "bytes": 20053,
+      "sha256": "a79162417bc4784f42696352445e68d7f55bf0a56c55470be32068c59aa327db"
+    },
+    {
       "path": "experiments/observable-preserving-reduction/audit/parent-direct-verification.json",
       "bytes": 301,
       "sha256": "44e514ace31d4e2feb0d1ac7e3c6503a2b9d4d1170cc6c72cf2ffb8ff52d672b"
     },
     {
       "path": "experiments/observable-preserving-reduction/audit/public-document-adaptations.json",
-      "bytes": 591,
-      "sha256": "c2ba51b3847b71efe0c61137f8b3eeee53213a44d5c23b20becddf27b9b2a1b8"
+      "bytes": 682,
+      "sha256": "48e69bbc1b850faa6f4e30683c317d8c8ff3fe982557c71c28f7549703ef493a"
     },
     {
       "path": "experiments/observable-preserving-reduction/audit/results-independent-review.md",
@@ -3992,8 +3997,8 @@
     },
     {
       "path": "experiments/observable-preserving-reduction/docs/operator-mathematical-audit.md",
-      "bytes": 13092,
-      "sha256": "f66abecb562851d73789168880859baac087d2883ddad1bbc4eb445e3db01f74"
+      "bytes": 12946,
+      "sha256": "60d39db2c4dc3b84fba1bcc66f1178817cd68caa82b0b02d7555fd68a3eb1308"
     },
     {
       "path": "experiments/observable-preserving-reduction/figures/convergence-data.csv",
