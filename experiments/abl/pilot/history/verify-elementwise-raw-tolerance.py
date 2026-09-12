@@ -10,16 +10,16 @@ RAW_RTOL = 1e-10
 # These quantities retain their unnormalised physical or polynomial scale.
 # All other floating arrays, including C, score and equilibrium, use rtol=0.
 RAW_SCALE_FIELDS = frozenset({
-    'monomial_mean', 'monomial_centered', 'covariance', 'time_covariance',
+    'monomial_mean', 'monomial_centered', 'monomial_covariance',
+    'monomial_time_covariance', 'covariance', 'time_covariance',
     'R', 'sd', 'harmonic_sd',
 })
-COVARIANCE_SCALE_FIELDS = frozenset({'monomial_covariance', 'monomial_time_covariance'})
 EXACT_FIELDS = frozenset({'order', 'canonical', 'receiver', 'candidate',
                           'edges', 'degree', 'powers', 'dimensions',
                           'H_indices', 'H_indptr'})
 
 
-def compare_array(key, reference, actual, frozen_static_covariance=None):
+def compare_array(key, reference, actual):
     """Compare actual against the frozen reference using a field-specific policy.
 
     The relative tolerance applies only to explicitly named unnormalised fields.
@@ -43,46 +43,23 @@ def compare_array(key, reference, actual, frozen_static_covariance=None):
     diagnostic = {'array': key, 'policy': policy, 'atol': 0.0 if exact else ATOL,
                   'rtol': rtol, 'bitwise_equal_values': equal,
                   'max_absolute_difference': err}
-    if key in COVARIANCE_SCALE_FIELDS:
-        # A covariance can vanish by parity while its feature scales are large.
-        # Use the FROZEN equal-time covariance, never actual-dependent scales.
-        if key == 'monomial_covariance':
-            if frozen_static_covariance is not None:
-                assert np.array_equal(reference, frozen_static_covariance), (key, 'scale must be the frozen static covariance')
-            covariance = reference
-        else:
-            assert frozen_static_covariance is not None, (key, 'missing frozen static covariance')
-            covariance = np.asarray(frozen_static_covariance)
-        assert reference.ndim == 2 and reference.shape[0] == reference.shape[1], (key, 'nonsquare covariance')
-        assert covariance.shape == reference.shape and covariance.dtype.kind == 'f', (key, 'invalid scale shape or dtype')
-        assert np.isfinite(covariance).all(), (key, 'nonfinite scale covariance')
-        variance = np.diag(covariance)
-        assert np.all(variance > 0), (key, 'nonpositive reference variance')
-        scale = np.outer(np.sqrt(variance), np.sqrt(variance))
-        assert np.isfinite(scale).all() and np.all(scale > 0), (key, 'invalid scale products')
-        scaled_error = float(np.max(np.abs(actual-reference)/scale))
-        diagnostic.update(policy='frozen_covariance_standardized', atol=ATOL, rtol=0.0,
-                          max_standardized_difference=scaled_error,
-                          scale_source='frozen equal-time monomial covariance diagonal')
-        passed = scaled_error <= ATOL
     assert passed, diagnostic
     return diagnostic
 
 
-def main(repeat=None):
+def main():
     freeze=json.loads((ROOT/'prediction-freeze.json').read_text())
     assert all(sha(ROOT/p)==h for p,h in freeze['files'].items())
-    repeat=Path(repeat) if repeat is not None else ROOT/'checks/fresh-replay'; comparison=[]
+    repeat=ROOT/'checks/fresh-replay'; comparison=[]
     for path in sorted(ROOT.glob('model/*.npz'))+sorted(ROOT.glob('results/*.npz')):
         other=repeat/path.relative_to(ROOT);a=np.load(path);b=np.load(other);assert set(a.files)==set(b.files)
         differences=[]
         for k in a.files:
             try:
-                static_covariance=a['monomial_covariance'] if k in COVARIANCE_SCALE_FIELDS else None
-                differences.append(compare_array(k, a[k], b[k], static_covariance))
+                differences.append(compare_array(k, a[k], b[k]))
             except AssertionError as exc:
                 raise AssertionError((str(path.relative_to(ROOT)), str(exc))) from exc
-        comparison.append({'path':str(path.relative_to(ROOT)),'frozen_sha256':sha(path),'replay_sha256':sha(other),'arrays':differences})
+        comparison.append({'path':str(path.relative_to(ROOT)),'arrays':differences})
     checks=[]
     for p in sorted(ROOT.glob('results/*.npz')):
         z=np.load(p)
@@ -103,10 +80,6 @@ def main(repeat=None):
         compare_array('score',z['score'],score)
         compare_array('order',z['order'],order)
         assert ids[order[:5]].tolist()==[r['canonical'] for r in e['methods'][name]['top5']]
-    dump(ROOT/'checks/verification-current.json',{'status':'passed','verifier_sha256':sha(ROOT/'verify.py'),'comparison_policy':{'absolute_tolerance':ATOL,'raw_relative_tolerance':RAW_RTOL,'raw_scale_fields':sorted(RAW_SCALE_FIELDS),'covariance_scale_fields':sorted(COVARIANCE_SCALE_FIELDS),'covariance_policy':'absolute error divided by frozen equal-time monomial SD outer product <= 1e-10; no actual-dependent scales','exact_fields':sorted(EXACT_FIELDS),'default_floating_policy':'strict absolute','nonfinite_values':'rejected'},'historical_receipt':'checks/verification.json','all_numeric_values_bitwise_equal_on_fresh_replay':all(a['bitwise_equal_values'] for f in comparison for a in f['arrays']),'archive_count':len(comparison),'comparison':comparison,'matrix_invariants':checks,'unknown_labels_excluded_from_null':True,'unique_matched_configurations':len(configs),'stratum_counts_preserved':True,'prediction_protocol_sha256':freeze['protocol_sha256'],'scope':'Numerical replay agreement under the recorded field-specific tolerances; this does not establish physical accuracy or biological validity.'})
+    dump(ROOT/'checks/verification-current.json',{'status':'passed','verifier_sha256':sha(ROOT/'verify.py'),'comparison_policy':{'absolute_tolerance':ATOL,'raw_relative_tolerance':RAW_RTOL,'raw_scale_fields':sorted(RAW_SCALE_FIELDS),'exact_fields':sorted(EXACT_FIELDS),'default_floating_policy':'strict absolute','nonfinite_values':'rejected'},'historical_receipt':'checks/verification.json','all_numeric_values_bitwise_equal_on_fresh_replay':all(a['bitwise_equal_values'] for f in comparison for a in f['arrays']),'archive_count':len(comparison),'comparison':comparison,'matrix_invariants':checks,'unknown_labels_excluded_from_null':True,'unique_matched_configurations':len(configs),'stratum_counts_preserved':True,'prediction_protocol_sha256':freeze['protocol_sha256'],'scope':'Numerical replay agreement under the recorded field-specific tolerances; this does not establish physical accuracy or biological validity.'})
     print(json.dumps({'status':'passed','archives':len(comparison),'bitwise_equal':all(a['bitwise_equal_values'] for f in comparison for a in f['arrays'])}))
-if __name__=='__main__':
-    import argparse
-    parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--replay', type=Path, help='Replay directory containing model/ and results/; defaults to checks/fresh-replay.')
-    main(parser.parse_args().replay)
+if __name__=='__main__':main()

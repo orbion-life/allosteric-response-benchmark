@@ -50,8 +50,8 @@
     },
     {
       "path": "RELEASE-NOTES-v0.3.0.md",
-      "bytes": 2017,
-      "sha256": "0a25fb35d9d70b7890d846b3bdd5ed89f62771a5eb9faf4ff03cf4472eef6958"
+      "bytes": 2330,
+      "sha256": "d1d158d91400ef8ab5ba7f207a0f260b11c1d353dab74cf88e5e35290f59680e"
     },
     {
       "path": "SYNTHETIC_BENCHMARK.md",
@@ -90,13 +90,13 @@
     },
     {
       "path": "experiments/abl/pilot/README.md",
-      "bytes": 15990,
-      "sha256": "7d4796b003f419ac7520a68884177fe4110bf0220138a5625112b5e943997ab6"
+      "bytes": 16687,
+      "sha256": "6fcac5a862b092987d31e3c32fdda74edd6274ddc5ec967f9fee748cf6081dc9"
     },
     {
       "path": "experiments/abl/pilot/SHA256SUMS.json",
-      "bytes": 6745,
-      "sha256": "7dd99962e5eff99ffbe3a4c059908ef40bc64282d1ce963799ab7543222b565e"
+      "bytes": 7205,
+      "sha256": "680f8b31ffdea8aa4517376586c17af46a1e2466f26b7f6860c5fa5a01e0a098"
     },
     {
       "path": "experiments/abl/pilot/bounded_run.py",
@@ -130,8 +130,8 @@
     },
     {
       "path": "experiments/abl/pilot/checks/verification-current.json",
-      "bytes": 35050,
-      "sha256": "de4df9d32629118dd0a888c66eb5e702277c9b71cd578b2bbae50a2ebbd59874"
+      "bytes": 41311,
+      "sha256": "80ea39533097b31956070fa61046c1dc7eb927615964bc354055309a3e13f423"
     },
     {
       "path": "experiments/abl/pilot/checks/verification.json",
@@ -140,8 +140,8 @@
     },
     {
       "path": "experiments/abl/pilot/checks/verifier-portability-tests.json",
-      "bytes": 1515,
-      "sha256": "10e01428c9b8ab62a3c3833fb3f6624411f6136b76b4f935af6eaae002fc79b5"
+      "bytes": 1993,
+      "sha256": "c90369efb7777d4dfe436b1713d5b94cfaf20cab980f2a2fb531473ffc9e0c25"
     },
     {
       "path": "experiments/abl/pilot/evaluate.py",
@@ -199,9 +199,29 @@
       "sha256": "97d26d647dc85c0fca1b035aba9b5c89ab127a36b9779957508a7f894c2e96e2"
     },
     {
+      "path": "experiments/abl/pilot/history/test-verify-elementwise.py",
+      "bytes": 3975,
+      "sha256": "8e4ebed6bb2665ce09651aaf043d65199f320af47dc4b0c86bd3064b5288c858"
+    },
+    {
+      "path": "experiments/abl/pilot/history/verification-macos-elementwise.json",
+      "bytes": 35050,
+      "sha256": "de4df9d32629118dd0a888c66eb5e702277c9b71cd578b2bbae50a2ebbd59874"
+    },
+    {
       "path": "experiments/abl/pilot/history/verification-macos-v0.3.0.json",
       "bytes": 22311,
       "sha256": "246c7a0b3f7232bee798e26ba6b3fe7c0c403ff830ad1d3d0f3da35e36305464"
+    },
+    {
+      "path": "experiments/abl/pilot/history/verifier-elementwise-correction.json",
+      "bytes": 2434,
+      "sha256": "e8a8ea956a11627449c39a2e148b8e3f3d5d55263da23ffa817372a7d1f1cf74"
+    },
+    {
+      "path": "experiments/abl/pilot/history/verify-elementwise-raw-tolerance.py",
+      "bytes": 5829,
+      "sha256": "839e910ef4a70e819967be8cab1dc161e07ef36964d0a082d9187a75d5069bb3"
     },
     {
       "path": "experiments/abl/pilot/history/verify-v0.3.0.py",
@@ -395,8 +415,8 @@
     },
     {
       "path": "experiments/abl/pilot/test_verify.py",
-      "bytes": 3975,
-      "sha256": "8e4ebed6bb2665ce09651aaf043d65199f320af47dc4b0c86bd3064b5288c858"
+      "bytes": 6096,
+      "sha256": "6df88d8985647c3f95e1be3bf6d4613122b1c9641f7e506092d2155d8ba1374e"
     },
     {
       "path": "experiments/abl/pilot/vendor/matched_null.py",
@@ -415,13 +435,13 @@
     },
     {
       "path": "experiments/abl/pilot/verifier-portability-correction.json",
-      "bytes": 2434,
-      "sha256": "e8a8ea956a11627449c39a2e148b8e3f3d5d55263da23ffa817372a7d1f1cf74"
+      "bytes": 4413,
+      "sha256": "0ed17a4b41974b2c816fc6afd8c8bb355db97d815ea07152935f151a531ed578"
     },
     {
       "path": "experiments/abl/pilot/verify.py",
-      "bytes": 5829,
-      "sha256": "839e910ef4a70e819967be8cab1dc161e07ef36964d0a082d9187a75d5069bb3"
+      "bytes": 8121,
+      "sha256": "f867121e466e83483bf56e1148e5a8ff1f0e74857606205873b778bd0b254693"
     },
     {
       "path": "experiments/gaussian-closure-design/LICENSE",

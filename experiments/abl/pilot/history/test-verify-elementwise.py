@@ -75,43 +75,6 @@ class ComparisonPolicyTests(unittest.TestCase):
             with self.assertRaises(AssertionError):
                 compare_array('order',result['order'],altered)
 
-    def test_covariance_parity_roundoff_uses_frozen_feature_scales(self):
-        covariance=np.diag([1e8,4e8])
-        actual=covariance.copy();actual[0,1]=actual[1,0]=1e-9
-        result=compare_array('monomial_covariance',covariance,actual)
-        self.assertEqual(result['policy'],'frozen_covariance_standardized')
-        self.assertLess(result['max_standardized_difference'],1e-10)
-        result=compare_array('monomial_time_covariance',covariance/10,actual/10,covariance)
-        self.assertLess(result['max_standardized_difference'],1e-10)
-
-    def test_changed_standardized_covariance_fails(self):
-        covariance=np.diag([1e8,4e8])
-        for key,reference in [('monomial_covariance',covariance),('monomial_time_covariance',covariance/10)]:
-            actual=reference.copy();actual[0,1]+=2e-10*2e8
-            with self.subTest(key=key),self.assertRaises(AssertionError):
-                compare_array(key,reference,actual,covariance)
-
-    def test_actual_variance_inflation_cannot_relax_scale(self):
-        covariance=np.eye(2);actual=covariance.copy()
-        actual[0,0]=1e20;actual[0,1]=1e-5
-        for key in ('monomial_covariance','monomial_time_covariance'):
-            with self.subTest(key=key),self.assertRaises(AssertionError):
-                compare_array(key,covariance,actual,covariance)
-        with self.assertRaises(AssertionError):
-            compare_array('monomial_covariance',covariance,actual,actual)
-
-    def test_missing_or_invalid_frozen_scales_fail(self):
-        reference=np.eye(2)
-        for bad in (None,np.ones((1,1)),np.diag([0.,1.]),np.diag([-1.,1.]),
-                    np.diag([np.nan,1.]),np.diag([np.inf,1.]),np.eye(2,dtype=int)):
-            with self.subTest(scale=str(bad)),self.assertRaises(AssertionError):
-                compare_array('monomial_time_covariance',reference,reference,bad)
-
-    def test_frozen_static_covariance_requires_positive_variance(self):
-        for covariance in (np.diag([0.,1.]),np.diag([-1.,1.])):
-            with self.assertRaises(AssertionError):
-                compare_array('monomial_covariance',covariance,covariance)
-
 
 if __name__=='__main__':
     unittest.main(verbosity=2)

@@ -1,64 +1,108 @@
 {
   "date": "2026-09-12",
-  "status": "implemented; local saved-replay and perturbation tests passed; Linux rerun pending",
-  "reason": "Linux CI run 34701494056 reported monomial_mean absolute difference 1.5916157281026244e-10 under a blanket absolute 1e-10 verifier. Raw monomial means reach 4753.236120318028; the recorded top-five predictions were unchanged.",
-  "failed_ci_run_id": 34701494056,
-  "reported_array": "model/coordinate-d2.npz:monomial_mean",
-  "reported_max_absolute_difference": 1.5916157281026244e-10,
+  "status": "implemented; 15 rejection tests and all 12 downloaded Linux replay archives passed; newly executed CI rerun remains pending",
+  "ci_run_analyzed": 34702338274,
+  "supersedes_policy": "history/verifier-elementwise-correction.json",
+  "original_failure_ci_run": 34701494056,
+  "reason": "Elementwise relative tolerance is poorly defined for near-zero monomial cross-covariances. Exactly four arrays failed: harmonic 33/65 equal-time and time-lagged monomial covariance. Their fixed-SD-scaled discrepancies are below 7.2e-14.",
+  "residual_failures_before_correction": [
+    {
+      "path": "results/harmonic-d2-n33-e4.npz",
+      "array": "monomial_covariance",
+      "elementwise_failing_count": 38,
+      "max_absolute_difference": 1.537799835205078e-05,
+      "max_fixed_sd_scaled_difference": 7.16845737100181e-14
+    },
+    {
+      "path": "results/harmonic-d2-n33-e4.npz",
+      "array": "monomial_time_covariance",
+      "elementwise_failing_count": 27,
+      "max_absolute_difference": 1.5757977962493896e-06,
+      "max_fixed_sd_scaled_difference": 1.0796323799587501e-14
+    },
+    {
+      "path": "results/harmonic-d2-n65-e4.npz",
+      "array": "monomial_covariance",
+      "elementwise_failing_count": 14,
+      "max_absolute_difference": 1.5169382095336914e-05,
+      "max_fixed_sd_scaled_difference": 7.081545955049064e-14
+    },
+    {
+      "path": "results/harmonic-d2-n65-e4.npz",
+      "array": "monomial_time_covariance",
+      "elementwise_failing_count": 39,
+      "max_absolute_difference": 9.94652509689331e-07,
+      "max_fixed_sd_scaled_difference": 5.654976065694268e-15
+    }
+  ],
+  "normalized_output_evidence": {
+    "max_normalized_response_difference": 1.0547118733938987e-14,
+    "max_score_difference": 1.0130785099704553e-15,
+    "max_equilibrium_difference": 1.049160758270773e-14,
+    "all_order_arrays_exact": true
+  },
   "policy": {
-    "strict_absolute_tolerance": 1e-10,
-    "raw_absolute_tolerance": 1e-10,
+    "absolute_tolerance": 1e-10,
     "raw_relative_tolerance": 1e-10,
-    "raw_fields": [
+    "raw_scale_fields": [
       "R",
       "covariance",
       "harmonic_sd",
       "monomial_centered",
-      "monomial_covariance",
       "monomial_mean",
-      "monomial_time_covariance",
       "sd",
       "time_covariance"
     ],
-    "normalized_fields_remain_strict": [
-      "C",
-      "score",
-      "equilibrium"
+    "covariance_scale_fields": [
+      "monomial_covariance",
+      "monomial_time_covariance"
     ],
-    "integer_boolean_index_rank_and_degree": "exact",
-    "all_other_floating_fields": "strict absolute",
-    "shape_dtype": "exact",
+    "covariance_policy": "absolute error divided by frozen equal-time monomial SD outer product <= 1e-10; no actual-dependent scales",
+    "exact_fields": [
+      "H_indices",
+      "H_indptr",
+      "candidate",
+      "canonical",
+      "degree",
+      "dimensions",
+      "edges",
+      "order",
+      "powers",
+      "receiver"
+    ],
+    "default_floating_policy": "strict absolute",
     "nonfinite_values": "rejected"
   },
   "unchanged": [
+    "all 20 frozen model/result file hashes",
     "preanalysis protocol",
     "inputs",
     "prediction code",
-    "model and result files",
+    "evaluation labels and results",
     "scientific convergence and compression gates",
-    "evaluations and conclusions",
     "historical macOS verification receipt"
   ],
-  "original_verifier": {
-    "path": "history/verify-v0.3.0.py",
-    "sha256": "03ec757041aae474da5e3c7edd0a94b5d91a344d3bb24272e3f5db05bc509e93"
+  "preserved_history": {
+    "test-verify-elementwise.py": "8e4ebed6bb2665ce09651aaf043d65199f320af47dc4b0c86bd3064b5288c858",
+    "verification-macos-elementwise.json": "de4df9d32629118dd0a888c66eb5e702277c9b71cd578b2bbae50a2ebbd59874",
+    "verification-macos-v0.3.0.json": "246c7a0b3f7232bee798e26ba6b3fe7c0c403ff830ad1d3d0f3da35e36305464",
+    "verifier-elementwise-correction.json": "e8a8ea956a11627449c39a2e148b8e3f3d5d55263da23ffa817372a7d1f1cf74",
+    "verify-elementwise-raw-tolerance.py": "839e910ef4a70e819967be8cab1dc161e07ef36964d0a082d9187a75d5069bb3",
+    "verify-v0.3.0.py": "03ec757041aae474da5e3c7edd0a94b5d91a344d3bb24272e3f5db05bc509e93"
   },
-  "original_receipt": {
-    "path": "checks/verification.json",
-    "sha256": "246c7a0b3f7232bee798e26ba6b3fe7c0c403ff830ad1d3d0f3da35e36305464",
-    "history_copy": "history/verification-macos-v0.3.0.json"
-  },
-  "current_verifier_sha256": "839e910ef4a70e819967be8cab1dc161e07ef36964d0a082d9187a75d5069bb3",
-  "current_replay_receipt": {
+  "current_verifier_sha256": "f867121e466e83483bf56e1148e5a8ff1f0e74857606205873b778bd0b254693",
+  "current_receipt": {
     "path": "checks/verification-current.json",
-    "sha256": "de4df9d32629118dd0a888c66eb5e702277c9b71cd578b2bbae50a2ebbd59874",
+    "sha256": "80ea39533097b31956070fa61046c1dc7eb927615964bc354055309a3e13f423",
     "archive_count": 12,
-    "bitwise_equal_values_in_saved_local_replay": true
+    "replay_origin": "Downloaded failed-abl-array-replay artifact from CI 34702338274; receipt hashes bind all arrays",
+    "bitwise_equal_values": false,
+    "all_fields_pass_policy": true
   },
   "unit_test_receipt": {
     "path": "checks/verifier-portability-tests.json",
-    "sha256": "10e01428c9b8ab62a3c3833fb3f6624411f6136b76b4f935af6eaae002fc79b5",
-    "test_count": 10
+    "sha256": "c90369efb7777d4dfe436b1713d5b94cfaf20cab980f2a2fb531473ffc9e0c25",
+    "test_count": 15
   },
   "frozen_model_result_hashes_unchanged": true,
   "prediction_freeze_sha256": "623cba9bedf1da4455f9267ebcef69848a393048df364456df16d86940d720a6"
