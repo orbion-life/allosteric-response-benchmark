@@ -2,7 +2,7 @@
   "status": "exploratory algebra check only",
   "date": "2026-09-12",
   "scope": "One three-coordinate triangle fixture; no nonlinear reference or delayed-response accuracy was evaluated.",
-  "script_sha256": "9bbf22d2a0b255fdeca9789ac77dea3302ded8b0d1a9e919c60de98e1d6120c7",
+  "script_sha256": "0f966895c60c548fa3fe26ad73acb506d48f5ff56287345a41110fd809bdadf2",
   "geometry_A": [
     [
       0,
@@ -58,17 +58,17 @@
   ],
   "variational_covariance": [
     [
-      0.638401723165384,
-      0.00022417671668426576,
-      -0.008664086612689866
+      0.6384017231653839,
+      0.00022417671668426811,
+      -0.008664086612689867
     ],
     [
-      0.00022417671668426576,
-      0.49831855401458863,
+      0.00022417671668426811,
+      0.4983185540145886,
       -0.0040553526964572555
     ],
     [
-      -0.008664086612689866,
+      -0.008664086612689867,
       -0.0040553526964572555,
       0.30482806148288494
     ]
@@ -98,51 +98,37 @@
         {
           "iteration": 0,
           "F_without_constant": 3.3973200987485868,
-          "gradient_frobenius": 5.5329002857079495,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.558173681903134
+          "gradient_frobenius": 5.5329002857079495
         },
         {
           "iteration": 1,
           "F_without_constant": 2.839146416845453,
-          "gradient_frobenius": 2.3712429795891214,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.30029002894262935
+          "gradient_frobenius": 2.3712429795891214
         },
         {
           "iteration": 2,
           "F_without_constant": 2.5388563879028236,
-          "gradient_frobenius": 0.8536474726520836,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.08791822636779262
+          "gradient_frobenius": 0.8536474726520836
         },
         {
           "iteration": 3,
           "F_without_constant": 2.450938161535031,
-          "gradient_frobenius": 0.20517936286296373,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.007983757935356831
+          "gradient_frobenius": 0.20517936286296373
         },
         {
           "iteration": 4,
           "F_without_constant": 2.442954403599674,
-          "gradient_frobenius": 0.018671814357655702,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -7.583896239894309e-05
+          "gradient_frobenius": 0.018671814357655702
         },
         {
           "iteration": 5,
           "F_without_constant": 2.4428785646372755,
-          "gradient_frobenius": 0.000185283030453235,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -7.5685241538359e-09
+          "gradient_frobenius": 0.000185283030453235
         },
         {
           "iteration": 6,
           "F_without_constant": 2.4428785570687515,
-          "gradient_frobenius": 1.861026037164029e-08,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -7.636651610609108e-17
+          "gradient_frobenius": 1.861026037164029e-08
         },
         {
           "iteration": 7,
@@ -205,9 +191,7 @@
         {
           "iteration": 0,
           "F_without_constant": 4.863437015388915,
-          "gradient_frobenius": 1.3832250714269874,
-          "accepted_step_length": 0.25,
-          "stable_objective_decrease": -2.420558458320164
+          "gradient_frobenius": 1.3832250714269874
         },
         {
           "iteration": 1,
@@ -222,17 +206,17 @@
       "initial_covariance_scale": 0.25,
       "covariance": [
         [
-          0.638401723165384,
-          0.00022417671668426576,
-          -0.008664086612689866
+          0.6384017231653839,
+          0.00022417671668426811,
+          -0.008664086612689867
         ],
         [
-          0.00022417671668426576,
-          0.49831855401458863,
+          0.00022417671668426811,
+          0.4983185540145886,
           -0.0040553526964572555
         ],
         [
-          -0.008664086612689866,
+          -0.008664086612689867,
           -0.0040553526964572555,
           0.30482806148288494
         ]
@@ -241,59 +225,50 @@
         {
           "iteration": 0,
           "F_without_constant": 3.406345121317544,
-          "gradient_frobenius": 5.465173510448527,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.5301722998138344
+          "gradient_frobenius": 5.465173510448527
         },
         {
           "iteration": 1,
           "F_without_constant": 2.8761728215037095,
-          "gradient_frobenius": 2.2930357177974106,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.25440040116859575
+          "gradient_frobenius": 2.2930357177974106
         },
         {
           "iteration": 2,
           "F_without_constant": 2.6217724203351134,
-          "gradient_frobenius": 0.7698434584156214,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.05531620501448012
+          "gradient_frobenius": 0.7698434584156214
         },
         {
           "iteration": 3,
           "F_without_constant": 2.5664562153206334,
-          "gradient_frobenius": 0.15225893219466308,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.0027076258367318092
+          "gradient_frobenius": 0.15225893219466308
         },
         {
           "iteration": 4,
           "F_without_constant": 2.5637485894839016,
-          "gradient_frobenius": 0.009014992519408247,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -8.734579629907076e-06
+          "gradient_frobenius": 0.009014992519408247
         },
         {
           "iteration": 5,
           "F_without_constant": 2.563739854904272,
-          "gradient_frobenius": 4.061382289556943e-05,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -1.5925771501572132e-10
+          "gradient_frobenius": 4.061382289556943e-05
         },
         {
           "iteration": 6,
           "F_without_constant": 2.563739854745014,
-          "gradient_frobenius": 9.372502924768686e-10,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -8.28754479502743e-20
+          "gradient_frobenius": 9.372502924768686e-10
         },
         {
           "iteration": 7,
-          "F_without_constant": 2.5637398547450143,
-          "gradient_frobenius": 4.545802291196517e-16
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 7.029374886940428e-10
+        },
+        {
+          "iteration": 8,
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 4.1152871210449723e-16
         }
       ],
-      "minimum_covariance_eigenvalue": 0.3045186162065748
+      "minimum_covariance_eigenvalue": 0.3045186162065747
     },
     {
       "quartic_multiplier": 1.0,
@@ -319,30 +294,22 @@
         {
           "iteration": 0,
           "F_without_constant": 2.5872789181720606,
-          "gradient_frobenius": 0.29548279214061307,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.02277157838876728
+          "gradient_frobenius": 0.29548279214061307
         },
         {
           "iteration": 1,
           "F_without_constant": 2.5645073397832934,
-          "gradient_frobenius": 0.053268321341505366,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.0007664524500404562
+          "gradient_frobenius": 0.053268321341505366
         },
         {
           "iteration": 2,
           "F_without_constant": 2.563740887333253,
-          "gradient_frobenius": 0.0017869941713240926,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -1.0325855737536805e-06
+          "gradient_frobenius": 0.0017869941713240926
         },
         {
           "iteration": 3,
           "F_without_constant": 2.5637398547476793,
-          "gradient_frobenius": 2.8056930735707044e-06,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -2.6651323134059503e-12
+          "gradient_frobenius": 2.8056930735707044e-06
         },
         {
           "iteration": 4,
@@ -357,18 +324,18 @@
       "initial_covariance_scale": 4.0,
       "covariance": [
         [
-          0.638401723165384,
-          0.00022417671668426446,
-          -0.008664086612689867
+          0.6384017231653841,
+          0.0002241767166842675,
+          -0.00866408661268987
         ],
         [
-          0.00022417671668426446,
-          0.49831855401458863,
-          -0.004055352696457259
+          0.0002241767166842675,
+          0.4983185540145887,
+          -0.004055352696457258
         ],
         [
-          -0.008664086612689867,
-          -0.004055352696457259,
+          -0.00866408661268987,
+          -0.004055352696457258,
           0.30482806148288494
         ]
       ],
@@ -376,78 +343,94 @@
         {
           "iteration": 0,
           "F_without_constant": 7.17384279304187,
-          "gradient_frobenius": 2.5122811734898907,
-          "accepted_step_length": 0.25,
-          "stable_objective_decrease": -2.9801726882259496
+          "gradient_frobenius": 2.5122811734898907
         },
         {
           "iteration": 1,
           "F_without_constant": 4.1936701048159195,
-          "gradient_frobenius": 1.7090985362807456,
-          "accepted_step_length": 0.5,
-          "stable_objective_decrease": -1.6025619152093957
+          "gradient_frobenius": 1.7090985362807456
         },
         {
           "iteration": 2,
           "F_without_constant": 2.591108189606523,
-          "gradient_frobenius": 0.3881417463634781,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.025800186100217806
+          "gradient_frobenius": 0.3881417463634781
         },
         {
           "iteration": 3,
           "F_without_constant": 2.565308003506306,
-          "gradient_frobenius": 0.11621950494148524,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -0.0015622271765183772
+          "gradient_frobenius": 0.11621950494148524
         },
         {
           "iteration": 4,
           "F_without_constant": 2.5637457763297875,
-          "gradient_frobenius": 0.006975780586792347,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -5.9214733633100005e-06
+          "gradient_frobenius": 0.006975780586792347
         },
         {
           "iteration": 5,
           "F_without_constant": 2.563739854856424,
-          "gradient_frobenius": 3.0488654472178336e-05,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -1.1140987912836513e-10
+          "gradient_frobenius": 3.0488654472178336e-05
         },
         {
           "iteration": 6,
           "F_without_constant": 2.563739854745014,
-          "gradient_frobenius": 5.941113272410576e-10,
-          "accepted_step_length": 1.0,
-          "stable_objective_decrease": -4.1079645070655665e-20
+          "gradient_frobenius": 5.941113272410576e-10
         },
         {
           "iteration": 7,
-          "F_without_constant": 2.5637398547450143,
-          "gradient_frobenius": 4.556769782957456e-16
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 4.4558353743683707e-10
+        },
+        {
+          "iteration": 8,
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 2.227917571529899e-10
+        },
+        {
+          "iteration": 9,
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 1.1139601686169524e-10
+        },
+        {
+          "iteration": 10,
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 8.354681296623645e-11
+        },
+        {
+          "iteration": 11,
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 6.26603079592492e-11
+        },
+        {
+          "iteration": 12,
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 3.1330138052825136e-11
+        },
+        {
+          "iteration": 13,
+          "F_without_constant": 2.563739854745014,
+          "gradient_frobenius": 4.701126874719615e-16
         }
       ],
-      "minimum_covariance_eigenvalue": 0.3045186162065748
+      "minimum_covariance_eigenvalue": 0.3045186162065747
     }
   ],
   "harmonic_limit_max_covariance_error": 7.548846432120994e-18,
-  "analytic_expected_U": 1.3968374579187026,
-  "Gauss_Hermite_expected_U": 1.3968374579187028,
-  "quadrature_absolute_error": 2.220446049250313e-16,
-  "stationarity_Frobenius": 9.091604582393034e-16,
-  "minimum_symmetric_parameter_Hessian_eigenvalue": 1.3713837079564732,
+  "analytic_expected_U": 1.3968374579187022,
+  "Gauss_Hermite_expected_U": 1.3968374579187026,
+  "quadrature_absolute_error": 4.440892098500626e-16,
+  "stationarity_Frobenius": 8.230574242089945e-16,
+  "minimum_symmetric_parameter_Hessian_eigenvalue": 1.371383707956474,
   "minimum_eigenvalue_harmonic_minus_variational_covariance": 0.027569182363519854,
-  "gradient_finite_difference_max_error": 5.773161809718985e-10,
+  "gradient_finite_difference_max_error": 5.773161601552168e-10,
   "Hessian_finite_difference_max_error": 5.812250236658656e-09,
   "unrelaxed_centroid_gradient": [
-    0.18271827678459784,
-    0.10950661307271636,
-    1.1576534990293568
+    0.1827182767845978,
+    0.10950661307271639,
+    1.1576534990293563
   ],
-  "unrelaxed_centroid_gradient_norm": 1.177089329996965,
-  "free_energy_difference_to_harmonic_trial_same_U": -0.02353906342704626,
-  "runtime_seconds": 0.02899729099999998,
+  "unrelaxed_centroid_gradient_norm": 1.1770893299969643,
+  "free_energy_difference_to_harmonic_trial_same_U": -0.023539063427046703,
+  "runtime_seconds": 0.058231916999999966,
   "software": {
     "python": "3.9.6",
     "numpy": "2.0.2",

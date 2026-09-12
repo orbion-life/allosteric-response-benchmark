@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-12",
+  "status": "passed",
+  "command": "python -m unittest -v test_verify",
+  "python": "3.9.6",
+  "test_count": 10,
+  "stdout": "",
+  "stderr": "test_default_floating_fields_are_strict (test_verify.ComparisonPolicyTests) ... ok\ntest_dtype_and_shape_changes_fail (test_verify.ComparisonPolicyTests) ... ok\ntest_nonfinite_values_fail_even_when_equal (test_verify.ComparisonPolicyTests) ... ok\ntest_normalized_fields_do_not_inherit_relative_tolerance (test_verify.ComparisonPolicyTests) ... ok\ntest_observed_linux_scale_roundoff_passes (test_verify.ComparisonPolicyTests) ... ok\ntest_rank_boolean_and_integer_changes_fail_exactly (test_verify.ComparisonPolicyTests) ... ok\ntest_raw_near_zero_corruption_fails (test_verify.ComparisonPolicyTests) ... ok\ntest_raw_relative_corruption_fails_for_every_whitelisted_field (test_verify.ComparisonPolicyTests) ... ok\ntest_real_primary_matrix_and_order_perturbations_fail (test_verify.ComparisonPolicyTests) ... ok\ntest_small_normalized_roundoff_passes (test_verify.ComparisonPolicyTests) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.006s\n\nOK\n",
+  "test_script_sha256": "8e4ebed6bb2665ce09651aaf043d65199f320af47dc4b0c86bd3064b5288c858",
+  "verifier_sha256": "839e910ef4a70e819967be8cab1dc161e07ef36964d0a082d9187a75d5069bb3",
+  "scope": "Policy acceptance and rejection tests, including perturbations of the bundled response matrix, scores and ranking; no new scientific calculation."
+}

@@ -1,0 +1,70 @@
+{
+  "status": "local controlled numerical regression, not a response validation",
+  "cases": 30,
+  "rotation_seed": 20260912,
+  "historical_solver_failures": [
+    {
+      "gamma": 1.0,
+      "rotation": 0,
+      "initial_scale": 0.25,
+      "error": "Stationarity tolerance not reached."
+    },
+    {
+      "gamma": 1.0,
+      "rotation": 1,
+      "initial_scale": 0.25,
+      "error": "Stationarity tolerance not reached."
+    },
+    {
+      "gamma": 1.0,
+      "rotation": 1,
+      "initial_scale": 4.0,
+      "error": "Stationarity tolerance not reached."
+    },
+    {
+      "gamma": 1.0,
+      "rotation": 2,
+      "initial_scale": 0.25,
+      "error": "Stationarity tolerance not reached."
+    },
+    {
+      "gamma": 1.0,
+      "rotation": 2,
+      "initial_scale": 4.0,
+      "error": "Stationarity tolerance not reached."
+    },
+    {
+      "gamma": 1.0,
+      "rotation": 3,
+      "initial_scale": 4.0,
+      "error": "Stationarity tolerance not reached."
+    }
+  ],
+  "new_solver_failures": 0,
+  "new_solver_stationarity_tolerance": 1e-11,
+  "scientific_protocol_changed": false,
+  "date": "2026-09-12",
+  "old_script_sha256": "0f966895c60c548fa3fe26ad73acb506d48f5ff56287345a41110fd809bdadf2",
+  "new_script_sha256": "9bbf22d2a0b255fdeca9789ac77dea3302ded8b0d1a9e919c60de98e1d6120c7",
+  "tests_sha256": "102ed4dd434f0103b236d876943d1a40b400c6dad61721965b6ecc7405d8c6a9",
+  "initial_algebra_result_sha256": "3fc421323e08d54c88b33014899e0e7b7b8113dae13da60712f3c66d1526dfb9",
+  "new_algebra_result_sha256": "aa4e4d4d8a6eeff8b97a11fb1f9c2e2a68121892e2decce4a4fa1d10be8ec4c0",
+  "new_vs_original_variational_covariance_max_difference": 1.1102230246251565e-16,
+  "new_algebra_stationarity_Frobenius": 9.091604582393034e-16,
+  "unit_tests": {
+    "command": "python -m unittest -v test_solver.py",
+    "passed": 5,
+    "failed": 0
+  },
+  "original_gradient_tolerance": 1e-11,
+  "unchanged_gradient_tolerance": 1e-11,
+  "original_iteration_limit": 100,
+  "unchanged_iteration_limit": 100,
+  "protocol_sha256": "f52c13c7b4e0d390432f1db0d781481e2b04f1612759e09ed59532af1912dbf8",
+  "software": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1"
+  },
+  "linux_replay_status": "pending after correction; prior Linux CI failed before correction"
+}

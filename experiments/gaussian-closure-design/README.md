@@ -19,3 +19,5 @@ The check uses one triangle with all three internal coordinates, κ = β = 1, an
 This calculation verifies algebra and numerical implementation only. The fixed-centroid optimum has a nonzero gradient in the excluded centroid direction, which illustrates an approximation that must be tested. Its lower variational free energy does not establish improved covariance, response or biological prediction. No current or prospective success claim should be inferred from this directory.
 
 The second script independently constructs a distant rigidly equivalent zero-energy configuration within the triangle's linear internal-coordinate chart. It demonstrates why local box refinement and removal of infinitesimal rigid modes do not certify a global nonlinear equilibrium or a physical single-basin distribution. It computes no response or state population.
+
+The numerical line search was corrected without changing the objective or acceptance tolerances; [the correction record](solver-correction.md) preserves the original script and local results. Run `python -m unittest -v test_solver.py` before the algebra checks.

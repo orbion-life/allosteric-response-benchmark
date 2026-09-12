@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-12",
+  "status": "implemented; local saved-replay and perturbation tests passed; Linux rerun pending",
+  "reason": "Linux CI run 34701494056 reported monomial_mean absolute difference 1.5916157281026244e-10 under a blanket absolute 1e-10 verifier. Raw monomial means reach 4753.236120318028; the recorded top-five predictions were unchanged.",
+  "failed_ci_run_id": 34701494056,
+  "reported_array": "model/coordinate-d2.npz:monomial_mean",
+  "reported_max_absolute_difference": 1.5916157281026244e-10,
+  "policy": {
+    "strict_absolute_tolerance": 1e-10,
+    "raw_absolute_tolerance": 1e-10,
+    "raw_relative_tolerance": 1e-10,
+    "raw_fields": [
+      "R",
+      "covariance",
+      "harmonic_sd",
+      "monomial_centered",
+      "monomial_covariance",
+      "monomial_mean",
+      "monomial_time_covariance",
+      "sd",
+      "time_covariance"
+    ],
+    "normalized_fields_remain_strict": [
+      "C",
+      "score",
+      "equilibrium"
+    ],
+    "integer_boolean_index_rank_and_degree": "exact",
+    "all_other_floating_fields": "strict absolute",
+    "shape_dtype": "exact",
+    "nonfinite_values": "rejected"
+  },
+  "unchanged": [
+    "preanalysis protocol",
+    "inputs",
+    "prediction code",
+    "model and result files",
+    "scientific convergence and compression gates",
+    "evaluations and conclusions",
+    "historical macOS verification receipt"
+  ],
+  "original_verifier": {
+    "path": "history/verify-v0.3.0.py",
+    "sha256": "03ec757041aae474da5e3c7edd0a94b5d91a344d3bb24272e3f5db05bc509e93"
+  },
+  "original_receipt": {
+    "path": "checks/verification.json",
+    "sha256": "246c7a0b3f7232bee798e26ba6b3fe7c0c403ff830ad1d3d0f3da35e36305464",
+    "history_copy": "history/verification-macos-v0.3.0.json"
+  },
+  "current_verifier_sha256": "839e910ef4a70e819967be8cab1dc161e07ef36964d0a082d9187a75d5069bb3",
+  "current_replay_receipt": {
+    "path": "checks/verification-current.json",
+    "sha256": "de4df9d32629118dd0a888c66eb5e702277c9b71cd578b2bbae50a2ebbd59874",
+    "archive_count": 12,
+    "bitwise_equal_values_in_saved_local_replay": true
+  },
+  "unit_test_receipt": {
+    "path": "checks/verifier-portability-tests.json",
+    "sha256": "10e01428c9b8ab62a3c3833fb3f6624411f6136b76b4f935af6eaae002fc79b5",
+    "test_count": 10
+  },
+  "frozen_model_result_hashes_unchanged": true,
+  "prediction_freeze_sha256": "623cba9bedf1da4455f9267ebcef69848a393048df364456df16d86940d720a6"
+}

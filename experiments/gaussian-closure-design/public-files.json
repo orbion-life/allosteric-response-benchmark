@@ -2,17 +2,22 @@
   "status": "selected public research-design files; no validated response result",
   "installation": "experiments/gaussian-closure-design/",
   "files": {
-    "README.md": "88ae1aa80c66c0cc8cf60cffef237ef40951d5e1aba2646592eec0b806b0c664",
+    "README.md": "ef97a6aac17dfca082a1308d88183f31ac5d38f0f90186bf3ab8892c03d4dbef",
     "design.md": "440802e5a8a4f5c53160b96910e3fbc02ed32913b25dcc685fee50025fb39f34",
-    "algebra_check.py": "0f966895c60c548fa3fe26ad73acb506d48f5ff56287345a41110fd809bdadf2",
-    "algebra-check.json": "3fc421323e08d54c88b33014899e0e7b7b8113dae13da60712f3c66d1526dfb9",
+    "algebra_check.py": "9bbf22d2a0b255fdeca9789ac77dea3302ded8b0d1a9e919c60de98e1d6120c7",
+    "algebra-check.json": "aa4e4d4d8a6eeff8b97a11fb1f9c2e2a68121892e2decce4a4fa1d10be8ec4c0",
     "coordinate_domain_check.py": "379076f8fab1b77ccef0d7cf57fef23a0c27eccce0e3ec20ff72660d6966144b",
     "coordinate-domain-check.json": "d9e3766f89bd59b40f9a8c8caf2a6bf47d671f4a65e86cfe5dada76f683c7b54",
     "proposed-experiment.json": "f52c13c7b4e0d390432f1db0d781481e2b04f1612759e09ed59532af1912dbf8",
     "proposed-experiment.sha256": "e9df53573ab0ff6f2a12adab5f4c11815c65678fc45f8a0a6b5491710676a1c8",
     "sources.json": "9b5429078bb9cf0ca1394eed04071c0c9a456cf397094a7078b17985361b3f71",
     "requirements.txt": "b1a0c4b6e571a19ffd3f71d95fbb5e48203c8d9f3b9cdde86f7c3b6f9643aa95",
-    "LICENSE": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9"
+    "LICENSE": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9",
+    "test_solver.py": "102ed4dd434f0103b236d876943d1a40b400c6dad61721965b6ecc7405d8c6a9",
+    "solver-correction.md": "4d25ef8965a6775339d065c53321b944a48ab70b2245b8d9783259922f0fbbee",
+    "solver-correction.json": "085201a745701a0de32bf49e19fd72cf18baeec95596ecc02f4c39dfb62bd4f7",
+    "history/initial-algebra_check.py": "0f966895c60c548fa3fe26ad73acb506d48f5ff56287345a41110fd809bdadf2",
+    "history/initial-algebra-check.json": "3fc421323e08d54c88b33014899e0e7b7b8113dae13da60712f3c66d1526dfb9"
   },
   "privacy_scan": "No local home/tmp paths, personal emails or team profiles in selected text."
 }

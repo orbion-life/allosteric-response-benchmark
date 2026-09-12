@@ -79,35 +79,6 @@ def symmetric_basis(d):
     return np.array(matrices)
 
 
-def objective_difference(C, D, K, terms, gamma=1., beta=1.):
-    """Return F(C+D)-F(C) without subtracting nearly equal objectives.
-
-    The log-det remainder x-log1p(x) is evaluated by its convergent series near
-    zero. The formula is exact apart from floating-point arithmetic; it neither
-    relaxes Armijo descent nor changes the gradient convergence criterion.
-    """
-    trial = C + D
-    if np.linalg.eigvalsh(trial)[0] <= 0:
-        return np.inf
-    factor = np.linalg.cholesky(C)
-    relative = np.linalg.solve(factor, D)
-    relative = np.linalg.solve(factor, relative.T).T
-    x = np.linalg.eigvalsh((relative + relative.T) / 2)
-    if np.any(x <= -1):
-        return np.inf
-    remainder = np.empty_like(x)
-    small = np.abs(x) < 1e-4
-    y = x[small]
-    remainder[small] = y*y*(.5 + y*(-1/3 + y*(.25 + y*(-.2 + y/6))))
-    remainder[~small] = x[~small] - np.log1p(x[~small])
-    difference = float(np.sum(gradient(C, K, terms, gamma, beta) * D))
-    difference += float(np.sum(remainder)) / (2 * beta)
-    for _, T, coefficient in terms:
-        change = T @ D @ T.T
-        difference += gamma * coefficient * (2*np.trace(change@change) + np.trace(change)**2)
-    return float(difference)
-
-
 def optimize(initial, K, terms, gamma):
     C = initial.copy()
     basis = symmetric_basis(len(C))
@@ -125,12 +96,10 @@ def optimize(initial, K, terms, gamma):
         slope = float(np.sum(G * D))
         alpha = 1.
         while (np.linalg.eigvalsh(C + alpha*D)[0] <= 0 or
-               objective_difference(C, alpha*D, K, terms, gamma) > 1e-4*alpha*slope):
+               objective(C + alpha*D, K, terms, gamma) > value + 1e-4*alpha*slope):
             alpha *= .5
             if alpha < 2**-40:
                 raise RuntimeError("Backtracking failed.")
-        history[-1]["accepted_step_length"] = alpha
-        history[-1]["stable_objective_decrease"] = objective_difference(C, alpha*D, K, terms, gamma)
         C = (C + alpha*D + (C + alpha*D).T) / 2
     raise RuntimeError("Stationarity tolerance not reached.")
 

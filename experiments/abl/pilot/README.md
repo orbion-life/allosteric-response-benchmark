@@ -87,11 +87,16 @@ python bounded_run.py
 python check_input.py
 python evaluate.py
 python bounded_run.py --output checks/fresh-replay
+python -m unittest -v test_verify
 python verify.py
 python make_figures.py
 ```
 
 `bounded_run.py` checks wall time and resident memory every 0.5 seconds and stops a calculation if its bound is exceeded. `run.py` verifies the locked input and module hashes and does not open the bound-reference CIF. It saves the prediction freeze before `evaluate.py` reads AY7 labels. A rerun updates generated receipts; preserve the supplied release or work from a fresh copy if the original receipts are required. Archive timestamps and runtime receipts are expected to change. `verify.py` compares array values, matrix invariants, unknown-label exclusion, distinct null configurations and preservation of stratum counts.
+
+The verifier uses an absolute tolerance of 10⁻¹⁰ for normalized responses, scores and equilibrium matrices. Integer, Boolean, rank and index values must match exactly. Only its explicit list of unnormalized moments, covariance responses and standard deviations uses both absolute and relative tolerances of 10⁻¹⁰. Shapes and dtypes must match, and nonfinite values fail. This prevents a large raw polynomial moment from failing solely because of harmless platform rounding while keeping the scientific outputs under strict absolute checks. The unit tests also reject perturbed real response matrices, scores and rankings. This is a verification-policy correction, not a change to the model, inputs, numerical convergence criteria or scientific conclusions; see [the correction record](verifier-portability-correction.json).
+
+New replay checks write [verification-current.json](checks/verification-current.json). The original macOS bitwise-equality receipt remains unchanged at [verification.json](checks/verification.json), with the original verifier and a receipt copy retained in [history](history/verify-v0.3.0.py). A passing local check of the revised verifier does not by itself establish a successful Linux replay.
 
 The exact same preanalysis protocol is retained during replay. Do not edit it to fit a result. A new scientific setting requires a separately dated amendment and retained previous outputs. Two-mode truncation is explicitly a failed approximation under the locked criterion; increasing the grid resolution does not repair it.
 
@@ -101,7 +106,7 @@ The exact same preanalysis protocol is retained during replay. Do not edit it to
 - [Primary response matrix](results/biquadratic-d2-n33-e4.npz) contains C, R, equilibrium covariance, grid energies, stationary probabilities, sparse generator entries and polynomial observables.
 - [Full harmonic reference](results/analytic-harmonic-d750.npz) and [normalisers](model/all-mode-harmonic-scales.npz) retain the common scale.
 - [Complete matrix figure](figures/abl-response-matrix.svg) and [summary figure](figures/abl-pilot-summary.svg) are editable SVGs; PDFs and PNGs are included.
-- [Verification](checks/verification.json), [source receipts](source-receipts.json) and the [prediction freeze](prediction-freeze.json) bind code, inputs and results.
+- [Current verification](checks/verification-current.json), [original verification](checks/verification.json), [source receipts](source-receipts.json) and the [prediction freeze](prediction-freeze.json) bind code, inputs and results.
 
 The numerical functions in `vendor/prepare.py` and `vendor/run_pilot.py` are unchanged copies of the earlier Project Pulsar pilot. The copied matched-null module is also hash-bound. The ABL orchestration and unknown-aware evaluation are specific to this experiment. The original code is MIT-licensed; primary scientific records retain their own rights and attribution, as described in [DATA-SOURCES.md](DATA-SOURCES.md). No proprietary benchmark, team biography or private machine path is required by the package.
 

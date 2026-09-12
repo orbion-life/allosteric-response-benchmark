@@ -1,0 +1,856 @@
+{
+  "status": "passed",
+  "all_numeric_values_bitwise_equal_on_fresh_replay": true,
+  "archive_count": 12,
+  "comparison": [
+    {
+      "path": "model/all-mode-harmonic-scales.npz",
+      "arrays": [
+        {
+          "array": "harmonic_sd",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "dimensions",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "model/coordinate-d2.npz",
+      "arrays": [
+        {
+          "array": "A",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "powers",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "harmonic_sd",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_mean",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "B",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "eigenvalues",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "model/static-model.npz",
+      "arrays": [
+        {
+          "array": "r0",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "edges",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "degree",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "canonical",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "B",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "eigenvalues",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "Hessian",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "receiver",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "candidate",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "receiver_distance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/analytic-harmonic-d2.npz",
+      "arrays": [
+        {
+          "array": "covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "time_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "R",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "sd",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "C",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "equilibrium",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "score",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "order",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/analytic-harmonic-d750.npz",
+      "arrays": [
+        {
+          "array": "covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "time_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "R",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "sd",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "C",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "equilibrium",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "score",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "order",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/biquadratic-d2-n33-e4.npz",
+      "arrays": [
+        {
+          "array": "C",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "R",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "equilibrium",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "score",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "order",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "q",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "U",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "pi",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_data",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indices",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indptr",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "A",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "powers",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_centered",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_time_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "canonical",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/biquadratic-d2-n65-e4.npz",
+      "arrays": [
+        {
+          "array": "C",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "R",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "equilibrium",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "score",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "order",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "q",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "U",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "pi",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_data",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indices",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indptr",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "A",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "powers",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_centered",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_time_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "canonical",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/distance_hookean-d2-n33-e4.npz",
+      "arrays": [
+        {
+          "array": "C",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "R",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "equilibrium",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "score",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "order",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "q",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "U",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "pi",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_data",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indices",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indptr",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "A",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "powers",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_centered",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_time_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "canonical",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/distance_hookean-d2-n65-e4.npz",
+      "arrays": [
+        {
+          "array": "C",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "R",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "equilibrium",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "score",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "order",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "q",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "U",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "pi",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_data",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indices",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indptr",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "A",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "powers",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_centered",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_time_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "canonical",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/harmonic-d2-n33-e4.npz",
+      "arrays": [
+        {
+          "array": "C",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "R",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "equilibrium",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "score",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "order",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "q",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "U",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "pi",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_data",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indices",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indptr",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "A",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "powers",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_centered",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_time_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "canonical",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/harmonic-d2-n65-e4.npz",
+      "arrays": [
+        {
+          "array": "C",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "R",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "equilibrium",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "score",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "order",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "q",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "U",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "pi",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_data",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indices",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "H_indptr",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "A",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "powers",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_centered",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "monomial_time_covariance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "canonical",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "path": "results/structural-baselines.npz",
+      "arrays": [
+        {
+          "array": "graph_heat_kernel",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "degree",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "receiver_inverse_distance",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "graph_time",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        },
+        {
+          "array": "graph_heat_kernel_matrix",
+          "bitwise_equal_values": true,
+          "max_absolute_difference": 0.0
+        }
+      ]
+    }
+  ],
+  "matrix_invariants": [
+    {
+      "path": "results/analytic-harmonic-d2.npz",
+      "matrix_shape": [
+        252,
+        252
+      ],
+      "max_asymmetry": 1.734723475976807e-18,
+      "smallest_eigenvalue_of_minus_response": -1.873786454470279e-19
+    },
+    {
+      "path": "results/analytic-harmonic-d750.npz",
+      "matrix_shape": [
+        252,
+        252
+      ],
+      "max_asymmetry": 2.220446049250313e-16,
+      "smallest_eigenvalue_of_minus_response": 0.002056010110940901
+    },
+    {
+      "path": "results/biquadratic-d2-n33-e4.npz",
+      "matrix_shape": [
+        252,
+        252
+      ],
+      "max_asymmetry": 4.336808689942018e-19,
+      "smallest_eigenvalue_of_minus_response": -5.736810728074604e-20
+    },
+    {
+      "path": "results/biquadratic-d2-n65-e4.npz",
+      "matrix_shape": [
+        252,
+        252
+      ],
+      "max_asymmetry": 1.0842021724855044e-18,
+      "smallest_eigenvalue_of_minus_response": -3.207846592218259e-20
+    },
+    {
+      "path": "results/distance_hookean-d2-n33-e4.npz",
+      "matrix_shape": [
+        252,
+        252
+      ],
+      "max_asymmetry": 6.505213034913027e-19,
+      "smallest_eigenvalue_of_minus_response": -3.2906821933463543e-20
+    },
+    {
+      "path": "results/distance_hookean-d2-n65-e4.npz",
+      "matrix_shape": [
+        252,
+        252
+      ],
+      "max_asymmetry": 4.336808689942018e-19,
+      "smallest_eigenvalue_of_minus_response": -2.656397194867508e-20
+    },
+    {
+      "path": "results/harmonic-d2-n33-e4.npz",
+      "matrix_shape": [
+        252,
+        252
+      ],
+      "max_asymmetry": 1.3010426069826053e-18,
+      "smallest_eigenvalue_of_minus_response": -8.880615135709805e-20
+    },
+    {
+      "path": "results/harmonic-d2-n65-e4.npz",
+      "matrix_shape": [
+        252,
+        252
+      ],
+      "max_asymmetry": 4.336808689942018e-19,
+      "smallest_eigenvalue_of_minus_response": -8.265739001369315e-20
+    }
+  ],
+  "unknown_labels_excluded_from_null": true,
+  "unique_matched_configurations": 10000,
+  "stratum_counts_preserved": true,
+  "prediction_protocol_sha256": "a400c2f94364d4b5d8683497e4a535fb676f4c42219cc7c82efe635ac6955f10",
+  "scope": "Repeatability in the recorded environment; this does not establish physical accuracy or biological validity."
+}

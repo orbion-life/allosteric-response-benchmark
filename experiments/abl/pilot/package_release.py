@@ -6,7 +6,7 @@ from run import ROOT,sha,dump
 out=ROOT/'public-package';out.mkdir(exist_ok=True)
 files=[p for p in ROOT.iterdir() if p.is_file() and p.suffix in ['.py','.md','.txt','.json','.sha256']]
 files.append(ROOT/'LICENSE')
-for folder in ['raw','vendor','model','results','evaluation','figures','checks']:
+for folder in ['raw','vendor','model','results','evaluation','figures','checks','history']:
     files.extend(p for p in (ROOT/folder).glob('*') if p.is_file() and p.suffix!='.pyc')
 for src in sorted(set(files)):
     relative=src.relative_to(ROOT);target=out/relative;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,target)

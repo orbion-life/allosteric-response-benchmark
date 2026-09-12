@@ -20,6 +20,7 @@ jobs:
         working-directory: experiments/abl/pilot
         run: |
           python bounded_run.py --output checks/fresh-replay
+          python -m unittest -v test_verify.py
           python verify.py
       - name: Replay corrected KRAS evaluation and verify missing-data semantics
         run: |
@@ -31,9 +32,17 @@ jobs:
         with:
           name: comparative-structural-evidence
           path: |
-            experiments/abl/pilot/checks/verification.json
+            experiments/abl/pilot/checks/*verification*.json
             /tmp/kras-amendment/verification.json
             experiments/two-target-comparison/verification-receipt.json
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: failed-abl-array-replay
+          path: |
+            experiments/abl/pilot/checks/fresh-replay/model/*.npz
+            experiments/abl/pilot/checks/fresh-replay/results/*.npz
+            experiments/abl/pilot/checks/fresh-replay/checks/runtime.json
   approximation:
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -62,6 +71,7 @@ jobs:
       - name: Check only Gaussian algebra and coordinate-domain construction
         working-directory: experiments/gaussian-closure-design
         run: |
+          python -m unittest -v test_solver.py
           python algebra_check.py
           python coordinate_domain_check.py
       - uses: actions/upload-artifact@v4
