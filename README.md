@@ -1,10 +1,14 @@
 # Allosteric response benchmark
 
-**v0.4.0 numerical status:** the new finite-response experiment has a known [strict cross-platform bound-comparison failure](experiments/observable-preserving-reduction/README.md#known-cross-platform-numerical-limitation). All tested response arrays agree within the declared allowance and finite fidelity remains 17/18; full-array portability and practical quantum benefit are not established. The original failure, tolerances and results are preserved.
+**Current numerical status (preserved from v0.4.0):** the new finite-response experiment has a known [strict cross-platform bound-comparison failure](experiments/observable-preserving-reduction/README.md#known-cross-platform-numerical-limitation). All tested response arrays agree within the declared allowance and finite fidelity remains 17/18; full-array portability and practical quantum benefit are not established. The original failure, tolerances and results are preserved.
 
 **Project Pulsar: reproducible static-structure mechanics and a complete quantum-walk estimator.**
 
-This repository tests whether static contact mechanics identify regulatory pockets, whether numerical reductions preserve their responses, and whether quantum evaluation is useful at complete cost. Version **0.4.0** adds an observable-seeded response-operator experiment. Earlier protein predictions, failed coordinate remedies and quantum fixtures remain unchanged.
+This repository tests whether static contact mechanics identify regulatory pockets, whether numerical reductions preserve their responses, and whether quantum evaluation is useful at complete cost. Version **0.4.1** corrects documentation and adds proposed recovery protocols. Version **0.4.0** introduced the observable-seeded response-operator experiment. Scientific code, all numerical outputs, failed checks and historical releases remain unchanged.
+
+## Version 0.4.1 defines the next comparisons
+
+The [recovery strategy](docs/recovery/README.md) separates physical reference convergence, numerical subspace stability and a matched quantum–classical comparison. These are **proposed protocols, not new experiments or repaired failures**. The quantum target is the accepted original relaxation operator; classical sparse propagation and response-preserving projection are both comparators. The [release notes](RELEASE-NOTES-v0.4.1.md) identify every documentation correction.
 
 ## What version 0.4.0 establishes
 
@@ -31,7 +35,7 @@ The Gaussian 27-response benchmark and external biological panel remain proposed
 | Question | Recorded result | Interpretation |
 |---|---|---|
 | Does the KRAS contact result transfer to ABL? | KRAS has four known contacts among five predictions. ABL has zero known contacts and one unresolved member, giving bounds of zero to one contact. | The fixed model does not demonstrate useful ABL transfer. Unknown positions are not counted as definite misses. |
-| Does nonlinearity improve the declared controls? | No comparison passes the six-slot Holm correction. The smallest adjusted p is 0.075592 for ABL versus harmonic; its mean percentile gain is 0.017098. | A small retrospective rank shift is retained, without a demonstrated comparative benefit. |
+| Does nonlinearity improve the declared controls? | None of the four completed physics comparisons passes the six-slot Holm correction; two MYH7 slots remain unrun. The smallest adjusted p is 0.075592 for ABL versus harmonic; its mean percentile gain is 0.017098. | A small retrospective rank shift is retained, without a demonstrated comparative benefit. |
 | Do the two compression remedies pass? | A 64-coordinate receiver-strain basis gives KRAS harmonic error 0.198519. Additive harmonic completion fails the fixed nonlinear toy gates. | Neither tested remedy establishes faithful compression; finite-grid reference limits remain explicit. |
 | What does the evaluated 1,089-state KRAS model cost? | Twelve observable directions use 78 overlaps. Sufficient ideal shot estimates range from 37.19 million to 121.88 million across exact readout bases. | These are retrospective, ranking-aware plans. Full transition loading and full quantum execution remain unresolved. |
 | What Gaussian comparator was proposed in v0.3.0? | A fixed-centroid Gaussian covariance model has a strictly convex objective; its algebra and coordinate-domain check pass. | Nonlinear-response validation is proposed, not completed. It initially supplies a classical comparator and does not establish a useful quantum task. |
@@ -57,7 +61,7 @@ Run the documented experiments in a fresh clone or separate output directory. En
 | Can the reduced KRAS model produce traceable predictions? | Residues 60, 69, 62, 61 and 65 are the primary top five; four contact the 6OIM MOV ligand within 5 Å. | A retrospective pocket-contact result on one cross-variant example. |
 | Does the nonlinear or finite-time model improve this endpoint? | Matched harmonic, distance-Hookean and equilibrium controls also recover four of five. | No benefit is demonstrated by this endpoint. |
 | Do two modes preserve the response? | The harmonic candidate-to-receiver block differs from the exact 492-mode harmonic reference by 0.2183, against the provisional 0.002 allowance. | The representation fails its approximation check. Grid convergence does not repair it. |
-| Does the complete circuit implement its declared estimator? | Seven qubits, three overlaps and 151,887 ideal simulated shots give maximum same-grid normalized response error 1.64 × 10⁻⁷. | The circuit works on a separate one-mode, four-state fixture. Its shortlist differs from the two-mode pilot. |
+| Does the complete circuit implement its declared estimator? | Seven qubits, three overlaps and 151,887 ideal simulated shots give maximum sampled same-grid normalized response error 1.64 × 10⁻⁷. Deterministic statevector readout has error 2.95 × 10⁻⁷. | The circuit works on a separate one-mode, four-state fixture. Its shortlist differs from the two-mode pilot. |
 | Is the quantum calculation practically advantageous? | Each overlap uses 2,304 CX gates before routing; conservative noisy-ranking intervals do not separate. The same-grid classical solve takes a local median 0.171 ms. | No hardware feasibility, robust noisy ranking or computational speedup is established. |
 
 Every response uses the named normalization. Protein energy and time units are not physiologically calibrated. No classical molecular-dynamics trajectory, quantum hardware, account or API key is required for these calculations. Missing negative-pocket evidence, construct differences and failed compression remain explicit.

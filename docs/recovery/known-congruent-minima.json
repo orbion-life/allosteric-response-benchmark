@@ -1,0 +1,49 @@
+{
+  "status": "Extract from a directly inspected prior assessment receipt; no new geometry campaign",
+  "source_sha256": "141d610c08605be1cb1af2294dbf74cb50e36adb20a2eafa41ccf086d75e576c",
+  "rigid_equivalent_duplicate_minima": [
+    {
+      "geometry": "development",
+      "kappa": 1,
+      "q": [
+        -1.1275702593849246e-15,
+        2.6645352591003757e-15,
+        -8.20568908339411
+      ],
+      "projection_max_error": 7.105427357601002e-15,
+      "energy": 3.709204714484697e-29,
+      "minimum_sigma_box_extent_to_include": 9.247455283167882,
+      "inside_extent4": false,
+      "inside_extent5": false
+    },
+    {
+      "geometry": "compact",
+      "kappa": 1,
+      "q": [
+        -1.1102230246251565e-16,
+        -4.440892098500626e-16,
+        -5.796550698475776
+      ],
+      "projection_max_error": 6.661338147750939e-16,
+      "energy": 1.1093356479670479e-30,
+      "minimum_sigma_box_extent_to_include": 6.858571279792906,
+      "inside_extent4": false,
+      "inside_extent5": false
+    },
+    {
+      "geometry": "elongated",
+      "kappa": 1,
+      "q": [
+        -1.3322676295501878e-15,
+        1.2975731600306517e-15,
+        -7.98164561144296
+      ],
+      "projection_max_error": 1.7763568394002505e-15,
+      "energy": 3.273578533527106e-30,
+      "minimum_sigma_box_extent_to_include": 7.503378337239537,
+      "inside_extent4": false,
+      "inside_extent5": false
+    }
+  ],
+  "duplicate_interpretation": "The pi in-plane rotated congruent configuration lies in the retained harmonic-coordinate plane and has zero contact energy. These constructed minima are outside both tested domains at kappa=1 and remain outside as kappa increases. Their existence is established; their causal contribution to the recorded grid/domain differences is not established."
+}

@@ -1,13 +1,14 @@
 {
-  "version": "0.4.0",
-  "date": "2026-09-12",
-  "scope": "Scientific code, public evidence and explicitly proposed validation design; manuscript/private team profile excluded",
-  "previous_release": "v0.3.0",
-  "previous_manifest_entries": 797,
-  "unchanged_previous_entries": 795,
-  "permitted_metadata_updates": [
+  "version": "0.4.1",
+  "date": "2026-09-13",
+  "scope": "Documentation-only corrections and proposed recovery protocols; no manuscript or private team profile",
+  "previous_release": "v0.4.0",
+  "previous_manifest_entries": 1061,
+  "unchanged_previous_entries": 1058,
+  "permitted_documentation_updates": [
+    "README.md",
     "CITATION.cff",
-    "README.md"
+    "experiments/observable-preserving-reduction/README.md"
   ],
   "files": [
     {
@@ -43,7 +44,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 616,
-      "sha256": "1b2f608b0d498a4ae1cd7a61527d92502bb7e83cb43e7c916de99671197be5c1"
+      "sha256": "2e0242378317d151ebc6a478905e7b46da532d5513e8958a32e775390a82f810"
     },
     {
       "path": "LICENSE",
@@ -57,8 +58,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15805,
-      "sha256": "dce482264dd9c42e7ae0c8665d7ee2557189f87c45ded26e53eb06cf8d97a7be"
+      "bytes": 16576,
+      "sha256": "d001d65be9116d615b0b485690b6e7354d015af1cbb6b6e4008cdf70b1b29c5c"
     },
     {
       "path": "RELEASE-NOTES-v0.3.0.md",
@@ -69,6 +70,11 @@
       "path": "RELEASE-NOTES-v0.4.0.md",
       "bytes": 2891,
       "sha256": "6f54c032c92a0ae665fed6e379cf3258f04ca806c5a68c9f14b2a057c4a3ee0d"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.4.1.md",
+      "bytes": 2353,
+      "sha256": "736b0ed1225b5bad264f2ca35652f638cb77f24ce0f442fd6e9685b8ba6968d7"
     },
     {
       "path": "SYNTHETIC_BENCHMARK.md",
@@ -89,6 +95,41 @@
       "path": "docs/proposed-external-validation.md",
       "bytes": 7389,
       "sha256": "bd3b3cfff330d599382ff1a7ef79725d63ae9be1f06dc67356fd2d6d5c56b3a4"
+    },
+    {
+      "path": "docs/recovery/README.md",
+      "bytes": 4753,
+      "sha256": "913b862d0cbac53feab95116ba80159089107cce3a46347f982e7eb14a1f0664"
+    },
+    {
+      "path": "docs/recovery/known-congruent-minima.json",
+      "bytes": 1796,
+      "sha256": "888ac95eded207d8916f69468b25fd9b7742e0fe8c6a747f8dae18b4c33387fe"
+    },
+    {
+      "path": "docs/recovery/matched-quantum-comparison.md",
+      "bytes": 11446,
+      "sha256": "5742de81a9551fb280c2fdeb94d00be51bcc6b9a82006a4a1980cb87a0be8a40"
+    },
+    {
+      "path": "docs/recovery/parent-existing-array-check.json",
+      "bytes": 1488,
+      "sha256": "b5c1934a8ff98d6589c3e27d188f023100bf31a9da8aefdfeef611fafbab7634"
+    },
+    {
+      "path": "docs/recovery/physical-reference-recovery.md",
+      "bytes": 19670,
+      "sha256": "5bede5dcc3bf07d88522c81c95fa751a31614fac39c5531482f4009db347bba0"
+    },
+    {
+      "path": "docs/recovery/subspace-existing-array-inspection.json",
+      "bytes": 18376,
+      "sha256": "50353d93d868cd303408d01fdfcd161ab83eedfde51b865cd9d4458f52f9dc53"
+    },
+    {
+      "path": "docs/recovery/subspace-stability-recovery.md",
+      "bytes": 28515,
+      "sha256": "6a2a5b65ba504d653c08c29253f8c0beff97945eddf3f896952ab2a67c1f9d37"
     },
     {
       "path": "docs/resolution-and-compression.md",
@@ -3892,8 +3933,8 @@
     },
     {
       "path": "experiments/observable-preserving-reduction/README.md",
-      "bytes": 21452,
-      "sha256": "dfe72f9fefc68e272131989c9e793d39d12f9616d8bc0ee79267936d029a8d55"
+      "bytes": 22401,
+      "sha256": "6b12599da218b417bdb644a7b3bd6079c7cc966add2338dd7f1bef615f829bc1"
     },
     {
       "path": "experiments/observable-preserving-reduction/audit/LOCAL-AUDIT-CONTEXT.md",
@@ -5316,5 +5357,5 @@
       "sha256": "40452cee1aef499de55fb23a91ea1e21b7977cb0eb86feb48e21fb2258126789"
     }
   ],
-  "known_verification_limitation": "Strict Linux bound-array portability comparison fails; scientific source, protocol, comparison allowance and original failure are retained. See experiment audit."
+  "known_verification_limitation": "Strict Linux bound-array comparison still fails under unchanged source and tolerances; no recovery experiment has run."
 }

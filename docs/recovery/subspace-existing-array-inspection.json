@@ -1,0 +1,485 @@
+{
+  "status": "READ-ONLY EXISTING-ARRAY INSPECTION; no model or basis rerun",
+  "software": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1"
+  },
+  "sources": {
+    "cleveland-phase1-proposal-2026-09-11/v10-preparation/response-operator/operator_study.py": "13d80e28d8acaf9ca435938d8ef08668b3cf9d0e750b7b0970b6cf26f19434ef",
+    "cleveland-phase1-proposal-2026-09-11/v10-preparation/response-operator/preanalysis.json": "530fede82261aec39165f06d0126e75e995ad131c0af0db170ce6f9c6880ada3",
+    "cleveland-phase1-proposal-2026-09-11/v10-preparation/response-operator/reference_source.py": "fbba55295943ea42ee63ca1c0607227d4f38a5fe71637f50e565f5bd2132b279",
+    "pulsar-v10-rerank-2026-09-12/math/independent-math-results.json": "141d610c08605be1cb1af2294dbf74cb50e36adb20a2eafa41ccf086d75e576c",
+    "pulsar-v10-rerank-2026-09-12/math/verify_math.py": "0d9231b62a72b7aed9d9f68bfd0734da0303f1d849bf61c84753f3a69b2d3cd8"
+  },
+  "cases": [
+    {
+      "case": "development-k1-n17-e4",
+      "archive_sha256": {
+        "primary": "666b57aa22596c970d9081909a625f3c7af90390e958869fc4c26047ceebf829",
+        "release_commit_linux": "57481681fcd382ec777943067692ea3f77b41aded820ebb631f0c3ce6e32a1d6"
+      },
+      "full_basis_saved": false,
+      "operator_or_seed_saved": false,
+      "reference_response_max_difference": 1.942890293094024e-15,
+      "times_max_difference": 3.2862601528904634e-14,
+      "harmonic_sd_max_difference": 2.886579864025407e-15,
+      "selected_rank": [
+        96,
+        96
+      ],
+      "selected_by_bound": [
+        true,
+        true
+      ],
+      "checkpoints": [
+        {
+          "rank": 3,
+          "C_max_difference": 3.497202527569243e-15,
+          "bound_max_difference": 9.769962616701378e-15,
+          "Hr_spectrum_max_difference": 6.217248937900877e-15,
+          "Hr_spectrum_difference_relative_to_primary_radius": 1.592824952865685e-15,
+          "residual_Gram_spectrum_max_difference": 2.5757174171303632e-14,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 2.8930860086721433e-15,
+          "bounds": [
+            1.2038504671426802,
+            1.2038504671426709
+          ],
+          "own_max_response_errors": [
+            0.08998659723034869,
+            0.08998659723034746
+          ],
+          "own_min_bound_slack": [
+            0.0007121722469053023,
+            0.0007121722469047862
+          ]
+        },
+        {
+          "rank": 6,
+          "C_max_difference": 3.497202527569243e-15,
+          "bound_max_difference": 5.440092820663267e-15,
+          "Hr_spectrum_max_difference": 2.3092638912203256e-14,
+          "Hr_spectrum_difference_relative_to_primary_radius": 2.7014220508946606e-15,
+          "residual_Gram_spectrum_max_difference": 1.1368683772161603e-13,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 6.68520068669347e-15,
+          "bounds": [
+            0.8404975670249765,
+            0.8404975670249717
+          ],
+          "own_max_response_errors": [
+            0.02819202750236599,
+            0.02819202750236427
+          ],
+          "own_min_bound_slack": [
+            2.7864434390847683e-05,
+            2.78644343904645e-05
+          ]
+        },
+        {
+          "rank": 12,
+          "C_max_difference": 3.774758283725532e-15,
+          "bound_max_difference": 5.928590951498336e-14,
+          "Hr_spectrum_max_difference": 8.881784197001252e-14,
+          "Hr_spectrum_difference_relative_to_primary_radius": 4.4293255401312615e-15,
+          "residual_Gram_spectrum_max_difference": 4.760636329592671e-13,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 7.358808574176225e-15,
+          "bounds": [
+            0.5236393228171685,
+            0.5236393228171707
+          ],
+          "own_max_response_errors": [
+            0.020625683804296857,
+            0.02062568380429486
+          ],
+          "own_min_bound_slack": [
+            1.4305368285538942e-08,
+            1.4305368579229332e-08
+          ]
+        },
+        {
+          "rank": 24,
+          "C_max_difference": 9.492406860545088e-15,
+          "bound_max_difference": 6.491890358617525e-13,
+          "Hr_spectrum_max_difference": 1.865885224106023e-11,
+          "Hr_spectrum_difference_relative_to_primary_radius": 4.857313153254306e-13,
+          "residual_Gram_spectrum_max_difference": 4.042703949380666e-10,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 2.3060356245488263e-12,
+          "bounds": [
+            0.17304841002514443,
+            0.17304841002525884
+          ],
+          "own_max_response_errors": [
+            0.004540067454976926,
+            0.004540067454972596
+          ],
+          "own_min_bound_slack": [
+            5.705714393123561e-14,
+            5.725082374936517e-14
+          ]
+        },
+        {
+          "rank": 48,
+          "C_max_difference": 1.1102230246251565e-14,
+          "bound_max_difference": 1.6916327279931087e-12,
+          "Hr_spectrum_max_difference": 1.4237784284887312e-09,
+          "Hr_spectrum_difference_relative_to_primary_radius": 2.490165993390401e-11,
+          "residual_Gram_spectrum_max_difference": 2.9752357022516662e-08,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 1.219557885519155e-10,
+          "bounds": [
+            0.003930316607100146,
+            0.003930316608253743
+          ],
+          "own_max_response_errors": [
+            0.00018988016579893352,
+            0.00018988016580179234
+          ],
+          "own_min_bound_slack": [
+            1.054365479423827e-13,
+            1.1570375613069151e-13
+          ]
+        },
+        {
+          "rank": 96,
+          "C_max_difference": 3.9968028886505635e-15,
+          "bound_max_difference": 4.689499713826276e-12,
+          "Hr_spectrum_max_difference": 8.494794201396871e-09,
+          "Hr_spectrum_difference_relative_to_primary_radius": 1.4304089067536377e-10,
+          "residual_Gram_spectrum_max_difference": 7.681271085857588e-08,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 3.857041648673938e-10,
+          "bounds": [
+            1.473580156678421e-06,
+            1.4735772780966335e-06
+          ],
+          "own_max_response_errors": [
+            1.3307833446329909e-08,
+            1.3307833557352211e-08
+          ],
+          "own_min_bound_slack": [
+            1.3123233453933447e-13,
+            1.0207010346347573e-13
+          ]
+        }
+      ]
+    },
+    {
+      "case": "elongated-k100-n33-e4",
+      "archive_sha256": {
+        "primary": "566a8e7797b072ecbc1ab163ab0e14a7b0710d032b7f420c2ea2c97b1a038deb",
+        "release_commit_linux": "6841ea0fa01c61a5d2e869c4a1a7955b5a9f449d4a9107051a1928b6d745d34d"
+      },
+      "full_basis_saved": false,
+      "operator_or_seed_saved": false,
+      "reference_response_max_difference": 1.3322676295501878e-15,
+      "times_max_difference": 2.7755575615628914e-17,
+      "harmonic_sd_max_difference": 2.220446049250313e-16,
+      "selected_rank": [
+        48,
+        48
+      ],
+      "selected_by_bound": [
+        true,
+        true
+      ],
+      "checkpoints": [
+        {
+          "rank": 3,
+          "C_max_difference": 3.885780586188048e-15,
+          "bound_max_difference": 9.603429163007604e-15,
+          "Hr_spectrum_max_difference": 2.1032064978498966e-12,
+          "Hr_spectrum_difference_relative_to_primary_radius": 5.5307325842645e-15,
+          "residual_Gram_spectrum_max_difference": 3.8198777474462986e-11,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 1.2074304136280927e-15,
+          "bounds": [
+            2.184159563887682,
+            2.184159563887686
+          ],
+          "own_max_response_errors": [
+            0.04859276469501117,
+            0.048592764695008506
+          ],
+          "own_min_bound_slack": [
+            0.0009362856871247896,
+            0.0009362856871200417
+          ]
+        },
+        {
+          "rank": 6,
+          "C_max_difference": 3.6637359812630166e-15,
+          "bound_max_difference": 9.936496070395151e-15,
+          "Hr_spectrum_max_difference": 2.0463630789890885e-12,
+          "Hr_spectrum_difference_relative_to_primary_radius": 3.728379310452697e-15,
+          "residual_Gram_spectrum_max_difference": 1.9426806829869747e-09,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 3.1770979696110105e-14,
+          "bounds": [
+            0.564057456529065,
+            0.5640574565290678
+          ],
+          "own_max_response_errors": [
+            0.005758476031975213,
+            0.005758476031970994
+          ],
+          "own_min_bound_slack": [
+            2.0583450965914774e-05,
+            2.058345095950581e-05
+          ]
+        },
+        {
+          "rank": 12,
+          "C_max_difference": 3.6637359812630166e-15,
+          "bound_max_difference": 1.458513865237876e-12,
+          "Hr_spectrum_max_difference": 1.1459633242338896e-10,
+          "Hr_spectrum_difference_relative_to_primary_radius": 2.599947958812766e-14,
+          "residual_Gram_spectrum_max_difference": 2.3050233721733093e-08,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 9.819133161302506e-15,
+          "bounds": [
+            0.10917721502101052,
+            0.10917721501960646
+          ],
+          "own_max_response_errors": [
+            0.0005180774784023789,
+            0.0005180774783982711
+          ],
+          "own_min_bound_slack": [
+            8.892938361549337e-08,
+            8.892936391544722e-08
+          ]
+        },
+        {
+          "rank": 24,
+          "C_max_difference": 3.6637359812630166e-15,
+          "bound_max_difference": 3.828676091444105e-12,
+          "Hr_spectrum_max_difference": 1.0792064131237566e-08,
+          "Hr_spectrum_difference_relative_to_primary_radius": 1.9283200331122294e-12,
+          "residual_Gram_spectrum_max_difference": 8.170818910002708e-05,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 2.8419182266632436e-11,
+          "bounds": [
+            0.011751391301335434,
+            0.011751391297552273
+          ],
+          "own_max_response_errors": [
+            5.02260940660193e-06,
+            5.022609404048417e-06
+          ],
+          "own_min_bound_slack": [
+            7.44002109907552e-13,
+            6.99816242841308e-13
+          ]
+        },
+        {
+          "rank": 48,
+          "C_max_difference": 1.3576251234326264e-10,
+          "bound_max_difference": 4.5668129179359115e-06,
+          "Hr_spectrum_max_difference": 9.933592185064299,
+          "Hr_spectrum_difference_relative_to_primary_radius": 0.0009167505888001432,
+          "residual_Gram_spectrum_max_difference": 371548.8022198342,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 0.03910777111522472,
+          "bounds": [
+            0.0001445118591981439,
+            0.0001490786721160798
+          ],
+          "own_max_response_errors": [
+            3.2094751412081735e-08,
+            3.2230513813402695e-08
+          ],
+          "own_min_bound_slack": [
+            9.244291564124498e-13,
+            9.62079859894294e-13
+          ]
+        }
+      ]
+    },
+    {
+      "case": "development-k1-n33-e4",
+      "archive_sha256": {
+        "primary": "99942641cd1e112ce5b3e6043bfe43e4daea8880caba7ac3141869fe1d1e450b",
+        "release_commit_linux": "cd4fa9cd7274e67c43c4f2d9b5af7119406d4ab58ed103da14ec437bccb8c4ec"
+      },
+      "full_basis_saved": false,
+      "operator_or_seed_saved": false,
+      "reference_response_max_difference": 1.7208456881689926e-15,
+      "times_max_difference": 3.2862601528904634e-14,
+      "harmonic_sd_max_difference": 2.886579864025407e-15,
+      "selected_rank": [
+        96,
+        96
+      ],
+      "selected_by_bound": [
+        false,
+        false
+      ],
+      "checkpoints": [
+        {
+          "rank": 3,
+          "C_max_difference": 4.551914400963142e-15,
+          "bound_max_difference": 1.5765166949677223e-14,
+          "Hr_spectrum_max_difference": 1.0658141036401503e-14,
+          "Hr_spectrum_difference_relative_to_primary_radius": 2.3798741599750844e-15,
+          "residual_Gram_spectrum_max_difference": 1.3322676295501878e-13,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 8.453145218956419e-15,
+          "bounds": [
+            1.4945711137999662,
+            1.4945711137999504
+          ],
+          "own_max_response_errors": [
+            0.10363564019343618,
+            0.10363564019343402
+          ],
+          "own_min_bound_slack": [
+            0.002159915753839276,
+            0.002159915753839616
+          ]
+        },
+        {
+          "rank": 6,
+          "C_max_difference": 4.551914400963142e-15,
+          "bound_max_difference": 2.2426505097428162e-14,
+          "Hr_spectrum_max_difference": 1.3500311979441904e-13,
+          "Hr_spectrum_difference_relative_to_primary_radius": 7.610665723686784e-15,
+          "residual_Gram_spectrum_max_difference": 5.8832938520936295e-12,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 2.1108709694064857e-14,
+          "bounds": [
+            1.8521727145184388,
+            1.8521727145184164
+          ],
+          "own_max_response_errors": [
+            0.057551030492719535,
+            0.05755103049271765
+          ],
+          "own_min_bound_slack": [
+            0.0006611306582881816,
+            0.0006611306582885133
+          ]
+        },
+        {
+          "rank": 12,
+          "C_max_difference": 4.551914400963142e-15,
+          "bound_max_difference": 7.220612996405862e-14,
+          "Hr_spectrum_max_difference": 3.552713678800501e-13,
+          "Hr_spectrum_difference_relative_to_primary_radius": 5.2145998925707525e-15,
+          "residual_Gram_spectrum_max_difference": 1.5120349416974932e-11,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 2.3136433210006462e-14,
+          "bounds": [
+            1.1062648425061032,
+            1.1062648425060908
+          ],
+          "own_max_response_errors": [
+            0.026146518095105986,
+            0.026146518095102433
+          ],
+          "own_min_bound_slack": [
+            6.973900768264244e-06,
+            6.97390076460702e-06
+          ]
+        },
+        {
+          "rank": 24,
+          "C_max_difference": 3.3306690738754696e-15,
+          "bound_max_difference": 7.438494264988549e-13,
+          "Hr_spectrum_max_difference": 3.326761088828789e-11,
+          "Hr_spectrum_difference_relative_to_primary_radius": 2.3965901344681256e-13,
+          "residual_Gram_spectrum_max_difference": 7.353719411185011e-09,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 4.099536208048938e-12,
+          "bounds": [
+            0.8521543542010274,
+            0.8521543542015696
+          ],
+          "own_max_response_errors": [
+            0.019308885660233754,
+            0.019308885660232367
+          ],
+          "own_min_bound_slack": [
+            7.467742639326734e-10,
+            7.467267567661763e-10
+          ]
+        },
+        {
+          "rank": 48,
+          "C_max_difference": 5.278111281370457e-12,
+          "bound_max_difference": 5.682287973485245e-10,
+          "Hr_spectrum_max_difference": 4.95160406899231e-07,
+          "Hr_spectrum_difference_relative_to_primary_radius": 2.227844633417636e-09,
+          "residual_Gram_spectrum_max_difference": 8.630201136838878e-06,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 2.2717651395965643e-09,
+          "bounds": [
+            0.3975589333106433,
+            0.3975589334864059
+          ],
+          "own_max_response_errors": [
+            0.004818610460484707,
+            0.004818610465763817
+          ],
+          "own_min_bound_slack": [
+            3.0259477287440836e-13,
+            3.6787339451538467e-13
+          ]
+        },
+        {
+          "rank": 96,
+          "C_max_difference": 8.851475108428986e-12,
+          "bound_max_difference": 1.8974069711241714e-10,
+          "Hr_spectrum_max_difference": 1.3098451603354988e-05,
+          "Hr_spectrum_difference_relative_to_primary_radius": 5.4932107320149075e-08,
+          "residual_Gram_spectrum_max_difference": 0.0001888109713945596,
+          "residual_Gram_spectrum_difference_relative_to_primary_radius": 4.788422228926108e-08,
+          "bounds": [
+            0.008672054095020159,
+            0.008672054119232175
+          ],
+          "own_max_response_errors": [
+            0.00023496999449096334,
+            0.0002349700008018596
+          ],
+          "own_min_bound_slack": [
+            4.953677171846354e-13,
+            6.174108684223907e-13
+          ]
+        }
+      ]
+    }
+  ],
+  "all_archive_comparison": {
+    "responses_covariances_times_scales": {
+      "arrays": 414,
+      "failures_at_1e_9": 0,
+      "max_difference": 1.357662125291892e-10
+    },
+    "bounds": {
+      "arrays": 372,
+      "failures_at_1e_9": 62,
+      "max_difference": 3.8341135375499107
+    },
+    "reduced_coordinates": {
+      "arrays": 279,
+      "failures_at_1e_9": 162,
+      "max_difference": 4845228.85025388
+    }
+  },
+  "previous_fresh_replay_receipt_only": [
+    {
+      "case": "development-k1-n17-e4",
+      "selected_rank": 96,
+      "selected_by_bound": true,
+      "full_reference_difference": 2.7755575615628914e-15,
+      "reduced_response_difference": 2.4424906541753444e-15,
+      "bound_difference": 4.40028941217894e-13,
+      "observed_error": 1.330783419573045e-08,
+      "bound": 1.473580426865327e-06,
+      "min_bound_slack": 1.3498672096011576e-13,
+      "wall_seconds": 0.54399175
+    },
+    {
+      "case": "elongated-k100-n33-e4",
+      "selected_rank": 48,
+      "selected_by_bound": true,
+      "full_reference_difference": 1.5543122344752192e-15,
+      "reduced_response_difference": 1.614064437660545e-11,
+      "bound_difference": 2.0938215630786306e-06,
+      "observed_error": 3.207860999054901e-08,
+      "bound": 0.00014660568076122252,
+      "min_bound_slack": 9.63804214378495e-13,
+      "wall_seconds": 6.608069541999999
+    }
+  ],
+  "fresh_replay_limitation": "verify_math.py computed but did not save fresh full bases or fresh NPZ files. This inspection verifies its source and JSON receipt, not those missing raw replay arrays.",
+  "inspection_seconds": 0.16385812499999997
+}

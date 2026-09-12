@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-13",
+  "scope": "Direct parent recomputation from existing arrays; no model rerun",
+  "linux": {
+    "linux-operator-replay": {
+      "bound_arrays": 372,
+      "bound_failures": 61,
+      "physical_arrays": 414,
+      "physical_failures": 0,
+      "max_physical_difference": 5.31902437025944e-10
+    },
+    "release-commit-linux-replay": {
+      "bound_arrays": 372,
+      "bound_failures": 62,
+      "physical_arrays": 414,
+      "physical_failures": 0,
+      "max_physical_difference": 1.357662125291892e-10
+    },
+    "release-tag-linux-replay": {
+      "bound_arrays": 372,
+      "bound_failures": 61,
+      "physical_arrays": 414,
+      "physical_failures": 0,
+      "max_physical_difference": 5.31902437025944e-10
+    }
+  },
+  "selected_case": {
+    "24": {
+      "rank24_Hr": {
+        "spectrum_error": 1.0792064131237566e-08,
+        "relative_radius": 1.928320033112229e-12
+      },
+      "rank24_residual_Gram": {
+        "spectrum_error": 8.170865476131439e-05,
+        "relative_radius": 2.8419344229749535e-11
+      },
+      "C": 3.6637359812630166e-15,
+      "bound": 3.828676091444105e-12
+    },
+    "48": {
+      "rank48_Hr": {
+        "spectrum_error": 9.93359218506339,
+        "relative_radius": 0.0009167505888000597
+      },
+      "rank48_residual_Gram": {
+        "spectrum_error": 371548.80221983604,
+        "relative_radius": 0.03910777111522491
+      },
+      "C": 1.3576251234326264e-10,
+      "bound": 4.5668129179359115e-06
+    }
+  }
+}
