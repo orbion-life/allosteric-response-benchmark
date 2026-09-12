@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" role="img" aria-labelledby="title desc">
+<title id="title">Direction-register canary: algebra passes, compiled-operation gate fails</title>
+<desc id="desc">A fixed synthetic three by three model passes the reversible walk algebra checks. The first compiled overlap exceeds one million operations, so readout simulation and the matched comparison are not completed.</desc>
+<rect width="920" height="240" fill="#faf8f3"/>
+<text x="28" y="36" font-family="Georgia,serif" font-size="24" fill="#232331">Project Pulsar · a bounded circuit canary</text>
+<text x="28" y="62" font-family="Arial,sans-serif" font-size="14" fill="#666371">Synthetic finite model · no protein or hardware claim</text>
+<g font-family="Arial,sans-serif" fill="#232331">
+<path d="M208 132H247 M433 132H472 M668 132H707" stroke="#80758d" stroke-width="1.5"/>
+<path d="M242 128l5 4-5 4 M467 128l5 4-5 4 M702 128l5 4-5 4" fill="none" stroke="#80758d" stroke-width="1.5"/>
+<rect x="28" y="92" width="180" height="95" rx="4" fill="#eeebf4"/>
+<text x="42" y="119" font-size="16">Fixed 3 × 3 grid</text><text x="42" y="146" font-size="13">Protocol frozen first</text><text x="42" y="166" font-size="13">128 joint basis states</text>
+<rect x="247" y="92" width="186" height="95" rx="4" fill="#e9eff0"/>
+<text x="261" y="119" font-size="16">Algebra checks pass</text><text x="261" y="146" font-size="13">Largest recorded error</text><text x="261" y="166" font-size="13">7.30 × 10⁻¹² &lt; 10⁻¹⁰</text>
+<rect x="472" y="92" width="196" height="95" rx="4" fill="#eee6e4"/>
+<text x="486" y="119" font-size="16">Operation cap fails</text><text x="486" y="146" font-size="13">First compiled overlap</text><text x="486" y="166" font-size="13">&gt; 1,000,000 operations</text>
+<rect x="707" y="92" width="185" height="95" rx="4" fill="#f0ede7"/>
+<text x="721" y="119" font-size="16">Execution stops</text><text x="721" y="146" font-size="13">Readout and comparison</text><text x="721" y="166" font-size="13">not completed</text>
+<text x="28" y="218" font-size="13" fill="#666371">Compiled counts use the abstract u/cx basis. No matched compiled saving is established.</text>
+</g></svg>

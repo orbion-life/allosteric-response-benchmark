@@ -1,0 +1,12 @@
+test_integral_kernels_against_quadrature (test_operator.OperatorTests.test_integral_kernels_against_quadrature) ... ok
+test_invariant_observable_subspace_stops_at_seed (test_operator.OperatorTests.test_invariant_observable_subspace_stops_at_seed) ... ok
+test_missing_seed_component_is_counted (test_operator.OperatorTests.test_missing_seed_component_is_counted) ... ok
+test_non_psd_operator_is_rejected (test_operator.OperatorTests.test_non_psd_operator_is_rejected) ... ok
+test_nonorthogonal_basis_bound_accounts_for_mass_matrix (test_operator.OperatorTests.test_nonorthogonal_basis_bound_accounts_for_mass_matrix) ... ok
+test_original_grid_response_parity (test_operator.OperatorTests.test_original_grid_response_parity) ... ok
+test_residual_bounds_against_independent_dense_exponential (test_operator.OperatorTests.test_residual_bounds_against_independent_dense_exponential) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.026s
+
+OK

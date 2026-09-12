@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "archives": 27,
+  "arrays": 1065,
+  "max_replay_absolute_error": 1.1657341758564144e-15,
+  "v0.3.0_six_archive_max_absolute_error": 1.687538997430238e-14,
+  "source_receipts": "unchanged",
+  "audit": "Parent directly recomputed comparisons independently of reviewer receipt"
+}

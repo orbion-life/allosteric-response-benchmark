@@ -1,0 +1,18 @@
+{
+  "operator-preservation.pdf": {
+    "sha256": "13608f6a098ed5af0b1cba13d3267e790847816c4d8ef09998e66c5a35786186",
+    "pages": 1,
+    "width_mm": 173.99999508327906,
+    "height_mm": 58.000001949734155,
+    "minimum_embedded_font_pt": 10.399999618530273,
+    "visual_review": "Rasterized PDF and PNG checked; no clipping or overlapping text found."
+  },
+  "response-operator.pdf": {
+    "sha256": "903b35d9b21768f0f87a3806e4dd2d47aa0e11810aef4f628e8d453dc983fe3f",
+    "pages": 1,
+    "width_mm": 173.99999508327906,
+    "height_mm": 118.00000025431314,
+    "minimum_embedded_font_pt": 10.399999618530273,
+    "visual_review": "Rasterized PDF and PNG checked; no clipping or overlapping text found."
+  }
+}

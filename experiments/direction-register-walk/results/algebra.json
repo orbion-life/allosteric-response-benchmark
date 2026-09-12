@@ -1,0 +1,28 @@
+{
+  "stochastic_error": 0.0,
+  "minimum_probability": 0.0,
+  "detailed_balance_error": 3.469446951953614e-18,
+  "permutation_bijective": true,
+  "permutation_involutive": true,
+  "shift_full_domain_error": 5.67698059801175e-13,
+  "direction_preparation_error": 4.963810247054223e-13,
+  "fixed_boundary_padding_reserved_count": 104,
+  "walk_unitarity_error": 3.2766012125762245e-12,
+  "projected_chebyshev_errors": [
+    0.0,
+    1.50568558035332e-12,
+    3.01137116070664e-12,
+    4.51705674105996e-12
+  ],
+  "factorized_control_absolute_phase_error": 3.3965096859121338e-12,
+  "inactive_control_identity_errors": [
+    3.0294707553766163e-12,
+    2.7752259814568464e-12,
+    3.3965096859121338e-12
+  ],
+  "controlled_inverse_error": 7.297706079884424e-12,
+  "polynomial_offdiagonal_chi": 0.34657387192501043,
+  "dense_exponential_offdiagonal": 0.34651405696488274,
+  "polynomial_tail_mass": 9.381570412159146e-05,
+  "unnormalized_polynomial_vs_exponential_error": 2.7300888302883575e-05
+}

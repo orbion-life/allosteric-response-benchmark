@@ -1,0 +1,166 @@
+{
+  "created_utc": "2026-09-12T19:50:30.087266+00:00",
+  "status": "PROTOCOL RECORDED BEFORE NEW RESPONSE COMPUTATION",
+  "question": "Can an observable-seeded block Krylov projection retain the full finite-grid nonlinear contact-energy response with a calculated residual bound and useful total cost?",
+  "scope": "Synthetic finite-model engineering; no biological validation, new protein prediction or continuum certification. Compact/elongated geometries have not previously had nonlinear references computed in this project.",
+  "geometries": [
+    {
+      "id": "development",
+      "role": "Previously studied development geometry with existing v0.3.0 full-coordinate nonlinear finite references.",
+      "coordinates_A": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          3.5,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "compact",
+      "role": "held out from new response development",
+      "coordinates_A": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          1.2,
+          2.4,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "elongated",
+      "role": "held out from new response development",
+      "coordinates_A": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          0.8,
+          1.5,
+          0
+        ]
+      ]
+    }
+  ],
+  "edges_zero_based": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "all_internal_modes": 3,
+  "kappa": [
+    1,
+    10,
+    100
+  ],
+  "beta": 1,
+  "mu": 1,
+  "times_over_tau": [
+    0.1,
+    1,
+    10
+  ],
+  "grid_n": [
+    17,
+    33
+  ],
+  "domain_sigma_slowest": 4,
+  "domain_check": {
+    "n": 41,
+    "extent": 5,
+    "scope": "Reference-only diagnostic at the same spacing as33/4; does not establish full thermal-basin coverage."
+  },
+  "basis": {
+    "seed": "Every centered equilibrium-weighted original quartic node energy divided by its fixed all-mode native harmonic SD.",
+    "method": "Block Arnoldi/Krylov with two full reorthogonalization passes and SVD of the residual block. Rebuild for every geometry, stiffness and grid with the same procedure.",
+    "rank_checkpoints": [
+      3,
+      6,
+      12,
+      24,
+      48,
+      96
+    ],
+    "maximum_rank": 96,
+    "relative_dependency_threshold": 1e-12,
+    "early_stop": "First checkpoint whose calculated bound passes all three times and all observables, before accessing full response. Never choose rank by measured reference error.",
+    "breakdown": "If the next residual block is numerically dependent, stop and report the achieved invariant subspace or unresolved residual.",
+    "equilibrium_null": "Original equilibrium weights; no refitting or coordinate truncation."
+  },
+  "bounds": {
+    "uniform": "t*||Fi||*||HV-VHr||2*||Fj||",
+    "integrated": "Duhamel Cauchy-Schwarz residual integral, and two-sided triangular-domain residual bound when orthogonality assumptions hold; report projection and finite-arithmetic diagnostics separately.",
+    "claim": "Analytic finite-model inequalities evaluated in floating point; no interval-arithmetic certificate."
+  },
+  "gates": {
+    "normalized_static_error": 1e-10,
+    "normalized_delayed_error": 0.002,
+    "normalized_response_error": 0.002,
+    "calculated_response_error_bound": 0.002,
+    "basis_orthogonality": 1e-10,
+    "operator_dimension_reduction_factor": 4,
+    "total_wall_time_ratio_at_same_three_time_queries": 1.0,
+    "grid_response_difference": 0.001,
+    "domain_response_difference": 0.001
+  },
+  "timing": "Count input geometry, native Hessian/scales, equilibrium quadrature, sparse operator, basis, residual bounds, projected exponentials and all3 response reconstructions. Compare cold and total three-time-query costs against full sparse expm_multiply. Do not amortize unless explicitly reported as a separate reuse scenario.",
+  "reference": "Independent full sparse matrix exponential action on the same nonlinear finite generator. Compare development cases against saved v0.3.0 archives when available.",
+  "comparison": "Original full three-coordinate operator versus projection; previous low-frequency failures retained as history.",
+  "query_order": "All approximate ranks/bounds first, then full reference.",
+  "resources": {
+    "max_total_wall_seconds": 1800,
+    "max_aggregate_bytes": 4000000000,
+    "workers": 1,
+    "BLAS_threads": 1,
+    "paid_compute": false
+  },
+  "failure": "Any failed required finite fidelity/bound/cost gate rejects a general pass across the tested range. Grid/domain failures leave continuum resolution unresolved even if the finite projection passes. Keep every case and all unsuccessful checkpoints. Stop at budget without enlarging it after observing outcomes.",
+  "heldout_rule": "The construction and thresholds are fixed before compact/elongated response calculations; each basis may access its own model/operator/observables, not any saved response.",
+  "out_of_scope": [
+    "Gaussian27-case closure benchmark",
+    "protein-scale full operator access",
+    "primary1089-state quantum circuit",
+    "biological independent-family validation",
+    "official submission"
+  ],
+  "pre_execution_metadata_correction": {
+    "date": "2026-09-12T20:00:08.438973+00:00",
+    "previous_protocol_sha256": "05d79ef4990f7f41a0f65ad8e2a646fe3c3139cc7e021e96ce8dce7e2e303381",
+    "change": "Correct only the inherited development-geometry description. It already has nonlinear v9 references, not only algebra checks. No geometry, algorithm, threshold, case, cost or acceptance rule changed. Before planned response-study execution; independent small-grid unit tests only have run."
+  }
+}

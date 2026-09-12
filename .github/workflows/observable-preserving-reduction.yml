@@ -1,0 +1,47 @@
+name: Replay observable-preserving reduction
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+env:
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  VECLIB_MAXIMUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  PYTHONWARNINGS: error
+jobs:
+  finite-response:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r experiments/observable-preserving-reduction/requirements.txt
+      - name: Allocate a unique replay directory outside the evidence
+        run: |
+          run_root=$(mktemp -d /tmp/observable-preserving-XXXXXX)
+          echo "OPERATOR_RUN_ROOT=$run_root" >> "$GITHUB_ENV"
+      - name: Check the seven operator tests and semantic comparator tests
+        working-directory: experiments/observable-preserving-reduction
+        run: |
+          set -o pipefail
+          python -W error -m unittest -v test_operator.py test_verify.py 2>&1 | tee "$OPERATOR_RUN_ROOT/unit-tests.log"
+      - name: Replay all 27 finite problems within the frozen limits
+        working-directory: experiments/observable-preserving-reduction
+        run: |
+          set -o pipefail
+          python -W error bounded_run.py "$OPERATOR_RUN_ROOT/replay" 2>&1 | tee "$OPERATOR_RUN_ROOT/campaign.log"
+      - name: Verify physical arrays and report all scientific failures
+        if: ${{ always() && env.OPERATOR_RUN_ROOT != '' }}
+        working-directory: experiments/observable-preserving-reduction
+        run: |
+          set -o pipefail
+          python -W error verify.py --replay "$OPERATOR_RUN_ROOT/replay" --output "$OPERATOR_RUN_ROOT/verification.json" 2>&1 | tee "$OPERATOR_RUN_ROOT/verification.log"
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() && env.OPERATOR_RUN_ROOT != '' }}
+        with:
+          name: observable-preserving-reduction-replay
+          path: ${{ env.OPERATOR_RUN_ROOT }}
+          if-no-files-found: warn

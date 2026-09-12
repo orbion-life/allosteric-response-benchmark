@@ -1,0 +1,82 @@
+{
+  "frozen_utc": "2026-09-12T19:48:47.375224+00:00",
+  "status": "pre-execution engineering canary; synthetic finite model, not a protein result",
+  "scope": "Direction-register algebra and full same-model circuit comparison; no 1089-state build, paid compute, public edits or model replacement",
+  "grid": {
+    "n": 3,
+    "d": 2,
+    "coordinates": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "packed_index": "x=3*i+j; valid addresses0..8; 9..15 invariant padding",
+    "coordinate_units": "dimensionless synthetic units"
+  },
+  "energy": "U(q0,q1)=0.5*(q0^2+0.7*q1^2)+0.1*q0^4+0.07*q1^4+0.05*q0^2*q1^2+0.1*q0",
+  "beta": 1,
+  "mobility": 1,
+  "delta": 1,
+  "time": 0.05,
+  "nu": 8,
+  "rates": "Q_xy=2/(1+exp(U_y-U_x)) for valid nearest neighbours; Q_xx=-sum_{y!=x}Q_xy; P=I+Q/8",
+  "padding": "P_xx=1 for x>=9; observable amplitudes zero there; no physical partition weight assigned to padding",
+  "direction_labels": {
+    "0": "stay",
+    "1": "+first",
+    "2": "-first",
+    "3": "+second",
+    "4": "-second",
+    "5,6,7": "reserved; zero prepared amplitude"
+  },
+  "shift": "Swap (x,+axis) with (valid neighbour,-axis); fix stay, invalid outward direction, reserved labels and every padded-address label. Implement disjoint two-level transpositions with Gray-code X/MCX gates. No whole-walk matrix gate in compiled circuit.",
+  "conditional_loading": "Lookup-based row-controlled unitary StatePreparation on3 direction qubits. All arithmetic workspace=0 at lookup level. Does not implement reversible primary-model energy arithmetic.",
+  "walk": "W=(2|0_dir><0_dir|-I) A_dir^dagger S A_dir. Preserve absolute phases. Doubly controlled W factors through unconditional A/A^dagger and controlled S/reflection.",
+  "coefficient_degree": 3,
+  "coefficients": "c_k=exp(-z) I_k(z), doubled for k>=1, z=nu*time; prepare sqrt(c/sum(c)) including zero padding",
+  "left_observable": "q0+0.25*q0*q1+0.1*q1^2; subtract pi mean, weight by sqrt(pi), normalize",
+  "right_observable": "q1^2+0.3*q0*q1+0.2*q0; subtract pi mean, weight by sqrt(pi), normalize",
+  "overlaps": [
+    "left/right",
+    "negative-left/right"
+  ],
+  "components": "Readout-controlled right PREP, COEF, SELECT, COEF inverse, left PREP inverse; final readout Hadamard and measurement.",
+  "comparison": "Frozen v0.3.0 two-address circuit on exactly the same padded P, signed observables, K=3 coefficients and gates.",
+  "native_compile": {
+    "basis": [
+      "u",
+      "cx"
+    ],
+    "optimization_level": 1,
+    "seed": 20260912,
+    "approximation_degree": 1.0,
+    "topologies": [
+      "all_to_all",
+      "bidirectional_line"
+    ],
+    "scope": "Abstract native universal basis, no named device or pulse timing"
+  },
+  "tests": [
+    "All128 direction/address basis states form an involutive permutation; boundaries and padding fixed",
+    "P stochastic, detailed balance and D=sqrt(P*P.T)",
+    "Projected walk powers0..3 equal Chebyshev polynomials of D",
+    "Factorized double-control equals controlled W with absolute phase; three inactive control sectors identity",
+    "Inverse composition identity and false-control coherence",
+    "Compiled full offdiagonal overlaps match signed classical polynomial; negative-left flips sign",
+    "Dense exponential comparison and truncation error recorded separately",
+    "Reload saved QPY and repeat statevector check"
+  ],
+  "numerical_tolerance": 1e-10,
+  "caps": {
+    "wall_seconds": 1800,
+    "resident_bytes": 4294967296,
+    "native_operations_per_circuit": 1000000
+  },
+  "failure_treatment": "Stop at cap, retain partial results, no threshold or workload change after inspection",
+  "historical_source": {
+    "tag": "v0.3.0",
+    "commit": "df69d29c0870ff636c56e7194de037d8693b3e19",
+    "path": "vendor/current_circuit.py",
+    "sha256": "33a8711b458480cf8f566f52e2920716c348fa21790d68ff6af759b42a4b27f2"
+  }
+}

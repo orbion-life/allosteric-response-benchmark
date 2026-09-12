@@ -1,0 +1,10 @@
+{
+  "exit_code": 1,
+  "watchdog_reason": null,
+  "seconds": 771.9865609160042,
+  "prior_attempt_seconds": 972.5594820419792,
+  "aggregate_attempt_seconds": 1744.5460439169547,
+  "remaining_cap_seconds_at_start": 827.4405179580208,
+  "polled_peak_RSS_bytes": 1637793792,
+  "scope": "One local canary process; compilation uses num_processes=1"
+}

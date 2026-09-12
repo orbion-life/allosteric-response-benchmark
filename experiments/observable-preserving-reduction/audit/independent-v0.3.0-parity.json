@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "tag_object": "c58009f1574155a5f8053a66aac65e20e2d383f6",
+  "commit": "df69d29c0870ff636c56e7194de037d8693b3e19",
+  "archives": [
+    {
+      "release_path": "experiments/harmonic-completion/results/biquadratic-k1-d3-n17-e4.npz",
+      "sha256": "ea394fc1c7a1a7ba4187489ffa1436e032b7437b52963dbe7f55d56889b38a14",
+      "max_differences": {
+        "C": 3.7192471324942744e-15,
+        "equilibrium": 1.887379141862766e-15,
+        "delayed": 1.8318679906315083e-15
+      }
+    },
+    {
+      "release_path": "experiments/harmonic-completion/results/biquadratic-k1-d3-n33-e4.npz",
+      "sha256": "850ae7adfa66773e39fb863523e980ca0fc6a44fa042b381e2a2a5d971e2b6c4",
+      "max_differences": {
+        "C": 3.2751579226442118e-15,
+        "equilibrium": 1.6375789613221059e-15,
+        "delayed": 2.147587663259287e-15
+      }
+    },
+    {
+      "release_path": "experiments/harmonic-completion/results/biquadratic-k10-d3-n17-e4.npz",
+      "sha256": "11439e56dd50eaa896ac3cc8d18684558f8e3f3821e6b3bf1da965157c35d837",
+      "max_differences": {
+        "C": 3.1086244689504383e-15,
+        "equilibrium": 2.9976021664879227e-15,
+        "delayed": 2.220446049250313e-15
+      }
+    },
+    {
+      "release_path": "experiments/harmonic-completion/results/biquadratic-k10-d3-n33-e4.npz",
+      "sha256": "a806b355f61e3e34e6f0cd7adc9d9202c44c1bc210dfe1d7ba2be05f61c55eb3",
+      "max_differences": {
+        "C": 1.3100631690576847e-14,
+        "equilibrium": 1.2656542480726785e-14,
+        "delayed": 1.0769163338864018e-14
+      }
+    },
+    {
+      "release_path": "experiments/harmonic-completion/results/biquadratic-k100-d3-n17-e4.npz",
+      "sha256": "b4b55d2b3c463c66fecd8e964192f97e7d3d758305915528e2928e95453ea2d7",
+      "max_differences": {
+        "C": 4.551914400963142e-15,
+        "equilibrium": 4.218847493575595e-15,
+        "delayed": 4.9960036108132044e-15
+      }
+    },
+    {
+      "release_path": "experiments/harmonic-completion/results/biquadratic-k100-d3-n33-e4.npz",
+      "sha256": "7948738c19872e4ab1fd0ea5fdb7b859ecfdf4727fb2e15c0abd73f087d3026e",
+      "max_differences": {
+        "C": 1.687538997430238e-14,
+        "equilibrium": 8.881784197001252e-15,
+        "delayed": 7.993605777301127e-15
+      }
+    }
+  ],
+  "absolute_tolerance": 1e-09
+}

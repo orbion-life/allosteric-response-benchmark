@@ -1,0 +1,67 @@
+{
+  "status": "partial: algebra checks passed; first native-operation gate failed",
+  "scientific_protocol_sha256": "4f83a3a77e90648331a1b20d9be777773be0a60fc9ea1cf1509648530e9146f6",
+  "full_estimator_execution": "not completed",
+  "native_operation_result": {
+    "method": "direction",
+    "topology": "all_to_all",
+    "total_operation_count_lower_bound_exclusive": 1000000,
+    "exact_native_count": null,
+    "native_depth": null,
+    "native_qpy_saved": false,
+    "basis": [
+      "u",
+      "cx"
+    ],
+    "reason_exact_metrics_unavailable": "The frozen source checks the cap before writing the native-count/QPY receipt."
+  },
+  "matched_two_address_native_comparison": "not reached",
+  "sign_flip_execution": "not reached",
+  "line_compilation": "not reached",
+  "complete_saved_statevector_replay": "not reached",
+  "saved_logical_qubits": 10,
+  "saved_logical_qpy_sha256": "9bb934fb1a3b54be97f1ef3b34d7daf6bae212fa925c55e0d0a42ed0192dd63e",
+  "algebra": {
+    "stochastic_error": 0.0,
+    "minimum_probability": 0.0,
+    "detailed_balance_error": 3.469446951953614e-18,
+    "permutation_bijective": true,
+    "permutation_involutive": true,
+    "shift_full_domain_error": 5.67698059801175e-13,
+    "direction_preparation_error": 4.963810247054223e-13,
+    "fixed_boundary_padding_reserved_count": 104,
+    "walk_unitarity_error": 3.2766012125762245e-12,
+    "projected_chebyshev_errors": [
+      0.0,
+      1.50568558035332e-12,
+      3.01137116070664e-12,
+      4.51705674105996e-12
+    ],
+    "factorized_control_absolute_phase_error": 3.3965096859121338e-12,
+    "inactive_control_identity_errors": [
+      3.0294707553766163e-12,
+      2.7752259814568464e-12,
+      3.3965096859121338e-12
+    ],
+    "controlled_inverse_error": 7.297706079884424e-12,
+    "polynomial_offdiagonal_chi": 0.34657387192501043,
+    "dense_exponential_offdiagonal": 0.34651405696488274,
+    "polynomial_tail_mass": 9.381570412159146e-05,
+    "unnormalized_polynomial_vs_exponential_error": 2.7300888302883575e-05
+  },
+  "aggregate_attempt_seconds": 1744.5460439169547,
+  "structural_reload_seconds": 1.017543707974255,
+  "aggregate_with_structural_reload_seconds": 1745.563587624929,
+  "largest_polled_RSS_bytes": 1637793792,
+  "no_paid_or_hardware_run": true,
+  "no_scientific_setting_or_gate_change": true,
+  "source_hashes": {
+    "run.py": "e4d0ce82985c8fe6142ee298cef90415799938a3c641a181cfff1afc3e09357b",
+    "bounded_run.py": "37d0c33c71ee1fca5a19b0394c06ea581ce684547ce07d76187023f73c701224",
+    "contraction_backend.py": "541d481a35aed1f501453d0ebc217ebc965bafc3a1b4c776bddf87b45ca014bb",
+    "protocol.json": "4f83a3a77e90648331a1b20d9be777773be0a60fc9ea1cf1509648530e9146f6",
+    "procedural-amendment.json": "4f05900be3dc38a009f1939c6127b70d748c0caecbc8f4980a2883ef140d8410",
+    "vendor/current_circuit.py": "33a8711b458480cf8f566f52e2920716c348fa21790d68ff6af759b42a4b27f2"
+  },
+  "scope": "Small synthetic lookup-loaded model only; no measured primary21-qubit or compiled saving claim."
+}

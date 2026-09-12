@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "legacy_qiskit_method_source_sha256": "59085039c39d6c2bc8fcdead37c979717ddbc41eca1cda98dc5a70b35eeb266b",
+  "fixture_count": 8,
+  "parity": [
+    {
+      "tensor_shape": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "indices": [
+        0
+      ],
+      "shift": 0,
+      "right_mul": false,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "tensor_shape": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "indices": [
+        0
+      ],
+      "shift": 0,
+      "right_mul": true,
+      "max_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "tensor_shape": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "indices": [
+        1
+      ],
+      "shift": 2,
+      "right_mul": false,
+      "max_absolute_error": 9.930136612989092e-16
+    },
+    {
+      "tensor_shape": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "indices": [
+        1
+      ],
+      "shift": 2,
+      "right_mul": true,
+      "max_absolute_error": 9.155133597044475e-16
+    },
+    {
+      "tensor_shape": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "indices": [
+        0,
+        2
+      ],
+      "shift": 0,
+      "right_mul": false,
+      "max_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "tensor_shape": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "indices": [
+        0,
+        2
+      ],
+      "shift": 0,
+      "right_mul": true,
+      "max_absolute_error": 1.2560739669470201e-15
+    },
+    {
+      "tensor_shape": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "indices": [
+        0,
+        2
+      ],
+      "shift": 3,
+      "right_mul": false,
+      "max_absolute_error": 9.155133597044475e-16
+    },
+    {
+      "tensor_shape": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "indices": [
+        0,
+        2
+      ],
+      "shift": 3,
+      "right_mul": true,
+      "max_absolute_error": 9.930136612989092e-16
+    }
+  ],
+  "change": "Identical contraction indices, optimize=True, finite checks; process-local method override only",
+  "RuntimeWarning_policy": "error"
+}

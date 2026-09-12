@@ -1,0 +1,5602 @@
+{
+  "status": "PASS",
+  "absolute_tolerance": 1e-09,
+  "archives": 27,
+  "arrays": 1065,
+  "maximum_absolute_difference": 1.1657341758564144e-15,
+  "archive_comparisons": [
+    {
+      "archive": "compact-k1-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 1.3877787807814457e-17,
+          "values_exact": false
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 1.5720931501039814e-17,
+          "values_exact": false
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "compact-k1-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "compact-k1-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 1.3877787807814457e-17,
+          "values_exact": false
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 1.734723475976807e-17,
+          "values_exact": false
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "compact-k10-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "compact-k10-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "compact-k10-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 1.1102230246251565e-16,
+          "values_exact": false
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 5.963111948670274e-17,
+          "values_exact": false
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "compact-k100-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "compact-k100-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "compact-k100-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k1-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k1-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 9.992007221626409e-16,
+          "values_exact": false
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 9.992007221626409e-16,
+          "values_exact": false
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k1-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 1.1657341758564144e-15,
+          "values_exact": false
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 1.1379786002407855e-15,
+          "values_exact": false
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k10-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k10-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k10-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k100-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k100-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "development-k100-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k1-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 1.3877787807814457e-17,
+          "values_exact": false
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 1.745565497701662e-17,
+          "values_exact": false
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k1-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 3.0899761915836876e-18,
+          "values_exact": false
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k1-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k10-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k10-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank96_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k10-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k100-n17-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k100-n33-e4.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank3_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank6_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank12_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank24_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_one_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_two_sided_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_uniform_bound",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_Hr",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_coefficients",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "rank48_residual_Gram",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    },
+    {
+      "archive": "elongated-k100-n41-e5.npz",
+      "fields": [
+        {
+          "array": "reference_C",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_delayed",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "reference_equilibrium",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "times",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        },
+        {
+          "array": "harmonic_sd",
+          "max_absolute_difference": 0.0,
+          "values_exact": true
+        }
+      ]
+    }
+  ],
+  "timing_compared_separately": [
+    {
+      "case": "development-k1-n17-e4",
+      "primary_time_ratio": 1.0515061717202832,
+      "replay_time_ratio": 1.0091802313265008,
+      "primary_practical_pass": false,
+      "replay_practical_pass": false
+    },
+    {
+      "case": "development-k1-n33-e4",
+      "primary_time_ratio": 0.3173822707607699,
+      "replay_time_ratio": 0.3212018135933653,
+      "primary_practical_pass": false,
+      "replay_practical_pass": false
+    },
+    {
+      "case": "development-k10-n17-e4",
+      "primary_time_ratio": 0.11476008709954647,
+      "replay_time_ratio": 0.10720679262684048,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "development-k10-n33-e4",
+      "primary_time_ratio": 0.3219816566123065,
+      "replay_time_ratio": 0.33226137118611493,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "development-k100-n17-e4",
+      "primary_time_ratio": 0.1138915457923099,
+      "replay_time_ratio": 0.11391760865552088,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "development-k100-n33-e4",
+      "primary_time_ratio": 0.09295776047123615,
+      "replay_time_ratio": 0.09398754650255141,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "compact-k1-n17-e4",
+      "primary_time_ratio": 0.30233722766442933,
+      "replay_time_ratio": 0.2959927788255112,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "compact-k1-n33-e4",
+      "primary_time_ratio": 0.3122894999380278,
+      "replay_time_ratio": 0.3183715487043817,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "compact-k10-n17-e4",
+      "primary_time_ratio": 0.32611263681712804,
+      "replay_time_ratio": 0.3095712283543063,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "compact-k10-n33-e4",
+      "primary_time_ratio": 0.32660367952864966,
+      "replay_time_ratio": 0.3222465768380485,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "compact-k100-n17-e4",
+      "primary_time_ratio": 0.11480840990818378,
+      "replay_time_ratio": 0.11330248725522508,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "compact-k100-n33-e4",
+      "primary_time_ratio": 0.09150536966705923,
+      "replay_time_ratio": 0.0912095408404425,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "elongated-k1-n17-e4",
+      "primary_time_ratio": 0.3039764725266014,
+      "replay_time_ratio": 0.3146814761998147,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "elongated-k1-n33-e4",
+      "primary_time_ratio": 0.291757531458149,
+      "replay_time_ratio": 0.3300657940263417,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "elongated-k10-n17-e4",
+      "primary_time_ratio": 0.320111910954725,
+      "replay_time_ratio": 0.31960905619758956,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "elongated-k10-n33-e4",
+      "primary_time_ratio": 0.33055115210465397,
+      "replay_time_ratio": 0.3346687168233819,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "elongated-k100-n17-e4",
+      "primary_time_ratio": 0.11353828746002247,
+      "replay_time_ratio": 0.11357435122926456,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    },
+    {
+      "case": "elongated-k100-n33-e4",
+      "primary_time_ratio": 0.0940863503303925,
+      "replay_time_ratio": 0.08919413133877752,
+      "primary_practical_pass": true,
+      "replay_practical_pass": true
+    }
+  ],
+  "frozen_source_and_primary_files_unchanged": 61,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.1.3"
+  }
+}

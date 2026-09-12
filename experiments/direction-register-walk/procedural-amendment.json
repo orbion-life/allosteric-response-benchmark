@@ -1,0 +1,25 @@
+{
+  "date_utc": "2026-09-12T20:09:14.205889+00:00",
+  "kind": "verification-only implementation performance amendment",
+  "scientific_protocol_sha256": "4f83a3a77e90648331a1b20d9be777773be0a60fc9ea1cf1509648530e9146f6",
+  "reason": "Qiskit Operator._einsum_matmul uses numpy.einsum without optimize. The full composite-unitary checks consumed excessive classical verification time. The first attempt was stopped before a result, not scored as an algebra failure.",
+  "changes": "Override only the local Qiskit Operator contraction with the identical contraction indices and optimize=True; verify parity on small independent complex fixtures before installation. Enable RuntimeWarning-as-error and finite-array checks. No installed library file is modified.",
+  "unchanged": [
+    "grid",
+    "energy",
+    "rates",
+    "observables",
+    "coefficient degree",
+    "all gates and controls",
+    "boundary rules",
+    "synthesis settings",
+    "accuracy criterion",
+    "full-domain algebra checks"
+  ],
+  "first_attempt_wall_seconds": 972.5594820419792,
+  "first_attempt_peak_RSS_bytes": 183697408,
+  "aggregate_wall_cap_seconds": 1800,
+  "remaining_compute_wall_seconds": 827.4405179580208,
+  "original_runner_sha256": "e28e8784a4c6258ef9bca609bd927c9956dde87fe28dca0190e9f458d2ae7243",
+  "first_attempt_receipt_sha256": "d8608a39207d3000fb45d0e2325ffe7096641588c285e53b1584d6d206f8147a"
+}

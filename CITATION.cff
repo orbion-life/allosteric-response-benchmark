@@ -4,8 +4,8 @@ title: "Project Pulsar: Allosteric Response Benchmark"
 type: software
 authors:
   - name: "Orbion"
-version: 0.3.0
+version: 0.4.0
 date-released: 2026-09-12
 license: MIT
 repository-code: "https://github.com/orbion-life/allosteric-response-benchmark"
-abstract: "Reproducible synthetic, KRAS and ABL contact-network benchmarks of thermal linear response, with classical controls, coordinate-compression checks failed compression-remedy studies, a proposed Gaussian closure, and qubitized-walk circuit compilation, simulation and same-model resource accounting."
+abstract: "Reproducible static-structure and synthetic benchmarks of thermal contact-energy response, including observable-preserving finite-operator reduction, failed grid/domain checks, classical controls, a bounded direction-register walk study and quantum resource accounting."

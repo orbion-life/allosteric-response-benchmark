@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "test": "Plant1e-4drift in one actual replay response entry",
+  "expected_verifier_exit": 1,
+  "observed_verifier_exit": 1,
+  "full_receipt_written_before_failure": true,
+  "semantic_array_failure": {
+    "context": "semantic physical array",
+    "case": "development-k1-n17-e4",
+    "field": "rank96_C",
+    "diagnostic": {
+      "shape_reference": [
+        3,
+        3,
+        3
+      ],
+      "shape_replay": [
+        3,
+        3,
+        3
+      ],
+      "dtype_reference": "float64",
+      "dtype_replay": "float64",
+      "passed": false,
+      "policy": "absolute physical-array tolerance",
+      "tolerance": 1e-09,
+      "max_absolute_difference": 0.00010000000000000286,
+      "worst_index": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "scientific_sources_and_frozen_outputs_changed": false
+}

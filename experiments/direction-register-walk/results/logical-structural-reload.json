@@ -1,0 +1,35 @@
+{
+  "status": "structural_reload_only",
+  "seconds": 1.017543707974255,
+  "path": "results/circuits/direction_logical.qpy",
+  "sha256": "9bb934fb1a3b54be97f1ef3b34d7daf6bae212fa925c55e0d0a42ed0192dd63e",
+  "bytes": 14914438,
+  "qubits": 10,
+  "registers": [
+    [
+      "b",
+      1
+    ],
+    [
+      "c",
+      2
+    ],
+    [
+      "x",
+      4
+    ],
+    [
+      "dir",
+      3
+    ]
+  ],
+  "top_level_operations": {
+    "ccW_dir": 3,
+    "h": 2,
+    "cstate_preparation": 2,
+    "cstate_preparation_dg": 2,
+    "measure": 1
+  },
+  "measurements": 1,
+  "full_statevector_or_native_replay": "not performed; native-operation cap had already failed; this reload does not substitute for the frozen execution checks"
+}

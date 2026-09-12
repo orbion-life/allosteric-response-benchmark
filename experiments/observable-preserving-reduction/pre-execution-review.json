@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-12T20:00:08.440456+00:00",
+  "status": "Seven independent unit tests pass with warnings as errors. Planned geometry response study not yet run.",
+  "protocol_sha256": "530fede82261aec39165f06d0126e75e995ad131c0af0db170ce6f9c6880ada3",
+  "scientific_code_sha256": "13d80e28d8acaf9ca435938d8ef08668b3cf9d0e750b7b0970b6cf26f19434ef",
+  "pre_execution_corrections": [
+    "Use the actually simulated clipped projected operator in its residual.",
+    "Account for nonorthogonal basis mass and coefficient norms in the two-sided bound.",
+    "Use a universal one-sided Duhamel bound including seed residual.",
+    "Replace dense Pade/matmul check with full dense Hermitian eigendecomposition plus explicit contractions because platform matmul emitted floating-point warnings despite matching results. No warning suppression.",
+    "Correct the development geometry history description.",
+    "Name the arithmetic allowance for observed error versus calculated bound.",
+    "Specify truncation of residual-block columns at scheduled checkpoints; no complete block moment-matching claim."
+  ],
+  "unchanged": "Physical model, native observables/scales, protocol thresholds, geometries, rank schedule, costs and failure branch."
+}

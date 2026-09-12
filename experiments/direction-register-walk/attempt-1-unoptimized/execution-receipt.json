@@ -1,0 +1,7 @@
+{
+  "exit_code": -15,
+  "watchdog_reason": null,
+  "seconds": 972.5594820419792,
+  "polled_peak_RSS_bytes": 183697408,
+  "scope": "One local canary process; compilation uses num_processes=1"
+}

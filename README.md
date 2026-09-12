@@ -2,7 +2,25 @@
 
 **Project Pulsar: reproducible static-structure mechanics and a complete quantum-walk estimator.**
 
-This repository tests whether static protein contact mechanics identify regulatory pockets, whether approximate coordinates preserve the response, and whether a quantum estimator can reproduce useful predictions at an acceptable total cost. Version **0.3.0** adds a locked ABL comparison, corrected KRAS evaluation, same-model quantum costing, two failed representation remedies and a proposed Gaussian-closure experiment. The original v0.2.0 scientific artifacts remain unchanged.
+This repository tests whether static contact mechanics identify regulatory pockets, whether numerical reductions preserve their responses, and whether quantum evaluation is useful at complete cost. Version **0.4.0** adds an observable-seeded response-operator experiment. Earlier protein predictions, failed coordinate remedies and quantum fixtures remain unchanged.
+
+## What version 0.4.0 establishes
+
+| Question | Recorded result | Scope |
+|---|---|---|
+| Can projection retain the original finite-model response? |17/18 cases pass calculated accuracy bounds;16 also pass the cold-cost gate. All 18 measured response errors are below 0.002. |Three synthetic geometries, three stiffnesses, two grids and three times; every internal coordinate is retained. |
+| Are the physical references converged? |All 9 grid and all9 domain checks exceed0.001. |Finite-operator fidelity does not establish continuum or protein accuracy. |
+| Is the calculation repeatable? |27 archives and 1,065 arrays agree within 1.17×10⁻¹⁵ in the full same-host replay. |Timings are separate measurements; both replay acceptance counts remain unchanged. |
+| Does a direction register establish a quantum saving? |Nine-state walk algebra passes, but native compilation exceeds the million-operation cap. |Complete readout and matched circuit comparison are unfinished; no cost saving is established. |
+
+![Observable-preserving reduction: all finite cases and cost comparisons](experiments/observable-preserving-reduction/figures/response-operator.png)
+
+- [Observable-preserving reduction, derivation, all cases and complete replay commands](experiments/observable-preserving-reduction/README.md).
+- [Original-grid direction-register walk and bounded implementation status](experiments/direction-register-walk/README.md).
+- [Proposed external-family and functional validation](docs/proposed-external-validation.md), with unresolved cohort, precision and control choices.
+- [Version 0.4.0 release notes](RELEASE-NOTES-v0.4.0.md).
+
+The Gaussian 27-response benchmark and external biological panel remain proposed. A compact response operator strengthens the classical comparator; it does not automatically create an efficient quantum workload. Source and protocol hashes, unsuccessful checkpoints, monitoring receipts and independent checks accompany the results.
 
 ![KRAS and ABL input structures with matched reference labels](experiments/two-target-comparison/figures/protein-comparison.png)
 
@@ -14,11 +32,11 @@ This repository tests whether static protein contact mechanics identify regulato
 | Does nonlinearity improve the declared controls? | No comparison passes the six-slot Holm correction. The smallest adjusted p is 0.075592 for ABL versus harmonic; its mean percentile gain is 0.017098. | A small retrospective rank shift is retained, without a demonstrated comparative benefit. |
 | Do the two compression remedies pass? | A 64-coordinate receiver-strain basis gives KRAS harmonic error 0.198519. Additive harmonic completion fails the fixed nonlinear toy gates. | Neither tested remedy establishes faithful compression; finite-grid reference limits remain explicit. |
 | What does the evaluated 1,089-state KRAS model cost? | Twelve observable directions use 78 overlaps. Sufficient ideal shot estimates range from 37.19 million to 121.88 million across exact readout bases. | These are retrospective, ranking-aware plans. Full transition loading and full quantum execution remain unresolved. |
-| What is the next concrete experiment? | A fixed-centroid Gaussian covariance model has a strictly convex objective; its algebra and coordinate-domain check pass. | Nonlinear-response validation is proposed, not completed. It initially supplies a classical comparator and does not establish a useful quantum task. |
+| What Gaussian comparator was proposed in v0.3.0? | A fixed-centroid Gaussian covariance model has a strictly convex objective; its algebra and coordinate-domain check pass. | Nonlinear-response validation is proposed, not completed. It initially supplies a classical comparator and does not establish a useful quantum task. |
 
 The corrected KRAS evaluator excludes missing reference residues 105–107 from its null pool while retaining their prediction ranks. It uses 123 evaluable candidates among 126 predictions. The amended three-slot contact-enrichment p is 0.00029997 for KRAS and 1 for ABL; the unrun MYH7 slot remains explicit. These conditional-label statistics do not establish functional allostery. Model scales are not physiologically calibrated.
 
-## New evidence and complete replay instructions
+## Preserved version 0.3.0 evidence and replay instructions
 
 - [KRAS missing-reference correction](experiments/kras/evaluation-amendment/README.md), with every original score and ranking retained.
 - [Locked ABL pilot](experiments/abl/pilot/README.md), including the complete 252 × 252 matrices, mappings, distances and all controls.
