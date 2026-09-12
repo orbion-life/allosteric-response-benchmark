@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "retained_residues": 252,
+  "missing_within_declared_domain": [],
+  "variants": [
+    {
+      "canonical": 363,
+      "author": 382,
+      "expected": "D",
+      "observed": "N"
+    }
+  ],
+  "coordinates": "All retained C\u03b1 coordinates agree exactly with maximum-occupancy source atom-table entries after the recorded float32-to-float64 promotion.",
+  "mapping": "Every retained position independently maps through SIFTS label-sequence numbering to current P00519.",
+  "inputs": {
+    "1OPL.cif": "af3a6348cbf0748243503f3aeec85f8cf0fa37a4989696cbfb4afa7424a97f6a",
+    "1OPL-sifts.json": "3ca406d31ed717db1b69254f9b8252150084797a0a5d35909d209c137f672eb5",
+    "P00519.json": "5b0171beb95c871df1f6556a2eb198976a3834c9ea3a8134dab893f3947b72db",
+    "ABL-input.json": "2766789025edec14e5f73e93e0ec06d9b320c5ffcee36488427c3d505b668bc5"
+  }
+}

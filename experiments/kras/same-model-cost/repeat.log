@@ -1,0 +1,140 @@
+{
+  "rank": 12,
+  "gamma2": 0.012923007861084499,
+  "gap": 2.8845399181197428e-06,
+  "fixed": {
+    "polynomial_C_cap": 0.0005,
+    "degree": 25,
+    "retained_sum": 0.9757476764812274,
+    "tail_bound": 0.14391838940968382,
+    "numerical_tail": 0.0242523235187726,
+    "tail_C_bound": 0.00046660327611620667,
+    "actual_polynomial_C_error": 2.726262321840799e-05,
+    "overlap_sampling_halfwidth": 0.3172187555390552,
+    "shots_per_overlap": 160,
+    "total_shots": 12480,
+    "simultaneous_failure_probability": 0.05,
+    "oracle_centred_interval_diagnostic": {
+      "certified": false,
+      "separation": -0.00027665263434571133,
+      "top5_canonical": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "max_candidate_halfwidth": 0.00021437731140788632
+    },
+    "resources": {
+      "configuration_qubits_each": 11,
+      "coefficient_qubits": 5,
+      "readout_qubits": 1,
+      "workspace_qubits_in_existing_abstract_encoding": 0,
+      "abstract_total_qubits_before_any_compiler_workspace": 28,
+      "full_complex128_statevector_bytes": 4294967296,
+      "binary_select_walk_invocations": 31,
+      "V_or_inverse_invocations": 62,
+      "row_controlled_PREP_invocations": 126976,
+      "register_pair_swaps": 341,
+      "zero_workspace_reflections": 31,
+      "observable_PREP_and_inverse": 2,
+      "coefficient_PREP_and_inverse": 2,
+      "full_statevector_within_local_cap": false
+    }
+  },
+  "oracle": {
+    "status": "Oracle-calibrated sufficient planning estimate; no executed primary quantum circuit",
+    "degree": 42,
+    "retained_sum": 0.9998191891461944,
+    "tail_bound": 0.0015589011556517115,
+    "tail_C_bound": 5.0541726415365615e-06,
+    "maximum_admissible_overlap_error_by_exact_ranking": 0.006418166062180235,
+    "planned_overlap_halfwidth": 0.0032090830310901176,
+    "shots_per_overlap": 1562522,
+    "total_shots": 121876716,
+    "resources": {
+      "configuration_qubits_each": 11,
+      "coefficient_qubits": 6,
+      "readout_qubits": 1,
+      "workspace_qubits_in_existing_abstract_encoding": 0,
+      "abstract_total_qubits_before_any_compiler_workspace": 29,
+      "full_complex128_statevector_bytes": 8589934592,
+      "binary_select_walk_invocations": 63,
+      "V_or_inverse_invocations": 126,
+      "row_controlled_PREP_invocations": 258048,
+      "register_pair_swaps": 693,
+      "zero_workspace_reflections": 63,
+      "observable_PREP_and_inverse": 2,
+      "coefficient_PREP_and_inverse": 2,
+      "full_statevector_within_local_cap": false
+    }
+  },
+  "last_stage": {
+    "stage": 6,
+    "degree": 41,
+    "polynomial_C_cap": 7.8125e-06,
+    "sampling_C_cap": 6.25e-05,
+    "stage_failure_probability": 0.0008928571428571429,
+    "tail_bound": 0.0021601876833133235,
+    "retained_sum": 0.9997448816296893,
+    "overlap_halfwidth": 0.0048375695224387606,
+    "shots_per_overlap": 1031613,
+    "total_fresh_shots": 80465814,
+    "cumulative_shots": 106348788,
+    "within_local_shot_cap": false,
+    "ideal_oracle_centred_diagnostic": {
+      "certified": true,
+      "separation": 5.520513254722375e-07,
+      "top5_canonical": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "max_candidate_halfwidth": 3.333990990514406e-06
+    },
+    "device_point001_oracle_centred_diagnostic": {
+      "certified": false,
+      "separation": -0.001999447948674528,
+      "top5_canonical": [
+        60,
+        69,
+        62,
+        61,
+        65
+      ],
+      "max_candidate_halfwidth": 0.0010033339909905144
+    },
+    "resources": {
+      "configuration_qubits_each": 11,
+      "coefficient_qubits": 6,
+      "readout_qubits": 1,
+      "workspace_qubits_in_existing_abstract_encoding": 0,
+      "abstract_total_qubits_before_any_compiler_workspace": 29,
+      "full_complex128_statevector_bytes": 8589934592,
+      "binary_select_walk_invocations": 63,
+      "V_or_inverse_invocations": 126,
+      "row_controlled_PREP_invocations": 258048,
+      "register_pair_swaps": 693,
+      "zero_workspace_reflections": 63,
+      "observable_PREP_and_inverse": 2,
+      "coefficient_PREP_and_inverse": 2,
+      "full_statevector_within_local_cap": false
+    }
+  },
+  "checks": {
+    "max_C_difference_from_frozen": 2.6020852139652106e-18,
+    "max_score_difference_from_frozen": 6.776263578034403e-20,
+    "max_weighted_observable_reconstruction": 7.954544557002569e-18,
+    "max_orthonormality_error": 2.7755575615628914e-15,
+    "max_covariance_difference_from_frozen": 0.0,
+    "max_normalized_equilibrium_difference_from_frozen": 2.8189256484623115e-18,
+    "maximum_stochastic_row_error": 1.9984014443252818e-15,
+    "minimum_stored_transition": 5.278560655377435e-06,
+    "max_detailed_balance_error": 6.505213034913027e-19,
+    "max_exit_rate": 4.862909840451328,
+    "max_exit_rate_over_uniformization": 0.4996067941187042
+  }
+}

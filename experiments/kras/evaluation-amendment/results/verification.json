@@ -1,0 +1,97 @@
+{
+  "amendment": "KRAS reference observability correction",
+  "date": "2026-09-12",
+  "historical_release": "v0.2.0",
+  "historical_commit": "527712c281f1a366b9fb1524342a8daf31a06d7a",
+  "source_manifest_sha256": "abb020b4bdb02c5710f1923d245281cf4eeb036ad8f72490c41861fcde34e899",
+  "script_sha256": "7b55b4d97e567f446a69b40cb92ecec14e9bff733ddf957be1017377f275892f",
+  "frozen_prediction_files_verified": 59,
+  "prediction_candidate_count": 126,
+  "evaluable_candidate_count": 123,
+  "unknown_reference_canonical": [
+    105,
+    106,
+    107
+  ],
+  "reference_missing_residue_remarks": [
+    "REMARK 465     ASP A   105",
+    "REMARK 465     SER A   106",
+    "REMARK 465     GLU A   107"
+  ],
+  "positive_count": 17,
+  "all_ten_top5_lists_unchanged": true,
+  "original_prediction_ranks_retained_for_paired_controls": true,
+  "maximum_input_distance_parser_difference_A": 2.7901418029330216e-06,
+  "matching_distance_provenance": "Legacy null uses pilot/model/static-model.npz; exposure-matched null uses protocol/prepared/KRAS-input.json. Each original numerical convention is preserved.",
+  "paired_percentile_rank_denominator": 126,
+  "parity": {
+    "legacy_null_draws_exactly_reproduced": true,
+    "degree_distance_exposure__historical126_published_protocol_exact_draw_parity": true,
+    "degree_distance_exposure__evaluable123_published_protocol_exact_draw_parity": true
+  },
+  "fixed_cut_sensitivity": {
+    "legacy_degree_distance": {
+      "historical_unknown_strata": [
+        {
+          "key": [
+            0,
+            2
+          ],
+          "n": 19,
+          "m": 0
+        }
+      ],
+      "unknown_residues_in_historical_sample": [],
+      "fixed_cut_configs_equal_historical_configs": true,
+      "interpretation": "The unknown residues occupy a historical stratum with zero positives. Retaining historical cuts gives identical samples after excluding unknowns; amended re-tertiled statistics change through reassignment of observed residues to strata."
+    },
+    "degree_distance_exposure": {
+      "historical_unknown_strata": [
+        {
+          "key": [
+            0,
+            2,
+            1
+          ],
+          "n": 18,
+          "m": 0
+        }
+      ],
+      "unknown_residues_in_historical_sample": [],
+      "fixed_cut_configs_equal_historical_configs": true,
+      "interpretation": "The unknown residues occupy a historical stratum with zero positives. Retaining historical cuts gives identical samples after excluding unknowns; amended re-tertiled statistics change through reassignment of observed residues to strata."
+    }
+  },
+  "reference_contact_definition": "At least one deposited protein heavy atom lies within 5 angstrom of a deposited MOV heavy atom.",
+  "observed_noncontact_definition": "At least one protein heavy atom is deposited, but none of the deposited atoms is within 5 angstrom of MOV; this is not a biological negative.",
+  "limitations": [
+    "The correction is retrospective and changes no fitted model.",
+    "Absence of deposited atoms is not evidence of no contact.",
+    "Partial side-chain disorder can still hide contacts at residues with some deposited atoms.",
+    "The comparison uses ligand-conditioned structures with different sequences and crystal states.",
+    "Conditional null sets are exchangeability assumptions, not experimental negative pockets or independent biological replicates.",
+    "The sampled p-value floor is resolution, not proof that the exact p-value reaches that floor.",
+    "Paired raw p-values do not complete the reserved six-test comparative family.",
+    "No nonlinear benefit, compression validity, noise guarantee, or prospective generalization follows from this correction."
+  ],
+  "runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "platform": "Darwin"
+  },
+  "output_sha256": {
+    "evaluation-input.json": "a33c5ae3be4489b2b6130983815e45b4aa5905ca7452d662210847d2be2a60ad",
+    "matched-configurations.npz": "5c2396fe75f0f23e2160820206734b0ccbc7b6b3cd9bc1945d44785961e13edd",
+    "null-comparisons.csv": "8f04fb78aa9985178fb299ec3ff25572aefe74db349202b492f1f82b3b353f74",
+    "null-comparisons.json": "54e5cbf41f0e7e549881520437b125a8248cc20d4869db1f80e2a80ee43536e3",
+    "null-plans.json": "eda2b5501e57caef9e8e44139af543aa08223787ead3ecd444da91198988dfcf",
+    "paired-comparisons.csv": "50085576cb3dba22cf69a269940ccf08ef1a203353af8cc05a1182ffa4e2eb6a",
+    "paired-comparisons.json": "db0e5c053ace5d8af05f7a3328f6381f7b31efcdd13eee13556d663adca4e0b9",
+    "reference-labels.csv": "409d7e24b69972df834048d32ab967b5b11c6c06c023c63797d8892402804247",
+    "reference-labels.json": "ee1354d9c1ea9afb440d9ec787ddb71703e2bcbba5c5a94b76a88ab82fa1b071",
+    "top5.json": "1ff03e59a4c36351e07ab5361f88327d47dab786f68ecb5e540152c889d5ad65",
+    "unchanged-rankings.csv": "bb674a208c81416839965219f2757aeba5c226f0be693eb44a86f923e85755db",
+    "uniform-hit-baselines.json": "5c90fe57e6983a692f65e2aa7eaeeba71efd8f5cb40275b590106d70f7996617"
+  }
+}

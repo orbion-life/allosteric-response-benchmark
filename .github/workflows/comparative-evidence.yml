@@ -1,0 +1,74 @@
+name: Reproduce comparative evidence
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+env:
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  VECLIB_MAXIMUM_THREADS: '1'
+jobs:
+  structural:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r experiments/abl/pilot/requirements.txt
+      - name: Replay every ABL response and verify frozen predictions
+        working-directory: experiments/abl/pilot
+        run: |
+          python bounded_run.py --output checks/fresh-replay
+          python verify.py
+      - name: Replay corrected KRAS evaluation and verify missing-data semantics
+        run: |
+          python experiments/kras/evaluation-amendment/amend_evaluation.py --out /tmp/kras-amendment
+          python -m unittest discover -s experiments/kras/evaluation-amendment -p 'test_*.py' -v
+          python experiments/two-target-comparison/verify.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: comparative-structural-evidence
+          path: |
+            experiments/abl/pilot/checks/verification.json
+            /tmp/kras-amendment/verification.json
+            experiments/two-target-comparison/verification-receipt.json
+  approximation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r experiments/harmonic-completion/requirements.txt
+      - name: Verify intervention identity and synthetic result arithmetic
+        working-directory: experiments/harmonic-completion
+        run: |
+          python -W error verify.py --output /tmp/completion-verification.json
+          python analyze.py --output /tmp/completion-analysis
+          python protein_diagnostic.py --output /tmp/completion-protein
+      - name: Rebuild receiver-sensitive coordinates with tie-aware verification
+        working-directory: experiments/receiver-sensitive-coordinates
+        run: |
+          python -W error run.py --output /tmp/receiver-replay
+          python verify.py --repeat /tmp/receiver-replay --output /tmp/receiver-verification.json
+      - name: Rebuild same-model cost and confidence calculations
+        working-directory: experiments/kras/same-model-cost
+        run: |
+          python analyze.py --output /tmp/cost-replay
+          python verify.py --repeat /tmp/cost-replay --receipt /tmp/cost-verification.json
+      - name: Check only Gaussian algebra and coordinate-domain construction
+        working-directory: experiments/gaussian-closure-design
+        run: |
+          python algebra_check.py
+          python coordinate_domain_check.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: comparative-approximation-evidence
+          path: |
+            /tmp/*-verification.json
+            experiments/gaussian-closure-design/algebra-check.json
+            experiments/gaussian-closure-design/coordinate-domain-check.json

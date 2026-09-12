@@ -1,0 +1,1852 @@
+{
+  "prediction_freeze_sha256": "623cba9bedf1da4455f9267ebcef69848a393048df364456df16d86940d720a6",
+  "protocol_sha256": "a400c2f94364d4b5d8683497e4a535fb676f4c42219cc7c82efe635ac6955f10",
+  "prediction_candidates": 193,
+  "evaluable_candidates": 175,
+  "eligible_known_contacts": [
+    332,
+    336,
+    337,
+    340,
+    341,
+    344,
+    429,
+    432,
+    433,
+    434,
+    435,
+    437,
+    461,
+    462,
+    463,
+    464,
+    465,
+    468,
+    472,
+    493
+  ],
+  "methods": {
+    "biquadratic_d2_n33": {
+      "top5": [
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 363,
+          "author": 382,
+          "label_seq": 343,
+          "resname": "ASN",
+          "expected_aa": "D",
+          "observed_aa": "N",
+          "distance_AY7_A": 16.558620384580692,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 385,
+          "distance_AY7_A": null,
+          "state": "unknown",
+          "prediction_candidate": true,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 362,
+          "author": 381,
+          "label_seq": 342,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 19.43152681298351,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 1,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.2,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.3069948186528498,
+      "score_enrichment_null": {
+        "observed_contact_mean": 1.406558194497388e-05,
+        "null_mean": 2.441484105273396e-05,
+        "observed_minus_null_mean": -1.0349259107760081e-05,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          1.8407190719375275e-05,
+          2.424072101121716e-05,
+          3.1143520372982785e-05
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.3069948186528498,
+        "null_mean": 0.45195779792746116,
+        "observed_minus_null_mean": -0.14496297927461138,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.3756411917098446,
+          0.45181347150259077,
+          0.5259067357512953
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.9999999999999999
+    },
+    "harmonic_d2_n33": {
+      "top5": [
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 363,
+          "author": 382,
+          "label_seq": 343,
+          "resname": "ASN",
+          "expected_aa": "D",
+          "observed_aa": "N",
+          "distance_AY7_A": 16.558620384580692,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 385,
+          "distance_AY7_A": null,
+          "state": "unknown",
+          "prediction_candidate": true,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 260,
+          "author": 279,
+          "label_seq": 240,
+          "resname": "VAL",
+          "expected_aa": "V",
+          "observed_aa": "V",
+          "distance_AY7_A": 32.864975657059375,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 1,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.2,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.28989637305699484,
+      "score_enrichment_null": {
+        "observed_contact_mean": 2.5708846876993773e-05,
+        "null_mean": 4.787944358259506e-05,
+        "observed_minus_null_mean": -2.2170596705601288e-05,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          3.522703479853854e-05,
+          4.7244914051736546e-05,
+          6.316384207918608e-05
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.28989637305699484,
+        "null_mean": 0.444670518134715,
+        "observed_minus_null_mean": -0.15477414507772014,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.36735103626943,
+          0.4450777202072539,
+          0.5178756476683938
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.9956048688638428
+    },
+    "Hookean_d2_n33": {
+      "top5": [
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 363,
+          "author": 382,
+          "label_seq": 343,
+          "resname": "ASN",
+          "expected_aa": "D",
+          "observed_aa": "N",
+          "distance_AY7_A": 16.558620384580692,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 385,
+          "distance_AY7_A": null,
+          "state": "unknown",
+          "prediction_candidate": true,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 362,
+          "author": 381,
+          "label_seq": 342,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 19.43152681298351,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 1,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.2,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.3067357512953368,
+      "score_enrichment_null": {
+        "observed_contact_mean": 1.4398029132078082e-05,
+        "null_mean": 2.5061893207116824e-05,
+        "observed_minus_null_mean": -1.0663864075038741e-05,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          1.887199470695198e-05,
+          2.4884294545225647e-05,
+          3.201286647534145e-05
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.3067357512953368,
+        "null_mean": 0.4516708031088083,
+        "observed_minus_null_mean": -0.1449350518134715,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.37538212435233154,
+          0.45181347150259066,
+          0.5256476683937823
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.99995159179531
+    },
+    "analytic_harmonic_d2": {
+      "top5": [
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 363,
+          "author": 382,
+          "label_seq": 343,
+          "resname": "ASN",
+          "expected_aa": "D",
+          "observed_aa": "N",
+          "distance_AY7_A": 16.558620384580692,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 385,
+          "distance_AY7_A": null,
+          "state": "unknown",
+          "prediction_candidate": true,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 260,
+          "author": 279,
+          "label_seq": 240,
+          "resname": "VAL",
+          "expected_aa": "V",
+          "observed_aa": "V",
+          "distance_AY7_A": 32.864975657059375,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 1,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.2,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.2893782383419689,
+      "score_enrichment_null": {
+        "observed_contact_mean": 2.604497067355739e-05,
+        "null_mean": 4.855210874624927e-05,
+        "observed_minus_null_mean": -2.2507138072691877e-05,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          3.573904321048376e-05,
+          4.790285446777907e-05,
+          6.40171807992203e-05
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.2893782383419689,
+        "null_mean": 0.44447388601036264,
+        "observed_minus_null_mean": -0.15509564766839373,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.36735103626943,
+          0.4448186528497409,
+          0.5178756476683938
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.9954078975482079
+    },
+    "all_mode_harmonic": {
+      "top5": [
+        {
+          "canonical": 246,
+          "author": 265,
+          "label_seq": 226,
+          "resname": "HIS",
+          "expected_aa": "H",
+          "observed_aa": "H",
+          "distance_AY7_A": 29.78358155884557,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 10,
+          "expected_heavy_atom_count_without_terminal_OXT": 10,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 303,
+          "author": 322,
+          "label_seq": 283,
+          "resname": "GLY",
+          "expected_aa": "G",
+          "observed_aa": "G",
+          "distance_AY7_A": 31.155810020314163,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 4,
+          "expected_heavy_atom_count_without_terminal_OXT": 4,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 244,
+          "author": 263,
+          "label_seq": 224,
+          "resname": "MET",
+          "expected_aa": "M",
+          "observed_aa": "M",
+          "distance_AY7_A": 34.54744925533711,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 0,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.0,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.3396373056994818,
+      "score_enrichment_null": {
+        "observed_contact_mean": 0.00048453517852784314,
+        "null_mean": 0.0016379317530376618,
+        "observed_minus_null_mean": -0.0011533965745098187,
+        "p": 0.9983001699830018,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.0006055340321104337,
+          0.0016612653009444225,
+          0.003093079708797411
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.3396373056994818,
+        "null_mean": 0.39889067357512953,
+        "observed_minus_null_mean": -0.05925336787564772,
+        "p": 0.994000599940006,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.3520725388601036,
+          0.3992227979274611,
+          0.44404145077720203
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.7115922626996419
+    },
+    "biquadratic_d2_n65": {
+      "top5": [
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 363,
+          "author": 382,
+          "label_seq": 343,
+          "resname": "ASN",
+          "expected_aa": "D",
+          "observed_aa": "N",
+          "distance_AY7_A": 16.558620384580692,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 385,
+          "distance_AY7_A": null,
+          "state": "unknown",
+          "prediction_candidate": true,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 362,
+          "author": 381,
+          "label_seq": 342,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 19.43152681298351,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 1,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.2,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.3069948186528498,
+      "score_enrichment_null": {
+        "observed_contact_mean": 1.4119246322452222e-05,
+        "null_mean": 2.4508098296400228e-05,
+        "observed_minus_null_mean": -1.0388851973948006e-05,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          1.848354685381944e-05,
+          2.433400508979193e-05,
+          3.1258635392890115e-05
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.3069948186528498,
+        "null_mean": 0.4519557512953368,
+        "observed_minus_null_mean": -0.14496093264248705,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.37564766839378244,
+          0.45207253886010357,
+          0.5256476683937825
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.9999899845093744
+    },
+    "equilibrium_d2_n33": {
+      "top5": [
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 363,
+          "author": 382,
+          "label_seq": 343,
+          "resname": "ASN",
+          "expected_aa": "D",
+          "observed_aa": "N",
+          "distance_AY7_A": 16.558620384580692,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 385,
+          "distance_AY7_A": null,
+          "state": "unknown",
+          "prediction_candidate": true,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 362,
+          "author": 381,
+          "label_seq": 342,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 19.43152681298351,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 1,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.2,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.30544041450777204,
+      "score_enrichment_null": {
+        "observed_contact_mean": 1.456060087044268e-05,
+        "null_mean": 2.5304022069376004e-05,
+        "observed_minus_null_mean": -1.0743421198933323e-05,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          1.9147773801023272e-05,
+          2.513491348009903e-05,
+          3.2229216332908855e-05
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.30544041450777204,
+        "null_mean": 0.45209272020725383,
+        "observed_minus_null_mean": -0.1466523056994818,
+        "p": 1.0,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.37590673575129535,
+          0.45207253886010373,
+          0.5261658031088083
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.9998147134234281
+    },
+    "all_mode_equilibrium": {
+      "top5": [
+        {
+          "canonical": 246,
+          "author": 265,
+          "label_seq": 226,
+          "resname": "HIS",
+          "expected_aa": "H",
+          "observed_aa": "H",
+          "distance_AY7_A": 29.78358155884557,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 10,
+          "expected_heavy_atom_count_without_terminal_OXT": 10,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 303,
+          "author": 322,
+          "label_seq": 283,
+          "resname": "GLY",
+          "expected_aa": "G",
+          "observed_aa": "G",
+          "distance_AY7_A": 31.155810020314163,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 4,
+          "expected_heavy_atom_count_without_terminal_OXT": 4,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 244,
+          "author": 263,
+          "label_seq": 224,
+          "resname": "MET",
+          "expected_aa": "M",
+          "observed_aa": "M",
+          "distance_AY7_A": 34.54744925533711,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 0,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.0,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.32564766839378245,
+      "score_enrichment_null": {
+        "observed_contact_mean": 0.0004976288717761675,
+        "null_mean": 0.0016628072416035638,
+        "observed_minus_null_mean": -0.0011651783698273964,
+        "p": 0.9988001199880012,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.0006288060425464446,
+          0.0016848335577092578,
+          0.0031189849669153455
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.32564766839378245,
+        "null_mean": 0.3981429792746114,
+        "observed_minus_null_mean": -0.07249531088082894,
+        "p": 0.9974002599740026,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.3487046632124352,
+          0.39844559585492234,
+          0.4455958549222799
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.7173444928155547
+    },
+    "graph_heat_kernel": {
+      "top5": [
+        {
+          "canonical": 263,
+          "author": 282,
+          "label_seq": 243,
+          "resname": "LYS",
+          "expected_aa": "K",
+          "observed_aa": "K",
+          "distance_AY7_A": 36.69630716978638,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 5,
+          "expected_heavy_atom_count_without_terminal_OXT": 9,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 264,
+          "author": 283,
+          "label_seq": 244,
+          "resname": "TYR",
+          "expected_aa": "Y",
+          "observed_aa": "Y",
+          "distance_AY7_A": 32.377475961234296,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 12,
+          "expected_heavy_atom_count_without_terminal_OXT": 12,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 262,
+          "author": 281,
+          "label_seq": 242,
+          "resname": "LYS",
+          "expected_aa": "K",
+          "observed_aa": "K",
+          "distance_AY7_A": 35.61614739001727,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 9,
+          "expected_heavy_atom_count_without_terminal_OXT": 9,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 265,
+          "author": 284,
+          "label_seq": 245,
+          "resname": "SER",
+          "expected_aa": "S",
+          "observed_aa": "S",
+          "distance_AY7_A": 30.60165143234936,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 6,
+          "expected_heavy_atom_count_without_terminal_OXT": 6,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 308,
+          "author": 327,
+          "label_seq": 288,
+          "resname": "GLU",
+          "expected_aa": "E",
+          "observed_aa": "E",
+          "distance_AY7_A": 41.96268675652842,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 9,
+          "expected_heavy_atom_count_without_terminal_OXT": 9,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 0,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.0,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.44404145077720203,
+      "score_enrichment_null": {
+        "observed_contact_mean": 0.003114033115986708,
+        "null_mean": 0.0031133748310941704,
+        "observed_minus_null_mean": 6.582848925376812e-07,
+        "p": 0.5157484251574842,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.0029321507975388025,
+          0.0031223196458465283,
+          0.003336282901464765
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.44404145077720203,
+        "null_mean": 0.4011481606217616,
+        "observed_minus_null_mean": 0.04289329015544041,
+        "p": 0.07169283071692831,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.3442940414507772,
+          0.40103626943005183,
+          0.4582901554404145
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.5086300144223065
+    },
+    "degree": {
+      "top5": [
+        {
+          "canonical": 351,
+          "author": 370,
+          "label_seq": 331,
+          "resname": "MET",
+          "expected_aa": "M",
+          "observed_aa": "M",
+          "distance_AY7_A": 12.996589861362114,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 407,
+          "author": 426,
+          "label_seq": 387,
+          "resname": "ALA",
+          "expected_aa": "A",
+          "observed_aa": "A",
+          "distance_AY7_A": 18.485855854857967,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 5,
+          "expected_heavy_atom_count_without_terminal_OXT": 5,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 418,
+          "author": 437,
+          "label_seq": 398,
+          "resname": "ILE",
+          "expected_aa": "I",
+          "observed_aa": "I",
+          "distance_AY7_A": 17.57228598017887,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 420,
+          "author": 439,
+          "label_seq": 400,
+          "resname": "SER",
+          "expected_aa": "S",
+          "observed_aa": "S",
+          "distance_AY7_A": 16.3945948766562,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 6,
+          "expected_heavy_atom_count_without_terminal_OXT": 6,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 419,
+          "author": 438,
+          "label_seq": 399,
+          "resname": "LYS",
+          "expected_aa": "K",
+          "observed_aa": "K",
+          "distance_AY7_A": 17.173053066222273,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 9,
+          "expected_heavy_atom_count_without_terminal_OXT": 9,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 0,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.0,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.5439119170984456,
+      "score_enrichment_null": {
+        "observed_contact_mean": 16.95,
+        "null_mean": 17.693254999999997,
+        "observed_minus_null_mean": -0.7432549999999978,
+        "p": 0.9511048895110489,
+        "exact": false,
+        "null_q025_median_q975": [
+          16.8,
+          17.7,
+          18.6
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.5439119170984456,
+        "null_mean": 0.5701610492227979,
+        "observed_minus_null_mean": -0.026249132124352315,
+        "p": 0.9123087691230877,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.5321243523316063,
+          0.5703367875647668,
+          0.6069948186528498
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.4377233495304079
+    },
+    "receiver_inverse_distance": {
+      "top5": [
+        {
+          "canonical": 298,
+          "author": 317,
+          "label_seq": 278,
+          "resname": "LEU",
+          "expected_aa": "L",
+          "observed_aa": "L",
+          "distance_AY7_A": 17.513878559568973,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 267,
+          "author": 286,
+          "label_seq": 247,
+          "resname": "THR",
+          "expected_aa": "T",
+          "observed_aa": "T",
+          "distance_AY7_A": 27.07959808089545,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 282,
+          "author": 301,
+          "label_seq": 262,
+          "resname": "GLU",
+          "expected_aa": "E",
+          "observed_aa": "E",
+          "distance_AY7_A": 32.005588268906806,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 5,
+          "expected_heavy_atom_count_without_terminal_OXT": 9,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 303,
+          "author": 322,
+          "label_seq": 283,
+          "resname": "GLY",
+          "expected_aa": "G",
+          "observed_aa": "G",
+          "distance_AY7_A": 31.155810020314163,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 4,
+          "expected_heavy_atom_count_without_terminal_OXT": 4,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 246,
+          "author": 265,
+          "label_seq": 226,
+          "resname": "HIS",
+          "expected_aa": "H",
+          "observed_aa": "H",
+          "distance_AY7_A": 29.78358155884557,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 10,
+          "expected_heavy_atom_count_without_terminal_OXT": 10,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "known_hits": 0,
+      "unknown_top5": 0,
+      "P_at5_lower_bound": 0.0,
+      "P_at5_upper_bound": 0.0,
+      "precision_among_observed_top5": 0.0,
+      "mean_contact_percentile": 0.39170984455958546,
+      "score_enrichment_null": {
+        "observed_contact_mean": 0.05626995176074906,
+        "null_mean": 0.057343443639108344,
+        "observed_minus_null_mean": -0.001073491878359284,
+        "p": 0.7324267573242675,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.054332729952856644,
+          0.05724695379916969,
+          0.060836271210900225
+        ]
+      },
+      "percentile_enrichment_null": {
+        "observed_contact_mean": 0.39170984455958546,
+        "null_mean": 0.3888363989637306,
+        "observed_minus_null_mean": 0.00287344559585484,
+        "p": 0.44165583441655837,
+        "exact": false,
+        "null_q025_median_q975": [
+          0.3536269430051814,
+          0.388860103626943,
+          0.4246113989637307
+        ]
+      },
+      "spearman_vs_primary_frozen_candidates": 0.6254440200843971
+    }
+  },
+  "paired_primary_minus_control_percentile_effects": {
+    "harmonic_d2_n33": {
+      "observed_contact_mean": 0.01709844559585493,
+      "null_mean": 0.007287279792746118,
+      "observed_minus_null_mean": 0.009811165803108814,
+      "p": 0.012598740125987402,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.0015544041450777078,
+        0.007253886010362698,
+        0.015809585492227902
+      ]
+    },
+    "Hookean_d2_n33": {
+      "observed_contact_mean": 0.0002590673575129515,
+      "null_mean": 0.000286994818652848,
+      "observed_minus_null_mean": -2.792746113989647e-05,
+      "p": 0.539046095390461,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.0007772020725388601,
+        0.0002590673575129515,
+        0.0012953367875647714
+      ]
+    },
+    "analytic_harmonic_d2": {
+      "observed_contact_mean": 0.017616580310880835,
+      "null_mean": 0.007483911917098449,
+      "observed_minus_null_mean": 0.010132668393782386,
+      "p": 0.012198780121987801,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.0015544041450777154,
+        0.007512953367875648,
+        0.016321243523316077
+      ]
+    },
+    "all_mode_harmonic": {
+      "observed_contact_mean": -0.032642487046632127,
+      "null_mean": 0.05306712435233161,
+      "observed_minus_null_mean": -0.08570961139896374,
+      "p": 0.9928007199280072,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.015803108808290157,
+        0.05336787564766838,
+        0.1217616580310881
+      ]
+    },
+    "equilibrium_d2_n33": {
+      "observed_contact_mean": 0.0015544041450777303,
+      "null_mean": -0.00013492227979274287,
+      "observed_minus_null_mean": 0.0016893264248704731,
+      "p": 0.06009399060093991,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.002590673575129522,
+        -0.00012953367875647386,
+        0.002072538860103629
+      ]
+    },
+    "all_mode_equilibrium": {
+      "observed_contact_mean": -0.018652849740932637,
+      "null_mean": 0.05381481865284974,
+      "observed_minus_null_mean": -0.07246766839378238,
+      "p": 0.9818018198180182,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.014248704663212439,
+        0.05362694300518135,
+        0.122279792746114
+      ]
+    },
+    "graph_heat_kernel": {
+      "observed_contact_mean": -0.1370466321243523,
+      "null_mean": 0.050809637305699484,
+      "observed_minus_null_mean": -0.1878562694300518,
+      "p": 1.0,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.04430051813471503,
+        0.05000000000000001,
+        0.14818652849740935
+      ]
+    },
+    "degree": {
+      "observed_contact_mean": -0.2369170984455959,
+      "null_mean": -0.11820325129533678,
+      "observed_minus_null_mean": -0.11871384715025911,
+      "p": 0.9971002899710029,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.20284974093264246,
+        -0.11839378238341967,
+        -0.033937823834196884
+      ]
+    },
+    "receiver_inverse_distance": {
+      "observed_contact_mean": -0.08471502590673576,
+      "null_mean": 0.06312139896373058,
+      "observed_minus_null_mean": -0.14783642487046633,
+      "p": 1.0,
+      "exact": false,
+      "null_q025_median_q975": [
+        -0.012694300518134721,
+        0.06321243523316064,
+        0.1378238341968912
+      ]
+    }
+  },
+  "matched_null": {
+    "M": 1830237391382400000,
+    "cuts": {
+      "degree": [
+        13.0,
+        19.0
+      ],
+      "receiver_distance_A": [
+        12.559732622194593,
+        19.512810157907804
+      ]
+    },
+    "groups": [
+      {
+        "key": [
+          0,
+          0,
+          0
+        ],
+        "candidates": [
+          330
+        ],
+        "n": 1,
+        "m": 0
+      },
+      {
+        "key": [
+          0,
+          0,
+          1
+        ],
+        "candidates": [
+          246,
+          264,
+          266,
+          279,
+          281,
+          282,
+          307,
+          308,
+          309,
+          310,
+          329,
+          373,
+          374
+        ],
+        "n": 13,
+        "m": 0
+      },
+      {
+        "key": [
+          0,
+          1,
+          1
+        ],
+        "candidates": [
+          262,
+          263,
+          265,
+          275,
+          276,
+          331,
+          334,
+          336,
+          338,
+          402
+        ],
+        "n": 10,
+        "m": 1
+      },
+      {
+        "key": [
+          0,
+          2,
+          0
+        ],
+        "candidates": [
+          443
+        ],
+        "n": 1,
+        "m": 0
+      },
+      {
+        "key": [
+          0,
+          2,
+          1
+        ],
+        "candidates": [
+          333,
+          412,
+          413,
+          441,
+          442,
+          444,
+          445,
+          446,
+          447,
+          450,
+          451,
+          453,
+          454,
+          455,
+          456,
+          459,
+          462,
+          463,
+          465,
+          466,
+          467,
+          470,
+          479,
+          481,
+          482,
+          488,
+          491,
+          492
+        ],
+        "n": 28,
+        "m": 3
+      },
+      {
+        "key": [
+          1,
+          0,
+          0
+        ],
+        "candidates": [
+          260,
+          261,
+          295,
+          303,
+          326,
+          375
+        ],
+        "n": 6,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          0,
+          1
+        ],
+        "candidates": [
+          242,
+          243,
+          244,
+          245,
+          267,
+          274,
+          280,
+          294,
+          296,
+          305,
+          306,
+          325,
+          328,
+          357,
+          376
+        ],
+        "n": 15,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          1,
+          0
+        ],
+        "candidates": [
+          335,
+          339,
+          340,
+          401,
+          404,
+          439
+        ],
+        "n": 6,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          1,
+          1
+        ],
+        "candidates": [
+          332,
+          337,
+          341,
+          342,
+          356,
+          358,
+          403,
+          437,
+          438,
+          487,
+          490
+        ],
+        "n": 11,
+        "m": 4
+      },
+      {
+        "key": [
+          1,
+          2,
+          0
+        ],
+        "candidates": [
+          409,
+          410,
+          440,
+          448,
+          452,
+          457,
+          458,
+          461,
+          464,
+          471,
+          484
+        ],
+        "n": 11,
+        "m": 2
+      },
+      {
+        "key": [
+          1,
+          2,
+          1
+        ],
+        "candidates": [
+          411,
+          415,
+          460,
+          474,
+          478,
+          493
+        ],
+        "n": 6,
+        "m": 1
+      },
+      {
+        "key": [
+          2,
+          0,
+          0
+        ],
+        "candidates": [
+          273,
+          297,
+          298,
+          311,
+          324,
+          327,
+          343,
+          344,
+          346,
+          347,
+          350,
+          351,
+          353,
+          354,
+          359,
+          360,
+          361,
+          364,
+          365,
+          366
+        ],
+        "n": 20,
+        "m": 1
+      },
+      {
+        "key": [
+          2,
+          0,
+          1
+        ],
+        "candidates": [
+          362,
+          363,
+          367
+        ],
+        "n": 3,
+        "m": 0
+      },
+      {
+        "key": [
+          2,
+          1,
+          0
+        ],
+        "candidates": [
+          348,
+          349,
+          355,
+          405,
+          406,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          485,
+          486,
+          489
+        ],
+        "n": 29,
+        "m": 5
+      },
+      {
+        "key": [
+          2,
+          1,
+          1
+        ],
+        "candidates": [
+          345,
+          352
+        ],
+        "n": 2,
+        "m": 0
+      },
+      {
+        "key": [
+          2,
+          2,
+          0
+        ],
+        "candidates": [
+          407,
+          408,
+          414,
+          468,
+          469,
+          472,
+          475,
+          476,
+          483
+        ],
+        "n": 9,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          2,
+          1
+        ],
+        "candidates": [
+          449,
+          473,
+          477,
+          480
+        ],
+        "n": 4,
+        "m": 0
+      }
+    ],
+    "candidate_count": 175,
+    "positive_count": 20,
+    "smallest_exact_p": 5.463772102506813e-19,
+    "draws": 10000,
+    "seed": 20260912,
+    "unknowns_in_pools": false,
+    "assumption": "Conditional exchangeability of contact labels given frozen degree/distance/exposure strata; not an experimental biological null.",
+    "multiplicity": "Raw retrospective conditional p values only. No four-target or confirmatory significance claim."
+  },
+  "original_prediction_cutpoint_sensitivity": {
+    "cutpoints": {
+      "degree": [
+        13.0,
+        19.0
+      ],
+      "receiver_distance_A": [
+        12.977600254046502,
+        19.302954415244084
+      ]
+    },
+    "M": 1514679220454400000,
+    "draws": 10000,
+    "p": 1.0,
+    "unknowns_in_pools": false
+  },
+  "candidate_distance_sensitivity": {
+    "4": {
+      "candidate_count": 212,
+      "top5": [
+        {
+          "canonical": 367,
+          "author": 386,
+          "label_seq": 347,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 13.543978040352387,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 368,
+          "author": 387,
+          "label_seq": 348,
+          "resname": "ASN",
+          "expected_aa": "N",
+          "observed_aa": "N",
+          "distance_AY7_A": 15.232475247177808,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": false,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 363,
+          "author": 382,
+          "label_seq": 343,
+          "resname": "ASN",
+          "expected_aa": "D",
+          "observed_aa": "N",
+          "distance_AY7_A": 16.558620384580692,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 283,
+          "author": 302,
+          "label_seq": 263,
+          "resname": "PHE",
+          "expected_aa": "F",
+          "observed_aa": "F",
+          "distance_AY7_A": 32.67705691879771,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": false,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 385,
+          "distance_AY7_A": null,
+          "state": "unknown",
+          "prediction_candidate": true,
+          "evaluation_eligible": false
+        }
+      ],
+      "interpretation": "Geometric sensitivity only; primary universe and inference remain unchanged."
+    },
+    "8": {
+      "candidate_count": 179,
+      "top5": [
+        {
+          "canonical": 363,
+          "author": 382,
+          "label_seq": 343,
+          "resname": "ASN",
+          "expected_aa": "D",
+          "observed_aa": "N",
+          "distance_AY7_A": 16.558620384580692,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 8,
+          "expected_heavy_atom_count_without_terminal_OXT": 8,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 385,
+          "distance_AY7_A": null,
+          "state": "unknown",
+          "prediction_candidate": true,
+          "evaluation_eligible": false
+        },
+        {
+          "canonical": 362,
+          "author": 381,
+          "label_seq": 342,
+          "resname": "ARG",
+          "expected_aa": "R",
+          "observed_aa": "R",
+          "distance_AY7_A": 19.43152681298351,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 11,
+          "expected_heavy_atom_count_without_terminal_OXT": 11,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 365,
+          "author": 384,
+          "label_seq": 345,
+          "resname": "ALA",
+          "expected_aa": "A",
+          "observed_aa": "A",
+          "distance_AY7_A": 12.232610393558922,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 5,
+          "expected_heavy_atom_count_without_terminal_OXT": 5,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        },
+        {
+          "canonical": 260,
+          "author": 279,
+          "label_seq": 240,
+          "resname": "VAL",
+          "expected_aa": "V",
+          "observed_aa": "V",
+          "distance_AY7_A": 32.864975657059375,
+          "state": "observed_noncontact",
+          "resolved_heavy_atom_count": 7,
+          "expected_heavy_atom_count_without_terminal_OXT": 7,
+          "has_CA": true,
+          "prediction_candidate": true,
+          "evaluation_eligible": true
+        }
+      ],
+      "interpretation": "Geometric sensitivity only; primary universe and inference remain unchanged."
+    }
+  },
+  "scope": "Known-bound-site contact recovery on one engineered, ligand-conditioned domain; neither functional validation nor independent generalization. Unverified nonfunctional pockets remain unresolved."
+}

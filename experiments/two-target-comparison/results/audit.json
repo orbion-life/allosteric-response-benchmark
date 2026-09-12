@@ -1,0 +1,120 @@
+{
+  "status": "retrospective_statistical_audit",
+  "alpha": 0.05,
+  "primary_family_size": 3,
+  "primary_hypothesis": "Mean primary score at known reference contacts exceeds its degree/distance/exposure-matched label null.",
+  "primary": [
+    {
+      "target": "KRAS",
+      "status": "retrospective_measured",
+      "raw_p": 9.999000099990002e-05,
+      "effect_kind": "observed_minus_matched_null_mean_score",
+      "effect": 2.092448967037518e-05,
+      "source_record": "degree_distance_exposure / evaluable123 / Biquadratic d2 grid",
+      "holm_adjusted_p": 0.00029997000299970003,
+      "below_0p05_in_this_retrospective_family": true
+    },
+    {
+      "target": "ABL",
+      "status": "retrospective_measured",
+      "raw_p": 1.0,
+      "effect_kind": "observed_minus_matched_null_mean_score",
+      "effect": -1.0349259107760081e-05,
+      "source_record": "methods.biquadratic_d2_n33.score_enrichment_null",
+      "holm_adjusted_p": 1.0,
+      "below_0p05_in_this_retrospective_family": false
+    },
+    {
+      "target": "MYH7",
+      "status": "not_run_conservative_correction_slot",
+      "raw_p": 1.0,
+      "effect_kind": "not_measured",
+      "effect": null,
+      "source_record": null,
+      "holm_adjusted_p": 1.0,
+      "below_0p05_in_this_retrospective_family": false
+    }
+  ],
+  "paired_family_size": 6,
+  "paired_hypothesis": "Mean primary-minus-control percentile rank at known contacts exceeds the corresponding matched-label null.",
+  "paired": [
+    {
+      "target": "KRAS",
+      "comparator": "harmonic",
+      "status": "retrospective_measured",
+      "raw_p": 0.8508149185081492,
+      "mean_primary_minus_control_percentile": -0.002334267040149393,
+      "mean_percentile_difference_in_percentage_points": -0.2334267040149393,
+      "effect_minus_matched_null_mean": -0.003645891690009337,
+      "percentile_rank_denominator": 126,
+      "holm_adjusted_p": 1.0,
+      "below_0p05_in_this_retrospective_family": false
+    },
+    {
+      "target": "KRAS",
+      "comparator": "distance_Hookean",
+      "status": "retrospective_measured",
+      "raw_p": 0.34706529347065296,
+      "mean_primary_minus_control_percentile": 0.0,
+      "mean_percentile_difference_in_percentage_points": 0.0,
+      "effect_minus_matched_null_mean": 0.0003657329598506069,
+      "percentile_rank_denominator": 126,
+      "holm_adjusted_p": 1.0,
+      "below_0p05_in_this_retrospective_family": false
+    },
+    {
+      "target": "ABL",
+      "comparator": "harmonic",
+      "status": "retrospective_measured",
+      "raw_p": 0.012598740125987402,
+      "mean_primary_minus_control_percentile": 0.01709844559585493,
+      "mean_percentile_difference_in_percentage_points": 1.7098445595854932,
+      "effect_minus_matched_null_mean": 0.009811165803108814,
+      "percentile_rank_denominator": 193,
+      "holm_adjusted_p": 0.07559244075592442,
+      "below_0p05_in_this_retrospective_family": false
+    },
+    {
+      "target": "ABL",
+      "comparator": "distance_Hookean",
+      "status": "retrospective_measured",
+      "raw_p": 0.539046095390461,
+      "mean_primary_minus_control_percentile": 0.0002590673575129515,
+      "mean_percentile_difference_in_percentage_points": 0.02590673575129515,
+      "effect_minus_matched_null_mean": -2.792746113989647e-05,
+      "percentile_rank_denominator": 193,
+      "holm_adjusted_p": 1.0,
+      "below_0p05_in_this_retrospective_family": false
+    },
+    {
+      "target": "MYH7",
+      "comparator": "harmonic",
+      "status": "not_run_conservative_correction_slot",
+      "raw_p": 1.0,
+      "mean_primary_minus_control_percentile": null,
+      "mean_percentile_difference_in_percentage_points": null,
+      "effect_minus_matched_null_mean": null,
+      "percentile_rank_denominator": null,
+      "holm_adjusted_p": 1.0,
+      "below_0p05_in_this_retrospective_family": false
+    },
+    {
+      "target": "MYH7",
+      "comparator": "distance_Hookean",
+      "status": "not_run_conservative_correction_slot",
+      "raw_p": 1.0,
+      "mean_primary_minus_control_percentile": null,
+      "mean_percentile_difference_in_percentage_points": null,
+      "effect_minus_matched_null_mean": null,
+      "percentile_rank_denominator": null,
+      "holm_adjusted_p": 1.0,
+      "below_0p05_in_this_retrospective_family": false
+    }
+  ],
+  "unrun_slot_policy": "MYH7 uses p=1 only for multiplicity correction; no effect or experimental result is imputed.",
+  "unknown_policy": "Input prediction ranks remain frozen; unknown reference residues are excluded from evaluation and null pools. KRAS ranks126/evaluable123; ABL ranks193/evaluable175.",
+  "interpretation": "KRAS retains conditional primary enrichment, whereas ABL fails transfer. No paired comparison passes Holm correction at0.05. This does not demonstrate nonlinear, finite-time, functional or quantum advantage.",
+  "statistical_limits": "Conditional label-exchangeability assumptions, retrospective known references and no spatial pocket-contiguity matching limit biological inference. These adjusted p values are not prospective performance estimates or a correction across every exploratory analysis.",
+  "source_receipts_sha256": "0a1fabfa7c33c2b2661d116498cf133a79c8a54df90d89832abfa99b7904218b",
+  "code_sha256": "5150389cdc9b14768177b792c63304bf98cd6bb7fdd0750309f69bac74a17a13"
+}

@@ -1,0 +1,1778 @@
+{
+  "legacy_degree_distance__historical126": {
+    "candidate_count": 126,
+    "positive_count": 17,
+    "cut_policy": "tertiles recomputed within this universe",
+    "universe_field": "eligible_6A",
+    "matching_features": [
+      "degree",
+      "receiver_distance_A"
+    ],
+    "cuts": {
+      "degree": [
+        13.0,
+        18.33333333333333
+      ],
+      "receiver_distance_A": [
+        10.74971553887864,
+        16.906120798762856
+      ]
+    },
+    "groups": [
+      {
+        "key": [
+          0,
+          0
+        ],
+        "candidates": [
+          25,
+          26,
+          35,
+          36,
+          38,
+          61,
+          95,
+          122
+        ],
+        "n": 8,
+        "m": 2
+      },
+      {
+        "key": [
+          0,
+          1
+        ],
+        "candidates": [
+          62,
+          63,
+          65,
+          94,
+          98,
+          126,
+          128,
+          129,
+          132
+        ],
+        "n": 9,
+        "m": 2
+      },
+      {
+        "key": [
+          0,
+          2
+        ],
+        "candidates": [
+          1,
+          2,
+          45,
+          46,
+          47,
+          48,
+          49,
+          64,
+          66,
+          67,
+          70,
+          105,
+          106,
+          107,
+          108,
+          136,
+          164,
+          165,
+          166
+        ],
+        "n": 19,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          0
+        ],
+        "candidates": [
+          23,
+          24,
+          34,
+          37,
+          39,
+          60,
+          87,
+          88,
+          91,
+          92,
+          96,
+          123,
+          124,
+          153
+        ],
+        "n": 14,
+        "m": 4
+      },
+      {
+        "key": [
+          1,
+          1
+        ],
+        "candidates": [
+          40,
+          41,
+          42,
+          54,
+          68,
+          71,
+          97,
+          99,
+          127,
+          131,
+          133,
+          134,
+          139,
+          140,
+          154,
+          157
+        ],
+        "n": 16,
+        "m": 2
+      },
+      {
+        "key": [
+          1,
+          2
+        ],
+        "candidates": [
+          3,
+          43,
+          44,
+          50,
+          51,
+          52,
+          69,
+          73,
+          74,
+          101,
+          102,
+          103,
+          104,
+          135,
+          137,
+          138,
+          161,
+          163
+        ],
+        "n": 18,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0
+        ],
+        "candidates": [
+          7,
+          8,
+          9,
+          56,
+          57,
+          58,
+          59,
+          79,
+          80,
+          81,
+          85,
+          86,
+          90,
+          93,
+          113,
+          125,
+          142,
+          151,
+          152,
+          155
+        ],
+        "n": 20,
+        "m": 3
+      },
+      {
+        "key": [
+          2,
+          1
+        ],
+        "candidates": [
+          5,
+          6,
+          53,
+          55,
+          72,
+          75,
+          77,
+          78,
+          100,
+          111,
+          112,
+          130,
+          141,
+          156,
+          158,
+          159,
+          160
+        ],
+        "n": 17,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          2
+        ],
+        "candidates": [
+          4,
+          76,
+          109,
+          110,
+          162
+        ],
+        "n": 5,
+        "m": 0
+      }
+    ],
+    "M": 2872175981875200,
+    "smallest_exact_p": 3.48168081033501e-16,
+    "first_Holm_threshold_in_planned_three_target_family": 0.016666666666666666,
+    "finite_space_supports_that_threshold": true,
+    "seed": 20260912,
+    "draw_count": 10000,
+    "distinct_sampling": false,
+    "unique_configurations_evaluated": 10000,
+    "observed_configuration_excluded_from_sample": false,
+    "exact_enumeration": false,
+    "attainable_sampled_p_floor": 9.999000099990002e-05
+  },
+  "legacy_degree_distance__evaluable123": {
+    "candidate_count": 123,
+    "positive_count": 17,
+    "cut_policy": "tertiles recomputed within this universe",
+    "universe_field": "evaluation_eligible",
+    "matching_features": [
+      "degree",
+      "receiver_distance_A"
+    ],
+    "cuts": {
+      "degree": [
+        13.666666666666664,
+        19.0
+      ],
+      "receiver_distance_A": [
+        10.722467316617543,
+        16.491268332905257
+      ]
+    },
+    "groups": [
+      {
+        "key": [
+          0,
+          0
+        ],
+        "candidates": [
+          25,
+          26,
+          35,
+          36,
+          38,
+          61,
+          91,
+          95,
+          122,
+          124
+        ],
+        "n": 10,
+        "m": 2
+      },
+      {
+        "key": [
+          0,
+          1
+        ],
+        "candidates": [
+          42,
+          62,
+          65,
+          94,
+          98,
+          126,
+          128,
+          129,
+          132
+        ],
+        "n": 9,
+        "m": 1
+      },
+      {
+        "key": [
+          0,
+          2
+        ],
+        "candidates": [
+          1,
+          2,
+          3,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          63,
+          64,
+          66,
+          67,
+          70,
+          74,
+          108,
+          135,
+          136,
+          138,
+          164,
+          165,
+          166
+        ],
+        "n": 22,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          0
+        ],
+        "candidates": [
+          23,
+          24,
+          34,
+          37,
+          39,
+          60,
+          88,
+          92,
+          96,
+          123,
+          153
+        ],
+        "n": 11,
+        "m": 4
+      },
+      {
+        "key": [
+          1,
+          1
+        ],
+        "candidates": [
+          40,
+          41,
+          54,
+          68,
+          71,
+          87,
+          97,
+          99,
+          127,
+          131,
+          133,
+          134,
+          139,
+          140,
+          154,
+          157
+        ],
+        "n": 16,
+        "m": 2
+      },
+      {
+        "key": [
+          1,
+          2
+        ],
+        "candidates": [
+          43,
+          44,
+          51,
+          52,
+          69,
+          73,
+          101,
+          102,
+          103,
+          104,
+          137,
+          161,
+          163
+        ],
+        "n": 13,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0
+        ],
+        "candidates": [
+          7,
+          8,
+          9,
+          56,
+          57,
+          58,
+          59,
+          79,
+          80,
+          81,
+          85,
+          86,
+          90,
+          93,
+          113,
+          125,
+          142,
+          151,
+          152,
+          155
+        ],
+        "n": 20,
+        "m": 3
+      },
+      {
+        "key": [
+          2,
+          1
+        ],
+        "candidates": [
+          5,
+          6,
+          53,
+          55,
+          72,
+          75,
+          77,
+          78,
+          100,
+          111,
+          112,
+          130,
+          141,
+          156,
+          158,
+          159
+        ],
+        "n": 16,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          2
+        ],
+        "candidates": [
+          4,
+          76,
+          109,
+          110,
+          160,
+          162
+        ],
+        "n": 6,
+        "m": 0
+      }
+    ],
+    "M": 3764901254400000,
+    "smallest_exact_p": 2.6561121592002197e-16,
+    "first_Holm_threshold_in_planned_three_target_family": 0.016666666666666666,
+    "finite_space_supports_that_threshold": true,
+    "seed": 20260912,
+    "draw_count": 10000,
+    "distinct_sampling": false,
+    "unique_configurations_evaluated": 10000,
+    "observed_configuration_excluded_from_sample": false,
+    "exact_enumeration": false,
+    "attainable_sampled_p_floor": 9.999000099990002e-05
+  },
+  "legacy_degree_distance__evaluable123_fixed_historical_cuts": {
+    "candidate_count": 123,
+    "positive_count": 17,
+    "cut_policy": "historical126 cuts retained as sensitivity",
+    "universe_field": "evaluation_eligible",
+    "matching_features": [
+      "degree",
+      "receiver_distance_A"
+    ],
+    "cuts": {
+      "degree": [
+        13.0,
+        18.33333333333333
+      ],
+      "receiver_distance_A": [
+        10.74971553887864,
+        16.906120798762856
+      ]
+    },
+    "groups": [
+      {
+        "key": [
+          0,
+          0
+        ],
+        "candidates": [
+          25,
+          26,
+          35,
+          36,
+          38,
+          61,
+          95,
+          122
+        ],
+        "n": 8,
+        "m": 2
+      },
+      {
+        "key": [
+          0,
+          1
+        ],
+        "candidates": [
+          62,
+          63,
+          65,
+          94,
+          98,
+          126,
+          128,
+          129,
+          132
+        ],
+        "n": 9,
+        "m": 2
+      },
+      {
+        "key": [
+          0,
+          2
+        ],
+        "candidates": [
+          1,
+          2,
+          45,
+          46,
+          47,
+          48,
+          49,
+          64,
+          66,
+          67,
+          70,
+          108,
+          136,
+          164,
+          165,
+          166
+        ],
+        "n": 16,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          0
+        ],
+        "candidates": [
+          23,
+          24,
+          34,
+          37,
+          39,
+          60,
+          87,
+          88,
+          91,
+          92,
+          96,
+          123,
+          124,
+          153
+        ],
+        "n": 14,
+        "m": 4
+      },
+      {
+        "key": [
+          1,
+          1
+        ],
+        "candidates": [
+          40,
+          41,
+          42,
+          54,
+          68,
+          71,
+          97,
+          99,
+          127,
+          131,
+          133,
+          134,
+          139,
+          140,
+          154,
+          157
+        ],
+        "n": 16,
+        "m": 2
+      },
+      {
+        "key": [
+          1,
+          2
+        ],
+        "candidates": [
+          3,
+          43,
+          44,
+          50,
+          51,
+          52,
+          69,
+          73,
+          74,
+          101,
+          102,
+          103,
+          104,
+          135,
+          137,
+          138,
+          161,
+          163
+        ],
+        "n": 18,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0
+        ],
+        "candidates": [
+          7,
+          8,
+          9,
+          56,
+          57,
+          58,
+          59,
+          79,
+          80,
+          81,
+          85,
+          86,
+          90,
+          93,
+          113,
+          125,
+          142,
+          151,
+          152,
+          155
+        ],
+        "n": 20,
+        "m": 3
+      },
+      {
+        "key": [
+          2,
+          1
+        ],
+        "candidates": [
+          5,
+          6,
+          53,
+          55,
+          72,
+          75,
+          77,
+          78,
+          100,
+          111,
+          112,
+          130,
+          141,
+          156,
+          158,
+          159,
+          160
+        ],
+        "n": 17,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          2
+        ],
+        "candidates": [
+          4,
+          76,
+          109,
+          110,
+          162
+        ],
+        "n": 5,
+        "m": 0
+      }
+    ],
+    "M": 2872175981875200,
+    "smallest_exact_p": 3.48168081033501e-16,
+    "first_Holm_threshold_in_planned_three_target_family": 0.016666666666666666,
+    "finite_space_supports_that_threshold": true,
+    "seed": 20260912,
+    "draw_count": 10000,
+    "distinct_sampling": false,
+    "unique_configurations_evaluated": 10000,
+    "observed_configuration_excluded_from_sample": false,
+    "exact_enumeration": false,
+    "attainable_sampled_p_floor": 9.999000099990002e-05
+  },
+  "degree_distance_exposure__historical126": {
+    "candidate_count": 126,
+    "positive_count": 17,
+    "cut_policy": "tertiles recomputed within this universe",
+    "universe_field": "eligible_6A",
+    "matching_features": [
+      "degree",
+      "receiver_distance_A",
+      "rsa_ge_0.20"
+    ],
+    "cuts": {
+      "degree": [
+        13.0,
+        18.33333333333333
+      ],
+      "receiver_distance_A": [
+        10.74971569563919,
+        16.906120756038117
+      ]
+    },
+    "groups": [
+      {
+        "key": [
+          0,
+          0,
+          1
+        ],
+        "candidates": [
+          25,
+          26,
+          35,
+          36,
+          38,
+          61,
+          95,
+          122
+        ],
+        "n": 8,
+        "m": 2
+      },
+      {
+        "key": [
+          0,
+          1,
+          0
+        ],
+        "candidates": [
+          62
+        ],
+        "n": 1,
+        "m": 1
+      },
+      {
+        "key": [
+          0,
+          1,
+          1
+        ],
+        "candidates": [
+          63,
+          65,
+          94,
+          98,
+          126,
+          128,
+          129,
+          132
+        ],
+        "n": 8,
+        "m": 1
+      },
+      {
+        "key": [
+          0,
+          2,
+          0
+        ],
+        "candidates": [
+          46
+        ],
+        "n": 1,
+        "m": 0
+      },
+      {
+        "key": [
+          0,
+          2,
+          1
+        ],
+        "candidates": [
+          1,
+          2,
+          45,
+          47,
+          48,
+          49,
+          64,
+          66,
+          67,
+          70,
+          105,
+          106,
+          107,
+          108,
+          136,
+          164,
+          165,
+          166
+        ],
+        "n": 18,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          0,
+          0
+        ],
+        "candidates": [
+          23,
+          24,
+          96
+        ],
+        "n": 3,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          0,
+          1
+        ],
+        "candidates": [
+          34,
+          37,
+          39,
+          60,
+          87,
+          88,
+          91,
+          92,
+          123,
+          124,
+          153
+        ],
+        "n": 11,
+        "m": 3
+      },
+      {
+        "key": [
+          1,
+          1,
+          0
+        ],
+        "candidates": [
+          40,
+          54,
+          71,
+          97,
+          99,
+          133,
+          134,
+          139,
+          157
+        ],
+        "n": 9,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          1,
+          1
+        ],
+        "candidates": [
+          41,
+          42,
+          68,
+          127,
+          131,
+          140,
+          154
+        ],
+        "n": 7,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          2,
+          0
+        ],
+        "candidates": [
+          44,
+          51,
+          52,
+          137,
+          163
+        ],
+        "n": 5,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          2,
+          1
+        ],
+        "candidates": [
+          3,
+          43,
+          50,
+          69,
+          73,
+          74,
+          101,
+          102,
+          103,
+          104,
+          135,
+          138,
+          161
+        ],
+        "n": 13,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0,
+          0
+        ],
+        "candidates": [
+          7,
+          8,
+          9,
+          56,
+          57,
+          58,
+          79,
+          80,
+          81,
+          90,
+          93,
+          113,
+          125,
+          142,
+          151,
+          152,
+          155
+        ],
+        "n": 17,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0,
+          1
+        ],
+        "candidates": [
+          59,
+          85,
+          86
+        ],
+        "n": 3,
+        "m": 1
+      },
+      {
+        "key": [
+          2,
+          1,
+          0
+        ],
+        "candidates": [
+          6,
+          53,
+          55,
+          72,
+          75,
+          77,
+          78,
+          100,
+          111,
+          112,
+          130,
+          141,
+          156,
+          158,
+          159,
+          160
+        ],
+        "n": 16,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          1,
+          1
+        ],
+        "candidates": [
+          5
+        ],
+        "n": 1,
+        "m": 0
+      },
+      {
+        "key": [
+          2,
+          2,
+          0
+        ],
+        "candidates": [
+          4,
+          109,
+          110,
+          162
+        ],
+        "n": 4,
+        "m": 0
+      },
+      {
+        "key": [
+          2,
+          2,
+          1
+        ],
+        "candidates": [
+          76
+        ],
+        "n": 1,
+        "m": 0
+      }
+    ],
+    "M": 26676557107200,
+    "smallest_exact_p": 3.7486096724606943e-14,
+    "first_Holm_threshold_in_planned_three_target_family": 0.016666666666666666,
+    "finite_space_supports_that_threshold": true,
+    "seed": 20260912,
+    "draw_count": 10000,
+    "distinct_sampling": true,
+    "unique_configurations_evaluated": 10000,
+    "observed_configuration_excluded_from_sample": true,
+    "exact_enumeration": false,
+    "attainable_sampled_p_floor": 9.999000099990002e-05
+  },
+  "degree_distance_exposure__evaluable123": {
+    "candidate_count": 123,
+    "positive_count": 17,
+    "cut_policy": "tertiles recomputed within this universe",
+    "universe_field": "evaluation_eligible",
+    "matching_features": [
+      "degree",
+      "receiver_distance_A",
+      "rsa_ge_0.20"
+    ],
+    "cuts": {
+      "degree": [
+        13.666666666666664,
+        19.0
+      ],
+      "receiver_distance_A": [
+        10.722467113654854,
+        16.49126919981016
+      ]
+    },
+    "groups": [
+      {
+        "key": [
+          0,
+          0,
+          1
+        ],
+        "candidates": [
+          25,
+          26,
+          35,
+          36,
+          38,
+          61,
+          91,
+          95,
+          122,
+          124
+        ],
+        "n": 10,
+        "m": 2
+      },
+      {
+        "key": [
+          0,
+          1,
+          0
+        ],
+        "candidates": [
+          62
+        ],
+        "n": 1,
+        "m": 1
+      },
+      {
+        "key": [
+          0,
+          1,
+          1
+        ],
+        "candidates": [
+          42,
+          65,
+          94,
+          98,
+          126,
+          128,
+          129,
+          132
+        ],
+        "n": 8,
+        "m": 0
+      },
+      {
+        "key": [
+          0,
+          2,
+          0
+        ],
+        "candidates": [
+          46
+        ],
+        "n": 1,
+        "m": 0
+      },
+      {
+        "key": [
+          0,
+          2,
+          1
+        ],
+        "candidates": [
+          1,
+          2,
+          3,
+          45,
+          47,
+          48,
+          49,
+          50,
+          63,
+          64,
+          66,
+          67,
+          70,
+          74,
+          108,
+          135,
+          136,
+          138,
+          164,
+          165,
+          166
+        ],
+        "n": 21,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          0,
+          0
+        ],
+        "candidates": [
+          23,
+          24,
+          96
+        ],
+        "n": 3,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          0,
+          1
+        ],
+        "candidates": [
+          34,
+          37,
+          39,
+          60,
+          88,
+          92,
+          123,
+          153
+        ],
+        "n": 8,
+        "m": 3
+      },
+      {
+        "key": [
+          1,
+          1,
+          0
+        ],
+        "candidates": [
+          40,
+          54,
+          71,
+          97,
+          99,
+          133,
+          134,
+          139,
+          157
+        ],
+        "n": 9,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          1,
+          1
+        ],
+        "candidates": [
+          41,
+          68,
+          87,
+          127,
+          131,
+          140,
+          154
+        ],
+        "n": 7,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          2,
+          0
+        ],
+        "candidates": [
+          44,
+          51,
+          52,
+          137,
+          163
+        ],
+        "n": 5,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          2,
+          1
+        ],
+        "candidates": [
+          43,
+          69,
+          73,
+          101,
+          102,
+          103,
+          104,
+          161
+        ],
+        "n": 8,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0,
+          0
+        ],
+        "candidates": [
+          7,
+          8,
+          9,
+          56,
+          57,
+          58,
+          79,
+          80,
+          81,
+          90,
+          93,
+          113,
+          125,
+          142,
+          151,
+          152,
+          155
+        ],
+        "n": 17,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0,
+          1
+        ],
+        "candidates": [
+          59,
+          85,
+          86
+        ],
+        "n": 3,
+        "m": 1
+      },
+      {
+        "key": [
+          2,
+          1,
+          0
+        ],
+        "candidates": [
+          6,
+          53,
+          55,
+          72,
+          75,
+          77,
+          78,
+          100,
+          111,
+          112,
+          130,
+          141,
+          156,
+          158,
+          159
+        ],
+        "n": 15,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          1,
+          1
+        ],
+        "candidates": [
+          5
+        ],
+        "n": 1,
+        "m": 0
+      },
+      {
+        "key": [
+          2,
+          2,
+          0
+        ],
+        "candidates": [
+          4,
+          109,
+          110,
+          160,
+          162
+        ],
+        "n": 5,
+        "m": 0
+      },
+      {
+        "key": [
+          2,
+          2,
+          1
+        ],
+        "candidates": [
+          76
+        ],
+        "n": 1,
+        "m": 0
+      }
+    ],
+    "M": 11997455097600,
+    "smallest_exact_p": 8.335101001545256e-14,
+    "first_Holm_threshold_in_planned_three_target_family": 0.016666666666666666,
+    "finite_space_supports_that_threshold": true,
+    "seed": 20260912,
+    "draw_count": 10000,
+    "distinct_sampling": true,
+    "unique_configurations_evaluated": 10000,
+    "observed_configuration_excluded_from_sample": true,
+    "exact_enumeration": false,
+    "attainable_sampled_p_floor": 9.999000099990002e-05
+  },
+  "degree_distance_exposure__evaluable123_fixed_historical_cuts": {
+    "candidate_count": 123,
+    "positive_count": 17,
+    "cut_policy": "historical126 cuts retained as sensitivity",
+    "universe_field": "evaluation_eligible",
+    "matching_features": [
+      "degree",
+      "receiver_distance_A",
+      "rsa_ge_0.20"
+    ],
+    "cuts": {
+      "degree": [
+        13.0,
+        18.33333333333333
+      ],
+      "receiver_distance_A": [
+        10.74971569563919,
+        16.906120756038117
+      ]
+    },
+    "groups": [
+      {
+        "key": [
+          0,
+          0,
+          1
+        ],
+        "candidates": [
+          25,
+          26,
+          35,
+          36,
+          38,
+          61,
+          95,
+          122
+        ],
+        "n": 8,
+        "m": 2
+      },
+      {
+        "key": [
+          0,
+          1,
+          0
+        ],
+        "candidates": [
+          62
+        ],
+        "n": 1,
+        "m": 1
+      },
+      {
+        "key": [
+          0,
+          1,
+          1
+        ],
+        "candidates": [
+          63,
+          65,
+          94,
+          98,
+          126,
+          128,
+          129,
+          132
+        ],
+        "n": 8,
+        "m": 1
+      },
+      {
+        "key": [
+          0,
+          2,
+          0
+        ],
+        "candidates": [
+          46
+        ],
+        "n": 1,
+        "m": 0
+      },
+      {
+        "key": [
+          0,
+          2,
+          1
+        ],
+        "candidates": [
+          1,
+          2,
+          45,
+          47,
+          48,
+          49,
+          64,
+          66,
+          67,
+          70,
+          108,
+          136,
+          164,
+          165,
+          166
+        ],
+        "n": 15,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          0,
+          0
+        ],
+        "candidates": [
+          23,
+          24,
+          96
+        ],
+        "n": 3,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          0,
+          1
+        ],
+        "candidates": [
+          34,
+          37,
+          39,
+          60,
+          87,
+          88,
+          91,
+          92,
+          123,
+          124,
+          153
+        ],
+        "n": 11,
+        "m": 3
+      },
+      {
+        "key": [
+          1,
+          1,
+          0
+        ],
+        "candidates": [
+          40,
+          54,
+          71,
+          97,
+          99,
+          133,
+          134,
+          139,
+          157
+        ],
+        "n": 9,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          1,
+          1
+        ],
+        "candidates": [
+          41,
+          42,
+          68,
+          127,
+          131,
+          140,
+          154
+        ],
+        "n": 7,
+        "m": 1
+      },
+      {
+        "key": [
+          1,
+          2,
+          0
+        ],
+        "candidates": [
+          44,
+          51,
+          52,
+          137,
+          163
+        ],
+        "n": 5,
+        "m": 0
+      },
+      {
+        "key": [
+          1,
+          2,
+          1
+        ],
+        "candidates": [
+          3,
+          43,
+          50,
+          69,
+          73,
+          74,
+          101,
+          102,
+          103,
+          104,
+          135,
+          138,
+          161
+        ],
+        "n": 13,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0,
+          0
+        ],
+        "candidates": [
+          7,
+          8,
+          9,
+          56,
+          57,
+          58,
+          79,
+          80,
+          81,
+          90,
+          93,
+          113,
+          125,
+          142,
+          151,
+          152,
+          155
+        ],
+        "n": 17,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          0,
+          1
+        ],
+        "candidates": [
+          59,
+          85,
+          86
+        ],
+        "n": 3,
+        "m": 1
+      },
+      {
+        "key": [
+          2,
+          1,
+          0
+        ],
+        "candidates": [
+          6,
+          53,
+          55,
+          72,
+          75,
+          77,
+          78,
+          100,
+          111,
+          112,
+          130,
+          141,
+          156,
+          158,
+          159,
+          160
+        ],
+        "n": 16,
+        "m": 2
+      },
+      {
+        "key": [
+          2,
+          1,
+          1
+        ],
+        "candidates": [
+          5
+        ],
+        "n": 1,
+        "m": 0
+      },
+      {
+        "key": [
+          2,
+          2,
+          0
+        ],
+        "candidates": [
+          4,
+          109,
+          110,
+          162
+        ],
+        "n": 4,
+        "m": 0
+      },
+      {
+        "key": [
+          2,
+          2,
+          1
+        ],
+        "candidates": [
+          76
+        ],
+        "n": 1,
+        "m": 0
+      }
+    ],
+    "M": 26676557107200,
+    "smallest_exact_p": 3.7486096724606943e-14,
+    "first_Holm_threshold_in_planned_three_target_family": 0.016666666666666666,
+    "finite_space_supports_that_threshold": true,
+    "seed": 20260912,
+    "draw_count": 10000,
+    "distinct_sampling": true,
+    "unique_configurations_evaluated": 10000,
+    "observed_configuration_excluded_from_sample": true,
+    "exact_enumeration": false,
+    "attainable_sampled_p_floor": 9.999000099990002e-05
+  }
+}

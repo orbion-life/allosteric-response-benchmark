@@ -1,0 +1,2453 @@
+{
+  "status": "completed_once_and_verified",
+  "measured_utc": "2026-09-12T10:21:06.864226+00:00",
+  "workload": "cached-input prepare.py followed by run_pilot.py, each in a fresh process",
+  "execution_count": {
+    "prepare.py": 1,
+    "run_pilot.py": 1
+  },
+  "machine": {
+    "architecture": "arm64",
+    "processor_model": "Apple M4 Pro",
+    "physical_memory_bytes": 25769803776,
+    "os": "Darwin",
+    "os_version": "26.6.2"
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.1.3",
+    "scipy": "1.14.1"
+  },
+  "phases": [
+    {
+      "script": "prepare.py",
+      "in_process_script_wall_seconds": 0.43837708298815414,
+      "peak_process_rss_bytes": 71876608,
+      "peak_method": "resource.getrusage(RUSAGE_SELF).ru_maxrss; macOS reports bytes",
+      "exit_status": 0,
+      "fresh_process_wall_seconds_including_startup_and_exit": 0.4898244169889949
+    },
+    {
+      "script": "run_pilot.py",
+      "in_process_script_wall_seconds": 67.14531783398706,
+      "peak_process_rss_bytes": 256999424,
+      "peak_method": "resource.getrusage(RUSAGE_SELF).ru_maxrss; macOS reports bytes",
+      "exit_status": 0,
+      "fresh_process_wall_seconds_including_startup_and_exit": 67.21017212502193
+    }
+  ],
+  "total_sequential_wall_seconds": 67.70071291603381,
+  "total_scope": "from first process launch through second process exit, including script imports, output serialization and phase-control overhead; cached input copying/install/verification excluded",
+  "workflow_peak_process_rss_bytes": 256999424,
+  "workflow_peak_scope": "maximum of sequential worker process high-water RSS, not a sum; includes interpreter/libraries and all arrays in each worker; controller memory excluded",
+  "shared_preprocessing": {
+    "prepare_phase_wall_seconds_including_startup": 0.4898244169889949,
+    "prepare_phase_scope": "cached PDB parsing, sequence mapping, receiver definition, contact graph, Hessian/eigenbasis, d1/d2 observable polynomials/scales and saved model artifacts",
+    "contact_hessian_eigenbasis_wall_seconds": 0.04955241596326232,
+    "contact_hessian_eigenbasis_scope": "contact graph, Hessian assembly, eigendecomposition, rigid-mode selection and deterministic eigenvector signs; part of shared preparation",
+    "full492_harmonic_covariance_and_normalizer_wall_seconds": 5.99114204198122,
+    "full492_harmonic_scope": "full equal-time/delayed covariance, raw response, harmonic SD extraction and save; a combined computation, not isolated SD-only time",
+    "all8_harmonic_dimension_checks_wall_seconds": 43.73626454296755,
+    "all8_harmonic_scope": "sum of per-dimension covariance/delayed-covariance/SD/save timers; excludes two earlier independent Wick checks and later normalization/ranking pass",
+    "double_counting_warning": "These shared preparation and harmonic calculations are included in the total workflow and must not be added again to that total. They supply both classical and quantum model inputs.",
+    "isolated_normalizer_only_time_measured": false
+  },
+  "included": [
+    "cached-input structural/model preparation",
+    "two independent harmonic moment checks",
+    "eight analytic harmonic dimensions",
+    "all24 finite-grid energy/coordinate/domain cases",
+    "built-in grid physical diagnostics",
+    "graph/geometric/degree baselines",
+    "model/response/ranking array serialization",
+    "prediction-freeze hashing"
+  ],
+  "excluded": [
+    "package installation",
+    "copying cached inputs into fresh directory",
+    "network fetches",
+    "external Ohm baseline execution",
+    "reference-pocket evaluation and matched-resampling analysis",
+    "plots and PDF generation",
+    "independent post-run array verification",
+    "quantum compilation and simulation",
+    "hardware execution"
+  ],
+  "verification": {
+    "status": "passed",
+    "relative_tolerance": 1e-10,
+    "absolute_tolerance": 1e-10,
+    "integer_boolean_order_arrays": "exact equality required",
+    "compared_array_files": 37,
+    "files": [
+      {
+        "file": "model/static-model.npz",
+        "fields": {
+          "r0": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "edges": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "degree": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "B": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "eigenvalues": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "Hessian": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "receiver": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "candidate": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "receiver_distance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "model/coordinate-d1.npz",
+        "fields": {
+          "r0": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "edges": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "B": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "eigenvalues": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "harmonic_sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_mean": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "receiver": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "candidate": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "model/coordinate-d2.npz",
+        "fields": {
+          "r0": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "edges": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "B": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "eigenvalues": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "harmonic_sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_mean": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "receiver": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "candidate": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "model/all-mode-harmonic-scales.npz",
+        "fields": {
+          "harmonic_sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "dimensions": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/analytic-harmonic-d1.npz",
+        "fields": {
+          "covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/analytic-harmonic-d16.npz",
+        "fields": {
+          "covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/analytic-harmonic-d2.npz",
+        "fields": {
+          "covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/analytic-harmonic-d32.npz",
+        "fields": {
+          "covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/analytic-harmonic-d4.npz",
+        "fields": {
+          "covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/analytic-harmonic-d492.npz",
+        "fields": {
+          "covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/analytic-harmonic-d64.npz",
+        "fields": {
+          "covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/analytic-harmonic-d8.npz",
+        "fields": {
+          "covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "sd": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/biquadratic-d1-n33-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/biquadratic-d1-n4-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/biquadratic-d1-n65-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/biquadratic-d2-n17-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/biquadratic-d2-n33-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/biquadratic-d2-n41-e5.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/biquadratic-d2-n49-e6.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/biquadratic-d2-n65-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/distance_hookean-d1-n33-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/distance_hookean-d1-n4-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/distance_hookean-d1-n65-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/distance_hookean-d2-n17-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/distance_hookean-d2-n33-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/distance_hookean-d2-n41-e5.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/distance_hookean-d2-n49-e6.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/distance_hookean-d2-n65-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/harmonic-d1-n33-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/harmonic-d1-n4-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/harmonic-d1-n65-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/harmonic-d2-n17-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/harmonic-d2-n33-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/harmonic-d2-n41-e5.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/harmonic-d2-n49-e6.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/harmonic-d2-n65-e4.npz",
+        "fields": {
+          "C": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "R": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "equilibrium": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "score": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "order": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "q": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "U": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "pi": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_data": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indices": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "H_indptr": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "A": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "powers": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_centered": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "monomial_time_covariance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "canonical": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      },
+      {
+        "file": "results/structural-baselines.npz",
+        "fields": {
+          "graph_heat_kernel": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "degree": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "receiver_inverse_distance": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "graph_time": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "graph_heat_kernel_matrix": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0
+          }
+        },
+        "passed": true
+      }
+    ]
+  },
+  "source_provenance": {
+    "original_source_sha256": {
+      "prepare.py": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b",
+      "run_pilot.py": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053"
+    },
+    "executed_source_sha256": {
+      "prepare.py": "717ec8e8175e3bce66f409f4388795cae12bf29f198e6c93a783a4dfd4a9b3ae",
+      "run_pilot.py": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053"
+    },
+    "instrumentation": "Only prepare.py imports time, adds one monotonic timer around existing contact/Hessian/eigenbasis statements, and writes a separate cost-hessian.json after original work. No model parameters or scientific operations changed. run_pilot.py is unchanged.",
+    "protocol_sha256": "0fcae6ed4dc4866f3fb32f63bb29bb38b17dd7552988b776ee4af76d65ca7896",
+    "input_sha256": {
+      "raw/4OBE-entity1.json": "652b2a47f455df8dab9d314a73b345580582ee76e759bf26dba7cc985328cb5c",
+      "raw/4OBE-entry.json": "bf6e7fc005d45345d868e8cecd0e0e91add9b4c7135cf898fbcc6ff340fb182f",
+      "raw/4OBE-mapping.json": "b7fc35c0e19bd8ac44fee88b23b27f7289969c67c22c160e8eac065b656c625a",
+      "raw/4OBE.pdb": "a294349c51d3d3218b164f4202fb88263247edc08d7d48b68e89bfd9896e21d2",
+      "raw/6OIM-entity1.json": "8697e6beb0b5ae16c95db85e2c06b0aff18fa9a8f3d8dcac10ed6527085fd770",
+      "raw/6OIM-entry.json": "5fc1afb967a4eb5097c0c1116a109ec1fb71941b59d38eb04f43a9cf1272b4f8",
+      "raw/6OIM-mapping.json": "3d8a4157036d217caf084ba56f3decbc4a418c19b2b66a2ae8f3a3ac2058038b",
+      "raw/6OIM.pdb": "42deda943440cc8dd3020a2c65ddc260970936d675b47c8b43564195b77d5006",
+      "raw/P01116-2.fasta": "8bcf1d107ea750b5ddc8a0f80b60227d16a3e559a6744798aea46b65fc97663b",
+      "raw/P01116.json": "54e2d937a79f84a4b9e6039fe4de4632290b1456cfc069b71b98dcd1880140fa",
+      "raw/source-receipts.json": "aeb223e1ed8d8ba1e10ede287c6d366e01d371001cbba332a3380a4e0bcef941"
+    }
+  },
+  "protocol": {
+    "input": "4OBE",
+    "reference": "6OIM",
+    "grid_cases": [
+      [
+        1,
+        4,
+        4
+      ],
+      [
+        1,
+        33,
+        4
+      ],
+      [
+        1,
+        65,
+        4
+      ],
+      [
+        2,
+        17,
+        4
+      ],
+      [
+        2,
+        33,
+        4
+      ],
+      [
+        2,
+        65,
+        4
+      ],
+      [
+        2,
+        41,
+        5
+      ],
+      [
+        2,
+        49,
+        6
+      ]
+    ],
+    "energy_models": [
+      "biquadratic",
+      "harmonic",
+      "distance_hookean"
+    ],
+    "analytic_dimensions": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      "all"
+    ]
+  },
+  "limitations": [
+    "one same-host observed run, not an average or performance guarantee",
+    "cached input and operating-system caches; cold disk cache not controlled",
+    "system load was not reserved",
+    "no per-subphase isolated peak RSS or pure-normalizer-only timing",
+    "small explicit timer instrumentation is included in observed preparation time"
+  ],
+  "procedure_code_sha256": "9ec6ced21f61a212582a191142914fd4bad1e2e9a11440347588787a2e9137e0"
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "coefficient",
+  "index": 25,
+  "qiskit_version": "2.5.2",
+  "scope": "Actual isolated controlled loading primitive; all-to-all u/cx, no device topology",
+  "controls": 1,
+  "control_state": 1,
+  "prepared_state_nonzeros": 26,
+  "constructor_seconds": 0.015450124978087842,
+  "compile_total_seconds": 0.028406666999217123,
+  "counts": {
+    "qubits": 6,
+    "one_qubit_u": 279,
+    "two_qubit_cx": 218,
+    "depth": 410,
+    "two_qubit_depth": 218,
+    "total_native_operations": 497
+  },
+  "phase_sensitive_statevector_max_error": 1.4586944214628055e-14,
+  "coherent_inverse_max_error": 2.038523740603562e-15,
+  "native_inverse_counts": {
+    "qubits": 6,
+    "one_qubit_u": 279,
+    "two_qubit_cx": 218,
+    "depth": 410,
+    "two_qubit_depth": 218,
+    "total_native_operations": 497
+  },
+  "worker_peak_RSS_bytes": 86294528,
+  "worker_seconds": 0.05944954202277586,
+  "status": "completed",
+  "controller_wall_seconds": 0.6677277919952758,
+  "controller_sampled_peak_tree_RSS_bytes": 86360064,
+  "worker_exit_code": 0
+}

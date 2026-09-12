@@ -1,0 +1,1261 @@
+method,prediction_rank,canonical,score,label_state,evaluation_eligible
+Biquadratic d2 grid,1,60,0.00011185425923721881,contact,True
+Biquadratic d2 grid,2,69,0.0001001273769908867,contact,True
+Biquadratic d2 grid,3,62,9.802398734263465e-05,contact,True
+Biquadratic d2 grid,4,61,8.596348125525458e-05,contact,True
+Biquadratic d2 grid,5,65,7.622826070771466e-05,observed_noncontact,True
+Biquadratic d2 grid,6,64,7.33437207895949e-05,observed_noncontact,True
+Biquadratic d2 grid,7,63,6.783631495415007e-05,contact,True
+Biquadratic d2 grid,8,67,6.733954427343321e-05,observed_noncontact,True
+Biquadratic d2 grid,9,71,6.215790973868644e-05,observed_noncontact,True
+Biquadratic d2 grid,10,37,5.672759958130659e-05,observed_noncontact,True
+Biquadratic d2 grid,11,68,5.4071670778228695e-05,contact,True
+Biquadratic d2 grid,12,66,4.6548929694588284e-05,observed_noncontact,True
+Biquadratic d2 grid,13,70,3.27425013308699e-05,observed_noncontact,True
+Biquadratic d2 grid,14,100,2.6088149872426215e-05,contact,True
+Biquadratic d2 grid,15,72,1.981330646992047e-05,contact,True
+Biquadratic d2 grid,16,99,1.9361616327246874e-05,contact,True
+Biquadratic d2 grid,17,96,1.616926290292443e-05,contact,True
+Biquadratic d2 grid,18,58,1.3661672284409247e-05,contact,True
+Biquadratic d2 grid,19,97,1.3653512021527712e-05,observed_noncontact,True
+Biquadratic d2 grid,20,5,1.2997512041681233e-05,observed_noncontact,True
+Biquadratic d2 grid,21,160,1.142182300832769e-05,observed_noncontact,True
+Biquadratic d2 grid,22,157,1.1067557089424488e-05,observed_noncontact,True
+Biquadratic d2 grid,23,51,9.77959333033361e-06,observed_noncontact,True
+Biquadratic d2 grid,24,107,9.568226892832575e-06,unknown,False
+Biquadratic d2 grid,25,59,9.269701433501238e-06,contact,True
+Biquadratic d2 grid,26,74,8.932642520950282e-06,observed_noncontact,True
+Biquadratic d2 grid,27,109,8.638046223256004e-06,observed_noncontact,True
+Biquadratic d2 grid,28,73,8.47397406033226e-06,observed_noncontact,True
+Biquadratic d2 grid,29,75,7.852788543426474e-06,observed_noncontact,True
+Biquadratic d2 grid,30,98,7.815579247471461e-06,observed_noncontact,True
+Biquadratic d2 grid,31,76,7.814882770414109e-06,observed_noncontact,True
+Biquadratic d2 grid,32,46,7.570297391672114e-06,observed_noncontact,True
+Biquadratic d2 grid,33,4,7.494270281525188e-06,observed_noncontact,True
+Biquadratic d2 grid,34,102,7.431218060063796e-06,observed_noncontact,True
+Biquadratic d2 grid,35,161,7.413989308820299e-06,observed_noncontact,True
+Biquadratic d2 grid,36,156,7.121785510948217e-06,observed_noncontact,True
+Biquadratic d2 grid,37,95,6.645381865828165e-06,contact,True
+Biquadratic d2 grid,38,94,6.554093604587515e-06,observed_noncontact,True
+Biquadratic d2 grid,39,56,6.5291721032616445e-06,observed_noncontact,True
+Biquadratic d2 grid,40,6,6.492748448749278e-06,observed_noncontact,True
+Biquadratic d2 grid,41,101,6.379727707046529e-06,observed_noncontact,True
+Biquadratic d2 grid,42,78,5.436376366759407e-06,observed_noncontact,True
+Biquadratic d2 grid,43,104,5.400138925018156e-06,observed_noncontact,True
+Biquadratic d2 grid,44,57,5.08742050631843e-06,observed_noncontact,True
+Biquadratic d2 grid,45,162,5.0155171792331545e-06,observed_noncontact,True
+Biquadratic d2 grid,46,35,4.82904081084596e-06,observed_noncontact,True
+Biquadratic d2 grid,47,53,4.746064912754123e-06,observed_noncontact,True
+Biquadratic d2 grid,48,103,4.523396530305805e-06,contact,True
+Biquadratic d2 grid,49,34,4.376924809168494e-06,contact,True
+Biquadratic d2 grid,50,9,4.3481523715484355e-06,contact,True
+Biquadratic d2 grid,51,111,4.183566409906386e-06,observed_noncontact,True
+Biquadratic d2 grid,52,44,4.0459924392591515e-06,observed_noncontact,True
+Biquadratic d2 grid,53,43,3.95114887181817e-06,observed_noncontact,True
+Biquadratic d2 grid,54,110,3.94387221297646e-06,observed_noncontact,True
+Biquadratic d2 grid,55,137,3.8930634549977445e-06,observed_noncontact,True
+Biquadratic d2 grid,56,45,3.6359619121336875e-06,observed_noncontact,True
+Biquadratic d2 grid,57,38,3.6172616303330174e-06,observed_noncontact,True
+Biquadratic d2 grid,58,36,3.379983584716711e-06,observed_noncontact,True
+Biquadratic d2 grid,59,50,3.3694141526446585e-06,observed_noncontact,True
+Biquadratic d2 grid,60,2,3.29654795791834e-06,observed_noncontact,True
+Biquadratic d2 grid,61,3,3.2438553359378254e-06,observed_noncontact,True
+Biquadratic d2 grid,62,90,3.176733939243605e-06,observed_noncontact,True
+Biquadratic d2 grid,63,23,3.165469226132956e-06,observed_noncontact,True
+Biquadratic d2 grid,64,7,3.11008589856998e-06,observed_noncontact,True
+Biquadratic d2 grid,65,48,2.915547915672774e-06,observed_noncontact,True
+Biquadratic d2 grid,66,158,2.9044665939098554e-06,observed_noncontact,True
+Biquadratic d2 grid,67,47,2.817886701080166e-06,observed_noncontact,True
+Biquadratic d2 grid,68,1,2.6144225991286468e-06,observed_noncontact,True
+Biquadratic d2 grid,69,49,2.600984735859443e-06,observed_noncontact,True
+Biquadratic d2 grid,70,113,2.533544697294689e-06,observed_noncontact,True
+Biquadratic d2 grid,71,24,2.468129073301668e-06,observed_noncontact,True
+Biquadratic d2 grid,72,54,2.304872911163473e-06,observed_noncontact,True
+Biquadratic d2 grid,73,140,2.302986799927231e-06,observed_noncontact,True
+Biquadratic d2 grid,74,166,2.3012065339307545e-06,observed_noncontact,True
+Biquadratic d2 grid,75,40,2.2384157004924525e-06,observed_noncontact,True
+Biquadratic d2 grid,76,133,2.228260790959496e-06,observed_noncontact,True
+Biquadratic d2 grid,77,42,2.1010826477126994e-06,observed_noncontact,True
+Biquadratic d2 grid,78,52,2.0343332018421864e-06,observed_noncontact,True
+Biquadratic d2 grid,79,155,2.014214639628712e-06,observed_noncontact,True
+Biquadratic d2 grid,80,159,1.9689521927275055e-06,observed_noncontact,True
+Biquadratic d2 grid,81,41,1.9196850996851542e-06,observed_noncontact,True
+Biquadratic d2 grid,82,39,1.8996441934703956e-06,observed_noncontact,True
+Biquadratic d2 grid,83,77,1.8313692899353112e-06,observed_noncontact,True
+Biquadratic d2 grid,84,105,1.7969152420884206e-06,unknown,False
+Biquadratic d2 grid,85,163,1.7134939046465395e-06,observed_noncontact,True
+Biquadratic d2 grid,86,108,1.6144438847265725e-06,observed_noncontact,True
+Biquadratic d2 grid,87,153,1.4997981037039456e-06,observed_noncontact,True
+Biquadratic d2 grid,88,152,1.4957515098946325e-06,observed_noncontact,True
+Biquadratic d2 grid,89,8,1.4697554997645897e-06,observed_noncontact,True
+Biquadratic d2 grid,90,92,1.459731104923628e-06,contact,True
+Biquadratic d2 grid,91,86,1.3520948227275706e-06,observed_noncontact,True
+Biquadratic d2 grid,92,93,1.3151507507891937e-06,observed_noncontact,True
+Biquadratic d2 grid,93,164,1.3034722148120108e-06,observed_noncontact,True
+Biquadratic d2 grid,94,142,1.281208079632904e-06,observed_noncontact,True
+Biquadratic d2 grid,95,112,1.2585508736594483e-06,observed_noncontact,True
+Biquadratic d2 grid,96,55,1.2188446884351858e-06,observed_noncontact,True
+Biquadratic d2 grid,97,88,1.1569824124249027e-06,observed_noncontact,True
+Biquadratic d2 grid,98,81,1.1258162267428613e-06,observed_noncontact,True
+Biquadratic d2 grid,99,138,1.0831855529152663e-06,observed_noncontact,True
+Biquadratic d2 grid,100,130,1.0580440223810377e-06,observed_noncontact,True
+Biquadratic d2 grid,101,125,1.0300252169686977e-06,observed_noncontact,True
+Biquadratic d2 grid,102,106,1.0262582878233148e-06,unknown,False
+Biquadratic d2 grid,103,151,9.799297673132879e-07,observed_noncontact,True
+Biquadratic d2 grid,104,139,9.576537063241844e-07,observed_noncontact,True
+Biquadratic d2 grid,105,141,9.301048439383474e-07,observed_noncontact,True
+Biquadratic d2 grid,106,91,8.540413098532989e-07,observed_noncontact,True
+Biquadratic d2 grid,107,80,8.373883062468551e-07,observed_noncontact,True
+Biquadratic d2 grid,108,154,7.503142622284677e-07,observed_noncontact,True
+Biquadratic d2 grid,109,25,7.326297175119959e-07,observed_noncontact,True
+Biquadratic d2 grid,110,131,6.830038041924739e-07,observed_noncontact,True
+Biquadratic d2 grid,111,129,5.606478274150669e-07,observed_noncontact,True
+Biquadratic d2 grid,112,135,5.123155334875234e-07,observed_noncontact,True
+Biquadratic d2 grid,113,127,4.5587675546953155e-07,observed_noncontact,True
+Biquadratic d2 grid,114,79,4.2266883585093456e-07,observed_noncontact,True
+Biquadratic d2 grid,115,26,3.793574900816585e-07,observed_noncontact,True
+Biquadratic d2 grid,116,87,3.3429057974256577e-07,observed_noncontact,True
+Biquadratic d2 grid,117,126,3.205894158820265e-07,observed_noncontact,True
+Biquadratic d2 grid,118,136,3.0756519148065744e-07,observed_noncontact,True
+Biquadratic d2 grid,119,134,2.9848053289730963e-07,observed_noncontact,True
+Biquadratic d2 grid,120,165,2.907978765783905e-07,observed_noncontact,True
+Biquadratic d2 grid,121,132,2.856444894360052e-07,observed_noncontact,True
+Biquadratic d2 grid,122,85,2.5769727110177555e-07,observed_noncontact,True
+Biquadratic d2 grid,123,123,2.2865413621285546e-07,observed_noncontact,True
+Biquadratic d2 grid,124,128,1.7286457326944543e-07,observed_noncontact,True
+Biquadratic d2 grid,125,124,1.242613173115283e-07,observed_noncontact,True
+Biquadratic d2 grid,126,122,8.212727735386068e-08,observed_noncontact,True
+Harmonic d2 same grid,1,60,0.0006446469572602509,contact,True
+Harmonic d2 same grid,2,62,0.0006029361557878367,contact,True
+Harmonic d2 same grid,3,61,0.0006014379318072786,contact,True
+Harmonic d2 same grid,4,64,0.0005493749213265539,observed_noncontact,True
+Harmonic d2 same grid,5,69,0.0005492693270351724,contact,True
+Harmonic d2 same grid,6,63,0.0005426638734817808,contact,True
+Harmonic d2 same grid,7,65,0.0005070685001162243,observed_noncontact,True
+Harmonic d2 same grid,8,68,0.00040972321117393356,contact,True
+Harmonic d2 same grid,9,67,0.00035132604376652383,observed_noncontact,True
+Harmonic d2 same grid,10,66,0.0002605182095410828,observed_noncontact,True
+Harmonic d2 same grid,11,71,0.00024985280570253155,observed_noncontact,True
+Harmonic d2 same grid,12,37,0.00021127807627417848,observed_noncontact,True
+Harmonic d2 same grid,13,70,0.00018057874073523973,observed_noncontact,True
+Harmonic d2 same grid,14,72,0.00010117276275620709,contact,True
+Harmonic d2 same grid,15,100,9.751666243607831e-05,contact,True
+Harmonic d2 same grid,16,99,7.221265872317265e-05,contact,True
+Harmonic d2 same grid,17,96,5.865701327603132e-05,contact,True
+Harmonic d2 same grid,18,58,5.5373645887795165e-05,contact,True
+Harmonic d2 same grid,19,97,5.040131685249279e-05,observed_noncontact,True
+Harmonic d2 same grid,20,5,4.90763023759158e-05,observed_noncontact,True
+Harmonic d2 same grid,21,59,4.216704161741958e-05,contact,True
+Harmonic d2 same grid,22,160,4.106836501467546e-05,observed_noncontact,True
+Harmonic d2 same grid,23,73,3.968777329179644e-05,observed_noncontact,True
+Harmonic d2 same grid,24,157,3.901606309066896e-05,observed_noncontact,True
+Harmonic d2 same grid,25,51,3.7741599260415016e-05,observed_noncontact,True
+Harmonic d2 same grid,26,107,3.511749095444286e-05,unknown,False
+Harmonic d2 same grid,27,74,3.446442160075476e-05,observed_noncontact,True
+Harmonic d2 same grid,28,109,3.112078016163857e-05,observed_noncontact,True
+Harmonic d2 same grid,29,75,2.9598295870565102e-05,observed_noncontact,True
+Harmonic d2 same grid,30,46,2.8934350084305157e-05,observed_noncontact,True
+Harmonic d2 same grid,31,98,2.8920218413678698e-05,observed_noncontact,True
+Harmonic d2 same grid,32,4,2.889900189011239e-05,observed_noncontact,True
+Harmonic d2 same grid,33,76,2.849212421273811e-05,observed_noncontact,True
+Harmonic d2 same grid,34,102,2.790511132786109e-05,observed_noncontact,True
+Harmonic d2 same grid,35,156,2.507900217381944e-05,observed_noncontact,True
+Harmonic d2 same grid,36,95,2.4503312067958984e-05,contact,True
+Harmonic d2 same grid,37,161,2.4434896818402364e-05,observed_noncontact,True
+Harmonic d2 same grid,38,94,2.4376043130359153e-05,observed_noncontact,True
+Harmonic d2 same grid,39,6,2.3549012523682223e-05,observed_noncontact,True
+Harmonic d2 same grid,40,101,2.343439848663282e-05,observed_noncontact,True
+Harmonic d2 same grid,41,56,2.2834961997439226e-05,observed_noncontact,True
+Harmonic d2 same grid,42,104,2.0974218606709564e-05,observed_noncontact,True
+Harmonic d2 same grid,43,78,1.9674734752453512e-05,observed_noncontact,True
+Harmonic d2 same grid,44,35,1.9445607609717512e-05,observed_noncontact,True
+Harmonic d2 same grid,45,44,1.9388284481203075e-05,observed_noncontact,True
+Harmonic d2 same grid,46,57,1.8535006772532125e-05,observed_noncontact,True
+Harmonic d2 same grid,47,103,1.8473522175141347e-05,contact,True
+Harmonic d2 same grid,48,53,1.832849173586094e-05,observed_noncontact,True
+Harmonic d2 same grid,49,162,1.7640912910981064e-05,observed_noncontact,True
+Harmonic d2 same grid,50,2,1.7160765997943604e-05,observed_noncontact,True
+Harmonic d2 same grid,51,45,1.666823069204591e-05,observed_noncontact,True
+Harmonic d2 same grid,52,34,1.6330329346533137e-05,contact,True
+Harmonic d2 same grid,53,43,1.6323866083638698e-05,observed_noncontact,True
+Harmonic d2 same grid,54,9,1.5814488997289707e-05,contact,True
+Harmonic d2 same grid,55,111,1.553007279102021e-05,observed_noncontact,True
+Harmonic d2 same grid,56,50,1.5263481629109546e-05,observed_noncontact,True
+Harmonic d2 same grid,57,48,1.455457883437884e-05,observed_noncontact,True
+Harmonic d2 same grid,58,137,1.4529636036924356e-05,observed_noncontact,True
+Harmonic d2 same grid,59,110,1.3531181667282986e-05,observed_noncontact,True
+Harmonic d2 same grid,60,38,1.3121188265576499e-05,observed_noncontact,True
+Harmonic d2 same grid,61,1,1.292691286756292e-05,observed_noncontact,True
+Harmonic d2 same grid,62,49,1.2789787380980622e-05,observed_noncontact,True
+Harmonic d2 same grid,63,36,1.2633729435368738e-05,observed_noncontact,True
+Harmonic d2 same grid,64,3,1.2627373483464422e-05,observed_noncontact,True
+Harmonic d2 same grid,65,90,1.1512107760687752e-05,observed_noncontact,True
+Harmonic d2 same grid,66,23,1.1344790801643045e-05,observed_noncontact,True
+Harmonic d2 same grid,67,7,1.1283020331308072e-05,observed_noncontact,True
+Harmonic d2 same grid,68,47,1.099704756603769e-05,observed_noncontact,True
+Harmonic d2 same grid,69,158,1.0657232265897862e-05,observed_noncontact,True
+Harmonic d2 same grid,70,52,9.540896526956326e-06,observed_noncontact,True
+Harmonic d2 same grid,71,113,9.286054334137496e-06,observed_noncontact,True
+Harmonic d2 same grid,72,42,8.626965771736092e-06,observed_noncontact,True
+Harmonic d2 same grid,73,140,8.217189516783225e-06,observed_noncontact,True
+Harmonic d2 same grid,74,133,8.16806585579945e-06,observed_noncontact,True
+Harmonic d2 same grid,75,166,8.106339608659759e-06,observed_noncontact,True
+Harmonic d2 same grid,76,54,7.91379238353928e-06,observed_noncontact,True
+Harmonic d2 same grid,77,24,7.625943299065537e-06,observed_noncontact,True
+Harmonic d2 same grid,78,40,7.597063838179535e-06,observed_noncontact,True
+Harmonic d2 same grid,79,41,6.9394891658503006e-06,observed_noncontact,True
+Harmonic d2 same grid,80,39,6.891541918851328e-06,observed_noncontact,True
+Harmonic d2 same grid,81,105,6.81120583707187e-06,unknown,False
+Harmonic d2 same grid,82,159,6.745412487954121e-06,observed_noncontact,True
+Harmonic d2 same grid,83,77,6.6536037007535624e-06,observed_noncontact,True
+Harmonic d2 same grid,84,155,6.38378417481027e-06,observed_noncontact,True
+Harmonic d2 same grid,85,163,6.302486527621003e-06,observed_noncontact,True
+Harmonic d2 same grid,86,108,5.850718492868356e-06,observed_noncontact,True
+Harmonic d2 same grid,87,92,5.46627510941971e-06,contact,True
+Harmonic d2 same grid,88,153,5.378210162331586e-06,observed_noncontact,True
+Harmonic d2 same grid,89,8,5.277275254958181e-06,observed_noncontact,True
+Harmonic d2 same grid,90,93,5.221483514050469e-06,observed_noncontact,True
+Harmonic d2 same grid,91,86,4.960507595209154e-06,observed_noncontact,True
+Harmonic d2 same grid,92,152,4.930378109341983e-06,observed_noncontact,True
+Harmonic d2 same grid,93,164,4.900361784153958e-06,observed_noncontact,True
+Harmonic d2 same grid,94,55,4.362749914489672e-06,observed_noncontact,True
+Harmonic d2 same grid,95,88,4.2975855463018605e-06,observed_noncontact,True
+Harmonic d2 same grid,96,112,4.230790928553068e-06,observed_noncontact,True
+Harmonic d2 same grid,97,142,4.21079658640602e-06,observed_noncontact,True
+Harmonic d2 same grid,98,81,4.131011527647956e-06,observed_noncontact,True
+Harmonic d2 same grid,99,138,3.999678322234569e-06,observed_noncontact,True
+Harmonic d2 same grid,100,130,3.911836767507957e-06,observed_noncontact,True
+Harmonic d2 same grid,101,106,3.821930281729402e-06,unknown,False
+Harmonic d2 same grid,102,125,3.756260673194865e-06,observed_noncontact,True
+Harmonic d2 same grid,103,139,3.6173759713749638e-06,observed_noncontact,True
+Harmonic d2 same grid,104,91,3.161581244197069e-06,observed_noncontact,True
+Harmonic d2 same grid,105,141,3.1409544259713366e-06,observed_noncontact,True
+Harmonic d2 same grid,106,151,3.0137791703332697e-06,observed_noncontact,True
+Harmonic d2 same grid,107,80,2.9896755163198037e-06,observed_noncontact,True
+Harmonic d2 same grid,108,25,2.717949518978281e-06,observed_noncontact,True
+Harmonic d2 same grid,109,154,2.4457628411401862e-06,observed_noncontact,True
+Harmonic d2 same grid,110,131,2.443342903423457e-06,observed_noncontact,True
+Harmonic d2 same grid,111,129,2.092794702438956e-06,observed_noncontact,True
+Harmonic d2 same grid,112,135,1.8952228227677253e-06,observed_noncontact,True
+Harmonic d2 same grid,113,127,1.6627971792811711e-06,observed_noncontact,True
+Harmonic d2 same grid,114,26,1.5122182375610963e-06,observed_noncontact,True
+Harmonic d2 same grid,115,79,1.5083333981024608e-06,observed_noncontact,True
+Harmonic d2 same grid,116,87,1.2806233523407432e-06,observed_noncontact,True
+Harmonic d2 same grid,117,126,1.2044861431279262e-06,observed_noncontact,True
+Harmonic d2 same grid,118,136,1.1563983660903304e-06,observed_noncontact,True
+Harmonic d2 same grid,119,134,1.1185205338837023e-06,observed_noncontact,True
+Harmonic d2 same grid,120,132,1.1058299350783104e-06,observed_noncontact,True
+Harmonic d2 same grid,121,165,9.760147667181112e-07,observed_noncontact,True
+Harmonic d2 same grid,122,85,9.330499978489669e-07,observed_noncontact,True
+Harmonic d2 same grid,123,123,8.50282478932384e-07,observed_noncontact,True
+Harmonic d2 same grid,124,128,6.82335418391942e-07,observed_noncontact,True
+Harmonic d2 same grid,125,124,4.817350662714522e-07,observed_noncontact,True
+Harmonic d2 same grid,126,122,2.907719757054677e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,1,60,0.000122798680380385,contact,True
+Distance-Hookean d2 same grid,2,62,0.0001095482558788865,contact,True
+Distance-Hookean d2 same grid,3,69,0.00010924884021905774,contact,True
+Distance-Hookean d2 same grid,4,61,9.54493390107132e-05,contact,True
+Distance-Hookean d2 same grid,5,65,8.472817561429247e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,6,64,8.235544107016312e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,7,63,7.656514578320439e-05,contact,True
+Distance-Hookean d2 same grid,8,67,7.443184132888208e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,9,71,6.788916661027022e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,10,37,6.152244402871295e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,11,68,6.084829967957798e-05,contact,True
+Distance-Hookean d2 same grid,12,66,5.1220694594129725e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,13,70,3.6410875585008684e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,14,100,2.8177692137643976e-05,contact,True
+Distance-Hookean d2 same grid,15,72,2.1662505193857122e-05,contact,True
+Distance-Hookean d2 same grid,16,99,2.0909656654463876e-05,contact,True
+Distance-Hookean d2 same grid,17,96,1.748416285512669e-05,contact,True
+Distance-Hookean d2 same grid,18,58,1.48811565503991e-05,contact,True
+Distance-Hookean d2 same grid,19,97,1.4763031036046658e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,20,5,1.4102742860253867e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,21,160,1.230232500775876e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,22,157,1.1812820812171346e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,23,51,1.0527105453623236e-05,observed_noncontact,True
+Distance-Hookean d2 same grid,24,107,1.0338876106411266e-05,unknown,False
+Distance-Hookean d2 same grid,25,59,1.0120374859606083e-05,contact,True
+Distance-Hookean d2 same grid,26,74,9.696182601179701e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,27,109,9.314367030182057e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,28,73,9.30988878429917e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,29,75,8.51603641673717e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,30,98,8.45334515758473e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,31,76,8.446786281726918e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,32,46,8.126035454535387e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,33,4,8.090271128499254e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,34,102,8.040893646862116e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,35,161,7.922715627587772e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,36,156,7.667330330080536e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,37,95,7.175916498087405e-06,contact,True
+Distance-Hookean d2 same grid,38,94,7.069522377375026e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,39,56,7.03915268706321e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,40,6,7.015743060739027e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,41,101,6.90174193224586e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,42,78,5.86994274192785e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,43,104,5.859412396200214e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,44,57,5.500825689966331e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,45,162,5.399341072375943e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,46,35,5.278224431586153e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,47,53,5.117959758365896e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,48,103,4.903380391934454e-06,contact,True
+Distance-Hookean d2 same grid,49,34,4.738800402817233e-06,contact,True
+Distance-Hookean d2 same grid,50,9,4.692828327316559e-06,contact,True
+Distance-Hookean d2 same grid,51,111,4.5216728476441335e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,52,44,4.399995162805958e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,53,43,4.2582189259995456e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,54,110,4.235225921065851e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,55,137,4.206866261189299e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,56,45,3.943455992806012e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,57,38,3.910682926048145e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,58,36,3.6593903968727166e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,59,50,3.6484919911992405e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,60,2,3.6014173568364893e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,61,3,3.4937574669368244e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,62,90,3.4275721166689257e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,63,23,3.410827495560144e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,64,7,3.358025030869247e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,65,48,3.175977462048074e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,66,158,3.115546493107773e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,67,47,3.0297329423268063e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,68,1,2.84963995594527e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,69,49,2.832383546290897e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,70,113,2.7371939815628126e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,71,24,2.6289368021217612e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,72,140,2.4838518626346917e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,73,54,2.474657892366508e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,74,166,2.4735351312418006e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,75,133,2.406264366677924e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,76,40,2.4052935681521835e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,77,42,2.2635714893619487e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,78,52,2.2200995817680113e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,79,155,2.14928756410486e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,80,159,2.114030189950909e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,81,41,2.060034864105736e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,82,39,2.0541428069463395e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,83,77,1.9772147827297565e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,84,105,1.9460503402825593e-06,unknown,False
+Distance-Hookean d2 same grid,85,163,1.849928344799728e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,86,108,1.738458492141574e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,87,153,1.6149313227788175e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,88,152,1.5986736369124323e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,89,8,1.5855147954056863e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,90,92,1.5818588951089057e-06,contact,True
+Distance-Hookean d2 same grid,91,86,1.4587920773148731e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,92,93,1.4224451035345995e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,93,164,1.4102981690577174e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,94,142,1.3712465341059758e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,95,112,1.348988228749199e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,96,55,1.3134545381232861e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,97,88,1.2501820501042526e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,98,81,1.2167465812878502e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,99,138,1.1700106779793737e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,100,130,1.1429516280889134e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,101,125,1.1110959704817255e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,102,106,1.1092971864724789e-06,unknown,False
+Distance-Hookean d2 same grid,103,151,1.0434434826845661e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,104,139,1.0373644519457634e-06,observed_noncontact,True
+Distance-Hookean d2 same grid,105,141,9.97904161357195e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,106,91,9.213034948570115e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,107,80,9.025137116569607e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,108,154,8.028861436030517e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,109,25,7.887640380040649e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,110,131,7.359179990305387e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,111,129,6.060080302299736e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,112,135,5.535017583110829e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,113,127,4.924832347489105e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,114,79,4.557573614461402e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,115,26,4.1149136263145084e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,116,87,3.616634846583301e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,117,126,3.4627530363269196e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,118,136,3.3246641508177693e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,119,134,3.222568233228844e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,120,165,3.1022529054741405e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,121,132,3.0833085599066855e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,122,85,2.7690934454276607e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,123,123,2.4729847923388447e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,124,128,1.8688524786807543e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,125,124,1.3419003854314446e-07,observed_noncontact,True
+Distance-Hookean d2 same grid,126,122,8.828809233677656e-08,observed_noncontact,True
+Harmonic all 492 modes,1,34,0.08494543032806488,contact,True
+Harmonic all 492 modes,2,85,0.0672141879479295,observed_noncontact,True
+Harmonic all 492 modes,3,122,0.06270576315863743,observed_noncontact,True
+Harmonic all 492 modes,4,123,0.056278619678784496,observed_noncontact,True
+Harmonic all 492 modes,5,81,0.05582335907376348,observed_noncontact,True
+Harmonic all 492 modes,6,59,0.05477025209192613,contact,True
+Harmonic all 492 modes,7,9,0.053404754100312986,contact,True
+Harmonic all 492 modes,8,38,0.05101391505603084,observed_noncontact,True
+Harmonic all 492 modes,9,36,0.05028053809250268,observed_noncontact,True
+Harmonic all 492 modes,10,57,0.04861168850407776,observed_noncontact,True
+Harmonic all 492 modes,11,152,0.04248812607138886,observed_noncontact,True
+Harmonic all 492 modes,12,35,0.041762084633359856,observed_noncontact,True
+Harmonic all 492 modes,13,86,0.039723491410678054,observed_noncontact,True
+Harmonic all 492 modes,14,58,0.03902707908729759,contact,True
+Harmonic all 492 modes,15,151,0.03597150105580286,observed_noncontact,True
+Harmonic all 492 modes,16,26,0.03545722592513455,observed_noncontact,True
+Harmonic all 492 modes,17,8,0.035187999816280326,observed_noncontact,True
+Harmonic all 492 modes,18,23,0.03465841030308934,observed_noncontact,True
+Harmonic all 492 modes,19,37,0.033274252447342195,observed_noncontact,True
+Harmonic all 492 modes,20,88,0.02990082267097083,observed_noncontact,True
+Harmonic all 492 modes,21,60,0.029199082400534183,contact,True
+Harmonic all 492 modes,22,92,0.02776413547300334,contact,True
+Harmonic all 492 modes,23,80,0.025991631413084134,observed_noncontact,True
+Harmonic all 492 modes,24,91,0.02592587676544874,observed_noncontact,True
+Harmonic all 492 modes,25,56,0.024401071424374744,observed_noncontact,True
+Harmonic all 492 modes,26,25,0.02404576288769438,observed_noncontact,True
+Harmonic all 492 modes,27,90,0.022268281291804713,observed_noncontact,True
+Harmonic all 492 modes,28,142,0.020874614579390393,observed_noncontact,True
+Harmonic all 492 modes,29,79,0.019530588996459416,observed_noncontact,True
+Harmonic all 492 modes,30,93,0.019476232204858376,observed_noncontact,True
+Harmonic all 492 modes,31,24,0.018733629541394518,observed_noncontact,True
+Harmonic all 492 modes,32,96,0.017878411090676716,contact,True
+Harmonic all 492 modes,33,7,0.015429642462888825,observed_noncontact,True
+Harmonic all 492 modes,34,113,0.014444108246457992,observed_noncontact,True
+Harmonic all 492 modes,35,124,0.014117140400203038,observed_noncontact,True
+Harmonic all 492 modes,36,40,0.009734808025859944,observed_noncontact,True
+Harmonic all 492 modes,37,39,0.0073456707646802795,observed_noncontact,True
+Harmonic all 492 modes,38,125,0.005246671693220757,observed_noncontact,True
+Harmonic all 492 modes,39,153,0.004598228913791052,observed_noncontact,True
+Harmonic all 492 modes,40,87,0.004534631558089537,observed_noncontact,True
+Harmonic all 492 modes,41,55,0.004519487703894174,observed_noncontact,True
+Harmonic all 492 modes,42,156,0.004244647370587577,observed_noncontact,True
+Harmonic all 492 modes,43,78,0.0041430746816829974,observed_noncontact,True
+Harmonic all 492 modes,44,130,0.0037690226792983445,observed_noncontact,True
+Harmonic all 492 modes,45,127,0.00352228809143312,observed_noncontact,True
+Harmonic all 492 modes,46,155,0.0034227408972894277,observed_noncontact,True
+Harmonic all 492 modes,47,94,0.0032714288806251087,observed_noncontact,True
+Harmonic all 492 modes,48,61,0.003225059351254237,contact,True
+Harmonic all 492 modes,49,68,0.003096627056879088,contact,True
+Harmonic all 492 modes,50,62,0.0029147966604354324,contact,True
+Harmonic all 492 modes,51,95,0.0027111845493057924,contact,True
+Harmonic all 492 modes,52,154,0.0026235113246551697,observed_noncontact,True
+Harmonic all 492 modes,53,71,0.002523014632510221,observed_noncontact,True
+Harmonic all 492 modes,54,141,0.0024021248412726907,observed_noncontact,True
+Harmonic all 492 modes,55,111,0.0023903974178797745,observed_noncontact,True
+Harmonic all 492 modes,56,112,0.0023733752841698223,observed_noncontact,True
+Harmonic all 492 modes,57,97,0.002141432652488238,observed_noncontact,True
+Harmonic all 492 modes,58,126,0.0020983965773185118,observed_noncontact,True
+Harmonic all 492 modes,59,75,0.0019986076416965066,observed_noncontact,True
+Harmonic all 492 modes,60,42,0.0018973835591591928,observed_noncontact,True
+Harmonic all 492 modes,61,6,0.0016567894260144573,observed_noncontact,True
+Harmonic all 492 modes,62,69,0.0016455873856220402,contact,True
+Harmonic all 492 modes,63,77,0.0015415692340060838,observed_noncontact,True
+Harmonic all 492 modes,64,100,0.0014860201658560112,contact,True
+Harmonic all 492 modes,65,65,0.0013732715757407122,observed_noncontact,True
+Harmonic all 492 modes,66,131,0.0013700542523885969,observed_noncontact,True
+Harmonic all 492 modes,67,99,0.0012192254570042734,contact,True
+Harmonic all 492 modes,68,133,0.0011872851712775784,observed_noncontact,True
+Harmonic all 492 modes,69,157,0.0011583004762914801,observed_noncontact,True
+Harmonic all 492 modes,70,140,0.0010607449536421886,observed_noncontact,True
+Harmonic all 492 modes,71,67,0.0009802835486569668,observed_noncontact,True
+Harmonic all 492 modes,72,72,0.00097299118296838,contact,True
+Harmonic all 492 modes,73,5,0.0009692853971028473,observed_noncontact,True
+Harmonic all 492 modes,74,53,0.0009500355592660151,observed_noncontact,True
+Harmonic all 492 modes,75,134,0.0009315898576299521,observed_noncontact,True
+Harmonic all 492 modes,76,98,0.0009089117075945287,observed_noncontact,True
+Harmonic all 492 modes,77,129,0.0009040695006283258,observed_noncontact,True
+Harmonic all 492 modes,78,66,0.0008993702924171025,observed_noncontact,True
+Harmonic all 492 modes,79,137,0.000885520340748164,observed_noncontact,True
+Harmonic all 492 modes,80,110,0.0008606171118119486,observed_noncontact,True
+Harmonic all 492 modes,81,64,0.0007835300219195089,observed_noncontact,True
+Harmonic all 492 modes,82,54,0.0007610341878855321,observed_noncontact,True
+Harmonic all 492 modes,83,158,0.0007416270956576354,observed_noncontact,True
+Harmonic all 492 modes,84,74,0.0007390027964929181,observed_noncontact,True
+Harmonic all 492 modes,85,41,0.0007367791047268238,observed_noncontact,True
+Harmonic all 492 modes,86,43,0.0007194899095204067,observed_noncontact,True
+Harmonic all 492 modes,87,63,0.0007092883748375835,contact,True
+Harmonic all 492 modes,88,76,0.0005798954029637362,observed_noncontact,True
+Harmonic all 492 modes,89,139,0.0005649529912679033,observed_noncontact,True
+Harmonic all 492 modes,90,4,0.0005573518049012107,observed_noncontact,True
+Harmonic all 492 modes,91,70,0.0005360522053915684,observed_noncontact,True
+Harmonic all 492 modes,92,103,0.0005344339820415362,contact,True
+Harmonic all 492 modes,93,159,0.0005117575351485432,observed_noncontact,True
+Harmonic all 492 modes,94,102,0.00045847113311095743,observed_noncontact,True
+Harmonic all 492 modes,95,162,0.00043804026684394776,observed_noncontact,True
+Harmonic all 492 modes,96,101,0.00043395596036194137,observed_noncontact,True
+Harmonic all 492 modes,97,128,0.00041556398216827984,observed_noncontact,True
+Harmonic all 492 modes,98,73,0.0004017284624466904,observed_noncontact,True
+Harmonic all 492 modes,99,52,0.00040159515388103653,observed_noncontact,True
+Harmonic all 492 modes,100,44,0.000398966866847802,observed_noncontact,True
+Harmonic all 492 modes,101,132,0.00038654433321654036,observed_noncontact,True
+Harmonic all 492 modes,102,135,0.0003260785415559343,observed_noncontact,True
+Harmonic all 492 modes,103,109,0.00032196690793218313,observed_noncontact,True
+Harmonic all 492 modes,104,3,0.0003118229063648951,observed_noncontact,True
+Harmonic all 492 modes,105,160,0.00030220664000136306,observed_noncontact,True
+Harmonic all 492 modes,106,46,0.0002835578232433436,observed_noncontact,True
+Harmonic all 492 modes,107,107,0.00028142033483319855,unknown,False
+Harmonic all 492 modes,108,51,0.00026855820120477497,observed_noncontact,True
+Harmonic all 492 modes,109,161,0.0002547669450488588,observed_noncontact,True
+Harmonic all 492 modes,110,104,0.00024312480488277618,observed_noncontact,True
+Harmonic all 492 modes,111,50,0.00024202009309975202,observed_noncontact,True
+Harmonic all 492 modes,112,2,0.00020922184150018726,observed_noncontact,True
+Harmonic all 492 modes,113,108,0.00019409949500036946,observed_noncontact,True
+Harmonic all 492 modes,114,1,0.00019213305146487155,observed_noncontact,True
+Harmonic all 492 modes,115,105,0.00018209533884892427,unknown,False
+Harmonic all 492 modes,116,49,0.0001803643840998657,observed_noncontact,True
+Harmonic all 492 modes,117,163,0.00017754963792983013,observed_noncontact,True
+Harmonic all 492 modes,118,45,0.00017346252566475647,observed_noncontact,True
+Harmonic all 492 modes,119,47,0.00016364195350579414,observed_noncontact,True
+Harmonic all 492 modes,120,166,0.00015761235853184078,observed_noncontact,True
+Harmonic all 492 modes,121,48,0.00015674045143278617,observed_noncontact,True
+Harmonic all 492 modes,122,106,0.0001534576377315547,unknown,False
+Harmonic all 492 modes,123,138,0.00014769600001764984,observed_noncontact,True
+Harmonic all 492 modes,124,136,0.00013286111585994928,observed_noncontact,True
+Harmonic all 492 modes,125,164,0.000110961593531148,observed_noncontact,True
+Harmonic all 492 modes,126,165,4.987585222984463e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,1,60,0.00011302856919130615,contact,True
+Equilibrium d2 biquadratic,2,69,0.00010118872050655571,contact,True
+Equilibrium d2 biquadratic,3,62,9.901381438943442e-05,contact,True
+Equilibrium d2 biquadratic,4,61,8.686165292579146e-05,contact,True
+Equilibrium d2 biquadratic,5,65,7.700684052001859e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,6,64,7.407432356251133e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,7,63,6.850281120247856e-05,contact,True
+Equilibrium d2 biquadratic,8,67,6.799160158780182e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,9,71,6.277362263985016e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,10,37,5.733447371005893e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,11,68,5.4597065731641314e-05,contact,True
+Equilibrium d2 biquadratic,12,66,4.703204297331571e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,13,70,3.305522553256347e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,14,100,2.6378221790126257e-05,contact,True
+Equilibrium d2 biquadratic,15,72,2.00231131183651e-05,contact,True
+Equilibrium d2 biquadratic,16,99,1.9585793706430542e-05,contact,True
+Equilibrium d2 biquadratic,17,96,1.6366026194532653e-05,contact,True
+Equilibrium d2 biquadratic,18,97,1.3804200095574797e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,19,58,1.379937715769788e-05,contact,True
+Equilibrium d2 biquadratic,20,5,1.3110414158048198e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,21,160,1.1572834855560758e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,22,157,1.1357831272294116e-05,observed_noncontact,True
+Equilibrium d2 biquadratic,23,51,9.943654155668921e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,24,107,9.677055587683312e-06,unknown,False
+Equilibrium d2 biquadratic,25,59,9.369137502085823e-06,contact,True
+Equilibrium d2 biquadratic,26,74,9.008396612133871e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,27,109,8.749832858981883e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,28,73,8.554158555649002e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,29,75,7.929970019343646e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,30,98,7.907652756404114e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,31,76,7.905476453576253e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,32,46,7.734431110656045e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,33,4,7.584966036822975e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,34,161,7.564040369904729e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,35,102,7.511480978423253e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,36,156,7.219624431867604e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,37,95,6.7270766597879216e-06,contact,True
+Equilibrium d2 biquadratic,38,94,6.633683578506132e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,39,56,6.623636965603204e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,40,6,6.570777868936601e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,41,101,6.45231881737049e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,42,78,5.50286570195779e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,43,104,5.456409358454948e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,44,57,5.146261109428953e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,45,162,5.0845702971116675e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,46,35,4.8766229025883155e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,47,53,4.824031187692073e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,48,103,4.572427253771192e-06,contact,True
+Equilibrium d2 biquadratic,49,34,4.423555140744347e-06,contact,True
+Equilibrium d2 biquadratic,50,9,4.401346016951611e-06,contact,True
+Equilibrium d2 biquadratic,51,111,4.228515842211682e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,52,44,4.143439884727774e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,53,43,4.044947431641531e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,54,110,4.00693006288942e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,55,137,3.934954508789762e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,56,45,3.7286674968360696e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,57,38,3.6600943500131006e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,58,50,3.4448473762613045e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,59,36,3.4158803695458022e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,60,2,3.3648476401573313e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,61,3,3.30294262717734e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,62,90,3.2168146094753737e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,63,23,3.2068043715915558e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,64,7,3.1486617469037752e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,65,48,2.980780109721593e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,66,158,2.955471867122806e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,67,47,2.8775718513236477e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,68,1,2.6726649715617064e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,69,49,2.6604443268963756e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,70,113,2.562767743160547e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,71,24,2.5197657767987274e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,72,54,2.340336104180993e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,73,166,2.3370919301458622e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,74,140,2.3335986128768646e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,75,40,2.2750891864092342e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,76,133,2.2551492826829335e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,77,42,2.148491415669938e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,78,52,2.068137355802006e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,79,155,2.05443856106195e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,80,159,1.9988971682914026e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,81,41,1.9566304600159242e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,82,39,1.92306914402753e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,83,77,1.8535453280126886e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,84,105,1.8173328139549063e-06,unknown,False
+Equilibrium d2 biquadratic,85,163,1.7333253957425488e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,86,108,1.636808110863245e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,87,152,1.5218244402725893e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,88,153,1.5196103434113723e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,89,8,1.488687194257856e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,90,92,1.474576927285267e-06,contact,True
+Equilibrium d2 biquadratic,91,86,1.3691178963117431e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,92,93,1.3305263268443017e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,93,164,1.3165908071758557e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,94,142,1.3060979259087457e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,95,112,1.2787296073374849e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,96,55,1.235914021216338e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,97,88,1.1703373306627005e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,98,81,1.1393512129927882e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,99,138,1.0961839197479182e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,100,130,1.0707598292917148e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,101,125,1.043518420047702e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,102,106,1.0382027164512153e-06,unknown,False
+Equilibrium d2 biquadratic,103,151,1.0018045812612198e-06,observed_noncontact,True
+Equilibrium d2 biquadratic,104,139,9.667297179596812e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,105,141,9.467728916839853e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,106,91,8.647218730376618e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,107,80,8.488162118982274e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,108,154,7.650561143500493e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,109,25,7.413651727254682e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,110,131,6.933499364773569e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,111,129,5.672763218919209e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,112,135,5.184939454533954e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,113,127,4.619416592495975e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,114,79,4.2816989549008066e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,115,26,3.8352111123543555e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,116,87,3.3823932186767876e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,117,126,3.2474513144328444e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,118,136,3.110292115215821e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,119,134,3.0267256757285494e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,120,165,2.9653975035376037e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,121,132,2.8941246607323356e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,122,85,2.62004354016239e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,123,123,2.3158119344743705e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,124,128,1.7507281199695026e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,125,124,1.2597948096677346e-07,observed_noncontact,True
+Equilibrium d2 biquadratic,126,122,8.352012747892763e-08,observed_noncontact,True
+Equilibrium all-mode harmonic,1,34,0.08530976045241055,contact,True
+Equilibrium all-mode harmonic,2,85,0.06759673638542353,observed_noncontact,True
+Equilibrium all-mode harmonic,3,122,0.06272825208172102,observed_noncontact,True
+Equilibrium all-mode harmonic,4,123,0.056297001101674266,observed_noncontact,True
+Equilibrium all-mode harmonic,5,81,0.05582762732884513,observed_noncontact,True
+Equilibrium all-mode harmonic,6,59,0.05481852564973069,contact,True
+Equilibrium all-mode harmonic,7,9,0.0534328604981533,contact,True
+Equilibrium all-mode harmonic,8,38,0.05100241368779403,observed_noncontact,True
+Equilibrium all-mode harmonic,9,36,0.05030690935731077,observed_noncontact,True
+Equilibrium all-mode harmonic,10,57,0.048646975688562306,observed_noncontact,True
+Equilibrium all-mode harmonic,11,152,0.04247943438125605,observed_noncontact,True
+Equilibrium all-mode harmonic,12,35,0.041759765524871185,observed_noncontact,True
+Equilibrium all-mode harmonic,13,86,0.03981169101459404,observed_noncontact,True
+Equilibrium all-mode harmonic,14,58,0.03905477820884957,contact,True
+Equilibrium all-mode harmonic,15,151,0.03597238467790142,observed_noncontact,True
+Equilibrium all-mode harmonic,16,26,0.03545871095907225,observed_noncontact,True
+Equilibrium all-mode harmonic,17,8,0.03518965740420335,observed_noncontact,True
+Equilibrium all-mode harmonic,18,23,0.03463567410074688,observed_noncontact,True
+Equilibrium all-mode harmonic,19,37,0.033366948945919565,observed_noncontact,True
+Equilibrium all-mode harmonic,20,88,0.02991153061972424,observed_noncontact,True
+Equilibrium all-mode harmonic,21,60,0.029665696542968162,contact,True
+Equilibrium all-mode harmonic,22,92,0.02775633696225121,contact,True
+Equilibrium all-mode harmonic,23,80,0.025987565637679125,observed_noncontact,True
+Equilibrium all-mode harmonic,24,91,0.025926091510429076,observed_noncontact,True
+Equilibrium all-mode harmonic,25,56,0.02440721410391285,observed_noncontact,True
+Equilibrium all-mode harmonic,26,25,0.024067430853334734,observed_noncontact,True
+Equilibrium all-mode harmonic,27,90,0.0222796173836738,observed_noncontact,True
+Equilibrium all-mode harmonic,28,142,0.020876329870063572,observed_noncontact,True
+Equilibrium all-mode harmonic,29,79,0.019532137756458477,observed_noncontact,True
+Equilibrium all-mode harmonic,30,93,0.01949470397290864,observed_noncontact,True
+Equilibrium all-mode harmonic,31,24,0.01873106924744639,observed_noncontact,True
+Equilibrium all-mode harmonic,32,96,0.017846939184146395,contact,True
+Equilibrium all-mode harmonic,33,7,0.015435232171115903,observed_noncontact,True
+Equilibrium all-mode harmonic,34,113,0.014450849596208655,observed_noncontact,True
+Equilibrium all-mode harmonic,35,124,0.014122816271197337,observed_noncontact,True
+Equilibrium all-mode harmonic,36,40,0.009751877925807815,observed_noncontact,True
+Equilibrium all-mode harmonic,37,39,0.007315636177523735,observed_noncontact,True
+Equilibrium all-mode harmonic,38,125,0.005259859458332879,observed_noncontact,True
+Equilibrium all-mode harmonic,39,153,0.00457454516559549,observed_noncontact,True
+Equilibrium all-mode harmonic,40,87,0.0045450211774899,observed_noncontact,True
+Equilibrium all-mode harmonic,41,55,0.004531267299125017,observed_noncontact,True
+Equilibrium all-mode harmonic,42,156,0.0042302579633897615,observed_noncontact,True
+Equilibrium all-mode harmonic,43,78,0.004148576841821715,observed_noncontact,True
+Equilibrium all-mode harmonic,44,130,0.0037903402595192634,observed_noncontact,True
+Equilibrium all-mode harmonic,45,127,0.0035343165832730583,observed_noncontact,True
+Equilibrium all-mode harmonic,46,155,0.003425185404037439,observed_noncontact,True
+Equilibrium all-mode harmonic,47,61,0.0033954218133380996,contact,True
+Equilibrium all-mode harmonic,48,94,0.0033176752674737545,observed_noncontact,True
+Equilibrium all-mode harmonic,49,68,0.003285969315780405,contact,True
+Equilibrium all-mode harmonic,50,62,0.0030215107192229267,contact,True
+Equilibrium all-mode harmonic,51,95,0.0027159169338666013,contact,True
+Equilibrium all-mode harmonic,52,154,0.0026260699285164915,observed_noncontact,True
+Equilibrium all-mode harmonic,53,71,0.0026056716565737536,observed_noncontact,True
+Equilibrium all-mode harmonic,54,141,0.00239881049740752,observed_noncontact,True
+Equilibrium all-mode harmonic,55,111,0.0023962447862725814,observed_noncontact,True
+Equilibrium all-mode harmonic,56,112,0.0023705497749154456,observed_noncontact,True
+Equilibrium all-mode harmonic,57,69,0.002237315254027309,contact,True
+Equilibrium all-mode harmonic,58,97,0.0021627619680957295,observed_noncontact,True
+Equilibrium all-mode harmonic,59,126,0.0021033604097445693,observed_noncontact,True
+Equilibrium all-mode harmonic,60,75,0.002017444878655515,observed_noncontact,True
+Equilibrium all-mode harmonic,61,42,0.0019020832967367506,observed_noncontact,True
+Equilibrium all-mode harmonic,62,6,0.0016620595622532724,observed_noncontact,True
+Equilibrium all-mode harmonic,63,65,0.0016014194255612533,observed_noncontact,True
+Equilibrium all-mode harmonic,64,100,0.001598423419246182,contact,True
+Equilibrium all-mode harmonic,65,77,0.0015387416831445246,observed_noncontact,True
+Equilibrium all-mode harmonic,66,131,0.0013731173934622227,observed_noncontact,True
+Equilibrium all-mode harmonic,67,67,0.001318893460469354,observed_noncontact,True
+Equilibrium all-mode harmonic,68,99,0.001305739409037065,contact,True
+Equilibrium all-mode harmonic,69,157,0.0012459928423779814,observed_noncontact,True
+Equilibrium all-mode harmonic,70,133,0.0012396035438113058,observed_noncontact,True
+Equilibrium all-mode harmonic,71,140,0.001065779333556204,observed_noncontact,True
+Equilibrium all-mode harmonic,72,72,0.001035369560838263,contact,True
+Equilibrium all-mode harmonic,73,66,0.0010353322060840952,observed_noncontact,True
+Equilibrium all-mode harmonic,74,64,0.0010197045348204863,observed_noncontact,True
+Equilibrium all-mode harmonic,75,5,0.0010074151512550445,observed_noncontact,True
+Equilibrium all-mode harmonic,76,53,0.001004050533734533,observed_noncontact,True
+Equilibrium all-mode harmonic,77,137,0.0009604201142668781,observed_noncontact,True
+Equilibrium all-mode harmonic,78,63,0.0009383053786434116,contact,True
+Equilibrium all-mode harmonic,79,134,0.0009305995174100236,observed_noncontact,True
+Equilibrium all-mode harmonic,80,98,0.0009118644498179203,observed_noncontact,True
+Equilibrium all-mode harmonic,81,129,0.000911308457984609,observed_noncontact,True
+Equilibrium all-mode harmonic,82,110,0.0008731883477851213,observed_noncontact,True
+Equilibrium all-mode harmonic,83,43,0.0007893799596807009,observed_noncontact,True
+Equilibrium all-mode harmonic,84,158,0.0007822919353350667,observed_noncontact,True
+Equilibrium all-mode harmonic,85,54,0.0007691782432123322,observed_noncontact,True
+Equilibrium all-mode harmonic,86,41,0.0007518038520273872,observed_noncontact,True
+Equilibrium all-mode harmonic,87,74,0.0007494551531644369,observed_noncontact,True
+Equilibrium all-mode harmonic,88,4,0.0006497652204289001,observed_noncontact,True
+Equilibrium all-mode harmonic,89,70,0.0006109338184650474,observed_noncontact,True
+Equilibrium all-mode harmonic,90,103,0.0005868599675024824,contact,True
+Equilibrium all-mode harmonic,91,139,0.0005857351058163348,observed_noncontact,True
+Equilibrium all-mode harmonic,92,76,0.0005825702070097869,observed_noncontact,True
+Equilibrium all-mode harmonic,93,162,0.0005293385319027127,observed_noncontact,True
+Equilibrium all-mode harmonic,94,159,0.0005209037834161327,observed_noncontact,True
+Equilibrium all-mode harmonic,95,102,0.00048116181875176937,observed_noncontact,True
+Equilibrium all-mode harmonic,96,52,0.00045709918790442263,observed_noncontact,True
+Equilibrium all-mode harmonic,97,101,0.0004343164345387846,observed_noncontact,True
+Equilibrium all-mode harmonic,98,44,0.0004235081781176185,observed_noncontact,True
+Equilibrium all-mode harmonic,99,128,0.00042011891498874556,observed_noncontact,True
+Equilibrium all-mode harmonic,100,73,0.0004130854924101152,observed_noncontact,True
+Equilibrium all-mode harmonic,101,132,0.0004122924022630023,observed_noncontact,True
+Equilibrium all-mode harmonic,102,109,0.00033657944785141426,observed_noncontact,True
+Equilibrium all-mode harmonic,103,3,0.00033575391342708613,observed_noncontact,True
+Equilibrium all-mode harmonic,104,135,0.00033070656006397366,observed_noncontact,True
+Equilibrium all-mode harmonic,105,160,0.000322715533515988,observed_noncontact,True
+Equilibrium all-mode harmonic,106,46,0.00031930390743709536,observed_noncontact,True
+Equilibrium all-mode harmonic,107,51,0.0003091365448253443,observed_noncontact,True
+Equilibrium all-mode harmonic,108,161,0.00030096040901247874,observed_noncontact,True
+Equilibrium all-mode harmonic,109,50,0.00030005840667877737,observed_noncontact,True
+Equilibrium all-mode harmonic,110,107,0.00028993975627824035,unknown,False
+Equilibrium all-mode harmonic,111,104,0.0002547315424439519,observed_noncontact,True
+Equilibrium all-mode harmonic,112,49,0.0002507503040033201,observed_noncontact,True
+Equilibrium all-mode harmonic,113,45,0.0002282321395413753,observed_noncontact,True
+Equilibrium all-mode harmonic,114,2,0.00022594530860061532,observed_noncontact,True
+Equilibrium all-mode harmonic,115,1,0.0002176949484172622,observed_noncontact,True
+Equilibrium all-mode harmonic,116,108,0.00019481034598379339,observed_noncontact,True
+Equilibrium all-mode harmonic,117,105,0.0001890350208079313,unknown,False
+Equilibrium all-mode harmonic,118,163,0.00018399521314577713,observed_noncontact,True
+Equilibrium all-mode harmonic,119,48,0.0001833134399354724,observed_noncontact,True
+Equilibrium all-mode harmonic,120,47,0.00017948662291816542,observed_noncontact,True
+Equilibrium all-mode harmonic,121,106,0.00016795736706545588,unknown,False
+Equilibrium all-mode harmonic,122,166,0.00015583701550978674,observed_noncontact,True
+Equilibrium all-mode harmonic,123,138,0.0001548833835466747,observed_noncontact,True
+Equilibrium all-mode harmonic,124,136,0.00013925366892191728,observed_noncontact,True
+Equilibrium all-mode harmonic,125,164,0.000108917610388436,observed_noncontact,True
+Equilibrium all-mode harmonic,126,165,5.219218775558758e-05,observed_noncontact,True
+Graph heat kernel,1,26,0.009420871656844071,observed_noncontact,True
+Graph heat kernel,2,25,0.009197619177719009,observed_noncontact,True
+Graph heat kernel,3,122,0.009074978809527838,observed_noncontact,True
+Graph heat kernel,4,123,0.008591703842911391,observed_noncontact,True
+Graph heat kernel,5,34,0.008524712191721864,contact,True
+Graph heat kernel,6,23,0.0084707351009894,observed_noncontact,True
+Graph heat kernel,7,36,0.00835469083168845,observed_noncontact,True
+Graph heat kernel,8,124,0.008310960423504456,observed_noncontact,True
+Graph heat kernel,9,85,0.00826714378844523,observed_noncontact,True
+Graph heat kernel,10,35,0.00812780681027242,observed_noncontact,True
+Graph heat kernel,11,86,0.008036481143689976,observed_noncontact,True
+Graph heat kernel,12,87,0.007904231299072648,observed_noncontact,True
+Graph heat kernel,13,152,0.007876603645625804,observed_noncontact,True
+Graph heat kernel,14,151,0.007857477570435218,observed_noncontact,True
+Graph heat kernel,15,24,0.007786546618398482,observed_noncontact,True
+Graph heat kernel,16,88,0.0077129976944999715,observed_noncontact,True
+Graph heat kernel,17,125,0.007698052297649146,observed_noncontact,True
+Graph heat kernel,18,153,0.007525960080235197,observed_noncontact,True
+Graph heat kernel,19,126,0.007491997474630874,observed_noncontact,True
+Graph heat kernel,20,37,0.007348079736205941,observed_noncontact,True
+Graph heat kernel,21,59,0.007321699410815287,contact,True
+Graph heat kernel,22,127,0.007217873044441652,observed_noncontact,True
+Graph heat kernel,23,38,0.007210451733354251,observed_noncontact,True
+Graph heat kernel,24,90,0.007130606576792274,observed_noncontact,True
+Graph heat kernel,25,81,0.0071213926291404375,observed_noncontact,True
+Graph heat kernel,26,91,0.007040617740487893,observed_noncontact,True
+Graph heat kernel,27,57,0.006985733556935738,observed_noncontact,True
+Graph heat kernel,28,154,0.006963778207334986,observed_noncontact,True
+Graph heat kernel,29,142,0.006891763363524884,observed_noncontact,True
+Graph heat kernel,30,9,0.00673084987088879,contact,True
+Graph heat kernel,31,92,0.006708990465810399,contact,True
+Graph heat kernel,32,58,0.006648035903790645,contact,True
+Graph heat kernel,33,155,0.006586033265081643,observed_noncontact,True
+Graph heat kernel,34,60,0.006567953512520832,contact,True
+Graph heat kernel,35,130,0.006558156573680828,observed_noncontact,True
+Graph heat kernel,36,8,0.006391213411679019,observed_noncontact,True
+Graph heat kernel,37,40,0.00638546853448449,observed_noncontact,True
+Graph heat kernel,38,93,0.006272096846363827,observed_noncontact,True
+Graph heat kernel,39,129,0.006266754895780523,observed_noncontact,True
+Graph heat kernel,40,80,0.006235219761694632,observed_noncontact,True
+Graph heat kernel,41,128,0.0062347072463090104,observed_noncontact,True
+Graph heat kernel,42,113,0.006122574828617031,observed_noncontact,True
+Graph heat kernel,43,141,0.00610783543920402,observed_noncontact,True
+Graph heat kernel,44,156,0.006074606059643377,observed_noncontact,True
+Graph heat kernel,45,131,0.006046984744147976,observed_noncontact,True
+Graph heat kernel,46,56,0.00599430370239635,observed_noncontact,True
+Graph heat kernel,47,79,0.005976937742752062,observed_noncontact,True
+Graph heat kernel,48,39,0.005912402615194121,observed_noncontact,True
+Graph heat kernel,49,94,0.005795895114457034,observed_noncontact,True
+Graph heat kernel,50,133,0.005646590913662256,observed_noncontact,True
+Graph heat kernel,51,134,0.005627826544278919,observed_noncontact,True
+Graph heat kernel,52,132,0.005577792045968765,observed_noncontact,True
+Graph heat kernel,53,55,0.00554995154013095,observed_noncontact,True
+Graph heat kernel,54,112,0.0055437170983907,observed_noncontact,True
+Graph heat kernel,55,96,0.0054885769790093955,contact,True
+Graph heat kernel,56,158,0.005454134936858048,observed_noncontact,True
+Graph heat kernel,57,140,0.00544845836336805,observed_noncontact,True
+Graph heat kernel,58,61,0.005443481525239528,contact,True
+Graph heat kernel,59,135,0.005399918204281358,observed_noncontact,True
+Graph heat kernel,60,95,0.005376070202000807,contact,True
+Graph heat kernel,61,7,0.005240231893959711,observed_noncontact,True
+Graph heat kernel,62,42,0.005201141695555996,observed_noncontact,True
+Graph heat kernel,63,78,0.005149684721705573,observed_noncontact,True
+Graph heat kernel,64,159,0.005110170442437422,observed_noncontact,True
+Graph heat kernel,65,136,0.005084372951695119,observed_noncontact,True
+Graph heat kernel,66,111,0.0050704127267205325,observed_noncontact,True
+Graph heat kernel,67,157,0.005060914401909527,observed_noncontact,True
+Graph heat kernel,68,139,0.005047226442402534,observed_noncontact,True
+Graph heat kernel,69,6,0.00494491820480671,observed_noncontact,True
+Graph heat kernel,70,138,0.004899385694357847,observed_noncontact,True
+Graph heat kernel,71,62,0.004860504035599951,contact,True
+Graph heat kernel,72,137,0.0048599731508286404,observed_noncontact,True
+Graph heat kernel,73,97,0.004779264946179243,observed_noncontact,True
+Graph heat kernel,74,41,0.0047560197669427005,observed_noncontact,True
+Graph heat kernel,75,54,0.004718185678485261,observed_noncontact,True
+Graph heat kernel,76,77,0.004679905662523356,observed_noncontact,True
+Graph heat kernel,77,160,0.004600709040862048,observed_noncontact,True
+Graph heat kernel,78,162,0.0045775317726952465,observed_noncontact,True
+Graph heat kernel,79,5,0.0044359728572516115,observed_noncontact,True
+Graph heat kernel,80,110,0.004421918781166704,observed_noncontact,True
+Graph heat kernel,81,163,0.004350416678555591,observed_noncontact,True
+Graph heat kernel,82,53,0.004341750406263379,observed_noncontact,True
+Graph heat kernel,83,75,0.004264760725590717,observed_noncontact,True
+Graph heat kernel,84,98,0.004231438499093891,observed_noncontact,True
+Graph heat kernel,85,161,0.004177434401600693,observed_noncontact,True
+Graph heat kernel,86,76,0.0041719934537478515,observed_noncontact,True
+Graph heat kernel,87,63,0.004141107178706516,contact,True
+Graph heat kernel,88,164,0.004117911436280903,observed_noncontact,True
+Graph heat kernel,89,99,0.004056502563531079,contact,True
+Graph heat kernel,90,4,0.004053964227050203,observed_noncontact,True
+Graph heat kernel,91,68,0.004043639118248746,contact,True
+Graph heat kernel,92,109,0.004036172768352273,observed_noncontact,True
+Graph heat kernel,93,71,0.004029284062536606,observed_noncontact,True
+Graph heat kernel,94,65,0.00399496307275889,observed_noncontact,True
+Graph heat kernel,95,165,0.00384990961983317,observed_noncontact,True
+Graph heat kernel,96,100,0.003849871575777197,contact,True
+Graph heat kernel,97,166,0.0038371644014238795,observed_noncontact,True
+Graph heat kernel,98,72,0.003809093300694154,contact,True
+Graph heat kernel,99,74,0.0038052887132947574,observed_noncontact,True
+Graph heat kernel,100,64,0.0037300466814837513,observed_noncontact,True
+Graph heat kernel,101,43,0.0037173475310789553,observed_noncontact,True
+Graph heat kernel,102,3,0.003710142291032068,observed_noncontact,True
+Graph heat kernel,103,67,0.003692144437172426,observed_noncontact,True
+Graph heat kernel,104,52,0.0036631664556130736,observed_noncontact,True
+Graph heat kernel,105,101,0.003655877970007687,observed_noncontact,True
+Graph heat kernel,106,69,0.003558363563658352,contact,True
+Graph heat kernel,107,108,0.0035490182620316556,observed_noncontact,True
+Graph heat kernel,108,66,0.0035390959534731575,observed_noncontact,True
+Graph heat kernel,109,102,0.003508735399972246,observed_noncontact,True
+Graph heat kernel,110,107,0.003496389234998053,unknown,False
+Graph heat kernel,111,73,0.003418997179992676,observed_noncontact,True
+Graph heat kernel,112,104,0.0033863730512528954,observed_noncontact,True
+Graph heat kernel,113,70,0.003383820383562873,observed_noncontact,True
+Graph heat kernel,114,103,0.003339359059347405,contact,True
+Graph heat kernel,115,51,0.0032859249832291513,observed_noncontact,True
+Graph heat kernel,116,44,0.003224844943694928,observed_noncontact,True
+Graph heat kernel,117,46,0.0031923831380408856,observed_noncontact,True
+Graph heat kernel,118,105,0.0031526562337688482,unknown,False
+Graph heat kernel,119,106,0.0030201467827145946,unknown,False
+Graph heat kernel,120,1,0.002964240025594686,observed_noncontact,True
+Graph heat kernel,121,2,0.002949254485591828,observed_noncontact,True
+Graph heat kernel,122,50,0.0028275604860960664,observed_noncontact,True
+Graph heat kernel,123,45,0.0028045987525207776,observed_noncontact,True
+Graph heat kernel,124,47,0.002680937266830559,observed_noncontact,True
+Graph heat kernel,125,49,0.0023847349708548933,observed_noncontact,True
+Graph heat kernel,126,48,0.0022452305209650497,observed_noncontact,True
+Contact degree,1,81,29.0,observed_noncontact,True
+Contact degree,2,78,28.0,observed_noncontact,True
+Contact degree,3,111,28.0,observed_noncontact,True
+Contact degree,4,6,27.0,observed_noncontact,True
+Contact degree,5,90,26.0,observed_noncontact,True
+Contact degree,6,112,26.0,observed_noncontact,True
+Contact degree,7,113,26.0,observed_noncontact,True
+Contact degree,8,8,25.0,observed_noncontact,True
+Contact degree,9,77,25.0,observed_noncontact,True
+Contact degree,10,57,24.0,observed_noncontact,True
+Contact degree,11,160,24.0,observed_noncontact,True
+Contact degree,12,55,23.0,observed_noncontact,True
+Contact degree,13,56,23.0,observed_noncontact,True
+Contact degree,14,58,23.0,contact,True
+Contact degree,15,79,23.0,observed_noncontact,True
+Contact degree,16,80,23.0,observed_noncontact,True
+Contact degree,17,156,23.0,observed_noncontact,True
+Contact degree,18,159,23.0,observed_noncontact,True
+Contact degree,19,7,22.0,observed_noncontact,True
+Contact degree,20,9,22.0,contact,True
+Contact degree,21,110,22.0,observed_noncontact,True
+Contact degree,22,152,22.0,observed_noncontact,True
+Contact degree,23,155,22.0,observed_noncontact,True
+Contact degree,24,53,21.0,observed_noncontact,True
+Contact degree,25,72,21.0,contact,True
+Contact degree,26,75,21.0,observed_noncontact,True
+Contact degree,27,76,21.0,observed_noncontact,True
+Contact degree,28,100,21.0,contact,True
+Contact degree,29,130,21.0,observed_noncontact,True
+Contact degree,30,141,21.0,observed_noncontact,True
+Contact degree,31,5,20.0,observed_noncontact,True
+Contact degree,32,59,20.0,contact,True
+Contact degree,33,85,20.0,observed_noncontact,True
+Contact degree,34,93,20.0,observed_noncontact,True
+Contact degree,35,109,20.0,observed_noncontact,True
+Contact degree,36,142,20.0,observed_noncontact,True
+Contact degree,37,4,19.0,observed_noncontact,True
+Contact degree,38,86,19.0,observed_noncontact,True
+Contact degree,39,125,19.0,observed_noncontact,True
+Contact degree,40,151,19.0,observed_noncontact,True
+Contact degree,41,158,19.0,observed_noncontact,True
+Contact degree,42,162,19.0,observed_noncontact,True
+Contact degree,43,23,18.0,observed_noncontact,True
+Contact degree,44,131,18.0,observed_noncontact,True
+Contact degree,45,134,18.0,observed_noncontact,True
+Contact degree,46,140,18.0,observed_noncontact,True
+Contact degree,47,157,18.0,observed_noncontact,True
+Contact degree,48,163,18.0,observed_noncontact,True
+Contact degree,49,54,17.0,observed_noncontact,True
+Contact degree,50,69,17.0,contact,True
+Contact degree,51,71,17.0,observed_noncontact,True
+Contact degree,52,96,17.0,contact,True
+Contact degree,53,97,17.0,observed_noncontact,True
+Contact degree,54,104,17.0,observed_noncontact,True
+Contact degree,55,133,17.0,observed_noncontact,True
+Contact degree,56,51,16.0,observed_noncontact,True
+Contact degree,57,60,16.0,contact,True
+Contact degree,58,68,16.0,contact,True
+Contact degree,59,101,16.0,observed_noncontact,True
+Contact degree,60,137,16.0,observed_noncontact,True
+Contact degree,61,139,16.0,observed_noncontact,True
+Contact degree,62,39,15.0,observed_noncontact,True
+Contact degree,63,52,15.0,observed_noncontact,True
+Contact degree,64,73,15.0,observed_noncontact,True
+Contact degree,65,92,15.0,contact,True
+Contact degree,66,123,15.0,observed_noncontact,True
+Contact degree,67,127,15.0,observed_noncontact,True
+Contact degree,68,153,15.0,observed_noncontact,True
+Contact degree,69,24,14.0,observed_noncontact,True
+Contact degree,70,34,14.0,contact,True
+Contact degree,71,37,14.0,observed_noncontact,True
+Contact degree,72,40,14.0,observed_noncontact,True
+Contact degree,73,41,14.0,observed_noncontact,True
+Contact degree,74,43,14.0,observed_noncontact,True
+Contact degree,75,44,14.0,observed_noncontact,True
+Contact degree,76,87,14.0,observed_noncontact,True
+Contact degree,77,88,14.0,observed_noncontact,True
+Contact degree,78,99,14.0,contact,True
+Contact degree,79,102,14.0,observed_noncontact,True
+Contact degree,80,103,14.0,contact,True
+Contact degree,81,154,14.0,observed_noncontact,True
+Contact degree,82,161,14.0,observed_noncontact,True
+Contact degree,83,3,13.0,observed_noncontact,True
+Contact degree,84,42,13.0,observed_noncontact,True
+Contact degree,85,50,13.0,observed_noncontact,True
+Contact degree,86,74,13.0,observed_noncontact,True
+Contact degree,87,91,13.0,observed_noncontact,True
+Contact degree,88,124,13.0,observed_noncontact,True
+Contact degree,89,135,13.0,observed_noncontact,True
+Contact degree,90,138,13.0,observed_noncontact,True
+Contact degree,91,26,12.0,observed_noncontact,True
+Contact degree,92,46,12.0,observed_noncontact,True
+Contact degree,93,62,12.0,contact,True
+Contact degree,94,67,12.0,observed_noncontact,True
+Contact degree,95,70,12.0,observed_noncontact,True
+Contact degree,96,94,12.0,observed_noncontact,True
+Contact degree,97,95,12.0,contact,True
+Contact degree,98,107,12.0,unknown,False
+Contact degree,99,126,12.0,observed_noncontact,True
+Contact degree,100,132,12.0,observed_noncontact,True
+Contact degree,101,164,12.0,observed_noncontact,True
+Contact degree,102,1,11.0,observed_noncontact,True
+Contact degree,103,35,11.0,observed_noncontact,True
+Contact degree,104,36,11.0,observed_noncontact,True
+Contact degree,105,38,11.0,observed_noncontact,True
+Contact degree,106,45,11.0,observed_noncontact,True
+Contact degree,107,61,11.0,contact,True
+Contact degree,108,98,11.0,observed_noncontact,True
+Contact degree,109,105,11.0,unknown,False
+Contact degree,110,108,11.0,observed_noncontact,True
+Contact degree,111,129,11.0,observed_noncontact,True
+Contact degree,112,166,11.0,observed_noncontact,True
+Contact degree,113,25,10.0,observed_noncontact,True
+Contact degree,114,65,10.0,observed_noncontact,True
+Contact degree,115,66,10.0,observed_noncontact,True
+Contact degree,116,122,10.0,observed_noncontact,True
+Contact degree,117,2,9.0,observed_noncontact,True
+Contact degree,118,49,9.0,observed_noncontact,True
+Contact degree,119,106,9.0,unknown,False
+Contact degree,120,128,9.0,observed_noncontact,True
+Contact degree,121,136,9.0,observed_noncontact,True
+Contact degree,122,47,8.0,observed_noncontact,True
+Contact degree,123,63,8.0,contact,True
+Contact degree,124,64,8.0,observed_noncontact,True
+Contact degree,125,165,8.0,observed_noncontact,True
+Contact degree,126,48,7.0,observed_noncontact,True
+Receiver inverse distance,1,57,0.16394872004389682,observed_noncontact,True
+Receiver inverse distance,2,34,0.16195517045571078,contact,True
+Receiver inverse distance,3,8,0.16073466191813499,observed_noncontact,True
+Receiver inverse distance,4,81,0.15254689455489293,observed_noncontact,True
+Receiver inverse distance,5,152,0.14975657869900746,observed_noncontact,True
+Receiver inverse distance,6,151,0.14762727087787572,observed_noncontact,True
+Receiver inverse distance,7,122,0.1448255751911756,observed_noncontact,True
+Receiver inverse distance,8,9,0.14382237595333947,contact,True
+Receiver inverse distance,9,59,0.14162817958944507,contact,True
+Receiver inverse distance,10,92,0.1415682543037992,contact,True
+Receiver inverse distance,11,26,0.14106251795114494,observed_noncontact,True
+Receiver inverse distance,12,123,0.1376607005587337,observed_noncontact,True
+Receiver inverse distance,13,60,0.1368239625473384,contact,True
+Receiver inverse distance,14,58,0.13397698168232855,contact,True
+Receiver inverse distance,15,85,0.13339329672264505,observed_noncontact,True
+Receiver inverse distance,16,36,0.12525925649085956,observed_noncontact,True
+Receiver inverse distance,17,86,0.12324518485824627,observed_noncontact,True
+Receiver inverse distance,18,88,0.11890037805465875,observed_noncontact,True
+Receiver inverse distance,19,142,0.11833295297551216,observed_noncontact,True
+Receiver inverse distance,20,25,0.11692334540484647,observed_noncontact,True
+Receiver inverse distance,21,90,0.11608969712156657,observed_noncontact,True
+Receiver inverse distance,22,93,0.11590283790952771,observed_noncontact,True
+Receiver inverse distance,23,35,0.11526714555235319,observed_noncontact,True
+Receiver inverse distance,24,23,0.11484175072724262,observed_noncontact,True
+Receiver inverse distance,25,37,0.11395999408115631,observed_noncontact,True
+Receiver inverse distance,26,79,0.11258231396308734,observed_noncontact,True
+Receiver inverse distance,27,80,0.11027003552077362,observed_noncontact,True
+Receiver inverse distance,28,38,0.10890012773318872,observed_noncontact,True
+Receiver inverse distance,29,96,0.10569849748664335,contact,True
+Receiver inverse distance,30,113,0.1044809632052293,observed_noncontact,True
+Receiver inverse distance,31,56,0.10416611226842339,observed_noncontact,True
+Receiver inverse distance,32,91,0.10199728560397997,observed_noncontact,True
+Receiver inverse distance,33,7,0.10174238469322924,observed_noncontact,True
+Receiver inverse distance,34,24,0.1004027334142908,observed_noncontact,True
+Receiver inverse distance,35,153,0.09961320528220803,observed_noncontact,True
+Receiver inverse distance,36,39,0.09769450978334392,observed_noncontact,True
+Receiver inverse distance,37,155,0.09634177074186263,observed_noncontact,True
+Receiver inverse distance,38,61,0.09632936763784708,contact,True
+Receiver inverse distance,39,95,0.09523636545043195,contact,True
+Receiver inverse distance,40,125,0.09443496048240747,observed_noncontact,True
+Receiver inverse distance,41,124,0.09369433401182714,observed_noncontact,True
+Receiver inverse distance,42,87,0.09304750023667363,observed_noncontact,True
+Receiver inverse distance,43,141,0.09301482982672042,observed_noncontact,True
+Receiver inverse distance,44,55,0.09296493456391938,observed_noncontact,True
+Receiver inverse distance,45,127,0.09111270834978602,observed_noncontact,True
+Receiver inverse distance,46,40,0.09093371360627373,observed_noncontact,True
+Receiver inverse distance,47,154,0.08832982816479519,observed_noncontact,True
+Receiver inverse distance,48,130,0.08804514694052322,observed_noncontact,True
+Receiver inverse distance,49,78,0.08647314516793432,observed_noncontact,True
+Receiver inverse distance,50,94,0.0854788364306615,observed_noncontact,True
+Receiver inverse distance,51,156,0.08512241416795308,observed_noncontact,True
+Receiver inverse distance,52,126,0.08312725825255585,observed_noncontact,True
+Receiver inverse distance,53,112,0.08265027511062376,observed_noncontact,True
+Receiver inverse distance,54,6,0.08184442119608354,observed_noncontact,True
+Receiver inverse distance,55,97,0.07807019022690971,observed_noncontact,True
+Receiver inverse distance,56,131,0.07435775813803423,observed_noncontact,True
+Receiver inverse distance,57,62,0.07414383382766318,contact,True
+Receiver inverse distance,58,99,0.07339838999854063,contact,True
+Receiver inverse distance,59,140,0.07133746650875182,observed_noncontact,True
+Receiver inverse distance,60,129,0.07092718005446035,observed_noncontact,True
+Receiver inverse distance,61,41,0.07078168742022593,observed_noncontact,True
+Receiver inverse distance,62,54,0.07000789422020022,observed_noncontact,True
+Receiver inverse distance,63,128,0.06955682004165208,observed_noncontact,True
+Receiver inverse distance,64,100,0.06950613639572904,contact,True
+Receiver inverse distance,65,68,0.06922467860560994,contact,True
+Receiver inverse distance,66,134,0.06895516900308771,observed_noncontact,True
+Receiver inverse distance,67,111,0.0685942370702812,observed_noncontact,True
+Receiver inverse distance,68,159,0.06847309225321571,observed_noncontact,True
+Receiver inverse distance,69,77,0.06827874416800175,observed_noncontact,True
+Receiver inverse distance,70,98,0.06810338957505237,observed_noncontact,True
+Receiver inverse distance,71,157,0.0666197826890168,observed_noncontact,True
+Receiver inverse distance,72,42,0.06634025667794993,observed_noncontact,True
+Receiver inverse distance,73,133,0.06525698769421706,observed_noncontact,True
+Receiver inverse distance,74,158,0.06520776872209427,observed_noncontact,True
+Receiver inverse distance,75,5,0.06438437876441341,observed_noncontact,True
+Receiver inverse distance,76,53,0.06394136161113244,observed_noncontact,True
+Receiver inverse distance,77,75,0.06321973991082745,observed_noncontact,True
+Receiver inverse distance,78,72,0.0629994752710508,contact,True
+Receiver inverse distance,79,71,0.06297869941494627,observed_noncontact,True
+Receiver inverse distance,80,65,0.061245018429159394,observed_noncontact,True
+Receiver inverse distance,81,139,0.06116613118820026,observed_noncontact,True
+Receiver inverse distance,82,132,0.06081652481590199,observed_noncontact,True
+Receiver inverse distance,83,63,0.06028452058669099,contact,True
+Receiver inverse distance,84,160,0.05919375679710437,observed_noncontact,True
+Receiver inverse distance,85,69,0.05906320297153256,contact,True
+Receiver inverse distance,86,76,0.057788313434140086,observed_noncontact,True
+Receiver inverse distance,87,110,0.05701412523247667,observed_noncontact,True
+Receiver inverse distance,88,101,0.05690043628054487,observed_noncontact,True
+Receiver inverse distance,89,67,0.05660583692441097,observed_noncontact,True
+Receiver inverse distance,90,135,0.05610085560994864,observed_noncontact,True
+Receiver inverse distance,91,4,0.055244606061637926,observed_noncontact,True
+Receiver inverse distance,92,64,0.05482154290203111,observed_noncontact,True
+Receiver inverse distance,93,103,0.05465924330733919,contact,True
+Receiver inverse distance,94,102,0.05410484277839421,observed_noncontact,True
+Receiver inverse distance,95,43,0.05385090317310866,observed_noncontact,True
+Receiver inverse distance,96,137,0.05346061440127836,observed_noncontact,True
+Receiver inverse distance,97,74,0.05293626293031647,observed_noncontact,True
+Receiver inverse distance,98,70,0.05253382115077755,observed_noncontact,True
+Receiver inverse distance,99,52,0.05252551422033173,observed_noncontact,True
+Receiver inverse distance,100,66,0.052287739163655464,observed_noncontact,True
+Receiver inverse distance,101,44,0.05226292746792849,observed_noncontact,True
+Receiver inverse distance,102,162,0.05225362140319871,observed_noncontact,True
+Receiver inverse distance,103,163,0.051912664143164776,observed_noncontact,True
+Receiver inverse distance,104,109,0.051635145245483266,observed_noncontact,True
+Receiver inverse distance,105,138,0.05118856751098496,observed_noncontact,True
+Receiver inverse distance,106,73,0.05106511009921754,observed_noncontact,True
+Receiver inverse distance,107,136,0.051000088577617265,observed_noncontact,True
+Receiver inverse distance,108,161,0.05062665136933116,observed_noncontact,True
+Receiver inverse distance,109,104,0.04953203676593374,observed_noncontact,True
+Receiver inverse distance,110,3,0.04819949952963172,observed_noncontact,True
+Receiver inverse distance,111,51,0.047426148409001403,observed_noncontact,True
+Receiver inverse distance,112,46,0.0473373496537325,observed_noncontact,True
+Receiver inverse distance,113,45,0.046363900926370036,observed_noncontact,True
+Receiver inverse distance,114,105,0.04466182295129967,unknown,False
+Receiver inverse distance,115,164,0.04460060467066592,observed_noncontact,True
+Receiver inverse distance,116,108,0.044479739513718926,observed_noncontact,True
+Receiver inverse distance,117,107,0.044455889632093355,unknown,False
+Receiver inverse distance,118,106,0.04434551664522702,unknown,False
+Receiver inverse distance,119,166,0.042428315293063915,observed_noncontact,True
+Receiver inverse distance,120,2,0.04195012337387488,observed_noncontact,True
+Receiver inverse distance,121,47,0.04173730284131998,observed_noncontact,True
+Receiver inverse distance,122,165,0.04173500626941711,observed_noncontact,True
+Receiver inverse distance,123,50,0.04127990776353106,observed_noncontact,True
+Receiver inverse distance,124,1,0.03926214156459422,observed_noncontact,True
+Receiver inverse distance,125,49,0.03867263081866523,observed_noncontact,True
+Receiver inverse distance,126,48,0.03823549084074578,observed_noncontact,True
+Ohm pinned upstream,1,158,1.22022,observed_noncontact,True
+Ohm pinned upstream,2,127,1.20809,observed_noncontact,True
+Ohm pinned upstream,3,128,1.19244,observed_noncontact,True
+Ohm pinned upstream,4,153,1.18395,observed_noncontact,True
+Ohm pinned upstream,5,85,1.18185,observed_noncontact,True
+Ohm pinned upstream,6,87,1.18185,observed_noncontact,True
+Ohm pinned upstream,7,37,1.17844,observed_noncontact,True
+Ohm pinned upstream,8,57,1.1774,observed_noncontact,True
+Ohm pinned upstream,9,157,1.17455,observed_noncontact,True
+Ohm pinned upstream,10,155,1.16531,observed_noncontact,True
+Ohm pinned upstream,11,63,1.15765,contact,True
+Ohm pinned upstream,12,141,1.15518,observed_noncontact,True
+Ohm pinned upstream,13,62,1.1503,contact,True
+Ohm pinned upstream,14,124,1.13026,observed_noncontact,True
+Ohm pinned upstream,15,105,1.1291,unknown,False
+Ohm pinned upstream,16,123,1.11672,observed_noncontact,True
+Ohm pinned upstream,17,81,1.10809,observed_noncontact,True
+Ohm pinned upstream,18,152,1.10259,observed_noncontact,True
+Ohm pinned upstream,19,154,1.10259,observed_noncontact,True
+Ohm pinned upstream,20,61,1.10254,contact,True
+Ohm pinned upstream,21,125,1.07921,observed_noncontact,True
+Ohm pinned upstream,22,126,1.07627,observed_noncontact,True
+Ohm pinned upstream,23,113,1.07574,observed_noncontact,True
+Ohm pinned upstream,24,142,1.06251,observed_noncontact,True
+Ohm pinned upstream,25,24,1.0529,observed_noncontact,True
+Ohm pinned upstream,26,151,1.0521,observed_noncontact,True
+Ohm pinned upstream,27,36,1.02283,observed_noncontact,True
+Ohm pinned upstream,28,122,1.01697,observed_noncontact,True
+Ohm pinned upstream,29,1,1.0,observed_noncontact,True
+Ohm pinned upstream,30,2,1.0,observed_noncontact,True
+Ohm pinned upstream,31,3,1.0,observed_noncontact,True
+Ohm pinned upstream,32,4,1.0,observed_noncontact,True
+Ohm pinned upstream,33,5,1.0,observed_noncontact,True
+Ohm pinned upstream,34,6,1.0,observed_noncontact,True
+Ohm pinned upstream,35,7,1.0,observed_noncontact,True
+Ohm pinned upstream,36,34,1.0,contact,True
+Ohm pinned upstream,37,35,1.0,observed_noncontact,True
+Ohm pinned upstream,38,45,1.0,observed_noncontact,True
+Ohm pinned upstream,39,46,1.0,observed_noncontact,True
+Ohm pinned upstream,40,47,1.0,observed_noncontact,True
+Ohm pinned upstream,41,48,1.0,observed_noncontact,True
+Ohm pinned upstream,42,49,1.0,observed_noncontact,True
+Ohm pinned upstream,43,50,1.0,observed_noncontact,True
+Ohm pinned upstream,44,51,1.0,observed_noncontact,True
+Ohm pinned upstream,45,52,1.0,observed_noncontact,True
+Ohm pinned upstream,46,53,1.0,observed_noncontact,True
+Ohm pinned upstream,47,56,1.0,observed_noncontact,True
+Ohm pinned upstream,48,60,1.0,contact,True
+Ohm pinned upstream,49,65,1.0,observed_noncontact,True
+Ohm pinned upstream,50,66,1.0,observed_noncontact,True
+Ohm pinned upstream,51,67,1.0,observed_noncontact,True
+Ohm pinned upstream,52,69,1.0,contact,True
+Ohm pinned upstream,53,70,1.0,observed_noncontact,True
+Ohm pinned upstream,54,74,1.0,observed_noncontact,True
+Ohm pinned upstream,55,76,1.0,observed_noncontact,True
+Ohm pinned upstream,56,77,1.0,observed_noncontact,True
+Ohm pinned upstream,57,78,1.0,observed_noncontact,True
+Ohm pinned upstream,58,79,1.0,observed_noncontact,True
+Ohm pinned upstream,59,80,1.0,observed_noncontact,True
+Ohm pinned upstream,60,107,1.0,unknown,False
+Ohm pinned upstream,61,108,1.0,observed_noncontact,True
+Ohm pinned upstream,62,129,1.0,observed_noncontact,True
+Ohm pinned upstream,63,130,1.0,observed_noncontact,True
+Ohm pinned upstream,64,131,1.0,observed_noncontact,True
+Ohm pinned upstream,65,132,1.0,observed_noncontact,True
+Ohm pinned upstream,66,133,1.0,observed_noncontact,True
+Ohm pinned upstream,67,134,1.0,observed_noncontact,True
+Ohm pinned upstream,68,135,1.0,observed_noncontact,True
+Ohm pinned upstream,69,136,1.0,observed_noncontact,True
+Ohm pinned upstream,70,137,1.0,observed_noncontact,True
+Ohm pinned upstream,71,138,1.0,observed_noncontact,True
+Ohm pinned upstream,72,139,1.0,observed_noncontact,True
+Ohm pinned upstream,73,159,1.0,observed_noncontact,True
+Ohm pinned upstream,74,160,1.0,observed_noncontact,True
+Ohm pinned upstream,75,161,1.0,observed_noncontact,True
+Ohm pinned upstream,76,162,1.0,observed_noncontact,True
+Ohm pinned upstream,77,163,1.0,observed_noncontact,True
+Ohm pinned upstream,78,164,1.0,observed_noncontact,True
+Ohm pinned upstream,79,165,1.0,observed_noncontact,True
+Ohm pinned upstream,80,166,1.0,observed_noncontact,True
+Ohm pinned upstream,81,23,0.994256,observed_noncontact,True
+Ohm pinned upstream,82,112,0.991938,observed_noncontact,True
+Ohm pinned upstream,83,9,0.989617,contact,True
+Ohm pinned upstream,84,59,0.987088,contact,True
+Ohm pinned upstream,85,90,0.985205,observed_noncontact,True
+Ohm pinned upstream,86,58,0.983433,contact,True
+Ohm pinned upstream,87,44,0.980327,observed_noncontact,True
+Ohm pinned upstream,88,8,0.97124,observed_noncontact,True
+Ohm pinned upstream,89,73,0.970748,observed_noncontact,True
+Ohm pinned upstream,90,75,0.970748,observed_noncontact,True
+Ohm pinned upstream,91,68,0.960816,contact,True
+Ohm pinned upstream,92,102,0.957602,observed_noncontact,True
+Ohm pinned upstream,93,156,0.948251,observed_noncontact,True
+Ohm pinned upstream,94,86,0.945478,observed_noncontact,True
+Ohm pinned upstream,95,110,0.945236,observed_noncontact,True
+Ohm pinned upstream,96,103,0.939669,contact,True
+Ohm pinned upstream,97,106,0.936722,unknown,False
+Ohm pinned upstream,98,72,0.912921,contact,True
+Ohm pinned upstream,99,140,0.899158,observed_noncontact,True
+Ohm pinned upstream,100,101,0.896615,observed_noncontact,True
+Ohm pinned upstream,101,104,0.896615,observed_noncontact,True
+Ohm pinned upstream,102,38,0.887157,observed_noncontact,True
+Ohm pinned upstream,103,43,0.8594,observed_noncontact,True
+Ohm pinned upstream,104,64,0.840044,observed_noncontact,True
+Ohm pinned upstream,105,71,0.840044,observed_noncontact,True
+Ohm pinned upstream,106,94,0.81806,observed_noncontact,True
+Ohm pinned upstream,107,100,0.80358,contact,True
+Ohm pinned upstream,108,98,0.801753,observed_noncontact,True
+Ohm pinned upstream,109,91,0.799215,observed_noncontact,True
+Ohm pinned upstream,110,93,0.799215,observed_noncontact,True
+Ohm pinned upstream,111,54,0.791821,observed_noncontact,True
+Ohm pinned upstream,112,111,0.791821,observed_noncontact,True
+Ohm pinned upstream,113,109,0.780606,observed_noncontact,True
+Ohm pinned upstream,114,88,0.741681,observed_noncontact,True
+Ohm pinned upstream,115,42,0.711065,observed_noncontact,True
+Ohm pinned upstream,116,99,0.70736,contact,True
+Ohm pinned upstream,117,55,0.684138,observed_noncontact,True
+Ohm pinned upstream,118,96,0.655548,contact,True
+Ohm pinned upstream,119,39,0.59559,observed_noncontact,True
+Ohm pinned upstream,120,25,0.593447,observed_noncontact,True
+Ohm pinned upstream,121,26,0.593447,observed_noncontact,True
+Ohm pinned upstream,122,92,0.555691,contact,True
+Ohm pinned upstream,123,95,0.555691,contact,True
+Ohm pinned upstream,124,41,0.548297,observed_noncontact,True
+Ohm pinned upstream,125,97,0.548297,observed_noncontact,True
+Ohm pinned upstream,126,40,0.347307,observed_noncontact,True

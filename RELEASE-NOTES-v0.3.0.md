@@ -1,0 +1,9 @@
+# Version 0.3.0: two-target evidence and limits of compression
+
+This release preserves every v0.2.0 scientific artifact and adds seven experiment directories. It corrects KRAS missing-reference evaluation without replacing predictions; reports the unfavorable locked ABL result and joint statistical families; costs the exact evaluated KRAS model; retains two failed representation-remedy experiments; and defines a prospective Gaussian-closure screen. Only the closure algebra and coordinate-domain checks have run.
+
+The minimum paired Holm-adjusted p is 0.075592. The current method has no demonstrated nonlinear or finite-time advantage, successful protein compression or useful quantum cost regime. Ideal primary-model shot plans and compiled preparation modules do not constitute a complete primary quantum circuit. All reference, hardware and biological limits remain explicit.
+
+Fresh local replays verify both protein results, the amended labels, numerical cost reconstruction and receiver-coordinate calculation. The full synthetic completion replay compares all 81 numeric archives. Automated workflow receipts should be inspected for their exact commit and scope; this release note is not a claim that every possible cross-platform or hardware test passed.
+
+The report and private team material are not part of this public repository. Original code is MIT-licensed; existing third-party scientific data and Ohm code retain their original terms. No official proposal was submitted by publishing this research release.

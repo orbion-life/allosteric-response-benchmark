@@ -1,0 +1,90 @@
+{
+  "status": "Verified scientific package",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2872,
+      "sha256": "a25732b318171f7d1ef5a819081e8423ff950c4b9d493debbdac2b07b3246680"
+    },
+    {
+      "path": "admission-audit.json",
+      "bytes": 12445,
+      "sha256": "c2b4221fedc7c20c5379a6e28c45ceae50e642cff07dec0335778c8a229badb5"
+    },
+    {
+      "path": "checks/verification.json",
+      "bytes": 2624,
+      "sha256": "8f6910dfd7e5f7481dfd8c43e331be374ca6c76df4ea0311ff1ea7631f3531f8"
+    },
+    {
+      "path": "preanalysis.json",
+      "bytes": 1528,
+      "sha256": "bb8d9a1cc13a08a4949309f2e85a3b5041e89471ffccbbbd13cb95e2fa461ddc"
+    },
+    {
+      "path": "preanalysis.sha256",
+      "bytes": 65,
+      "sha256": "863536c206ac0d91c90de6dfaf48cb00e7d9b565044e6484d3055c1bf7f4f0be"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "02cbdd667de6880f0c9a0b286b8629193c409ff3c8765dc96e1ed96f0d66f5ce"
+    },
+    {
+      "path": "results/freeze.json",
+      "bytes": 686,
+      "sha256": "e79a0325f800047a3e414e5a19dfcd000cdfefbe0a3e62925b463591b175390c"
+    },
+    {
+      "path": "results/receiver-sensitive-d16.npz",
+      "bytes": 684845,
+      "sha256": "434672cb7d80e220805c518b4b897848215c03cc40abe68c2e93bf0239596f70"
+    },
+    {
+      "path": "results/receiver-sensitive-d2.npz",
+      "bytes": 635677,
+      "sha256": "ef3b720fb7dd555856887cc6249bf1fd231e8af6cb889f7b1b34b782851d1cc3"
+    },
+    {
+      "path": "results/receiver-sensitive-d32.npz",
+      "bytes": 742288,
+      "sha256": "7d4138f40785219b48f6035e8f5349b6d6d41463a6f40cc468035a9ae54439d7"
+    },
+    {
+      "path": "results/receiver-sensitive-d4.npz",
+      "bytes": 643070,
+      "sha256": "c5bb65deb86194a91c5d614434245895e37080704bfcc387a8f9143238713bf0"
+    },
+    {
+      "path": "results/receiver-sensitive-d64.npz",
+      "bytes": 842595,
+      "sha256": "e5224c120abb42b3301c0f114235ff7504215eea86a2cce81c84385a4104724d"
+    },
+    {
+      "path": "results/receiver-sensitive-d8.npz",
+      "bytes": 657713,
+      "sha256": "5ad1b0fb3689a6b015ddfc9852fcd29a328a11f8e653ae6946de966984436a03"
+    },
+    {
+      "path": "results/summary.json",
+      "bytes": 11390,
+      "sha256": "ea02a7c02e8eaa820b3e9f7057b1888ccadcd160f606c399cf18154163c8737d"
+    },
+    {
+      "path": "run.py",
+      "bytes": 4277,
+      "sha256": "03b10c3de84afc8314a6128678417d22500c89435eaf35e999acf093c428b378"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2842,
+      "sha256": "9c8d2813ce0f9b17af73b5e1a2086d8f136e603bcb451ee5b47511d6fdac2c6c"
+    }
+  ]
+}

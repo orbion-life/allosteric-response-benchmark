@@ -1,0 +1,90 @@
+{
+  "status": "COMPLETED DIAGNOSTIC; original predictions unchanged",
+  "scope": "No full nonlinear KRAS reference exists; contact recovery cannot certify the correction.",
+  "protocol_sha256": "a7bbbda16b64b3c156b748766d2d52cb9e172e8fee0e779a251e0a06f855c2ee",
+  "script_sha256": "b84bea4f23b0fee705e71978c48b2d29308501c9338187c80a80a3d1f2ee42e1",
+  "source_sha256": {
+    "model/static-model.npz": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd",
+    "results/analytic-harmonic-d492.npz": "99a48586392de66b00ba35426e01f87f44252fb1651ee86ee0ba3a99ba8b14b7",
+    "reference-labels.csv": "409d7e24b69972df834048d32ab967b5b11c6c06c023c63797d8892402804247",
+    "results/biquadratic-d2-n33-e4.npz": "a1b96b71fa7cb064590fd827637f8fd80f37b67fafd73925d7aebbbdad7eb2b9",
+    "results/harmonic-d2-n33-e4.npz": "10dde87127b7ae55950ac90bceeafc8c469fe5612ca0896ec3bcb2db827f576b",
+    "results/biquadratic-d2-n65-e4.npz": "5c4ede2ab6676910e80bbbddc430050ae6cd06a09a560f587fe0b29a8676e780",
+    "results/harmonic-d2-n65-e4.npz": "664fd4fc0f352641494098ad0f40ec1a76f89b5352db84f7a273df1a7d722d46"
+  },
+  "grid_max_C_difference": 5.150967043154875e-05,
+  "cases": [
+    {
+      "n": 33,
+      "top5": [
+        {
+          "canonical": 34,
+          "score": 0.08494008925753328,
+          "label_state": "contact",
+          "MOV_distance_A": 3.4815160490797683
+        },
+        {
+          "canonical": 85,
+          "score": 0.06721414395319404,
+          "label_state": "observed_noncontact",
+          "MOV_distance_A": 13.707496489147827
+        },
+        {
+          "canonical": 122,
+          "score": 0.0627057556830768,
+          "label_state": "observed_noncontact",
+          "MOV_distance_A": 18.69642883012689
+        },
+        {
+          "canonical": 123,
+          "score": 0.0562785956996001,
+          "label_state": "observed_noncontact",
+          "MOV_distance_A": 20.24655281770208
+        },
+        {
+          "canonical": 81,
+          "score": 0.05582168025177102,
+          "label_state": "observed_noncontact",
+          "MOV_distance_A": 8.690232102769176
+        }
+      ],
+      "score_gap_5_6": 0.0010768351422713249
+    },
+    {
+      "n": 65,
+      "top5": [
+        {
+          "canonical": 34,
+          "score": 0.08494004674499657,
+          "label_state": "contact",
+          "MOV_distance_A": 3.4815160490797683
+        },
+        {
+          "canonical": 85,
+          "score": 0.06721414363777198,
+          "label_state": "observed_noncontact",
+          "MOV_distance_A": 13.707496489147827
+        },
+        {
+          "canonical": 122,
+          "score": 0.06270575563212086,
+          "label_state": "observed_noncontact",
+          "MOV_distance_A": 18.69642883012689
+        },
+        {
+          "canonical": 123,
+          "score": 0.056278595523169,
+          "label_state": "observed_noncontact",
+          "MOV_distance_A": 20.24655281770208
+        },
+        {
+          "canonical": 81,
+          "score": 0.05582166702150321,
+          "label_state": "observed_noncontact",
+          "MOV_distance_A": 8.690232102769176
+        }
+      ],
+      "score_gap_5_6": 0.0010770033112881064
+    }
+  ]
+}

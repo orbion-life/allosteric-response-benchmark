@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-09-12T14:38:10.089327+00:00",
+  "status": "Locally completed analysis and bounded primitives; not yet published",
+  "upstream_repository": "https://github.com/orbion-life/allosteric-response-benchmark",
+  "upstream_worktree_HEAD": "527712c281f1a366b9fb1524342a8daf31a06d7a",
+  "source_SHA256": {
+    "pilot/prepare.py": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b",
+    "pilot/run_pilot.py": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053",
+    "quantum/circuit.py": "33a8711b458480cf8f566f52e2920716c348fa21790d68ff6af759b42a4b27f2",
+    "quantum/model.py": "f46e14722b674b4c4cf49bd72752aecb1ab74853b00d5929c607a910f14b6879"
+  },
+  "machine": {
+    "architecture": "arm64",
+    "operating_system": "Darwin",
+    "processor_model": "Apple M4 Pro"
+  },
+  "scope": "Portable frozen primary arrays; exact physical source hashes retained. This experiment changes no upstream source, outcome, normalization or protocol."
+}

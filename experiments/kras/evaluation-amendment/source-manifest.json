@@ -1,0 +1,25 @@
+{
+  "release": "v0.2.0",
+  "commit": "527712c281f1a366b9fb1524342a8daf31a06d7a",
+  "path_basis": "paths relative to experiments/kras/ in the unchanged public release",
+  "files": {
+    "pilot/prepare.py": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b",
+    "pilot/evaluate.py": "d51591107d9300d9912bcf9b8b7d0310cfdd25b2817a5d113a5ebffc72780e69",
+    "pilot/model/static-model.npz": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd",
+    "pilot/raw/6OIM.pdb": "42deda943440cc8dd3020a2c65ddc260970936d675b47c8b43564195b77d5006",
+    "pilot/raw/6OIM-mapping.json": "3d8a4157036d217caf084ba56f3decbc4a418c19b2b66a2ae8f3a3ac2058038b",
+    "pilot/prediction-freeze.json": "7adf384117d677c01700befb291f8fbd4e092b4787628d08bf7d056af3cc87d9",
+    "pilot/results/biquadratic-d2-n33-e4.npz": "a1b96b71fa7cb064590fd827637f8fd80f37b67fafd73925d7aebbbdad7eb2b9",
+    "pilot/results/harmonic-d2-n33-e4.npz": "10dde87127b7ae55950ac90bceeafc8c469fe5612ca0896ec3bcb2db827f576b",
+    "pilot/results/distance_hookean-d2-n33-e4.npz": "460b7f95d095cfa56f2949b9f15027968be97566daa6bc1f2ffa3e2058d8f2c6",
+    "pilot/results/analytic-harmonic-d492.npz": "99a48586392de66b00ba35426e01f87f44252fb1651ee86ee0ba3a99ba8b14b7",
+    "pilot/results/structural-baselines.npz": "9d7620733b2b3088f6c1673e47ff9e060278036d29bdff0b4b6ef5dc912a4269",
+    "pilot/external/ohm-scores.json": "b145466e4c813093d24568391f885ebede2e25df60d059086cea5f835d5e6d19",
+    "pilot/evaluation/evaluation.json": "8e2cf6f2ea5f032cdb50f85131494d45cb9b171be90ef2e01341380f006b085a",
+    "pilot/evaluation/rankings.csv": "d4a016284fef917828888fab7a8c27d40056e66c5884afe0299a93e3dacd450a",
+    "pilot/evaluation/reference-mapping.npz": "4415283f33fa24956d26e8eddf5ea6b3cc6ab6fff9a9c47b32b0daa73129dee3",
+    "protocol/prepared/KRAS-input.json": "d8b13284e30902684869ba4397101244d92323a048e6558700b09590676a24bc",
+    "protocol/evaluation/KRAS-contacts.json": "bf6fa35ffbb60f77b494e41b4aa4217b155a1bdd77a025e348a9ecb6ddc638ad",
+    "protocol/matched_null.py": "9e630d50c4f5f4b98c101ec4fba9d05493bb74ed8e55ac184141474a4304b917"
+  }
+}

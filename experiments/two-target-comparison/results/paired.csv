@@ -1,0 +1,7 @@
+target,comparator,status,raw_p,mean_primary_minus_control_percentile,mean_percentile_difference_in_percentage_points,effect_minus_matched_null_mean,percentile_rank_denominator,holm_adjusted_p,below_0p05_in_this_retrospective_family
+KRAS,harmonic,retrospective_measured,0.8508149185081492,-0.002334267040149393,-0.2334267040149393,-0.003645891690009337,126,1.0,False
+KRAS,distance_Hookean,retrospective_measured,0.34706529347065296,0.0,0.0,0.0003657329598506069,126,1.0,False
+ABL,harmonic,retrospective_measured,0.012598740125987402,0.01709844559585493,1.7098445595854932,0.009811165803108814,193,0.07559244075592442,False
+ABL,distance_Hookean,retrospective_measured,0.539046095390461,0.0002590673575129515,0.02590673575129515,-2.792746113989647e-05,193,1.0,False
+MYH7,harmonic,not_run_conservative_correction_slot,1.0,,,,,1.0,False
+MYH7,distance_Hookean,not_run_conservative_correction_slot,1.0,,,,,1.0,False

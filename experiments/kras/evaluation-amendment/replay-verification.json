@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "date": "2026-09-12",
+  "method": "Two full executions from the pinned unchanged public release; distinct output directories; exact SHA-256 comparison for every result file including verification.json.",
+  "script_sha256": "7b55b4d97e567f446a69b40cb92ecec14e9bff733ddf957be1017377f275892f",
+  "file_count": 13,
+  "files": [
+    {
+      "file": "evaluation-input.json",
+      "sha256": "a33c5ae3be4489b2b6130983815e45b4aa5905ca7452d662210847d2be2a60ad",
+      "second_sha256": "a33c5ae3be4489b2b6130983815e45b4aa5905ca7452d662210847d2be2a60ad",
+      "identical": true
+    },
+    {
+      "file": "matched-configurations.npz",
+      "sha256": "5c2396fe75f0f23e2160820206734b0ccbc7b6b3cd9bc1945d44785961e13edd",
+      "second_sha256": "5c2396fe75f0f23e2160820206734b0ccbc7b6b3cd9bc1945d44785961e13edd",
+      "identical": true
+    },
+    {
+      "file": "null-comparisons.csv",
+      "sha256": "8f04fb78aa9985178fb299ec3ff25572aefe74db349202b492f1f82b3b353f74",
+      "second_sha256": "8f04fb78aa9985178fb299ec3ff25572aefe74db349202b492f1f82b3b353f74",
+      "identical": true
+    },
+    {
+      "file": "null-comparisons.json",
+      "sha256": "54e5cbf41f0e7e549881520437b125a8248cc20d4869db1f80e2a80ee43536e3",
+      "second_sha256": "54e5cbf41f0e7e549881520437b125a8248cc20d4869db1f80e2a80ee43536e3",
+      "identical": true
+    },
+    {
+      "file": "null-plans.json",
+      "sha256": "eda2b5501e57caef9e8e44139af543aa08223787ead3ecd444da91198988dfcf",
+      "second_sha256": "eda2b5501e57caef9e8e44139af543aa08223787ead3ecd444da91198988dfcf",
+      "identical": true
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "sha256": "50085576cb3dba22cf69a269940ccf08ef1a203353af8cc05a1182ffa4e2eb6a",
+      "second_sha256": "50085576cb3dba22cf69a269940ccf08ef1a203353af8cc05a1182ffa4e2eb6a",
+      "identical": true
+    },
+    {
+      "file": "paired-comparisons.json",
+      "sha256": "db0e5c053ace5d8af05f7a3328f6381f7b31efcdd13eee13556d663adca4e0b9",
+      "second_sha256": "db0e5c053ace5d8af05f7a3328f6381f7b31efcdd13eee13556d663adca4e0b9",
+      "identical": true
+    },
+    {
+      "file": "reference-labels.csv",
+      "sha256": "409d7e24b69972df834048d32ab967b5b11c6c06c023c63797d8892402804247",
+      "second_sha256": "409d7e24b69972df834048d32ab967b5b11c6c06c023c63797d8892402804247",
+      "identical": true
+    },
+    {
+      "file": "reference-labels.json",
+      "sha256": "ee1354d9c1ea9afb440d9ec787ddb71703e2bcbba5c5a94b76a88ab82fa1b071",
+      "second_sha256": "ee1354d9c1ea9afb440d9ec787ddb71703e2bcbba5c5a94b76a88ab82fa1b071",
+      "identical": true
+    },
+    {
+      "file": "top5.json",
+      "sha256": "1ff03e59a4c36351e07ab5361f88327d47dab786f68ecb5e540152c889d5ad65",
+      "second_sha256": "1ff03e59a4c36351e07ab5361f88327d47dab786f68ecb5e540152c889d5ad65",
+      "identical": true
+    },
+    {
+      "file": "unchanged-rankings.csv",
+      "sha256": "bb674a208c81416839965219f2757aeba5c226f0be693eb44a86f923e85755db",
+      "second_sha256": "bb674a208c81416839965219f2757aeba5c226f0be693eb44a86f923e85755db",
+      "identical": true
+    },
+    {
+      "file": "uniform-hit-baselines.json",
+      "sha256": "5c90fe57e6983a692f65e2aa7eaeeba71efd8f5cb40275b590106d70f7996617",
+      "second_sha256": "5c90fe57e6983a692f65e2aa7eaeeba71efd8f5cb40275b590106d70f7996617",
+      "identical": true
+    },
+    {
+      "file": "verification.json",
+      "sha256": "4c71e28b5cc5f353304fbdb78f5c1a403280c45df02239930908673f1f23df72",
+      "second_sha256": "4c71e28b5cc5f353304fbdb78f5c1a403280c45df02239930908673f1f23df72",
+      "identical": true
+    }
+  ]
+}

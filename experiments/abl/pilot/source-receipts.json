@@ -1,0 +1,57 @@
+[
+  {
+    "origin": "rebuild-v8/pilot/prepare.py",
+    "path": "vendor/prepare.py",
+    "sha256": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b"
+  },
+  {
+    "origin": "rebuild-v8/pilot/run_pilot.py",
+    "path": "vendor/run_pilot.py",
+    "sha256": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053"
+  },
+  {
+    "origin": "rebuild-v8/protocol/matched_null.py",
+    "path": "vendor/matched_null.py",
+    "sha256": "9e630d50c4f5f4b98c101ec4fba9d05493bb74ed8e55ac184141474a4304b917"
+  },
+  {
+    "origin": "rebuild-v8/protocol/sources/1OPL.cif",
+    "path": "raw/1OPL.cif",
+    "sha256": "af3a6348cbf0748243503f3aeec85f8cf0fa37a4989696cbfb4afa7424a97f6a"
+  },
+  {
+    "origin": "rebuild-v8/protocol/sources/1OPL-sifts.json",
+    "path": "raw/1OPL-sifts.json",
+    "sha256": "3ca406d31ed717db1b69254f9b8252150084797a0a5d35909d209c137f672eb5"
+  },
+  {
+    "origin": "rebuild-v8/protocol/sources/5MO4.cif",
+    "path": "raw/5MO4.cif",
+    "sha256": "5205ad733aec8c4b9e73130c31424f7291e907662493c65ce56ecf298a5843d0"
+  },
+  {
+    "origin": "rebuild-v8/protocol/sources/5MO4-sifts.json",
+    "path": "raw/5MO4-sifts.json",
+    "sha256": "a550aefb82fd82b816048ff429c5e635628654b83f56a8f3b8808e6039e596f2"
+  },
+  {
+    "origin": "rebuild-v8/protocol/sources/P00519.json",
+    "path": "raw/P00519.json",
+    "sha256": "5b0171beb95c871df1f6556a2eb198976a3834c9ea3a8134dab893f3947b72db"
+  },
+  {
+    "origin": "rebuild-v8/protocol/prepared/ABL-input.json",
+    "path": "raw/ABL-input.json",
+    "sha256": "2766789025edec14e5f73e93e0ec06d9b320c5ffcee36488427c3d505b668bc5"
+  },
+  {
+    "origin": "rebuild-v8/protocol/prepared/ABL-domain.pdb",
+    "path": "raw/ABL-domain.pdb",
+    "sha256": "28f8bd218b220de93c1856f965eed11b24060f2dc8fba14a5494469a23090083"
+  },
+  {
+    "origin": "rebuild-v8/protocol/prepared/ABL-residue-map.csv",
+    "path": "raw/ABL-residue-map.csv",
+    "sha256": "6d7cf4a6aeee96661ead1c5f8e8a8b4be459f87de26d25620aa6a8e8cf768965"
+  }
+]

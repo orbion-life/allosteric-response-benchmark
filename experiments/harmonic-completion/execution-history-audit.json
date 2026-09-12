@@ -1,0 +1,11 @@
+{
+  "status": "VERIFIED: numerical grid unchanged; execution orchestration amended",
+  "first_run_elapsed_including_pause_seconds": 1856.749588,
+  "amended_walltime_cap_seconds": 3600,
+  "grid_AST_sha256": {
+    "run.py": "2983c8bb1efc52ff498e3daef96934951320b1aa442525d97dccafd804cb8271",
+    "run-sequential-v1.py": "2983c8bb1efc52ff498e3daef96934951320b1aa442525d97dccafd804cb8271",
+    "run-parallel-v2.py": "2983c8bb1efc52ff498e3daef96934951320b1aa442525d97dccafd804cb8271"
+  },
+  "scope": "The first continuation used the parallel-v2 runner. Its receipt peak_bytes is parent RSS only, not aggregate memory. The later clean replay uses the current runner, which enforces remaining cumulative time and a conservative concurrent memory bound. Original execution records remain unchanged."
+}

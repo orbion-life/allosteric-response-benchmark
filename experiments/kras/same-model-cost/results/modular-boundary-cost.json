@@ -1,0 +1,48 @@
+{
+  "records": [
+    {
+      "family": "weighted_monomial_SVD",
+      "degree": 25,
+      "minimum_modular_boundary_CX_per_overlap": 33056,
+      "maximum_modular_boundary_CX_per_overlap": 33056,
+      "max_phase_sensitive_PREP_state_error": 6.915239219067051e-11,
+      "max_coherent_inverse_state_error": 9.883954664562183e-14,
+      "scope": "Actual separately compiled PREP/COEF and inverse modules only; SELECT/readout/routing/global optimization excluded; not a whole-circuit count or lower bound"
+    },
+    {
+      "family": "weighted_monomial_SVD",
+      "degree": 42,
+      "minimum_modular_boundary_CX_per_overlap": 33556,
+      "maximum_modular_boundary_CX_per_overlap": 33556,
+      "max_phase_sensitive_PREP_state_error": 6.915239219067051e-11,
+      "max_coherent_inverse_state_error": 9.883954664562183e-14,
+      "scope": "Actual separately compiled PREP/COEF and inverse modules only; SELECT/readout/routing/global optimization excluded; not a whole-circuit count or lower bound",
+      "oracle_sufficient_shots": 121876716,
+      "shots_times_minimum_modular_boundary_CX": 4089695082096,
+      "shots_times_maximum_modular_boundary_CX": 4089695082096
+    },
+    {
+      "family": "separately_normalized_monomials",
+      "degree": 25,
+      "minimum_modular_boundary_CX_per_overlap": 33056,
+      "maximum_modular_boundary_CX_per_overlap": 33056,
+      "max_phase_sensitive_PREP_state_error": 1.7371264669915167e-10,
+      "max_coherent_inverse_state_error": 9.574065043750004e-14,
+      "scope": "Actual separately compiled PREP/COEF and inverse modules only; SELECT/readout/routing/global optimization excluded; not a whole-circuit count or lower bound"
+    },
+    {
+      "family": "separately_normalized_monomials",
+      "degree": 42,
+      "minimum_modular_boundary_CX_per_overlap": 33556,
+      "maximum_modular_boundary_CX_per_overlap": 33556,
+      "max_phase_sensitive_PREP_state_error": 1.7371264669915167e-10,
+      "max_coherent_inverse_state_error": 9.574065043750004e-14,
+      "scope": "Actual separately compiled PREP/COEF and inverse modules only; SELECT/readout/routing/global optimization excluded; not a whole-circuit count or lower bound",
+      "oracle_sufficient_shots": 37190400,
+      "shots_times_minimum_modular_boundary_CX": 1247961062400,
+      "shots_times_maximum_modular_boundary_CX": 1247961062400
+    }
+  ],
+  "status": "Matched measured primitive counts and their own basis-specific planning budgets",
+  "scope": "No primary complete circuits or quantum shots executed"
+}

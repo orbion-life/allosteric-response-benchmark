@@ -1,0 +1,26 @@
+[
+  {
+    "universe": "historical126",
+    "candidate_count": 126,
+    "positive_count": 17,
+    "draw_size": 5,
+    "contact_fraction": 0.1349206349206349,
+    "expected_hits_in_five": 0.6746031746031746,
+    "probability_at_least_one_hit": 0.5216321213450105,
+    "probability_at_least_four_hits": 0.0010875649740103958,
+    "precision_enrichment_for_fixed_four_of_five": 5.929411764705883,
+    "interpretation": "Descriptive uniform draws without replacement; no degree, distance or exposure matching."
+  },
+  {
+    "universe": "evaluable123",
+    "candidate_count": 123,
+    "positive_count": 17,
+    "draw_size": 5,
+    "contact_fraction": 0.13821138211382114,
+    "expected_hits_in_five": 0.6910569105691057,
+    "probability_at_least_one_hit": 0.530984300494678,
+    "probability_at_least_four_hits": 0.001196215728584599,
+    "precision_enrichment_for_fixed_four_of_five": 5.788235294117647,
+    "interpretation": "Descriptive uniform draws without replacement; no degree, distance or exposure matching."
+  }
+]

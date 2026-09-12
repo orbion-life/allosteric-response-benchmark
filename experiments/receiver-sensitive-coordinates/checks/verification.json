@@ -1,0 +1,60 @@
+{
+  "status": "PASS: verification succeeds; representation fails",
+  "checks": [
+    {
+      "d": 2,
+      "relative_singular_gap": 1.2878587085651153e-14,
+      "admissible_cut": false,
+      "accuracy_pass": false,
+      "replay_check": "Finite arrays and orthogonality only; tied cut is scientifically inadmissible."
+    },
+    {
+      "d": 4,
+      "relative_singular_gap": 1.776356839400159e-15,
+      "admissible_cut": false,
+      "accuracy_pass": false,
+      "replay_check": "Finite arrays and orthogonality only; tied cut is scientifically inadmissible."
+    },
+    {
+      "d": 8,
+      "relative_singular_gap": 1.776356839400159e-15,
+      "admissible_cut": false,
+      "accuracy_pass": false,
+      "replay_check": "Finite arrays and orthogonality only; tied cut is scientifically inadmissible."
+    },
+    {
+      "d": 16,
+      "relative_singular_gap": 0.0,
+      "admissible_cut": false,
+      "accuracy_pass": false,
+      "replay_check": "Finite arrays and orthogonality only; tied cut is scientifically inadmissible."
+    },
+    {
+      "d": 32,
+      "relative_singular_gap": 0.0,
+      "admissible_cut": false,
+      "accuracy_pass": false,
+      "replay_check": "Finite arrays and orthogonality only; tied cut is scientifically inadmissible."
+    },
+    {
+      "d": 64,
+      "relative_singular_gap": 0.008098751948522635,
+      "admissible_cut": true,
+      "accuracy_pass": false,
+      "replay_C_error": 0.0
+    }
+  ],
+  "source_sha256": {
+    "model/static-model.npz": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd",
+    "results/analytic-harmonic-d492.npz": "99a48586392de66b00ba35426e01f87f44252fb1651ee86ee0ba3a99ba8b14b7",
+    "results/analytic-harmonic-d2.npz": "d1666b393e670cf51696764eb085376e2d0b60590e7e46a6db6041a84a7cf660",
+    "results/analytic-harmonic-d4.npz": "d5dca815b27fa9394928d26b8e1d8febccb837508a3d9551fe9b3b9df4f6b198",
+    "results/analytic-harmonic-d8.npz": "477f433bac3e38929d017700ad1a53333243ea47de151d3f83d8776785a1568f",
+    "results/analytic-harmonic-d16.npz": "8519362057f2e32ef1b3ba6128080293a2ab1c510ab5d956b88494d41eca4564",
+    "results/analytic-harmonic-d32.npz": "b2e1df04f8bc37634811c2a7e5d69bc4006fed5cd7519a642910819a64cd6e02",
+    "results/analytic-harmonic-d64.npz": "6513e06f06cf096b2f6281c14ca91332e3e349ad0c9836a03d5a8d298f0574e9"
+  },
+  "vendor_sha256": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053",
+  "admission_audit_sha256": "c2b4221fedc7c20c5379a6e28c45ceae50e642cff07dec0335778c8a229badb5",
+  "note": "The cutoff-admission audit was added after inspecting results; no failed dimension was replaced."
+}

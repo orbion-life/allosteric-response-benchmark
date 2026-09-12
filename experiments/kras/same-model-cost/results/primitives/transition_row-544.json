@@ -1,0 +1,9 @@
+{
+  "kind": "transition_row",
+  "index": 544,
+  "controller_wall_seconds": 8.524880125012714,
+  "controller_sampled_peak_tree_RSS_bytes": 1102561280,
+  "worker_exit_code": -9,
+  "status": "stopped",
+  "reason": "Stopped at declared 1-GiB sampled process-tree RSS limit"
+}

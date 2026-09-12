@@ -1,0 +1,8 @@
+{
+  "primary.npz": "a1b96b71fa7cb064590fd827637f8fd80f37b67fafd73925d7aebbbdad7eb2b9",
+  "primary.json": "9b42bd2829114c096085a6dc7a26dbce7ccf0fbb9b92834c8c9faf462e629365",
+  "static-model.npz": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd",
+  "all-mode-harmonic-scales.npz": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c",
+  "preanalysis-protocol.json": "0fcae6ed4dc4866f3fb32f63bb29bb38b17dd7552988b776ee4af76d65ca7896",
+  "full-pilot-cost-public.json": "7d3e8f2dfa05ad9ac2b73eeb2864fbb05c37d8bbe9e4e53635b999c274531eb5"
+}

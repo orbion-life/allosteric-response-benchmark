@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-09-12T14:14:14.076550+00:00",
+  "status": "Locked before ABL response execution and before extracting reference labels in this pilot. Retrospective target and bound reference are known. No preregistration or prospective validation is claimed.",
+  "input": "1OPL author A, P00519 canonical242\u2013493; 252 resolved C\u03b1 nodes; engineered D363N (author382)",
+  "reference": "5MO4 author A, AY7 only; NIL excluded; known T315I/D363N variants will be verified",
+  "source_receipts_sha256": "f1e3ea9eed6a0d553becfd6e7e7e95bcc060abc07a714e1199625df0d11df29a",
+  "receiver": "Input P16 protein heavy-atom contacts <=4\u00c5, frozen v8 list; remove ligands before mechanics; ligand-conditioned kinase domain excludes SH3/SH2",
+  "primary_candidates": "Frozen v8 input-only nonreceiver C\u03b1 distance >=6\u00c5; 193 nodes; keep unknown reference positions in prediction ordering",
+  "settings": {
+    "kappa": 1,
+    "beta": 1,
+    "mu": 1,
+    "contact_cutoff_A": 10,
+    "backbone": "add only resolved consecutive canonical neighbours",
+    "modes": 2,
+    "horizon": "tau=1/lambda1",
+    "primary_grid_n": 33,
+    "check_grid_n": 65,
+    "extent_slowest_sigma": 4,
+    "eigenvector_sign": "largest absolute Cartesian component positive",
+    "units": "\u00c5 coordinates; uncalibrated model energies and time"
+  },
+  "model": "U=sum_e (|r_i-r_j|\u00b2-l_e\u00b2)\u00b2/(8 l_e\u00b2); Ei=incident-contact average of the same fixed quartic edge energies; rigid modes removed",
+  "energies": [
+    "biquadratic",
+    "harmonic",
+    "distance_hookean"
+  ],
+  "grid_cases": [
+    [
+      2,
+      33,
+      4
+    ],
+    [
+      2,
+      65,
+      4
+    ]
+  ],
+  "normalization": "exact all-positive-mode harmonic SD of the SAME fixed quartic Ei, common to every physical matrix",
+  "controls": [
+    "same-grid harmonic",
+    "same-grid distance-Hookean",
+    "same-grid biquadratic equilibrium covariance",
+    "analytic d2 harmonic",
+    "analytic all-mode harmonic",
+    "analytic all-mode equilibrium covariance",
+    "graph heat kernel at reciprocal first positive graph eigenvalue",
+    "contact degree",
+    "inverse receiver distance"
+  ],
+  "ranking": "receiver RMS, descending score, canonical position breaks ties; primary top5; rank percentile = average ascending rank / frozen candidate count",
+  "numerical_checks": {
+    "grid_max_receiver_block_C_difference": 0.001,
+    "grid_top5_sets_identical": true,
+    "coordinate_max_receiver_block_C_difference_vs_all_harmonic": 0.002,
+    "symmetry_absolute": 1e-10,
+    "d2_contraction_vs_independent_Wick": 1e-10
+  },
+  "evaluation": "Only after prediction files are frozen: sequence-map every resolved reference protein residue; distance of any resolved heavy atom to AY7 <=5\u00c5 is contact. Resolved farther residues are observed_noncontact; absent mapped residues are unknown. Prediction order never changes; only known reference residues enter labels/null. Partial resolved residues are described, not asserted complete. Report all top5 distances and unknown bounds. Contact recovery is not functional validation.",
+  "null": "Conditional random labels preserving positive count in input-only degree/distance tertiles and RSA>=0.20 strata, cutpoints recomputed on evaluable candidate universe. PCG64 seed20260912,10000distinct draws unless <=100000configurations then enumerate exactly. No unknown in noncontact/null pools. Existing predictive-universe cutpoints sensitivity recomputed after removing unknown members.",
+  "paired_effects": "Mean primary-minus-control percentile rank among eligible known contacts; ranks first fixed over all193prediction candidates; reuse identical matched label configurations. Raw conditional p values, exploratory and not independent target randomization. No global four-target claim.",
+  "candidate_distance_sensitivity_A": [
+    4,
+    8
+  ],
+  "success_interpretation": "Report every result and threshold failure; no label-based tuning, no universal cutoffs, no biological efficacy/generalization/quantum advantage claim. Unverified nonfunctional pockets remain unresolved.",
+  "physical_diagnostics": "boundary mass; probability any contact strain>20%; mean maximum strain; strong compression; noncontact CA overlap<2\u00c5",
+  "resource_cap": {
+    "wall_seconds_per_complete_calculation": 900,
+    "resident_memory_bytes": 8000000000
+  },
+  "replay": "Fresh independent output directory using same frozen input/settings; compare numeric arrays and top5 exactly in pinned environment; numerical tolerance<=1e-10 across supported environments, never claim portable byte identity",
+  "amendments": "Any settings change must be dated before rerun and preserve failed artifacts."
+}

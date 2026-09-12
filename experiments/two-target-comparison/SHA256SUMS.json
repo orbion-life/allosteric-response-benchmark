@@ -1,0 +1,21 @@
+{
+  "LICENSE": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9",
+  "README.md": "69e41d3b0fe934774161d54d9b8477a9b3b39780742c4fc3b0c938be2a231beb",
+  "audit.py": "5150389cdc9b14768177b792c63304bf98cd6bb7fdd0750309f69bac74a17a13",
+  "figures/protein-comparison-data.json": "24a319b63caf0ecdbf4f3b7f5dd69c41b78f09a3ad7ec6625c619bad930e47d8",
+  "figures/protein-comparison-receipt.json": "38481ffac8f92e7f87a67e03db98cd530387f1d0ca1e2a1c40219a7c0effda4c",
+  "figures/protein-comparison.pdf": "140e530ad46df84ad091ef4bb6ffa9d0e4c14018cfbfc94e9681a69840002d3b",
+  "figures/protein-comparison.png": "7a7421c40daa92d782e92b3715943c0a65aa4003f224fba51daa77a931ced360",
+  "figures/protein-comparison.py": "7d355b058cbff2cd52f9e698a59d825d78f285ee167ca7a20ab8730ebccbad33",
+  "figures/protein-comparison.svg": "fd3f731d7b56438a71a574b13732f83c3e395f624e4abc3b6209181d2d6668b7",
+  "input-receipts.json": "0a1fabfa7c33c2b2661d116498cf133a79c8a54df90d89832abfa99b7904218b",
+  "inputs/abl-evaluation.json": "ee3dfd2982112f95b20ef293726438f182d0a72ad171248ff55bfe15617de1d3",
+  "inputs/kras-null-comparisons.json": "54e5cbf41f0e7e549881520437b125a8248cc20d4869db1f80e2a80ee43536e3",
+  "inputs/kras-paired-comparisons.json": "db0e5c053ace5d8af05f7a3328f6381f7b31efcdd13eee13556d663adca4e0b9",
+  "integration-receipt.json": "9e90298a162fe3ead6a661b3c0a433496804268c3585fd4ba38070e724e80a25",
+  "results/audit.json": "f2f5bfa3bd16822e05d4f5791b52fcd8d5e1114bf1efb38745c4ff6b90635c58",
+  "results/paired.csv": "bb153038eed1c98013a897abf39bb3b5e1ea247563fb24cdcbe4b335f9276e16",
+  "results/primary.csv": "493e084fa4a89f1e1aa9e31d043e5ca431118bb5d7aa9f88b074af9df1f2cff7",
+  "verification-receipt.json": "226a4a1d6aac49fed92be3398ce21363b2dc68a63f8755149ec526ca4e0a9506",
+  "verify.py": "8c45397a50f64b54a28930bb9ee4339589a73f7911c8404ae8040f600f0e5340"
+}

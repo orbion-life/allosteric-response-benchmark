@@ -1,0 +1,1662 @@
+[
+  {
+    "canonical": 1,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 26.52321952554026,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 2,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 22.995646609738984,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 3,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 19.95657147407841,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 4,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 12,
+    "reference_observed": true,
+    "MOV_distance_A": 16.660785755779948,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 5,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 12.728938997418442,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 6,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 10.825245447563765,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 7,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 6.249504460355237,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 8,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 6.168634694971004,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 9,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 3.447014650389522,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 10,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 3.4966499681838332,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 11,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 4.281801256480735,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 12,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 1.8054273732277353,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 13,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 4.323419248696569,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 14,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 6.318417127730647,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 15,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 7.405851200233502,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 16,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 2.7652594814953626,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 17,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 6.853675875032318,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 18,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 9.623110775627598,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 19,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 11.298163434824263,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 20,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 10.525667722287267,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 21,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 12.220128354481387,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 22,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 15.187576633551517,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 23,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 16.614113217382382,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 24,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 16.07942415013672,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 25,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 18.58163181746964,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 26,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 19.74249209193206,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 27,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 10,
+    "reference_observed": true,
+    "MOV_distance_A": 16.9831454683754,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 28,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 14.173623742713083,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 29,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 12.48341271447836,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 30,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 11.117904928537572,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 31,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 11.268806014835823,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 32,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 12,
+    "reference_observed": true,
+    "MOV_distance_A": 7.423273267231916,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 33,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 6.74403536467596,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 34,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 3.4815160490797683,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 35,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 5.339366629104992,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 36,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 7.2210947231012,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 37,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 5.622015119154342,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 38,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 10.21757025911738,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 39,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 12.287406154270315,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 40,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 12,
+    "reference_observed": true,
+    "MOV_distance_A": 11.348885275655931,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 41,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 17.714819615226116,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 42,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 19.979808532616122,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 43,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 23.15777508743014,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 44,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 22.898666402216527,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 45,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 26.35311397159736,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 46,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 21.965177918696675,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 47,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 26.028480151557062,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 48,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 29.83971893299265,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 49,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 26.44585135706544,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 50,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 26.520672106867877,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 51,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 23.427979725106475,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 52,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 20.274540438688124,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 53,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 17.732623297188717,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 54,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 14.077933548642712,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 55,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 11.788226796257359,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 56,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 6.9479623631680685,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 57,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 6.713083047303973,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 58,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 3.9413550969178104,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 59,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 3.1548765427509204,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 60,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 3.160138288113354,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 61,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 3.5155837353133825,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 62,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 3.6279598950374297,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 63,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 3.223122088906966,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 64,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 12,
+    "reference_observed": true,
+    "MOV_distance_A": 5.139528772173573,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 65,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 6.342671203838333,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 66,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 9.280991649602967,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 67,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 9.876814466213284,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 68,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 3.1557935610556025,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 69,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 4.280462708633262,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 70,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 8.701027238205842,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 71,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 12,
+    "reference_observed": true,
+    "MOV_distance_A": 8.95698593277895,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 72,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 3.2767361810191558,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 73,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 7.52488438449389,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 74,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 10.188560006203035,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 75,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 10.36070938690976,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 76,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 12.04622600651341,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 77,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 10.374392560530953,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 78,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 5.744922105651216,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 79,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 7.770586206973062,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 80,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 7.198919502258655,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 81,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 8.690232102769176,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 82,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 10.823693916588736,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 83,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 11.303708329570433,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 84,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 14.43857562226967,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 85,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 13.707496489147827,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 86,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 10.798695708278848,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 87,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 11.425357149778733,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 88,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 6.96584524663016,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 89,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 8.45993031886197,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 90,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 9.655255304755022,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 91,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 7.467929632769715,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 92,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 4.7083565073176015,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 93,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 6.384136198421834,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 94,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 10,
+    "reference_observed": true,
+    "MOV_distance_A": 6.416319895391751,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 95,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 10,
+    "reference_observed": true,
+    "MOV_distance_A": 3.550924386691442,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 96,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 12,
+    "reference_observed": true,
+    "MOV_distance_A": 3.2700472473650897,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 97,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 5.904208160287034,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 98,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 6.649498176554378,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 99,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 3.5068547161238373,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 100,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 4.138162635759983,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 101,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 6.590751171148855,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 102,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 6.3355604329845985,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 103,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 3.3603364414891552,
+    "label_state": "contact",
+    "contact_5A": true,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 104,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 7.268358411636014,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 105,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 0,
+    "reference_observed": false,
+    "MOV_distance_A": null,
+    "label_state": "unknown",
+    "contact_5A": null,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 106,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 0,
+    "reference_observed": false,
+    "MOV_distance_A": null,
+    "label_state": "unknown",
+    "contact_5A": null,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 107,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 0,
+    "reference_observed": false,
+    "MOV_distance_A": null,
+    "label_state": "unknown",
+    "contact_5A": null,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 108,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 14.109907051430213,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 109,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 10.1022355446703,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 110,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 11.638388548248422,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 111,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 8.837431923358732,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 112,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 11.779099328896077,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 113,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 12.223456671498452,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 114,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 13.311261134843686,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 115,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 15.0503915231465,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 116,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 11.518125758993952,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 117,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 10.446928783140049,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 118,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 17.040064172414375,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 119,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 17.320527792189246,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 120,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 15.791870471859882,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 121,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 21.428257465319014,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 122,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 18.69642883012689,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 123,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 20.24655281770208,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 124,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 17.09678572129861,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 125,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 15.478407702344581,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 126,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 19.594154893743184,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 127,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 20.442904490311548,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 128,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 20.754516110957635,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 129,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 15.796971766765932,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 130,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 16.90928540772791,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 131,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 18.88845200115669,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 132,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 18.04187418202444,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 133,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 12.006480458485742,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 134,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 16.117736968942012,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 135,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 18.442831290233073,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 136,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 15.596680608385874,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 137,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 12,
+    "reference_observed": true,
+    "MOV_distance_A": 10.561926765510163,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 138,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 18.051927348624027,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 139,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 13.325833369812187,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 140,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 16.172941476429077,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 141,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 17.284303543967283,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 142,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 17.496869805768117,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 143,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 18.672500127192393,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 144,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 14.879696132650023,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 145,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 6,
+    "reference_observed": true,
+    "MOV_distance_A": 16.44817904814998,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 146,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 13.541773923677798,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 147,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 16.245822293746784,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 148,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 19.15211565336843,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 149,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 19.48154560090138,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 150,
+    "prediction_candidate": false,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 19.007600453502807,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": false
+  },
+  {
+    "canonical": 151,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 4,
+    "reference_observed": true,
+    "MOV_distance_A": 19.067257117897164,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 152,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 17.071866740342134,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 153,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 20.0200925572286,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 154,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 19.570719710833323,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 155,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 5,
+    "reference_observed": true,
+    "MOV_distance_A": 16.462360857422606,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 156,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 14.029338865392054,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 157,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 12,
+    "reference_observed": true,
+    "MOV_distance_A": 19.167954011839655,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 158,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 18.377584199235763,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 159,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 12.84149952303079,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 160,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 7,
+    "reference_observed": true,
+    "MOV_distance_A": 17.808109332548472,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 161,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 20.231837904649197,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 162,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 17.597366223386956,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 163,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 8,
+    "reference_observed": true,
+    "MOV_distance_A": 15.654006388142303,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 164,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 11,
+    "reference_observed": true,
+    "MOV_distance_A": 20.44231349431859,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 165,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 9,
+    "reference_observed": true,
+    "MOV_distance_A": 21.641818107543553,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  },
+  {
+    "canonical": 166,
+    "prediction_candidate": true,
+    "reference_heavy_atom_count": 10,
+    "reference_observed": true,
+    "MOV_distance_A": 16.87419393630404,
+    "label_state": "observed_noncontact",
+    "contact_5A": false,
+    "evaluation_eligible": true
+  }
+]

@@ -1,0 +1,22 @@
+test_corrected_paired_ranks_use_frozen_denominator (test_unknown_labels.MissingDataSemantics) ... ok
+test_duplicate_input_residues_are_rejected (test_unknown_labels.MissingDataSemantics) ... ok
+test_evaluation_mask_does_not_mutate_prediction_mask (test_unknown_labels.MissingDataSemantics) ... ok
+test_exposure_null_configs_are_distinct_and_exclude_observed (test_unknown_labels.MissingDataSemantics) ... ok
+test_fixed_cuts_isolate_missing_residue_exclusion (test_unknown_labels.MissingDataSemantics) ... ok
+test_geometric_contact_threshold_is_inclusive (test_unknown_labels.MissingDataSemantics) ... ok
+test_incomplete_or_implicit_boolean_labels_are_rejected (test_unknown_labels.MissingDataSemantics) ... ok
+test_legacy_and_published_protocol_parity_were_verified (test_unknown_labels.MissingDataSemantics) ... ok
+test_missing_distance_is_explicitly_unknown (test_unknown_labels.MissingDataSemantics) ... ok
+test_negative_distance_is_rejected (test_unknown_labels.MissingDataSemantics) ... ok
+test_nonfinite_evaluated_score_is_rejected (test_unknown_labels.MissingDataSemantics) ... ok
+test_reference_missing_residues_have_null_contact_field (test_unknown_labels.MissingDataSemantics) ... ok
+test_single_configuration_exact_null_has_p_one (test_unknown_labels.MissingDataSemantics) ... ok
+test_small_exact_null_matches_manual_enumeration (test_unknown_labels.MissingDataSemantics) ... ok
+test_ten_original_top_fives_and_precision_are_preserved (test_unknown_labels.MissingDataSemantics) ... ok
+test_unknown_top_prediction_is_not_a_false_miss_or_replaced (test_unknown_labels.MissingDataSemantics) ... ok
+test_unknowns_cannot_enter_any_corrected_null_pool (test_unknown_labels.MissingDataSemantics) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 4.065s
+
+OK

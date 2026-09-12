@@ -1,0 +1,15 @@
+# Add the correction without rewriting the historical record
+
+Copy the files listed in `public-files.json` to `experiments/kras/evaluation-amendment/` in the public repository, preserving their relative paths. Preserve the original `experiments/kras/pilot/` and `experiments/kras/protocol/` files. In particular, do not edit frozen scores, response matrices, candidate masks, prediction order, the original evaluation or the historical matching code.
+
+The selected files include the amendment source, tests, requirements, license, README, source manifest, historical snapshots, results, and replay/test receipts. Omit `__pycache__/`, the redundant `results-replay/` directory, and local review material. The separately named ABL and harmonic-formula cross-checks support the parent review and are excluded from this public amendment; they do not replace those experiments' own records.
+
+Add this paragraph beside the existing KRAS evaluation summary in the repository README:
+
+> A subsequent reference-observability amendment labels KRAS residues 105–107 as unknown because 6OIM contains no protein heavy atoms at those positions. The original prediction continues to rank 126 candidates, while the amended reference evaluation uses 123 observable candidates. Every released top-five list remains unchanged. The corrected matched comparison still shows no rank advantage over the same-grid harmonic or distance-Hookean control. The amendment preserves historical statistics and distinguishes excluding missing labels from recomputing matching strata. See `experiments/kras/evaluation-amendment/README.md` for the complete reproducible record.
+
+Run the amendment and its unit tests using the commands in its README. To add a continuous-integration check, run the same commands in a fresh environment after installing the amendment requirements. The executable verifies the expected public input bytes before using them; do not replace manifest hashes merely to bypass a mismatch. A future source change should receive a separate documented amendment.
+
+For a new target, reuse the explicit label-state and evaluation-mask functions. Calculate prediction ranks from the frozen input candidate universe. Derive reference observability independently from mapped deposited atoms. Set an unavailable contact field to JSON `null`, retain any unknown top-five prediction, and report bounded precision if a top-five label is unavailable. Use `evaluation_eligible` for the matched null. Do not silently overwrite a prediction-eligibility field with the evaluation mask.
+
+The generic `matched_plan`, `configurations` and `statistic` functions accept a separate universe field. They preserve the later protocol's conditional null, and the supplied receipt checks exact draw parity with that published implementation. If comparing two predictors, form their paired percentile-rank differences on the frozen prediction universe before taking the evaluable subset. The KRAS executable is pinned to its released data and should not be relabeled as a prospective ABL validation run.

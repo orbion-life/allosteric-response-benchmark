@@ -1,0 +1,38 @@
+{
+  "status": "algebraic coordinate-domain diagnostic; no response calculation",
+  "script_sha256": "379076f8fab1b77ccef0d7cf57fef23a0c27eccce0e3ec20ff72660d6966144b",
+  "geometry_A": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      4.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      3.5,
+      0.0
+    ]
+  ],
+  "full_internal_dimensions": 3,
+  "positive_harmonic_eigenvalues": [
+    1.2700311269434106,
+    1.729968873056583,
+    2.999999999999994
+  ],
+  "q_finite_pi_rotation": [
+    9.055256544598933e-16,
+    -3.552713678800501e-15,
+    -8.205689083394113
+  ],
+  "displacement_norm_A": 8.205689083394113,
+  "maximum_reconstruction_error_A": 5.773159728050814e-15,
+  "U_at_finite_pi_rotation": 1.6764498102477776e-29,
+  "native_box_half_width_at_kappa1_4sigma_A": 3.549382541305181,
+  "native_box_half_width_at_kappa100_4sigma_A": 0.35493825413051816,
+  "interpretation": "The linear internal chart contains a distant rigidly equivalent zero-energy configuration. Local4sigma/5sigma refinement alone cannot certify integration over allR^3 or a global nonlinear quotient of rigid rotations."
+}

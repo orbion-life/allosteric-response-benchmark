@@ -1,0 +1,4 @@
+target,status,raw_p,effect_kind,effect,source_record,holm_adjusted_p,below_0p05_in_this_retrospective_family
+KRAS,retrospective_measured,9.999000099990002e-05,observed_minus_matched_null_mean_score,2.092448967037518e-05,degree_distance_exposure / evaluable123 / Biquadratic d2 grid,0.00029997000299970003,True
+ABL,retrospective_measured,1.0,observed_minus_matched_null_mean_score,-1.0349259107760081e-05,methods.biquadratic_d2_n33.score_enrichment_null,1.0,False
+MYH7,not_run_conservative_correction_slot,1.0,not_measured,,,1.0,False

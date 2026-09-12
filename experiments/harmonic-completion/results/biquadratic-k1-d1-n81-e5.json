@@ -1,0 +1,13 @@
+{
+  "d": 1,
+  "n": 81,
+  "extent": 5,
+  "kind": "biquadratic",
+  "kappa": 1,
+  "states": 81,
+  "seconds": 0.08972841699142009,
+  "stationarity_residual": 7.595101139726406e-15,
+  "boundary_probability": 1.0312104168998144e-08,
+  "strain_probability_gt_0_2": 0.21785519147966975,
+  "mean_max_contact_strain": 0.12640771046892127
+}

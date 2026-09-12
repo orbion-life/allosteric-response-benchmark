@@ -1,0 +1,17 @@
+[
+  {
+    "input": "inputs/kras-null-comparisons.json",
+    "sha256": "54e5cbf41f0e7e549881520437b125a8248cc20d4869db1f80e2a80ee43536e3",
+    "origin": "experiments/evaluation-correction/results/null-comparisons.json"
+  },
+  {
+    "input": "inputs/kras-paired-comparisons.json",
+    "sha256": "db0e5c053ace5d8af05f7a3328f6381f7b31efcdd13eee13556d663adca4e0b9",
+    "origin": "experiments/evaluation-correction/results/paired-comparisons.json"
+  },
+  {
+    "input": "inputs/abl-evaluation.json",
+    "sha256": "ee3dfd2982112f95b20ef293726438f182d0a72ad171248ff55bfe15617de1d3",
+    "origin": "experiments/abl-pilot/evaluation/evaluation.json"
+  }
+]

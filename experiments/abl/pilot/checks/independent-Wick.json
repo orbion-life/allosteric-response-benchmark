@@ -1,0 +1,5 @@
+{
+  "max_absolute_covariance_error": 2.574980159653073e-19,
+  "passed": true,
+  "checks": "Independent polynomial Gaussian/Wick moments versus contact-displacement Hermite contraction on actual two ABL modes."
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-12T14:19:53.630896+00:00",
+  "status": "LOCKED BEFORE NEW BASIS COMPUTATION; retrospective input-derived engineering test",
+  "input": "frozen KRAS4OBE model, receiver and all-mode harmonic scales; no reference ligand labels",
+  "basis": "Form J from native unit bond-extension derivatives for every contact incident on an input-defined receiver. Compute T=J B Lambda^(-1/2), retain leading right singular vectors V_d. Orthonormalize B Lambda^(-1/2) V_d in Cartesian coordinates, diagonalize the projected Hessian, then evaluate exact quartic-observable harmonic response in that subspace. No fitting to C or pocket labels.",
+  "dimensions": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "reference": "all492harmonic modes; same quartic Ei, same SD and tau, candidate-to-receiver block",
+  "primary_gate": {
+    "max_C_error": 0.002,
+    "top5": "same deterministic reference shortlist, with scores and margins disclosed"
+  },
+  "comparison": "matched-dimensional lowest-frequency bases frozen in v0.2.0",
+  "scope": "receiver linear-strain variance informs selection; not an optimum for quartic delayed response. Harmonic test only; nonlinear protein fidelity and quantum scalability remain unestablished.",
+  "cap_seconds": 600,
+  "cap_peak_bytes": 2000000000,
+  "failure_branch": "retain all failed dimensions; do not relabel a different predictor as faithful compression. If no tested dimension passes, the sprint must investigate a different representation before scaled quantum work."
+}

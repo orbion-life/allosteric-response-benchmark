@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-09-12T14:09:55.314730+00:00",
+  "status": "LOCKED BEFORE NEW COMPUTATION; retrospective methodology development, not biological validation",
+  "candidate": "C_complete(d,t)=C_H(full,t)+C_NL(d,t)-C_H(d,t), all with common full-H quartic-observable SDs",
+  "meaning": "deterministic additive response discrepancy; retains full harmonic delayed and static covariance, not exact thermal marginalization and not an unbiased Monte Carlo control variate",
+  "geometry_A": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0
+    ],
+    [
+      1,
+      3.5,
+      0
+    ]
+  ],
+  "edges_zero_based": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "all_internal_modes": 3,
+  "kappa": [
+    1,
+    10,
+    100
+  ],
+  "beta": 1,
+  "mu": 1,
+  "times_over_tau": [
+    0.1,
+    1,
+    10
+  ],
+  "tau": "1/(mu*lambda_min_positive)",
+  "retained_dimensions": [
+    1,
+    2,
+    3
+  ],
+  "grid_n": [
+    17,
+    33,
+    65
+  ],
+  "domain_sigma_slowest": 4,
+  "domain_check": {
+    "extent": 5,
+    "grid_n": 81,
+    "constant_spacing_relative_to": 65
+  },
+  "primary_construction": "analytic all-mode harmonic response plus nonlinear-minus-harmonic reduced finite-grid response",
+  "references": [
+    "full three-mode nonlinear grid",
+    "full three-mode harmonic analytic covariance",
+    "same-grid full three-mode harmonic control"
+  ],
+  "primary_error": "max absolute C across every residue pair; no label or pair selection",
+  "gates": {
+    "representation_C_max": 0.002,
+    "grid_C_max": 0.001,
+    "domain_C_max": 0.001,
+    "harmonic_limit_analytic_formula": 1e-10
+  },
+  "acceptance": "a given retained dimension passes only if corrected max error <=0.002 at all three stiffnesses and times, full-grid and domain differences each <=0.001, and independent harmonic-limit checks pass; retain all failures",
+  "secondary": "raw restriction and completed error, recovery ratio, dynamic and equilibrium component errors, contact strain and boundary probability",
+  "compute_cap": {
+    "seconds_total": 1200,
+    "peak_bytes": 4000000000,
+    "paid_compute": false
+  },
+  "failure_branch": "reject additive correction as general representation remedy if any locked case fails; retain it only as a regime-specific research candidate after new predeclared validation, never tune stiffness/time to obtain a pass",
+  "protein_diagnostic": "apply same formula to frozen KRAS d2 n33 and n65 arrays after toy outputs freeze; record shortlist with corrected unknown reference handling; no full nonlinear protein accuracy claim",
+  "randomness": "none; deterministic sparse matrix exponential action"
+}

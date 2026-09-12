@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "comparison": "Every row in the released ranking CSV versus the amendment; method, rank, canonical identity and parsed score agree exactly.",
+  "rows": 1260,
+  "methods": 10,
+  "candidates_per_method": 126,
+  "historical_sha256": "d4a016284fef917828888fab7a8c27d40056e66c5884afe0299a93e3dacd450a",
+  "amended_sha256": "bb674a208c81416839965219f2757aeba5c226f0be693eb44a86f923e85755db"
+}

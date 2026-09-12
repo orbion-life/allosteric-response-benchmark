@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "array_comparisons": {
+    "basis": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "reconstruction": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "physical_basis": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "physical_reconstruction": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "gamma": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "rho": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "scale": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "shared_exact": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "C_exact": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "exact_score": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "ranking": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "P_data": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "P_indices": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "P_indptr": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "monomial_correlation": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "fixed_coefficients": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    "oracle_coefficients": {
+      "passed": true,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "independent_normalized_monomial_response_error": 2.0599841277224584e-18,
+  "tests": [
+    "All replay array shapes/finite entries and values checked",
+    "Integer state indices and ranking identities match exactly",
+    "Normalized response replay threshold 1e-10 rejects planted 1e-6 change",
+    "Cheaper normalized-monomial family independently reproduces the same physical response",
+    "Nine numerical Bessel tails lie below the analytic Chernoff bound",
+    "Selected fixed degree is minimal under the declared Chernoff criterion",
+    "Measured-mean interface certifies separated intervals and rejects overlapping/noisy intervals"
+  ],
+  "tight_interval_test": {
+    "certified": true,
+    "separation": 0.028,
+    "top5_canonical": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "max_candidate_halfwidth": 0.001
+  },
+  "loose_interval_test": {
+    "certified": false,
+    "separation": -0.009999999999999998,
+    "top5_canonical": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "max_candidate_halfwidth": 0.02
+  },
+  "noise_interval_test": {
+    "certified": false,
+    "separation": -0.012,
+    "top5_canonical": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "max_candidate_halfwidth": 0.021
+  }
+}

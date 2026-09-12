@@ -1,0 +1,222 @@
+[
+  {
+    "method": "Biquadratic d2 grid",
+    "top5": [
+      60,
+      69,
+      62,
+      61,
+      65
+    ],
+    "top5_label_states": [
+      "contact",
+      "contact",
+      "contact",
+      "contact",
+      "observed_noncontact"
+    ],
+    "hits_at_5A": 4,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.8,
+    "precision_at_5_lower_bound": 0.8,
+    "precision_at_5_upper_bound": 0.8
+  },
+  {
+    "method": "Harmonic d2 same grid",
+    "top5": [
+      60,
+      62,
+      61,
+      64,
+      69
+    ],
+    "top5_label_states": [
+      "contact",
+      "contact",
+      "contact",
+      "observed_noncontact",
+      "contact"
+    ],
+    "hits_at_5A": 4,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.8,
+    "precision_at_5_lower_bound": 0.8,
+    "precision_at_5_upper_bound": 0.8
+  },
+  {
+    "method": "Distance-Hookean d2 same grid",
+    "top5": [
+      60,
+      62,
+      69,
+      61,
+      65
+    ],
+    "top5_label_states": [
+      "contact",
+      "contact",
+      "contact",
+      "contact",
+      "observed_noncontact"
+    ],
+    "hits_at_5A": 4,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.8,
+    "precision_at_5_lower_bound": 0.8,
+    "precision_at_5_upper_bound": 0.8
+  },
+  {
+    "method": "Harmonic all 492 modes",
+    "top5": [
+      34,
+      85,
+      122,
+      123,
+      81
+    ],
+    "top5_label_states": [
+      "contact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact"
+    ],
+    "hits_at_5A": 1,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.2,
+    "precision_at_5_lower_bound": 0.2,
+    "precision_at_5_upper_bound": 0.2
+  },
+  {
+    "method": "Equilibrium d2 biquadratic",
+    "top5": [
+      60,
+      69,
+      62,
+      61,
+      65
+    ],
+    "top5_label_states": [
+      "contact",
+      "contact",
+      "contact",
+      "contact",
+      "observed_noncontact"
+    ],
+    "hits_at_5A": 4,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.8,
+    "precision_at_5_lower_bound": 0.8,
+    "precision_at_5_upper_bound": 0.8
+  },
+  {
+    "method": "Equilibrium all-mode harmonic",
+    "top5": [
+      34,
+      85,
+      122,
+      123,
+      81
+    ],
+    "top5_label_states": [
+      "contact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact"
+    ],
+    "hits_at_5A": 1,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.2,
+    "precision_at_5_lower_bound": 0.2,
+    "precision_at_5_upper_bound": 0.2
+  },
+  {
+    "method": "Graph heat kernel",
+    "top5": [
+      26,
+      25,
+      122,
+      123,
+      34
+    ],
+    "top5_label_states": [
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "contact"
+    ],
+    "hits_at_5A": 1,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.2,
+    "precision_at_5_lower_bound": 0.2,
+    "precision_at_5_upper_bound": 0.2
+  },
+  {
+    "method": "Contact degree",
+    "top5": [
+      81,
+      78,
+      111,
+      6,
+      90
+    ],
+    "top5_label_states": [
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact"
+    ],
+    "hits_at_5A": 0,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.0,
+    "precision_at_5_lower_bound": 0.0,
+    "precision_at_5_upper_bound": 0.0
+  },
+  {
+    "method": "Receiver inverse distance",
+    "top5": [
+      57,
+      34,
+      8,
+      81,
+      152
+    ],
+    "top5_label_states": [
+      "observed_noncontact",
+      "contact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact"
+    ],
+    "hits_at_5A": 1,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.2,
+    "precision_at_5_lower_bound": 0.2,
+    "precision_at_5_upper_bound": 0.2
+  },
+  {
+    "method": "Ohm pinned upstream",
+    "top5": [
+      158,
+      127,
+      128,
+      153,
+      85
+    ],
+    "top5_label_states": [
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact",
+      "observed_noncontact"
+    ],
+    "hits_at_5A": 0,
+    "top5_unknown_count": 0,
+    "precision_at_5": 0.0,
+    "precision_at_5_lower_bound": 0.0,
+    "precision_at_5_upper_bound": 0.0
+  }
+]

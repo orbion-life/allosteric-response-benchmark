@@ -1,0 +1,60 @@
+{
+  "views_and_checks": {
+    "KRAS": {
+      "center_A": [
+        -4.125831325301205,
+        -22.066951807228907,
+        41.82201807228916
+      ],
+      "orthographic_view_rows": [
+        [
+          0.8404808916722273,
+          0.30070871778183883,
+          -0.45073954539607486
+        ],
+        [
+          -0.5334441587689773,
+          0.6051014268121919,
+          -0.5910072696212014
+        ]
+      ],
+      "method": "Principal-axis orthographic view, with deterministic largest-component signs; no conformation change."
+    },
+    "ABL": {
+      "center_A": [
+        28.16963890336809,
+        53.28081351991684,
+        59.57071434505402
+      ],
+      "orthographic_view_rows": [
+        [
+          0.8750456630350532,
+          -0.02320926408654317,
+          0.48348362709000325
+        ],
+        [
+          -0.481902394299488,
+          -0.135549294781114,
+          0.8656768860566646
+        ]
+      ],
+      "method": "Principal-axis orthographic view, with deterministic largest-component signs; no conformation change."
+    },
+    "shared_points_per_A": 1.6230316060351246,
+    "figure_size_pt": [
+      493,
+      216
+    ],
+    "minimum_text_font_pt": 10.4,
+    "no_text_clipped_at_figure_boundary": true,
+    "structure_scope": "Static retained input nodes only; reference ligands are not drawn or overlaid.",
+    "label_scope": "Filled marker: a reference heavy-atom contact\u22645\u00c5. Open marker: observed beyond5\u00c5. Question mark: unresolved reference position. The five markers follow prediction order."
+  },
+  "source_data_sha256": "24a319b63caf0ecdbf4f3b7f5dd69c41b78f09a3ad7ec6625c619bad930e47d8",
+  "code_sha256": "7d355b058cbff2cd52f9e698a59d825d78f285ee167ca7a20ab8730ebccbad33",
+  "outputs": {
+    "protein-comparison.pdf": "140e530ad46df84ad091ef4bb6ffa9d0e4c14018cfbfc94e9681a69840002d3b",
+    "protein-comparison.svg": "fd3f731d7b56438a71a574b13732f83c3e395f624e4abc3b6209181d2d6668b7",
+    "protein-comparison.png": "7a7421c40daa92d782e92b3715943c0a65aa4003f224fba51daa77a931ced360"
+  }
+}

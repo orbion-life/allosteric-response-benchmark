@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-09-12T14:16:53.253786+00:00",
+  "protocol_sha256": "a400c2f94364d4b5d8683497e4a535fb676f4c42219cc7c82efe635ac6955f10",
+  "script_sha256": "331941a8c6717026b291ba0056b76f5d860d5397bbf0a08df66d23f4a436db50",
+  "no_bound_reference_opened_for_prediction": true,
+  "files": {
+    "model/all-mode-harmonic-scales.npz": "601783f315a4d4483a1154e6df6e5f76f0aa85e05eac50f24e16ac971293975c",
+    "model/coordinate-d2.npz": "8117a53271e8efaa726d304bf9945db3d60e2f05128b69c415ae79f281559a49",
+    "model/static-model.json": "a790e11de9dc51c1a8df41c0b6c696547add29973580766b1ebfd572ffb643c0",
+    "model/static-model.npz": "b3b5306ac6515bafd23419b1fc5bf9ec9b5f4ef01b57b8cecc15ea994fe885e7",
+    "results/analytic-harmonic-d2.npz": "b39c8d6c89648f65c243adf18c72d5a38161892104701d52031238759736d7d0",
+    "results/analytic-harmonic-d750.npz": "9a0e55666a4b2c5d3865c3ab12d4a877f15e3e80b76b21b3486ba573df206c49",
+    "results/biquadratic-d2-n33-e4.json": "5bf5c6895626a858c266de7d644b2f9a413adc1d11a30f7962b64445c325d830",
+    "results/biquadratic-d2-n33-e4.npz": "37ccad4938f7993d13a7e541e95a608a3f1b59b1239183415cb872afcf84d96a",
+    "results/biquadratic-d2-n65-e4.json": "0531d82a1a800fb6bd860652ae20aa9fb97c6ccbc2a90a8fd5c0245948b83a93",
+    "results/biquadratic-d2-n65-e4.npz": "310eb1a5ec92898ca87ee45622af4744c797bfbfde94bbe9238968a5c445e191",
+    "results/diagnostics.json": "2287b3e85cee0df1bde97948a8a03e0734d392126e048410a0ca79976e2d684c",
+    "results/distance_hookean-d2-n33-e4.json": "488cbb6467950c4f45f004812723e4bb2eb1e933be2b765b097488597790f4e6",
+    "results/distance_hookean-d2-n33-e4.npz": "d40bff0d1647ab2aa7d0cac639f7960e61497acb973d558a1da51c6d56fbb8fd",
+    "results/distance_hookean-d2-n65-e4.json": "ae7f5a163a90bd0bfebfaf22aa579d581c9a097806c5846db8ef780cb84cf730",
+    "results/distance_hookean-d2-n65-e4.npz": "3e8e18964432938a0fd71ae78a0014ba4eb5f8e3daf76df2c9d08f818ba4d181",
+    "results/harmonic-d2-n33-e4.json": "32b3bbb4ff594042579bdf4fb6a6e74efe0269065046b227d7057ff4bcd0eaac",
+    "results/harmonic-d2-n33-e4.npz": "01638c08fa14727cdd9ef917a827762b1e4882984722ef4b5bd24de75e11d961",
+    "results/harmonic-d2-n65-e4.json": "0878ccd2ed3f6853cce55d7461d966037ef156e2cfa6739d9df4c30a0e8a443e",
+    "results/harmonic-d2-n65-e4.npz": "5bcd047c308a29b8a1cfebe1863e931d78c41ca79e3b9916e23c0e47f66a884e",
+    "results/structural-baselines.npz": "145b0c2c89315ec5dda215f2563be2566a1f621387728dfc99a159cd88173460"
+  }
+}

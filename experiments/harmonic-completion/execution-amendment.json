@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-12T14:24:16.167408+00:00",
+  "reason": "The first n65 full3-mode case took186s rather than the few seconds at n33. Parallelize independent cases and allow checkpoint continuation to complete every originally fixed stiffness/time/grid. No model, geometry, reference, dimension, error gate, sample or time is added or removed. The measured81\u00b3 nonlinear case took365s with about1.3GB resident memory. The execution allocation is revised to60min and8GB so all fixed cases can finish with four workers; the original20min/4GB estimate is preserved. This is a local compute estimate correction, not a scientific acceptance change.",
+  "interpretation": "Numerical outcomes at kappa1 were already inspected and unfavorable; this execution-only change is not a new preanalysis and does not render the study prospective.",
+  "original_protocol_sha256": "a7bbbda16b64b3c156b748766d2d52cb9e172e8fee0e779a251e0a06f855c2ee",
+  "original_script_sha256": "912f0f1a1a6326845962b07d25320f741d56d8aab5f375459401906efbd483ff",
+  "unchanged_grid_ast_sha256": "2983c8bb1efc52ff498e3daef96934951320b1aa442525d97dccafd804cb8271",
+  "maximum_parallel_workers": 4,
+  "max_seconds_per_execution": 3600,
+  "cumulative_original_plus_continuation_cap_seconds": 3600,
+  "peak_total_budget_bytes": 8000000000,
+  "cost": "local only; no external paid resources",
+  "original_max_seconds_per_execution": 1200
+}

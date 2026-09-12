@@ -1,0 +1,43 @@
+{
+  "status": "ready for parent inspection; not published",
+  "date": "2026-09-12",
+  "installation": "experiments/kras/evaluation-amendment/",
+  "excluded": [
+    "__pycache__/",
+    "results-replay/",
+    "abl-label-crosscheck.json",
+    "harmonic-formula-crosscheck.json",
+    "representation-code-review.md"
+  ],
+  "files": {
+    "INTEGRATION.md": "86d4196f58cd4665375a33b60d735cfbad8c23ff415430d1b88e2f1823173cb9",
+    "LICENSE": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9",
+    "README.md": "635988c6919718cc7a985847cb83eddfca23d9b9044ad948a3846ea40c26e878",
+    "amend_evaluation.py": "7b55b4d97e567f446a69b40cb92ecec14e9bff733ddf957be1017377f275892f",
+    "full-ranking-parity.json": "3819a3dbad7a63972879d3603adfa51254107f85e5989197f59b5a29dc884612",
+    "historical/evaluate-v0.2.0.py": "d51591107d9300d9912bcf9b8b7d0310cfdd25b2817a5d113a5ebffc72780e69",
+    "historical/evaluation-v0.2.0.json": "8e2cf6f2ea5f032cdb50f85131494d45cb9b171be90ef2e01341380f006b085a",
+    "historical/matched-null-v0.2.0.py": "9e630d50c4f5f4b98c101ec4fba9d05493bb74ed8e55ac184141474a4304b917",
+    "historical/prediction-freeze-v0.2.0.json": "7adf384117d677c01700befb291f8fbd4e092b4787628d08bf7d056af3cc87d9",
+    "replay-verification.json": "b4cefd851b84e24bbcbdd1ac9e6904acb60c7c75041271ca0987f4220d804db3",
+    "requirements.txt": "b1a0c4b6e571a19ffd3f71d95fbb5e48203c8d9f3b9cdde86f7c3b6f9643aa95",
+    "results/evaluation-input.json": "a33c5ae3be4489b2b6130983815e45b4aa5905ca7452d662210847d2be2a60ad",
+    "results/matched-configurations.npz": "5c2396fe75f0f23e2160820206734b0ccbc7b6b3cd9bc1945d44785961e13edd",
+    "results/null-comparisons.csv": "8f04fb78aa9985178fb299ec3ff25572aefe74db349202b492f1f82b3b353f74",
+    "results/null-comparisons.json": "54e5cbf41f0e7e549881520437b125a8248cc20d4869db1f80e2a80ee43536e3",
+    "results/null-plans.json": "eda2b5501e57caef9e8e44139af543aa08223787ead3ecd444da91198988dfcf",
+    "results/paired-comparisons.csv": "50085576cb3dba22cf69a269940ccf08ef1a203353af8cc05a1182ffa4e2eb6a",
+    "results/paired-comparisons.json": "db0e5c053ace5d8af05f7a3328f6381f7b31efcdd13eee13556d663adca4e0b9",
+    "results/reference-labels.csv": "409d7e24b69972df834048d32ab967b5b11c6c06c023c63797d8892402804247",
+    "results/reference-labels.json": "ee1354d9c1ea9afb440d9ec787ddb71703e2bcbba5c5a94b76a88ab82fa1b071",
+    "results/top5.json": "1ff03e59a4c36351e07ab5361f88327d47dab786f68ecb5e540152c889d5ad65",
+    "results/unchanged-rankings.csv": "bb674a208c81416839965219f2757aeba5c226f0be693eb44a86f923e85755db",
+    "results/uniform-hit-baselines.json": "5c90fe57e6983a692f65e2aa7eaeeba71efd8f5cb40275b590106d70f7996617",
+    "results/verification.json": "4c71e28b5cc5f353304fbdb78f5c1a403280c45df02239930908673f1f23df72",
+    "source-manifest.json": "abb020b4bdb02c5710f1923d245281cf4eeb036ad8f72490c41861fcde34e899",
+    "test-output.txt": "e3048f6b03da47ac7aae7bf92b2892628895213bcaa327bbf453efc47a945ecd",
+    "test-receipt.json": "366285219d26e7b8e38ec229c7e0e74624b9e461e6013dc811f1e3482a40a122",
+    "test_unknown_labels.py": "0dc626ab370a14fa574ceca2c9873f34d61940b10155dd8ccb3200a749b8d8e5"
+  },
+  "privacy_scan": "No local home/tmp path, personal email, or named team profile appears in selected text files."
+}

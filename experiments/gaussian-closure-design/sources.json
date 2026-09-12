@@ -1,0 +1,55 @@
+{
+  "retrieved_date": "2026-09-12",
+  "type": "primary literature; direct derivations are identified separately in design.md",
+  "publisher_status_limit": "The publisher DOI fetches were unavailable. The current author-hosted/arXiv versions and bibliographic DOI metadata were read; a separate publisher correction-status audit is not claimed.",
+  "sources": [
+    {
+      "id": "errea2014",
+      "author_date": "Errea, Calandra and Mauri (2014)",
+      "title": "Anharmonic free energies and phonon dispersions from the stochastic self-consistent harmonic approximation: Application to platinum and palladium hydrides",
+      "primary_url": "https://arxiv.org/pdf/1311.3083",
+      "doi": "10.1103/PhysRevB.89.064302",
+      "read_scope": "Abstract, variational setup and stopping criteria",
+      "supports": "Variational harmonic-trial methods have been applied to strongly anharmonic hydrides.",
+      "does_not_support": "Protein prediction, our fixed-centroid restriction, its convexity or OU response accuracy."
+    },
+    {
+      "id": "monacelli2021",
+      "author_date": "Monacelli et al. (2021)",
+      "title": "The Stochastic Self-Consistent Harmonic Approximation: Calculating Vibrational Properties of Materials with Full Quantum and Anharmonic Effects",
+      "primary_url": "https://arxiv.org/html/2103.03973v1",
+      "doi": "10.1088/1361-648X/ac066b",
+      "read_scope": "SectionsII\u2013III; auxiliary-frequency explanation",
+      "supports": "Gaussian trial free energy and optimization of centroids and fluctuations; auxiliary parameters need distinct physical interpretation.",
+      "does_not_support": "An accuracy bound for our delayed-response approximation."
+    },
+    {
+      "id": "bianco2017",
+      "author_date": "Bianco et al. (2017)",
+      "title": "Second order structural phase transitions, free energy curvature, and temperature-dependent anharmonic phonons in the self-consistent harmonic approximation: theory and stochastic implementation",
+      "primary_url": "https://arxiv.org/pdf/1703.03212",
+      "doi": "10.1103/PhysRevB.96.014111",
+      "read_scope": "Static-versus-dynamic discussion and conclusions",
+      "supports": "SCHA auxiliary stiffness, free-energy curvature and dynamical response are distinct objects.",
+      "does_not_support": "Our OU ansatz or exact nonlinear relaxation times."
+    },
+    {
+      "id": "vandenberghe1998",
+      "author_date": "Vandenberghe, Boyd and Wu (1998)",
+      "title": "Determinant Maximization with Linear Matrix Inequality Constraints",
+      "primary_url": "https://web.stanford.edu/~boyd/papers/maxdet.html",
+      "read_scope": "Author-hosted abstract and linked technical paper definition",
+      "supports": "Log-determinant convex optimization is distinct from a linear SDP.",
+      "does_not_support": "A quantum speedup or cost guarantee for this covariance objective."
+    },
+    {
+      "id": "vandenberghe1996",
+      "author_date": "Vandenberghe and Boyd (1996)",
+      "title": "Semidefinite Programming",
+      "primary_url": "https://web.stanford.edu/~boyd/papers/sdp.html",
+      "read_scope": "Author-hosted definition",
+      "supports": "A linear SDP has a linear objective and affine positive-semidefinite constraints.",
+      "does_not_support": "Calling a quadratic-plus-logdet objective a linear SDP."
+    }
+  ]
+}

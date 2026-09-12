@@ -1,0 +1,51 @@
+{
+  "finite_intervention_checks": [
+    {
+      "kappa": 1,
+      "states": 125,
+      "errors": [
+        {
+          "h": 0.0001,
+          "max_normalized_C_error": 2.3056963283085707e-10
+        },
+        {
+          "h": 5e-05,
+          "max_normalized_C_error": 5.364179933575741e-11
+        }
+      ]
+    },
+    {
+      "kappa": 10,
+      "states": 125,
+      "errors": [
+        {
+          "h": 0.0001,
+          "max_normalized_C_error": 9.027709135800421e-10
+        },
+        {
+          "h": 5e-05,
+          "max_normalized_C_error": 2.2518487075018356e-10
+        }
+      ]
+    },
+    {
+      "kappa": 100,
+      "states": 125,
+      "errors": [
+        {
+          "h": 0.0001,
+          "max_normalized_C_error": 1.1015001688541304e-09
+        },
+        {
+          "h": 5e-05,
+          "max_normalized_C_error": 2.77758316347132e-10
+        }
+      ]
+    }
+  ],
+  "meaning": "Independent perturbation of generator rates, using dense probability evolution from unperturbed equilibrium; not another use of the covariance identity.",
+  "replayed_arrays": 567,
+  "replayed_archives": 81,
+  "max_absolute_array_difference": 5.981326545168031e-15,
+  "status": "PASS"
+}

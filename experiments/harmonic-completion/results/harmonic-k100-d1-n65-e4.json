@@ -1,0 +1,13 @@
+{
+  "d": 1,
+  "n": 65,
+  "extent": 4,
+  "kind": "harmonic",
+  "kappa": 100,
+  "states": 65,
+  "seconds": 0.11407958302879706,
+  "stationarity_residual": 4.774861585710429e-13,
+  "boundary_probability": 3.345916258360386e-05,
+  "strain_probability_gt_0_2": 0.0,
+  "mean_max_contact_strain": 0.013103066059608546
+}

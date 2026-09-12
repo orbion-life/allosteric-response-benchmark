@@ -1,0 +1,18 @@
+{
+  "timing": {
+    "preparation_seconds": 1.261675083,
+    "analytic_d2_seconds": 12.392316459,
+    "analytic_d750_seconds": 14.355881917000001,
+    "total_calculation_seconds": 41.96033725,
+    "peak_RSS_bytes": 333643776
+  },
+  "environment": {
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "biopython": "1.85",
+    "platform": "darwin"
+  },
+  "scope": "PDB/CIF parsing, Hessian, both harmonic references, six grid cases and graph/geometric controls. Evaluation and replay are separate.",
+  "resource_limits_passed": true
+}

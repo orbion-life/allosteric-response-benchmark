@@ -2,11 +2,35 @@
 
 **Project Pulsar: reproducible static-structure mechanics and a complete quantum-walk estimator.**
 
-This repository separates three questions: whether a mechanical response identifies a known regulatory pocket, whether retained coordinates preserve that response, and whether a quantum circuit reproduces the same calculation at a useful cost. It contains a synthetic contact-network benchmark, a controlled KRAS pilot and a fully compiled protein-derived quantum circuit. The negative results are part of the release.
+This repository tests whether static protein contact mechanics identify regulatory pockets, whether approximate coordinates preserve the response, and whether a quantum estimator can reproduce useful predictions at an acceptable total cost. Version **0.3.0** adds a locked ABL comparison, corrected KRAS evaluation, same-model quantum costing, two failed representation remedies and a proposed Gaussian-closure experiment. The original v0.2.0 scientific artifacts remain unchanged.
 
-![KRAS structure and matched comparator results](experiments/kras/pilot/figures/kras-pilot-overview.png)
+![KRAS and ABL input structures with matched reference labels](experiments/two-target-comparison/figures/protein-comparison.png)
 
-## What version 0.2.0 establishes
+## What version 0.3.0 establishes
+
+| Question | Recorded result | Interpretation |
+|---|---|---|
+| Does the KRAS contact result transfer to ABL? | KRAS has four known contacts among five predictions. ABL has zero known contacts and one unresolved member, giving bounds of zero to one contact. | The fixed model does not demonstrate useful ABL transfer. Unknown positions are not counted as definite misses. |
+| Does nonlinearity improve the declared controls? | No comparison passes the six-slot Holm correction. The smallest adjusted p is 0.075592 for ABL versus harmonic; its mean percentile gain is 0.017098. | A small retrospective rank shift is retained, without a demonstrated comparative benefit. |
+| Do the two compression remedies pass? | A 64-coordinate receiver-strain basis gives KRAS harmonic error 0.198519. Additive harmonic completion fails the fixed nonlinear toy gates. | Neither tested remedy establishes faithful compression; finite-grid reference limits remain explicit. |
+| What does the evaluated 1,089-state KRAS model cost? | Twelve observable directions use 78 overlaps. Sufficient ideal shot estimates range from 37.19 million to 121.88 million across exact readout bases. | These are retrospective, ranking-aware plans. Full transition loading and full quantum execution remain unresolved. |
+| What is the next concrete experiment? | A fixed-centroid Gaussian covariance model has a strictly convex objective; its algebra and coordinate-domain check pass. | Nonlinear-response validation is proposed, not completed. It initially supplies a classical comparator and does not establish a useful quantum task. |
+
+The corrected KRAS evaluator excludes missing reference residues 105–107 from its null pool while retaining their prediction ranks. It uses 123 evaluable candidates among 126 predictions. The amended three-slot contact-enrichment p is 0.00029997 for KRAS and 1 for ABL; the unrun MYH7 slot remains explicit. These conditional-label statistics do not establish functional allostery. Model scales are not physiologically calibrated.
+
+## New evidence and complete replay instructions
+
+- [KRAS missing-reference correction](experiments/kras/evaluation-amendment/README.md), with every original score and ranking retained.
+- [Locked ABL pilot](experiments/abl/pilot/README.md), including the complete 252 × 252 matrices, mappings, distances and all controls.
+- [Joint statistical audit and portable figure sources](experiments/two-target-comparison/README.md).
+- [Same-model quantum cost](experiments/kras/same-model-cost/README.md), including actual preparation compilations, loading stops and operational interval rules.
+- [Nonlinear harmonic-completion experiment](experiments/harmonic-completion/README.md), including all 81 reference/result archives and an independent intervention check.
+- [Receiver-sensitive coordinate experiment](experiments/receiver-sensitive-coordinates/README.md), with explicit tied-subspace handling.
+- [Proposed Gaussian closure](experiments/gaussian-closure-design/README.md), with derivation, literature, fixed reference tests, compute limits and failure decisions.
+
+Run the documented experiments in a fresh clone or separate output directory. Environments are pinned per package. The comparative automated workflow replays ABL, the evaluation amendment, sampling-cost analysis, receiver basis and fast algebra checks. The optional full-completion workflow repeats all 72 synthetic grid cases; the complete local replay is also retained. A passing software check means the stated calculation is reproducible, not that its scientific acceptance gates pass.
+
+## The preserved version 0.2.0 evidence
 
 | Question | Recorded result | Interpretation |
 |---|---|---|
@@ -72,7 +96,7 @@ python3.12 -m venv .venv
 .venv/bin/python plot_pilot.py
 ```
 
-Run in a copy when preserving the original timestamped receipts matters. The full numerical run produces 24 grid cases, eight analytic harmonic references and a structural-baseline archive. Fresh same-host replays reproduced every array across all 33 archives identically. Cross-machine verification uses declared numerical tolerances; wall time and memory are not fixed outputs.
+The command above reproduces the historical evaluator. For current interpretation, then run the [unknown-aware evaluation amendment](experiments/kras/evaluation-amendment/README.md). Run in a copy when preserving the original timestamped receipts matters. The full numerical run produces 24 grid cases, eight analytic harmonic references and a structural-baseline archive. Fresh same-host replays reproduced every array across all 33 archives identically. Cross-machine verification uses declared numerical tolerances; wall time and memory are not fixed outputs.
 
 **Complete quantum circuit**
 
@@ -92,7 +116,7 @@ The original root-level `reproduce.py` and tests remain unchanged. Install the r
 
 ## Inputs, controls and repeatability
 
-The protein input is [RCSB 4OBE](https://www.rcsb.org/structure/4OBE), chain A, KRAS4B residues 1–166. Eighteen input GDP-contacting residues define the receiver; GDP is then excluded from the mechanical model. The evaluation uses mapped [6OIM MOV contacts](https://www.rcsb.org/structure/6OIM). The input and reference differ at G12C, C51S, C80L and C118S. The protocol and prediction freeze precede numerical pocket evaluation, but the known structures make the study retrospective rather than prospectively blinded.
+The original KRAS input is [RCSB 4OBE](https://www.rcsb.org/structure/4OBE), chain A, KRAS4B residues 1–166. Eighteen input GDP-contacting residues define the receiver; GDP is then excluded from the mechanical model. The evaluation uses mapped [6OIM MOV contacts](https://www.rcsb.org/structure/6OIM). The input and reference differ at G12C, C51S, C80L and C118S. The protocol and prediction freeze precede numerical pocket evaluation, but the known structures make the study retrospective rather than prospectively blinded.
 
 The full matrix, every candidate rank, five distances, common normalizers, raw sources, random seeds, dependency locks, numerical checks and failure records accompany each experiment. Equilibrium covariance, analytic all-mode harmonic response, matched energy laws, graph diffusion, degree, receiver distance and pinned upstream Ohm are retained as controls. Ohm is the current upstream implementation, with documented differences from the 2020 paper; it is not presented as an exact paper reproduction.
 
