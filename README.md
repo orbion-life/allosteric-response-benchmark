@@ -1,5 +1,7 @@
 # Allosteric response benchmark
 
+**v0.4.0 numerical status:** the new finite-response experiment has a known [strict cross-platform bound-comparison failure](experiments/observable-preserving-reduction/README.md#known-cross-platform-numerical-limitation). All tested response arrays agree within the declared allowance and finite fidelity remains 17/18; full-array portability and practical quantum benefit are not established. The original failure, tolerances and results are preserved.
+
 **Project Pulsar: reproducible static-structure mechanics and a complete quantum-walk estimator.**
 
 This repository tests whether static contact mechanics identify regulatory pockets, whether numerical reductions preserve their responses, and whether quantum evaluation is useful at complete cost. Version **0.4.0** adds an observable-seeded response-operator experiment. Earlier protein predictions, failed coordinate remedies and quantum fixtures remain unchanged.

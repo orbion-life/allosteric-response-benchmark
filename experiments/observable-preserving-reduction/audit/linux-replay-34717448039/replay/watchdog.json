@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "returncode": 0,
+  "limit_reason": null,
+  "wall_seconds": 348.15029724,
+  "sampled_peak_aggregate_bytes": 542924800,
+  "sampling_seconds": 0.25,
+  "limits": {
+    "max_total_wall_seconds": 1800,
+    "max_aggregate_bytes": 4000000000,
+    "workers": 1,
+    "BLAS_threads": 1,
+    "paid_compute": false
+  }
+}

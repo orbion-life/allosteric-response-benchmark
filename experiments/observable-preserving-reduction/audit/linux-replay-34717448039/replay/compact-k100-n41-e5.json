@@ -1,0 +1,22 @@
+{
+  "geometry": "compact",
+  "kappa": 100,
+  "n": 41,
+  "extent": 5,
+  "times": [
+    0.0007142857142857133,
+    0.007142857142857133,
+    0.07142857142857133
+  ],
+  "reference_only": true,
+  "common_setup_seconds": 0.028773774999990565,
+  "states": 68921,
+  "nnz": 472361,
+  "stationarity_residual": 2.5579538487363607e-13,
+  "centered_observable_residual": 2.4065604923205686e-14,
+  "boundary_probability": 1.4189887148272831e-06,
+  "reference_seconds": 23.497525627000016,
+  "case_seconds": 23.52743399100001,
+  "cpu_seconds": 23.524414517000025,
+  "peak_process_bytes": 542642176
+}

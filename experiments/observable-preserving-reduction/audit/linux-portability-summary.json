@@ -1,0 +1,61 @@
+{
+  "status": "STRICT_COMPARISON_FAIL_RETAINED",
+  "date": "2026-09-12",
+  "workflow_url": "https://github.com/orbion-life/allosteric-response-benchmark/actions/runs/34717448039",
+  "tested_commit": "fa9d45f2531dc70c7dd086c38530c3f13a101082",
+  "verification_sha256": "4e04a4aeacf7162636447c1be4f4842692e504e001c96a30595130b9f6814eb8",
+  "scientific_source_sha256": "13d80e28d8acaf9ca435938d8ef08668b3cf9d0e750b7b0970b6cf26f19434ef",
+  "protocol_sha256": "530fede82261aec39165f06d0126e75e995ad131c0af0db170ce6f9c6880ada3",
+  "verifier_sha256": "d5a2516f09ec463652b3f4eb490e6afe3e606138e14a3cd5aeb4b31f139c0fba",
+  "comparison_allowance": 1e-09,
+  "observable_scale_time_arrays": 414,
+  "maximum_observable_scale_time_absolute_difference": 5.31902437025944e-10,
+  "bound_arrays": 372,
+  "bound_array_failures": 61,
+  "maximum_bound_absolute_difference": 16.71540424762327,
+  "primary": {
+    "finite_fidelity_pass_count": 17,
+    "cost_only_pass_count": 17,
+    "practical_pass_count": 16,
+    "grid_pass_count": 0,
+    "domain_pass_count": 0,
+    "watchdog": {
+      "status": "COMPLETE",
+      "returncode": 0,
+      "limit_reason": null,
+      "wall_seconds": 179.09507979097543,
+      "sampled_peak_aggregate_bytes": 799391744,
+      "sampling_seconds": 0.25,
+      "limits": {
+        "max_total_wall_seconds": 1800,
+        "max_aggregate_bytes": 4000000000,
+        "workers": 1,
+        "BLAS_threads": 1,
+        "paid_compute": false
+      }
+    }
+  },
+  "linux": {
+    "finite_fidelity_pass_count": 17,
+    "cost_only_pass_count": 18,
+    "practical_pass_count": 17,
+    "grid_pass_count": 0,
+    "domain_pass_count": 0,
+    "watchdog": {
+      "status": "COMPLETE",
+      "returncode": 0,
+      "limit_reason": null,
+      "wall_seconds": 348.15029724,
+      "sampled_peak_aggregate_bytes": 542924800,
+      "sampling_seconds": 0.25,
+      "limits": {
+        "max_total_wall_seconds": 1800,
+        "max_aggregate_bytes": 4000000000,
+        "workers": 1,
+        "BLAS_threads": 1,
+        "paid_compute": false
+      }
+    }
+  },
+  "policy": "No tolerance, scientific source, protocol, result, or verifier change. Response agreement is a scoped observation, not a relabelled full verification PASS. Timing is host dependent."
+}

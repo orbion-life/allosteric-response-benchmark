@@ -1,0 +1,22 @@
+{
+  "geometry": "elongated",
+  "kappa": 1,
+  "n": 41,
+  "extent": 5,
+  "times": [
+    0.11315433373734517,
+    1.1315433373734516,
+    11.315433373734516
+  ],
+  "reference_only": true,
+  "common_setup_seconds": 0.028068624000013642,
+  "states": 68921,
+  "nnz": 472361,
+  "stationarity_residual": 1.4432899320127035e-15,
+  "centered_observable_residual": 7.153086216224169e-15,
+  "boundary_probability": 0.00690417852967179,
+  "reference_seconds": 24.104769360999967,
+  "case_seconds": 24.133872412000017,
+  "cpu_seconds": 24.130673102000003,
+  "peak_process_bytes": 542642176
+}

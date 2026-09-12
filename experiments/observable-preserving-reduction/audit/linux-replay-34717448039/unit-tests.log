@@ -1,0 +1,19 @@
+test_integral_kernels_against_quadrature (test_operator.OperatorTests.test_integral_kernels_against_quadrature) ... ok
+test_invariant_observable_subspace_stops_at_seed (test_operator.OperatorTests.test_invariant_observable_subspace_stops_at_seed) ... ok
+test_missing_seed_component_is_counted (test_operator.OperatorTests.test_missing_seed_component_is_counted) ... ok
+test_non_psd_operator_is_rejected (test_operator.OperatorTests.test_non_psd_operator_is_rejected) ... ok
+test_nonorthogonal_basis_bound_accounts_for_mass_matrix (test_operator.OperatorTests.test_nonorthogonal_basis_bound_accounts_for_mass_matrix) ... ok
+test_original_grid_response_parity (test_operator.OperatorTests.test_original_grid_response_parity) ... ok
+test_residual_bounds_against_independent_dense_exponential (test_operator.OperatorTests.test_residual_bounds_against_independent_dense_exponential) ... ok
+test_absolute_physical_tolerance (test_verify.SemanticVerificationTests.test_absolute_physical_tolerance) ... ok
+test_changed_observable_or_response_is_rejected (test_verify.SemanticVerificationTests.test_changed_observable_or_response_is_rejected) ... ok
+test_full_cli_writes_diagnostics_before_rejecting_changed_response (test_verify.SemanticVerificationTests.test_full_cli_writes_diagnostics_before_rejecting_changed_response) ... ok
+test_invalid_reduced_operator_or_residual_is_rejected (test_verify.SemanticVerificationTests.test_invalid_reduced_operator_or_residual_is_rejected) ... ok
+test_large_values_do_not_relax_absolute_tolerance (test_verify.SemanticVerificationTests.test_large_values_do_not_relax_absolute_tolerance) ... ok
+test_nonfinite_shape_dtype_and_discrete_changes_fail (test_verify.SemanticVerificationTests.test_nonfinite_shape_dtype_and_discrete_changes_fail) ... ok
+test_rotated_basis_is_physically_equivalent (test_verify.SemanticVerificationTests.test_rotated_basis_is_physically_equivalent) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.709s
+
+OK
