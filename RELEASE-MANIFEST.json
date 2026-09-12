@@ -34,8 +34,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9300,
-      "sha256": "eec1de291c42313842ffd807fec84ce9f5608bd072c6ff2ffbce8376a9af8203"
+      "bytes": 9560,
+      "sha256": "81750bf6f57f04c5563f13adb50de2ebd5431cd4fa35dbd489e01c712e198f31"
     },
     {
       "path": "SYNTHETIC_BENCHMARK.md",
@@ -84,8 +84,8 @@
     },
     {
       "path": "experiments/kras/pilot/README.md",
-      "bytes": 17185,
-      "sha256": "bffc2fe705c2fe737254ee6083745c466317b5405be130503935c083597e9f6f"
+      "bytes": 17945,
+      "sha256": "21839df556c25f00629c0007164c521d65e54d7ed85675c9bfe08e61eb3cf342"
     },
     {
       "path": "experiments/kras/pilot/build_viewer.py",
@@ -385,7 +385,7 @@
     {
       "path": "experiments/kras/pilot/manifest.json",
       "bytes": 15885,
-      "sha256": "d44827bce4b0e93c4c8fe5770c4d53fe60ea6230b65cd8a2462f096b6e9e2a75"
+      "sha256": "a93d2d47d58c30ab05ff5596ceb894740a383e04c5f33d276bcc501f8e0629a2"
     },
     {
       "path": "experiments/kras/pilot/model/all-mode-harmonic-scales.npz",
@@ -499,8 +499,8 @@
     },
     {
       "path": "experiments/kras/pilot/repeat_all.py",
-      "bytes": 12932,
-      "sha256": "846bf32505fdb0092cdfa60f8bf80acb535460d41db9c66ea8ee216440608b5e"
+      "bytes": 16409,
+      "sha256": "57601c33cdecc1ca4f0253f969fe196149623884148953ba01a3b0633f858c09"
     },
     {
       "path": "experiments/kras/pilot/replay_ohm.py",
@@ -1265,7 +1265,7 @@
     {
       "path": "experiments/kras/quantum/PACKAGE-MANIFEST.json",
       "bytes": 14196,
-      "sha256": "938445df09b6a07869b9a4867e7a215c312f30d4801ce39f3c3440bf3d99b812"
+      "sha256": "ac1d73d9ea3b11cddba497d24b926edc1a24ac8235f9d75bdb5caf3532f29bc9"
     },
     {
       "path": "experiments/kras/quantum/PROVENANCE.json",
@@ -1274,8 +1274,8 @@
     },
     {
       "path": "experiments/kras/quantum/README.md",
-      "bytes": 15605,
-      "sha256": "c056165adf0a3b9d2583346139fe87097e8b045cbb0eeb21d6bf374733970636"
+      "bytes": 15981,
+      "sha256": "bea1e06069123648b8b8723518ce84e51e0029fdf7a25f10fb45a6e3c1d8f705"
     },
     {
       "path": "experiments/kras/quantum/baseline-source/circuit.py",

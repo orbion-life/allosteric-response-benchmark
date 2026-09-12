@@ -82,7 +82,6 @@ python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements-lock.txt
 .venv/bin/python run.py --output results-reproduced
 .venv/bin/python verify.py --results results-reproduced
-.venv/bin/python compare_runs.py results results-reproduced
 ```
 
 This runs the actual synthesized circuits through Qiskit Aer. Statevector and density-matrix evolution, finite-shot measurements, norm restoration, routing and synthetic noise are recorded. The package includes saved logical and synthesized QPY/OpenQASM circuits. A simulator can sample repeatedly from one evolved state, so gate-count-times-shot totals are projected device work, not hundreds of millions of independently simulated gates.
@@ -104,3 +103,5 @@ The optional Ohm replay rebuilds the archived upstream source with GCC 15+ and i
 The original Project Pulsar code is MIT-licensed. The separately archived Ohm source and its compatibility patch are GPL-3.0, with bundled notices retained. PDB coordinates, UniProt sequences and PDBe mappings retain their data-source licenses and attribution. See [LICENSES.md](LICENSES.md) for their exact scope and source links; the root MIT license does not replace third-party terms.
 
 Use [CITATION.cff](CITATION.cff) to cite this versioned software, and cite the original structural and algorithmic papers when reusing their data or methods. This release contains research calculations and their limits; it is not a validated drug-discovery product.
+
+The optional `compare_runs.py` performs a strict same-host repeatability check: compare two newly generated runs on your own machine. Do not use exact equality against the archived Mac run as a cross-platform acceptance test; the independent algebra and circuit checks in `verify.py` use explicit numerical tolerances.

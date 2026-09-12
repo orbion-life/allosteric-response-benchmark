@@ -23,11 +23,10 @@ The recorded environment uses Python 3.12.14, Qiskit 2.5.2 and Qiskit Aer 0.17.2
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements-lock.txt
 .venv/bin/python run.py --output results-reproduced
-.venv/bin/python verify.py
-.venv/bin/python compare_runs.py results results-reproduced
+.venv/bin/python verify.py --results results-reproduced
 ```
 
-`run.py` takes frozen, portable inputs from `inputs/`. It verifies every input hash before calculating. It does not download data, call a remote backend or require an account. `verify.py` verifies the shipped `results/` record and reloads and simulates its saved native circuits. It also checks the exact controlled-walk factorization, inactive-control identity, projected Chebyshev powers and sign-sensitive preparation. To reproduce the original less efficient decomposition, use `--walk-implementation naive --output results-naive-reproduced`. To repeat just compilation, ideal execution and finite-shot sampling, add `--skip-noise`.
+`run.py` takes frozen, portable inputs from `inputs/`. It verifies every input hash before calculating. It does not download data, call a remote backend or require an account. `verify.py --results results-reproduced` verifies the newly generated record and reloads and simulates its saved native circuits. Omitting `--results` verifies the shipped `results/` record. It also checks the exact controlled-walk factorization, inactive-control identity, projected Chebyshev powers and sign-sensitive preparation. To reproduce the original less efficient decomposition, use `--walk-implementation naive --output results-naive-reproduced`. To repeat just compilation, ideal execution and finite-shot sampling, add `--skip-noise`.
 
 `results-repeat/` is an independent ideal rerun with the same frozen inputs and seeds. `results/repeatability.json` compares its arrays, counts and native gate resources with the accepted run. Timing and memory are machine-dependent. Probability differences are checked numerically; JSON or QPY byte identity across software versions is not assumed.
 
@@ -134,3 +133,5 @@ No part of this fixture validates the omitted protein modes, the four-point grid
 Project code and documentation use the MIT license in `LICENSE`. PDB archive coordinates are available under CC0 1.0, as described in the [RCSB PDB usage policy](https://www.rcsb.org/pages/usage-policy). Source receipts retain the structure download URL, date and SHA-256. Dependency licenses remain with their respective projects; this package distributes pinned dependency names, not a bundled environment.
 
 The verifier also accepts `python verify.py --results results-reproduced` to inspect a newly generated result directory. Continuous integration verifies the newly compiled circuits, rather than only the archived results.
+
+The optional `compare_runs.py` performs a strict same-host repeatability check: compare two newly generated runs on your own machine. Do not use exact equality against the archived Mac run as a cross-platform acceptance test; the independent algebra and circuit checks in `verify.py` use explicit numerical tolerances.

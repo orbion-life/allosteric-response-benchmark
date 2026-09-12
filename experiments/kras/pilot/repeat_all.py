@@ -9,22 +9,31 @@ import argparse, datetime, json, platform, shutil, subprocess, sys, time
 import numpy as np
 from prepare import ROOT, sha
 
-# Fixed before obtaining Linux array-level diagnostics. These are engineering
-# comparison tolerances, not biological or discretization error estimates.
+# Engineering comparison tolerances, not biological/discretization estimates.
+# The moment normalization below was revised AFTER Linux run 34689513534;
+# the existing 1e-10 dimensionless tolerance itself was not increased.
 # The C tolerance is seven orders below the 1e-3 grid gate. Receiver RMS scores
 # are 1-Lipschitz in the maximum C-entry norm. Other floats require unit scaling.
 RESPONSE_ATOL = 1e-10
 INTERMEDIATE_ATOL = 1e-12
 INTERMEDIATE_RTOL = 1e-10
 RESPONSE_FIELDS = {'C', 'equilibrium', 'score'}
+MOMENT_FIELDS = {'monomial_covariance', 'monomial_time_covariance', 'monomial_centered'}
 POLICY = {
     'normalized_response_and_score': {'absolute_tolerance': RESPONSE_ATOL, 'relative_tolerance': 0.0},
     'other_floating_fields': {'absolute_tolerance': INTERMEDIATE_ATOL, 'relative_tolerance': INTERMEDIATE_RTOL,
                               'scale': 'maximum absolute value of the two compared entries'},
+    'monomial_moments': {'dimensionless_absolute_tolerance': RESPONSE_ATOL,
+        'covariance_and_delayed_scale': 'common SD outer product; SD=sqrt(maximum of the two equilibrium covariance diagonals), reused for both matrices',
+        'centered_vector_scale': 'common maximum absolute entry per column across the two centered arrays',
+        'invalid_scale': 'missing, nonfinite or nonpositive equilibrium variances/column scales fail; no field is skipped'},
     'discrete_fields': 'exact dtype, shape and values; order uses the separate score-aware rule',
     'rank_rule': 'same unique eligible node IDs; each order exactly sorted by its own finite scores/canonical tie-break; every cross-run inverted pair must have a score gap <=2e-10 in both runs',
     'rank_pair_tolerance': 2*RESPONSE_ATOL,
-    'rationale': 'The absolute C/score tolerance is seven orders below the frozen 0.001 grid/domain gate. RMS-score error is bounded by maximum C-entry error. A score gap exceeding twice the numerical tolerance must not reverse. Dimensional intermediates use relative scaling. Tolerances are not inferred from observed failing values.',
+    'rationale': 'The absolute C/score tolerance is seven orders below the frozen 0.001 grid/domain gate. RMS-score error is bounded by maximum C-entry error. A score gap exceeding twice the numerical tolerance must not reverse. Covariance entries near zero can result from cancellation, so their own entry magnitude is not a suitable scale: equilibrium SD products give dimensionless moment errors, including delayed covariance. Centered arrays use their column amplitude. Other dimensional intermediates retain relative scaling.',
+    'revision_history': ['Initial diagnostic policy: absolute C/score tolerance 1e-10 and entry-relative intermediate tolerance 1e-10.',
+        'After inspecting run34689513534: use common equilibrium fluctuation scales for monomial covariance/time covariance and common column amplitudes for centered arrays; retain the existing 1e-10 dimensionless criterion. The previous failed receipt and Linux arrays remain part of the audit history.'],
+    'interpretation': 'Passing classifies numerical agreement under declared scales. It does not prove the origin of every residual or establish physical/biological model accuracy. Actual C, equilibrium and score comparisons are unchanged.',
 }
 
 
@@ -32,7 +41,7 @@ def bitwise_equal(a, b):
     return a.dtype == b.dtype and a.shape == b.shape and a.tobytes() == b.tobytes()
 
 
-def numeric_field(a, b, name):
+def numeric_field(a, b, name, reference=None, repeated=None):
     item = {'shape': list(a.shape), 'reference_dtype': str(a.dtype), 'repeated_dtype': str(b.dtype),
             'bitwise_identical': bitwise_equal(a, b)}
     if a.shape != b.shape or a.dtype != b.dtype:
@@ -46,9 +55,37 @@ def numeric_field(a, b, name):
         return dict(item, passed=False, reason='nonfinite floating value',
                     reference_nonfinite=int(np.count_nonzero(~np.isfinite(a))),
                     repeated_nonfinite=int(np.count_nonzero(~np.isfinite(b))))
-    atol, rtol = (RESPONSE_ATOL,0.0) if name in RESPONSE_FIELDS else (INTERMEDIATE_ATOL,INTERMEDIATE_RTOL)
     difference = np.abs(a-b)
-    allowed = atol + rtol*np.maximum(np.abs(a),np.abs(b))
+    scaling = {}
+    if name in MOMENT_FIELDS:
+        if reference is None or repeated is None:
+            return dict(item,passed=False,reason='moment comparison requires both complete array records')
+        if name == 'monomial_centered':
+            if a.ndim != 2:
+                return dict(item,passed=False,reason='centered monomials must be a two-dimensional array')
+            scale = np.maximum(np.max(abs(a),axis=0),np.max(abs(b),axis=0))[None,:]
+            label = 'common maximum absolute centered-vector entry per column'
+        else:
+            covariances = [record.get('monomial_covariance') for record in (reference,repeated)]
+            if any(cov is None or cov.ndim!=2 or cov.shape!=a.shape or cov.shape[0]!=cov.shape[1]
+                   or not np.isfinite(cov).all() for cov in covariances):
+                return dict(item,passed=False,reason='missing, incompatible or nonfinite equilibrium monomial covariance')
+            diagonals = [np.diag(cov) for cov in covariances]
+            if any(np.any(diagonal<=0) for diagonal in diagonals):
+                return dict(item,passed=False,reason='nonpositive equilibrium monomial variance')
+            sd = np.sqrt(np.maximum(*diagonals))
+            scale = np.outer(sd,sd)
+            label = 'common equilibrium monomial SD outer product for both equal-time and delayed covariance'
+        if not np.isfinite(scale).all() or np.any(scale<=0):
+            return dict(item,passed=False,reason='nonfinite or nonpositive monomial comparison scale')
+        atol, rtol = 0.0, 0.0
+        allowed = RESPONSE_ATOL*scale
+        scaling = {'normalization':label,'dimensionless_absolute_tolerance':RESPONSE_ATOL,
+                   'normalization_scale_min':float(np.min(scale)),'normalization_scale_max':float(np.max(scale)),
+                   'max_dimensionless_difference':float(np.max(difference/scale)) if a.size else 0.0}
+    else:
+        atol, rtol = (RESPONSE_ATOL,0.0) if name in RESPONSE_FIELDS else (INTERMEDIATE_ATOL,INTERMEDIATE_RTOL)
+        allowed = atol + rtol*np.maximum(np.abs(a),np.abs(b))
     ratio = difference/allowed
     index = np.unravel_index(int(np.argmax(difference)),a.shape) if a.size else ()
     normalized_index = np.unravel_index(int(np.argmax(ratio)),a.shape) if a.size else ()
@@ -61,7 +98,7 @@ def numeric_field(a, b, name):
                 violating_entries=int(np.count_nonzero(difference>allowed)),
                 worst_absolute_index=[int(i) for i in index], worst_ratio_index=[int(i) for i in normalized_index],
                 reference_at_worst_absolute=value(a,index) if a.size else None,
-                repeated_at_worst_absolute=value(b,index) if a.size else None)
+                repeated_at_worst_absolute=value(b,index) if a.size else None,**scaling)
 
 
 def compare_order(reference, repeated, reference_model, repeated_model):
@@ -131,7 +168,7 @@ def compare_directories(reference, repeated):
             item['missing_fields'] = sorted(set(a)-set(b))
             item['unexpected_fields'] = sorted(set(b)-set(a))
             for name in sorted(set(a)&set(b)):
-                detail = compare_order(a,b,*models) if name=='order' else numeric_field(a[name],b[name],name)
+                detail = compare_order(a,b,*models) if name=='order' else numeric_field(a[name],b[name],name,a,b)
                 item['fields'][name] = detail
                 if 'max_tolerance_ratio' in detail:
                     entry = {'file':relative.as_posix(),**detail}
