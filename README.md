@@ -1,8 +1,12 @@
 # Allosteric response benchmark
 
-**Project Pulsar investigates thermal contact-energy response, its classical reduction and its quantum evaluation.** Version **0.5.0** adds executed harmonic calibration, controlled subspace diagnostics and measured nonlinear resource profiles. It preserves every earlier scientific result and failed check.
+**Project Pulsar investigates contact-energy responses in Gaussian protein models and a prototype quantum estimator.** Version **0.6.0** adds complete four-target Gaussian calculations, an accepted six-qubit simulated estimator, an original-model reference and direct-field tests, finite-box sampling diagnostics and a retrospective KRAS–RAF1 comparison. The local Hermite representation still fails, and independent biological and quantum advantages remain unestablished.
 
-## The new evidence separates implementation, resources and convergence
+Read the [v0.6.0 reviewer guide](docs/evidence-v0.6.0/README.md), [release notes](RELEASE-NOTES-v0.6.0.md) and [asset manifest](docs/evidence-v0.6.0/ASSET-MANIFEST-v0.6.0.json). New scientific source and raw results are delivered as versioned archives; retained source and numerical files are byte-identical to their recorded executions. The earlier versions below remain historical records, with their original failed checks and provisional statements.
+
+## Historical version 0.5.0 resource and convergence evidence
+
+### Version 0.5.0 measurements
 
 | Question | New result | What remains unresolved |
 |---|---|---|

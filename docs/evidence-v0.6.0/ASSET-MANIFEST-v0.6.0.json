@@ -1,0 +1,82 @@
+{
+  "version": "0.6.0",
+  "repository": "orbion-life/allosteric-response-benchmark",
+  "assets": [
+    {
+      "name": "pulsar-smc-particles-part-1-of-4.zip",
+      "bytes": 1814459081,
+      "sha256": "5631f6696e9e4614c19b7e941da11316f68c6fd807138f2ebd1fd92c21712d10",
+      "scope": "New SMC final particles"
+    },
+    {
+      "name": "pulsar-smc-particles-part-2-of-4.zip",
+      "bytes": 1814458020,
+      "sha256": "d0a0b54c67b0543aec47bff1105a1796236bea0937f8578c4c9d2f374d154ea6",
+      "scope": "New SMC final particles"
+    },
+    {
+      "name": "pulsar-smc-particles-part-3-of-4.zip",
+      "bytes": 1820131457,
+      "sha256": "0038e3d7f6898b7042e16d5651cf19e272eb33ba50c277ada10b3eeb3946d9be",
+      "scope": "New SMC final particles"
+    },
+    {
+      "name": "pulsar-smc-particles-part-4-of-4.zip",
+      "bytes": 1820121339,
+      "sha256": "92d47183c036c4ad48c4d324f54cfcda1d58e127b8a30ef5a8b9a09bfdd7f5b3",
+      "scope": "New SMC final particles"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-pinned-traces.zip",
+      "bytes": 214111575,
+      "sha256": "2b4c0e4873edf602c5220540a08238bfd7941f4b48c2017ec3b6a6b276853ed8",
+      "scope": "Previously unpublished stability traces"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-original-system-traces.zip",
+      "bytes": 396078895,
+      "sha256": "d14fdeeb4e30819dcbc740aa9521cdd061c24fe315dee6de870ea7f28a8387a4",
+      "scope": "Previously unpublished stability traces"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-repaired-system-traces.zip",
+      "bytes": 428431275,
+      "sha256": "331371a0dcd9f9edb084eead6c6208d3ad3b49f23c48aa55c074518ece23fa61",
+      "scope": "Previously unpublished stability traces"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-fixed-V-drivers.zip",
+      "bytes": 496562002,
+      "sha256": "e28ab2636affff29241790f229675c8c97b27ac95428387a3df8615aae9a64e7",
+      "scope": "Previously unpublished stability traces"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-source-history.zip",
+      "bytes": 1126826,
+      "sha256": "fbef1c77220e589bc0606f0ccb0b361cd83e70ab9be0adb4aa35f6576ba893b7",
+      "scope": "Already public v0.5.0 stability source/input companion retained with complete traces"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-inputs-and-comparisons.zip",
+      "bytes": 20641765,
+      "sha256": "afe8d0dc41bfa7a41332f3bdb037e513c611d414eb60d2399eb654b1bb164bf1",
+      "scope": "Already public v0.5.0 stability source/input companion retained with complete traces"
+    },
+    {
+      "name": "pulsar-execution-2026-09-13-public.zip",
+      "bytes": 773574344,
+      "sha256": "402597f6ecc300b92206633633e4a075ca18d4a9696a751bc3e651e5bcb878a1",
+      "scope": "Curated scientific source, inputs, results, provenance and replay",
+      "member_root": "pulsar-phase1-execution-2026-09-13"
+    },
+    {
+      "name": "pulsar-field-switch-2026-09-14-public.zip",
+      "bytes": 151844109,
+      "sha256": "6c6e8f490b67e5b0df4fdb0c3030ed0ebfc0dd1364686bc672fe3d87bc5ee1b0",
+      "scope": "Curated scientific source, inputs, results, provenance and replay",
+      "member_root": "pulsar-field-switch-execution-2026-09-13"
+    }
+  ],
+  "prepared_date": "2026-09-14",
+  "scope": "Content and integrity manifest; publication availability is determined by the GitHub release and asset status."
+}
