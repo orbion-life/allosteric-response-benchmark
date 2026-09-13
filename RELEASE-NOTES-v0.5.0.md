@@ -14,6 +14,8 @@ Prepared 13 September 2026. This release adds new experiments and planning evide
 
 The new packages are [physical-reference-recovery](experiments/physical-reference-recovery/README.md) and [subspace-stability-diagnostic](experiments/subspace-stability-diagnostic/README.md). The stability package supplies source and compact findings in Git; separately hashed release assets retain complete raw traces, incomplete attempts and corrections. Public replay instructions create fresh outputs rather than overwrite archived evidence.
 
+The new automated workflow runs the harmonic calibration and both nonlinear cost probes in fresh folders, then checks all 82 saved arrays against the archive at an absolute numerical replay allowance of 10⁻⁹. It also recomputes the named scientific screens, preserving failed coarse cases and requiring the final harmonic successes. This replay allowance is separate from the unchanged physical and independent-solver gates. Timing is checked against its cap rather than required to match the original host. A green execution step alone is not reported as successful reproduction.
+
 ![Harmonic calibration, numerical stability and complete nonlinear costs](experiments/subspace-stability-diagnostic/figures/computational-evidence.png)
 
 The [delivery design](docs/delivery/biological-validation-design.md) specifies one primary Ohm comparison, candidate masking, family-level precision and exact shared-missing-label accounting. The inventory is not populated and the general comparator adapter is not implemented. Assumed variability is not biological evidence. Contributor roles are proposed; effort, current affiliations and backup commitments have not been confirmed.

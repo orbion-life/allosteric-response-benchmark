@@ -27,7 +27,7 @@ jobs:
       - name: Verify algebra, saved evidence and unexecuted campaign hashes
         working-directory: experiments/physical-reference-recovery
         run: |
-          python -W error -m unittest -v test_algebra
+          python -W error -m unittest -v test_algebra test_verify_replay
           python -W error verify_saved.py --output "$PULSAR_RECOVERY_ROOT/saved-verification.json"
           python -W error continue_campaign.py > "$PULSAR_RECOVERY_ROOT/continuation-preview.json"
       - name: Replay the harmonic calibration within its declared cap
@@ -36,6 +36,9 @@ jobs:
       - name: Replay both nonlinear cost probes within their declared cap
         working-directory: experiments/physical-reference-recovery
         run: python -W error run_bounded.py --stage profiles --output "$PULSAR_RECOVERY_ROOT/nonlinear"
+      - name: Compare fresh arrays and preserve the named scientific screen outcomes
+        working-directory: experiments/physical-reference-recovery
+        run: python -W error verify_replay.py --harmonic "$PULSAR_RECOVERY_ROOT/harmonic" --nonlinear "$PULSAR_RECOVERY_ROOT/nonlinear" --output "$PULSAR_RECOVERY_ROOT/replay-verification.json"
       - name: Check public launcher and exact missing-label bounds
         run: |
           python -W error experiments/subspace-stability-diagnostic/test_bootstrap.py
