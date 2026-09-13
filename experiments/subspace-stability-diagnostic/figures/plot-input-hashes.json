@@ -1,0 +1,9 @@
+{
+  "harmonic-all-cases.csv": "e0d8d8cfd4c64cf9de09559426ad00d7fe3270f4402c2c1c2c18463222a01d7d",
+  "harmonic-all-successive-comparisons.csv": "d2c5e9e1f7837c7e31e399153898a9d5dea8782b2705ef1b6fd9f7022eaa15a4",
+  "nonlinear-all-cases.csv": "dc44652aec86595f10979ca5db79e8f1be7b5f36b701364119b124e408625ae1",
+  "nonlinear-all-queries.csv": "34abc6808d45b417593c11f4c3a7eaa3c83a6ff48f0ce148a3dffa1bd03a46f3",
+  "stability-all-cases.csv": "8edad3fed11858dec823077c9985f7a4a8ec8c15e437251c180662d2dab71c82",
+  "stability-all-fixed-V-comparisons.csv": "c2d11ab89ad57894c214e1f78aad4eeb3dd9ca0f25539f7e9d6280f0acb4938a",
+  "plot_evidence.py": "147fc9071b6cf4d43f7f1edf6bcbb189d24f8b888816d45dcaec751a813e8fc3"
+}

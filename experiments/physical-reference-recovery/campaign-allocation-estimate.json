@@ -1,0 +1,224 @@
+{
+  "status": "PROPOSED LATER ALLOCATION; COMPLETE CAMPAIGN NOT EXECUTED",
+  "source_inputs_sha256": {
+    "nonlinear-primary/nonlinear-h0.5/receipt.json": "db147f4d4ca61803b85ceb3afae9388812f2254e582930d4a5c1fcee0d79e7d2",
+    "nonlinear-primary/nonlinear-h0.25/receipt.json": "e957c4de66a92c0e9fdc5f7cfb05e862fc79bbdf1f40a7dfa4fa276a61df01d1",
+    "nonlinear-primary/watchdog.json": "3c16c0fd1fae26d9a28308b996d50c151cc01f8758337024966fadd67ed2458e",
+    "capacity-primary/case/receipt.json": "242366c46cbee521a541337724a1c8b4c978c8ce4fd83c9ea1ecc5e546b08cfe",
+    "capacity-primary/watchdog.json": "4ce23840d057a8fa851a0de2870e7e867146b22ded521125cbe035c7a87f0cae",
+    "supplementary-minima-preflight.json": "0da583c99da9ed4d047cff15241ee992335eb23b0e90c91bb61d570584c7b358",
+    "harmonic-primary/watchdog.json": "408c736bf8da1551caec0c1f20f31ed237d289ce6d1051cfaf9e1e58b61c1c44"
+  },
+  "formulas": {
+    "csr_seconds_per_nonzero": 2.0312286493204395e-09,
+    "taylor_observed_overhead_multiplier": 3.0480795046116054,
+    "chebyshev_observed_overhead_multiplier": 1.4443567711525247,
+    "count_per_spectral_bound_per_query": [
+      0.9989931707943962,
+      11.009312494468855,
+      61.652149969025594
+    ],
+    "preparation_seconds_per_state": 2.4962660799086305e-06,
+    "fixed_case_overhead_seconds": 0.3642674580332823,
+    "engineering_safety_factor": 2.0,
+    "validation_and_receipt_reserve_seconds": 60.0
+  },
+  "cases": [
+    {
+      "faces": [
+        6,
+        5,
+        17
+      ],
+      "spacing": 0.5,
+      "shape": [
+        24,
+        20,
+        68
+      ],
+      "states": 32640,
+      "csr_nonzeros": 221536,
+      "spectral_planning_bound": 191.9999999999997,
+      "spectral_scope": "Universal exit-rate/Gershgorin upper bound; no coarser-grid propagation is inferred exact.",
+      "estimated_three_column_action_seconds": 0.0004499902700558529,
+      "predicted_taylor_vector_equivalents_per_query": [
+        192,
+        2114,
+        11838
+      ],
+      "proposed_taylor_vector_equivalent_stop_per_query": [
+        384,
+        4228,
+        23676
+      ],
+      "chebyshev_degrees_using_polynomial_variance_bound": [
+        27,
+        74,
+        227
+      ],
+      "estimated_taylor_seconds_before_margin": 6.466665651081535,
+      "estimated_chebyshev_seconds_before_margin": 0.21318244987059917,
+      "estimated_preparation_and_serialization_seconds_before_margin": 0.4457455828815,
+      "estimated_total_seconds_with_twofold_margin": 14.251187367667269
+    },
+    {
+      "faces": [
+        6,
+        5,
+        17
+      ],
+      "spacing": 0.25,
+      "shape": [
+        48,
+        40,
+        136
+      ],
+      "states": 261120,
+      "csr_nonzeros": 1800064,
+      "spectral_planning_bound": 767.9999999999987,
+      "spectral_scope": "Universal exit-rate/Gershgorin upper bound; no coarser-grid propagation is inferred exact.",
+      "estimated_three_column_action_seconds": 0.0036563415674103475,
+      "predicted_taylor_vector_equivalents_per_query": [
+        768,
+        8456,
+        47349
+      ],
+      "proposed_taylor_vector_equivalent_stop_per_query": [
+        1536,
+        16912,
+        94698
+      ],
+      "chebyshev_degrees_using_polynomial_variance_bound": [
+        48,
+        144,
+        454
+      ],
+      "estimated_taylor_seconds_before_margin": 210.16529672557039,
+      "estimated_chebyshev_seconds_before_margin": 3.4115658585459787,
+      "estimated_preparation_and_serialization_seconds_before_margin": 1.016092456819024,
+      "estimated_total_seconds_with_twofold_margin": 429.18591008187076
+    },
+    {
+      "faces": [
+        6,
+        5,
+        17
+      ],
+      "spacing": 0.125,
+      "shape": [
+        96,
+        80,
+        272
+      ],
+      "states": 2088960,
+      "csr_nonzeros": 14511616,
+      "spectral_planning_bound": 1538.2406310872998,
+      "spectral_scope": "Measured largest-grid row-sum upper bound also bounds aligned reflecting subboxes.",
+      "estimated_three_column_action_seconds": 0.02947641016713688,
+      "predicted_taylor_vector_equivalents_per_query": [
+        1537,
+        16935,
+        94836
+      ],
+      "proposed_taylor_vector_equivalent_stop_per_query": [
+        3074,
+        33870,
+        189672
+      ],
+      "chebyshev_degrees_using_polynomial_variance_bound": [
+        66,
+        204,
+        643
+      ],
+      "estimated_taylor_seconds_before_margin": 3393.4402053802587,
+      "estimated_chebyshev_seconds_before_margin": 38.8704752367402,
+      "estimated_preparation_and_serialization_seconds_before_margin": 5.578867448319215,
+      "estimated_total_seconds_with_twofold_margin": 6875.779096130636
+    },
+    {
+      "faces": [
+        7,
+        6,
+        18
+      ],
+      "spacing": 0.125,
+      "shape": [
+        112,
+        96,
+        288
+      ],
+      "states": 3096576,
+      "csr_nonzeros": 21534720,
+      "spectral_planning_bound": 1538.2406310872998,
+      "spectral_scope": "Measured largest-grid row-sum upper bound also bounds aligned reflecting subboxes.",
+      "estimated_three_column_action_seconds": 0.043741940219093854,
+      "predicted_taylor_vector_equivalents_per_query": [
+        1537,
+        16935,
+        94836
+      ],
+      "proposed_taylor_vector_equivalent_stop_per_query": [
+        3074,
+        33870,
+        189672
+      ],
+      "chebyshev_degrees_using_polynomial_variance_bound": [
+        67,
+        206,
+        649
+      ],
+      "estimated_taylor_seconds_before_margin": 5035.744100423161,
+      "estimated_chebyshev_seconds_before_margin": 58.25100807077098,
+      "estimated_preparation_and_serialization_seconds_before_margin": 8.094145090692429,
+      "estimated_total_seconds_with_twofold_margin": 10204.178507169248
+    },
+    {
+      "faces": [
+        8,
+        7,
+        19
+      ],
+      "spacing": 0.125,
+      "shape": [
+        128,
+        112,
+        304
+      ],
+      "states": 4358144,
+      "csr_nonzeros": 30332416,
+      "spectral_planning_bound": 1538.2406310872998,
+      "spectral_scope": "Measured largest-grid row-sum upper bound also bounds aligned reflecting subboxes.",
+      "estimated_three_column_action_seconds": 0.06161207238230569,
+      "predicted_taylor_vector_equivalents_per_query": [
+        1537,
+        16935,
+        94836
+      ],
+      "proposed_taylor_vector_equivalent_stop_per_query": [
+        3074,
+        33870,
+        189672
+      ],
+      "chebyshev_degrees_using_polynomial_variance_bound": [
+        68,
+        208,
+        655
+      ],
+      "estimated_taylor_seconds_before_margin": 7093.023959614107,
+      "estimated_chebyshev_seconds_before_margin": 82.84951676894421,
+      "estimated_preparation_and_serialization_seconds_before_margin": 11.243354496590602,
+      "estimated_total_seconds_with_twofold_margin": 14374.233661759285
+    }
+  ],
+  "estimated_full_five_case_seconds_with_margin": 31958.34340471668,
+  "proposed_allocation_wall_hours": 9,
+  "proposed_allocation_wall_seconds": 32400,
+  "proposed_aggregate_memory_cap_bytes": 6000000000,
+  "measured_capacity_aggregate_peak_bytes": 3394076672,
+  "memory_admission_scenario_bytes": 4498595840.0,
+  "memory_admission_scenario_pass": true,
+  "memory_scenario": "1.25 times the measured touched-workspace aggregate peak plus256MB. This is engineering headroom, not a proven bound on unseen propagation allocations. A6GB watchdog remains mandatory.",
+  "uncertainty": "Taylor counts are extrapolated from two smaller cost probes, not rigorously bounded by spectral radius; norm estimation, stopping behavior, cache effects and new equilibrium weights can change cost. The twofold factor and proposed action stops are declared planning safeguards, not probabilities or performance guarantees. Chebyshev degrees use a conservative polynomial variance bound and floating-point tail evaluation. Both complete propagators and normalized component comparisons are included.",
+  "launch_rule": "Only a separately approved dated campaign protocol may launch these five cases. Use one worker, one-thread environment controls, the stated hard wall/memory caps and per-query Taylor action stops. Retain every failure. Do not launch any unlisted finer grid or geometry automatically. The existing two cost-probe K/C refinement failure remains evidence, and this executable schedule is not promised to pass nonlinear convergence.",
+  "physical_limit": "The enlarged box follows the two-unit margin around all currently known congruent minima. It is not proof of complete whole-plane coverage or a native protein basin."
+}

@@ -1,0 +1,12 @@
+{
+  "states": 139264,
+  "wall_seconds": 41.8328303329763,
+  "worker_peak_rss_bytes": 150962176,
+  "propagation_counts_total": {
+    "forward_vectors": 0,
+    "forward_blocks": 8356,
+    "adjoint_vectors": 0,
+    "adjoint_blocks": 291,
+    "vector_equivalents": 25333
+  }
+}

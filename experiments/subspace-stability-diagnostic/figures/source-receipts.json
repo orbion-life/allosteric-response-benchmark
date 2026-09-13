@@ -1,0 +1,30 @@
+{
+  "harmonic-receipt.json": {
+    "source_path_from_v12_preparation": "physical/harmonic-primary/calibration/receipt.json",
+    "sha256": "75d89444ac0e49fa7623cb033a94853d7dce115af0ebc949075c895590d6f01d"
+  },
+  "nonlinear-h0.5.json": {
+    "source_path_from_v12_preparation": "physical/nonlinear-primary/nonlinear-h0.5/receipt.json",
+    "sha256": "db147f4d4ca61803b85ceb3afae9388812f2254e582930d4a5c1fcee0d79e7d2"
+  },
+  "nonlinear-h0.25.json": {
+    "source_path_from_v12_preparation": "physical/nonlinear-primary/nonlinear-h0.25/receipt.json",
+    "sha256": "e957c4de66a92c0e9fdc5f7cfb05e862fc79bbdf1f40a7dfa4fa276a61df01d1"
+  },
+  "nonlinear-watchdog.json": {
+    "source_path_from_v12_preparation": "physical/nonlinear-primary/watchdog.json",
+    "sha256": "3c16c0fd1fae26d9a28308b996d50c151cc01f8758337024966fadd67ed2458e"
+  },
+  "physical-protocol.json": {
+    "source_path_from_v12_preparation": "physical/protocol.json",
+    "sha256": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192"
+  },
+  "stability-inspection.json": {
+    "source_path_from_v12_preparation": "stability/inspection.json",
+    "sha256": "22d8ef1be495df08c75f81ff5f000c1e37f1748cea95582ed28ecdd326e45c08"
+  },
+  "stability-summary.json": {
+    "source_path_from_v12_preparation": "stability/results/summary.json",
+    "sha256": "2a44011e82cf78c5b9ef0dc9bdb0c4c0432646e7edbdeedf35a276f5763a37de"
+  }
+}

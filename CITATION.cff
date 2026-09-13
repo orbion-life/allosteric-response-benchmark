@@ -4,7 +4,7 @@ title: "Project Pulsar: Allosteric Response Benchmark"
 type: software
 authors:
   - name: "Orbion"
-version: 0.4.1
+version: 0.5.0
 date-released: 2026-09-13
 license: MIT
 repository-code: "https://github.com/orbion-life/allosteric-response-benchmark"

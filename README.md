@@ -1,12 +1,25 @@
 # Allosteric response benchmark
 
-**Current numerical status (preserved from v0.4.0):** the new finite-response experiment has a known [strict cross-platform bound-comparison failure](experiments/observable-preserving-reduction/README.md#known-cross-platform-numerical-limitation). All tested response arrays agree within the declared allowance and finite fidelity remains 17/18; full-array portability and practical quantum benefit are not established. The original failure, tolerances and results are preserved.
+**Project Pulsar investigates thermal contact-energy response, its classical reduction and its quantum evaluation.** Version **0.5.0** adds executed harmonic calibration, controlled subspace diagnostics and measured nonlinear resource profiles. It preserves every earlier scientific result and failed check.
 
-**Project Pulsar: reproducible static-structure mechanics and a complete quantum-walk estimator.**
+## The new evidence separates implementation, resources and convergence
 
-This repository tests whether static contact mechanics identify regulatory pockets, whether numerical reductions preserve their responses, and whether quantum evaluation is useful at complete cost. Version **0.4.1** corrects documentation and adds proposed recovery protocols. Version **0.4.0** introduced the observable-seeded response-operator experiment. Scientific code, all numerical outputs, failed checks and historical releases remain unchanged.
+| Question | New result | What remains unresolved |
+|---|---|---|
+| Can the harmonic reference be evaluated affordably? | Exact tensor factorization passes independent analytic and finite-grid checks; complete calibration takes 0.72 s and 136 MB on the recorded host. | The nonlinear operator does not separate. |
+| Are nonlinear propagation methods consistent? | Taylor and Chebyshev agree within 1.87 × 10⁻¹¹; both complete cost probes take 43.9 s and 206 MB. | Refined delayed covariance and response still fail 0.001. |
+| Does the corrected largest grid fit memory? | Construction plus forty touched workspace vectors uses 3.39 GB for 4,358,144 states. | Full propagation was not run on that grid. |
+| What allocation does the five-grid campaign need? | Measured costs support an estimated 8.88 h including both methods and a declared twofold planning margin; the proposed cap is 9 h and 6 GB. | The campaign is unexecuted; neither runtime nor convergence is guaranteed. |
+| Where does the bound discrepancy arise? | It persists with identical H/F and falls sharply with fixed V across tested eigensolvers. | No validated basis repair or reproduction of every Linux failure is claimed. |
 
-## Version 0.4.1 defines the next comparisons
+![Harmonic calibration, numerical stability and complete nonlinear costs](experiments/subspace-stability-diagnostic/figures/computational-evidence.png)
+
+Start with the [physical reference and resource evidence](experiments/physical-reference-recovery/README.md), [subspace diagnostic and raw-trace assets](experiments/subspace-stability-diagnostic/README.md), [external comparison and precision design](docs/delivery/biological-validation-design.md), or the [complete v0.5.0 release notes](RELEASE-NOTES-v0.5.0.md). The numerical packages provide source, protocols, environment records, fresh-output replay commands and preserved failure histories. Timings and memory are measured on the recorded host and are not portable guarantees.
+
+**Scientific status:** historical physical grid and domain checks remain 0/9 each. The strict cross-platform bound comparison still fails. KRAS does not outperform its controls; ABL has no known shortlist contacts and one unknown. Biological superiority, affordable protein extension and quantum benefit remain unestablished. The new study improves the evidence for deciding what to run next; it does not convert these failures into successes.
+
+## Version 0.4.1 defined the preceding recovery plan
+
 
 The [recovery strategy](docs/recovery/README.md) separates physical reference convergence, numerical subspace stability and a matched quantum–classical comparison. These are **proposed protocols, not new experiments or repaired failures**. The quantum target is the accepted original relaxation operator; classical sparse propagation and response-preserving projection are both comparators. The [release notes](RELEASE-NOTES-v0.4.1.md) identify every documentation correction.
 

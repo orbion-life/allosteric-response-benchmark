@@ -1,0 +1,54 @@
+{
+  "status": "REVIEWED; NO UNRESOLVED CREDENTIAL OR CONTACT CANDIDATES",
+  "raw_audit": {
+    "credential_or_contact_hits": [],
+    "reviewed_false_positives": [
+      {
+        "path": "immutable/reference_source.py",
+        "category": "email",
+        "disposition": "Directly read: H@np.sqrt(pi) is Python matrix multiplication, not a contact address."
+      },
+      {
+        "path": "reference_source-instrumentation.diff",
+        "category": "email",
+        "disposition": "Directly read: H@np.sqrt(pi) is Python matrix multiplication, not a contact address."
+      }
+    ],
+    "files_with_local_paths": [
+      "environment-provenance.json",
+      "execution-continuation-1.json",
+      "execution-continuation-2.json",
+      "execution.json",
+      "figures/bundled-render-missing-library.log",
+      "figures/first-render-dependency-warning.log",
+      "history/attempt-1-metadata-warning/execution.json",
+      "history/attempt-1-metadata-warning/launcher.log",
+      "history/attempt-1-metadata-warning/logs/01-inventory-pinned.log",
+      "history/attempt-1-metadata-warning/protocol.json",
+      "history/attempt-2-incomplete-system-svd-trace/execution-continuation-1.json",
+      "history/attempt-2-incomplete-system-svd-trace/launcher-continuation-1.log",
+      "history/attempt-2-incomplete-system-svd-trace/protocol-continuation-1.json",
+      "history/inspection-reference-bitwise-assertion/inspection.log",
+      "history/pre-execution-rank-awareness/protocol.json",
+      "launcher-continuation-1.log",
+      "launcher-continuation-2.log",
+      "launcher.log",
+      "logs/01-inventory-pinned.log",
+      "protocol-continuation-1.json",
+      "protocol-continuation-2.json",
+      "protocol.json",
+      "results/pinned/environment.json",
+      "results/system/environment.json"
+    ],
+    "files_with_host_runtime_label": [
+      "results/pinned/environment.json",
+      "results/system/environment.json"
+    ],
+    "npz_files_checked": 2345,
+    "npy_headers_checked": 12857,
+    "npz_object_arrays_found": 0,
+    "scan_scope": "All original text files, plus every NPZ member header; generated figure PDFs/PNGs checked by their known code/data provenance and visual review."
+  },
+  "public_policy": "Public-readable local paths and host label replaced by neutral placeholders. Untouched original paths and host runtime metadata remain in raw archive provenance by design. Original and display-copy hashes are recorded separately.",
+  "limitation": "Pattern scans are supplemented by direct reading of scientific source, output structure and generated-figure provenance; they are not a mathematical guarantee of absence of sensitive data."
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-13",
+  "status": "PRE-EXECUTION IMPLEMENTATION CORRECTIONS",
+  "events": [
+    {
+      "operation": "Read-only dependency inventory of existing pilot environment",
+      "outcome": "ModuleNotFoundError: No module named 'psutil'",
+      "correction": "Create a new isolated environment inside this experiment; no existing environment is modified. Dependency installation is outside numerical timing."
+    },
+    {
+      "operation": "Static preflight JSON serialization",
+      "outcome": "TypeError: Object of type int64 is not JSON serializable",
+      "scope": "Hessian and integer-count arithmetic only. No configuration grid or propagation was allocated; no response outcome existed.",
+      "correction": "Convert grid dimensions to Python integers at grid_shape return, preserving all numerical values. Protocol and scientific settings unchanged."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+test_chebyshev_versus_dense_eigen (test_algebra.AlgebraChecks.test_chebyshev_versus_dense_eigen) ... ok
+test_complete_tiny_receipt_serialization (test_algebra.AlgebraChecks.test_complete_tiny_receipt_serialization) ... ERROR
+test_degree_minimal_bound (test_algebra.AlgebraChecks.test_degree_minimal_bound) ... ok
+test_direct_quartic_observable (test_algebra.AlgebraChecks.test_direct_quartic_observable) ... ok
+test_exact_harmonic_methods (test_algebra.AlgebraChecks.test_exact_harmonic_methods) ... ERROR
+test_grid_counts (test_algebra.AlgebraChecks.test_grid_counts) ... ok
+test_known_minimum (test_algebra.AlgebraChecks.test_known_minimum) ... ok
+test_tensor_full_grid (test_algebra.AlgebraChecks.test_tensor_full_grid) ... ERROR
+
+======================================================================
+ERROR: test_complete_tiny_receipt_serialization (test_algebra.AlgebraChecks.test_complete_tiny_receipt_serialization)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<experiment>/test_algebra.py", line 69, in test_complete_tiny_receipt_serialization
+    run(output, [2, 2, 2], 1.)
+  File "<experiment>/nonlinear_profile.py", line 106, in run
+    shape, V, pi, F, boundary_mass = build_grid(model, faces, h, exact['sd'])
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<experiment>/nonlinear_profile.py", line 63, in build_grid
+    U, E = energies(model, x)
+           ^^^^^^^^^^^^^^^^^^
+  File "<experiment>/model.py", line 87, in energies
+    rr = model['r0'][None]+(x @ model['Bx'].T).reshape(-1, 3, 3)
+                            ~~^~~~~~~~~~~~~~~
+RuntimeWarning: divide by zero encountered in matmul
+
+======================================================================
+ERROR: test_exact_harmonic_methods (test_algebra.AlgebraChecks.test_exact_harmonic_methods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<experiment>/test_algebra.py", line 33, in test_exact_harmonic_methods
+    a, b = analytic_gaussian(m), independent_hermite(m)
+                                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "<experiment>/calibration.py", line 71, in independent_hermite
+    _, E = energies(model, x)
+           ^^^^^^^^^^^^^^^^^^
+  File "<experiment>/model.py", line 87, in energies
+    rr = model['r0'][None]+(x @ model['Bx'].T).reshape(-1, 3, 3)
+                            ~~^~~~~~~~~~~~~~~
+RuntimeWarning: divide by zero encountered in matmul
+
+======================================================================
+ERROR: test_tensor_full_grid (test_algebra.AlgebraChecks.test_tensor_full_grid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<experiment>/test_algebra.py", line 41, in test_tensor_full_grid
+    b, _ = small_full_grid(m, [3]*3, 1., sd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<experiment>/calibration.py", line 106, in small_full_grid
+    _, E = energies(model, x)
+           ^^^^^^^^^^^^^^^^^^
+  File "<experiment>/model.py", line 87, in energies
+    rr = model['r0'][None]+(x @ model['Bx'].T).reshape(-1, 3, 3)
+                            ~~^~~~~~~~~~~~~~~
+RuntimeWarning: divide by zero encountered in matmul
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.083s
+
+FAILED (errors=3)

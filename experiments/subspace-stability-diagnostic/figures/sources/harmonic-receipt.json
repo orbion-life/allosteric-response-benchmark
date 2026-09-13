@@ -1,0 +1,556 @@
+{
+  "status": "COMPLETE",
+  "runtime": {
+    "versions": {
+      "numpy": "2.1.3",
+      "scipy": "1.14.1",
+      "psutil": "7.2.2",
+      "threadpoolctl": "3.6.0"
+    },
+    "threadpools": [],
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "numpy_random_seed": 1729,
+  "protocol_sha256": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+  "source_hashes": {
+    "model.py": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261",
+    "calibration.py": "cbd999dab08f7f6e2fb378fbb45a86b15e7ce4945fcf0dd47e17a3dca81d1ee5"
+  },
+  "exact_method_difference": {
+    "G0": 3.3306690738754696e-16,
+    "K": 5.551115123125783e-16,
+    "C": 6.661338147750939e-16
+  },
+  "relative_scale_difference": 1.1102230246251565e-15,
+  "full_small_grid": {
+    "states": 216,
+    "csr_bytes": 16420
+  },
+  "tensor_full_difference": {
+    "G0": 6.661338147750939e-16,
+    "K": 8.081086111895778e-14,
+    "C": 8.049116928532385e-14
+  },
+  "cases": [
+    {
+      "name": "harmonic-A4-h0.5",
+      "faces": [
+        4,
+        4,
+        4
+      ],
+      "spacing": 0.5,
+      "equivalent_full_states": 4096,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 16,
+          "matrix_entries": 31,
+          "dense_eigenvectors_bytes": 2048,
+          "minimum_eigenvalue": 7.105427357601002e-15,
+          "stationarity_residual": 5.551115123125783e-16
+        },
+        {
+          "n": 16,
+          "matrix_entries": 31,
+          "dense_eigenvectors_bytes": 2048,
+          "minimum_eigenvalue": 1.0658141036401503e-14,
+          "stationarity_residual": 8.881784197001252e-16
+        },
+        {
+          "n": 16,
+          "matrix_entries": 31,
+          "dense_eigenvectors_bytes": 2048,
+          "minimum_eigenvalue": 1.4210854715202004e-14,
+          "stationarity_residual": 8.881784197001252e-16
+        }
+      ],
+      "seconds": 0.0010332500096410513,
+      "errors_against_analytic": {
+        "G0": 0.01058460947286266,
+        "K": 0.016756847939002478,
+        "C": 0.02734145741186511
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "name": "harmonic-A4-h0.25",
+      "faces": [
+        4,
+        4,
+        4
+      ],
+      "spacing": 0.25,
+      "equivalent_full_states": 32768,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 32,
+          "matrix_entries": 63,
+          "dense_eigenvectors_bytes": 8192,
+          "minimum_eigenvalue": 1.9936046350413196e-15,
+          "stationarity_residual": 2.6645352591003757e-15
+        },
+        {
+          "n": 32,
+          "matrix_entries": 63,
+          "dense_eigenvectors_bytes": 8192,
+          "minimum_eigenvalue": 2.4092505045996532e-15,
+          "stationarity_residual": 3.552713678800501e-15
+        },
+        {
+          "n": 32,
+          "matrix_entries": 63,
+          "dense_eigenvectors_bytes": 8192,
+          "minimum_eigenvalue": 5.544777470346954e-16,
+          "stationarity_residual": 5.329070518200751e-15
+        }
+      ],
+      "seconds": 0.0013339589932002127,
+      "errors_against_analytic": {
+        "G0": 0.011332139377889905,
+        "K": 0.004303591118092753,
+        "C": 0.013870789519362492
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "name": "harmonic-A4-h0.125",
+      "faces": [
+        4,
+        4,
+        4
+      ],
+      "spacing": 0.125,
+      "equivalent_full_states": 262144,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 64,
+          "matrix_entries": 127,
+          "dense_eigenvectors_bytes": 32768,
+          "minimum_eigenvalue": 7.930239705793107e-15,
+          "stationarity_residual": 7.105427357601002e-15
+        },
+        {
+          "n": 64,
+          "matrix_entries": 127,
+          "dense_eigenvectors_bytes": 32768,
+          "minimum_eigenvalue": 1.1655034702883845e-14,
+          "stationarity_residual": 1.0658141036401503e-14
+        },
+        {
+          "n": 64,
+          "matrix_entries": 127,
+          "dense_eigenvectors_bytes": 32768,
+          "minimum_eigenvalue": 2.3262865858734243e-14,
+          "stationarity_residual": 1.4210854715202004e-14
+        }
+      ],
+      "seconds": 0.0018442919827066362,
+      "errors_against_analytic": {
+        "G0": 0.011524372286116802,
+        "K": 0.008701628619572577,
+        "C": 0.011524466655830623
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "name": "harmonic-A5-h0.125",
+      "faces": [
+        5,
+        5,
+        5
+      ],
+      "spacing": 0.125,
+      "equivalent_full_states": 512000,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 80,
+          "matrix_entries": 159,
+          "dense_eigenvectors_bytes": 51200,
+          "minimum_eigenvalue": 7.929900715261836e-15,
+          "stationarity_residual": 1.0658141036401503e-14
+        },
+        {
+          "n": 80,
+          "matrix_entries": 159,
+          "dense_eigenvectors_bytes": 51200,
+          "minimum_eigenvalue": 1.1655459418441838e-14,
+          "stationarity_residual": 1.0658141036401503e-14
+        },
+        {
+          "n": 80,
+          "matrix_entries": 159,
+          "dense_eigenvectors_bytes": 51200,
+          "minimum_eigenvalue": -2.2968366616977384e-14,
+          "stationarity_residual": 2.1316282072803006e-14
+        }
+      ],
+      "seconds": 0.0020615420071408153,
+      "errors_against_analytic": {
+        "G0": 0.00029795885126282506,
+        "K": 0.0012539707178150783,
+        "C": 0.0014912569897032046
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "name": "harmonic-A6-h0.125",
+      "faces": [
+        6,
+        6,
+        6
+      ],
+      "spacing": 0.125,
+      "equivalent_full_states": 884736,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 96,
+          "matrix_entries": 191,
+          "dense_eigenvectors_bytes": 73728,
+          "minimum_eigenvalue": 7.929900917741483e-15,
+          "stationarity_residual": 7.105427357601002e-15
+        },
+        {
+          "n": 96,
+          "matrix_entries": 191,
+          "dense_eigenvectors_bytes": 73728,
+          "minimum_eigenvalue": 1.1655453886905807e-14,
+          "stationarity_residual": 1.0658141036401503e-14
+        },
+        {
+          "n": 96,
+          "matrix_entries": 191,
+          "dense_eigenvectors_bytes": 73728,
+          "minimum_eigenvalue": -1.3074711073369471e-14,
+          "stationarity_residual": 1.4210854715202004e-14
+        }
+      ],
+      "seconds": 0.0022059159819036722,
+      "errors_against_analytic": {
+        "G0": 2.627288629764024e-06,
+        "K": 0.001460777249956191,
+        "C": 0.0014626968693002285
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "name": "harmonic-A6-h0.0625",
+      "faces": [
+        6,
+        6,
+        6
+      ],
+      "spacing": 0.0625,
+      "equivalent_full_states": 7077888,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 192,
+          "matrix_entries": 383,
+          "dense_eigenvectors_bytes": 294912,
+          "minimum_eigenvalue": -2.7683853742393592e-14,
+          "stationarity_residual": 1.4210854715202004e-14
+        },
+        {
+          "n": 192,
+          "matrix_entries": 383,
+          "dense_eigenvectors_bytes": 294912,
+          "minimum_eigenvalue": 3.692250669288879e-14,
+          "stationarity_residual": 2.842170943040401e-14
+        },
+        {
+          "n": 192,
+          "matrix_entries": 383,
+          "dense_eigenvectors_bytes": 294912,
+          "minimum_eigenvalue": 5.905713483004184e-14,
+          "stationarity_residual": 5.684341886080802e-14
+        }
+      ],
+      "seconds": 0.0065999169601127505,
+      "errors_against_analytic": {
+        "G0": 2.661542130688588e-06,
+        "K": 0.000365502562113873,
+        "C": 0.00036744793256771047
+      },
+      "all_components_within_0_001": true
+    },
+    {
+      "name": "harmonic-A6-h0.03125",
+      "faces": [
+        6,
+        6,
+        6
+      ],
+      "spacing": 0.03125,
+      "equivalent_full_states": 56623104,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 384,
+          "matrix_entries": 767,
+          "dense_eigenvectors_bytes": 1179648,
+          "minimum_eigenvalue": 1.1788086985568746e-13,
+          "stationarity_residual": 8.526512829121202e-14
+        },
+        {
+          "n": 384,
+          "matrix_entries": 767,
+          "dense_eigenvectors_bytes": 1179648,
+          "minimum_eigenvalue": 1.3162375259697124e-13,
+          "stationarity_residual": 8.526512829121202e-14
+        },
+        {
+          "n": 384,
+          "matrix_entries": 767,
+          "dense_eigenvectors_bytes": 1179648,
+          "minimum_eigenvalue": 2.5306102624300353e-13,
+          "stationarity_residual": 1.7053025658242404e-13
+        }
+      ],
+      "seconds": 0.02322400000412017,
+      "errors_against_analytic": {
+        "G0": 2.6701871262968524e-06,
+        "K": 9.016423627861148e-05,
+        "C": 9.211610804082948e-05
+      },
+      "all_components_within_0_001": true
+    },
+    {
+      "name": "harmonic-A6-h0.015625",
+      "faces": [
+        6,
+        6,
+        6
+      ],
+      "spacing": 0.015625,
+      "equivalent_full_states": 452984832,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 768,
+          "matrix_entries": 1535,
+          "dense_eigenvectors_bytes": 4718592,
+          "minimum_eigenvalue": 4.823213397311662e-13,
+          "stationarity_residual": 1.7053025658242404e-13
+        },
+        {
+          "n": 768,
+          "matrix_entries": 1535,
+          "dense_eigenvectors_bytes": 4718592,
+          "minimum_eigenvalue": -6.147297393845876e-13,
+          "stationarity_residual": 3.410605131648481e-13
+        },
+        {
+          "n": 768,
+          "matrix_entries": 1535,
+          "dense_eigenvectors_bytes": 4718592,
+          "minimum_eigenvalue": 1.1377667983840543e-12,
+          "stationarity_residual": 4.547473508864641e-13
+        }
+      ],
+      "seconds": 0.09421116701560095,
+      "errors_against_analytic": {
+        "G0": 2.6723535065942272e-06,
+        "K": 2.1233954232813268e-05,
+        "C": 2.3221298160236437e-05
+      },
+      "all_components_within_0_001": true
+    },
+    {
+      "name": "harmonic-A7-h0.015625",
+      "faces": [
+        7,
+        7,
+        7
+      ],
+      "spacing": 0.015625,
+      "equivalent_full_states": 719323136,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 896,
+          "matrix_entries": 1791,
+          "dense_eigenvectors_bytes": 6422528,
+          "minimum_eigenvalue": 4.823213421450482e-13,
+          "stationarity_residual": 1.7053025658242404e-13
+        },
+        {
+          "n": 896,
+          "matrix_entries": 1791,
+          "dense_eigenvectors_bytes": 6422528,
+          "minimum_eigenvalue": -3.4515345521779994e-13,
+          "stationarity_residual": 3.410605131648481e-13
+        },
+        {
+          "n": 896,
+          "matrix_entries": 1791,
+          "dense_eigenvectors_bytes": 6422528,
+          "minimum_eigenvalue": 1.1377668021074543e-12,
+          "stationarity_residual": 4.547473508864641e-13
+        }
+      ],
+      "seconds": 0.12869250000221655,
+      "errors_against_analytic": {
+        "G0": 8.19553713782284e-09,
+        "K": 2.2979870362815902e-05,
+        "C": 2.2985459155577814e-05
+      },
+      "all_components_within_0_001": true
+    },
+    {
+      "name": "harmonic-A8-h0.015625",
+      "faces": [
+        8,
+        8,
+        8
+      ],
+      "spacing": 0.015625,
+      "equivalent_full_states": 1073741824,
+      "full_grid_allocated": false,
+      "one_dimensional": [
+        {
+          "n": 1024,
+          "matrix_entries": 2047,
+          "dense_eigenvectors_bytes": 8388608,
+          "minimum_eigenvalue": 4.823213405152241e-13,
+          "stationarity_residual": 1.7053025658242404e-13
+        },
+        {
+          "n": 1024,
+          "matrix_entries": 2047,
+          "dense_eigenvectors_bytes": 8388608,
+          "minimum_eigenvalue": -6.747819947960424e-14,
+          "stationarity_residual": 2.2737367544323206e-13
+        },
+        {
+          "n": 1024,
+          "matrix_entries": 2047,
+          "dense_eigenvectors_bytes": 8388608,
+          "minimum_eigenvalue": 1.1377667974422393e-12,
+          "stationarity_residual": 4.547473508864641e-13
+        }
+      ],
+      "seconds": 0.17183166596805677,
+      "errors_against_analytic": {
+        "G0": 8.76076988731711e-12,
+        "K": 2.298490838170686e-05,
+        "C": 2.2984913987333933e-05
+      },
+      "all_components_within_0_001": true
+    }
+  ],
+  "comparisons": [
+    {
+      "first": "harmonic-A4-h0.5",
+      "second": "harmonic-A4-h0.25",
+      "kind": "old_grid",
+      "errors": {
+        "G0": 0.0007475299050272444,
+        "K": 0.016266802473739683,
+        "C": 0.015601954042667066
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "first": "harmonic-A4-h0.25",
+      "second": "harmonic-A4-h0.125",
+      "kind": "old_grid",
+      "errors": {
+        "G0": 0.00019223290822689698,
+        "K": 0.004398037501479823,
+        "C": 0.004222907064841186
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "first": "harmonic-A4-h0.125",
+      "second": "harmonic-A5-h0.125",
+      "kind": "old_domain",
+      "errors": {
+        "G0": 0.011226413434853977,
+        "K": 0.009894926758012956,
+        "C": 0.01122630904245403
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "first": "harmonic-A5-h0.125",
+      "second": "harmonic-A6-h0.125",
+      "kind": "old_domain",
+      "errors": {
+        "G0": 0.00029533156263306104,
+        "K": 0.00026524128498117694,
+        "C": 0.0002953296264618377
+      },
+      "all_components_within_0_001": true
+    },
+    {
+      "first": "harmonic-A6-h0.125",
+      "second": "harmonic-A6-h0.0625",
+      "kind": "fine_grid",
+      "errors": {
+        "G0": 3.4253500924563696e-08,
+        "K": 0.001095274687842318,
+        "C": 0.001095248936732518
+      },
+      "all_components_within_0_001": false
+    },
+    {
+      "first": "harmonic-A6-h0.0625",
+      "second": "harmonic-A6-h0.03125",
+      "kind": "fine_grid",
+      "errors": {
+        "G0": 8.644995608264594e-09,
+        "K": 0.0002753383258352615,
+        "C": 0.000275331824526881
+      },
+      "all_components_within_0_001": true
+    },
+    {
+      "first": "harmonic-A6-h0.03125",
+      "second": "harmonic-A6-h0.015625",
+      "kind": "fine_grid",
+      "errors": {
+        "G0": 2.1663802973748147e-09,
+        "K": 6.893028204579821e-05,
+        "C": 6.892865272234427e-05
+      },
+      "all_components_within_0_001": true
+    },
+    {
+      "first": "harmonic-A6-h0.015625",
+      "second": "harmonic-A7-h0.015625",
+      "kind": "fine_domain",
+      "errors": {
+        "G0": 2.6641579694564044e-06,
+        "K": 2.413777945631246e-06,
+        "C": 2.6641475140420923e-06
+      },
+      "all_components_within_0_001": true
+    },
+    {
+      "first": "harmonic-A7-h0.015625",
+      "second": "harmonic-A8-h0.015625",
+      "kind": "fine_domain",
+      "errors": {
+        "G0": 8.186776367935522e-09,
+        "K": 7.471648522106022e-09,
+        "C": 8.187955313765372e-09
+      },
+      "all_components_within_0_001": true
+    }
+  ],
+  "wall_seconds": 0.4754618749720976,
+  "worker_peak_rss_bytes": 81657856,
+  "harmonic_implementation_milestone_pass": true,
+  "scientific_scope": "Analytic harmonic implementation and finite harmonic calibration only; nonlinear reference remains unresolved."
+}

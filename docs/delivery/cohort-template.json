@@ -1,0 +1,12 @@
+{
+  "status": "proposed_not_launchable",
+  "analysis_owner": null,
+  "committed_effort_record": null,
+  "backup_owner": null,
+  "precision_design": null,
+  "sampling_rule": null,
+  "primary_comparator": "Proposed: Ohm 462a3b1, mean native score at seeds11/29/47, 10000rounds each",
+  "analysis_plan": "biological-validation-design.md",
+  "families": [],
+  "note": "An empty inventory is intentional. No external family count or commitment has been established."
+}

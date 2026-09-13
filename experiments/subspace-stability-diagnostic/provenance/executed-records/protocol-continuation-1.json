@@ -1,0 +1,219 @@
+{
+  "created_utc": "2026-09-13T06:51:25.284941+00:00",
+  "status": "PROCEDURAL CONTINUATION RECORDED BEFORE NEXT EXECUTION",
+  "question": "Locate the first consequential admitted-subspace divergence and separate native input construction, basis recurrence and identical-basis bound evaluation.",
+  "source_proposal_sha256": "6a2a5b65ba504d653c08c29253f8c0beff97945eddf3f896952ab2a67c1f9d37",
+  "scientific_model_and_gates": "Exactly immutable/preanalysis.json; no changes. Original historical failures retained.",
+  "cases": [
+    {
+      "name": "development-k1-n17-e4",
+      "geometry": "development",
+      "kappa": 1,
+      "n": 17
+    },
+    {
+      "name": "elongated-k100-n33-e4",
+      "geometry": "elongated",
+      "kappa": 100,
+      "n": 33
+    }
+  ],
+  "shared_input": "Pinned native H/F/times arrays, unmodified, in both environments. Native H/F also retained in both.",
+  "instrumentation": "AST inserts logging calls only; stripping logging recovers original numerical AST. Bitwise build parity in both environments and uninstrumented control-basis parity in both. Six traced basis runs plus two uninstrumented control parity runs.",
+  "comparison_thresholds": [
+    1e-12,
+    1e-10,
+    1e-08,
+    1e-06
+  ],
+  "svd_isolation_selection": "First shared-input eligible residual span with directional gap >1e-10, otherwise first residual block; same W under gesdd/gesvd in both environments. No mandatory forward continuation; no cause claim from a driver association alone.",
+  "eigh_isolation": "Every pinned native basis checkpoint, identical H/F/V in both environments, drivers evr/evd/ev, each with internally consistent actual propagated operator/residual.",
+  "scope_limits": "No new geometry or physical convergence campaign, no Linux/remote execution, no alternative recurrence or tolerance repair.",
+  "limits": {
+    "wall_seconds": 1800,
+    "aggregate_bytes": 4000000000,
+    "workers": 1,
+    "paid_compute": false,
+    "remote_compute": false
+  },
+  "single_thread_environment": [
+    "OMP_NUM_THREADS",
+    "OPENBLAS_NUM_THREADS",
+    "MKL_NUM_THREADS",
+    "BLIS_NUM_THREADS",
+    "VECLIB_MAXIMUM_THREADS",
+    "NUMEXPR_NUM_THREADS"
+  ],
+  "executables": {
+    "pinned": "<project>/pulsar-response-open-source/.venv/bin/python",
+    "system": "/usr/bin/python3"
+  },
+  "jobs": [
+    {
+      "name": "inventory-pinned",
+      "mode": "inventory",
+      "label": "pinned",
+      "max_seconds": 45
+    },
+    {
+      "name": "inventory-system",
+      "mode": "inventory",
+      "label": "system",
+      "max_seconds": 45
+    },
+    {
+      "name": "native-build-0-pinned",
+      "mode": "build",
+      "label": "pinned",
+      "max_seconds": 45,
+      "case": 0
+    },
+    {
+      "name": "native-build-0-system",
+      "mode": "build",
+      "label": "system",
+      "max_seconds": 45,
+      "case": 0
+    },
+    {
+      "name": "native-build-1-pinned",
+      "mode": "build",
+      "label": "pinned",
+      "max_seconds": 45,
+      "case": 1
+    },
+    {
+      "name": "native-build-1-system",
+      "mode": "build",
+      "label": "system",
+      "max_seconds": 45,
+      "case": 1
+    },
+    {
+      "name": "native-basis-0-pinned",
+      "mode": "basis",
+      "label": "pinned",
+      "max_seconds": 100,
+      "case": 0
+    },
+    {
+      "name": "native-basis-0-system",
+      "mode": "basis",
+      "label": "system",
+      "max_seconds": 100,
+      "case": 0
+    },
+    {
+      "name": "identical-input-basis-0-system",
+      "mode": "basis",
+      "label": "system",
+      "max_seconds": 100,
+      "case": 0,
+      "shared": true
+    },
+    {
+      "name": "native-basis-1-pinned",
+      "mode": "basis",
+      "label": "pinned",
+      "max_seconds": 100,
+      "case": 1
+    },
+    {
+      "name": "native-basis-1-system",
+      "mode": "basis",
+      "label": "system",
+      "max_seconds": 100,
+      "case": 1
+    },
+    {
+      "name": "identical-input-basis-1-system",
+      "mode": "basis",
+      "label": "system",
+      "max_seconds": 100,
+      "case": 1,
+      "shared": true
+    },
+    {
+      "name": "fixed-V-eigh-0-pinned",
+      "mode": "eigh",
+      "label": "pinned",
+      "max_seconds": 60,
+      "case": 0
+    },
+    {
+      "name": "fixed-V-eigh-0-system",
+      "mode": "eigh",
+      "label": "system",
+      "max_seconds": 60,
+      "case": 0
+    },
+    {
+      "name": "fixed-V-eigh-1-pinned",
+      "mode": "eigh",
+      "label": "pinned",
+      "max_seconds": 60,
+      "case": 1
+    },
+    {
+      "name": "fixed-V-eigh-1-system",
+      "mode": "eigh",
+      "label": "system",
+      "max_seconds": 60,
+      "case": 1
+    },
+    {
+      "name": "full-admission-comparisons",
+      "mode": "compare",
+      "label": "pinned",
+      "max_seconds": 240
+    },
+    {
+      "name": "identical-residual-svd-0-pinned",
+      "mode": "svd",
+      "label": "pinned",
+      "max_seconds": 30,
+      "case": 0
+    },
+    {
+      "name": "identical-residual-svd-0-system",
+      "mode": "svd",
+      "label": "system",
+      "max_seconds": 30,
+      "case": 0
+    },
+    {
+      "name": "identical-residual-svd-1-pinned",
+      "mode": "svd",
+      "label": "pinned",
+      "max_seconds": 30,
+      "case": 1
+    },
+    {
+      "name": "identical-residual-svd-1-system",
+      "mode": "svd",
+      "label": "system",
+      "max_seconds": 30,
+      "case": 1
+    },
+    {
+      "name": "final-comparison-summary",
+      "mode": "summary",
+      "label": "pinned",
+      "max_seconds": 60
+    }
+  ],
+  "code_sha256": {
+    "diagnostic.py": "5326d350bc5a2292accb2e7fd4d10ef60aff834776fdedc9f3fb2b7b1b1b97e4",
+    "bounded_run.py": "7f501112d59657ca0e412d6ce6e55596d961379b45cea2f1d59db5cc66333af8",
+    "immutable/operator_study.py": "13d80e28d8acaf9ca435938d8ef08668b3cf9d0e750b7b0970b6cf26f19434ef",
+    "immutable/reference_source.py": "fbba55295943ea42ee63ca1c0607227d4f38a5fe71637f50e565f5bd2132b279",
+    "immutable/vendor/prepare.py": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b",
+    "immutable/vendor/run_pilot.py": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053",
+    "immutable/preanalysis.json": "530fede82261aec39165f06d0126e75e995ad131c0af0db170ce6f9c6880ada3"
+  },
+  "pre_execution_clarification": "Report residual-span effective ranks before interpreting gaps. Rank cutoffs are diagnostic only and do not alter original numerical admission or scientific gates. Original pre-execution version retained in history.",
+  "prior_execution_seconds": 2.0054447079999997,
+  "execution_file": "execution-continuation-1.json",
+  "log_directory": "logs-continuation-1",
+  "procedural_amendment": "Only environment metadata collection changed: inspect configuration dictionaries instead of pretty-printing requiring optional PyYAML. Original failed attempt preserved. No numerical operations, cases, gates, trace semantics or cap changed."
+}

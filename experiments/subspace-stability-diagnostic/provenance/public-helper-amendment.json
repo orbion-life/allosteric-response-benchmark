@@ -1,0 +1,11 @@
+{
+  "changes": [
+    "bootstrap_replay.py reads replay-template.json and carries the original executed protocol hash into each new replay.",
+    "test_bootstrap.py checks the explicitly named public template.",
+    "inspect_saved.py gains a usage comment; numerical statements remain unchanged.",
+    "bootstrap_replay.py preserves supplied virtual-environment executable paths without resolving their symlinks; a dedicated packaging regression test passes."
+  ],
+  "raw_protocol_and_source_unchanged": true,
+  "scientific_model_or_gates_changed": false,
+  "status": "Packaging adaptation; no new scientific run."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "SOURCE FROZEN BEFORE CALIBRATION/PROFILE EXECUTION",
+  "utc": "2026-09-13T07:01:37.484634+00:00",
+  "clarification": "Separate allocations and deterministic seed; action-error scaling and worker/outer elapsed scopes named explicitly; tiny complete receipt-serialization test included. Previous unexecuted sources retained in history.",
+  "sha256": {
+    "calibration.py": "d2a7f1a978bbffdb4a6d5d8059f4d225c3320b212eccc99b0aeac1f9a9858de5",
+    "chebyshev.py": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340",
+    "model.py": "8fefe61ff109c1bad168fdf80b995236cc5306e8f7750c9f8ba80becd13cf2c8",
+    "nonlinear_profile.py": "9eb996bf387e4b67368d93b511635e05e31eb9ea142b3ffa5699a8e5c03a02a6",
+    "preflight.py": "f56d43da99c6f9246a908b53394c15ba71e1e10805a9c8954f32ba53f2e31251",
+    "run_bounded.py": "98c65efe0c72fc441a3663d67eaee59c2031f040d0f4bdd741570249561c74b0",
+    "test_algebra.py": "935266fbd91c6c04c579320b43105151eb6b7c2d6da1fac8899fdd0805b2898b",
+    "protocol.json": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+    "requirements.txt": "b5060ee9b86120bad86aa381e09a25a158b98105528e95fba49b6011e50e7bfb"
+  }
+}

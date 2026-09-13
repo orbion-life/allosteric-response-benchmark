@@ -1,0 +1,3 @@
+h,geometry,kappa,faces,states,preparation_and_array_serialization_seconds,Taylor_three_queries_seconds,Chebyshev_three_queries_seconds,other_validation_startup_shutdown_seconds,full_fresh_worker_seconds,worker_peak_rss_bytes,independent_K_C_max_difference,boundary_mass
+0.5,development,1,"4,4,17",17408,0.04345499991904944,1.472368499962613,0.05899604206206277,0.25411525007802993,1.8289347920217551,69730304,1.6008139258616438e-11,0.26983198606487657
+0.25,development,1,"4,4,17",139264,0.06941520806867629,40.768032833060715,0.886398583999835,0.32805833290331066,42.05190495803254,150962176,1.8698739171624235e-11,0.13828840337883963

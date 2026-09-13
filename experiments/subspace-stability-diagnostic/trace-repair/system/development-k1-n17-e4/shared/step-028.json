@@ -1,0 +1,12 @@
+{
+  "incoming_rank": 84,
+  "frontier_width": 3,
+  "original_scale": 37.00931279364706,
+  "outgoing_rank": 87,
+  "admitted_width": 3,
+  "eligible_width": 3,
+  "prefix_cut": false,
+  "orthogonality_max": 3.9968028886505635e-15,
+  "orthogonality_spectral": 5.4493780164715346e-15,
+  "seed_defect_frobenius": 1.7749194100734108e-15
+}

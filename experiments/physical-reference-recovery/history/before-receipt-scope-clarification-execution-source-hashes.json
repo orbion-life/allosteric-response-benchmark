@@ -1,0 +1,16 @@
+{
+  "status": "SOURCE FROZEN BEFORE CALIBRATION/PROFILE EXECUTION",
+  "utc": "2026-09-13T06:59:53.161229+00:00",
+  "clarification": "Separate 60-second harmonic and 900-second nonlinear allocations; deterministic norm-estimation seed1729. Previous unexecuted sources retained in history.",
+  "sha256": {
+    "calibration.py": "d2a7f1a978bbffdb4a6d5d8059f4d225c3320b212eccc99b0aeac1f9a9858de5",
+    "chebyshev.py": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340",
+    "model.py": "8fefe61ff109c1bad168fdf80b995236cc5306e8f7750c9f8ba80becd13cf2c8",
+    "nonlinear_profile.py": "15e23d4e485a410203184d9d2415b4b4e3c6ead4fe439fc9be6441dcd478f8a1",
+    "preflight.py": "f56d43da99c6f9246a908b53394c15ba71e1e10805a9c8954f32ba53f2e31251",
+    "run_bounded.py": "571af08f8ed321af4ae5b672954a47429cbdd1284a41a124c76505813c157a05",
+    "test_algebra.py": "40d5a8546d742dd7813b68ad0234704da3fd2f88bf8b49d9b6f57e36854d7bad",
+    "protocol.json": "7240c4f22a28313344a992bd7bf583aa4d2fbc3deac3d18e73beee887c65f62c",
+    "requirements.txt": "b5060ee9b86120bad86aa381e09a25a158b98105528e95fba49b6011e50e7bfb"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sha256": "197e732fe03f3db2265431053546064e5d26c0f0efff50715f7281706083f2d4",
+  "files": 674,
+  "uncompressed_bytes": 6010216,
+  "excluded_top_level_paths": [
+    "PUBLIC-MANIFEST.json",
+    "PUBLIC-MANIFEST-RECEIPT.json"
+  ]
+}

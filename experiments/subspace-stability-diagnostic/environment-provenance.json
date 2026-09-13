@@ -1,0 +1,18 @@
+{
+  "captured_utc": "2026-09-13T07:10:32.867742+00:00",
+  "limitation": "Interpreter versions/configuration were captured during inventory. Interpreter binary hashes were added at closure, not frozen before launch.",
+  "environments": {
+    "pinned": {
+      "environment_receipt_sha256": "c04c9830e9538dfd47815ca63f4b2f5dbcfa3693e3dc36c1c269386facb868b3",
+      "executable_recorded_at_inventory": "<project>/pulsar-response-open-source/.venv/bin/python",
+      "resolved_executable_hashed_at_closure": "<user-home>/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "executable_sha256": "ac60cfe0268614638d0ffa35f3b0284fc7b3a11482723793455e17eeb278509e"
+    },
+    "system": {
+      "environment_receipt_sha256": "1c541ab48befd0e6b70f144bd61be3faaf7ce6d675b2cf108496e58320633ed1",
+      "executable_recorded_at_inventory": "<system-toolchain>/usr/bin/python3",
+      "resolved_executable_hashed_at_closure": "<system-toolchain>/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "executable_sha256": "bdea59019a38eb6600cc9e71e984a97fedadc406448431281e7657030f54987e"
+    }
+  }
+}

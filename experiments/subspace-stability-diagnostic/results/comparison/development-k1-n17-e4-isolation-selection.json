@@ -1,0 +1,53 @@
+{
+  "step": 10,
+  "stage": "eligible",
+  "gap": {
+    "column_counts": [
+      3,
+      3
+    ],
+    "effective_ranks": [
+      3,
+      3
+    ],
+    "singular_values_a": [
+      1.0000000000000004,
+      1.0000000000000002,
+      0.9999999999999999
+    ],
+    "singular_values_b": [
+      1.0,
+      1.0,
+      0.9999999999999999
+    ],
+    "diagnostic_rank_cutoffs": [
+      1.0909051439966792e-12,
+      1.0909051439966788e-12
+    ],
+    "rank_deficient_input": false,
+    "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+    "ranks": [
+      3,
+      3
+    ],
+    "same_rank": true,
+    "principal_cosines": [
+      1.0000000000000002,
+      0.9999999999999998,
+      0.9999999999999986
+    ],
+    "angles_radians": [
+      1.2516929726845386e-10,
+      7.548577287598493e-11,
+      2.7462514651644862e-11
+    ],
+    "directional_gaps": [
+      1.2516929726845386e-10,
+      1.2516930092057786e-10
+    ],
+    "maximum_gap": 1.2516930092057786e-10
+  },
+  "shape_equal": true,
+  "byte_equal": false,
+  "relative_frobenius_difference": 9.984554305697787e-11
+}

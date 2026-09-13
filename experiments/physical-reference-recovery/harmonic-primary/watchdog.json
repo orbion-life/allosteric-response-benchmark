@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-09-13T07:06:01.914647+00:00",
+  "protocol_sha256": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+  "platform": {
+    "system": "Darwin",
+    "release": "25.6.0",
+    "machine": "arm64",
+    "python": "3.12.14"
+  },
+  "stage": "calibration",
+  "workers": 1,
+  "BLAS_threads": 1,
+  "cap_seconds": 60,
+  "memory_cap_bytes": 512000000,
+  "jobs": [
+    {
+      "name": "calibration",
+      "return_code": 0,
+      "sampled_worker_peak_bytes": 81657856,
+      "outer_worker_wall_seconds": 0.7144521670415998,
+      "watchdog_stop": null
+    }
+  ],
+  "wall_seconds": 0.7150422079721466,
+  "sampled_aggregate_peak_bytes": 135692288,
+  "wall_seconds_scope": "Outer elapsed time from before the first fresh worker launch through the final worker exit and watchdog bookkeeping; includes each worker imports, receipt serialization and shutdown, excludes dependency installation and watchdog interpreter startup."
+}

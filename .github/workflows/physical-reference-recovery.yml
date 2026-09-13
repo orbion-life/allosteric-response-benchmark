@@ -1,0 +1,48 @@
+name: Replay physical reference calibration and cost probes
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+env:
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  VECLIB_MAXIMUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  PYTHONWARNINGS: error
+  PYTHONDONTWRITEBYTECODE: '1'
+jobs:
+  bounded-recovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r experiments/physical-reference-recovery/requirements.txt
+      - name: Create fresh output outside archived evidence
+        run: |
+          recovery_root=$(mktemp -d /tmp/pulsar-recovery-XXXXXX)
+          echo "PULSAR_RECOVERY_ROOT=$recovery_root" >> "$GITHUB_ENV"
+      - name: Verify algebra, saved evidence and unexecuted campaign hashes
+        working-directory: experiments/physical-reference-recovery
+        run: |
+          python -W error -m unittest -v test_algebra
+          python -W error verify_saved.py --output "$PULSAR_RECOVERY_ROOT/saved-verification.json"
+          python -W error continue_campaign.py > "$PULSAR_RECOVERY_ROOT/continuation-preview.json"
+      - name: Replay the harmonic calibration within its declared cap
+        working-directory: experiments/physical-reference-recovery
+        run: python -W error run_bounded.py --stage calibration --output "$PULSAR_RECOVERY_ROOT/harmonic"
+      - name: Replay both nonlinear cost probes within their declared cap
+        working-directory: experiments/physical-reference-recovery
+        run: python -W error run_bounded.py --stage profiles --output "$PULSAR_RECOVERY_ROOT/nonlinear"
+      - name: Check public launcher and exact missing-label bounds
+        run: |
+          python -W error experiments/subspace-stability-diagnostic/test_bootstrap.py
+          python -W error docs/delivery/paired_label_bounds.py
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() && env.PULSAR_RECOVERY_ROOT != '' }}
+        with:
+          name: physical-reference-recovery-replay
+          path: ${{ env.PULSAR_RECOVERY_ROOT }}
+          if-no-files-found: warn

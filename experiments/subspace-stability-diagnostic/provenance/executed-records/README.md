@@ -1,0 +1,1 @@
+These are readable display copies of the executed records. Local paths and host labels are neutral placeholders. Their original hashes are retained in ../public-copy-map.json; untouched original records remain in the source-history ZIP. These display files are not new execution protocols. Use ../../bootstrap_replay.py to create a fresh, dated, hashed protocol.

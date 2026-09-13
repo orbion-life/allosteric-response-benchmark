@@ -1,0 +1,2257 @@
+{
+  "status": "SUPPLEMENTARY STATIC PREFLIGHT; NO NEW RESPONSE CASES",
+  "interpretation": "These extra congruent minima were identified after the original cost-probe protocol froze. The original two cost probes remain unchanged; all later coverage-aware allocation must use this expanded inventory. This is still not proof that all minima have been found.",
+  "protocol_sha256": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+  "cases": [
+    {
+      "geometry": "development",
+      "kappa": 1,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            -2.293304435241339e-15,
+            1.5543122344752192e-15,
+            -8.205689083394113
+          ],
+          "x": [
+            -2.5844545168670874e-15,
+            2.0443601650176507e-15,
+            -14.212670403551883
+          ],
+          "projection_residual": 2.220446049250313e-15,
+          "contact_energy": 7.058094365006986e-30
+        },
+        {
+          "axis": [
+            -0.6683812072334674,
+            -0.7438189039121905,
+            0.0
+          ],
+          "q": [
+            -3.5312153811721254,
+            -1.7479331815092118,
+            -5.246776732906749
+          ],
+          "x": [
+            -3.979526399398612,
+            -2.2990264685116397,
+            -9.087683877364723
+          ],
+          "projection_residual": 2.1094237467877974e-15,
+          "contact_energy": 2.0747835264799134e-29
+        },
+        {
+          "axis": [
+            -0.7438189039121905,
+            0.6683812072334674,
+            0.0
+          ],
+          "q": [
+            3.5312153811721227,
+            1.7479331815092134,
+            -2.958912350487366
+          ],
+          "x": [
+            3.9795263993986087,
+            2.299026468511642,
+            -5.124986526187164
+          ],
+          "projection_residual": 3.9968028886505635e-15,
+          "contact_energy": 2.916290062325646e-29
+        }
+      ],
+      "initial_faces": [
+        6,
+        5,
+        17
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            6,
+            5,
+            17
+          ],
+          "spacing": 0.5,
+          "shape": [
+            24,
+            20,
+            68
+          ],
+          "states": 32640,
+          "undirected_links": 94448,
+          "csr_nonzeros": 221536,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3805704,
+            "matrix_free_diag_plus_three_link_fields_float64": 1016704,
+            "three_observable_columns_float64": 783360,
+            "one_state_vector_float64": 261120,
+            "full_coordinates_plus_positions_float64_if_allocated": 3133440,
+            "forty_state_vector_planning_workspace_float64": 10444800,
+            "csr_plus_forty_vectors_planning_only": 14250504,
+            "matrix_free_plus_forty_vectors_planning_only": 11461504
+          },
+          "maximum_rate_sum_bound": 95.99999999999984,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            748.773486851831,
+            769.8271653701593,
+            810.987879595054
+          ],
+          "variance_normalization_amplification_upper_bound": 329396.5426654012,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 191.9999999999997
+        },
+        {
+          "faces": [
+            6,
+            5,
+            17
+          ],
+          "spacing": 0.25,
+          "shape": [
+            48,
+            40,
+            136
+          ],
+          "states": 261120,
+          "undirected_links": 769472,
+          "csr_nonzeros": 1800064,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 30889992,
+            "matrix_free_diag_plus_three_link_fields_float64": 8244736,
+            "three_observable_columns_float64": 6266880,
+            "one_state_vector_float64": 2088960,
+            "full_coordinates_plus_positions_float64_if_allocated": 25067520,
+            "forty_state_vector_planning_workspace_float64": 83558400,
+            "csr_plus_forty_vectors_planning_only": 114448392,
+            "matrix_free_plus_forty_vectors_planning_only": 91803136
+          },
+          "maximum_rate_sum_bound": 383.9999999999994,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            748.773486851831,
+            769.8271653701593,
+            810.987879595054
+          ],
+          "variance_normalization_amplification_upper_bound": 329396.5426654012,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 767.9999999999987
+        },
+        {
+          "faces": [
+            6,
+            5,
+            17
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            80,
+            272
+          ],
+          "states": 2088960,
+          "undirected_links": 6211328,
+          "csr_nonzeros": 14511616,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 248897544,
+            "matrix_free_diag_plus_three_link_fields_float64": 66402304,
+            "three_observable_columns_float64": 50135040,
+            "one_state_vector_float64": 16711680,
+            "full_coordinates_plus_positions_float64_if_allocated": 200540160,
+            "forty_state_vector_planning_workspace_float64": 668467200,
+            "csr_plus_forty_vectors_planning_only": 917364744,
+            "matrix_free_plus_forty_vectors_planning_only": 734869504
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            748.773486851831,
+            769.8271653701593,
+            810.987879595054
+          ],
+          "variance_normalization_amplification_upper_bound": 329396.5426654012,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3071.999999999995
+        },
+        {
+          "faces": [
+            7,
+            6,
+            18
+          ],
+          "spacing": 0.125,
+          "shape": [
+            112,
+            96,
+            288
+          ],
+          "states": 3096576,
+          "undirected_links": 9219072,
+          "csr_nonzeros": 21534720,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 369328136,
+            "matrix_free_diag_plus_three_link_fields_float64": 98525184,
+            "three_observable_columns_float64": 74317824,
+            "one_state_vector_float64": 24772608,
+            "full_coordinates_plus_positions_float64_if_allocated": 297271296,
+            "forty_state_vector_planning_workspace_float64": 990904320,
+            "csr_plus_forty_vectors_planning_only": 1360232456,
+            "matrix_free_plus_forty_vectors_planning_only": 1089429504
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            1056.5051834680232,
+            1061.9170702578958,
+            1129.9639457636206
+          ],
+          "variance_normalization_amplification_upper_bound": 639468.9801541234,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3071.999999999995
+        },
+        {
+          "faces": [
+            8,
+            7,
+            19
+          ],
+          "spacing": 0.125,
+          "shape": [
+            128,
+            112,
+            304
+          ],
+          "states": 4358144,
+          "undirected_links": 12987136,
+          "csr_nonzeros": 30332416,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 520183816,
+            "matrix_free_diag_plus_three_link_fields_float64": 138762240,
+            "three_observable_columns_float64": 104595456,
+            "one_state_vector_float64": 34865152,
+            "full_coordinates_plus_positions_float64_if_allocated": 418381824,
+            "forty_state_vector_planning_workspace_float64": 1394606080,
+            "csr_plus_forty_vectors_planning_only": 1914789896,
+            "matrix_free_plus_forty_vectors_planning_only": 1533368320
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            1453.9914386615899,
+            1431.2323608135325,
+            1536.2560274204054
+          ],
+          "variance_normalization_amplification_upper_bound": 1182000.0881253935,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3071.999999999995
+        }
+      ]
+    },
+    {
+      "geometry": "development",
+      "kappa": 10,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            -3.866698627952303e-15,
+            2.886579864025407e-15,
+            -8.205689083394113
+          ],
+          "x": [
+            -1.377994572011498e-14,
+            1.2006121175607851e-14,
+            -44.94441010848841
+          ],
+          "projection_residual": 3.552713678800501e-15,
+          "contact_energy": 1.1136356403319388e-28
+        },
+        {
+          "axis": [
+            -0.6683812072334674,
+            -0.7438189039121905,
+            0.0
+          ],
+          "q": [
+            -3.5312153811721254,
+            -1.7479331815092163,
+            -5.246776732906748
+          ],
+          "x": [
+            -12.584367430868538,
+            -7.27016004151018,
+            -28.737779708062813
+          ],
+          "projection_residual": 1.3322676295501878e-15,
+          "contact_energy": 2.105168570517238e-29
+        },
+        {
+          "axis": [
+            -0.7438189039121905,
+            0.6683812072334674,
+            0.0
+          ],
+          "q": [
+            3.5312153811721214,
+            1.7479331815092187,
+            -2.9589123504873664
+          ],
+          "x": [
+            12.584367430868523,
+            7.270160041510191,
+            -16.206630400425613
+          ],
+          "projection_residual": 1.4432899320127035e-15,
+          "contact_energy": 4.170812013964475e-29
+        }
+      ],
+      "initial_faces": [
+        15,
+        10,
+        47
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            15,
+            10,
+            47
+          ],
+          "spacing": 0.5,
+          "shape": [
+            60,
+            40,
+            188
+          ],
+          "states": 451200,
+          "undirected_links": 1332400,
+          "csr_nonzeros": 3116000,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 53465608,
+            "matrix_free_diag_plus_three_link_fields_float64": 14268800,
+            "three_observable_columns_float64": 10828800,
+            "one_state_vector_float64": 3609600,
+            "full_coordinates_plus_positions_float64_if_allocated": 43315200,
+            "forty_state_vector_planning_workspace_float64": 144384000,
+            "csr_plus_forty_vectors_planning_only": 197849608,
+            "matrix_free_plus_forty_vectors_planning_only": 158652800
+          },
+          "maximum_rate_sum_bound": 959.9999999999984,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            3913.031490908361,
+            4082.2624128888374,
+            4228.662472774522
+          ],
+          "variance_normalization_amplification_upper_bound": 16311519.331107557,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 1919.9999999999968
+        },
+        {
+          "faces": [
+            15,
+            10,
+            47
+          ],
+          "spacing": 0.25,
+          "shape": [
+            120,
+            80,
+            376
+          ],
+          "states": 3609600,
+          "undirected_links": 10744000,
+          "csr_nonzeros": 25097600,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 430438408,
+            "matrix_free_diag_plus_three_link_fields_float64": 114828800,
+            "three_observable_columns_float64": 86630400,
+            "one_state_vector_float64": 28876800,
+            "full_coordinates_plus_positions_float64_if_allocated": 346521600,
+            "forty_state_vector_planning_workspace_float64": 1155072000,
+            "csr_plus_forty_vectors_planning_only": 1585510408,
+            "matrix_free_plus_forty_vectors_planning_only": 1269900800
+          },
+          "maximum_rate_sum_bound": 3839.9999999999936,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            3913.031490908361,
+            4082.2624128888374,
+            4228.662472774522
+          ],
+          "variance_normalization_amplification_upper_bound": 16311519.331107557,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 7679.999999999987
+        },
+        {
+          "faces": [
+            15,
+            10,
+            47
+          ],
+          "spacing": 0.125,
+          "shape": [
+            240,
+            160,
+            752
+          ],
+          "states": 28876800,
+          "undirected_links": 86291200,
+          "csr_nonzeros": 201459200,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3454361608,
+            "matrix_free_diag_plus_three_link_fields_float64": 921344000,
+            "three_observable_columns_float64": 693043200,
+            "one_state_vector_float64": 231014400,
+            "full_coordinates_plus_positions_float64_if_allocated": 2772172800,
+            "forty_state_vector_planning_workspace_float64": 9240576000,
+            "csr_plus_forty_vectors_planning_only": 12694937608,
+            "matrix_free_plus_forty_vectors_planning_only": 10161920000
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            3913.031490908361,
+            4082.2624128888374,
+            4228.662472774522
+          ],
+          "variance_normalization_amplification_upper_bound": 16311519.331107557,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30719.99999999995
+        },
+        {
+          "faces": [
+            16,
+            11,
+            48
+          ],
+          "spacing": 0.125,
+          "shape": [
+            256,
+            176,
+            768
+          ],
+          "states": 34603008,
+          "undirected_links": 103432192,
+          "csr_nonzeros": 241467392,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 4140302344,
+            "matrix_free_diag_plus_three_link_fields_float64": 1104281600,
+            "three_observable_columns_float64": 830472192,
+            "one_state_vector_float64": 276824064,
+            "full_coordinates_plus_positions_float64_if_allocated": 3321888768,
+            "forty_state_vector_planning_workspace_float64": 11072962560,
+            "csr_plus_forty_vectors_planning_only": 15213264904,
+            "matrix_free_plus_forty_vectors_planning_only": 12177244160
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            4446.956431269698,
+            4609.896532050428,
+            4794.265947424048
+          ],
+          "variance_normalization_amplification_upper_bound": 20966822.326552477,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30719.99999999995
+        },
+        {
+          "faces": [
+            17,
+            12,
+            49
+          ],
+          "spacing": 0.125,
+          "shape": [
+            272,
+            192,
+            784
+          ],
+          "states": 40943616,
+          "undirected_links": 122414848,
+          "csr_nonzeros": 285773312,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 4899921928,
+            "matrix_free_diag_plus_three_link_fields_float64": 1306867712,
+            "three_observable_columns_float64": 982646784,
+            "one_state_vector_float64": 327548928,
+            "full_coordinates_plus_positions_float64_if_allocated": 3930587136,
+            "forty_state_vector_planning_workspace_float64": 13101957120,
+            "csr_plus_forty_vectors_planning_only": 18001879048,
+            "matrix_free_plus_forty_vectors_planning_only": 14408824832
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            5037.813251987219,
+            5188.431186605885,
+            5416.462938901804
+          ],
+          "variance_normalization_amplification_upper_bound": 26762083.643899284,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30719.99999999995
+        }
+      ]
+    },
+    {
+      "geometry": "development",
+      "kappa": 100,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            -4.19976553533985e-15,
+            2.4424906541753444e-15,
+            -8.205689083394113
+          ],
+          "x": [
+            -4.732953392840558e-14,
+            3.212565973599165e-14,
+            -142.12670403551883
+          ],
+          "projection_residual": 3.1086244689504383e-15,
+          "contact_energy": 3.86430212298123e-28
+        },
+        {
+          "axis": [
+            -0.6683812072334674,
+            -0.7438189039121905,
+            0.0
+          ],
+          "q": [
+            -3.531215381172126,
+            -1.747933181509212,
+            -5.246776732906749
+          ],
+          "x": [
+            -39.79526399398612,
+            -22.9902646851164,
+            -90.87683877364724
+          ],
+          "projection_residual": 2.6645352591003757e-15,
+          "contact_energy": 1.4864906158537555e-27
+        },
+        {
+          "axis": [
+            -0.7438189039121905,
+            0.6683812072334674,
+            0.0
+          ],
+          "q": [
+            3.531215381172122,
+            1.747933181509214,
+            -2.9589123504873656
+          ],
+          "x": [
+            39.79526399398607,
+            22.99026468511643,
+            -51.249865261871626
+          ],
+          "projection_residual": 4.884981308350689e-15,
+          "contact_energy": 4.0346098378883645e-27
+        }
+      ],
+      "initial_faces": [
+        42,
+        25,
+        145
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            42,
+            25,
+            145
+          ],
+          "spacing": 0.5,
+          "shape": [
+            168,
+            100,
+            580
+          ],
+          "states": 9744000,
+          "undirected_links": 29059760,
+          "csr_nonzeros": 67863520,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1163768328,
+            "matrix_free_diag_plus_three_link_fields_float64": 310430080,
+            "three_observable_columns_float64": 233856000,
+            "one_state_vector_float64": 77952000,
+            "full_coordinates_plus_positions_float64_if_allocated": 935424000,
+            "forty_state_vector_planning_workspace_float64": 3118080000,
+            "csr_plus_forty_vectors_planning_only": 4281848328,
+            "matrix_free_plus_forty_vectors_planning_only": 3428510080
+          },
+          "maximum_rate_sum_bound": 9599.999999999984,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            31727.579828437767,
+            33377.30094506308,
+            34272.526656532056
+          ],
+          "variance_normalization_amplification_upper_bound": 1163447025.848759,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 19199.999999999967
+        },
+        {
+          "faces": [
+            42,
+            25,
+            145
+          ],
+          "spacing": 0.25,
+          "shape": [
+            336,
+            200,
+            1160
+          ],
+          "states": 77952000,
+          "undirected_links": 233167040,
+          "csr_nonzeros": 544286080,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 9332193288,
+            "matrix_free_diag_plus_three_link_fields_float64": 2488952320,
+            "three_observable_columns_float64": 1870848000,
+            "one_state_vector_float64": 623616000,
+            "full_coordinates_plus_positions_float64_if_allocated": 7483392000,
+            "forty_state_vector_planning_workspace_float64": 24944640000,
+            "csr_plus_forty_vectors_planning_only": 34276833288,
+            "matrix_free_plus_forty_vectors_planning_only": 27433592320
+          },
+          "maximum_rate_sum_bound": 38399.999999999935,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            31727.579828437767,
+            33377.30094506308,
+            34272.526656532056
+          ],
+          "variance_normalization_amplification_upper_bound": 1163447025.848759,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 76799.99999999987
+        },
+        {
+          "faces": [
+            42,
+            25,
+            145
+          ],
+          "spacing": 0.125,
+          "shape": [
+            672,
+            400,
+            2320
+          ],
+          "states": 623616000,
+          "undirected_links": 1868092160,
+          "csr_nonzeros": 4359800320,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 74745733128,
+            "matrix_free_diag_plus_three_link_fields_float64": 19933665280,
+            "three_observable_columns_float64": 14966784000,
+            "one_state_vector_float64": 4988928000,
+            "full_coordinates_plus_positions_float64_if_allocated": 59867136000,
+            "forty_state_vector_planning_workspace_float64": 199557120000,
+            "csr_plus_forty_vectors_planning_only": 274302853128,
+            "matrix_free_plus_forty_vectors_planning_only": 219490785280
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            31727.579828437767,
+            33377.30094506308,
+            34272.526656532056
+          ],
+          "variance_normalization_amplification_upper_bound": 1163447025.848759,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307199.9999999995
+        },
+        {
+          "faces": [
+            43,
+            26,
+            146
+          ],
+          "spacing": 0.125,
+          "shape": [
+            688,
+            416,
+            2336
+          ],
+          "states": 668581888,
+          "undirected_links": 2002880512,
+          "csr_nonzeros": 4674342912,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 80138141704,
+            "matrix_free_diag_plus_three_link_fields_float64": 21371699200,
+            "three_observable_columns_float64": 16045965312,
+            "one_state_vector_float64": 5348655104,
+            "full_coordinates_plus_positions_float64_if_allocated": 64183861248,
+            "forty_state_vector_planning_workspace_float64": 213946204160,
+            "csr_plus_forty_vectors_planning_only": 294084345864,
+            "matrix_free_plus_forty_vectors_planning_only": 235317903360
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            33091.46542002888,
+            34756.65705120159,
+            35737.81627997361
+          ],
+          "variance_normalization_amplification_upper_bound": 1265057867.1296215,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307199.9999999995
+        },
+        {
+          "faces": [
+            44,
+            27,
+            147
+          ],
+          "spacing": 0.125,
+          "shape": [
+            704,
+            432,
+            2352
+          ],
+          "states": 715309056,
+          "undirected_links": 2142951168,
+          "csr_nonzeros": 5001211392,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 85741854728,
+            "matrix_free_diag_plus_three_link_fields_float64": 22866081792,
+            "three_observable_columns_float64": 17167417344,
+            "one_state_vector_float64": 5722472448,
+            "full_coordinates_plus_positions_float64_if_allocated": 68669669376,
+            "forty_state_vector_planning_workspace_float64": 228898897920,
+            "csr_plus_forty_vectors_planning_only": 314640752648,
+            "matrix_free_plus_forty_vectors_planning_only": 251764979712
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            34503.559027935975,
+            36180.08961172571,
+            37251.701047249015
+          ],
+          "variance_normalization_amplification_upper_bound": 1374505829.0557065,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307199.9999999995
+        }
+      ]
+    },
+    {
+      "geometry": "compact",
+      "kappa": 1,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            5.551115123125783e-16,
+            2.220446049250313e-16,
+            -5.796550698475776
+          ],
+          "x": [
+            6.568167990716602e-16,
+            2.808666774861362e-16,
+            -10.039920318408907
+          ],
+          "projection_residual": 6.661338147750939e-16,
+          "contact_energy": 5.478200730701471e-32
+        },
+        {
+          "axis": [
+            -0.4472135954999581,
+            -0.8944271909999156,
+            0.0
+          ],
+          "q": [
+            -1.4988010832439613e-15,
+            -2.868548662402544,
+            -3.312314684843301
+          ],
+          "x": [
+            -1.7734053574934824e-15,
+            -3.628458940888582,
+            -5.737097324805091
+          ],
+          "projection_residual": 8.881784197001252e-16,
+          "contact_energy": 1.7091986279788588e-30
+        },
+        {
+          "axis": [
+            -0.8944271909999156,
+            0.4472135954999581,
+            0.0
+          ],
+          "q": [
+            1.7763568394002505e-15,
+            2.868548662402544,
+            -2.4842360136324757
+          ],
+          "x": [
+            2.1018137570293126e-15,
+            3.628458940888582,
+            -4.302822993603818
+          ],
+          "projection_residual": 1.0845115033221852e-15,
+          "contact_energy": 2.3227571098174238e-30
+        }
+      ],
+      "initial_faces": [
+        4,
+        6,
+        13
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            4,
+            6,
+            13
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            24,
+            52
+          ],
+          "states": 19968,
+          "undirected_links": 57440,
+          "csr_nonzeros": 134848,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 2317320,
+            "matrix_free_diag_plus_three_link_fields_float64": 619264,
+            "three_observable_columns_float64": 479232,
+            "one_state_vector_float64": 159744,
+            "full_coordinates_plus_positions_float64_if_allocated": 1916928,
+            "forty_state_vector_planning_workspace_float64": 6389760,
+            "csr_plus_forty_vectors_planning_only": 8707080,
+            "matrix_free_plus_forty_vectors_planning_only": 7009024
+          },
+          "maximum_rate_sum_bound": 96.00000000000006,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            668.0170875616284,
+            538.8852791871221,
+            668.0170875616284
+          ],
+          "variance_normalization_amplification_upper_bound": 143707.6433983718,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 192.0000000000001
+        },
+        {
+          "faces": [
+            4,
+            6,
+            13
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            48,
+            104
+          ],
+          "states": 159744,
+          "undirected_links": 469376,
+          "csr_nonzeros": 1098496,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 18853896,
+            "matrix_free_diag_plus_three_link_fields_float64": 5032960,
+            "three_observable_columns_float64": 3833856,
+            "one_state_vector_float64": 1277952,
+            "full_coordinates_plus_positions_float64_if_allocated": 15335424,
+            "forty_state_vector_planning_workspace_float64": 51118080,
+            "csr_plus_forty_vectors_planning_only": 69971976,
+            "matrix_free_plus_forty_vectors_planning_only": 56151040
+          },
+          "maximum_rate_sum_bound": 384.0000000000002,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            668.0170875616284,
+            538.8852791871221,
+            668.0170875616284
+          ],
+          "variance_normalization_amplification_upper_bound": 143707.6433983718,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 768.0000000000005
+        },
+        {
+          "faces": [
+            4,
+            6,
+            13
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            96,
+            208
+          ],
+          "states": 1277952,
+          "undirected_links": 3794432,
+          "csr_nonzeros": 8866816,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 152092680,
+            "matrix_free_diag_plus_three_link_fields_float64": 40579072,
+            "three_observable_columns_float64": 30670848,
+            "one_state_vector_float64": 10223616,
+            "full_coordinates_plus_positions_float64_if_allocated": 122683392,
+            "forty_state_vector_planning_workspace_float64": 408944640,
+            "csr_plus_forty_vectors_planning_only": 561037320,
+            "matrix_free_plus_forty_vectors_planning_only": 449523712
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            668.0170875616284,
+            538.8852791871221,
+            668.0170875616284
+          ],
+          "variance_normalization_amplification_upper_bound": 143707.6433983718,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3072.000000000002
+        },
+        {
+          "faces": [
+            5,
+            7,
+            14
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            112,
+            224
+          ],
+          "states": 2007040,
+          "undirected_links": 5969152,
+          "csr_nonzeros": 13945344,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 239181832,
+            "matrix_free_diag_plus_three_link_fields_float64": 63809536,
+            "three_observable_columns_float64": 48168960,
+            "one_state_vector_float64": 16056320,
+            "full_coordinates_plus_positions_float64_if_allocated": 192675840,
+            "forty_state_vector_planning_workspace_float64": 642252800,
+            "csr_plus_forty_vectors_planning_only": 881434632,
+            "matrix_free_plus_forty_vectors_planning_only": 706062336
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            1014.6696307511471,
+            795.1308556705559,
+            1014.6696307511473
+          ],
+          "variance_normalization_amplification_upper_bound": 331553.8294703397,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3072.000000000002
+        },
+        {
+          "faces": [
+            6,
+            8,
+            15
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            128,
+            240
+          ],
+          "states": 2949120,
+          "undirected_links": 8781312,
+          "csr_nonzeros": 20511744,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 351780872,
+            "matrix_free_diag_plus_three_link_fields_float64": 93843456,
+            "three_observable_columns_float64": 70778880,
+            "one_state_vector_float64": 23592960,
+            "full_coordinates_plus_positions_float64_if_allocated": 283115520,
+            "forty_state_vector_planning_workspace_float64": 943718400,
+            "csr_plus_forty_vectors_planning_only": 1295499272,
+            "matrix_free_plus_forty_vectors_planning_only": 1037561856
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            1482.398641550325,
+            1137.09521026841,
+            1482.3986415503255
+          ],
+          "variance_normalization_amplification_upper_bound": 707676.445973317,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3072.000000000002
+        }
+      ]
+    },
+    {
+      "geometry": "compact",
+      "kappa": 10,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            0.0,
+            1.4432899320127035e-15,
+            -5.796550698475777
+          ],
+          "x": [
+            0.0,
+            5.773159728050812e-15,
+            -31.749015732775096
+          ],
+          "projection_residual": 2.220446049250313e-15,
+          "contact_energy": 1.288472811860986e-28
+        },
+        {
+          "axis": [
+            -0.4472135954999581,
+            -0.8944271909999156,
+            0.0
+          ],
+          "q": [
+            -2.275957200481571e-15,
+            -2.8685486624025422,
+            -3.312314684843302
+          ],
+          "x": [
+            -8.51585207116322e-15,
+            -11.474194649610164,
+            -18.142294704442914
+          ],
+          "projection_residual": 2.220446049250313e-15,
+          "contact_energy": 1.2854598014591003e-28
+        },
+        {
+          "axis": [
+            -0.8944271909999156,
+            0.4472135954999581,
+            0.0
+          ],
+          "q": [
+            1.9984014443252818e-15,
+            2.8685486624025436,
+            -2.4842360136324757
+          ],
+          "x": [
+            7.477333525899413e-15,
+            11.474194649610169,
+            -13.606721028332183
+          ],
+          "projection_residual": 1.1102230246251565e-15,
+          "contact_energy": 9.915543322569662e-29
+        }
+      ],
+      "initial_faces": [
+        4,
+        14,
+        34
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            4,
+            14,
+            34
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            56,
+            136
+          ],
+          "states": 121856,
+          "undirected_links": 354880,
+          "csr_nonzeros": 831616,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 14280712,
+            "matrix_free_diag_plus_three_link_fields_float64": 3813888,
+            "three_observable_columns_float64": 2924544,
+            "one_state_vector_float64": 974848,
+            "full_coordinates_plus_positions_float64_if_allocated": 11698176,
+            "forty_state_vector_planning_workspace_float64": 38993920,
+            "csr_plus_forty_vectors_planning_only": 53274632,
+            "matrix_free_plus_forty_vectors_planning_only": 42807808
+          },
+          "maximum_rate_sum_bound": 960.0000000000003,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            2322.6680634574896,
+            2168.765350707469,
+            2322.6680634574896
+          ],
+          "variance_normalization_amplification_upper_bound": 4504505.696732996,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 1920.0000000000007
+        },
+        {
+          "faces": [
+            4,
+            14,
+            34
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            112,
+            272
+          ],
+          "states": 974848,
+          "undirected_links": 2881792,
+          "csr_nonzeros": 6738432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 115613704,
+            "matrix_free_diag_plus_three_link_fields_float64": 30853120,
+            "three_observable_columns_float64": 23396352,
+            "one_state_vector_float64": 7798784,
+            "full_coordinates_plus_positions_float64_if_allocated": 93585408,
+            "forty_state_vector_planning_workspace_float64": 311951360,
+            "csr_plus_forty_vectors_planning_only": 427565064,
+            "matrix_free_plus_forty_vectors_planning_only": 342804480
+          },
+          "maximum_rate_sum_bound": 3840.0000000000014,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            2322.6680634574896,
+            2168.765350707469,
+            2322.6680634574896
+          ],
+          "variance_normalization_amplification_upper_bound": 4504505.696732996,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 7680.000000000003
+        },
+        {
+          "faces": [
+            4,
+            14,
+            34
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            224,
+            544
+          ],
+          "states": 7798784,
+          "undirected_links": 23225344,
+          "csr_nonzeros": 54249472,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 930381832,
+            "matrix_free_diag_plus_three_link_fields_float64": 248193024,
+            "three_observable_columns_float64": 187170816,
+            "one_state_vector_float64": 62390272,
+            "full_coordinates_plus_positions_float64_if_allocated": 748683264,
+            "forty_state_vector_planning_workspace_float64": 2495610880,
+            "csr_plus_forty_vectors_planning_only": 3425992712,
+            "matrix_free_plus_forty_vectors_planning_only": 2743803904
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            2322.6680634574896,
+            2168.765350707469,
+            2322.6680634574896
+          ],
+          "variance_normalization_amplification_upper_bound": 4504505.696732996,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30720.00000000001
+        },
+        {
+          "faces": [
+            5,
+            15,
+            35
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            240,
+            560
+          ],
+          "states": 10752000,
+          "undirected_links": 32057600,
+          "csr_nonzeros": 74867200,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1283891208,
+            "matrix_free_diag_plus_three_link_fields_float64": 342476800,
+            "three_observable_columns_float64": 258048000,
+            "one_state_vector_float64": 86016000,
+            "full_coordinates_plus_positions_float64_if_allocated": 1032192000,
+            "forty_state_vector_planning_workspace_float64": 3440640000,
+            "csr_plus_forty_vectors_planning_only": 4724531208,
+            "matrix_free_plus_forty_vectors_planning_only": 3783116800
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            2763.2881941171036,
+            2507.2220349976888,
+            2763.2881941171026
+          ],
+          "variance_normalization_amplification_upper_bound": 6375660.846348257,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30720.00000000001
+        },
+        {
+          "faces": [
+            6,
+            16,
+            36
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            256,
+            576
+          ],
+          "states": 14155776,
+          "undirected_links": 42240000,
+          "csr_nonzeros": 98635776,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1691418632,
+            "matrix_free_diag_plus_three_link_fields_float64": 451166208,
+            "three_observable_columns_float64": 339738624,
+            "one_state_vector_float64": 113246208,
+            "full_coordinates_plus_positions_float64_if_allocated": 1358954496,
+            "forty_state_vector_planning_workspace_float64": 4529848320,
+            "csr_plus_forty_vectors_planning_only": 6221266952,
+            "matrix_free_plus_forty_vectors_planning_only": 4981014528
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            3265.802565751628,
+            2890.5901871438164,
+            3265.8025657516273
+          ],
+          "variance_normalization_amplification_upper_bound": 8905384.910810214,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30720.00000000001
+        }
+      ]
+    },
+    {
+      "geometry": "compact",
+      "kappa": 100,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            -1.1102230246251565e-16,
+            -1.6653345369377348e-15,
+            -5.796550698475775
+          ],
+          "x": [
+            -1.3136335981433202e-15,
+            -2.106500081146022e-14,
+            -100.39920318408906
+          ],
+          "projection_residual": 1.3322676295501878e-15,
+          "contact_energy": 1.1504221534473087e-28
+        },
+        {
+          "axis": [
+            -0.4472135954999581,
+            -0.8944271909999156,
+            0.0
+          ],
+          "q": [
+            -8.326672684688674e-16,
+            -2.868548662402545,
+            -3.3123146848433
+          ],
+          "x": [
+            -9.852251986074901e-15,
+            -36.284589408885836,
+            -57.370973248050895
+          ],
+          "projection_residual": 8.881784197001252e-16,
+          "contact_energy": 2.947271993117391e-28
+        },
+        {
+          "axis": [
+            -0.8944271909999156,
+            0.4472135954999581,
+            0.0
+          ],
+          "q": [
+            4.440892098500626e-16,
+            2.868548662402543,
+            -2.4842360136324766
+          ],
+          "x": [
+            5.254534392573281e-15,
+            36.284589408885815,
+            -43.0282299360382
+          ],
+          "projection_residual": 7.961821930642496e-16,
+          "contact_energy": 8.765121169122354e-29
+        }
+      ],
+      "initial_faces": [
+        4,
+        39,
+        103
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            4,
+            39,
+            103
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            156,
+            412
+          ],
+          "states": 1028352,
+          "undirected_links": 3011696,
+          "csr_nonzeros": 7051744,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 121054728,
+            "matrix_free_diag_plus_three_link_fields_float64": 32320384,
+            "three_observable_columns_float64": 24680448,
+            "one_state_vector_float64": 8226816,
+            "full_coordinates_plus_positions_float64_if_allocated": 98721792,
+            "forty_state_vector_planning_workspace_float64": 329072640,
+            "csr_plus_forty_vectors_planning_only": 450127368,
+            "matrix_free_plus_forty_vectors_planning_only": 361393024
+          },
+          "maximum_rate_sum_bound": 9600.000000000007,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            16580.43334279085,
+            17071.689901436388,
+            16580.433342790846
+          ],
+          "variance_normalization_amplification_upper_bound": 286882712.1326337,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 19200.000000000015
+        },
+        {
+          "faces": [
+            4,
+            39,
+            103
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            312,
+            824
+          ],
+          "states": 8226816,
+          "undirected_links": 24387008,
+          "csr_nonzeros": 57000832,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 977827848,
+            "matrix_free_diag_plus_three_link_fields_float64": 260910592,
+            "three_observable_columns_float64": 197443584,
+            "one_state_vector_float64": 65814528,
+            "full_coordinates_plus_positions_float64_if_allocated": 789774336,
+            "forty_state_vector_planning_workspace_float64": 2632581120,
+            "csr_plus_forty_vectors_planning_only": 3610408968,
+            "matrix_free_plus_forty_vectors_planning_only": 2893491712
+          },
+          "maximum_rate_sum_bound": 38400.00000000003,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            16580.43334279085,
+            17071.689901436388,
+            16580.433342790846
+          ],
+          "variance_normalization_amplification_upper_bound": 286882712.1326337,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 76800.00000000006
+        },
+        {
+          "faces": [
+            4,
+            39,
+            103
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            624,
+            1648
+          ],
+          "states": 65814528,
+          "undirected_links": 196269824,
+          "csr_nonzeros": 458354176,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 7860183048,
+            "matrix_free_diag_plus_three_link_fields_float64": 2096674816,
+            "three_observable_columns_float64": 1579548672,
+            "one_state_vector_float64": 526516224,
+            "full_coordinates_plus_positions_float64_if_allocated": 6318194688,
+            "forty_state_vector_planning_workspace_float64": 21060648960,
+            "csr_plus_forty_vectors_planning_only": 28920832008,
+            "matrix_free_plus_forty_vectors_planning_only": 23157323776
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            16580.43334279085,
+            17071.689901436388,
+            16580.433342790846
+          ],
+          "variance_normalization_amplification_upper_bound": 286882712.1326337,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307200.00000000023
+        },
+        {
+          "faces": [
+            5,
+            40,
+            104
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            640,
+            1664
+          ],
+          "states": 85196800,
+          "undirected_links": 254341120,
+          "csr_nonzeros": 593879040,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 10183639048,
+            "matrix_free_diag_plus_three_link_fields_float64": 2716303360,
+            "three_observable_columns_float64": 2044723200,
+            "one_state_vector_float64": 681574400,
+            "full_coordinates_plus_positions_float64_if_allocated": 8178892800,
+            "forty_state_vector_planning_workspace_float64": 27262976000,
+            "csr_plus_forty_vectors_planning_only": 37446615048,
+            "matrix_free_plus_forty_vectors_planning_only": 29979279360
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            17594.566808854364,
+            17867.643781781808,
+            17594.56680885436
+          ],
+          "variance_normalization_amplification_upper_bound": 314257696.1245786,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307200.00000000023
+        },
+        {
+          "faces": [
+            6,
+            41,
+            105
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            656,
+            1680
+          ],
+          "states": 105799680,
+          "undirected_links": 316072704,
+          "csr_nonzeros": 737945088,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 12653518856,
+            "matrix_free_diag_plus_three_link_fields_float64": 3374979072,
+            "three_observable_columns_float64": 2539192320,
+            "one_state_vector_float64": 846397440,
+            "full_coordinates_plus_positions_float64_if_allocated": 10156769280,
+            "forty_state_vector_planning_workspace_float64": 33855897600,
+            "csr_plus_forty_vectors_planning_only": 46509416456,
+            "matrix_free_plus_forty_vectors_planning_only": 37230876672
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            18657.28019353066,
+            18699.33686000454,
+            18657.280193530656
+          ],
+          "variance_normalization_amplification_upper_bound": 344194369.5745433,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307200.00000000023
+        }
+      ]
+    },
+    {
+      "geometry": "elongated",
+      "kappa": 1,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            -2.6645352591003757e-15,
+            3.9968028886505635e-15,
+            -7.981645611442961
+          ],
+          "x": [
+            -2.504873946455544e-15,
+            5.8142853941825824e-15,
+            -13.824615727028355
+          ],
+          "projection_residual": 2.6645352591003757e-15,
+          "contact_energy": 2.5851592211635507e-30
+        },
+        {
+          "axis": [
+            -0.1282442338769399,
+            -0.991742616043758,
+            0.0
+          ],
+          "q": [
+            1.3236789047687583,
+            1.719580604543277,
+            -7.340088899691237
+          ],
+          "x": [
+            1.244362892442088,
+            2.5015325177798027,
+            -12.71340690633755
+          ],
+          "projection_residual": 2.6645352591003757e-15,
+          "contact_energy": 1.588963655761569e-30
+        },
+        {
+          "axis": [
+            -0.991742616043758,
+            0.1282442338769399,
+            0.0
+          ],
+          "q": [
+            -1.323678904768761,
+            -1.719580604543273,
+            -0.6415567117517228
+          ],
+          "x": [
+            -1.2443628924420904,
+            -2.501532517779797,
+            -1.1112088206908042
+          ],
+          "projection_residual": 7.771561172376096e-16,
+          "contact_energy": 2.385362051925674e-30
+        }
+      ],
+      "initial_faces": [
+        4,
+        5,
+        16
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            4,
+            5,
+            16
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            20,
+            64
+          ],
+          "states": 20480,
+          "undirected_links": 58816,
+          "csr_nonzeros": 138112,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 2373640,
+            "matrix_free_diag_plus_three_link_fields_float64": 634368,
+            "three_observable_columns_float64": 491520,
+            "one_state_vector_float64": 163840,
+            "full_coordinates_plus_positions_float64_if_allocated": 1966080,
+            "forty_state_vector_planning_workspace_float64": 6553600,
+            "csr_plus_forty_vectors_planning_only": 8927240,
+            "matrix_free_plus_forty_vectors_planning_only": 7187968
+          },
+          "maximum_rate_sum_bound": 95.99999999999986,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            760.9702444280665,
+            510.70380647400907,
+            692.0161221676556
+          ],
+          "variance_normalization_amplification_upper_bound": 161261.9099297721,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 191.99999999999972
+        },
+        {
+          "faces": [
+            4,
+            5,
+            16
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            40,
+            128
+          ],
+          "states": 163840,
+          "undirected_links": 481024,
+          "csr_nonzeros": 1125888,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 19324936,
+            "matrix_free_diag_plus_three_link_fields_float64": 5158912,
+            "three_observable_columns_float64": 3932160,
+            "one_state_vector_float64": 1310720,
+            "full_coordinates_plus_positions_float64_if_allocated": 15728640,
+            "forty_state_vector_planning_workspace_float64": 52428800,
+            "csr_plus_forty_vectors_planning_only": 71753736,
+            "matrix_free_plus_forty_vectors_planning_only": 57587712
+          },
+          "maximum_rate_sum_bound": 383.99999999999943,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            760.9702444280665,
+            510.70380647400907,
+            692.0161221676556
+          ],
+          "variance_normalization_amplification_upper_bound": 161261.9099297721,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 767.9999999999989
+        },
+        {
+          "faces": [
+            4,
+            5,
+            16
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            80,
+            256
+          ],
+          "states": 1310720,
+          "undirected_links": 3890176,
+          "csr_nonzeros": 9091072,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 155942920,
+            "matrix_free_diag_plus_three_link_fields_float64": 41607168,
+            "three_observable_columns_float64": 31457280,
+            "one_state_vector_float64": 10485760,
+            "full_coordinates_plus_positions_float64_if_allocated": 125829120,
+            "forty_state_vector_planning_workspace_float64": 419430400,
+            "csr_plus_forty_vectors_planning_only": 575373320,
+            "matrix_free_plus_forty_vectors_planning_only": 461037568
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            760.9702444280665,
+            510.70380647400907,
+            692.0161221676556
+          ],
+          "variance_normalization_amplification_upper_bound": 161261.9099297721,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3071.9999999999955
+        },
+        {
+          "faces": [
+            5,
+            6,
+            17
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            96,
+            272
+          ],
+          "states": 2088960,
+          "undirected_links": 6211328,
+          "csr_nonzeros": 14511616,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 248897544,
+            "matrix_free_diag_plus_three_link_fields_float64": 66402304,
+            "three_observable_columns_float64": 50135040,
+            "one_state_vector_float64": 16711680,
+            "full_coordinates_plus_positions_float64_if_allocated": 200540160,
+            "forty_state_vector_planning_workspace_float64": 668467200,
+            "csr_plus_forty_vectors_planning_only": 917364744,
+            "matrix_free_plus_forty_vectors_planning_only": 734869504
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            1215.3088201567066,
+            702.1619157937243,
+            1131.3712729703411
+          ],
+          "variance_normalization_amplification_upper_bound": 304837.33066745725,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3071.9999999999955
+        },
+        {
+          "faces": [
+            6,
+            7,
+            18
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            112,
+            288
+          ],
+          "states": 3096576,
+          "undirected_links": 9219072,
+          "csr_nonzeros": 21534720,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 369328136,
+            "matrix_free_diag_plus_three_link_fields_float64": 98525184,
+            "three_observable_columns_float64": 74317824,
+            "one_state_vector_float64": 24772608,
+            "full_coordinates_plus_positions_float64_if_allocated": 297271296,
+            "forty_state_vector_planning_workspace_float64": 990904320,
+            "csr_plus_forty_vectors_planning_only": 1360232456,
+            "matrix_free_plus_forty_vectors_planning_only": 1089429504
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            1868.3238719009191,
+            947.2881789324742,
+            1769.9742014537342
+          ],
+          "variance_normalization_amplification_upper_bound": 554827.329352589,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 3071.9999999999955
+        }
+      ]
+    },
+    {
+      "geometry": "elongated",
+      "kappa": 10,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            -1.3322676295501878e-15,
+            -8.069933610244107e-15,
+            -7.981645611442959
+          ],
+          "x": [
+            -3.9605534612070915e-15,
+            -3.712389850034931e-14,
+            -43.717273473994226
+          ],
+          "projection_residual": 2.6645352591003757e-15,
+          "contact_energy": 8.711919776559038e-29
+        },
+        {
+          "axis": [
+            -0.1282442338769399,
+            -0.991742616043758,
+            0.0
+          ],
+          "q": [
+            1.32367890476876,
+            1.7195806045432653,
+            -7.340088899691238
+          ],
+          "x": [
+            3.9350209759121335,
+            7.910540397159783,
+            -40.20332264454166
+          ],
+          "projection_residual": 1.7763568394002505e-15,
+          "contact_energy": 3.75432898192809e-29
+        },
+        {
+          "axis": [
+            -0.991742616043758,
+            0.1282442338769399,
+            0.0
+          ],
+          "q": [
+            -1.3236789047687614,
+            -1.7195806045432733,
+            -0.6415567117517204
+          ],
+          "x": [
+            -3.9350209759121375,
+            -7.91054039715982,
+            -3.513950829452569
+          ],
+          "projection_residual": 1.3877787807814457e-15,
+          "contact_energy": 1.5122612632470002e-29
+        }
+      ],
+      "initial_faces": [
+        6,
+        10,
+        46
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            6,
+            10,
+            46
+          ],
+          "spacing": 0.5,
+          "shape": [
+            24,
+            40,
+            184
+          ],
+          "states": 176640,
+          "undirected_links": 517184,
+          "csr_nonzeros": 1211008,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 20789256,
+            "matrix_free_diag_plus_three_link_fields_float64": 5550592,
+            "three_observable_columns_float64": 4239360,
+            "one_state_vector_float64": 1413120,
+            "full_coordinates_plus_positions_float64_if_allocated": 16957440,
+            "forty_state_vector_planning_workspace_float64": 56524800,
+            "csr_plus_forty_vectors_planning_only": 77314056,
+            "matrix_free_plus_forty_vectors_planning_only": 62075392
+          },
+          "maximum_rate_sum_bound": 960.0000000000005,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            2917.4719390489195,
+            2849.0315901519098,
+            2447.381245962557
+          ],
+          "variance_normalization_amplification_upper_bound": 7652888.7765669795,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 1920.000000000001
+        },
+        {
+          "faces": [
+            6,
+            10,
+            46
+          ],
+          "spacing": 0.25,
+          "shape": [
+            48,
+            80,
+            368
+          ],
+          "states": 1413120,
+          "undirected_links": 4188416,
+          "csr_nonzeros": 9789952,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 167944200,
+            "matrix_free_diag_plus_three_link_fields_float64": 44812288,
+            "three_observable_columns_float64": 33914880,
+            "one_state_vector_float64": 11304960,
+            "full_coordinates_plus_positions_float64_if_allocated": 135659520,
+            "forty_state_vector_planning_workspace_float64": 452198400,
+            "csr_plus_forty_vectors_planning_only": 620142600,
+            "matrix_free_plus_forty_vectors_planning_only": 497010688
+          },
+          "maximum_rate_sum_bound": 3840.000000000002,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            2917.4719390489195,
+            2849.0315901519098,
+            2447.381245962557
+          ],
+          "variance_normalization_amplification_upper_bound": 7652888.7765669795,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 7680.000000000004
+        },
+        {
+          "faces": [
+            6,
+            10,
+            46
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            160,
+            736
+          ],
+          "states": 11304960,
+          "undirected_links": 33711104,
+          "csr_nonzeros": 78727168,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1350074376,
+            "matrix_free_diag_plus_three_link_fields_float64": 360128512,
+            "three_observable_columns_float64": 271319040,
+            "one_state_vector_float64": 90439680,
+            "full_coordinates_plus_positions_float64_if_allocated": 1085276160,
+            "forty_state_vector_planning_workspace_float64": 3617587200,
+            "csr_plus_forty_vectors_planning_only": 4967661576,
+            "matrix_free_plus_forty_vectors_planning_only": 3977715712
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            2917.4719390489195,
+            2849.0315901519098,
+            2447.381245962557
+          ],
+          "variance_normalization_amplification_upper_bound": 7652888.7765669795,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30720.000000000015
+        },
+        {
+          "faces": [
+            7,
+            11,
+            47
+          ],
+          "spacing": 0.125,
+          "shape": [
+            112,
+            176,
+            752
+          ],
+          "states": 14823424,
+          "undirected_links": 44233984,
+          "csr_nonzeros": 103291392,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1771249672,
+            "matrix_free_diag_plus_three_link_fields_float64": 472459264,
+            "three_observable_columns_float64": 355762176,
+            "one_state_vector_float64": 118587392,
+            "full_coordinates_plus_positions_float64_if_allocated": 1423048704,
+            "forty_state_vector_planning_workspace_float64": 4743495680,
+            "csr_plus_forty_vectors_planning_only": 6514745352,
+            "matrix_free_plus_forty_vectors_planning_only": 5215954944
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            3458.55373648572,
+            3176.528571899439,
+            2943.0361867860165
+          ],
+          "variance_normalization_amplification_upper_bound": 9513414.165887715,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30720.000000000015
+        },
+        {
+          "faces": [
+            8,
+            12,
+            48
+          ],
+          "spacing": 0.125,
+          "shape": [
+            128,
+            192,
+            768
+          ],
+          "states": 18874368,
+          "undirected_links": 56352768,
+          "csr_nonzeros": 131579904,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 2256273416,
+            "matrix_free_diag_plus_three_link_fields_float64": 601817088,
+            "three_observable_columns_float64": 452984832,
+            "one_state_vector_float64": 150994944,
+            "full_coordinates_plus_positions_float64_if_allocated": 1811939328,
+            "forty_state_vector_planning_workspace_float64": 6039797760,
+            "csr_plus_forty_vectors_planning_only": 8296071176,
+            "matrix_free_plus_forty_vectors_planning_only": 6641614848
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            4088.653361753377,
+            3538.316081449676,
+            3525.8556775771667
+          ],
+          "variance_normalization_amplification_upper_bound": 11803862.03146404,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 30720.000000000015
+        }
+      ]
+    },
+    {
+      "geometry": "elongated",
+      "kappa": 100,
+      "all_three_constructed_minima": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q": [
+            -4.440892098500626e-16,
+            6.480926906249351e-15,
+            -7.981645611442961
+          ],
+          "x": [
+            -4.1747899107592385e-15,
+            9.428025274594672e-14,
+            -138.24615727028356
+          ],
+          "projection_residual": 2.6645352591003757e-15,
+          "contact_energy": 1.8409227446490257e-27
+        },
+        {
+          "axis": [
+            -0.1282442338769399,
+            -0.991742616043758,
+            0.0
+          ],
+          "q": [
+            1.3236789047687614,
+            1.7195806045432789,
+            -7.340088899691235
+          ],
+          "x": [
+            12.443628924420905,
+            25.015325177798044,
+            -127.13406906337546
+          ],
+          "projection_residual": 3.1086244689504383e-15,
+          "contact_energy": 9.436927112349544e-28
+        },
+        {
+          "axis": [
+            -0.991742616043758,
+            0.1282442338769399,
+            0.0
+          ],
+          "q": [
+            -1.3236789047687616,
+            -1.7195806045432722,
+            -0.6415567117517245
+          ],
+          "x": [
+            -12.443628924420906,
+            -25.015325177797948,
+            -11.11208820690807
+          ],
+          "projection_residual": 1.3773704399255848e-15,
+          "contact_energy": 9.543847475898151e-29
+        }
+      ],
+      "initial_faces": [
+        15,
+        28,
+        141
+      ],
+      "nonlinear_grids": [
+        {
+          "faces": [
+            15,
+            28,
+            141
+          ],
+          "spacing": 0.5,
+          "shape": [
+            60,
+            112,
+            564
+          ],
+          "states": 3790080,
+          "undirected_links": 11266512,
+          "csr_nonzeros": 26323104,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 451490312,
+            "matrix_free_diag_plus_three_link_fields_float64": 120452736,
+            "three_observable_columns_float64": 90961920,
+            "one_state_vector_float64": 30320640,
+            "full_coordinates_plus_positions_float64_if_allocated": 363847680,
+            "forty_state_vector_planning_workspace_float64": 1212825600,
+            "csr_plus_forty_vectors_planning_only": 1664315912,
+            "matrix_free_plus_forty_vectors_planning_only": 1333278336
+          },
+          "maximum_rate_sum_bound": 9599.999999999985,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            23446.099723951404,
+            24656.966860989163,
+            19296.575473339966
+          ],
+          "variance_normalization_amplification_upper_bound": 604307931.171923,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 19199.99999999997
+        },
+        {
+          "faces": [
+            15,
+            28,
+            141
+          ],
+          "spacing": 0.25,
+          "shape": [
+            120,
+            224,
+            1128
+          ],
+          "states": 30320640,
+          "undirected_links": 90547008,
+          "csr_nonzeros": 211414656,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3625199624,
+            "matrix_free_diag_plus_three_link_fields_float64": 966941184,
+            "three_observable_columns_float64": 727695360,
+            "one_state_vector_float64": 242565120,
+            "full_coordinates_plus_positions_float64_if_allocated": 2910781440,
+            "forty_state_vector_planning_workspace_float64": 9702604800,
+            "csr_plus_forty_vectors_planning_only": 13327804424,
+            "matrix_free_plus_forty_vectors_planning_only": 10669545984
+          },
+          "maximum_rate_sum_bound": 38399.99999999994,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            23446.099723951404,
+            24656.966860989163,
+            19296.575473339966
+          ],
+          "variance_normalization_amplification_upper_bound": 604307931.171923,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 76799.99999999988
+        },
+        {
+          "faces": [
+            15,
+            28,
+            141
+          ],
+          "spacing": 0.125,
+          "shape": [
+            240,
+            448,
+            2256
+          ],
+          "states": 242565120,
+          "undirected_links": 726035712,
+          "csr_nonzeros": 1694636544,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 29054705672,
+            "matrix_free_diag_plus_three_link_fields_float64": 7748806656,
+            "three_observable_columns_float64": 5821562880,
+            "one_state_vector_float64": 1940520960,
+            "full_coordinates_plus_positions_float64_if_allocated": 23286251520,
+            "forty_state_vector_planning_workspace_float64": 77620838400,
+            "csr_plus_forty_vectors_planning_only": 106675544072,
+            "matrix_free_plus_forty_vectors_planning_only": 85369645056
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            23446.099723951404,
+            24656.966860989163,
+            19296.575473339966
+          ],
+          "variance_normalization_amplification_upper_bound": 604307931.171923,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307199.99999999953
+        },
+        {
+          "faces": [
+            16,
+            29,
+            142
+          ],
+          "spacing": 0.125,
+          "shape": [
+            256,
+            464,
+            2272
+          ],
+          "states": 269877248,
+          "undirected_links": 807877120,
+          "csr_nonzeros": 1885631488,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 32329121800,
+            "matrix_free_diag_plus_three_link_fields_float64": 8622034944,
+            "three_observable_columns_float64": 6477053952,
+            "one_state_vector_float64": 2159017984,
+            "full_coordinates_plus_positions_float64_if_allocated": 25908215808,
+            "forty_state_vector_planning_workspace_float64": 86360719360,
+            "csr_plus_forty_vectors_planning_only": 118689841160,
+            "matrix_free_plus_forty_vectors_planning_only": 94982754304
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            24772.71729560158,
+            25529.89229491875,
+            20490.47781862258
+          ],
+          "variance_normalization_amplification_upper_bound": 647853719.3553094,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307199.99999999953
+        },
+        {
+          "faces": [
+            17,
+            30,
+            143
+          ],
+          "spacing": 0.125,
+          "shape": [
+            272,
+            480,
+            2288
+          ],
+          "states": 298721280,
+          "undirected_links": 894312704,
+          "csr_nonzeros": 2087346688,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 35787317256,
+            "matrix_free_diag_plus_three_link_fields_float64": 9544271872,
+            "three_observable_columns_float64": 7169310720,
+            "one_state_vector_float64": 2389770240,
+            "full_coordinates_plus_positions_float64_if_allocated": 28677242880,
+            "forty_state_vector_planning_workspace_float64": 95590809600,
+            "csr_plus_forty_vectors_planning_only": 131378126856,
+            "matrix_free_plus_forty_vectors_planning_only": 105135081472
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Exit <=4 sum(mu lambda)/h^2, so spectral upper <=8 sum(mu lambda)/h^2. Polynomial nonnegative E bound gives Var(E)<=max(E)^2/4; no unknown equilibrium variance is assumed.",
+          "observable_absolute_upper_bound_by_polynomial": [
+            26169.585017838188,
+            26432.90435238141,
+            21752.465006415187
+          ],
+          "variance_normalization_amplification_upper_bound": 694494419.0811459,
+          "spectral_upper_bound_by_gershgorin_exit_bound": 307199.99999999953
+        }
+      ]
+    }
+  ]
+}

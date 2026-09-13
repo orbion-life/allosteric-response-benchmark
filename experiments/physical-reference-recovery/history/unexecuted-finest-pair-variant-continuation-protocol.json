@@ -1,0 +1,169 @@
+{
+  "protocol_id": "pulsar-v12-development-reference-continuation-2026-09-13",
+  "status": "PROPOSED; NOT EXECUTED",
+  "recorded_utc": "2026-09-13T07:27:40.931823+00:00",
+  "executing_source_sha256": {
+    "continuation_worker.py": "60b07a20830b711b4b25405b7365a0abf92d5263ae83bd003ad87b4b1d65b9b6",
+    "continue_campaign.py": "d5a7b64868532703c0db27d5dc7db9a048d7effe1331c80120527d93a7ae6917",
+    "model.py": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261",
+    "nonlinear_profile.py": "5a8b13555aa72db007dc4cacda21dd2472938ef12f82c0e19c268fa63f319260",
+    "chebyshev.py": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340",
+    "protocol.json": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192"
+  },
+  "admission_evidence_sha256": {
+    "campaign-allocation-estimate.json": "a86ec3655a712b0abe65ab5fcddf4685ab35189794bdd49b57d34ada32fb4ce5",
+    "capacity-primary/watchdog.json": "4ce23840d057a8fa851a0de2870e7e867146b22ded521125cbe035c7a87f0cae",
+    "capacity-primary/case/receipt.json": "242366c46cbee521a541337724a1c8b4c978c8ce4fd83c9ea1ecc5e546b08cfe",
+    "harmonic-primary/calibration/receipt.json": "75d89444ac0e49fa7623cb033a94853d7dce115af0ebc949075c895590d6f01d",
+    "supplementary-minima-preflight.json": "0da583c99da9ed4d047cff15241ee992335eb23b0e90c91bb61d570584c7b358"
+  },
+  "allocation": {
+    "wall_seconds": 32400,
+    "aggregate_memory_bytes": 6000000000,
+    "workers": 1,
+    "BLAS_environment_threads": 1
+  },
+  "runtime_estimate_scope": "The9-hour allocation follows a measured-input extrapolation with a2x engineering margin. It is not a proven runtime bound or a promise of convergence. The watchdog enforces actual wall/memory limits.",
+  "memory_admission_scenario_pass": true,
+  "memory_admission_scenario_bytes": 4498595840.0,
+  "cases": [
+    {
+      "faces": [
+        6,
+        5,
+        17
+      ],
+      "spacing": 0.5,
+      "shape": [
+        24,
+        20,
+        68
+      ],
+      "states": 32640,
+      "stage_wall_seconds": 60,
+      "taylor_vector_equivalent_stops": [
+        384,
+        4228,
+        23676
+      ]
+    },
+    {
+      "faces": [
+        6,
+        5,
+        17
+      ],
+      "spacing": 0.25,
+      "shape": [
+        48,
+        40,
+        136
+      ],
+      "states": 261120,
+      "stage_wall_seconds": 480,
+      "taylor_vector_equivalent_stops": [
+        1536,
+        16912,
+        94698
+      ]
+    },
+    {
+      "faces": [
+        6,
+        5,
+        17
+      ],
+      "spacing": 0.125,
+      "shape": [
+        96,
+        80,
+        272
+      ],
+      "states": 2088960,
+      "stage_wall_seconds": 6900,
+      "taylor_vector_equivalent_stops": [
+        3074,
+        33870,
+        189672
+      ]
+    },
+    {
+      "faces": [
+        7,
+        6,
+        18
+      ],
+      "spacing": 0.125,
+      "shape": [
+        112,
+        96,
+        288
+      ],
+      "states": 3096576,
+      "stage_wall_seconds": 10260,
+      "taylor_vector_equivalent_stops": [
+        3074,
+        33870,
+        189672
+      ]
+    },
+    {
+      "faces": [
+        8,
+        7,
+        19
+      ],
+      "spacing": 0.125,
+      "shape": [
+        128,
+        112,
+        304
+      ],
+      "states": 4358144,
+      "stage_wall_seconds": 14400,
+      "taylor_vector_equivalent_stops": [
+        3074,
+        33870,
+        189672
+      ]
+    }
+  ],
+  "numerical_screen_pairs": [
+    {
+      "kind": "grid",
+      "first": 0,
+      "second": 1,
+      "controlling": false
+    },
+    {
+      "kind": "grid",
+      "first": 1,
+      "second": 2,
+      "controlling": true
+    },
+    {
+      "kind": "domain",
+      "first": 2,
+      "second": 3,
+      "controlling": true
+    },
+    {
+      "kind": "domain",
+      "first": 3,
+      "second": 4,
+      "controlling": true
+    }
+  ],
+  "numerical_screen_tolerance": 0.001,
+  "finite_operator_cross_check": {
+    "normalized_component_tolerance": 1e-08,
+    "chebyshev_covariance_tail_allocation": 1e-09,
+    "stationarity_absolute": 1e-09,
+    "scaled_CSR_stencil_action_difference": 1e-12
+  },
+  "failure_policy": "Complete all five listed cases to diagnose numerical screens unless a resource, source, finite-operator identity or independent-propagator check fails. Failed grid/domain screens are preserved and do not convert software completion into physical success. No automatic finer grid, extra geometry, basin restriction or protein fitting.",
+  "physical_scope": "All three positive coordinates and the expanded known-minimum margin. Even passing every finite numerical screen does not establish whole-plane tail coverage, a native basin, protein affordability or biological validity.",
+  "three_level_trend_arithmetic_allowance": 1e-10,
+  "controlling_screen_rule": "For all G0/K/C components, the fixed-domain h=1/4 versus1/8 difference is the controlling grid screen <=0.001. Preserve h=1/2 versus1/4 as a noncontrolling coarse diagnostic and require each fine maximum difference not to exceed its coarse maximum by more than1e-10. Both domain pairs at h=1/8 are controlling and must each meet0.001. No Richardson division or estimated convergence order is used.",
+  "prospective_policy_revision": "This unexecuted continuation uses a finest-pair screen plus an independently recorded three-level trend, rather than requiring the deliberately coarse first pair itself to satisfy the final tolerance. This explicitly supersedes v11 two-consecutive-spacing acceptance only for this new diagnostic protocol; all old failures remain. It is fixed after the old-box cost profile but before any response on the corrected(6,5,17) domain. The rationale is to assess the finest available resolution while retaining a guard against non-improving refinement. Passing is finite-box numerical evidence, not a bound on continuum error."
+}

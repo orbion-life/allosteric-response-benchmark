@@ -1,0 +1,2906 @@
+{
+  "status": "STATIC PREFLIGHT ONLY; NO GRID OR PROPAGATION ALLOCATED",
+  "protocol_sha256": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+  "total_harmonic_requirements": 45,
+  "total_nonlinear_requirements": 45,
+  "cases": [
+    {
+      "geometry": "development",
+      "kappa": 1,
+      "eigenvalues": [
+        1.2700311269434108,
+        1.7299688730565836,
+        2.9999999999999956
+      ],
+      "minimum": {
+        "q": [
+          -2.348815586472597e-15,
+          1.9984014443252818e-15,
+          -8.205689083394113
+        ],
+        "x": [
+          -2.6470131738563057e-15,
+          2.6284630693084076e-15,
+          -14.212670403551883
+        ],
+        "faces": [
+          4,
+          4,
+          17
+        ],
+        "reconstruction_error": 1.7763568394002505e-15,
+        "contact_energy": 3.487535675656888e-30
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 95.99999999999984,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 383.9999999999994,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            17
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            68
+          ],
+          "states": 17408,
+          "undirected_links": 49792,
+          "csr_nonzeros": 116992,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 2011144,
+            "matrix_free_diag_plus_three_link_fields_float64": 537600,
+            "three_observable_columns_float64": 417792,
+            "one_state_vector_float64": 139264,
+            "full_coordinates_plus_positions_float64_if_allocated": 1671168,
+            "forty_state_vector_planning_workspace_float64": 5570560,
+            "csr_plus_forty_vectors_planning_only": 7581704,
+            "matrix_free_plus_forty_vectors_planning_only": 6108160
+          },
+          "maximum_rate_sum_bound": 95.99999999999984,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            17
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            136
+          ],
+          "states": 139264,
+          "undirected_links": 408064,
+          "csr_nonzeros": 955392,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 16400392,
+            "matrix_free_diag_plus_three_link_fields_float64": 4378624,
+            "three_observable_columns_float64": 3342336,
+            "one_state_vector_float64": 1114112,
+            "full_coordinates_plus_positions_float64_if_allocated": 13369344,
+            "forty_state_vector_planning_workspace_float64": 44564480,
+            "csr_plus_forty_vectors_planning_only": 60964872,
+            "matrix_free_plus_forty_vectors_planning_only": 48943104
+          },
+          "maximum_rate_sum_bound": 383.9999999999994,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            17
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            272
+          ],
+          "states": 1114112,
+          "undirected_links": 3303424,
+          "csr_nonzeros": 7720960,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 132448264,
+            "matrix_free_diag_plus_three_link_fields_float64": 35340288,
+            "three_observable_columns_float64": 26738688,
+            "one_state_vector_float64": 8912896,
+            "full_coordinates_plus_positions_float64_if_allocated": 106954752,
+            "forty_state_vector_planning_workspace_float64": 356515840,
+            "csr_plus_forty_vectors_planning_only": 488964104,
+            "matrix_free_plus_forty_vectors_planning_only": 391856128
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            18
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            288
+          ],
+          "states": 1843200,
+          "undirected_links": 5477120,
+          "csr_nonzeros": 12797440,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 219504648,
+            "matrix_free_diag_plus_three_link_fields_float64": 58562560,
+            "three_observable_columns_float64": 44236800,
+            "one_state_vector_float64": 14745600,
+            "full_coordinates_plus_positions_float64_if_allocated": 176947200,
+            "forty_state_vector_planning_workspace_float64": 589824000,
+            "csr_plus_forty_vectors_planning_only": 809328648,
+            "matrix_free_plus_forty_vectors_planning_only": 648386560
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            19
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            304
+          ],
+          "states": 2801664,
+          "undirected_links": 8337408,
+          "csr_nonzeros": 19476480,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 334037000,
+            "matrix_free_diag_plus_three_link_fields_float64": 89112576,
+            "three_observable_columns_float64": 67239936,
+            "one_state_vector_float64": 22413312,
+            "full_coordinates_plus_positions_float64_if_allocated": 268959744,
+            "forty_state_vector_planning_workspace_float64": 896532480,
+            "csr_plus_forty_vectors_planning_only": 1230569480,
+            "matrix_free_plus_forty_vectors_planning_only": 985645056
+          },
+          "maximum_rate_sum_bound": 1535.9999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    },
+    {
+      "geometry": "development",
+      "kappa": 10,
+      "eigenvalues": [
+        12.700311269434108,
+        17.29968873056584,
+        29.999999999999947
+      ],
+      "minimum": {
+        "q": [
+          -3.866698627952303e-15,
+          2.886579864025407e-15,
+          -8.205689083394113
+        ],
+        "x": [
+          -1.377994572011498e-14,
+          1.2006121175607851e-14,
+          -44.94441010848841
+        ],
+        "faces": [
+          4,
+          4,
+          47
+        ],
+        "reconstruction_error": 3.552713678800501e-15,
+        "contact_energy": 1.1136356403319388e-28
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 959.9999999999984,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 3839.9999999999936,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            47
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            188
+          ],
+          "states": 48128,
+          "undirected_links": 138112,
+          "csr_nonzeros": 324352,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 5574664,
+            "matrix_free_diag_plus_three_link_fields_float64": 1489920,
+            "three_observable_columns_float64": 1155072,
+            "one_state_vector_float64": 385024,
+            "full_coordinates_plus_positions_float64_if_allocated": 4620288,
+            "forty_state_vector_planning_workspace_float64": 15400960,
+            "csr_plus_forty_vectors_planning_only": 20975624,
+            "matrix_free_plus_forty_vectors_planning_only": 16890880
+          },
+          "maximum_rate_sum_bound": 959.9999999999984,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            47
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            376
+          ],
+          "states": 385024,
+          "undirected_links": 1129984,
+          "csr_nonzeros": 2644992,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 45400072,
+            "matrix_free_diag_plus_three_link_fields_float64": 12120064,
+            "three_observable_columns_float64": 9240576,
+            "one_state_vector_float64": 3080192,
+            "full_coordinates_plus_positions_float64_if_allocated": 36962304,
+            "forty_state_vector_planning_workspace_float64": 123207680,
+            "csr_plus_forty_vectors_planning_only": 168607752,
+            "matrix_free_plus_forty_vectors_planning_only": 135327744
+          },
+          "maximum_rate_sum_bound": 3839.9999999999936,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            47
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            752
+          ],
+          "states": 3080192,
+          "undirected_links": 9140224,
+          "csr_nonzeros": 21360640,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 366411784,
+            "matrix_free_diag_plus_three_link_fields_float64": 97763328,
+            "three_observable_columns_float64": 73924608,
+            "one_state_vector_float64": 24641536,
+            "full_coordinates_plus_positions_float64_if_allocated": 295698432,
+            "forty_state_vector_planning_workspace_float64": 985661440,
+            "csr_plus_forty_vectors_planning_only": 1352073224,
+            "matrix_free_plus_forty_vectors_planning_only": 1083424768
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            48
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            768
+          ],
+          "states": 4915200,
+          "undirected_links": 14616320,
+          "csr_nonzeros": 34147840,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 585687048,
+            "matrix_free_diag_plus_three_link_fields_float64": 156252160,
+            "three_observable_columns_float64": 117964800,
+            "one_state_vector_float64": 39321600,
+            "full_coordinates_plus_positions_float64_if_allocated": 471859200,
+            "forty_state_vector_planning_workspace_float64": 1572864000,
+            "csr_plus_forty_vectors_planning_only": 2158551048,
+            "matrix_free_plus_forty_vectors_planning_only": 1729116160
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            49
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            784
+          ],
+          "states": 7225344,
+          "undirected_links": 21516288,
+          "csr_nonzeros": 50257920,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 861929480,
+            "matrix_free_diag_plus_three_link_fields_float64": 229933056,
+            "three_observable_columns_float64": 173408256,
+            "one_state_vector_float64": 57802752,
+            "full_coordinates_plus_positions_float64_if_allocated": 693633024,
+            "forty_state_vector_planning_workspace_float64": 2312110080,
+            "csr_plus_forty_vectors_planning_only": 3174039560,
+            "matrix_free_plus_forty_vectors_planning_only": 2542043136
+          },
+          "maximum_rate_sum_bound": 15359.999999999975,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    },
+    {
+      "geometry": "development",
+      "kappa": 100,
+      "eigenvalues": [
+        127.00311269434106,
+        172.99688730565836,
+        299.99999999999955
+      ],
+      "minimum": {
+        "q": [
+          -4.088743232877334e-15,
+          2.6645352591003757e-15,
+          -8.205689083394113
+        ],
+        "x": [
+          -4.607836078862121e-14,
+          3.504617425744544e-14,
+          -142.12670403551883
+        ],
+        "faces": [
+          4,
+          4,
+          145
+        ],
+        "reconstruction_error": 3.1086244689504383e-15,
+        "contact_energy": 3.86430212298123e-28
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 9599.999999999984,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 38399.999999999935,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            145
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            580
+          ],
+          "states": 148480,
+          "undirected_links": 426624,
+          "csr_nonzeros": 1001728,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 17215496,
+            "matrix_free_diag_plus_three_link_fields_float64": 4600832,
+            "three_observable_columns_float64": 3563520,
+            "one_state_vector_float64": 1187840,
+            "full_coordinates_plus_positions_float64_if_allocated": 14254080,
+            "forty_state_vector_planning_workspace_float64": 47513600,
+            "csr_plus_forty_vectors_planning_only": 64729096,
+            "matrix_free_plus_forty_vectors_planning_only": 52114432
+          },
+          "maximum_rate_sum_bound": 9599.999999999984,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            145
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            1160
+          ],
+          "states": 1187840,
+          "undirected_links": 3488256,
+          "csr_nonzeros": 8164352,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 140132360,
+            "matrix_free_diag_plus_three_link_fields_float64": 37408768,
+            "three_observable_columns_float64": 28508160,
+            "one_state_vector_float64": 9502720,
+            "full_coordinates_plus_positions_float64_if_allocated": 114032640,
+            "forty_state_vector_planning_workspace_float64": 380108800,
+            "csr_plus_forty_vectors_planning_only": 520241160,
+            "matrix_free_plus_forty_vectors_planning_only": 417517568
+          },
+          "maximum_rate_sum_bound": 38399.999999999935,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            145
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            2320
+          ],
+          "states": 9502720,
+          "undirected_links": 28207104,
+          "csr_nonzeros": 65916928,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1130692616,
+            "matrix_free_diag_plus_three_link_fields_float64": 301678592,
+            "three_observable_columns_float64": 228065280,
+            "one_state_vector_float64": 76021760,
+            "full_coordinates_plus_positions_float64_if_allocated": 912261120,
+            "forty_state_vector_planning_workspace_float64": 3040870400,
+            "csr_plus_forty_vectors_planning_only": 4171563016,
+            "matrix_free_plus_forty_vectors_planning_only": 3342548992
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            146
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            2336
+          ],
+          "states": 14950400,
+          "undirected_links": 44471040,
+          "csr_nonzeros": 103892480,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1781882888,
+            "matrix_free_diag_plus_three_link_fields_float64": 475371520,
+            "three_observable_columns_float64": 358809600,
+            "one_state_vector_float64": 119603200,
+            "full_coordinates_plus_positions_float64_if_allocated": 1435238400,
+            "forty_state_vector_planning_workspace_float64": 4784128000,
+            "csr_plus_forty_vectors_planning_only": 6566010888,
+            "matrix_free_plus_forty_vectors_planning_only": 5259499520
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            147
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            2352
+          ],
+          "states": 21676032,
+          "undirected_links": 64567296,
+          "csr_nonzeros": 150810624,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 2586378248,
+            "matrix_free_diag_plus_three_link_fields_float64": 689946624,
+            "three_observable_columns_float64": 520224768,
+            "one_state_vector_float64": 173408256,
+            "full_coordinates_plus_positions_float64_if_allocated": 2080899072,
+            "forty_state_vector_planning_workspace_float64": 6936330240,
+            "csr_plus_forty_vectors_planning_only": 9522708488,
+            "matrix_free_plus_forty_vectors_planning_only": 7626276864
+          },
+          "maximum_rate_sum_bound": 153599.99999999974,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    },
+    {
+      "geometry": "compact",
+      "kappa": 1,
+      "eigenvalues": [
+        1.4000000000000028,
+        1.600000000000001,
+        3.0
+      ],
+      "minimum": {
+        "q": [
+          4.440892098500626e-16,
+          4.440892098500626e-16,
+          -5.796550698475776
+        ],
+        "x": [
+          5.254534392573281e-16,
+          5.617333549722724e-16,
+          -10.039920318408907
+        ],
+        "faces": [
+          4,
+          4,
+          13
+        ],
+        "reconstruction_error": 6.661338147750939e-16,
+        "contact_energy": 2.1912802922805884e-31
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 96.00000000000006,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 384.0000000000002,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            13
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            52
+          ],
+          "states": 13312,
+          "undirected_links": 38016,
+          "csr_nonzeros": 89344,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1536008,
+            "matrix_free_diag_plus_three_link_fields_float64": 410624,
+            "three_observable_columns_float64": 319488,
+            "one_state_vector_float64": 106496,
+            "full_coordinates_plus_positions_float64_if_allocated": 1277952,
+            "forty_state_vector_planning_workspace_float64": 4259840,
+            "csr_plus_forty_vectors_planning_only": 5795848,
+            "matrix_free_plus_forty_vectors_planning_only": 4670464
+          },
+          "maximum_rate_sum_bound": 96.00000000000006,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            13
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            104
+          ],
+          "states": 106496,
+          "undirected_links": 311808,
+          "csr_nonzeros": 730112,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 12533768,
+            "matrix_free_diag_plus_three_link_fields_float64": 3346432,
+            "three_observable_columns_float64": 2555904,
+            "one_state_vector_float64": 851968,
+            "full_coordinates_plus_positions_float64_if_allocated": 10223616,
+            "forty_state_vector_planning_workspace_float64": 34078720,
+            "csr_plus_forty_vectors_planning_only": 46612488,
+            "matrix_free_plus_forty_vectors_planning_only": 37425152
+          },
+          "maximum_rate_sum_bound": 384.0000000000002,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            13
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            208
+          ],
+          "states": 851968,
+          "undirected_links": 2525184,
+          "csr_nonzeros": 5902336,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 101253128,
+            "matrix_free_diag_plus_three_link_fields_float64": 27017216,
+            "three_observable_columns_float64": 20447232,
+            "one_state_vector_float64": 6815744,
+            "full_coordinates_plus_positions_float64_if_allocated": 81788928,
+            "forty_state_vector_planning_workspace_float64": 272629760,
+            "csr_plus_forty_vectors_planning_only": 373882888,
+            "matrix_free_plus_forty_vectors_planning_only": 299646976
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            14
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            224
+          ],
+          "states": 1433600,
+          "undirected_links": 4258560,
+          "csr_nonzeros": 9950720,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 170680328,
+            "matrix_free_diag_plus_three_link_fields_float64": 45537280,
+            "three_observable_columns_float64": 34406400,
+            "one_state_vector_float64": 11468800,
+            "full_coordinates_plus_positions_float64_if_allocated": 137625600,
+            "forty_state_vector_planning_workspace_float64": 458752000,
+            "csr_plus_forty_vectors_planning_only": 629432328,
+            "matrix_free_plus_forty_vectors_planning_only": 504289280
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            15
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            240
+          ],
+          "states": 2211840,
+          "undirected_links": 6580224,
+          "csr_nonzeros": 15372288,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 263651336,
+            "matrix_free_diag_plus_three_link_fields_float64": 70336512,
+            "three_observable_columns_float64": 53084160,
+            "one_state_vector_float64": 17694720,
+            "full_coordinates_plus_positions_float64_if_allocated": 212336640,
+            "forty_state_vector_planning_workspace_float64": 707788800,
+            "csr_plus_forty_vectors_planning_only": 971440136,
+            "matrix_free_plus_forty_vectors_planning_only": 778125312
+          },
+          "maximum_rate_sum_bound": 1536.000000000001,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    },
+    {
+      "geometry": "compact",
+      "kappa": 10,
+      "eigenvalues": [
+        14.000000000000032,
+        15.999999999999988,
+        30.0
+      ],
+      "minimum": {
+        "q": [
+          0.0,
+          1.5543122344752192e-15,
+          -5.796550698475777
+        ],
+        "x": [
+          0.0,
+          6.2172489379008735e-15,
+          -31.749015732775096
+        ],
+        "faces": [
+          4,
+          4,
+          34
+        ],
+        "reconstruction_error": 2.220446049250313e-15,
+        "contact_energy": 1.344624369350676e-28
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 960.0000000000003,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 3840.0000000000014,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            34
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            136
+          ],
+          "states": 34816,
+          "undirected_links": 99840,
+          "csr_nonzeros": 234496,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 4030472,
+            "matrix_free_diag_plus_three_link_fields_float64": 1077248,
+            "three_observable_columns_float64": 835584,
+            "one_state_vector_float64": 278528,
+            "full_coordinates_plus_positions_float64_if_allocated": 3342336,
+            "forty_state_vector_planning_workspace_float64": 11141120,
+            "csr_plus_forty_vectors_planning_only": 15171592,
+            "matrix_free_plus_forty_vectors_planning_only": 12218368
+          },
+          "maximum_rate_sum_bound": 960.0000000000003,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            34
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            272
+          ],
+          "states": 278528,
+          "undirected_links": 817152,
+          "csr_nonzeros": 1912832,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 32833544,
+            "matrix_free_diag_plus_three_link_fields_float64": 8765440,
+            "three_observable_columns_float64": 6684672,
+            "one_state_vector_float64": 2228224,
+            "full_coordinates_plus_positions_float64_if_allocated": 26738688,
+            "forty_state_vector_planning_workspace_float64": 89128960,
+            "csr_plus_forty_vectors_planning_only": 121962504,
+            "matrix_free_plus_forty_vectors_planning_only": 97894400
+          },
+          "maximum_rate_sum_bound": 3840.0000000000014,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            34
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            544
+          ],
+          "states": 2228224,
+          "undirected_links": 6610944,
+          "csr_nonzeros": 15450112,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 265027592,
+            "matrix_free_diag_plus_three_link_fields_float64": 70713344,
+            "three_observable_columns_float64": 53477376,
+            "one_state_vector_float64": 17825792,
+            "full_coordinates_plus_positions_float64_if_allocated": 213909504,
+            "forty_state_vector_planning_workspace_float64": 713031680,
+            "csr_plus_forty_vectors_planning_only": 978059272,
+            "matrix_free_plus_forty_vectors_planning_only": 783745024
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            35
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            560
+          ],
+          "states": 3584000,
+          "undirected_links": 10656000,
+          "csr_nonzeros": 24896000,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 427008008,
+            "matrix_free_diag_plus_three_link_fields_float64": 113920000,
+            "three_observable_columns_float64": 86016000,
+            "one_state_vector_float64": 28672000,
+            "full_coordinates_plus_positions_float64_if_allocated": 344064000,
+            "forty_state_vector_planning_workspace_float64": 1146880000,
+            "csr_plus_forty_vectors_planning_only": 1573888008,
+            "matrix_free_plus_forty_vectors_planning_only": 1260800000
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            36
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            576
+          ],
+          "states": 5308416,
+          "undirected_links": 15805440,
+          "csr_nonzeros": 36919296,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 633176072,
+            "matrix_free_diag_plus_three_link_fields_float64": 168910848,
+            "three_observable_columns_float64": 127401984,
+            "one_state_vector_float64": 42467328,
+            "full_coordinates_plus_positions_float64_if_allocated": 509607936,
+            "forty_state_vector_planning_workspace_float64": 1698693120,
+            "csr_plus_forty_vectors_planning_only": 2331869192,
+            "matrix_free_plus_forty_vectors_planning_only": 1867603968
+          },
+          "maximum_rate_sum_bound": 15360.000000000005,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    },
+    {
+      "geometry": "compact",
+      "kappa": 100,
+      "eigenvalues": [
+        140.00000000000023,
+        160.0000000000002,
+        300.0
+      ],
+      "minimum": {
+        "q": [
+          -4.440892098500626e-16,
+          -1.6653345369377348e-15,
+          -5.796550698475776
+        ],
+        "x": [
+          -5.254534392573281e-15,
+          -2.106500081146022e-14,
+          -100.39920318408907
+        ],
+        "faces": [
+          4,
+          4,
+          103
+        ],
+        "reconstruction_error": 8.881784197001252e-16,
+        "contact_energy": 3.4238754566884194e-29
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 9600.000000000007,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 38400.00000000003,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            103
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            412
+          ],
+          "states": 105472,
+          "undirected_links": 302976,
+          "csr_nonzeros": 711424,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 12226568,
+            "matrix_free_diag_plus_three_link_fields_float64": 3267584,
+            "three_observable_columns_float64": 2531328,
+            "one_state_vector_float64": 843776,
+            "full_coordinates_plus_positions_float64_if_allocated": 10125312,
+            "forty_state_vector_planning_workspace_float64": 33751040,
+            "csr_plus_forty_vectors_planning_only": 45977608,
+            "matrix_free_plus_forty_vectors_planning_only": 37018624
+          },
+          "maximum_rate_sum_bound": 9600.000000000007,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            103
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            824
+          ],
+          "states": 843776,
+          "undirected_links": 2477568,
+          "csr_nonzeros": 5798912,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 99532808,
+            "matrix_free_diag_plus_three_link_fields_float64": 26570752,
+            "three_observable_columns_float64": 20250624,
+            "one_state_vector_float64": 6750208,
+            "full_coordinates_plus_positions_float64_if_allocated": 81002496,
+            "forty_state_vector_planning_workspace_float64": 270008320,
+            "csr_plus_forty_vectors_planning_only": 369541128,
+            "matrix_free_plus_forty_vectors_planning_only": 296579072
+          },
+          "maximum_rate_sum_bound": 38400.00000000003,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            103
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            1648
+          ],
+          "states": 6750208,
+          "undirected_links": 20035584,
+          "csr_nonzeros": 46821376,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 803143688,
+            "matrix_free_diag_plus_three_link_fields_float64": 214286336,
+            "three_observable_columns_float64": 162004992,
+            "one_state_vector_float64": 54001664,
+            "full_coordinates_plus_positions_float64_if_allocated": 648019968,
+            "forty_state_vector_planning_workspace_float64": 2160066560,
+            "csr_plus_forty_vectors_planning_only": 2963210248,
+            "matrix_free_plus_forty_vectors_planning_only": 2374352896
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            104
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            1664
+          ],
+          "states": 10649600,
+          "undirected_links": 31676160,
+          "csr_nonzeros": 74001920,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1269227528,
+            "matrix_free_diag_plus_three_link_fields_float64": 338606080,
+            "three_observable_columns_float64": 255590400,
+            "one_state_vector_float64": 85196800,
+            "full_coordinates_plus_positions_float64_if_allocated": 1022361600,
+            "forty_state_vector_planning_workspace_float64": 3407872000,
+            "csr_plus_forty_vectors_planning_only": 4677099528,
+            "matrix_free_plus_forty_vectors_planning_only": 3746478080
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            105
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            1680
+          ],
+          "states": 15482880,
+          "undirected_links": 46116864,
+          "csr_nonzeros": 107716608,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1847328776,
+            "matrix_free_diag_plus_three_link_fields_float64": 492797952,
+            "three_observable_columns_float64": 371589120,
+            "one_state_vector_float64": 123863040,
+            "full_coordinates_plus_positions_float64_if_allocated": 1486356480,
+            "forty_state_vector_planning_workspace_float64": 4954521600,
+            "csr_plus_forty_vectors_planning_only": 6801850376,
+            "matrix_free_plus_forty_vectors_planning_only": 5447319552
+          },
+          "maximum_rate_sum_bound": 153600.00000000012,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    },
+    {
+      "geometry": "elongated",
+      "kappa": 1,
+      "eigenvalues": [
+        0.8837487411849454,
+        2.1162512588150504,
+        2.9999999999999956
+      ],
+      "minimum": {
+        "q": [
+          -2.6645352591003757e-15,
+          3.969047313034935e-15,
+          -7.981645611442961
+        ],
+        "x": [
+          -2.504873946455544e-15,
+          5.7739084122785374e-15,
+          -13.824615727028355
+        ],
+        "faces": [
+          4,
+          4,
+          16
+        ],
+        "reconstruction_error": 2.6645352591003757e-15,
+        "contact_energy": 2.5851592211635507e-30
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 95.99999999999986,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 383.99999999999943,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            16
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            64
+          ],
+          "states": 16384,
+          "undirected_links": 46848,
+          "csr_nonzeros": 110080,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1892360,
+            "matrix_free_diag_plus_three_link_fields_float64": 505856,
+            "three_observable_columns_float64": 393216,
+            "one_state_vector_float64": 131072,
+            "full_coordinates_plus_positions_float64_if_allocated": 1572864,
+            "forty_state_vector_planning_workspace_float64": 5242880,
+            "csr_plus_forty_vectors_planning_only": 7135240,
+            "matrix_free_plus_forty_vectors_planning_only": 5748736
+          },
+          "maximum_rate_sum_bound": 95.99999999999986,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            16
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            128
+          ],
+          "states": 131072,
+          "undirected_links": 384000,
+          "csr_nonzeros": 899072,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 15433736,
+            "matrix_free_diag_plus_three_link_fields_float64": 4120576,
+            "three_observable_columns_float64": 3145728,
+            "one_state_vector_float64": 1048576,
+            "full_coordinates_plus_positions_float64_if_allocated": 12582912,
+            "forty_state_vector_planning_workspace_float64": 41943040,
+            "csr_plus_forty_vectors_planning_only": 57376776,
+            "matrix_free_plus_forty_vectors_planning_only": 46063616
+          },
+          "maximum_rate_sum_bound": 383.99999999999943,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            16
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            256
+          ],
+          "states": 1048576,
+          "undirected_links": 3108864,
+          "csr_nonzeros": 7266304,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 124649480,
+            "matrix_free_diag_plus_three_link_fields_float64": 33259520,
+            "three_observable_columns_float64": 25165824,
+            "one_state_vector_float64": 8388608,
+            "full_coordinates_plus_positions_float64_if_allocated": 100663296,
+            "forty_state_vector_planning_workspace_float64": 335544320,
+            "csr_plus_forty_vectors_planning_only": 460193800,
+            "matrix_free_plus_forty_vectors_planning_only": 368803840
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            17
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            272
+          ],
+          "states": 1740800,
+          "undirected_links": 5172480,
+          "csr_nonzeros": 12085760,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 207298568,
+            "matrix_free_diag_plus_three_link_fields_float64": 55306240,
+            "three_observable_columns_float64": 41779200,
+            "one_state_vector_float64": 13926400,
+            "full_coordinates_plus_positions_float64_if_allocated": 167116800,
+            "forty_state_vector_planning_workspace_float64": 557056000,
+            "csr_plus_forty_vectors_planning_only": 764354568,
+            "matrix_free_plus_forty_vectors_planning_only": 612362240
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            18
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            288
+          ],
+          "states": 2654208,
+          "undirected_links": 7898112,
+          "csr_nonzeros": 18450432,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 316440584,
+            "matrix_free_diag_plus_three_link_fields_float64": 84418560,
+            "three_observable_columns_float64": 63700992,
+            "one_state_vector_float64": 21233664,
+            "full_coordinates_plus_positions_float64_if_allocated": 254803968,
+            "forty_state_vector_planning_workspace_float64": 849346560,
+            "csr_plus_forty_vectors_planning_only": 1165787144,
+            "matrix_free_plus_forty_vectors_planning_only": 933765120
+          },
+          "maximum_rate_sum_bound": 1535.9999999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    },
+    {
+      "geometry": "elongated",
+      "kappa": 10,
+      "eigenvalues": [
+        8.83748741184948,
+        21.162512588150552,
+        29.999999999999996
+      ],
+      "minimum": {
+        "q": [
+          -1.2212453270876722e-15,
+          -8.069933610244107e-15,
+          -7.981645611442959
+        ],
+        "x": [
+          -3.630507339439834e-15,
+          -3.712389850034931e-14,
+          -43.717273473994226
+        ],
+        "faces": [
+          4,
+          4,
+          46
+        ],
+        "reconstruction_error": 2.6645352591003757e-15,
+        "contact_energy": 8.711919776559038e-29
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 960.0000000000005,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 3840.000000000002,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            46
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            184
+          ],
+          "states": 47104,
+          "undirected_links": 135168,
+          "csr_nonzeros": 317440,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 5455880,
+            "matrix_free_diag_plus_three_link_fields_float64": 1458176,
+            "three_observable_columns_float64": 1130496,
+            "one_state_vector_float64": 376832,
+            "full_coordinates_plus_positions_float64_if_allocated": 4521984,
+            "forty_state_vector_planning_workspace_float64": 15073280,
+            "csr_plus_forty_vectors_planning_only": 20529160,
+            "matrix_free_plus_forty_vectors_planning_only": 16531456
+          },
+          "maximum_rate_sum_bound": 960.0000000000005,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            46
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            368
+          ],
+          "states": 376832,
+          "undirected_links": 1105920,
+          "csr_nonzeros": 2588672,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 44433416,
+            "matrix_free_diag_plus_three_link_fields_float64": 11862016,
+            "three_observable_columns_float64": 9043968,
+            "one_state_vector_float64": 3014656,
+            "full_coordinates_plus_positions_float64_if_allocated": 36175872,
+            "forty_state_vector_planning_workspace_float64": 120586240,
+            "csr_plus_forty_vectors_planning_only": 165019656,
+            "matrix_free_plus_forty_vectors_planning_only": 132448256
+          },
+          "maximum_rate_sum_bound": 3840.000000000002,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            46
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            736
+          ],
+          "states": 3014656,
+          "undirected_links": 8945664,
+          "csr_nonzeros": 20905984,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 358613000,
+            "matrix_free_diag_plus_three_link_fields_float64": 95682560,
+            "three_observable_columns_float64": 72351744,
+            "one_state_vector_float64": 24117248,
+            "full_coordinates_plus_positions_float64_if_allocated": 289406976,
+            "forty_state_vector_planning_workspace_float64": 964689920,
+            "csr_plus_forty_vectors_planning_only": 1323302920,
+            "matrix_free_plus_forty_vectors_planning_only": 1060372480
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            47
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            752
+          ],
+          "states": 4812800,
+          "undirected_links": 14311680,
+          "csr_nonzeros": 33436160,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 573480968,
+            "matrix_free_diag_plus_three_link_fields_float64": 152995840,
+            "three_observable_columns_float64": 115507200,
+            "one_state_vector_float64": 38502400,
+            "full_coordinates_plus_positions_float64_if_allocated": 462028800,
+            "forty_state_vector_planning_workspace_float64": 1540096000,
+            "csr_plus_forty_vectors_planning_only": 2113576968,
+            "matrix_free_plus_forty_vectors_planning_only": 1693091840
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            48
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            768
+          ],
+          "states": 7077888,
+          "undirected_links": 21076992,
+          "csr_nonzeros": 49231872,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 844333064,
+            "matrix_free_diag_plus_three_link_fields_float64": 225239040,
+            "three_observable_columns_float64": 169869312,
+            "one_state_vector_float64": 56623104,
+            "full_coordinates_plus_positions_float64_if_allocated": 679477248,
+            "forty_state_vector_planning_workspace_float64": 2264924160,
+            "csr_plus_forty_vectors_planning_only": 3109257224,
+            "matrix_free_plus_forty_vectors_planning_only": 2490163200
+          },
+          "maximum_rate_sum_bound": 15360.000000000007,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    },
+    {
+      "geometry": "elongated",
+      "kappa": 100,
+      "eigenvalues": [
+        88.37487411849447,
+        211.62512588150494,
+        299.9999999999996
+      ],
+      "minimum": {
+        "q": [
+          -4.440892098500626e-16,
+          6.3629657098829284e-15,
+          -7.981645611442961
+        ],
+        "x": [
+          -4.1747899107592385e-15,
+          9.256423101502477e-14,
+          -138.24615727028356
+        ],
+        "faces": [
+          4,
+          4,
+          141
+        ],
+        "reconstruction_error": 2.886579864025407e-15,
+        "contact_energy": 2.1689805012092788e-27
+      },
+      "harmonic": [
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            16
+          ],
+          "states": 4096,
+          "undirected_links": 11520,
+          "csr_nonzeros": 27136,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 466952,
+            "matrix_free_diag_plus_three_link_fields_float64": 124928,
+            "three_observable_columns_float64": 98304,
+            "one_state_vector_float64": 32768,
+            "full_coordinates_plus_positions_float64_if_allocated": 393216,
+            "forty_state_vector_planning_workspace_float64": 1310720,
+            "csr_plus_forty_vectors_planning_only": 1777672,
+            "matrix_free_plus_forty_vectors_planning_only": 1435648
+          },
+          "maximum_rate_sum_bound": 9599.999999999985,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "states": 32768,
+          "undirected_links": 95232,
+          "csr_nonzeros": 223232,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 3833864,
+            "matrix_free_diag_plus_three_link_fields_float64": 1024000,
+            "three_observable_columns_float64": 786432,
+            "one_state_vector_float64": 262144,
+            "full_coordinates_plus_positions_float64_if_allocated": 3145728,
+            "forty_state_vector_planning_workspace_float64": 10485760,
+            "csr_plus_forty_vectors_planning_only": 14319624,
+            "matrix_free_plus_forty_vectors_planning_only": 11509760
+          },
+          "maximum_rate_sum_bound": 38399.99999999994,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            4
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            64
+          ],
+          "states": 262144,
+          "undirected_links": 774144,
+          "csr_nonzeros": 1810432,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 31064072,
+            "matrix_free_diag_plus_three_link_fields_float64": 8290304,
+            "three_observable_columns_float64": 6291456,
+            "one_state_vector_float64": 2097152,
+            "full_coordinates_plus_positions_float64_if_allocated": 25165824,
+            "forty_state_vector_planning_workspace_float64": 83886080,
+            "csr_plus_forty_vectors_planning_only": 114950152,
+            "matrix_free_plus_forty_vectors_planning_only": 92176384
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            5
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            80
+          ],
+          "states": 512000,
+          "undirected_links": 1516800,
+          "csr_nonzeros": 3545600,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 60825608,
+            "matrix_free_diag_plus_three_link_fields_float64": 16230400,
+            "three_observable_columns_float64": 12288000,
+            "one_state_vector_float64": 4096000,
+            "full_coordinates_plus_positions_float64_if_allocated": 49152000,
+            "forty_state_vector_planning_workspace_float64": 163840000,
+            "csr_plus_forty_vectors_planning_only": 224665608,
+            "matrix_free_plus_forty_vectors_planning_only": 180070400
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            6
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            96
+          ],
+          "states": 884736,
+          "undirected_links": 2626560,
+          "csr_nonzeros": 6137856,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 105283592,
+            "matrix_free_diag_plus_three_link_fields_float64": 28090368,
+            "three_observable_columns_float64": 21233664,
+            "one_state_vector_float64": 7077888,
+            "full_coordinates_plus_positions_float64_if_allocated": 84934656,
+            "forty_state_vector_planning_workspace_float64": 283115520,
+            "csr_plus_forty_vectors_planning_only": 388399112,
+            "matrix_free_plus_forty_vectors_planning_only": 311205888
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ],
+      "nonlinear": [
+        {
+          "faces": [
+            4,
+            4,
+            141
+          ],
+          "spacing": 0.5,
+          "shape": [
+            16,
+            16,
+            564
+          ],
+          "states": 144384,
+          "undirected_links": 414848,
+          "csr_nonzeros": 974080,
+          "old_one_million_state_cap_pass": true,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 16740360,
+            "matrix_free_diag_plus_three_link_fields_float64": 4473856,
+            "three_observable_columns_float64": 3465216,
+            "one_state_vector_float64": 1155072,
+            "full_coordinates_plus_positions_float64_if_allocated": 13860864,
+            "forty_state_vector_planning_workspace_float64": 46202880,
+            "csr_plus_forty_vectors_planning_only": 62943240,
+            "matrix_free_plus_forty_vectors_planning_only": 50676736
+          },
+          "maximum_rate_sum_bound": 9599.999999999985,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            141
+          ],
+          "spacing": 0.25,
+          "shape": [
+            32,
+            32,
+            1128
+          ],
+          "states": 1155072,
+          "undirected_links": 3392000,
+          "csr_nonzeros": 7939072,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 136265736,
+            "matrix_free_diag_plus_three_link_fields_float64": 36376576,
+            "three_observable_columns_float64": 27721728,
+            "one_state_vector_float64": 9240576,
+            "full_coordinates_plus_positions_float64_if_allocated": 110886912,
+            "forty_state_vector_planning_workspace_float64": 369623040,
+            "csr_plus_forty_vectors_planning_only": 505888776,
+            "matrix_free_plus_forty_vectors_planning_only": 405999616
+          },
+          "maximum_rate_sum_bound": 38399.99999999994,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            4,
+            4,
+            141
+          ],
+          "spacing": 0.125,
+          "shape": [
+            64,
+            64,
+            2256
+          ],
+          "states": 9240576,
+          "undirected_links": 27428864,
+          "csr_nonzeros": 64098304,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1099497480,
+            "matrix_free_diag_plus_three_link_fields_float64": 293355520,
+            "three_observable_columns_float64": 221773824,
+            "one_state_vector_float64": 73924608,
+            "full_coordinates_plus_positions_float64_if_allocated": 887095296,
+            "forty_state_vector_planning_workspace_float64": 2956984320,
+            "csr_plus_forty_vectors_planning_only": 4056481800,
+            "matrix_free_plus_forty_vectors_planning_only": 3250339840
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            5,
+            5,
+            142
+          ],
+          "spacing": 0.125,
+          "shape": [
+            80,
+            80,
+            2272
+          ],
+          "states": 14540800,
+          "undirected_links": 43252480,
+          "csr_nonzeros": 101045760,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 1733058568,
+            "matrix_free_diag_plus_three_link_fields_float64": 462346240,
+            "three_observable_columns_float64": 348979200,
+            "one_state_vector_float64": 116326400,
+            "full_coordinates_plus_positions_float64_if_allocated": 1395916800,
+            "forty_state_vector_planning_workspace_float64": 4653056000,
+            "csr_plus_forty_vectors_planning_only": 6386114568,
+            "matrix_free_plus_forty_vectors_planning_only": 5115402240
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        },
+        {
+          "faces": [
+            6,
+            6,
+            143
+          ],
+          "spacing": 0.125,
+          "shape": [
+            96,
+            96,
+            2288
+          ],
+          "states": 21086208,
+          "undirected_links": 62810112,
+          "csr_nonzeros": 146706432,
+          "old_one_million_state_cap_pass": false,
+          "storage_bytes": {
+            "csr_float64_int64_exact": 2515992584,
+            "matrix_free_diag_plus_three_link_fields_float64": 671170560,
+            "three_observable_columns_float64": 506068992,
+            "one_state_vector_float64": 168689664,
+            "full_coordinates_plus_positions_float64_if_allocated": 2024275968,
+            "forty_state_vector_planning_workspace_float64": 6747586560,
+            "csr_plus_forty_vectors_planning_only": 9263579144,
+            "matrix_free_plus_forty_vectors_planning_only": 7418757120
+          },
+          "maximum_rate_sum_bound": 153599.99999999977,
+          "rate_bound_note": "Actual per-model upper bound 4*sum(mu*lambda)/h^2 on exit-rate sum; a Gershgorin spectral bound is twice this. Arrays exclude Python/allocator/library overhead; forty-vector workspace is a planning scenario, not measured peak."
+        }
+      ]
+    }
+  ]
+}

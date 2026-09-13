@@ -1,0 +1,72 @@
+{
+  "status": "analytical_planning_scenarios_not_biological_evidence",
+  "assumptions": [
+    "Independent, identically distributed approximately normal family-level paired differences for t/noncentral-t planning.",
+    "All sigma and delta values are assumed; no independent empirical sigma is available.",
+    "Precision planning is not a guarantee of realized interval width or coverage for discrete/skewed family outcomes."
+  ],
+  "formula": "half_width = t_(0.975,n-1) * assumed_paired_sd / sqrt(n)",
+  "required_n_for_nominal_precision": [
+    {
+      "assumed_paired_sd": 0.15,
+      "desired_nominal_half_width": 0.1,
+      "required_independent_families": 12
+    },
+    {
+      "assumed_paired_sd": 0.15,
+      "desired_nominal_half_width": 0.05,
+      "required_independent_families": 38
+    },
+    {
+      "assumed_paired_sd": 0.25,
+      "desired_nominal_half_width": 0.1,
+      "required_independent_families": 27
+    },
+    {
+      "assumed_paired_sd": 0.25,
+      "desired_nominal_half_width": 0.05,
+      "required_independent_families": 99
+    },
+    {
+      "assumed_paired_sd": 0.4,
+      "desired_nominal_half_width": 0.1,
+      "required_independent_families": 64
+    },
+    {
+      "assumed_paired_sd": 0.4,
+      "desired_nominal_half_width": 0.05,
+      "required_independent_families": 249
+    },
+    {
+      "assumed_paired_sd": 0.6,
+      "desired_nominal_half_width": 0.1,
+      "required_independent_families": 141
+    },
+    {
+      "assumed_paired_sd": 0.6,
+      "desired_nominal_half_width": 0.05,
+      "required_independent_families": 556
+    }
+  ],
+  "bounded_difference_sensitivity": {
+    "range": [
+      -1,
+      1
+    ],
+    "formula": "sqrt(2*log(2/alpha)/n)",
+    "n_for_half_width_0p10": 738,
+    "caveat": "Hoeffding bound assumes independent bounded family differences; it does not establish representative sampling."
+  },
+  "tests": {
+    "96_scenarios": true,
+    "zero_gain_positive_interval_probability_0p025": true,
+    "true_target_joint_success_no_more_than_one_half": true,
+    "joint_probability_not_greater_than_positive_interval_probability": true,
+    "integration_error_below_1e_minus_8": true,
+    "width_decreases_with_n": true
+  },
+  "python": "3.9.6",
+  "scipy": "1.13.1",
+  "source_sha256": "d41575efdd1ee25185b411f15ee08a2477f376e3074a62084679239a4b4d1031",
+  "csv_sha256": "4852cf553a10f680dbce33b609ae257e3f62531ffdaef8cde866ca324bae544e"
+}

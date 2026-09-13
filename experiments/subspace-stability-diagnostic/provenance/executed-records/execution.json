@@ -1,0 +1,54 @@
+{
+  "status": "STOPPED",
+  "started_utc": "2026-09-13T06:50:02.806080+00:00",
+  "protocol_sha256": "a017f5f37bd0d6b10683f0f84077e9d7e5b3699b7e3ce2d6662c3056d8960c39",
+  "jobs": [
+    {
+      "name": "instrumentation-AST-check",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "instrumentation",
+        "--label",
+        "pinned"
+      ],
+      "log": "logs/00-instrumentation-AST-check.log",
+      "started_utc": "2026-09-13T06:50:02.806609+00:00",
+      "returncode": 0,
+      "seconds": 1.4369090420000001,
+      "limit_reason": null,
+      "log_sha256": "a69a8414ede1b15d8f9fafc8184134d28ec892f03ea1534fbead82e408af9c0a"
+    },
+    {
+      "name": "inventory-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "inventory",
+        "--label",
+        "pinned"
+      ],
+      "log": "logs/01-inventory-pinned.log",
+      "started_utc": "2026-09-13T06:50:04.244322+00:00",
+      "returncode": 1,
+      "seconds": 0.5664966249999999,
+      "limit_reason": null,
+      "log_sha256": "b8c648190b4750fc1a16d7248e3ee36fcbf3022075cd9106ade77d83c7d8aa1d"
+    }
+  ],
+  "sampled_peak_aggregate_bytes": 98861056,
+  "limits": {
+    "wall_seconds": 1800,
+    "aggregate_bytes": 4000000000,
+    "workers": 1,
+    "paid_compute": false,
+    "remote_compute": false
+  },
+  "wall_seconds": 2.0054447079999997,
+  "error": "RuntimeError: Job stopped: inventory-pinned",
+  "finished_utc": "2026-09-13T06:50:04.811517+00:00"
+}

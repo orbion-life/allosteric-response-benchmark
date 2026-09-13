@@ -1,0 +1,41 @@
+{
+  "status": "RUNNING",
+  "completed_queries": [
+    {
+      "time": 0.07873822765326266,
+      "time_over_tau": 0.1,
+      "seconds": 0.43588800000725314,
+      "counts": {
+        "forward_vectors": 0,
+        "forward_blocks": 84,
+        "adjoint_vectors": 0,
+        "adjoint_blocks": 2,
+        "vector_equivalents": 254
+      }
+    },
+    {
+      "time": 0.7873822765326265,
+      "time_over_tau": 0.9999999999999999,
+      "seconds": 4.475801833032165,
+      "counts": {
+        "forward_vectors": 0,
+        "forward_blocks": 892,
+        "adjoint_vectors": 0,
+        "adjoint_blocks": 148,
+        "vector_equivalents": 2815
+      }
+    },
+    {
+      "time": 7.873822765326265,
+      "time_over_tau": 10.0,
+      "seconds": 35.8563430000213,
+      "counts": {
+        "forward_vectors": 0,
+        "forward_blocks": 7380,
+        "adjoint_vectors": 0,
+        "adjoint_blocks": 141,
+        "vector_equivalents": 22264
+      }
+    }
+  ]
+}

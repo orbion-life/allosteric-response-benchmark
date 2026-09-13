@@ -1,0 +1,1 @@
+The immutable scientific source and reused vendor helpers are Orbion project code under the included MIT license. NumPy and SciPy provide numerical routines; Matplotlib provides plotting. Their binaries and source distributions are not bundled. The evidence uses synthetic three-node geometries and contains no newly redistributed protein coordinate dataset.

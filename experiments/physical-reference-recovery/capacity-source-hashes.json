@@ -1,0 +1,13 @@
+{
+  "status": "CAPACITY SOURCES FROZEN BEFORE EXECUTION; PENDING PARENT ADMISSION",
+  "utc": "2026-09-13T07:13:14.081787+00:00",
+  "sha256": {
+    "capacity-protocol.json": "c17e5c0a5cd6839803b0ab1b7fbb63f8cb943158816692d1edda0c4f2fa52821",
+    "capacity_probe.py": "ee7016dc8420be12df9eeda57654553a03535e4ec9a515e002ddf2c8bd0ac849",
+    "run_capacity.py": "4b15a11b45701c78594a3dd0ce8b28ef3e2bd1ce2e6f66516dba72ac29d8e26d",
+    "supplementary_minima_preflight.py": "70f94896bf1328c87e88c1f63919047b205b3de484247270a6c6ff488e184694",
+    "model.py": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261",
+    "nonlinear_profile.py": "5a8b13555aa72db007dc4cacda21dd2472938ef12f82c0e19c268fa63f319260",
+    "preflight.py": "f56d43da99c6f9246a908b53394c15ba71e1e10805a9c8954f32ba53f2e31251"
+  }
+}

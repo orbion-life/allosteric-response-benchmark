@@ -1,0 +1,76 @@
+{
+  "status": "LOCAL ASSET CHECKSUMS VERIFIED; RELEASE AVAILABILITY RECORDED BY GITHUB",
+  "archives": [
+    {
+      "name": "subspace-stability-2026-09-13-source-history.zip",
+      "bytes": 1126826,
+      "sha256": "fbef1c77220e589bc0606f0ccb0b361cd83e70ab9be0adb4aa35f6576ba893b7",
+      "member_receipt": "subspace-stability-2026-09-13-source-history.zip.members.json",
+      "member_receipt_sha256": "4527962ac947992a0824be1b988913d6cbe473836216e99a1e84bfdd0c27f238",
+      "source_files": 127,
+      "uncompressed_source_bytes": 2755158,
+      "pack_and_verify_seconds": 0.07356333299999962,
+      "download_url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.5.0/subspace-stability-2026-09-13-source-history.zip"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-inputs-and-comparisons.zip",
+      "bytes": 20641765,
+      "sha256": "afe8d0dc41bfa7a41332f3bdb037e513c611d414eb60d2399eb654b1bb164bf1",
+      "member_receipt": "subspace-stability-2026-09-13-inputs-and-comparisons.zip.members.json",
+      "member_receipt_sha256": "0718a425bd49f26c028ca3bbfce535200adda924f28e045a7b9a6dbb81cb54d1",
+      "source_files": 31,
+      "uncompressed_source_bytes": 28112867,
+      "pack_and_verify_seconds": 0.9546818749999999,
+      "download_url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.5.0/subspace-stability-2026-09-13-inputs-and-comparisons.zip"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-pinned-traces.zip",
+      "bytes": 214111575,
+      "sha256": "2b4c0e4873edf602c5220540a08238bfd7941f4b48c2017ec3b6a6b276853ed8",
+      "member_receipt": "subspace-stability-2026-09-13-pinned-traces.zip.members.json",
+      "member_receipt_sha256": "d9c1f720db7fb8693727bdb15c31def60e16b1fd845d0b12484546117c2ce04a",
+      "source_files": 467,
+      "uncompressed_source_bytes": 239667981,
+      "pack_and_verify_seconds": 9.6605755,
+      "download_url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.5.0/subspace-stability-2026-09-13-pinned-traces.zip"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-original-system-traces.zip",
+      "bytes": 396078895,
+      "sha256": "d14fdeeb4e30819dcbc740aa9521cdd061c24fe315dee6de870ea7f28a8387a4",
+      "member_receipt": "subspace-stability-2026-09-13-original-system-traces.zip.members.json",
+      "member_receipt_sha256": "d9c34885f3b9a7890bcc610c92a046ca925393df6cec9c127cc6fd0c7c8bd8a4",
+      "source_files": 837,
+      "uncompressed_source_bytes": 445997116,
+      "pack_and_verify_seconds": 18.457913333,
+      "download_url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.5.0/subspace-stability-2026-09-13-original-system-traces.zip"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-repaired-system-traces.zip",
+      "bytes": 428431275,
+      "sha256": "331371a0dcd9f9edb084eead6c6208d3ad3b49f23c48aa55c074518ece23fa61",
+      "member_receipt": "subspace-stability-2026-09-13-repaired-system-traces.zip.members.json",
+      "member_receipt_sha256": "d0fc241a7ee73489ca317b33a9195d411e1d6b31a219440510f8c31320e0d15b",
+      "source_files": 936,
+      "uncompressed_source_bytes": 479355186,
+      "pack_and_verify_seconds": 19.369034708,
+      "download_url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.5.0/subspace-stability-2026-09-13-repaired-system-traces.zip"
+    },
+    {
+      "name": "subspace-stability-2026-09-13-fixed-V-drivers.zip",
+      "bytes": 496562002,
+      "sha256": "e28ab2636affff29241790f229675c8c97b27ac95428387a3df8615aae9a64e7",
+      "member_receipt": "subspace-stability-2026-09-13-fixed-V-drivers.zip.members.json",
+      "member_receipt_sha256": "56e353a285fbb1b857fe1ab103c43e7c42d43d4eed00b82784d6c999a922de5a",
+      "source_files": 660,
+      "uncompressed_source_bytes": 629417854,
+      "pack_and_verify_seconds": 29.32707825,
+      "download_url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.5.0/subspace-stability-2026-09-13-fixed-V-drivers.zip"
+    }
+  ],
+  "raw_root": "stability/",
+  "source_manifest_sha256": "601d73e843a14f3770796c24e463178f4e8d5ec25004dc6d408d161e96234da8",
+  "excluded_cache_paths": [],
+  "release_tag": "v0.5.0",
+  "release_url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.5.0"
+}

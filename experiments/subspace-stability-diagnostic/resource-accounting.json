@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-09-13T07:09:00.520512+00:00",
+  "watchdog_attempts": [
+    {
+      "receipt": "execution.json",
+      "status": "STOPPED",
+      "seconds": 2.0054447079999997,
+      "sampled_peak_aggregate_bytes": 98861056
+    },
+    {
+      "receipt": "execution-continuation-1.json",
+      "status": "COMPLETE",
+      "seconds": 59.739278042,
+      "sampled_peak_aggregate_bytes": 746192896
+    },
+    {
+      "receipt": "execution-continuation-2.json",
+      "status": "COMPLETE",
+      "seconds": 22.330776541,
+      "sampled_peak_aggregate_bytes": 347750400
+    }
+  ],
+  "sum_monitored_attempt_seconds": 84.075499291,
+  "final_protocol_carry_forward_seconds": 85.35789443859828,
+  "saved_array_inspections_outer_wall_seconds": 1.5697342079999999,
+  "additional_reserved_charge_seconds": 60,
+  "conservatively_charged_seconds": 146.9276286465983,
+  "allocation_seconds": 1800,
+  "sampled_peak_aggregate_bytes": 746192896,
+  "allocation_bytes": 4000000000,
+  "workers": 1,
+  "precision": "float64; longdouble reports the same precision on both available environments",
+  "notes": [
+    "The carry-forward total includes a conservative measured allowance for preceding manifest tails.",
+    "The extra 60-second charge covers short metadata reads, the failed empty-file inspection, bootstrap packaging tests and manifest hashing. It is an allowance, not an assertion that those actions took exactly 60 seconds.",
+    "Documentation and parent-coordination gaps were excluded from numerical execution time. The sequential watchdog was resumed through prehashed procedural continuations; it was not one uninterrupted wall clock.",
+    "Memory is sampled at approximately 0.25-second intervals and includes the coordinator plus its numerical subprocess group; the reported peak is a sampled value.",
+    "No new numerical model or reference is constructed after the worker was handed to the physical profiling agent."
+  ]
+}

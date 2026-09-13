@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-13",
+  "status": "PROPOSED SEPARATE CAPACITY PROBE; RECORDED BEFORE EXECUTION",
+  "reason": "The newly expanded known-minimum inventory changes the later development schedule to faces(6,5,17), (7,6,18), (8,7,19). A representative largest-grid construction/action check can replace state-count-only memory/runtime extrapolation.",
+  "faces": [8, 7, 19],
+  "spacing": 0.125,
+  "shape": [128, 112, 304],
+  "states": 4358144,
+  "scope": "Build the full largest proposed finite generator and normalized observable columns; evaluate stationarity and CSR/stencil action agreement; time ten three-column CSR and ten stencil actions. Allocate and touch forty additional state vectors as an explicit workspace capacity scenario. No exponential propagation, response matrix, grid convergence or whole-plane coverage is computed.",
+  "input_model": "Same development geometry, kappa=beta=mu=1, all three positive modes, full quartic observables and fixed exact harmonic SD as the original frozen profile.",
+  "workspace_state_vectors": 40,
+  "microbenchmark_actions_per_representation": 10,
+  "allowance": {"wall_seconds": 120, "aggregate_memory_bytes": 6000000000, "workers": 1, "BLAS_environment_threads": 1},
+  "warnings_as_errors": true,
+  "numpy_random_seed": 1729,
+  "numerical_identity_gates": {"stationarity_absolute": 1e-9, "scaled_action_difference": 1e-12},
+  "admission": "Parent must directly verify the supplementary preflight and this source/protocol before launch; old physical profile must be complete and shared numerical/disk work finished. Refuse if dimensions or counted CSR entries differ from the preflight. One invocation only; no adaptive larger case or full propagation.",
+  "success": "The declared construction and both action checks complete within120 seconds and6GB, with all numerical identity checks. This establishes measured capacity for this generator and explicit workspace scenario, not successful nonlinear propagation or convergence.",
+  "next_allocation": "Use measured largest-case action distributions, exact graph storage, observed preparation peak, representative Taylor action counts, and conditioning-aware Chebyshev degree bounds to propose a later complete five-grid schedule including both propagation methods. Label non-executed complete-cost estimates as estimates and apply explicit admission/stopping limits."
+}

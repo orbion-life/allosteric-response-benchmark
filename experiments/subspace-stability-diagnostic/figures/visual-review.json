@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-13T07:19:17.756529+00:00",
+  "figure_pdf_sha256": "3c1fb738b92c2b521b4b5ae894c76c6b2f7df0da90a3f99e2f2e825a66eb32e1",
+  "figure_png_sha256": "ac0f1389ecf266f67d125e187ca61b8dd1dc7fd68c42a0ae959b9d42dddf7f3f",
+  "native_size_inches": [
+    8.8,
+    10.0
+  ],
+  "base_label_minimum_pt": 10.5,
+  "review": "Direct PNG inspection after increasing vertical spacing. No clipped labels or colliding legends remain. Top panels and lower timing panel are separated; all data marks and scope notes are legible at native size.",
+  "source_scope": [
+    "Harmonic: all ten declared development kappa=1 rows; all-case and successive-comparison CSVs saved.",
+    "Stability: elongated kappa=100 selected case displayed; both cases and every fixed-V driver comparison retained in CSVs.",
+    "Nonlinear: only two completed original profile cases; full worker timings include preparation, propagation, independent checks and other overhead. No future capacity or propagation estimates shown."
+  ],
+  "notes": [
+    "Math exponent glyphs are conventional smaller superscripts. Base labels are at least10.5pt; the figure should not be shrunk into a small main-paper panel.",
+    "The first crowded-legend render was revised by increasing height and moving legends; scientific values did not change."
+  ]
+}

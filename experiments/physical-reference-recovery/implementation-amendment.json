@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-13",
+  "status": "AFTER INITIAL UNIT TESTS; BEFORE TIMED CALIBRATION OR PROFILE",
+  "initial_test_result": "Five tests passed; three stopped at model.energies dense matmul with RuntimeWarning: divide by zero encountered in matmul. Full log and source snapshot preserved in history/before-explicit-contraction-*.",
+  "change": "Use explicit np.einsum contractions with optimize=False for dense polynomial/geometry/moment products. Sparse generator actions and both propagation algorithms remain unchanged.",
+  "preserved": "All warning checks, tolerances, parameters, complete prospective case list, resource caps, physical measure/dynamics, normalization and observable definitions.",
+  "interpretation": "This avoids the warning-producing dense contraction path without suppressing the warning. Independent direct-observable, analytic and full-grid parity tests must still pass. No successful response outcome is presumed.",
+  "second_unit_test_correction": {
+    "result": "Seven tests pass; full tiny receipt test detects AttributeError from writing reserved LinearOperator.H property.",
+    "change": "Rename the internal CSR attribute to matrix. Counted actions and mathematics unchanged.",
+    "scope": "Before timed calibration/profile; failure log and source retained."
+  }
+}

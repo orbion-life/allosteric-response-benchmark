@@ -1,0 +1,105 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-09-13T07:01:26.929184+00:00",
+  "protocol_sha256": "e2b2db67204bd91c54c06e48473beaeba25a0f3e51e0fcb3a4389f4e8d0218c1",
+  "prior_execution_seconds": 63.02711739759827,
+  "jobs": [
+    {
+      "name": "repair-system-0-native",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "system",
+        "--case",
+        "0",
+        "--repair"
+      ],
+      "log": "logs-continuation-2/00-repair-system-0-native.log",
+      "started_utc": "2026-09-13T07:01:26.930014+00:00",
+      "returncode": 0,
+      "seconds": 2.5722515,
+      "limit_reason": null,
+      "log_sha256": "f47884d7a0dfe0a332f68fff59ef8510753949c476806a04a667ceb237d3a00e"
+    },
+    {
+      "name": "repair-system-0-shared",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "system",
+        "--case",
+        "0",
+        "--shared",
+        "--repair"
+      ],
+      "log": "logs-continuation-2/01-repair-system-0-shared.log",
+      "started_utc": "2026-09-13T07:01:29.502861+00:00",
+      "returncode": 0,
+      "seconds": 2.298163167,
+      "limit_reason": null,
+      "log_sha256": "5ef87a702a3ba82bedc9ee1e2241efc0370128f28c420703bd997909d35d5984"
+    },
+    {
+      "name": "repair-system-1-native",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "system",
+        "--case",
+        "1",
+        "--repair"
+      ],
+      "log": "logs-continuation-2/02-repair-system-1-native.log",
+      "started_utc": "2026-09-13T07:01:31.801644+00:00",
+      "returncode": 0,
+      "seconds": 8.896690249999999,
+      "limit_reason": null,
+      "log_sha256": "5d5907d8a949e591806dcca29f84653d4a173b2feed0059713e99653d3743e33"
+    },
+    {
+      "name": "repair-system-1-shared",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "system",
+        "--case",
+        "1",
+        "--shared",
+        "--repair"
+      ],
+      "log": "logs-continuation-2/03-repair-system-1-shared.log",
+      "started_utc": "2026-09-13T07:01:40.698984+00:00",
+      "returncode": 0,
+      "seconds": 8.560278167,
+      "limit_reason": null,
+      "log_sha256": "9c19db4955cbe455f6e6f3d7a1ac30c691c00a03c197c7b46787238c09feb6c4"
+    }
+  ],
+  "sampled_peak_aggregate_bytes": 347750400,
+  "limits": {
+    "wall_seconds": 1800,
+    "aggregate_bytes": 4000000000,
+    "workers": 1,
+    "paid_compute": false,
+    "remote_compute": false
+  },
+  "wall_seconds": 22.330776541,
+  "aggregate_execution_seconds": 85.35789443859828,
+  "finished_utc": "2026-09-13T07:01:49.259862+00:00"
+}

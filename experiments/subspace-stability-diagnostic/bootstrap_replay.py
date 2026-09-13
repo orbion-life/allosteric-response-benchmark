@@ -1,0 +1,37 @@
+"""Prepare a fresh portable replay without changing archived protocols or results.
+
+This helper uses only Python's standard library. It never installs packages.
+"""
+from pathlib import Path
+import argparse, datetime, hashlib, json, os, shutil, subprocess, sys
+ROOT=Path(__file__).resolve().parent
+
+def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+
+def prepare(output,pinned_python,system_python):
+    output=Path(output).resolve()
+    if output.exists():raise FileExistsError('Choose a new output directory; archived results are never overwritten.')
+    executables={}
+    for label,value in [('pinned',pinned_python),('system',system_python)]:
+        p=Path(os.path.abspath(os.path.expanduser(value)))
+        # Preserve the venv invocation path: resolving its symlink can select the base environment.
+        if not p.is_file():raise FileNotFoundError('Missing '+label+' Python: '+str(p))
+        executables[label]=str(p)
+    template=json.loads((ROOT/'replay-template.json').read_text())
+    output.mkdir(parents=True)
+    for name in ['diagnostic.py','bounded_run.py','source-proposal.md','source-receipts.json']:
+        shutil.copy2(ROOT/name,output/name)
+    for name in ['immutable','original-results']:
+        shutil.copytree(ROOT/name,output/name,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
+    files=[output/'diagnostic.py',output/'bounded_run.py']+[p for p in (output/'immutable').rglob('*') if p.is_file()]+[p for p in (output/'original-results').rglob('*') if p.is_file()]
+    template.update(created_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),status='FRESH REPLAY PROTOCOL WRITTEN BEFORE EXECUTION',executables=executables,code_sha256={str(p.relative_to(output)):digest(p) for p in sorted(files)},prior_execution_seconds=0.,execution_file='execution.json',log_directory='logs',parent_replay_template_sha256=digest(ROOT/'replay-template.json'),original_executed_protocol_sha256=template['original_executed_protocol_sha256'],replay_helper_sha256=digest(Path(__file__)),procedural_amendment='Fresh execution of the original ordered 23 jobs with the audited structural trace hook and completeness assertions. Historical metadata failure and incomplete traces remain in the source archive; neither failure is deliberately reproduced. No scientific input, recurrence or acceptance setting changes.')
+    (output/'protocol.json').write_text(json.dumps(template,indent=2,allow_nan=False)+'\n')
+    h=digest(output/'protocol.json');(output/'protocol.sha256').write_text(h+'\n')
+    return {'output':str(output),'protocol_sha256':h,'jobs':len(template['jobs']),'status':'PREPARED; NOT EXECUTED'}
+
+def main():
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,required=True);p.add_argument('--pinned-python',required=True);p.add_argument('--system-python',required=True);p.add_argument('--run',action='store_true',help='Run the fresh bounded allocation after writing its protocol; default only prepares it.');a=p.parse_args()
+    receipt=prepare(a.output,a.pinned_python,a.system_python);print(json.dumps(receipt),flush=True)
+    if a.run:subprocess.run([sys.executable,str(Path(receipt['output'])/'bounded_run.py')],cwd=receipt['output'],check=True)
+
+if __name__=='__main__':main()

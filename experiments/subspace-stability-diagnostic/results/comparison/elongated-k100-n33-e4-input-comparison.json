@@ -1,0 +1,107 @@
+{
+  "data": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 4.5292836148291826e-10
+  },
+  "indices": {
+    "shape_equal": true,
+    "byte_equal": true,
+    "max_difference": 0.0
+  },
+  "indptr": {
+    "shape_equal": true,
+    "byte_equal": true,
+    "max_difference": 0.0
+  },
+  "shape": {
+    "shape_equal": true,
+    "byte_equal": true,
+    "max_difference": 0.0
+  },
+  "axis": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 1.6653345369377348e-16
+  },
+  "delta": {
+    "shape_equal": true,
+    "byte_equal": true,
+    "max_difference": 0.0
+  },
+  "inds": {
+    "shape_equal": true,
+    "byte_equal": true,
+    "max_difference": 0.0
+  },
+  "energy": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 2.7711166694643907e-13
+  },
+  "Ei": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 1.3855583347321954e-13
+  },
+  "pi": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 2.8406096919120216e-17
+  },
+  "means": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 6.661338147750939e-16
+  },
+  "F": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 9.766493169749424e-16
+  },
+  "times": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 6.938893903907228e-17
+  },
+  "sd": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 2.220446049250313e-16
+  },
+  "static_r0": {
+    "shape_equal": true,
+    "byte_equal": true,
+    "max_difference": 0.0
+  },
+  "static_edges": {
+    "shape_equal": true,
+    "byte_equal": true,
+    "max_difference": 0.0
+  },
+  "static_hess": {
+    "shape_equal": true,
+    "byte_equal": true,
+    "max_difference": 0.0
+  },
+  "static_vals": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 5.684341886080802e-14
+  },
+  "static_lam": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 5.684341886080802e-14
+  },
+  "static_B": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 4.440892098500626e-16
+  },
+  "static_sd": {
+    "shape_equal": true,
+    "byte_equal": false,
+    "max_difference": 2.220446049250313e-16
+  }
+}

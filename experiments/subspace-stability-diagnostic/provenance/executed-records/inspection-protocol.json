@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-13T07:03:27.101024+00:00",
+  "action": "Saved-array trace coverage, exact parity and compact diagnostic inspection; no new scientific construction",
+  "code_sha256": "d7c93df37155e4dd3b1beff5045b99242648c386b9ddafd92a8d2b0a78379ba9",
+  "prior_aggregate_execution_seconds": 85.35789443859828,
+  "limits": {
+    "wall_seconds": 60,
+    "workers": 1,
+    "aggregate_bytes": 4000000000
+  },
+  "environment": "pinned; six thread variables=1; warnings as errors",
+  "prior_inspection_wall_seconds": 0.672823458,
+  "amendment": "Reference recomputation is separately measured, not assumed bitwise equal; basis and all previously saved trace arrays remain bitwise equal. Preserve original failed inspection."
+}

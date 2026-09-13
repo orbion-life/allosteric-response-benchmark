@@ -1,0 +1,1632 @@
+{
+  "status": "DIAGNOSTIC COMPLETE; interpretation requires stage-specific comparison",
+  "cases": [
+    {
+      "case": "development-k1-n17-e4",
+      "native": {
+        "1e-12": {
+          "step": 4,
+          "stage": "raw",
+          "maximum_gap": 1.358501377161467e-12
+        },
+        "1e-10": {
+          "step": 8,
+          "stage": "raw",
+          "maximum_gap": 1.678988045352506e-10
+        },
+        "1e-08": {
+          "step": 27,
+          "stage": "raw",
+          "maximum_gap": 1.0082300435689555e-08
+        },
+        "1e-06": null
+      },
+      "identical_input": {
+        "1e-12": {
+          "step": 5,
+          "stage": "raw",
+          "maximum_gap": 1.3912875661618842e-12
+        },
+        "1e-10": {
+          "step": 10,
+          "stage": "raw",
+          "maximum_gap": 1.3154875298160606e-10
+        },
+        "1e-08": null,
+        "1e-06": null
+      },
+      "evaluations": {
+        "pinned_native": {
+          "input_sha256": "ce6a5896a96a67bcc338d94993c4ba7ea08f95a2c01396e2cb0cba7624392e24",
+          "selected": true,
+          "rank": 96,
+          "checkpoints": [
+            {
+              "rank": 3,
+              "max_C_error": 0.08998659723034869,
+              "max_bound": 1.2038504671426802,
+              "min_slack": 0.0007121722469053023,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 6,
+              "max_C_error": 0.02819202750236599,
+              "max_bound": 0.8404975670249765,
+              "min_slack": 2.7864434390847683e-05,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 12,
+              "max_C_error": 0.020625683804296857,
+              "max_bound": 0.5236393228171685,
+              "min_slack": 1.4305368285538942e-08,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 24,
+              "max_C_error": 0.004540067454976926,
+              "max_bound": 0.17304841002514443,
+              "min_slack": 5.705714393123561e-14,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 48,
+              "max_C_error": 0.00018988016579893352,
+              "max_bound": 0.003930316607100146,
+              "min_slack": 1.054365479423827e-13,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 96,
+              "max_C_error": 1.3307833446329909e-08,
+              "max_bound": 1.473580156678421e-06,
+              "min_slack": 1.3123233453933447e-13,
+              "selected_by_bound": true
+            }
+          ],
+          "reference_seconds": 0.27402308298042044
+        },
+        "system_native": {
+          "input_sha256": "0d793215be405198f264d2d9ee6d36eb7ba82fd9c8753c1207461053371ddc2f",
+          "selected": true,
+          "rank": 96,
+          "checkpoints": [
+            {
+              "rank": 3,
+              "max_C_error": 0.08998659723034816,
+              "max_bound": 1.2038504671426717,
+              "min_slack": 0.0007121722469053838,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 6,
+              "max_C_error": 0.028192027502365935,
+              "max_bound": 0.8404975670249704,
+              "min_slack": 2.7864434390749604e-05,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 12,
+              "max_C_error": 0.020625683804296857,
+              "max_bound": 0.5236393228171698,
+              "min_slack": 1.4305368565497641e-08,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 24,
+              "max_C_error": 0.00454006745497737,
+              "max_bound": 0.17304841002513863,
+              "min_slack": 5.658237935687273e-14,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 48,
+              "max_C_error": 0.000189880165798878,
+              "max_bound": 0.003930316605202997,
+              "min_slack": 8.777509149870536e-14,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 96,
+              "max_C_error": 1.330783419573045e-08,
+              "max_bound": 1.473580426865327e-06,
+              "min_slack": 1.3498672096011576e-13,
+              "selected_by_bound": true
+            }
+          ],
+          "reference_seconds": 0.2804915419999998
+        },
+        "system_shared": {
+          "input_sha256": "ce6a5896a96a67bcc338d94993c4ba7ea08f95a2c01396e2cb0cba7624392e24",
+          "selected": true,
+          "rank": 96,
+          "checkpoints": [
+            {
+              "rank": 3,
+              "max_C_error": 0.08998659723034858,
+              "max_bound": 1.2038504671426795,
+              "min_slack": 0.0007121722469057836,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 6,
+              "max_C_error": 0.028192027502365935,
+              "max_bound": 0.8404975670249736,
+              "min_slack": 2.7864434391594706e-05,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 12,
+              "max_C_error": 0.020625683804297135,
+              "max_bound": 0.5236393228171637,
+              "min_slack": 1.4305370351700395e-08,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 24,
+              "max_C_error": 0.004540067454975538,
+              "max_bound": 0.17304841002498805,
+              "min_slack": 5.794061331515595e-14,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 48,
+              "max_C_error": 0.00018988016579835065,
+              "max_bound": 0.0039303166048753535,
+              "min_slack": 8.430069349219241e-14,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 96,
+              "max_C_error": 1.330783350184106e-08,
+              "max_bound": 1.473581456530998e-06,
+              "min_slack": 1.4500363594871451e-13,
+              "selected_by_bound": true
+            }
+          ],
+          "reference_seconds": 0.28358441700000014
+        }
+      },
+      "fixed_V_driver_comparisons": [
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 3,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 3,
+          "C_max_difference": 1.3877787807814457e-16,
+          "bound_max_difference": 5.551115123125783e-16
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 3,
+          "C_max_difference": 1.3877787807814457e-16,
+          "bound_max_difference": 5.551115123125783e-16
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 3,
+          "C_max_difference": 5.551115123125783e-17,
+          "bound_max_difference": 5.551115123125783e-16
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 3,
+          "C_max_difference": 5.551115123125783e-17,
+          "bound_max_difference": 2.220446049250313e-16
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 3,
+          "C_max_difference": 5.551115123125783e-17,
+          "bound_max_difference": 3.885780586188048e-16
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 6,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 6,
+          "C_max_difference": 2.220446049250313e-16,
+          "bound_max_difference": 1.5543122344752192e-15
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 6,
+          "C_max_difference": 2.220446049250313e-16,
+          "bound_max_difference": 1.3322676295501878e-15
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 6,
+          "C_max_difference": 3.3306690738754696e-16,
+          "bound_max_difference": 7.077671781985373e-16
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 6,
+          "C_max_difference": 2.0816681711721685e-16,
+          "bound_max_difference": 1.4432899320127035e-15
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 6,
+          "C_max_difference": 1.942890293094024e-16,
+          "bound_max_difference": 1.1102230246251565e-15
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 12,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 12,
+          "C_max_difference": 4.718447854656915e-16,
+          "bound_max_difference": 1.4377388168895777e-14
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 12,
+          "C_max_difference": 4.440892098500626e-16,
+          "bound_max_difference": 1.7291723608536813e-14
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 12,
+          "C_max_difference": 3.3306690738754696e-16,
+          "bound_max_difference": 1.251776460264864e-13
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 12,
+          "C_max_difference": 1.6653345369377348e-16,
+          "bound_max_difference": 2.328692794151266e-14
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 12,
+          "C_max_difference": 1.942890293094024e-16,
+          "bound_max_difference": 1.8013368574543165e-14
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 24,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 24,
+          "C_max_difference": 4.440892098500626e-16,
+          "bound_max_difference": 4.0195624606553793e-13
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 24,
+          "C_max_difference": 4.440892098500626e-16,
+          "bound_max_difference": 4.02400335275388e-13
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 24,
+          "C_max_difference": 2.498001805406602e-16,
+          "bound_max_difference": 6.811218256075335e-14
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 24,
+          "C_max_difference": 5.551115123125783e-16,
+          "bound_max_difference": 3.552713678800501e-13
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 24,
+          "C_max_difference": 5.551115123125783e-16,
+          "bound_max_difference": 3.6504133049675147e-13
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 48,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 48,
+          "C_max_difference": 1.6653345369377348e-16,
+          "bound_max_difference": 5.169985099751084e-12
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 48,
+          "C_max_difference": 3.608224830031759e-16,
+          "bound_max_difference": 5.1190685804863856e-12
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 48,
+          "C_max_difference": 7.494005416219807e-16,
+          "bound_max_difference": 2.018885926491354e-12
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 48,
+          "C_max_difference": 6.106226635438361e-16,
+          "bound_max_difference": 5.082558289168371e-12
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 48,
+          "C_max_difference": 4.996003610813204e-16,
+          "bound_max_difference": 4.8832455006725395e-12
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 96,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 96,
+          "C_max_difference": 5.273559366969494e-16,
+          "bound_max_difference": 8.766677444915869e-12
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 96,
+          "C_max_difference": 9.43689570931383e-16,
+          "bound_max_difference": 8.591197588152098e-12
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 96,
+          "C_max_difference": 9.298117831235686e-16,
+          "bound_max_difference": 9.720601964717766e-12
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 96,
+          "C_max_difference": 5.551115123125783e-16,
+          "bound_max_difference": 8.737446634155896e-12
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 96,
+          "C_max_difference": 6.106226635438361e-16,
+          "bound_max_difference": 8.512125953124506e-12
+        }
+      ],
+      "isolated_svd_comparisons": [
+        {
+          "label": "pinned",
+          "driver": "gesdd",
+          "step": 10,
+          "s_max_difference": 0.0,
+          "keep_equal": true,
+          "eligible_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "singular_values_b": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "diagnostic_rank_cutoffs": [
+              1.0909051439966792e-12,
+              1.0909051439966792e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              0.9999999999999998,
+              0.9999999999999998,
+              0.9999999999999993
+            ],
+            "angles_radians": [
+              1.0729923498758225e-15,
+              4.807234347032658e-16,
+              8.287972703724363e-17
+            ],
+            "directional_gaps": [
+              1.0729923498758225e-15,
+              1.0729923498758225e-15
+            ],
+            "maximum_gap": 1.0729923498758225e-15
+          },
+          "admitted_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "singular_values_b": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "diagnostic_rank_cutoffs": [
+              1.0909051439966792e-12,
+              1.0909051439966792e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              0.9999999999999998,
+              0.9999999999999998,
+              0.9999999999999993
+            ],
+            "angles_radians": [
+              1.0729923498758225e-15,
+              4.807234347032658e-16,
+              8.287972703724363e-17
+            ],
+            "directional_gaps": [
+              1.0729923498758225e-15,
+              1.0729923498758225e-15
+            ],
+            "maximum_gap": 1.0729923498758225e-15
+          }
+        },
+        {
+          "label": "pinned",
+          "driver": "gesvd",
+          "step": 10,
+          "s_max_difference": 0.0,
+          "keep_equal": true,
+          "eligible_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "singular_values_b": [
+              1.0000000000000004,
+              1.0000000000000002,
+              1.0
+            ],
+            "diagnostic_rank_cutoffs": [
+              1.0909051439966792e-12,
+              1.0909051439966792e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999997
+            ],
+            "angles_radians": [
+              1.2645047083726567e-15,
+              8.737506827216948e-16,
+              1.8970355158525305e-16
+            ],
+            "directional_gaps": [
+              1.2645047083726567e-15,
+              1.0467376756959885e-15
+            ],
+            "maximum_gap": 1.2645047083726567e-15
+          },
+          "admitted_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "singular_values_b": [
+              1.0000000000000004,
+              1.0000000000000002,
+              1.0
+            ],
+            "diagnostic_rank_cutoffs": [
+              1.0909051439966792e-12,
+              1.0909051439966792e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999997
+            ],
+            "angles_radians": [
+              1.2645047083726567e-15,
+              8.737506827216948e-16,
+              1.8970355158525305e-16
+            ],
+            "directional_gaps": [
+              1.2645047083726567e-15,
+              1.0467376756959885e-15
+            ],
+            "maximum_gap": 1.2645047083726567e-15
+          }
+        },
+        {
+          "label": "system",
+          "driver": "gesdd",
+          "step": 10,
+          "s_max_difference": 7.105427357601002e-15,
+          "keep_equal": true,
+          "eligible_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "singular_values_b": [
+              1.0000000000000009,
+              1.0000000000000007,
+              1.0
+            ],
+            "diagnostic_rank_cutoffs": [
+              1.0909051439966792e-12,
+              1.0909051439966798e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000002,
+              0.9999999999999999,
+              0.9999999999999998
+            ],
+            "angles_radians": [
+              1.347828170384289e-15,
+              9.434873356569876e-16,
+              1.8926038326435452e-16
+            ],
+            "directional_gaps": [
+              1.347828170384289e-15,
+              1.1985832669173567e-15
+            ],
+            "maximum_gap": 1.347828170384289e-15
+          },
+          "admitted_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "singular_values_b": [
+              1.0000000000000009,
+              1.0000000000000007,
+              1.0
+            ],
+            "diagnostic_rank_cutoffs": [
+              1.0909051439966792e-12,
+              1.0909051439966798e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000002,
+              0.9999999999999999,
+              0.9999999999999998
+            ],
+            "angles_radians": [
+              1.347828170384289e-15,
+              9.434873356569876e-16,
+              1.8926038326435452e-16
+            ],
+            "directional_gaps": [
+              1.347828170384289e-15,
+              1.1985832669173567e-15
+            ],
+            "maximum_gap": 1.347828170384289e-15
+          }
+        },
+        {
+          "label": "system",
+          "driver": "gesvd",
+          "step": 10,
+          "s_max_difference": 7.105427357601002e-15,
+          "keep_equal": true,
+          "eligible_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "singular_values_b": [
+              1.0000000000000009,
+              1.0000000000000004,
+              0.9999999999999996
+            ],
+            "diagnostic_rank_cutoffs": [
+              1.0909051439966792e-12,
+              1.0909051439966798e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000007,
+              0.9999999999999998,
+              0.999999999999999
+            ],
+            "angles_radians": [
+              1.8034752698036903e-15,
+              1.0694913361940146e-15,
+              1.9090926486958888e-16
+            ],
+            "directional_gaps": [
+              1.8034752698036903e-15,
+              1.1310222414378392e-15
+            ],
+            "maximum_gap": 1.8034752698036903e-15
+          },
+          "admitted_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000004,
+              1.0000000000000002,
+              0.9999999999999999
+            ],
+            "singular_values_b": [
+              1.0000000000000009,
+              1.0000000000000004,
+              0.9999999999999996
+            ],
+            "diagnostic_rank_cutoffs": [
+              1.0909051439966792e-12,
+              1.0909051439966798e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000007,
+              0.9999999999999998,
+              0.999999999999999
+            ],
+            "angles_radians": [
+              1.8034752698036903e-15,
+              1.0694913361940146e-15,
+              1.9090926486958888e-16
+            ],
+            "directional_gaps": [
+              1.8034752698036903e-15,
+              1.1310222414378392e-15
+            ],
+            "maximum_gap": 1.8034752698036903e-15
+          }
+        }
+      ]
+    },
+    {
+      "case": "elongated-k100-n33-e4",
+      "native": {
+        "1e-12": {
+          "step": 1,
+          "stage": "orth1",
+          "maximum_gap": 1.3870744097230004e-12
+        },
+        "1e-10": {
+          "step": 3,
+          "stage": "raw",
+          "maximum_gap": 2.490745225612596e-10
+        },
+        "1e-08": {
+          "step": 5,
+          "stage": "orth1",
+          "maximum_gap": 1.2917697917075843e-08
+        },
+        "1e-06": {
+          "step": 8,
+          "stage": "raw",
+          "maximum_gap": 3.652744604599917e-06
+        }
+      },
+      "identical_input": {
+        "1e-12": {
+          "step": 1,
+          "stage": "orth1",
+          "maximum_gap": 1.255564106789364e-12
+        },
+        "1e-10": {
+          "step": 3,
+          "stage": "raw",
+          "maximum_gap": 2.0898887269701262e-10
+        },
+        "1e-08": {
+          "step": 6,
+          "stage": "raw",
+          "maximum_gap": 2.580802587291681e-08
+        },
+        "1e-06": {
+          "step": 8,
+          "stage": "raw",
+          "maximum_gap": 1.114509012765678e-06
+        }
+      },
+      "evaluations": {
+        "pinned_native": {
+          "input_sha256": "258abc1f8f975b0c6476fc7dcfa1be23f74123d7fc72d3e928ec351fbeaf00ad",
+          "selected": true,
+          "rank": 48,
+          "checkpoints": [
+            {
+              "rank": 3,
+              "max_C_error": 0.04859276469501117,
+              "max_bound": 2.184159563887682,
+              "min_slack": 0.0009362856871247896,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 6,
+              "max_C_error": 0.005758476031975213,
+              "max_bound": 0.564057456529065,
+              "min_slack": 2.0583450965914774e-05,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 12,
+              "max_C_error": 0.0005180774784023789,
+              "max_bound": 0.10917721502101052,
+              "min_slack": 8.892938361549337e-08,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 24,
+              "max_C_error": 5.02260940660193e-06,
+              "max_bound": 0.011751391301335434,
+              "min_slack": 7.44002109907552e-13,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 48,
+              "max_C_error": 3.2094751412081735e-08,
+              "max_bound": 0.0001445118591981439,
+              "min_slack": 9.244291564124498e-13,
+              "selected_by_bound": true
+            }
+          ],
+          "reference_seconds": 6.158834500005469
+        },
+        "system_native": {
+          "input_sha256": "8dfbdfe9c7a26949dd4055d5b7cb1c29e2eb18755ade6bb444866689c2147815",
+          "selected": true,
+          "rank": 48,
+          "checkpoints": [
+            {
+              "rank": 3,
+              "max_C_error": 0.04859276469502927,
+              "max_bound": 2.1841595638877354,
+              "min_slack": 0.0009362856871557692,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 6,
+              "max_C_error": 0.005758476031977655,
+              "max_bound": 0.5640574565291299,
+              "min_slack": 2.0583450996577726e-05,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 12,
+              "max_C_error": 0.0005180774784048214,
+              "max_bound": 0.1091772150227924,
+              "min_slack": 8.892942880079427e-08,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 24,
+              "max_C_error": 5.022609424476521e-06,
+              "max_bound": 0.011751391307015413,
+              "min_slack": 8.266178292700845e-13,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 48,
+              "max_C_error": 3.207860999054901e-08,
+              "max_bound": 0.00014660568076122252,
+              "min_slack": 9.63804214378495e-13,
+              "selected_by_bound": true
+            }
+          ],
+          "reference_seconds": 6.131052374999999
+        },
+        "system_shared": {
+          "input_sha256": "258abc1f8f975b0c6476fc7dcfa1be23f74123d7fc72d3e928ec351fbeaf00ad",
+          "selected": true,
+          "rank": 48,
+          "checkpoints": [
+            {
+              "rank": 3,
+              "max_C_error": 0.048592764695028934,
+              "max_bound": 2.184159563887733,
+              "min_slack": 0.0009362856871528661,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 6,
+              "max_C_error": 0.005758476031978099,
+              "max_bound": 0.5640574565291012,
+              "min_slack": 2.0583450993634774e-05,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 12,
+              "max_C_error": 0.0005180774784051545,
+              "max_bound": 0.10917721502123437,
+              "min_slack": 8.892941080143329e-08,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 24,
+              "max_C_error": 5.022609424254476e-06,
+              "max_bound": 0.011751391303637946,
+              "min_slack": 7.81474587365533e-13,
+              "selected_by_bound": false
+            },
+            {
+              "rank": 48,
+              "max_C_error": 3.2115651027453396e-08,
+              "max_bound": 0.0001448331355890362,
+              "min_slack": 1.0871345313852255e-12,
+              "selected_by_bound": true
+            }
+          ],
+          "reference_seconds": 6.009321708
+        }
+      },
+      "fixed_V_driver_comparisons": [
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 3,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 3,
+          "C_max_difference": 1.1102230246251565e-16,
+          "bound_max_difference": 1.27675647831893e-15
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 3,
+          "C_max_difference": 2.220446049250313e-16,
+          "bound_max_difference": 1.3877787807814457e-15
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 3,
+          "C_max_difference": 1.1102230246251565e-16,
+          "bound_max_difference": 8.881784197001252e-16
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 3,
+          "C_max_difference": 1.1102230246251565e-16,
+          "bound_max_difference": 1.3322676295501878e-15
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 3,
+          "C_max_difference": 2.220446049250313e-16,
+          "bound_max_difference": 1.3877787807814457e-15
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 6,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 6,
+          "C_max_difference": 3.3306690738754696e-16,
+          "bound_max_difference": 1.5432100042289676e-14
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 6,
+          "C_max_difference": 3.3306690738754696e-16,
+          "bound_max_difference": 3.086420008457935e-14
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 6,
+          "C_max_difference": 6.661338147750939e-16,
+          "bound_max_difference": 1.1213252548714081e-14
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 6,
+          "C_max_difference": 1.2212453270876722e-15,
+          "bound_max_difference": 2.9753977059954195e-14
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 6,
+          "C_max_difference": 1.1102230246251565e-15,
+          "bound_max_difference": 3.785860513971784e-14
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 12,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 12,
+          "C_max_difference": 3.885780586188048e-16,
+          "bound_max_difference": 1.776911950912563e-13
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 12,
+          "C_max_difference": 4.440892098500626e-16,
+          "bound_max_difference": 1.6488199694464356e-13
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 12,
+          "C_max_difference": 4.440892098500626e-16,
+          "bound_max_difference": 3.7085612358822573e-13
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 12,
+          "C_max_difference": 1.1102230246251565e-15,
+          "bound_max_difference": 4.009570453433753e-13
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 12,
+          "C_max_difference": 8.881784197001252e-16,
+          "bound_max_difference": 4.2896242113954486e-13
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 24,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 24,
+          "C_max_difference": 5.551115123125783e-16,
+          "bound_max_difference": 5.8191940849328105e-12
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 24,
+          "C_max_difference": 3.3306690738754696e-16,
+          "bound_max_difference": 6.034276377187009e-12
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 24,
+          "C_max_difference": 7.771561172376096e-16,
+          "bound_max_difference": 3.754786412346611e-12
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 24,
+          "C_max_difference": 4.440892098500626e-16,
+          "bound_max_difference": 5.9662491960765784e-12
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 24,
+          "C_max_difference": 5.551115123125783e-16,
+          "bound_max_difference": 5.989867456202003e-12
+        },
+        {
+          "label": "pinned",
+          "driver": "evr",
+          "rank": 48,
+          "C_max_difference": 0.0,
+          "bound_max_difference": 0.0
+        },
+        {
+          "label": "pinned",
+          "driver": "evd",
+          "rank": 48,
+          "C_max_difference": 9.992007221626409e-16,
+          "bound_max_difference": 7.135987981077285e-12
+        },
+        {
+          "label": "pinned",
+          "driver": "ev",
+          "rank": 48,
+          "C_max_difference": 1.2212453270876722e-15,
+          "bound_max_difference": 7.036177067691e-12
+        },
+        {
+          "label": "system",
+          "driver": "evr",
+          "rank": 48,
+          "C_max_difference": 1.1102230246251565e-15,
+          "bound_max_difference": 6.498085699895278e-12
+        },
+        {
+          "label": "system",
+          "driver": "evd",
+          "rank": 48,
+          "C_max_difference": 1.2212453270876722e-15,
+          "bound_max_difference": 6.5683247686340596e-12
+        },
+        {
+          "label": "system",
+          "driver": "ev",
+          "rank": 48,
+          "C_max_difference": 8.881784197001252e-16,
+          "bound_max_difference": 6.586761280987733e-12
+        }
+      ],
+      "isolated_svd_comparisons": [
+        {
+          "label": "pinned",
+          "driver": "gesdd",
+          "step": 3,
+          "s_max_difference": 0.0,
+          "keep_equal": true,
+          "eligible_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "singular_values_b": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "diagnostic_rank_cutoffs": [
+              7.979616967190865e-12,
+              7.979616967190865e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              0.9999999999999993,
+              0.9999999999999973,
+              0.999999999999996
+            ],
+            "angles_radians": [
+              4.372803798313181e-15,
+              2.4380642105675105e-15,
+              6.574104510454799e-16
+            ],
+            "directional_gaps": [
+              4.372803798313181e-15,
+              4.372803798313181e-15
+            ],
+            "maximum_gap": 4.372803798313181e-15
+          },
+          "admitted_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "singular_values_b": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "diagnostic_rank_cutoffs": [
+              7.979616967190865e-12,
+              7.979616967190865e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              0.9999999999999993,
+              0.9999999999999973,
+              0.999999999999996
+            ],
+            "angles_radians": [
+              4.372803798313181e-15,
+              2.4380642105675105e-15,
+              6.574104510454799e-16
+            ],
+            "directional_gaps": [
+              4.372803798313181e-15,
+              4.372803798313181e-15
+            ],
+            "maximum_gap": 4.372803798313181e-15
+          }
+        },
+        {
+          "label": "pinned",
+          "driver": "gesvd",
+          "step": 3,
+          "s_max_difference": 0.0,
+          "keep_equal": true,
+          "eligible_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "singular_values_b": [
+              1.0000000000000018,
+              1.0000000000000013,
+              1.0000000000000007
+            ],
+            "diagnostic_rank_cutoffs": [
+              7.979616967190865e-12,
+              7.979616967190865e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              0.9999999999999994,
+              0.9999999999999973,
+              0.9999999999999967
+            ],
+            "angles_radians": [
+              3.941499954929832e-15,
+              2.7246456911341234e-15,
+              5.371556748628707e-16
+            ],
+            "directional_gaps": [
+              3.941499954929832e-15,
+              3.733555013290203e-15
+            ],
+            "maximum_gap": 3.941499954929832e-15
+          },
+          "admitted_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "singular_values_b": [
+              1.0000000000000018,
+              1.0000000000000013,
+              1.0000000000000007
+            ],
+            "diagnostic_rank_cutoffs": [
+              7.979616967190865e-12,
+              7.979616967190865e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              0.9999999999999994,
+              0.9999999999999973,
+              0.9999999999999967
+            ],
+            "angles_radians": [
+              3.941499954929832e-15,
+              2.7246456911341234e-15,
+              5.371556748628707e-16
+            ],
+            "directional_gaps": [
+              3.941499954929832e-15,
+              3.733555013290203e-15
+            ],
+            "maximum_gap": 3.941499954929832e-15
+          }
+        },
+        {
+          "label": "system",
+          "driver": "gesdd",
+          "step": 3,
+          "s_max_difference": 5.9117155615240335e-12,
+          "keep_equal": true,
+          "eligible_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "singular_values_b": [
+              1.000000000000006,
+              1.000000000000006,
+              1.000000000000003
+            ],
+            "diagnostic_rank_cutoffs": [
+              7.979616967190865e-12,
+              7.979616967190899e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000004,
+              0.9999999999999992,
+              0.9999999999999988
+            ],
+            "angles_radians": [
+              1.6664198612369396e-14,
+              1.47775460973639e-15,
+              9.58146213846508e-16
+            ],
+            "directional_gaps": [
+              1.6664198612369396e-14,
+              1.661425495495379e-14
+            ],
+            "maximum_gap": 1.6664198612369396e-14
+          },
+          "admitted_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "singular_values_b": [
+              1.000000000000006,
+              1.000000000000006,
+              1.000000000000003
+            ],
+            "diagnostic_rank_cutoffs": [
+              7.979616967190865e-12,
+              7.979616967190899e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000004,
+              0.9999999999999992,
+              0.9999999999999988
+            ],
+            "angles_radians": [
+              1.6664198612369396e-14,
+              1.47775460973639e-15,
+              9.58146213846508e-16
+            ],
+            "directional_gaps": [
+              1.6664198612369396e-14,
+              1.661425495495379e-14
+            ],
+            "maximum_gap": 1.6664198612369396e-14
+          }
+        },
+        {
+          "label": "system",
+          "driver": "gesvd",
+          "step": 3,
+          "s_max_difference": 5.9117155615240335e-12,
+          "keep_equal": true,
+          "eligible_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "singular_values_b": [
+              1.000000000000006,
+              1.000000000000006,
+              1.0000000000000033
+            ],
+            "diagnostic_rank_cutoffs": [
+              7.979616967190865e-12,
+              7.979616967190899e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000004,
+              0.9999999999999996,
+              0.999999999999999
+            ],
+            "angles_radians": [
+              1.663090697212427e-14,
+              2.1842407577136744e-15,
+              9.394403606575977e-16
+            ],
+            "directional_gaps": [
+              1.663090697212427e-14,
+              1.6637940102618315e-14
+            ],
+            "maximum_gap": 1.6637940102618315e-14
+          },
+          "admitted_gap": {
+            "column_counts": [
+              3,
+              3
+            ],
+            "effective_ranks": [
+              3,
+              3
+            ],
+            "singular_values_a": [
+              1.0000000000000018,
+              1.0000000000000009,
+              1.0000000000000009
+            ],
+            "singular_values_b": [
+              1.000000000000006,
+              1.000000000000006,
+              1.0000000000000033
+            ],
+            "diagnostic_rank_cutoffs": [
+              7.979616967190865e-12,
+              7.979616967190899e-12
+            ],
+            "rank_deficient_input": false,
+            "rank_policy": "Diagnostic only: eps*max(shape)*largest singular value; scientific admission unchanged.",
+            "ranks": [
+              3,
+              3
+            ],
+            "same_rank": true,
+            "principal_cosines": [
+              1.0000000000000004,
+              0.9999999999999996,
+              0.999999999999999
+            ],
+            "angles_radians": [
+              1.663090697212427e-14,
+              2.1842407577136744e-15,
+              9.394403606575977e-16
+            ],
+            "directional_gaps": [
+              1.663090697212427e-14,
+              1.6637940102618315e-14
+            ],
+            "maximum_gap": 1.6637940102618315e-14
+          }
+        }
+      ]
+    }
+  ]
+}

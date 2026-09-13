@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED: PUBLIC SOURCE, COMPACT RESULTS AND SIX RAW ASSETS",
+  "created_utc": "2026-09-13T07:34:52.095654+00:00",
+  "public_scientific_source_files_unchanged": [
+    "diagnostic.py",
+    "bounded_run.py",
+    "immutable/operator_study.py",
+    "immutable/reference_source.py",
+    "immutable/vendor/prepare.py",
+    "immutable/vendor/run_pilot.py"
+  ],
+  "all_public_python_parses": true,
+  "public_bootstrap_tests": {
+    "passed": 3,
+    "log_sha256": "f3fd74346cea500e44550ebda35f4a3a4d4a9a4be96f3348a5a370c5569752bd",
+    "scientific_jobs_launched": 0,
+    "virtual_environment_symlink_preservation_test": true
+  },
+  "public_copy_hashes_verified": 653,
+  "unsanitized_local_path_or_host_files": [],
+  "unresolved_public_secret_or_contact_candidates": [],
+  "raw_source_files_partitioned_exactly_once": 3058,
+  "raw_uncompressed_bytes": 1825306162,
+  "archive_total_bytes": 1556952338,
+  "largest_archive_bytes": 496562002,
+  "all_archive_decompressed_members_verified_during_creation": true,
+  "excluded_cache_paths": [],
+  "public_repo_or_report_changed": false,
+  "network_or_publication_action": false,
+  "immutable_original_local_path_and_host_provenance_retained": true,
+  "release_links": {
+    "tag": "v0.5.0",
+    "constructed_for_exact_verified_filenames": true,
+    "remote_availability_not_asserted_by_local_packaging": true
+  },
+  "historical_case_scope_clarified": "The development kappa1 n33 case was executed in the original campaign and was not rerun in this diagnostic."
+}

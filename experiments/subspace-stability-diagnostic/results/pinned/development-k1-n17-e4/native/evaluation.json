@@ -1,0 +1,50 @@
+{
+  "input_sha256": "ce6a5896a96a67bcc338d94993c4ba7ea08f95a2c01396e2cb0cba7624392e24",
+  "selected": true,
+  "rank": 96,
+  "checkpoints": [
+    {
+      "rank": 3,
+      "max_C_error": 0.08998659723034869,
+      "max_bound": 1.2038504671426802,
+      "min_slack": 0.0007121722469053023,
+      "selected_by_bound": false
+    },
+    {
+      "rank": 6,
+      "max_C_error": 0.02819202750236599,
+      "max_bound": 0.8404975670249765,
+      "min_slack": 2.7864434390847683e-05,
+      "selected_by_bound": false
+    },
+    {
+      "rank": 12,
+      "max_C_error": 0.020625683804296857,
+      "max_bound": 0.5236393228171685,
+      "min_slack": 1.4305368285538942e-08,
+      "selected_by_bound": false
+    },
+    {
+      "rank": 24,
+      "max_C_error": 0.004540067454976926,
+      "max_bound": 0.17304841002514443,
+      "min_slack": 5.705714393123561e-14,
+      "selected_by_bound": false
+    },
+    {
+      "rank": 48,
+      "max_C_error": 0.00018988016579893352,
+      "max_bound": 0.003930316607100146,
+      "min_slack": 1.054365479423827e-13,
+      "selected_by_bound": false
+    },
+    {
+      "rank": 96,
+      "max_C_error": 1.3307833446329909e-08,
+      "max_bound": 1.473580156678421e-06,
+      "min_slack": 1.3123233453933447e-13,
+      "selected_by_bound": true
+    }
+  ],
+  "reference_seconds": 0.27402308298042044
+}

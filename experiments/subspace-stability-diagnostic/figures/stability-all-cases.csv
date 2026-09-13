@@ -1,0 +1,7 @@
+case,comparison,scope,C_difference,bound_difference,basis_gap
+development-k1-n17-e4,native,final selected rank,2.4424906541753444e-15,4.40028941217894e-13,1.3396536277145941e-08
+development-k1-n17-e4,shared,final selected rank,1.7763568394002505e-15,2.116286622661062e-12,1.2597262489542708e-09
+development-k1-n17-e4,fixed_V,max over all checkpoints and driver comparisons,9.43689570931383e-16,9.720601964717766e-12,0
+elongated-k100-n33-e4,native,final selected rank,1.614064437660545e-11,2.0938215630786306e-06,0.154560125626466
+elongated-k100-n33-e4,shared,final selected rank,2.0899615371661184e-11,3.212763908923093e-07,0.01344644407231043
+elongated-k100-n33-e4,fixed_V,max over all checkpoints and driver comparisons,1.2212453270876722e-15,7.135987981077285e-12,0

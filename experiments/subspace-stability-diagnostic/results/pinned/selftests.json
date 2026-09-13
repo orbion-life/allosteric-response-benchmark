@@ -1,0 +1,12 @@
+{
+  "sign_gauge": true,
+  "rotation_gauge": true,
+  "new_direction": true,
+  "unequal_nested": true,
+  "cluster_full_span": true,
+  "cluster_prefix": true,
+  "rank_deficiency_reported": true,
+  "threshold_straddle": true,
+  "nonfinite_rejection": true,
+  "fixed_basis_operator_change": true
+}

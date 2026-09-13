@@ -1,0 +1,15 @@
+{
+  "status": "SOURCE FROZEN BEFORE CALIBRATION/PROFILE EXECUTION",
+  "utc": "2026-09-13T06:57:08.378990+00:00",
+  "sha256": {
+    "calibration.py": "1962d505cf3cb657755cc63b065180984e80a54724db705e1c0aa7f0e7b83be6",
+    "chebyshev.py": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340",
+    "model.py": "8fefe61ff109c1bad168fdf80b995236cc5306e8f7750c9f8ba80becd13cf2c8",
+    "nonlinear_profile.py": "9e5abf90167f0e4ce08b9276ef6b43d0300d4ee3add2ae8b3118c251b452e975",
+    "preflight.py": "f56d43da99c6f9246a908b53394c15ba71e1e10805a9c8954f32ba53f2e31251",
+    "run_bounded.py": "5e93136d173b0360f0ce9a6d71fedc37e57d29d8050f02dc4e270704e675fbc2",
+    "test_algebra.py": "40d5a8546d742dd7813b68ad0234704da3fd2f88bf8b49d9b6f57e36854d7bad",
+    "protocol.json": "62d7afaee11b9f54969ac31d6629ceab0b06bd16fd4c7cf6dc9f36794709b8dc",
+    "requirements.txt": "b5060ee9b86120bad86aa381e09a25a158b98105528e95fba49b6011e50e7bfb"
+  }
+}

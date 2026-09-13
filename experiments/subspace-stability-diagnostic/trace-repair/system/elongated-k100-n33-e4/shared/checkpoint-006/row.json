@@ -1,0 +1,13 @@
+{
+  "rank": 6,
+  "orthogonality_error": 1.3766765505351941e-14,
+  "seed_projection_norm": 2.81054806135425e-14,
+  "static_max_error": 1.765254609153999e-14,
+  "min_projected_eigenvalue": 182.3102602262662,
+  "clipped_eigenvalue_magnitude": 0.0,
+  "residual_spectral_norm": 247.2779589585432,
+  "residual_parallel_norm": 6.6586391360037946e-12,
+  "mass_matrix_spectral_error": 1.8111867692660015e-14,
+  "max_response_bound": 0.5640574565291012,
+  "projection_query_seconds": 0.012549208000000034
+}

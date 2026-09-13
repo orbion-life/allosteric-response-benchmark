@@ -1,0 +1,7 @@
+{
+  "initial_scan_stopped": true,
+  "reason": "An email-shaped match was found in two code records.",
+  "direct_review": "H@np.sqrt(pi) is Python matrix multiplication; both exact matches were reviewed as false positives. No unresolved credential or contact candidates remained.",
+  "raw_records_unchanged": true,
+  "numerical_runs_during_packaging": 0
+}

@@ -1,0 +1,15 @@
+{
+  "exact_method_difference": {
+    "G0": 3.3306690738754696e-16,
+    "K": 5.551115123125783e-16,
+    "C": 6.661338147750939e-16
+  },
+  "tensor_full_difference": {
+    "G0": 6.661338147750939e-16,
+    "K": 8.081086111895778e-14,
+    "C": 8.049116928532385e-14
+  },
+  "wall_seconds": 0.4754618749720976,
+  "worker_peak_rss_bytes": 81657856,
+  "harmonic_implementation_milestone_pass": true
+}

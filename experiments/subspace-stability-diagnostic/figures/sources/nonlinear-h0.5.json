@@ -1,0 +1,167 @@
+{
+  "status": "COMPLETE",
+  "runtime": {
+    "versions": {
+      "numpy": "2.1.3",
+      "scipy": "1.14.1",
+      "psutil": "7.2.2",
+      "threadpoolctl": "3.6.0"
+    },
+    "threadpools": [],
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "numpy_random_seed": 1729,
+  "protocol_sha256": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+  "source_hashes": {
+    "model.py": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261",
+    "nonlinear_profile.py": "5a8b13555aa72db007dc4cacda21dd2472938ef12f82c0e19c268fa63f319260",
+    "chebyshev.py": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340"
+  },
+  "faces": [
+    4,
+    4,
+    17
+  ],
+  "spacing": 0.5,
+  "shape": [
+    16,
+    16,
+    68
+  ],
+  "states": 17408,
+  "full_positive_coordinates": 3,
+  "maximum_energy": 1008.873908166026,
+  "probability_underflow_nodes": 314,
+  "boundary_mass": 0.26983198606487657,
+  "stationarity_residual": 6.581978436548463e-16,
+  "csr_stencil_scaled_action_error": 2.3592239273284576e-16,
+  "csr_stencil_raw_max_action_difference": 2.3592239273284576e-16,
+  "action_error_definition": "maxabs(CSR(F)-stencil(F))/max(1,maxabs(CSR(F))); mixed absolute/relative, not a pure relative error.",
+  "assembly_and_preprocessing": {
+    "native_model_and_exact_normalizer_seconds": 0.035099915985483676,
+    "grid_equilibrium_observable_seconds": 0.004391749971546233,
+    "sparse_and_stencil_assembly_seconds": 0.0029996669618412852,
+    "array_serialization_seconds": 0.0009636670001782477
+  },
+  "action_microbenchmark": {
+    "csr_ten_three_column_actions_seconds": 0.0023763750214129686,
+    "matrix_free_stencil_ten_three_column_actions_seconds": 0.008853416016791016
+  },
+  "propagation": [
+    {
+      "time": 0.07873822765326266,
+      "time_over_tau": 0.1,
+      "seconds": 0.023661707993596792,
+      "counts": {
+        "forward_vectors": 0,
+        "forward_blocks": 32,
+        "adjoint_vectors": 0,
+        "adjoint_blocks": 2,
+        "vector_equivalents": 98
+      }
+    },
+    {
+      "time": 0.7873822765326265,
+      "time_over_tau": 0.9999999999999999,
+      "seconds": 0.21097079198807478,
+      "counts": {
+        "forward_vectors": 0,
+        "forward_blocks": 320,
+        "adjoint_vectors": 0,
+        "adjoint_blocks": 120,
+        "vector_equivalents": 1080
+      }
+    },
+    {
+      "time": 7.873822765326265,
+      "time_over_tau": 10.0,
+      "seconds": 1.2377359999809414,
+      "counts": {
+        "forward_vectors": 0,
+        "forward_blocks": 1971,
+        "adjoint_vectors": 0,
+        "adjoint_blocks": 135,
+        "vector_equivalents": 6048
+      }
+    }
+  ],
+  "propagation_counts_total": {
+    "forward_vectors": 0,
+    "forward_blocks": 2323,
+    "adjoint_vectors": 0,
+    "adjoint_blocks": 257,
+    "vector_equivalents": 7226
+  },
+  "independent_chebyshev": [
+    {
+      "degree": 15,
+      "z": 3.862061591413947,
+      "spectral_upper_bound": 98.09876870536634,
+      "uniform_operator_tail_bound": 9.54263775387343e-10,
+      "maximum_normalized_covariance_tail_bound": 3.5907809433806434e-10,
+      "observable_norms": [
+        0.4533535183714328,
+        0.6134232559876504,
+        0.5511739217097825
+      ],
+      "covariance_amplification": 0.3762880909864904,
+      "three_column_actions": 15,
+      "vector_equivalent_products": 45,
+      "seconds": 0.005148500029463321,
+      "scope": "Analytic truncation inequality evaluated in floating point; excludes floating-point recurrence and coefficient errors. Not an interval-arithmetic certificate.",
+      "time": 0.07873822765326266
+    },
+    {
+      "degree": 41,
+      "z": 38.620615914139464,
+      "spectral_upper_bound": 98.09876870536634,
+      "uniform_operator_tail_bound": 1.340263213088368e-09,
+      "maximum_normalized_covariance_tail_bound": 5.043250858724418e-10,
+      "observable_norms": [
+        0.4533535183714328,
+        0.6134232559876504,
+        0.5511739217097825
+      ],
+      "covariance_amplification": 0.3762880909864904,
+      "three_column_actions": 41,
+      "vector_equivalent_products": 123,
+      "seconds": 0.013142417010385543,
+      "scope": "Analytic truncation inequality evaluated in floating point; excludes floating-point recurrence and coefficient errors. Not an interval-arithmetic certificate.",
+      "time": 0.7873822765326265
+    },
+    {
+      "degree": 126,
+      "z": 386.2061591413946,
+      "spectral_upper_bound": 98.09876870536634,
+      "uniform_operator_tail_bound": 2.0491411034645324e-09,
+      "maximum_normalized_covariance_tail_bound": 7.710673939846193e-10,
+      "observable_norms": [
+        0.4533535183714328,
+        0.6134232559876504,
+        0.5511739217097825
+      ],
+      "covariance_amplification": 0.3762880909864904,
+      "three_column_actions": 126,
+      "vector_equivalent_products": 378,
+      "seconds": 0.040705125022213906,
+      "scope": "Analytic truncation inequality evaluated in floating point; excludes floating-point recurrence and coefficient errors. Not an interval-arithmetic certificate.",
+      "time": 7.873822765326265
+    }
+  ],
+  "independent_max_normalized_delayed_response_difference": 1.6008139258616438e-11,
+  "independent_comparison_pass": true,
+  "actual_csr_nonzeros": 116992,
+  "actual_csr_bytes": 1473540,
+  "stored_matrix_free_stencil_bytes": 537600,
+  "three_observable_columns_bytes": 417792,
+  "wall_seconds": 1.5905640829587355,
+  "worker_peak_rss_bytes": 69730304,
+  "wall_seconds_scope": "Worker timing from run entry through scientific array serialization; excludes interpreter/import startup, final JSON receipt formatting/write and shutdown. Use watchdog outer_worker_wall_seconds for the complete worker invocation.",
+  "measurement_scope": "Fresh process; input/model/Hessian/normalizers, full equilibrium and generator construction, CSR and stencil action check/benchmark, three full CSR Taylor queries, three independent Chebyshev queries and array serialization. Both operators are resident; this is not a measured matrix-free-only peak. Excludes dependency installation and response convergence checks.",
+  "scientific_scope": "Full nonlinear finite model on this stated box; no whole-plane convergence or domain-coverage acceptance."
+}

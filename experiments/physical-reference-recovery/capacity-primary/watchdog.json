@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "return_code": 0,
+  "watchdog_stop": null,
+  "capacity_protocol_sha256": "c17e5c0a5cd6839803b0ab1b7fbb63f8cb943158816692d1edda0c4f2fa52821",
+  "outer_wall_seconds": 5.366234207991511,
+  "sampled_aggregate_peak_bytes": 3394076672,
+  "cap_seconds": 120,
+  "cap_bytes": 6000000000,
+  "scope": "Outer fresh worker invocation, including imports and receipt serialization; dependency installation excluded."
+}

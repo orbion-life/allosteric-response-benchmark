@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "<raw-study>/figures/plot_evidence.py", line 4, in <module>
+    import matplotlib
+  File "<project>/pulsar-response-open-source/.venv/lib/python3.12/site-packages/matplotlib/__init__.py", line 967, in <module>
+    rcParamsDefault = _rc_params_in_file(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "<project>/pulsar-response-open-source/.venv/lib/python3.12/site-packages/matplotlib/__init__.py", line 901, in _rc_params_in_file
+    config[key] = val  # try to convert to proper type or raise
+    ~~~~~~^^^^^
+  File "<project>/pulsar-response-open-source/.venv/lib/python3.12/site-packages/matplotlib/__init__.py", line 736, in __setitem__
+    cval = self.validate[key](val)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<project>/pulsar-response-open-source/.venv/lib/python3.12/site-packages/matplotlib/rcsetup.py", line 427, in validate_font_properties
+    parse_fontconfig_pattern(s)
+  File "<project>/pulsar-response-open-source/.venv/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py", line 83, in parse_fontconfig_pattern
+    parser = _make_fontconfig_parser()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<project>/pulsar-response-open-source/.venv/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py", line 64, in _make_fontconfig_parser
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+                                                                   ^^^^^^^^^^^^^^^^^
+  File "<project>/pulsar-response-open-source/.venv/lib/python3.12/site-packages/pyparsing/util.py", line 472, in _inner
+    warnings.warn(
+pyparsing.warnings.PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'

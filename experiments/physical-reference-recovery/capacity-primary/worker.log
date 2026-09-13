@@ -1,0 +1,96 @@
+{
+  "status": "COMPLETE",
+  "capacity_protocol_sha256": "c17e5c0a5cd6839803b0ab1b7fbb63f8cb943158816692d1edda0c4f2fa52821",
+  "source_hashes": {
+    "model.py": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261",
+    "nonlinear_profile.py": "5a8b13555aa72db007dc4cacda21dd2472938ef12f82c0e19c268fa63f319260",
+    "capacity_probe.py": "ee7016dc8420be12df9eeda57654553a03535e4ec9a515e002ddf2c8bd0ac849"
+  },
+  "runtime": {
+    "versions": {
+      "numpy": "2.1.3",
+      "scipy": "1.14.1",
+      "psutil": "7.2.2",
+      "threadpoolctl": "3.6.0"
+    },
+    "threadpools": [],
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "faces": [
+    8,
+    7,
+    19
+  ],
+  "spacing": 0.125,
+  "shape": [
+    128,
+    112,
+    304
+  ],
+  "states": 4358144,
+  "grid_seconds": 0.8344052080065012,
+  "assembly_seconds": 0.7123944159829989,
+  "workspace_allocation_and_touch_seconds": 0.2103796669980511,
+  "workspace_bytes": 1394606080,
+  "workspace_state_vectors": 40,
+  "actual_csr_entries": 30332416,
+  "actual_csr_bytes": 381421572,
+  "stored_stencil_bytes": 138762240,
+  "three_column_bytes": 104595456,
+  "boundary_probability_diagnostic": 5.492965724720279e-05,
+  "probability_underflow_nodes": 558627,
+  "maximum_energy": 2839.995047852678,
+  "matrix_action_measurements": {
+    "csr": {
+      "three_column_action_seconds": [
+        0.05835883301915601,
+        0.05846154200844467,
+        0.05849758296972141,
+        0.05830920801963657,
+        0.05834091600263491,
+        0.05845695798052475,
+        0.05836095905397087,
+        0.05822916701436043,
+        0.05835716595174745,
+        0.05849737499374896
+      ],
+      "minimum": 0.05822916701436043,
+      "median": 0.05835989603656344,
+      "maximum": 0.05849758296972141
+    },
+    "stencil": {
+      "three_column_action_seconds": [
+        0.20795079198433086,
+        0.20826012501493096,
+        0.20707245799712837,
+        0.21927104203496128,
+        0.2563501659897156,
+        0.2136760000139475,
+        0.20637120900209993,
+        0.21069270803127438,
+        0.20734487503068522,
+        0.20574945904081687
+      ],
+      "minimum": 0.20574945904081687,
+      "median": 0.2081054584996309,
+      "maximum": 0.2563501659897156
+    }
+  },
+  "scaled_action_error": 5.464378949326942e-16,
+  "stationarity_residual": 2.1174345182194638e-15,
+  "spectral_gershgorin_upper_bound": 1538.2406310872998,
+  "observable_norms": [
+    0.5047914670807284,
+    0.5825891664293762,
+    0.5481925746557376
+  ],
+  "worker_peak_rss_bytes": 3376807936,
+  "worker_timed_seconds": 5.001966749958228,
+  "identities_pass": true,
+  "scope": "Construction, explicitly touched forty-vector workspace, identity checks, and10actions per representation only. No matrix exponential or nonlinear response was calculated. The spectral bound and norm are planning inputs on this finite grid."
+}

@@ -1,0 +1,13 @@
+test_chebyshev_versus_dense_eigen (test_algebra.AlgebraChecks.test_chebyshev_versus_dense_eigen) ... ok
+test_complete_tiny_receipt_serialization (test_algebra.AlgebraChecks.test_complete_tiny_receipt_serialization) ... ok
+test_degree_minimal_bound (test_algebra.AlgebraChecks.test_degree_minimal_bound) ... ok
+test_direct_quartic_observable (test_algebra.AlgebraChecks.test_direct_quartic_observable) ... ok
+test_exact_harmonic_methods (test_algebra.AlgebraChecks.test_exact_harmonic_methods) ... ok
+test_grid_counts (test_algebra.AlgebraChecks.test_grid_counts) ... ok
+test_known_minimum (test_algebra.AlgebraChecks.test_known_minimum) ... ok
+test_tensor_full_grid (test_algebra.AlgebraChecks.test_tensor_full_grid) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.063s
+
+OK

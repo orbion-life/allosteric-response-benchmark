@@ -1,0 +1,453 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-09-13T06:51:34.406509+00:00",
+  "protocol_sha256": "60d262d2c806d3a54cb63fc6fa260e273e8f7439af153d06f1b5b6a582f00386",
+  "prior_execution_seconds": 2.0054447079999997,
+  "jobs": [
+    {
+      "name": "inventory-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "inventory",
+        "--label",
+        "pinned"
+      ],
+      "log": "logs-continuation-1/00-inventory-pinned.log",
+      "started_utc": "2026-09-13T06:51:34.407040+00:00",
+      "returncode": 0,
+      "seconds": 0.854502833,
+      "limit_reason": null,
+      "log_sha256": "553e1d47f54829754473d38a3fdd06f56d979942a5760fcc9b7706f61178c462"
+    },
+    {
+      "name": "inventory-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "inventory",
+        "--label",
+        "system"
+      ],
+      "log": "logs-continuation-1/01-inventory-system.log",
+      "started_utc": "2026-09-13T06:51:35.262241+00:00",
+      "returncode": 0,
+      "seconds": 1.148199709,
+      "limit_reason": null,
+      "log_sha256": "f94953bb842bb5b48ab4c99441c568615ca158b628afa391ddbf213320f7d2a4"
+    },
+    {
+      "name": "native-build-0-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "build",
+        "--label",
+        "pinned",
+        "--case",
+        "0"
+      ],
+      "log": "logs-continuation-1/02-native-build-0-pinned.log",
+      "started_utc": "2026-09-13T06:51:36.411251+00:00",
+      "returncode": 0,
+      "seconds": 0.5688442080000002,
+      "limit_reason": null,
+      "log_sha256": "c5edbdc68dac666b85c2ddcee1c82d33e82fe1474e55ccba2d06c11862a7ec9d"
+    },
+    {
+      "name": "native-build-0-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "build",
+        "--label",
+        "system",
+        "--case",
+        "0"
+      ],
+      "log": "logs-continuation-1/03-native-build-0-system.log",
+      "started_utc": "2026-09-13T06:51:36.980707+00:00",
+      "returncode": 0,
+      "seconds": 0.865299834,
+      "limit_reason": null,
+      "log_sha256": "bbdea7654b682557dd66e87a99a5f52636f8c1b18af36cb5c2e85065f30cdd75"
+    },
+    {
+      "name": "native-build-1-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "build",
+        "--label",
+        "pinned",
+        "--case",
+        "1"
+      ],
+      "log": "logs-continuation-1/04-native-build-1-pinned.log",
+      "started_utc": "2026-09-13T06:51:37.846667+00:00",
+      "returncode": 0,
+      "seconds": 0.5727860000000002,
+      "limit_reason": null,
+      "log_sha256": "94f296934c0150183f281944b455c7261e945f133fbac87c37bdda79766a18a8"
+    },
+    {
+      "name": "native-build-1-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "build",
+        "--label",
+        "system",
+        "--case",
+        "1"
+      ],
+      "log": "logs-continuation-1/05-native-build-1-system.log",
+      "started_utc": "2026-09-13T06:51:38.420308+00:00",
+      "returncode": 0,
+      "seconds": 0.849408167,
+      "limit_reason": null,
+      "log_sha256": "c2540981a179524353854fbf7885f75235fbecf263a8c911a256b48ffff9983c"
+    },
+    {
+      "name": "native-basis-0-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "pinned",
+        "--case",
+        "0"
+      ],
+      "log": "logs-continuation-1/06-native-basis-0-pinned.log",
+      "started_utc": "2026-09-13T06:51:39.270694+00:00",
+      "returncode": 0,
+      "seconds": 2.001157333,
+      "limit_reason": null,
+      "log_sha256": "62fca0260f631933e775e7a9fc33ac28b16a66efbd8388c1caae97b63019683d"
+    },
+    {
+      "name": "native-basis-0-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "system",
+        "--case",
+        "0"
+      ],
+      "log": "logs-continuation-1/07-native-basis-0-system.log",
+      "started_utc": "2026-09-13T06:51:41.272706+00:00",
+      "returncode": 0,
+      "seconds": 2.287117833000001,
+      "limit_reason": null,
+      "log_sha256": "68cd4d057310eacd309d862855fee8198bdab7ffe499de35f185d1b277387b21"
+    },
+    {
+      "name": "identical-input-basis-0-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "system",
+        "--case",
+        "0",
+        "--shared"
+      ],
+      "log": "logs-continuation-1/08-identical-input-basis-0-system.log",
+      "started_utc": "2026-09-13T06:51:43.560542+00:00",
+      "returncode": 0,
+      "seconds": 2.0091586249999995,
+      "limit_reason": null,
+      "log_sha256": "0f6578b7d28bbfccd27f291456d18cf73684fcae2f5163f0219e6ca7cd4a1b8f"
+    },
+    {
+      "name": "native-basis-1-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "pinned",
+        "--case",
+        "1"
+      ],
+      "log": "logs-continuation-1/09-native-basis-1-pinned.log",
+      "started_utc": "2026-09-13T06:51:45.570844+00:00",
+      "returncode": 0,
+      "seconds": 8.280094708999998,
+      "limit_reason": null,
+      "log_sha256": "01e753d458c8797e6069c5b4333a312f6b7813bfa4c9b39d7c1c881862d661c1"
+    },
+    {
+      "name": "native-basis-1-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "system",
+        "--case",
+        "1"
+      ],
+      "log": "logs-continuation-1/10-native-basis-1-system.log",
+      "started_utc": "2026-09-13T06:51:53.851784+00:00",
+      "returncode": 0,
+      "seconds": 8.356570375,
+      "limit_reason": null,
+      "log_sha256": "ac7152ee91a3361ce97be4b2b0e5ba89b55c7b82a97ae9a8aa3ef92cbcd3fe01"
+    },
+    {
+      "name": "identical-input-basis-1-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "basis",
+        "--label",
+        "system",
+        "--case",
+        "1",
+        "--shared"
+      ],
+      "log": "logs-continuation-1/11-identical-input-basis-1-system.log",
+      "started_utc": "2026-09-13T06:52:02.209114+00:00",
+      "returncode": 0,
+      "seconds": 8.262114042,
+      "limit_reason": null,
+      "log_sha256": "38a4e1e9b4e403c2961cf649e5e1f1df43db940f1167360c3f22d2faf5f99bfb"
+    },
+    {
+      "name": "fixed-V-eigh-0-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "eigh",
+        "--label",
+        "pinned",
+        "--case",
+        "0"
+      ],
+      "log": "logs-continuation-1/12-fixed-V-eigh-0-pinned.log",
+      "started_utc": "2026-09-13T06:52:10.472084+00:00",
+      "returncode": 0,
+      "seconds": 1.997702916999998,
+      "limit_reason": null,
+      "log_sha256": "81f3e53fd8f84b7a3ea7ac859804138d43c04e0f909b3e435360a5741ddc047e"
+    },
+    {
+      "name": "fixed-V-eigh-0-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "eigh",
+        "--label",
+        "system",
+        "--case",
+        "0"
+      ],
+      "log": "logs-continuation-1/13-fixed-V-eigh-0-system.log",
+      "started_utc": "2026-09-13T06:52:12.470734+00:00",
+      "returncode": 0,
+      "seconds": 2.5406850829999996,
+      "limit_reason": null,
+      "log_sha256": "7a49b0dd6c075852676a51000e91033ee23fad55470d151fd95ef40d434fe26e"
+    },
+    {
+      "name": "fixed-V-eigh-1-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "eigh",
+        "--label",
+        "pinned",
+        "--case",
+        "1"
+      ],
+      "log": "logs-continuation-1/14-fixed-V-eigh-1-pinned.log",
+      "started_utc": "2026-09-13T06:52:15.012400+00:00",
+      "returncode": 0,
+      "seconds": 2.292914040999996,
+      "limit_reason": null,
+      "log_sha256": "84dd25c79066526b275c59006663b18a24f5b76a466e54f69514b6c1d07175d9"
+    },
+    {
+      "name": "fixed-V-eigh-1-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "eigh",
+        "--label",
+        "system",
+        "--case",
+        "1"
+      ],
+      "log": "logs-continuation-1/15-fixed-V-eigh-1-system.log",
+      "started_utc": "2026-09-13T06:52:17.306214+00:00",
+      "returncode": 0,
+      "seconds": 2.863374999999998,
+      "limit_reason": null,
+      "log_sha256": "711710ffd651462f90e5ef4e00067f0eace0beb5f65b50cf455d4b06f3e5eb58"
+    },
+    {
+      "name": "full-admission-comparisons",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "compare",
+        "--label",
+        "pinned"
+      ],
+      "log": "logs-continuation-1/16-full-admission-comparisons.log",
+      "started_utc": "2026-09-13T06:52:20.170363+00:00",
+      "returncode": 0,
+      "seconds": 10.557359916000003,
+      "limit_reason": null,
+      "log_sha256": "7ef9db8b450b6132b536cb3dd016359c79ef60ac0193b1ecdabfd8387e21f6df"
+    },
+    {
+      "name": "identical-residual-svd-0-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "svd",
+        "--label",
+        "pinned",
+        "--case",
+        "0"
+      ],
+      "log": "logs-continuation-1/17-identical-residual-svd-0-pinned.log",
+      "started_utc": "2026-09-13T06:52:30.728911+00:00",
+      "returncode": 0,
+      "seconds": 0.5730792499999993,
+      "limit_reason": null,
+      "log_sha256": "0e9cba819d92d024b2890defb7cf623614e2a1a8f58619aa2634bf9e0a645900"
+    },
+    {
+      "name": "identical-residual-svd-0-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "svd",
+        "--label",
+        "system",
+        "--case",
+        "0"
+      ],
+      "log": "logs-continuation-1/18-identical-residual-svd-0-system.log",
+      "started_utc": "2026-09-13T06:52:31.303094+00:00",
+      "returncode": 0,
+      "seconds": 0.8512122079999997,
+      "limit_reason": null,
+      "log_sha256": "625ab575eb2583e4cfcb3f32579ef916145b7969f1f9fe8ac40fb34951e79af1"
+    },
+    {
+      "name": "identical-residual-svd-1-pinned",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "svd",
+        "--label",
+        "pinned",
+        "--case",
+        "1"
+      ],
+      "log": "logs-continuation-1/19-identical-residual-svd-1-pinned.log",
+      "started_utc": "2026-09-13T06:52:32.155220+00:00",
+      "returncode": 0,
+      "seconds": 0.5655836669999985,
+      "limit_reason": null,
+      "log_sha256": "188811d4dcb97d81664c034230566e692311e5ded5a17342044c9a786c60bee3"
+    },
+    {
+      "name": "identical-residual-svd-1-system",
+      "argv": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "svd",
+        "--label",
+        "system",
+        "--case",
+        "1"
+      ],
+      "log": "logs-continuation-1/20-identical-residual-svd-1-system.log",
+      "started_utc": "2026-09-13T06:52:32.721702+00:00",
+      "returncode": 0,
+      "seconds": 0.8567899580000002,
+      "limit_reason": null,
+      "log_sha256": "2dc5235928fcc10e64d82f175deb31ba5bb249bb1abd815dfbb03980216f446c"
+    },
+    {
+      "name": "final-comparison-summary",
+      "argv": [
+        "<project>/pulsar-response-open-source/.venv/bin/python",
+        "-W",
+        "error",
+        "<raw-study>/diagnostic.py",
+        "summary",
+        "--label",
+        "pinned"
+      ],
+      "log": "logs-continuation-1/21-final-comparison-summary.log",
+      "started_utc": "2026-09-13T06:52:33.579470+00:00",
+      "returncode": 0,
+      "seconds": 0.5650531249999986,
+      "limit_reason": null,
+      "log_sha256": "21c0e4e9351ce57eacba0f326939ab50f43662d5ea6e8884040e1eb5cef95d3d"
+    }
+  ],
+  "sampled_peak_aggregate_bytes": 746192896,
+  "limits": {
+    "wall_seconds": 1800,
+    "aggregate_bytes": 4000000000,
+    "workers": 1,
+    "paid_compute": false,
+    "remote_compute": false
+  },
+  "wall_seconds": 59.739278042,
+  "aggregate_execution_seconds": 61.744722833,
+  "finished_utc": "2026-09-13T06:52:34.145528+00:00"
+}

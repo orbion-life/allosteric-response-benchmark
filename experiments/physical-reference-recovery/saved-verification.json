@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "kind": "source_hash",
+      "file": "calibration.py",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "chebyshev.py",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "model.py",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "nonlinear_profile.py",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "preflight.py",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "run_bounded.py",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "test_algebra.py",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "protocol.json",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "requirements.txt",
+      "manifest": "execution-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "capacity-protocol.json",
+      "manifest": "capacity-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "capacity_probe.py",
+      "manifest": "capacity-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "run_capacity.py",
+      "manifest": "capacity-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "supplementary_minima_preflight.py",
+      "manifest": "capacity-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "model.py",
+      "manifest": "capacity-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "nonlinear_profile.py",
+      "manifest": "capacity-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "source_hash",
+      "file": "preflight.py",
+      "manifest": "capacity-source-hashes.json",
+      "pass_check": true
+    },
+    {
+      "kind": "legacy_normalization_and_times",
+      "pass_check": true
+    },
+    {
+      "kind": "solver_agreement",
+      "case": "nonlinear-primary/nonlinear-h0.5",
+      "pass_check": true
+    },
+    {
+      "kind": "solver_agreement",
+      "case": "nonlinear-primary/nonlinear-h0.25",
+      "pass_check": true
+    },
+    {
+      "kind": "all_four_controlling_pairs",
+      "pass_check": true
+    }
+  ],
+  "finite_arrays_checked": 82,
+  "legacy_reference": {
+    "artifact_name": "development-k1-n33-e4.npz",
+    "sha256": "99942641cd1e112ce5b3e6043bfe43e4daea8880caba7ac3141869fe1d1e450b",
+    "differences": {
+      "harmonic_sd": 2.55351295663786e-15,
+      "times": 3.108624468950438e-14
+    },
+    "pass_check": true
+  },
+  "old_box_coarse_refinement": {
+    "G0": 0.0002780412675609384,
+    "K": 0.004137870068048111,
+    "C": 0.004285118227937812
+  },
+  "old_box_refinement_screen_pass": false,
+  "solver_checks": [
+    {
+      "case": "nonlinear-primary/nonlinear-h0.5",
+      "maximum_independent_difference": 1.6008139258616438e-11,
+      "response_identity_error": 0.0,
+      "pass_check": true
+    },
+    {
+      "case": "nonlinear-primary/nonlinear-h0.25",
+      "maximum_independent_difference": 1.8698739171624235e-11,
+      "response_identity_error": 0.0,
+      "pass_check": true
+    }
+  ],
+  "scope": "Saved-array and source-hash checks only. No new grid, propagation or campaign. Scientific failed screens do not fail software/evidence verification."
+}

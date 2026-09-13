@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "common_setup_seconds": 0.004772792000000026,
+    "states": 4913,
+    "nnz": 32657,
+    "stationarity_residual": 5.84785153635762e-16,
+    "centered_observable_residual": 1.835037107021477e-15,
+    "boundary_probability": 0.3080983932871407
+  },
+  "instrumentation_bitwise_parity": {
+    "H_data": true,
+    "H_indices": true,
+    "H_indptr": true,
+    "F": true,
+    "times": true,
+    "sd": true
+  },
+  "input_sha256": "0d793215be405198f264d2d9ee6d36eb7ba82fd9c8753c1207461053371ddc2f"
+}
