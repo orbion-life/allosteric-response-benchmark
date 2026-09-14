@@ -1,0 +1,147 @@
+{
+  "status": "LOCAL_NATIVE_COMPILATION_IDEAL_AND_ASSUMED_NOISE_STUDY_COMPLETE",
+  "platform": "IQM Garnet via Amazon Braket, documented topology subset; not a live calibration",
+  "qubits": 6,
+  "rank": 9,
+  "sites": 3,
+  "queries": 18,
+  "controls": 7,
+  "physical_positions": [
+    7,
+    8,
+    9,
+    10,
+    13,
+    14
+  ],
+  "native_gate_set": [
+    "PRx",
+    "CZ"
+  ],
+  "data_CZ_range": [
+    120,
+    164
+  ],
+  "data_PRx_range": [
+    313,
+    454
+  ],
+  "data_depth_range": [
+    279,
+    415
+  ],
+  "maximum_ideal_probability_error": 1.2463528120676415e-07,
+  "maximum_ideal_response_error": 1.7650673511671044e-07,
+  "inherited_projection_error": 2.0974341530588525e-05,
+  "maximum_response_scale": 0.7080929788431161,
+  "classical_preprocessing_and_reference_seconds": 0.012158083030954003,
+  "wall_seconds": 4.6853912500082515,
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.4.6"
+  },
+  "files_sha256": {
+    "PROTOCOL.md": "a9833d32ef4435e43bc385782a8502ae691ccd3547598b615696ab4c184d2c74",
+    "run_study.py": "40d3df4005b7767e7933c8f689a44873ab0e46a58a22982dde62730ebd609583",
+    "triangle.npz": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+    "vendor/spectral.py": "ed08bc373e07599c7d716f02d08f46e8a8b78d8ea35336bc1e6aed6c82c0e459",
+    "vendor/vendor/multiplexed.py": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5"
+  },
+  "noise_scenarios": [
+    {
+      "name": "ideal",
+      "two_qubit_depolarizing_parameter": 0.0,
+      "one_qubit_depolarizing_parameter": 0.0,
+      "readout_flip_probability": 0.0,
+      "scope": "Assumed independent stochastic noise, not device calibration",
+      "maximum_data_response_bias": 1.7650673678204498e-07,
+      "maximum_identity_control_bias": 1.0547118733938987e-15
+    },
+    {
+      "name": "optimistic",
+      "two_qubit_depolarizing_parameter": 1e-05,
+      "one_qubit_depolarizing_parameter": 1.0000000000000002e-06,
+      "readout_flip_probability": 0.0001,
+      "scope": "Assumed independent stochastic noise, not device calibration",
+      "maximum_data_response_bias": 0.0008800162614114315,
+      "maximum_identity_control_bias": 0.0006931866715460533
+    },
+    {
+      "name": "low_noise",
+      "two_qubit_depolarizing_parameter": 0.0001,
+      "one_qubit_depolarizing_parameter": 1e-05,
+      "readout_flip_probability": 0.001,
+      "scope": "Assumed independent stochastic noise, not device calibration",
+      "maximum_data_response_bias": 0.00873086850103777,
+      "maximum_identity_control_bias": 0.006877279712990625
+    },
+    {
+      "name": "moderate_noise",
+      "two_qubit_depolarizing_parameter": 0.001,
+      "one_qubit_depolarizing_parameter": 0.0001,
+      "readout_flip_probability": 0.01,
+      "scope": "Assumed independent stochastic noise, not device calibration",
+      "maximum_data_response_bias": 0.08076427691883836,
+      "maximum_identity_control_bias": 0.06361812342648021
+    },
+    {
+      "name": "high_noise",
+      "two_qubit_depolarizing_parameter": 0.01,
+      "one_qubit_depolarizing_parameter": 0.001,
+      "readout_flip_probability": 0.01,
+      "scope": "Assumed independent stochastic noise, not device calibration",
+      "maximum_data_response_bias": 0.39503617458327445,
+      "maximum_identity_control_bias": 0.31122155504623955
+    },
+    {
+      "name": "readout_only",
+      "two_qubit_depolarizing_parameter": 0.0,
+      "one_qubit_depolarizing_parameter": 0.0,
+      "readout_flip_probability": 0.01,
+      "scope": "Assumed independent stochastic noise, not device calibration",
+      "maximum_data_response_bias": 0.009972106333589137,
+      "maximum_identity_control_bias": 0.007879825836463905
+    }
+  ],
+  "shot_budgets": [
+    {
+      "shots_per_data_query": 16384,
+      "total_data_shots": 294912,
+      "control_shots": 81920,
+      "total_shots": 376832,
+      "tasks": 25,
+      "price_USD_at_verified_tariff": 553.9064,
+      "rigorous_statistical_response_halfwidth": 0.020067050836282147,
+      "projection_error": 2.0974341530588525e-05,
+      "arithmetic_compile_allowance": 1e-08,
+      "remaining_bias_allowance_for_0_05": 0.029911964822187265
+    },
+    {
+      "shots_per_data_query": 65536,
+      "total_data_shots": 1179648,
+      "control_shots": 81920,
+      "total_shots": 1261568,
+      "tasks": 79,
+      "price_USD_at_verified_tariff": 1852.9736,
+      "rigorous_statistical_response_halfwidth": 0.010033525418141074,
+      "projection_error": 2.0974341530588525e-05,
+      "arithmetic_compile_allowance": 1e-08,
+      "remaining_bias_allowance_for_0_05": 0.03994549024032834
+    }
+  ],
+  "final_precision": {
+    "total_response_target": 0.002,
+    "projection_error": 2.0974341530588525e-05,
+    "numerical_allowance": 1e-08,
+    "assumed_qualified_physical_bias": 0.0005,
+    "statistical_budget": 0.0014790156584694116,
+    "sufficient_shots_per_query": 3016071,
+    "query_count": 18,
+    "total_data_shots": 54289278,
+    "total_shots_with_diagnostic_controls": 54371198,
+    "tasks": 2725,
+    "price_USD_at_verified_tariff": 79655.7371,
+    "qualification": "Sampling bound assumes physical bias separately established at <=0.0005; these diagnostic controls do not establish that bias for all circuit errors"
+  },
+  "no_qpu_execution": true
+}

@@ -1,0 +1,4022 @@
+[
+  {
+    "scenario": "ideal",
+    "shots_per_query": 16384,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 16384,
+        "zeros": 14042,
+        "probability_interval": [
+          0.8487080494596582,
+          0.8651273532984419
+        ],
+        "response_interval": [
+          -0.1986958103555494,
+          -0.17713189456181921
+        ],
+        "response_midpoint": -0.1879138524586843,
+        "response_halfwidth": 0.010781957896865091,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0012353509229479642
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 16384,
+        "zeros": 11305,
+        "probability_interval": [
+          0.6790918328137332,
+          0.7007664046697906
+        ],
+        "response_interval": [
+          -0.1309416177977355,
+          -0.10138211578557976
+        ],
+        "response_midpoint": -0.11616186679165763,
+        "response_halfwidth": 0.014779751006077868,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0027226957518767664
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 16384,
+        "zeros": 11484,
+        "probability_interval": [
+          0.6901213238104779,
+          0.7115790612094479
+        ],
+        "response_interval": [
+          -0.13819193881473535,
+          -0.10932155629439322
+        ],
+        "response_midpoint": -0.12375674755456428,
+        "response_halfwidth": 0.014435191260171065,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.005847420581190255
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 16384,
+        "zeros": 13959,
+        "probability_interval": [
+          0.8435250968693722,
+          0.8601824049209492
+        ],
+        "response_interval": [
+          -0.22159756054390867,
+          -0.1980077147884114
+        ],
+        "response_midpoint": -0.20980263766616003,
+        "response_halfwidth": 0.011794922877748637,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0003149755026007339
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 16384,
+        "zeros": 11035,
+        "probability_interval": [
+          0.6624684408452401,
+          0.6844435384808716
+        ],
+        "response_interval": [
+          -0.13025344982086318,
+          -0.09955099341169926
+        ],
+        "response_midpoint": -0.11490222161628122,
+        "response_halfwidth": 0.015351228204581957,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.005642614196454662
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 16384,
+        "zeros": 13879,
+        "probability_interval": [
+          0.8385326489352539,
+          0.8554130190150805
+        ],
+        "response_interval": [
+          -0.22256099640670057,
+          -0.19929367976400925
+        ],
+        "response_midpoint": -0.2109273380853549,
+        "response_halfwidth": 0.011633658321345663,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0088896166569995
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 16384,
+        "zeros": 8640,
+        "probability_interval": [
+          0.5156371209085708,
+          0.5390292810879185
+        ],
+        "response_interval": [
+          -0.6361268687692405,
+          -0.605405312161621
+        ],
+        "response_midpoint": -0.6207660904654307,
+        "response_halfwidth": 0.015360778303809774,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00317534923374041
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 16384,
+        "zeros": 8384,
+        "probability_interval": [
+          0.5000038768682384,
+          0.5234245811705501
+        ],
+        "response_interval": [
+          -0.37517946615201603,
+          -0.3432386111931298
+        ],
+        "response_midpoint": -0.3592090386725729,
+        "response_halfwidth": 0.015970427479443106,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.000727918786876447
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 16384,
+        "zeros": 8364,
+        "probability_interval": [
+          0.49878301092518207,
+          0.5222049827361677
+        ],
+        "response_interval": [
+          -0.3956286937290977,
+          -0.36411552563541594
+        ],
+        "response_midpoint": -0.3798721096822568,
+        "response_halfwidth": 0.015756584046840882,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0031794886612490636
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 16384,
+        "zeros": 8602,
+        "probability_interval": [
+          0.5133158382434639,
+          0.5367136814579712
+        ],
+        "response_interval": [
+          -0.6892352757079011,
+          -0.6560995787073719
+        ],
+        "response_midpoint": -0.6726674272076365,
+        "response_halfwidth": 0.016567848500264604,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001386029483982032
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 16384,
+        "zeros": 8204,
+        "probability_interval": [
+          0.4890185908844403,
+          0.512445687743547
+        ],
+        "response_interval": [
+          -0.3725885031569962,
+          -0.3398573894192475
+        ],
+        "response_midpoint": -0.35622294628812184,
+        "response_halfwidth": 0.016365556868874365,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.012363848032631741
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 16384,
+        "zeros": 8667,
+        "probability_interval": [
+          0.5172866067463079,
+          0.5406744221410267
+        ],
+        "response_interval": [
+          -0.6653553989271928,
+          -0.633118445365371
+        ],
+        "response_midpoint": -0.6492369221462819,
+        "response_halfwidth": 0.016118476780910884,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0032437711500694633
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 16384,
+        "zeros": 8227,
+        "probability_interval": [
+          0.4904219519856451,
+          0.5138488606792702
+        ],
+        "response_interval": [
+          -0.669242632063315,
+          -0.6384754392921167
+        ],
+        "response_midpoint": -0.6538590356777159,
+        "response_halfwidth": 0.015383596385599163,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0028042609583620592
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 16384,
+        "zeros": 8242,
+        "probability_interval": [
+          0.49133723709621313,
+          0.5147639238535838
+        ],
+        "response_interval": [
+          -0.38699891788011165,
+          -0.355049904126047
+        ],
+        "response_midpoint": -0.3710244110030793,
+        "response_halfwidth": 0.015974506877032335,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004160369681831533
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 16384,
+        "zeros": 8201,
+        "probability_interval": [
+          0.4888355505728828,
+          0.512262658398108
+        ],
+        "response_interval": [
+          -0.40901253658899783,
+          -0.3774924582282655
+        ],
+        "response_midpoint": -0.39325249740863166,
+        "response_halfwidth": 0.01576003918036617,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0007388419950773994
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 16384,
+        "zeros": 8209,
+        "probability_interval": [
+          0.48932366155168633,
+          0.5127507331712928
+        ],
+        "response_interval": [
+          -0.7232126594331235,
+          -0.6900355695757271
+        ],
+        "response_midpoint": -0.7066241145044253,
+        "response_halfwidth": 0.016588544928698212,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0014688571457518451
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 16384,
+        "zeros": 8172,
+        "probability_interval": [
+          0.4870662416608559,
+          0.5104932939591712
+        ],
+        "response_interval": [
+          -0.37531622332126857,
+          -0.3425851718415257
+        ],
+        "response_midpoint": -0.35895069758139714,
+        "response_halfwidth": 0.016365525739871434,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0017048457122589289
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 16384,
+        "zeros": 8139,
+        "probability_interval": [
+          0.4850530682115442,
+          0.508479701181692
+        ],
+        "response_interval": [
+          -0.7097849904619801,
+          -0.677494532100528
+        ],
+        "response_midpoint": -0.693639761281254,
+        "response_halfwidth": 0.01614522918072603,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004457118647968272
+      }
+    ],
+    "maximum_response_halfwidth": 0.016588544928698212,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 18,
+    "maximum_response_midpoint_error": 0.012363848032631741
+  },
+  {
+    "scenario": "optimistic",
+    "shots_per_query": 16384,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 16384,
+        "zeros": 14071,
+        "probability_interval": [
+          0.8505197765270829,
+          0.8668542900037884
+        ],
+        "response_interval": [
+          -0.19631642019950113,
+          -0.17486386188145486
+        ],
+        "response_midpoint": -0.185590141040478,
+        "response_halfwidth": 0.010726279159023133,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0035590623411542732
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 16384,
+        "zeros": 11361,
+        "probability_interval": [
+          0.6825416325101492,
+          0.7041499026535502
+        ],
+        "response_interval": [
+          -0.12623682539191716,
+          -0.0967677448017712
+        ],
+        "response_midpoint": -0.11150228509684418,
+        "response_halfwidth": 0.014734540295072984,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0019368859429366864
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 16384,
+        "zeros": 11525,
+        "probability_interval": [
+          0.6926486460606869,
+          0.7140546887819474
+        ],
+        "response_interval": [
+          -0.13479154487948253,
+          -0.10599071513127056
+        ],
+        "response_midpoint": -0.12039113000537655,
+        "response_halfwidth": 0.014400414874105982,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0024818030320025164
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 16384,
+        "zeros": 13847,
+        "probability_interval": [
+          0.8365365126278557,
+          0.8535044213794265
+        ],
+        "response_interval": [
+          -0.23149469541085144,
+          -0.20746498130557556
+        ],
+        "response_midpoint": -0.2194798383582135,
+        "response_halfwidth": 0.01201485705263794,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.009992176194654201
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 16384,
+        "zeros": 11156,
+        "probability_interval": [
+          0.669916243674173,
+          0.6917605405256655
+        ],
+        "response_interval": [
+          -0.1198477694689093,
+          -0.08932806107023883
+        ],
+        "response_midpoint": -0.10458791526957406,
+        "response_halfwidth": 0.015259854199335232,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004671692150252496
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 16384,
+        "zeros": 14021,
+        "probability_interval": [
+          0.8473963758152723,
+          0.8638765461408167
+        ],
+        "response_interval": [
+          -0.2103435427029936,
+          -0.18762784752115746
+        ],
+        "response_midpoint": -0.19898569511207553,
+        "response_halfwidth": 0.011357847590918069,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0030520263162798766
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 16384,
+        "zeros": 8653,
+        "probability_interval": [
+          0.5164313018779811,
+          0.5398214019551651
+        ],
+        "response_interval": [
+          -0.635083849423384,
+          -0.6043649984036517
+        ],
+        "response_midpoint": -0.6197244239135178,
+        "response_halfwidth": 0.015359425509866187,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0021336826818274535
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 16384,
+        "zeros": 8351,
+        "probability_interval": [
+          0.49798948542445853,
+          0.521412206391268
+        ],
+        "response_interval": [
+          -0.3779266672654277,
+          -0.34598306200546636
+        ],
+        "response_midpoint": -0.361954864635447,
+        "response_halfwidth": 0.015971802629980658,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0020179071759976464
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 16384,
+        "zeros": 8308,
+        "probability_interval": [
+          0.4953649569083103,
+          0.518789736493596
+        ],
+        "response_interval": [
+          -0.40022752561465413,
+          -0.368710579791915
+        ],
+        "response_midpoint": -0.3844690527032846,
+        "response_halfwidth": 0.01575847291136956,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.007776431682276819
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 16384,
+        "zeros": 8776,
+        "probability_interval": [
+          0.5239469396581843,
+          0.5473146199818952
+        ],
+        "response_interval": [
+          -0.674179659169636,
+          -0.6410866784314956
+        ],
+        "response_midpoint": -0.6576331688005658,
+        "response_halfwidth": 0.016546490369070188,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.013648228923088701
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 16384,
+        "zeros": 8337,
+        "probability_interval": [
+          0.4971349524173573,
+          0.5205584143336225
+        ],
+        "response_interval": [
+          -0.3612487475710485,
+          -0.328522712385213
+        ],
+        "response_midpoint": -0.3448857299781308,
+        "response_halfwidth": 0.01636301759291775,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0010266317226406696
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 16384,
+        "zeros": 8659,
+        "probability_interval": [
+          0.5167978569092376,
+          0.5401869862329325
+        ],
+        "response_interval": [
+          -0.6660290747509099,
+          -0.6337903101149596
+        ],
+        "response_midpoint": -0.6499096924329347,
+        "response_halfwidth": 0.01611938231797516,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0025710008634166615
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 16384,
+        "zeros": 8094,
+        "probability_interval": [
+          0.4823081371985562,
+          0.5057335873407305
+        ],
+        "response_interval": [
+          -0.6798987244623986,
+          -0.6491334472462673
+        ],
+        "response_midpoint": -0.664516085854333,
+        "response_halfwidth": 0.015382638608065657,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.007852789218255052
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 16384,
+        "zeros": 8060,
+        "probability_interval": [
+          0.48023442314004205,
+          0.503658511955011
+        ],
+        "response_interval": [
+          -0.4021407925919902,
+          -0.3701953218783215
+        ],
+        "response_midpoint": -0.38616805723515585,
+        "response_halfwidth": 0.015972735356834356,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.010983276550245002
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 16384,
+        "zeros": 8157,
+        "probability_interval": [
+          0.48615113932072984,
+          0.509578048014355
+        ],
+        "response_interval": [
+          -0.41262428643244997,
+          -0.3811044759939761
+        ],
+        "response_midpoint": -0.39686438121321305,
+        "response_halfwidth": 0.015759905219236925,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0028730418095039845
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 16384,
+        "zeros": 8146,
+        "probability_interval": [
+          0.4854800891632975,
+          0.5089068427628674
+        ],
+        "response_interval": [
+          -0.7286558726769103,
+          -0.695479233195024
+        ],
+        "response_midpoint": -0.7120675529359672,
+        "response_halfwidth": 0.016588319740943158,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003974581285790091
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 16384,
+        "zeros": 8189,
+        "probability_interval": [
+          0.48810340499253835,
+          0.5115305253504641
+        ],
+        "response_interval": [
+          -0.3738671529913815,
+          -0.3411360064223127
+        ],
+        "response_midpoint": -0.3575015797068471,
+        "response_halfwidth": 0.016365573284534418,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00025572783770888563
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 16384,
+        "zeros": 8079,
+        "probability_interval": [
+          0.4813932385375784,
+          0.5048181377173633
+        ],
+        "response_interval": [
+          -0.7148295727477824,
+          -0.6825415041828321
+        ],
+        "response_midpoint": -0.6986855384653072,
+        "response_halfwidth": 0.016144034282475128,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.009502895832021463
+      }
+    ],
+    "maximum_response_halfwidth": 0.016588319740943158,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 18,
+    "maximum_response_midpoint_error": 0.013648228923088701
+  },
+  {
+    "scenario": "low_noise",
+    "shots_per_query": 16384,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 16384,
+        "zeros": 13965,
+        "probability_interval": [
+          0.8438996542169099,
+          0.8605399850504558
+        ],
+        "response_interval": [
+          -0.20501080587153941,
+          -0.18315660934788358
+        ],
+        "response_midpoint": -0.1940837076097115,
+        "response_halfwidth": 0.010927098261827917,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004934504228079228
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 16384,
+        "zeros": 11220,
+        "probability_interval": [
+          0.6738568455398696,
+          0.6956294220409664
+        ],
+        "response_interval": [
+          -0.1380810260353259,
+          -0.10838786655018828
+        ],
+        "response_midpoint": -0.1232344462927571,
+        "response_halfwidth": 0.01484657974256881,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00979527525297623
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 16384,
+        "zeros": 11464,
+        "probability_interval": [
+          0.6888886221277686,
+          0.7103712995400551
+        ],
+        "response_interval": [
+          -0.13985048129997402,
+          -0.11094654315766117
+        ],
+        "response_midpoint": -0.1253985122288176,
+        "response_halfwidth": 0.014451969071156423,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0074891852554435645
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 16384,
+        "zeros": 13803,
+        "probability_interval": [
+          0.8337925918614189,
+          0.8508793326134017
+        ],
+        "response_interval": [
+          -0.23538059746928308,
+          -0.21118259515369986
+        ],
+        "response_midpoint": -0.22328159631149147,
+        "response_halfwidth": 0.012099001157791611,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.013793934147932174
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 16384,
+        "zeros": 11011,
+        "probability_interval": [
+          0.6609915595743869,
+          0.6829918633599467
+        ],
+        "response_interval": [
+          -0.13231687104390977,
+          -0.10157919792116177
+        ],
+        "response_midpoint": -0.11694803448253577,
+        "response_halfwidth": 0.015368836561374,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0076884270627092105
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 16384,
+        "zeros": 13849,
+        "probability_interval": [
+          0.8366612572895178,
+          0.853623722595775
+        ],
+        "response_interval": [
+          -0.22514045774421398,
+          -0.2017599838887847
+        ],
+        "response_midpoint": -0.21345022081649934,
+        "response_halfwidth": 0.011690236927714648,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.011412499388143926
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 16384,
+        "zeros": 8640,
+        "probability_interval": [
+          0.5156371209085708,
+          0.5390292810879185
+        ],
+        "response_interval": [
+          -0.6361268687692405,
+          -0.605405312161621
+        ],
+        "response_midpoint": -0.6207660904654307,
+        "response_halfwidth": 0.015360778303809774,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00317534923374041
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 16384,
+        "zeros": 8419,
+        "probability_interval": [
+          0.5021405599515487,
+          0.5255587107463044
+        ],
+        "response_interval": [
+          -0.37226548527525893,
+          -0.3403281127570982
+        ],
+        "response_midpoint": -0.35629679901617856,
+        "response_halfwidth": 0.015968686259080378,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0036401584432708134
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 16384,
+        "zeros": 8382,
+        "probability_interval": [
+          0.4998817871383803,
+          0.5233026244626902
+        ],
+        "response_interval": [
+          -0.39415034170206587,
+          -0.3626387000071689
+        ],
+        "response_midpoint": -0.3783945208546174,
+        "response_halfwidth": 0.015755820847448476,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0017018998336096325
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 16384,
+        "zeros": 8640,
+        "probability_interval": [
+          0.5156371209085708,
+          0.5390292810879185
+        ],
+        "response_interval": [
+          -0.6859479077937563,
+          -0.652820259027817
+        ],
+        "response_midpoint": -0.6693840834107867,
+        "response_halfwidth": 0.016563824382969605,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0018973143128677705
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 16384,
+        "zeros": 8276,
+        "probability_interval": [
+          0.4934120283536243,
+          0.5168379220415467
+        ],
+        "response_interval": [
+          -0.3664502222437277,
+          -0.333720789513793
+        ],
+        "response_midpoint": -0.35008550587876036,
+        "response_halfwidth": 0.016364716364967336,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.006226407623270258
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 16384,
+        "zeros": 8589,
+        "probability_interval": [
+          0.5125217731551123,
+          0.5359214447074709
+        ],
+        "response_interval": [
+          -0.6719230802867722,
+          -0.6396697846084762
+        ],
+        "response_midpoint": -0.6557964324476242,
+        "response_halfwidth": 0.016126647839147967,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003315739151272812
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 16384,
+        "zeros": 8198,
+        "probability_interval": [
+          0.48865251182791497,
+          0.5120796274860797
+        ],
+        "response_interval": [
+          -0.6715664856772063,
+          -0.6407990210938806
+        ],
+        "response_midpoint": -0.6561827533855435,
+        "response_halfwidth": 0.015383732291662844,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00048054325053437097
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 16384,
+        "zeros": 8156,
+        "probability_interval": [
+          0.4860901338906069,
+          0.5095170302254837
+        ],
+        "response_interval": [
+          -0.39415484966940606,
+          -0.3622055500962371
+        ],
+        "response_midpoint": -0.3781801998828216,
+        "response_halfwidth": 0.01597464978658447,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0029954191979107425
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 16384,
+        "zeros": 8167,
+        "probability_interval": [
+          0.48676120319577765,
+          0.5101882163292648
+        ],
+        "response_interval": [
+          -0.4118034740090806,
+          -0.3802835230516549
+        ],
+        "response_midpoint": -0.39604349853036774,
+        "response_halfwidth": 0.01575997547871283,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0020521591266586814
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 16384,
+        "zeros": 8167,
+        "probability_interval": [
+          0.48676120319577765,
+          0.5101882163292648
+        ],
+        "response_interval": [
+          -0.7268415769739172,
+          -0.6936645699437417
+        ],
+        "response_midpoint": -0.7102530734588295,
+        "response_halfwidth": 0.016588503515087727,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.002160101808652337
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 16384,
+        "zeros": 8171,
+        "probability_interval": [
+          0.487005233619706,
+          0.5104322787813237
+        ],
+        "response_interval": [
+          -0.3754014605636722,
+          -0.34267041905494977
+        ],
+        "response_midpoint": -0.359035939809311,
+        "response_halfwidth": 0.016365520754361207,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0017900879401727687
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 16384,
+        "zeros": 8288,
+        "probability_interval": [
+          0.4941443556692829,
+          0.5175698733535044
+        ],
+        "response_interval": [
+          -0.6972538751506084,
+          -0.6649649540605949
+        ],
+        "response_midpoint": -0.6811094146056016,
+        "response_halfwidth": 0.01614446054500679,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.008073228027684176
+      }
+    ],
+    "maximum_response_halfwidth": 0.016588503515087727,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 17,
+    "maximum_response_midpoint_error": 0.013793934147932174
+  },
+  {
+    "scenario": "moderate_noise",
+    "shots_per_query": 16384,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 16384,
+        "zeros": 13032,
+        "probability_interval": [
+          0.785839283738666,
+          0.8047528978626327
+        ],
+        "response_interval": [
+          -0.28126306067105644,
+          -0.2564232997208422
+        ],
+        "response_midpoint": -0.2688431801959493,
+        "response_halfwidth": 0.012419880475107115,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.07969397681431706
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 16384,
+        "zeros": 10744,
+        "probability_interval": [
+          0.6445693331500986,
+          0.6668338988303391
+        ],
+        "response_interval": [
+          -0.1780229583219619,
+          -0.14765883032923688
+        ],
+        "response_midpoint": -0.1628408943255994,
+        "response_halfwidth": 0.015182063996362516,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.04940172328581853
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 16384,
+        "zeros": 10994,
+        "probability_interval": [
+          0.6599455086438936,
+          0.6819635201692813
+        ],
+        "response_interval": [
+          -0.17879208740096264,
+          -0.14916788223636046
+        ],
+        "response_midpoint": -0.16397998481866155,
+        "response_halfwidth": 0.01481210258230109,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.04607065784528752
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 16384,
+        "zeros": 12911,
+        "probability_interval": [
+          0.778332937259046,
+          0.7974944527746775
+        ],
+        "response_interval": [
+          -0.31392178153529215,
+          -0.2867855123340679
+        ],
+        "response_midpoint": -0.30035364693468003,
+        "response_halfwidth": 0.013568134600612125,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.09086598477112073
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 16384,
+        "zeros": 10637,
+        "probability_interval": [
+          0.6379922288993907,
+          0.6603545215406434
+        ],
+        "response_interval": [
+          -0.16445033225520633,
+          -0.13320690724699236
+        ],
+        "response_midpoint": -0.14882861975109934,
+        "response_halfwidth": 0.015621712504106988,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.03956901233127279
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 16384,
+        "zeros": 13129,
+        "probability_interval": [
+          0.7918602630559666,
+          0.8105681552790106
+        ],
+        "response_interval": [
+          -0.28689259432711856,
+          -0.26110628454762463
+        ],
+        "response_midpoint": -0.2739994394373716,
+        "response_halfwidth": 0.01289315488974696,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.07196171800901618
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 16384,
+        "zeros": 8543,
+        "probability_interval": [
+          0.5097122413750299,
+          0.5331179084383487
+        ],
+        "response_interval": [
+          -0.6439081732997946,
+          -0.6131688777361601
+        ],
+        "response_midpoint": -0.6285385255179774,
+        "response_halfwidth": 0.015369647781817208,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.010947784286287066
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 16384,
+        "zeros": 8425,
+        "probability_interval": [
+          0.5025068699126969,
+          0.5259245400979333
+        ],
+        "response_interval": [
+          -0.3717659164669087,
+          -0.33982919939782197
+        ],
+        "response_midpoint": -0.35579755793236534,
+        "response_halfwidth": 0.01596835853454337,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004139399527084031
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 16384,
+        "zeros": 8382,
+        "probability_interval": [
+          0.4998817871383803,
+          0.5233026244626902
+        ],
+        "response_interval": [
+          -0.39415034170206587,
+          -0.3626387000071689
+        ],
+        "response_midpoint": -0.3783945208546174,
+        "response_halfwidth": 0.015755820847448476,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0017018998336096325
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 16384,
+        "zeros": 8656,
+        "probability_interval": [
+          0.5166145786065406,
+          0.540004194881134
+        ],
+        "response_interval": [
+          -0.6845636459276592,
+          -0.6514395998039105
+        ],
+        "response_midpoint": -0.6680016228657848,
+        "response_halfwidth": 0.01656202306187432,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0032797748578696773
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 16384,
+        "zeros": 8368,
+        "probability_interval": [
+          0.4990271785396905,
+          0.5224489079971917
+        ],
+        "response_interval": [
+          -0.3586050282574643,
+          -0.32588141357235045
+        ],
+        "response_midpoint": -0.3422432209149074,
+        "response_halfwidth": 0.016361807342556933,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0016158773405827165
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 16384,
+        "zeros": 8562,
+        "probability_interval": [
+          0.5108726553673695,
+          0.5342759355975044
+        ],
+        "response_interval": [
+          -0.6741961670477291,
+          -0.641937897293149
+        ],
+        "response_midpoint": -0.658067032170439,
+        "response_halfwidth": 0.016129134877290063,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00558633887408766
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 16384,
+        "zeros": 8142,
+        "probability_interval": [
+          0.4852360761464162,
+          0.5086627629037869
+        ],
+        "response_interval": [
+          -0.676053383055676,
+          -0.6452864817593628
+        ],
+        "response_midpoint": -0.6606699324075194,
+        "response_halfwidth": 0.015383450648156605,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004006635771441447
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 16384,
+        "zeros": 8284,
+        "probability_interval": [
+          0.49390024377851205,
+          0.5173258923684136
+        ],
+        "response_interval": [
+          -0.3835035223684624,
+          -0.35155592445382444
+        ],
+        "response_midpoint": -0.3675297234111434,
+        "response_halfwidth": 0.015973798957318985,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.007655057273767418
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 16384,
+        "zeros": 8089,
+        "probability_interval": [
+          0.48200316662552173,
+          0.5054284418189625
+        ],
+        "response_interval": [
+          -0.4182051897759843,
+          -0.3866875771356423
+        ],
+        "response_midpoint": -0.4024463834558133,
+        "response_halfwidth": 0.015758806320171015,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.008455044052104232
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 16384,
+        "zeros": 8125,
+        "probability_interval": [
+          0.4841990518974206,
+          0.5076253924300209
+        ],
+        "response_interval": [
+          -0.7304700596641179,
+          -0.6972940051618736
+        ],
+        "response_midpoint": -0.7138820324129957,
+        "response_halfwidth": 0.016588027251122184,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.005789060762818599
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 16384,
+        "zeros": 8101,
+        "probability_interval": [
+          0.4827351033131084,
+          0.5061607837589335
+        ],
+        "response_interval": [
+          -0.38136746316232206,
+          -0.3486383283630864
+        ],
+        "response_midpoint": -0.3650028957627042,
+        "response_halfwidth": 0.016364567399617835,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.007757043893566018
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 16384,
+        "zeros": 8172,
+        "probability_interval": [
+          0.4870662416608559,
+          0.5104932939591712
+        ],
+        "response_interval": [
+          -0.7070101020039496,
+          -0.6747190656550952
+        ],
+        "response_midpoint": -0.6908645838295224,
+        "response_halfwidth": 0.01614551817442722,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0016819411962366582
+      }
+    ],
+    "maximum_response_halfwidth": 0.016588027251122184,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 12,
+    "maximum_response_midpoint_error": 0.09086598477112073
+  },
+  {
+    "scenario": "high_noise",
+    "shots_per_query": 16384,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 16384,
+        "zeros": 9457,
+        "probability_interval": [
+          0.5656062356734327,
+          0.5887531337275111
+        ],
+        "response_interval": [
+          -0.5705010789271946,
+          -0.5401016317018379
+        ],
+        "response_midpoint": -0.5553013553145163,
+        "response_halfwidth": 0.01519972361267835,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.36615215193288403
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 16384,
+        "zeros": 8838,
+        "probability_interval": [
+          0.5277363153375021,
+          0.5510906837899388
+        ],
+        "response_interval": [
+          -0.3373583236547959,
+          -0.3055079366738187
+        ],
+        "response_midpoint": -0.3214331301643073,
+        "response_halfwidth": 0.0159251934904886,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.20799395912452645
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 16384,
+        "zeros": 8961,
+        "probability_interval": [
+          0.5352559480149577,
+          0.5585799068105799
+        ],
+        "response_interval": [
+          -0.34655606198588607,
+          -0.3151747658222639
+        ],
+        "response_midpoint": -0.330865413904075,
+        "response_halfwidth": 0.015690648081811087,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.21295608693070095
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 16384,
+        "zeros": 9384,
+        "probability_interval": [
+          0.561136599455869,
+          0.5843150753926449
+        ],
+        "response_interval": [
+          -0.6215121851930266,
+          -0.5886871530507963
+        ],
+        "response_midpoint": -0.6050996691219115,
+        "response_halfwidth": 0.016412516071115157,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.3956120069583522
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 16384,
+        "zeros": 8781,
+        "probability_interval": [
+          0.5242525094617569,
+          0.5476191662666844
+        ],
+        "response_interval": [
+          -0.3233615159926677,
+          -0.29071484593565144
+        ],
+        "response_midpoint": -0.3070381809641596,
+        "response_halfwidth": 0.016323335028508135,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.19777857354433304
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 16384,
+        "zeros": 9409,
+        "probability_interval": [
+          0.5626671887528343,
+          0.5858350664278122
+        ],
+        "response_interval": [
+          -0.6028043786603242,
+          -0.5708705796231178
+        ],
+        "response_midpoint": -0.586837479141721,
+        "response_halfwidth": 0.015966899518603195,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.3847997577133656
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 16384,
+        "zeros": 8279,
+        "probability_interval": [
+          0.4935951078322465,
+          0.5170209122198379
+        ],
+        "response_interval": [
+          -0.6650752406715515,
+          -0.6343094982153334
+        ],
+        "response_midpoint": -0.6496923694434424,
+        "response_halfwidth": 0.015382871228109052,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.03210162821175211
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 16384,
+        "zeros": 8266,
+        "probability_interval": [
+          0.4928017747407922,
+          0.5162279434646264
+        ],
+        "response_interval": [
+          -0.38500160029804775,
+          -0.35305329303144983
+        ],
+        "response_midpoint": -0.3690274466647488,
+        "response_halfwidth": 0.01597415363329896,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.009090489205299424
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 16384,
+        "zeros": 8198,
+        "probability_interval": [
+          0.48865251182791497,
+          0.5120796274860797
+        ],
+        "response_interval": [
+          -0.4092588066632844,
+          -0.37773871776369805
+        ],
+        "response_midpoint": -0.3934987622134912,
+        "response_halfwidth": 0.015760044449793176,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.01680614119248347
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 16384,
+        "zeros": 8127,
+        "probability_interval": [
+          0.4843210521390462,
+          0.5077474386263612
+        ],
+        "response_interval": [
+          -0.7302972846350935,
+          -0.6971211650524275
+        ],
+        "response_midpoint": -0.7137092248437604,
+        "response_halfwidth": 0.016588059791332987,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.042427827120105954
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 16384,
+        "zeros": 8191,
+        "probability_interval": [
+          0.48822542751527587,
+          0.5116525492657251
+        ],
+        "response_interval": [
+          -0.3736966695083316,
+          -0.3409655209937017
+        ],
+        "response_midpoint": -0.35733109525101664,
+        "response_halfwidth": 0.01636557425731494,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.013471996995526536
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 16384,
+        "zeros": 8227,
+        "probability_interval": [
+          0.4904219519856451,
+          0.5138488606792702
+        ],
+        "response_interval": [
+          -0.7023847072810383,
+          -0.6700938688719082
+        ],
+        "response_midpoint": -0.6862392880764733,
+        "response_halfwidth": 0.016145419204565026,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.03375859478012189
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 16384,
+        "zeros": 8214,
+        "probability_interval": [
+          0.48962873657059,
+          0.5130557742473776
+        ],
+        "response_interval": [
+          -0.6702843833205232,
+          -0.6395170211522493
+        ],
+        "response_midpoint": -0.6549007022363862,
+        "response_halfwidth": 0.015383681084136958,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0017625943996917304
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 16384,
+        "zeros": 8195,
+        "probability_interval": [
+          0.488469474649536,
+          0.5118965950074617
+        ],
+        "response_interval": [
+          -0.39090993537913765,
+          -0.3589603302862193
+        ],
+        "response_midpoint": -0.3749351328326785,
+        "response_halfwidth": 0.015974802546459166,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00024964785223235975
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 16384,
+        "zeros": 8119,
+        "probability_interval": [
+          0.4838330553505526,
+          0.5072592496630066
+        ],
+        "response_interval": [
+          -0.41574316004381695,
+          -0.3842243107718115
+        ],
+        "response_midpoint": -0.39998373540781423,
+        "response_halfwidth": 0.015759424636002717,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.005992396004105172
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 16384,
+        "zeros": 8276,
+        "probability_interval": [
+          0.4934120283536243,
+          0.5168379220415467
+        ],
+        "response_interval": [
+          -0.7174227717783483,
+          -0.6842473500912621
+        ],
+        "response_midpoint": -0.7008350609348053,
+        "response_halfwidth": 0.016587710843543102,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.007257910715371851
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 16384,
+        "zeros": 8119,
+        "probability_interval": [
+          0.4838330553505526,
+          0.5072592496630066
+        ],
+        "response_interval": [
+          -0.3798334620339574,
+          -0.34710360928715955
+        ],
+        "response_midpoint": -0.3634685356605585,
+        "response_halfwidth": 0.016364926373398925,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.006222683791420269
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 16384,
+        "zeros": 8192,
+        "probability_interval": [
+          0.4882864390377434,
+          0.5117135609622566
+        ],
+        "response_interval": [
+          -0.7053282242607268,
+          -0.6730370919415363
+        ],
+        "response_midpoint": -0.6891826581011316,
+        "response_halfwidth": 0.01614556615959528,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 1.546784578199123e-08
+      }
+    ],
+    "maximum_response_halfwidth": 0.016588059791332987,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 8,
+    "maximum_response_midpoint_error": 0.3956120069583522
+  },
+  {
+    "scenario": "readout_only",
+    "shots_per_query": 16384,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 16384,
+        "zeros": 13885,
+        "probability_interval": [
+          0.8389069774603471,
+          0.8557708280790477
+        ],
+        "response_interval": [
+          -0.21156782328354007,
+          -0.18942007218091828
+        ],
+        "response_midpoint": -0.20049394773222917,
+        "response_halfwidth": 0.011073875551310897,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.011344744350596903
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 16384,
+        "zeros": 11285,
+        "probability_interval": [
+          0.6778599289594149,
+          0.6995578450399856
+        ],
+        "response_interval": [
+          -0.13262167241207035,
+          -0.10303033384710725
+        ],
+        "response_midpoint": -0.1178260031295888,
+        "response_halfwidth": 0.01479566928248155,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004386832089807932
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 16384,
+        "zeros": 11470,
+        "probability_interval": [
+          0.689258423131345,
+          0.7107336375437407
+        ],
+        "response_interval": [
+          -0.13935293133787174,
+          -0.1104590343130164
+        ],
+        "response_midpoint": -0.12490598282544407,
+        "response_halfwidth": 0.01444694851242767,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.006996655852070044
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 16384,
+        "zeros": 13910,
+        "probability_interval": [
+          0.8404668615558153,
+          0.8572615171836584
+        ],
+        "response_interval": [
+          -0.22592859045026792,
+          -0.20214423498594059
+        ],
+        "response_midpoint": -0.21403641271810425,
+        "response_halfwidth": 0.011892177732163667,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004548750554544956
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 16384,
+        "zeros": 11008,
+        "probability_interval": [
+          0.6608069579399285,
+          0.6828103954442313
+        ],
+        "response_interval": [
+          -0.13257478678694745,
+          -0.10183273539636639
+        ],
+        "response_midpoint": -0.11720376109165692,
+        "response_halfwidth": 0.01537102569529053,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.007944153671830365
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 16384,
+        "zeros": 13842,
+        "probability_interval": [
+          0.8362246590090704,
+          0.853206160299398
+        ],
+        "response_interval": [
+          -0.22574224967109613,
+          -0.2023355372754645
+        ],
+        "response_midpoint": -0.2140388934732803,
+        "response_halfwidth": 0.011703356197815817,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.012001172044924902
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 16384,
+        "zeros": 8646,
+        "probability_interval": [
+          0.5160036622991143,
+          0.5393948790066748
+        ],
+        "response_interval": [
+          -0.635645480047879,
+          -0.6049251625272739
+        ],
+        "response_midpoint": -0.6202853212875765,
+        "response_halfwidth": 0.015360158760302556,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0026945800558861865
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 16384,
+        "zeros": 8326,
+        "probability_interval": [
+          0.4964635575713765,
+          0.519887553771434
+        ],
+        "response_interval": [
+          -0.38000770802337813,
+          -0.34806236361673315
+        ],
+        "response_midpoint": -0.36403503582005564,
+        "response_halfwidth": 0.01597267220332249,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004098078360606272
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 16384,
+        "zeros": 8398,
+        "probability_interval": [
+          0.500858524489221,
+          0.5242782586134289
+        ],
+        "response_interval": [
+          -0.3928361872590149,
+          -0.36132602986828055
+        ],
+        "response_midpoint": -0.37708110856364774,
+        "response_halfwidth": 0.015755078695367186,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0003884875426399814
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 16384,
+        "zeros": 8717,
+        "probability_interval": [
+          0.520341546975619,
+          0.5437206428135014
+        ],
+        "response_interval": [
+          -0.6792855656586296,
+          -0.6461764184296199
+        ],
+        "response_midpoint": -0.6627309920441248,
+        "response_halfwidth": 0.016554573614504853,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.008550405679529693
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 16384,
+        "zeros": 8404,
+        "probability_interval": [
+          0.5012248124945988,
+          0.5246441099210396
+        ],
+        "response_interval": [
+          -0.3555346091028996,
+          -0.32281439232430964
+        ],
+        "response_midpoint": -0.3391745007136046,
+        "response_halfwidth": 0.01636010838929497,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0046845975418854935
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 16384,
+        "zeros": 8529,
+        "probability_interval": [
+          0.5088572398067581,
+          0.5322645849469974
+        ],
+        "response_interval": [
+          -0.6769741459542101,
+          -0.6447102732685288
+        ],
+        "response_midpoint": -0.6608422096113695,
+        "response_halfwidth": 0.016131936342840658,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.008361516315018136
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 16384,
+        "zeros": 8307,
+        "probability_interval": [
+          0.4953039251923035,
+          0.5187287449906546
+        ],
+        "response_interval": [
+          -0.6628310046173961,
+          -0.6320665552488555
+        ],
+        "response_midpoint": -0.6474487799331258,
+        "response_halfwidth": 0.015382224684270307,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.009214516702952147
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 16384,
+        "zeros": 8191,
+        "probability_interval": [
+          0.48822542751527587,
+          0.5116525492657251
+        ],
+        "response_interval": [
+          -0.391242763718453,
+          -0.3592931567264289
+        ],
+        "response_midpoint": -0.37526796022244097,
+        "response_halfwidth": 0.015974803496012047,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 8.31795375301203e-05
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 16384,
+        "zeros": 8164,
+        "probability_interval": [
+          0.4865781822055409,
+          0.5100051676625112
+        ],
+        "response_interval": [
+          -0.41204972019520647,
+          -0.3805298064752404
+        ],
+        "response_midpoint": -0.3962897633352234,
+        "response_halfwidth": 0.01575995685998305,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0022984239315143595
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 16384,
+        "zeros": 8202,
+        "probability_interval": [
+          0.488896563836003,
+          0.5123236683539865
+        ],
+        "response_interval": [
+          -0.7238175092206341,
+          -0.6906403727730183
+        ],
+        "response_midpoint": -0.7072289409968262,
+        "response_halfwidth": 0.016588568223807942,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0008640306533509445
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 16384,
+        "zeros": 8217,
+        "probability_interval": [
+          0.48981178367073513,
+          0.5132387968042224
+        ],
+        "response_interval": [
+          -0.3714802957055857,
+          -0.33874929894489103
+        ],
+        "response_midpoint": -0.3551147973252384,
+        "response_halfwidth": 0.016365498380347343,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.002131054543899835
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 16384,
+        "zeros": 8251,
+        "probability_interval": [
+          0.4918864269625597,
+          0.5153129429581271
+        ],
+        "response_interval": [
+          -0.7003661257664131,
+          -0.6680758286386654
+        ],
+        "response_midpoint": -0.6842209772025393,
+        "response_halfwidth": 0.016145148563873835,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004961665430746498
+      }
+    ],
+    "maximum_response_halfwidth": 0.016588568223807942,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 16,
+    "maximum_response_midpoint_error": 0.012001172044924902
+  },
+  {
+    "scenario": "ideal",
+    "shots_per_query": 65536,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 65536,
+        "zeros": 56114,
+        "probability_interval": [
+          0.8520901355832896,
+          0.860304591461756
+        ],
+        "response_interval": [
+          -0.19425402518041546,
+          -0.1834657581141741
+        ],
+        "response_midpoint": -0.18885989164729478,
+        "response_halfwidth": 0.005394133533120682,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.000289311734337494
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 65536,
+        "zeros": 45355,
+        "probability_interval": [
+          0.686642250136092,
+          0.6974455152623154
+        ],
+        "response_interval": [
+          -0.12064445587384232,
+          -0.1059111019992095
+        ],
+        "response_midpoint": -0.11327777893652591,
+        "response_halfwidth": 0.007366676937316408,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00016139210325495645
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 65536,
+        "zeros": 46212,
+        "probability_interval": [
+          0.6997839084355524,
+          0.7104549019035118
+        ],
+        "response_interval": [
+          -0.1251913829278659,
+          -0.11083406008604346
+        ],
+        "response_midpoint": -0.11801272150695469,
+        "response_halfwidth": 0.007178661420911225,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00010339453358065853
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 65536,
+        "zeros": 55858,
+        "probability_interval": [
+          0.8481384341703704,
+          0.8564445476334379
+        ],
+        "response_interval": [
+          -0.21506421704016487,
+          -0.20330121579082006
+        ],
+        "response_midpoint": -0.20918271641549246,
+        "response_halfwidth": 0.005881500624672409,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0003049457480668316
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 65536,
+        "zeros": 44455,
+        "probability_interval": [
+          0.6728466731555984,
+          0.68377791763596
+        ],
+        "response_interval": [
+          -0.1157535267535682,
+          -0.10048096402274198
+        ],
+        "response_midpoint": -0.10811724538815509,
+        "response_halfwidth": 0.007636281365413111,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001142362031671465
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 65536,
+        "zeros": 55893,
+        "probability_interval": [
+          0.8486786462080247,
+          0.8569723476481286
+        ],
+        "response_interval": [
+          -0.20857610566763052,
+          -0.19714435525965457
+        ],
+        "response_midpoint": -0.20286023046364254,
+        "response_halfwidth": 0.0057158752039879746,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0008225090352871334
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 65536,
+        "zeros": 34835,
+        "probability_interval": [
+          0.5256986933539831,
+          0.537375067071
+        ],
+        "response_interval": [
+          -0.6229127335601159,
+          -0.6075778361684779
+        ],
+        "response_midpoint": -0.6152452848642969,
+        "response_halfwidth": 0.007667448695818979,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0023454563673934725
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 65536,
+        "zeros": 33473,
+        "probability_interval": [
+          0.5049079415351163,
+          0.5166048795164027
+        ],
+        "response_interval": [
+          -0.36849136590482223,
+          -0.35253923249752417
+        ],
+        "response_midpoint": -0.3605152992011732,
+        "response_halfwidth": 0.007976066703649032,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0005783417417238312
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 65536,
+        "zeros": 33629,
+        "probability_interval": [
+          0.5072887482085403,
+          0.5189843566495973
+        ],
+        "response_interval": [
+          -0.38418462185785396,
+          -0.3684487274705145
+        ],
+        "response_midpoint": -0.3763166746641842,
+        "response_halfwidth": 0.007867947193669733,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00037594635682353106
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 65536,
+        "zeros": 34281,
+        "probability_interval": [
+          0.5172407344888261,
+          0.528927915505691
+        ],
+        "response_interval": [
+          -0.6836768927598438,
+          -0.6671256711188227
+        ],
+        "response_midpoint": -0.6754012819393332,
+        "response_halfwidth": 0.008275610820510537,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004119884215678771
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 65536,
+        "zeros": 33319,
+        "probability_interval": [
+          0.5025577879862044,
+          0.5142557785380188
+        ],
+        "response_interval": [
+          -0.3536722455036979,
+          -0.3373284252874209
+        ],
+        "response_midpoint": -0.3455003353955594,
+        "response_halfwidth": 0.008171910108138503,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001641237140069307
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 65536,
+        "zeros": 34514,
+        "probability_interval": [
+          0.5207977583078988,
+          0.5324808027531467
+        ],
+        "response_interval": [
+          -0.6605157493947664,
+          -0.6444122461437872
+        ],
+        "response_midpoint": -0.6524639977692768,
+        "response_halfwidth": 0.0080517516254896,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 1.669552707461719e-05
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 65536,
+        "zeros": 32785,
+        "probability_interval": [
+          0.4944095539794425,
+          0.5061091948969991
+        ],
+        "response_interval": [
+          -0.6640056065196348,
+          -0.6486401516842634
+        ],
+        "response_midpoint": -0.6563228791019491,
+        "response_halfwidth": 0.00768272741768572,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.000340417534128834
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 65536,
+        "zeros": 32806,
+        "probability_interval": [
+          0.49472996083928467,
+          0.5064295954727597
+        ],
+        "response_interval": [
+          -0.3823719649245457,
+          -0.3664161538577153
+        ],
+        "response_midpoint": -0.3743940593911305,
+        "response_halfwidth": 0.007977905533415208,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0007907212937803276
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 65536,
+        "zeros": 32845,
+        "probability_interval": [
+          0.495325008516137,
+          0.5070246187477419
+        ],
+        "response_interval": [
+          -0.4002812743087346,
+          -0.38453999569929675
+        ],
+        "response_midpoint": -0.3924106350040157,
+        "response_halfwidth": 0.00787063930471893,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0015807043996933778
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 65536,
+        "zeros": 32927,
+        "probability_interval": [
+          0.4965761613927619,
+          0.5082756663339388
+        ],
+        "response_interval": [
+          -0.7129417710000706,
+          -0.6963730963904952
+        ],
+        "response_midpoint": -0.7046574336952829,
+        "response_halfwidth": 0.008284337304787726,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0034355379548942633
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 65536,
+        "zeros": 32751,
+        "probability_interval": [
+          0.49389080510300093,
+          0.5055904460205576
+        ],
+        "response_interval": [
+          -0.3657813004249858,
+          -0.34943517440406113
+        ],
+        "response_midpoint": -0.35760823741452347,
+        "response_halfwidth": 0.008173063010462334,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0003623855453852576
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 65536,
+        "zeros": 32583,
+        "probability_interval": [
+          0.49132766768021785,
+          0.5030271239585296
+        ],
+        "response_interval": [
+          -0.7011363001812991,
+          -0.6850101754288496
+        ],
+        "response_midpoint": -0.6930732378050743,
+        "response_halfwidth": 0.008063062376224783,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00389059517178858
+      }
+    ],
+    "maximum_response_halfwidth": 0.008284337304787726,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 18,
+    "maximum_response_midpoint_error": 0.004119884215678771
+  },
+  {
+    "scenario": "optimistic",
+    "shots_per_query": 65536,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 65536,
+        "zeros": 56106,
+        "probability_interval": [
+          0.8519666294744082,
+          0.860183980533846
+        ],
+        "response_interval": [
+          -0.19441622909344858,
+          -0.18362415970773682
+        ],
+        "response_midpoint": -0.1890201944005927,
+        "response_halfwidth": 0.005396034692855878,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00012900898103956893
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 65536,
+        "zeros": 45521,
+        "probability_interval": [
+          0.6891873733216529,
+          0.6999658220356522
+        ],
+        "response_interval": [
+          -0.11717344964477361,
+          -0.10247394007359212
+        ],
+        "response_midpoint": -0.10982369485918286,
+        "response_halfwidth": 0.007349754785590745,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0036154761805980012
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 65536,
+        "zeros": 46143,
+        "probability_interval": [
+          0.6987256362162908,
+          0.7094076640950535
+        ],
+        "response_interval": [
+          -0.12661523872461922,
+          -0.11224306959892005
+        ],
+        "response_midpoint": -0.11942915416176964,
+        "response_halfwidth": 0.007186084562849582,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001519827188395606
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 65536,
+        "zeros": 55850,
+        "probability_interval": [
+          0.8480149597554909,
+          0.8563239050074503
+        ],
+        "response_interval": [
+          -0.21523907977265067,
+          -0.20347206818364216
+        ],
+        "response_midpoint": -0.20935557397814641,
+        "response_halfwidth": 0.005883505794504251,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00013208818541288192
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 65536,
+        "zeros": 44238,
+        "probability_interval": [
+          0.6695212220567769,
+          0.6804816921596359
+        ],
+        "response_interval": [
+          -0.12039967300034649,
+          -0.10508627775921064
+        ],
+        "response_midpoint": -0.11274297537977856,
+        "response_halfwidth": 0.0076566976205679205,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003483367959952008
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 65536,
+        "zeros": 55923,
+        "probability_interval": [
+          0.8491417000087744,
+          0.8574247327474928
+        ],
+        "response_interval": [
+          -0.20793784836914142,
+          -0.19652080332912436
+        ],
+        "response_midpoint": -0.2022293258491329,
+        "response_halfwidth": 0.00570852252000853,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0001916044207774803
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 65536,
+        "zeros": 34874,
+        "probability_interval": [
+          0.5262941724635714,
+          0.5379696589119602
+        ],
+        "response_interval": [
+          -0.622130674740682,
+          -0.6067969426229295
+        ],
+        "response_midpoint": -0.6144638086818057,
+        "response_halfwidth": 0.007666866058876232,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003126932549884609
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 65536,
+        "zeros": 33499,
+        "probability_interval": [
+          0.5053047334449237,
+          0.5170014682410532
+        ],
+        "response_interval": [
+          -0.3679502262073808,
+          -0.35199836990138345
+        ],
+        "response_midpoint": -0.35997429805438214,
+        "response_halfwidth": 0.00797592815299869,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 3.7340594932766535e-05
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 65536,
+        "zeros": 33517,
+        "probability_interval": [
+          0.5055794376924649,
+          0.5172760275096682
+        ],
+        "response_interval": [
+          -0.38648441924690713,
+          -0.37074720446384224
+        ],
+        "response_midpoint": -0.3786158118553747,
+        "response_halfwidth": 0.007868607391532445,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001923190834366928
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 65536,
+        "zeros": 34449,
+        "probability_interval": [
+          0.5198054257062708,
+          0.5314896837698282
+        ],
+        "response_interval": [
+          -0.6800448130718975,
+          -0.6634977308763054
+        ],
+        "response_midpoint": -0.6717712719741014,
+        "response_halfwidth": 0.008273541097796044,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0004898742504468867
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 65536,
+        "zeros": 33476,
+        "probability_interval": [
+          0.5049537250291787,
+          0.5166506399417035
+        ],
+        "response_interval": [
+          -0.3503247676521436,
+          -0.3339824502627915
+        ],
+        "response_midpoint": -0.34215360895746755,
+        "response_halfwidth": 0.00817115869467605,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0017054892980225556
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 65536,
+        "zeros": 34591,
+        "probability_interval": [
+          0.5219733206467684,
+          0.5336548676763009
+        ],
+        "response_interval": [
+          -0.658895395039835,
+          -0.6427939557747417
+        ],
+        "response_midpoint": -0.6508446754072883,
+        "response_halfwidth": 0.00805071963254661,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0016360178890630905
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 65536,
+        "zeros": 32907,
+        "probability_interval": [
+          0.49627099878121306,
+          0.5079705361496806
+        ],
+        "response_interval": [
+          -0.6615609207184473,
+          -0.6461956018768952
+        ],
+        "response_midpoint": -0.6538782612976712,
+        "response_halfwidth": 0.007682659420776061,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.002785035338406683
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 65536,
+        "zeros": 32898,
+        "probability_interval": [
+          0.49613367631605393,
+          0.507833226856723
+        ],
+        "response_interval": [
+          -0.38045759583178507,
+          -0.3645018994496406
+        ],
+        "response_midpoint": -0.37247974764071284,
+        "response_halfwidth": 0.007977848191072223,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.002705033044198002
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 65536,
+        "zeros": 32784,
+        "probability_interval": [
+          0.4943942965697741,
+          0.5060939376668762
+        ],
+        "response_interval": [
+          -0.4015335037217499,
+          -0.3857921835842286
+        ],
+        "response_midpoint": -0.39366284365298926,
+        "response_halfwidth": 0.007870660068760638,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00032849575071980386
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 65536,
+        "zeros": 32994,
+        "probability_interval": [
+          0.4975984719992375,
+          0.5092978365934184
+        ],
+        "response_interval": [
+          -0.7114939890747862,
+          -0.6949255132226557
+        ],
+        "response_midpoint": -0.703209751148721,
+        "response_halfwidth": 0.008284237926065252,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004883220501456176
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 65536,
+        "zeros": 32809,
+        "probability_interval": [
+          0.4947757334437013,
+          0.5064753667877147
+        ],
+        "response_interval": [
+          -0.3645449248576922,
+          -0.34819880941812587
+        ],
+        "response_midpoint": -0.356371867137909,
+        "response_halfwidth": 0.008173057719783161,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0008739847312291826
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 65536,
+        "zeros": 32576,
+        "probability_interval": [
+          0.49122087362015643,
+          0.5029203155400555
+        ],
+        "response_interval": [
+          -0.7012835014096642,
+          -0.6851573964483526
+        ],
+        "response_midpoint": -0.6932204489290084,
+        "response_halfwidth": 0.008063052480655808,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00403780629572259
+      }
+    ],
+    "maximum_response_halfwidth": 0.008284237926065252,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 18,
+    "maximum_response_midpoint_error": 0.004883220501456176
+  },
+  {
+    "scenario": "low_noise",
+    "shots_per_query": 65536,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 65536,
+        "zeros": 55717,
+        "probability_interval": [
+          0.8459623394959661,
+          0.8543180794446926
+        ],
+        "response_interval": [
+          -0.20230182550895726,
+          -0.1913280062521967
+        ],
+        "response_midpoint": -0.19681491588057698,
+        "response_halfwidth": 0.0054869096283802765,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.00766571249894471
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 65536,
+        "zeros": 45054,
+        "probability_interval": [
+          0.6820277828142616,
+          0.6928750764341141
+        ],
+        "response_interval": [
+          -0.12693760699076062,
+          -0.11214420762343402
+        ],
+        "response_midpoint": -0.11954090730709732,
+        "response_halfwidth": 0.007396699683663299,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.006101736267316457
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 65536,
+        "zeros": 45908,
+        "probability_interval": [
+          0.695121630566876,
+          0.7058407297837264
+        ],
+        "response_interval": [
+          -0.13146425983851695,
+          -0.11704221296050721
+        ],
+        "response_midpoint": -0.12425323639951208,
+        "response_halfwidth": 0.007211023439004871,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00634390942613805
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 65536,
+        "zeros": 55402,
+        "probability_interval": [
+          0.8411019180544929,
+          0.8495663922304303
+        ],
+        "response_interval": [
+          -0.22502923235450334,
+          -0.213041962887343
+        ],
+        "response_midpoint": -0.21903559762092317,
+        "response_halfwidth": 0.0059936347335801665,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.009547935457363876
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 65536,
+        "zeros": 44129,
+        "probability_interval": [
+          0.6678509519351485,
+          0.6788258666701115
+        ],
+        "response_interval": [
+          -0.12273328700521324,
+          -0.10739971048002261
+        ],
+        "response_midpoint": -0.11506649874261793,
+        "response_halfwidth": 0.007666788262595314,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0058068913227913715
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 65536,
+        "zeros": 55703,
+        "probability_interval": [
+          0.8457462896748758,
+          0.8541069244404513
+        ],
+        "response_interval": [
+          -0.2126179642076622,
+          -0.2010939552253579
+        ],
+        "response_midpoint": -0.20685595971651005,
+        "response_halfwidth": 0.005762004491152162,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0048182382881546415
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 65536,
+        "zeros": 34526,
+        "probability_interval": [
+          0.5209809606969684,
+          0.5326637760412876
+        ],
+        "response_interval": [
+          -0.6291086594502803,
+          -0.6137653020952917
+        ],
+        "response_midpoint": -0.621436980772786,
+        "response_halfwidth": 0.007671678677494298,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003846239541095642
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 65536,
+        "zeros": 33596,
+        "probability_interval": [
+          0.5067851049757581,
+          0.518481016769464
+        ],
+        "response_interval": [
+          -0.3659313145751213,
+          -0.3499805806692322
+        ],
+        "response_midpoint": -0.35795594762217675,
+        "response_halfwidth": 0.00797536695294454,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001981009837272618
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 65536,
+        "zeros": 33542,
+        "probability_interval": [
+          0.5059609742963216,
+          0.5176573569004687
+        ],
+        "response_interval": [
+          -0.3859710795832676,
+          -0.3702341435956825
+        ],
+        "response_midpoint": -0.37810261158947506,
+        "response_halfwidth": 0.007868467993792538,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0014099905684673009
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 65536,
+        "zeros": 34327,
+        "probability_interval": [
+          0.5179429560493274,
+          0.5296293673747396
+        ],
+        "response_interval": [
+          -0.6826824164466774,
+          -0.6661322848318832
+        ],
+        "response_midpoint": -0.6744073506392803,
+        "response_halfwidth": 0.008275065807397064,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003125952915625785
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 65536,
+        "zeros": 33557,
+        "probability_interval": [
+          0.5061898978922204,
+          0.5178861529013614
+        ],
+        "response_interval": [
+          -0.3485976516196675,
+          -0.33225625621278876
+        ],
+        "response_midpoint": -0.3404269539162281,
+        "response_halfwidth": 0.008170697703439367,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0034321443392619777
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 65536,
+        "zeros": 34486,
+        "probability_interval": [
+          0.5203702891264992,
+          0.5320538620210438
+        ],
+        "response_interval": [
+          -0.661104958088153,
+          -0.6450007264409918
+        ],
+        "response_midpoint": -0.6530528422645724,
+        "response_halfwidth": 0.008052115823580563,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0005721489682209979
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 65536,
+        "zeros": 32760,
+        "probability_interval": [
+          0.494028120369972,
+          0.5057277625117031
+        ],
+        "response_interval": [
+          -0.664506553594875,
+          -0.6491410971517622
+        ],
+        "response_midpoint": -0.6568238253733185,
+        "response_halfwidth": 0.007682728221556412,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00016052873724059502
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 65536,
+        "zeros": 32844,
+        "probability_interval": [
+          0.49530975078002176,
+          0.5070093618440661
+        ],
+        "response_interval": [
+          -0.3815812548688333,
+          -0.36562547594568895
+        ],
+        "response_midpoint": -0.37360336540726113,
+        "response_halfwidth": 0.007977889461572185,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0015814152776497115
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 65536,
+        "zeros": 32803,
+        "probability_interval": [
+          0.49468418828383515,
+          0.5063838241088363
+        ],
+        "response_interval": [
+          -0.40114346797292855,
+          -0.3854021549287725
+        ],
+        "response_midpoint": -0.3932728114508505,
+        "response_halfwidth": 0.007870656522078023,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0007185279528585387
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 65536,
+        "zeros": 32714,
+        "probability_interval": [
+          0.49332629141332357,
+          0.5050259180379838
+        ],
+        "response_interval": [
+          -0.7175441912292573,
+          -0.7009753442932415
+        ],
+        "response_midpoint": -0.7092597677612493,
+        "response_halfwidth": 0.008284423468007895,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001166796111072177
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 65536,
+        "zeros": 32811,
+        "probability_interval": [
+          0.4948062485405166,
+          0.5065058809704803
+        ],
+        "response_interval": [
+          -0.3645022907613469,
+          -0.348156176598843
+        ],
+        "response_midpoint": -0.35632923368009495,
+        "response_halfwidth": 0.008173057081251933,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0009166181890432612
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 65536,
+        "zeros": 32719,
+        "probability_interval": [
+          0.4934025766118003,
+          0.5051022060384571
+        ],
+        "response_interval": [
+          -0.6982763176757276,
+          -0.6821499542616045
+        ],
+        "response_midpoint": -0.6902131359686661,
+        "response_halfwidth": 0.00806318170706155,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0010304933353803003
+      }
+    ],
+    "maximum_response_halfwidth": 0.008284423468007895,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 16,
+    "maximum_response_midpoint_error": 0.009547935457363876
+  },
+  {
+    "scenario": "moderate_noise",
+    "shots_per_query": 65536,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 65536,
+        "zeros": 52491,
+        "probability_interval": [
+          0.7962470127546077,
+          0.8055932009963971
+        ],
+        "response_interval": [
+          -0.2675943086760051,
+          -0.2553197068891595
+        ],
+        "response_midpoint": -0.2614570077825823,
+        "response_halfwidth": 0.006137300893422792,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.07230780440095003
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 65536,
+        "zeros": 43300,
+        "probability_interval": [
+          0.6551502466882471,
+          0.6662299364005136
+        ],
+        "response_interval": [
+          -0.16359284468011215,
+          -0.14848250651431927
+        ],
+        "response_midpoint": -0.1560376755972157,
+        "response_halfwidth": 0.00755516908289644,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.042598504557434844
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 65536,
+        "zeros": 43940,
+        "probability_interval": [
+          0.6649549809729616,
+          0.6759545709237739
+        ],
+        "response_interval": [
+          -0.17205207657520782,
+          -0.15725264252760385
+        ],
+        "response_midpoint": -0.16465235955140584,
+        "response_halfwidth": 0.007399717023801988,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.04674303257803181
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 65536,
+        "zeros": 52098,
+        "probability_interval": [
+          0.7901988940667897,
+          0.799649068219401
+        ],
+        "response_interval": [
+          -0.29711738012965405,
+          -0.28373417619703667
+        ],
+        "response_midpoint": -0.29042577816334536,
+        "response_halfwidth": 0.006691601966308691,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.08093811599978606
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 65536,
+        "zeros": 42517,
+        "probability_interval": [
+          0.6431583318610078,
+          0.6543288889612844
+        ],
+        "response_interval": [
+          -0.15723252355127038,
+          -0.14162560575167793
+        ],
+        "response_midpoint": -0.14942906465147415,
+        "response_halfwidth": 0.007803458899796223,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.040169457231647596
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 65536,
+        "zeros": 52041,
+        "probability_interval": [
+          0.7893218197926554,
+          0.798786808300515
+        ],
+        "response_interval": [
+          -0.290391496478414,
+          -0.2773452846009272
+        ],
+        "response_midpoint": -0.2838683905396706,
+        "response_halfwidth": 0.00652310593874339,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.0818306691113152
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 65536,
+        "zeros": 34272,
+        "probability_interval": [
+          0.5171033446649216,
+          0.5287906735716368
+        ],
+        "response_interval": [
+          -0.6342012374558086,
+          -0.6188519523172553
+        ],
+        "response_midpoint": -0.626526594886532,
+        "response_halfwidth": 0.007674642569276635,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.008935853654841619
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 65536,
+        "zeros": 33461,
+        "probability_interval": [
+          0.50472480804888,
+          0.5164218373251968
+        ],
+        "response_interval": [
+          -0.3687411209952962,
+          -0.3527888630810113
+        ],
+        "response_midpoint": -0.36076499203815376,
+        "response_halfwidth": 0.007976128957142448,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0008280345787043952
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 65536,
+        "zeros": 33446,
+        "probability_interval": [
+          0.5044958922935767,
+          0.5161930334836946
+        ],
+        "response_interval": [
+          -0.38794227892532607,
+          -0.37220432229578115
+        ],
+        "response_midpoint": -0.3800733006105536,
+        "response_halfwidth": 0.007868978314772457,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003380679589545854
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 65536,
+        "zeros": 34247,
+        "probability_interval": [
+          0.5167217085847755,
+          0.5284094436574356
+        ],
+        "response_interval": [
+          -0.6844119299568356,
+          -0.6678599236697776
+        ],
+        "response_midpoint": -0.6761359268133067,
+        "response_halfwidth": 0.008276003143528998,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.004854529089652226
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 65536,
+        "zeros": 33468,
+        "probability_interval": [
+          0.5048316358205731,
+          0.5165286120320118
+        ],
+        "response_interval": [
+          -0.3504953443051986,
+          -0.33415294127221173
+        ],
+        "response_midpoint": -0.34232414278870515,
+        "response_halfwidth": 0.00817120151649342,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0015349554667849485
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 65536,
+        "zeros": 34410,
+        "probability_interval": [
+          0.5192100372232977,
+          0.5308950013017836
+        ],
+        "response_interval": [
+          -0.6627042090695835,
+          -0.6465980598627293
+        ],
+        "response_midpoint": -0.6546511344661564,
+        "response_halfwidth": 0.00805307460342708,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0021704411698050263
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 65536,
+        "zeros": 32753,
+        "probability_interval": [
+          0.4939213195686866,
+          0.5056209608344543
+        ],
+        "response_interval": [
+          -0.664646817975645,
+          -0.6492813626829587
+        ],
+        "response_midpoint": -0.6569640903293018,
+        "response_halfwidth": 0.007682727646343146,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0003007936932238886
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 65536,
+        "zeros": 32846,
+        "probability_interval": [
+          0.49534026625769084,
+          0.5070398756459766
+        ],
+        "response_interval": [
+          -0.38153963825331016,
+          -0.3655838616155438
+        ],
+        "response_midpoint": -0.373561749934427,
+        "response_halfwidth": 0.007977888318883186,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001623030750483867
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 65536,
+        "zeros": 32788,
+        "probability_interval": [
+          0.49445532624108846,
+          0.5061549665547225
+        ],
+        "response_interval": [
+          -0.4014513911521357,
+          -0.385710072068734
+        ],
+        "response_midpoint": -0.39358073161043483,
+        "response_halfwidth": 0.007870659541700853,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00041060779327423136
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 65536,
+        "zeros": 32801,
+        "probability_interval": [
+          0.49465367327407317,
+          0.5063533098390194
+        ],
+        "response_interval": [
+          -0.7156643716775762,
+          -0.699095510664267
+        ],
+        "response_midpoint": -0.7073799411709216,
+        "response_halfwidth": 0.008284430506654616,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0007130304792555275
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 65536,
+        "zeros": 32798,
+        "probability_interval": [
+          0.49460790080023476,
+          0.5063075383934839
+        ],
+        "response_interval": [
+          -0.3647794118440758,
+          -0.3484332904676998
+        ],
+        "response_midpoint": -0.3566063511558878,
+        "response_halfwidth": 0.008173060688188016,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0006395007132504182
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 65536,
+        "zeros": 32731,
+        "probability_interval": [
+          0.49358566164310685,
+          0.5052852966846398
+        ],
+        "response_interval": [
+          -0.6980239596186589,
+          -0.6818975884651852
+        ],
+        "response_midpoint": -0.689960774041922,
+        "response_halfwidth": 0.008063185576736853,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0007781314086362512
+      }
+    ],
+    "maximum_response_halfwidth": 0.008284430506654616,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 11,
+    "maximum_response_midpoint_error": 0.0818306691113152
+  },
+  {
+    "scenario": "high_noise",
+    "shots_per_query": 65536,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 65536,
+        "zeros": 37741,
+        "probability_interval": [
+          0.5700924993630176,
+          0.5816568040011383
+        ],
+        "response_interval": [
+          -0.5646091474920647,
+          -0.5494214334526644
+        ],
+        "response_midpoint": -0.5570152904723645,
+        "response_halfwidth": 0.007593857019700168,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.36786608709073226
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 65536,
+        "zeros": 35415,
+        "probability_interval": [
+          0.5345553963423704,
+          0.5462168551365902
+        ],
+        "response_interval": [
+          -0.32805854878389695,
+          -0.3121548014350848
+        ],
+        "response_midpoint": -0.32010667510949087,
+        "response_halfwidth": 0.007951873674406085,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.20666750406971002
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 65536,
+        "zeros": 35864,
+        "probability_interval": [
+          0.5414129750141922,
+          0.553060349702506
+        ],
+        "response_interval": [
+          -0.3382720699996431,
+          -0.32260107187168996
+        ],
+        "response_midpoint": -0.33043657093566653,
+        "response_halfwidth": 0.00783549906397657,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.2125272439622925
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 65536,
+        "zeros": 37803,
+        "probability_interval": [
+          0.5710401612099198,
+          0.5826010498091931
+        ],
+        "response_interval": [
+          -0.6074869001058614,
+          -0.5911145320131957
+        ],
+        "response_midpoint": -0.5993007160595285,
+        "response_halfwidth": 0.008186184046332812,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.3898130538959692
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 65536,
+        "zeros": 34983,
+        "probability_interval": [
+          0.527958504395957,
+          0.5396314227128924
+        ],
+        "response_interval": [
+          -0.3181836938138316,
+          -0.30187490321204
+        ],
+        "response_midpoint": -0.3100292985129358,
+        "response_halfwidth": 0.00815439530089579,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.20076969109310927
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 65536,
+        "zeros": 37744,
+        "probability_interval": [
+          0.5701383534697283,
+          0.5817024938132229
+        ],
+        "response_interval": [
+          -0.5925063843429234,
+          -0.5765667743817551
+        ],
+        "response_midpoint": -0.5845365793623392,
+        "response_halfwidth": 0.007969804980584139,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.38249885793398375
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 65536,
+        "zeros": 33066,
+        "probability_interval": [
+          0.49869710166959436,
+          0.5103962609879505
+        ],
+        "response_interval": [
+          -0.6583746541808609,
+          -0.6430098318427445
+        ],
+        "response_midpoint": -0.6506922430118027,
+        "response_halfwidth": 0.007682411169058212,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.0331015017801124
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 65536,
+        "zeros": 32890,
+        "probability_interval": [
+          0.49601161227256196,
+          0.507711173781892
+        ],
+        "response_interval": [
+          -0.38062406520258396,
+          -0.36466835386152097
+        ],
+        "response_midpoint": -0.37264620953205246,
+        "response_halfwidth": 0.007977855670531497,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.012709252072603094
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 65536,
+        "zeros": 32973,
+        "probability_interval": [
+          0.49727804365872885,
+          0.5089774574983301
+        ],
+        "response_interval": [
+          -0.3976535568288383,
+          -0.38191254245566
+        ],
+        "response_midpoint": -0.38978304964224914,
+        "response_halfwidth": 0.00787050718658916,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.013090428621241379
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 65536,
+        "zeros": 33546,
+        "probability_interval": [
+          0.5060220204687629,
+          0.5177183692871725
+        ],
+        "response_interval": [
+          -0.699564678018355,
+          -0.6830004730655234
+        ],
+        "response_midpoint": -0.6912825755419392,
+        "response_halfwidth": 0.008282102476415809,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.0200011778182847
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 65536,
+        "zeros": 32932,
+        "probability_interval": [
+          0.4966524523857075,
+          0.5083519485399455
+        ],
+        "response_interval": [
+          -0.3619228713649345,
+          -0.345576947599743
+        ],
+        "response_midpoint": -0.35374990948233875,
+        "response_halfwidth": 0.008172961882595753,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.00989081122684865
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 65536,
+        "zeros": 33318,
+        "probability_interval": [
+          0.5025425276707455,
+          0.5142405242136894
+        ],
+        "response_interval": [
+          -0.6856781261442915,
+          -0.6695540134404436
+        ],
+        "response_midpoint": -0.6776160697923675,
+        "response_halfwidth": 0.008062056351923919,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.02513537649601616
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 65536,
+        "zeros": 32790,
+        "probability_interval": [
+          0.49448584110939264,
+          0.5061854809660009
+        ],
+        "response_interval": [
+          -0.6639054165686756,
+          -0.6485399631266765
+        ],
+        "response_midpoint": -0.6562226898476761,
+        "response_halfwidth": 0.0076827267209995664,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00044060678840185385
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 65536,
+        "zeros": 32718,
+        "probability_interval": [
+          0.49338731956122345,
+          0.505086948449245
+        ],
+        "response_interval": [
+          -0.3842030418115091,
+          -0.3682472385802542
+        ],
+        "response_midpoint": -0.37622514019588166,
+        "response_halfwidth": 0.007977901615627447,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001040359510970812
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 65536,
+        "zeros": 32722,
+        "probability_interval": [
+          0.49344834779617736,
+          0.5051479787734534
+        ],
+        "response_interval": [
+          -0.4028062335734862,
+          -0.3870649270517176
+        ],
+        "response_midpoint": -0.3949355803126019,
+        "response_halfwidth": 0.00787065326088432,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.000944240908892835
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 65536,
+        "zeros": 32589,
+        "probability_interval": [
+          0.49141920565818414,
+          0.503118673819307
+        ],
+        "response_interval": [
+          -0.7202449792957891,
+          -0.7036763567736098
+        ],
+        "response_midpoint": -0.7119606680346995,
+        "response_halfwidth": 0.008284311261089639,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0038676963845223344
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 65536,
+        "zeros": 32708,
+        "probability_interval": [
+          0.4932347493546937,
+          0.5049343722578681
+        ],
+        "response_interval": [
+          -0.3666979071836163,
+          -0.3503518063314438
+        ],
+        "response_midpoint": -0.35852485675753004,
+        "response_halfwidth": 0.008173050426086237,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0012790048883918326
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 65536,
+        "zeros": 32864,
+        "probability_interval": [
+          0.49561490653607426,
+          0.5073144988838254
+        ],
+        "response_interval": [
+          -0.695226918840112,
+          -0.6791006065342664
+        ],
+        "response_midpoint": -0.6871637626871892,
+        "response_halfwidth": 0.008063156152922801,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.002018879946096619
+      }
+    ],
+    "maximum_response_halfwidth": 0.008284311261089639,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 6,
+    "maximum_response_midpoint_error": 0.3898130538959692
+  },
+  {
+    "scenario": "readout_only",
+    "shots_per_query": 65536,
+    "family_failure_probability": 0.05,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "shots": 65536,
+        "zeros": 55555,
+        "probability_interval": [
+          0.8434625124310885,
+          0.8518745363659128
+        ],
+        "response_interval": [
+          -0.20558491600141626,
+          -0.19453717746350585
+        ],
+        "response_midpoint": -0.20006104673246106,
+        "response_halfwidth": 0.005523869268955206,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.010911843350828787
+      },
+      {
+        "label": "data-t0-0-1",
+        "shots": 65536,
+        "zeros": 45416,
+        "probability_interval": [
+          0.6875774840391045,
+          0.6983716742969224
+        ],
+        "response_interval": [
+          -0.1193689959191302,
+          -0.10464801823317926
+        ],
+        "response_midpoint": -0.11200850707615473,
+        "response_halfwidth": 0.007360488842975466,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.001430663963626136
+      },
+      {
+        "label": "data-t0-0-2",
+        "shots": 65536,
+        "zeros": 45937,
+        "probability_interval": [
+          0.6955663589791199,
+          0.7062809258782072
+        ],
+        "response_interval": [
+          -0.13086589855091169,
+          -0.11644994969456601
+        ],
+        "response_midpoint": -0.12365792412273885,
+        "response_halfwidth": 0.007207974428172836,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00574859714936482
+      },
+      {
+        "label": "data-t0-1-1",
+        "shots": 65536,
+        "zeros": 55452,
+        "probability_interval": [
+          0.8418733167697561,
+          0.8503207250595646
+        ],
+        "response_interval": [
+          -0.22393678832617048,
+          -0.21197368732730149
+        ],
+        "response_midpoint": -0.21795523782673598,
+        "response_halfwidth": 0.005981550499434496,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.008467575663176685
+      },
+      {
+        "label": "data-t0-1-2",
+        "shots": 65536,
+        "zeros": 44046,
+        "probability_interval": [
+          0.6665791474192113,
+          0.6775649561775092
+        ],
+        "response_interval": [
+          -0.12451018571842876,
+          -0.10916138863394376
+        ],
+        "response_midpoint": -0.11683578717618626,
+        "response_halfwidth": 0.0076743985422425,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.007576179756359699
+      },
+      {
+        "label": "data-t0-2-2",
+        "shots": 65536,
+        "zeros": 55406,
+        "probability_interval": [
+          0.841163628625123,
+          0.8496267401835111
+        ],
+        "response_interval": [
+          -0.21893454525455258,
+          -0.20726928581531978
+        ],
+        "response_midpoint": -0.21310191553493618,
+        "response_halfwidth": 0.0058326297196164,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": false,
+        "response_midpoint_error": 0.011064194106580771
+      },
+      {
+        "label": "data-t1-0-0",
+        "shots": 65536,
+        "zeros": 34573,
+        "probability_interval": [
+          0.5216985109642149,
+          0.5333804138430711
+        ],
+        "response_interval": [
+          -0.6281662812780631,
+          -0.6128241222886447
+        ],
+        "response_midpoint": -0.6204952017833538,
+        "response_halfwidth": 0.007671079494709188,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0029044605516634903
+      },
+      {
+        "label": "data-t1-0-1",
+        "shots": 65536,
+        "zeros": 33450,
+        "probability_interval": [
+          0.5045569363752165,
+          0.5162540479612047
+        ],
+        "response_interval": [
+          -0.3689700622222969,
+          -0.3530176920551419
+        ],
+        "response_midpoint": -0.3609938771387194,
+        "response_halfwidth": 0.007976185083577503,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0010569196792700186
+      },
+      {
+        "label": "data-t1-0-2",
+        "shots": 65536,
+        "zeros": 33587,
+        "probability_interval": [
+          0.5066477487597623,
+          0.518343741227392
+        ],
+        "response_interval": [
+          -0.3850470566494383,
+          -0.3693106455722983
+        ],
+        "response_midpoint": -0.3771788511108683,
+        "response_halfwidth": 0.007868205538569983,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.00048623008986053984
+      },
+      {
+        "label": "data-t1-1-1",
+        "shots": 65536,
+        "zeros": 34331,
+        "probability_interval": [
+          0.5180040193396132,
+          0.5296903626435414
+        ],
+        "response_interval": [
+          -0.6825959394724446,
+          -0.6660459041887208
+        ],
+        "response_midpoint": -0.6743209218305827,
+        "response_halfwidth": 0.008275017641861893,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003039524106928204
+      },
+      {
+        "label": "data-t1-1-2",
+        "shots": 65536,
+        "zeros": 33249,
+        "probability_interval": [
+          0.5014895790487299,
+          0.51318796269029
+        ],
+        "response_interval": [
+          -0.3551646911293097,
+          -0.3388203217086113
+        ],
+        "response_midpoint": -0.3469925064189605,
+        "response_halfwidth": 0.008172184710349195,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.003133408163470408
+      },
+      {
+        "label": "data-t1-2-2",
+        "shots": 65536,
+        "zeros": 34483,
+        "probability_interval": [
+          0.5203244891111164,
+          0.532008118117123
+        ],
+        "response_interval": [
+          -0.6611680872408382,
+          -0.6450637782515839
+        ],
+        "response_midpoint": -0.653115932746211,
+        "response_halfwidth": 0.00805215449462715,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0006352394498596592
+      },
+      {
+        "label": "data-t2-0-0",
+        "shots": 65536,
+        "zeros": 32735,
+        "probability_interval": [
+          0.4936466901609807,
+          0.5053463267259268
+        ],
+        "response_interval": [
+          -0.6650074962041741,
+          -0.6496420470852038
+        ],
+        "response_midpoint": -0.6573247716446889,
+        "response_halfwidth": 0.0076827245594851545,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0006614750086110233
+      },
+      {
+        "label": "data-t2-0-1",
+        "shots": 65536,
+        "zeros": 32941,
+        "probability_interval": [
+          0.4967897765157935,
+          0.5084892561679759
+        ],
+        "response_interval": [
+          -0.3795628148274278,
+          -0.3636072151220887
+        ],
+        "response_midpoint": -0.37158501497475827,
+        "response_halfwidth": 0.007977799852669554,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0035997657101525804
+      },
+      {
+        "label": "data-t2-0-2",
+        "shots": 65536,
+        "zeros": 32839,
+        "probability_interval": [
+          0.49523346218105985,
+          0.5069330772440752
+        ],
+        "response_interval": [
+          -0.40040444562278654,
+          -0.3846631605129117
+        ],
+        "response_midpoint": -0.39253380306784913,
+        "response_halfwidth": 0.007870642554937413,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0014575363358599325
+      },
+      {
+        "label": "data-t2-1-1",
+        "shots": 65536,
+        "zeros": 32911,
+        "probability_interval": [
+          0.49633203112941227,
+          0.5080315623606424
+        ],
+        "response_interval": [
+          -0.7132875048508727,
+          -0.696718793009693
+        ],
+        "response_midpoint": -0.7050031489302828,
+        "response_halfwidth": 0.008284355920589848,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0030898227198943307
+      },
+      {
+        "label": "data-t2-1-2",
+        "shots": 65536,
+        "zeros": 32801,
+        "probability_interval": [
+          0.49465367327407317,
+          0.5063533098390194
+        ],
+        "response_interval": [
+          -0.36471546093900753,
+          -0.3483693409993224
+        ],
+        "response_midpoint": -0.35654240096916495,
+        "response_halfwidth": 0.008173059969842578,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0007034508999732569
+      },
+      {
+        "label": "data-t2-2-2",
+        "shots": 65536,
+        "zeros": 32798,
+        "probability_interval": [
+          0.49460790080023476,
+          0.5063075383934839
+        ],
+        "response_interval": [
+          -0.6966149406196099,
+          -0.6804885659489393
+        ],
+        "response_midpoint": -0.6885517532842746,
+        "response_halfwidth": 0.008063187335335342,
+        "noisy_probability_covered": true,
+        "ideal_response_covered": true,
+        "response_midpoint_error": 0.0006308893490111211
+      }
+    ],
+    "maximum_response_halfwidth": 0.008284355920589848,
+    "noisy_probabilities_covered": 18,
+    "ideal_responses_covered": 15,
+    "maximum_response_midpoint_error": 0.011064194106580771
+  }
+]

@@ -1,0 +1,7 @@
+# Data and software provenance
+
+This temporal branch reuses Project Pulsar's fixed protein structural models, fitted Gaussian covariances, harmonic normalizations and reduced operators. Exact input hashes and the original operator hashes appear in `input-manifest.json`. The numerical model inputs and code derive from the preceding public `orbion-life/allosteric-response-benchmark` v0.6.0 evidence and the separately documented 2026-09-14 Gaussian reduction supplement.
+
+The existing release's structural-data attribution remains applicable: the upstream PDB structures and residue-mapping sources must be credited through the original input records. No ProteinGym/Faure/MaveDB outcome table, paper supplement, raw experimental assay or inferred functional label is introduced or redistributed by this temporal branch. The branch's tests concern fixed-model numerical response fidelity, not biological validation.
+
+Vendor copies preserve the original Gaussian contraction, finite-model and independent-check source bytes. Their source hashes are recorded before numerical execution. The public benchmark's MIT source license is included as `LICENSE` and applies to those existing copies; no third-party quantum or assay implementation was incorporated here. NumPy, SciPy, CuPy, Modal and Matplotlib remain dependencies governed by their own licenses; their binaries are not redistributed by this package.

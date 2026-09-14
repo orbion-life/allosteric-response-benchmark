@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-09-14T15:37:10.558365+00:00",
+  "inputs_verified": true,
+  "files": [
+    {
+      "file": "protocol.json",
+      "sha256": "cb664cbcc00b42c7802b46ae190b1b787d2e2c8ab02b0dee6bb8975c1ea190cd"
+    },
+    {
+      "file": "input-manifest.json",
+      "sha256": "3474a962b81567f1dbdac56ffdf761b198bdcddfc4bf7408beb219231c21c422"
+    },
+    {
+      "file": "campaign.py",
+      "sha256": "497b04438ed237886a7fdbfa29da53b1661ec57421866d6bb2fa9539dc79e352"
+    },
+    {
+      "file": "remote.py",
+      "sha256": "af7fc105869e07fc6af765d17f45fa0ec7346911a6965dd38b50bddaab67c2c2"
+    },
+    {
+      "file": "vendor/gaussian_protein.py",
+      "sha256": "d3af0a5a1612dbcfd009b8d51087fc7e4d7793859811e18fa0384e6e74318bac"
+    },
+    {
+      "file": "vendor/gaussian_kernel.py",
+      "sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+    },
+    {
+      "file": "vendor/fixed_adapter.py",
+      "sha256": "dafbd7466852595a0b8e41de67edda5726a3995739fa9df31bdb536fdbf6e6c5"
+    }
+  ]
+}

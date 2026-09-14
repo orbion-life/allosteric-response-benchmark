@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "all_assay_metrics_identical": true,
+  "fresh_bootstrap_and_prediction_files_equal": [
+    "KRAS-sequence_block10-bootstrap.npz",
+    "GRB2-per-site.csv",
+    "KRAS-site-bootstrap.npz",
+    "GRB2-sequence_block10-bootstrap.npz",
+    "KRAS-per-site.csv",
+    "KRAS-fold-models.json",
+    "GRB2-site-bootstrap.npz",
+    "GRB2-fold-models.json"
+  ],
+  "protocol_note": "Public copy removes only the internal administrative sentence and records both protocol hashes."
+}

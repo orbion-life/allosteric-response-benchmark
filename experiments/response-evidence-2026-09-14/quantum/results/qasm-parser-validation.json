@@ -1,0 +1,135 @@
+{
+  "parser": "openqasm3",
+  "version": "1.0.1",
+  "parsed": 25,
+  "total": 25,
+  "live_device_acceptance": false,
+  "scope": "OpenQASM3 grammar parse only; provider gate validation remains separate",
+  "files": [
+    {
+      "file": "calibration-after-state0.qasm",
+      "parsed": true,
+      "statements": 9
+    },
+    {
+      "file": "calibration-after-state1.qasm",
+      "parsed": true,
+      "statements": 9
+    },
+    {
+      "file": "calibration-before-state0.qasm",
+      "parsed": true,
+      "statements": 9
+    },
+    {
+      "file": "calibration-before-state1.qasm",
+      "parsed": true,
+      "statements": 9
+    },
+    {
+      "file": "control-t0-0-1.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "control-t0-0-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "control-t0-1-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t0-0-0.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t0-0-1.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t0-0-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t0-1-1.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t0-1-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t0-2-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t1-0-0.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t1-0-1.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t1-0-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t1-1-1.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t1-1-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t1-2-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t2-0-0.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t2-0-1.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t2-0-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t2-1-1.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t2-1-2.qasm",
+      "parsed": true,
+      "statements": 4
+    },
+    {
+      "file": "data-t2-2-2.qasm",
+      "parsed": true,
+      "statements": 4
+    }
+  ]
+}

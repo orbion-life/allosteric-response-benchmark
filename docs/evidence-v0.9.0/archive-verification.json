@@ -1,0 +1,58 @@
+[
+  {
+    "asset": "pulsar-incremental-biology-evidence.zip",
+    "status": "PASS",
+    "file_count": 36,
+    "all_member_hashes_verified": true,
+    "archive_bytes": 17849844,
+    "seconds": 0.04462079197401181
+  },
+  {
+    "asset": "pulsar-six-qubit-diagnostic-evidence.zip",
+    "status": "PASS",
+    "file_count": 121,
+    "all_member_hashes_verified": true,
+    "archive_bytes": 433819,
+    "seconds": 0.010787167004309595
+  },
+  {
+    "asset": "pulsar-temporal-kras-evidence.zip",
+    "status": "PASS",
+    "file_count": 38,
+    "all_member_hashes_verified": true,
+    "archive_bytes": 133402644,
+    "seconds": 0.6478224159800448
+  },
+  {
+    "asset": "pulsar-temporal-abl-evidence.zip",
+    "status": "PASS",
+    "file_count": 38,
+    "all_member_hashes_verified": true,
+    "archive_bytes": 317695710,
+    "seconds": 1.437157166947145
+  },
+  {
+    "asset": "pulsar-temporal-myc-evidence.zip",
+    "status": "PASS",
+    "file_count": 38,
+    "all_member_hashes_verified": true,
+    "archive_bytes": 121660940,
+    "seconds": 0.6050057079992257
+  },
+  {
+    "asset": "pulsar-temporal-myh7-evidence.zip",
+    "status": "PASS",
+    "file_count": 33,
+    "all_member_hashes_verified": true,
+    "archive_bytes": 1071627145,
+    "seconds": 2.7947762919939123
+  },
+  {
+    "asset": "pulsar-temporal-myh7-reference.zip",
+    "status": "PASS",
+    "file_count": 20,
+    "all_member_hashes_verified": true,
+    "archive_bytes": 1311417987,
+    "seconds": 8.103195667034015
+  }
+]

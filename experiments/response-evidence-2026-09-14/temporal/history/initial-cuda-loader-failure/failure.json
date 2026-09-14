@@ -1,0 +1,6 @@
+{
+  "stage": "Before first numerical kernel result",
+  "error": "ImportError: libcusolver.so.11 cannot open shared object file",
+  "action": "Manual infrastructure-only relaunch with explicit installed NVIDIA library paths. Frozen protocol unchanged.",
+  "recorded_utc": "2026-09-14T15:37:10.460347+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "release": "v0.9.0",
+  "scientific_results": "Preserved, including unfavorable results. Packaging updates only paths, excluded internal task text, removed provider IDs and default reference lookup.",
+  "modified_files": [
+    {
+      "path": "input-manifest.json",
+      "executed_sha256": "34df344e9218229715ad38621b3ee4adac01b14ed31ac4b6aa6fa704819f1d57",
+      "packaged_sha256": "3695b1a8cc51bffb2e65439753301abf4c44bdc600407224df9ea73280d612b9"
+    },
+    {
+      "path": "protocol-freeze.json",
+      "executed_sha256": "c4a23657b55b1dca12dd27ff59c23f7de7ec029193e036d950609b7f1464d714",
+      "packaged_sha256": "e225e9a884099d11c12d69c4264470cac5eb88119c4918e9a23107f13340ed58"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "executed_sha256": "c7b6dbdbb8a36ede9efa7e0b1b45d4c560468fbcb6141cd7216af9ccd477da91",
+      "packaged_sha256": "45d6ab5d1af9222ee0370831c45d02a601b04bcbfad5a5bd734b70af2b644529"
+    }
+  ],
+  "excluded": "Python caches, cloud launch/download wrappers, local logs, generated archives, internal prose and account-specific receipts. No publisher assay workbooks or literature PDFs included.",
+  "additional_dependency_note": "Dependency packages are installed from requirements.txt, not redistributed. Provider task identifiers and original local output paths are excluded. Generated replay receipts record the new path-independent checks."
+}

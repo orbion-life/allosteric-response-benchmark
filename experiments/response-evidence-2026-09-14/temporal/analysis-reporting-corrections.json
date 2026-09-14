@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-09-14T15:43:31.776158+00:00",
+  "changes": [
+    {
+      "file": "analyze.py",
+      "kind": "Mechanical serialization fix before saved analysis",
+      "detail": "sha now converts __file__ string to Path."
+    },
+    {
+      "file": "analyze.py",
+      "kind": "Reference consistency and reporting correction requested during independent review",
+      "detail": "Use the saved full Gaussian K(0) for reference subtraction so t=0 is exactly zero; separately aggregate only reference scores above the frozen 0.002 floor and fifth/sixth gaps. No fitting, basis, threshold, times, input data or model changed."
+    }
+  ],
+  "analysis_source_sha256": "50d937e10dd3dfdcbe75da628af44276c027b69817d54a0640d6225f96640180"
+}

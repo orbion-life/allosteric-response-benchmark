@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "native_qasm_independent_replays": 21,
+  "maximum_native_qasm_probability_difference": 7.771561172376096e-16,
+  "confidence_intervals_reconstructed": 216,
+  "input_sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+  "noise_channels_are_assumptions": true,
+  "hardware_execution": false,
+  "checks": [
+    {
+      "label": "data-t0-0-0",
+      "qasm_probability": 0.85597707434519,
+      "qpy_probability": 0.8559770743451892,
+      "difference": 7.771561172376096e-16
+    },
+    {
+      "label": "data-t0-0-1",
+      "qasm_probability": 0.6919255415736452,
+      "qpy_probability": 0.6919255415736452,
+      "difference": 0.0
+    },
+    {
+      "label": "data-t0-0-2",
+      "qasm_probability": 0.7051962525319948,
+      "qpy_probability": 0.7051962525319952,
+      "difference": 4.440892098500626e-16
+    },
+    {
+      "label": "data-t0-1-1",
+      "qasm_probability": 0.8520761620134811,
+      "qpy_probability": 0.8520761620134805,
+      "difference": 6.661338147750939e-16
+    },
+    {
+      "label": "data-t0-1-2",
+      "qasm_probability": 0.6774946566750609,
+      "qpy_probability": 0.6774946566750613,
+      "difference": 3.3306690738754696e-16
+    },
+    {
+      "label": "data-t0-2-2",
+      "qasm_probability": 0.8534222248242411,
+      "qpy_probability": 0.8534222248242413,
+      "difference": 2.220446049250313e-16
+    },
+    {
+      "label": "data-t1-0-0",
+      "qasm_probability": 0.5297509911789181,
+      "qpy_probability": 0.5297509911789181,
+      "difference": 0.0
+    },
+    {
+      "label": "data-t1-0-1",
+      "qasm_probability": 0.5111804809188638,
+      "qpy_probability": 0.5111804809188639,
+      "difference": 1.1102230246251565e-16
+    },
+    {
+      "label": "data-t1-0-2",
+      "qasm_probability": 0.5128571325704925,
+      "qpy_probability": 0.5128571325704921,
+      "difference": 3.3306690738754696e-16
+    },
+    {
+      "label": "data-t1-1-1",
+      "qasm_probability": 0.525993465702485,
+      "qpy_probability": 0.5259934657024853,
+      "difference": 3.3306690738754696e-16
+    },
+    {
+      "label": "data-t1-1-2",
+      "qasm_probability": 0.5095814888268894,
+      "qpy_probability": 0.5095814888268891,
+      "difference": 2.220446049250313e-16
+    },
+    {
+      "label": "data-t1-2-2",
+      "qasm_probability": 0.5266271679745242,
+      "qpy_probability": 0.526627167974525,
+      "difference": 7.771561172376096e-16
+    },
+    {
+      "label": "data-t2-0-0",
+      "qasm_probability": 0.5000001297143737,
+      "qpy_probability": 0.5000001297143732,
+      "difference": 4.440892098500626e-16
+    },
+    {
+      "label": "data-t2-0-1",
+      "qasm_probability": 0.5000000713701633,
+      "qpy_probability": 0.5000000713701631,
+      "difference": 2.220446049250313e-16
+    },
+    {
+      "label": "data-t2-0-2",
+      "qasm_probability": 0.5000000759689471,
+      "qpy_probability": 0.500000075968947,
+      "difference": 1.1102230246251565e-16
+    },
+    {
+      "label": "data-t2-1-1",
+      "qasm_probability": 0.5000001297143739,
+      "qpy_probability": 0.5000001297143732,
+      "difference": 6.661338147750939e-16
+    },
+    {
+      "label": "data-t2-1-2",
+      "qasm_probability": 0.5000000663350384,
+      "qpy_probability": 0.500000066335038,
+      "difference": 3.3306690738754696e-16
+    },
+    {
+      "label": "data-t2-2-2",
+      "qasm_probability": 0.5000001297143732,
+      "qpy_probability": 0.5000001297143739,
+      "difference": 6.661338147750939e-16
+    },
+    {
+      "label": "control-t0-0-1",
+      "qasm_probability": 0.7751050708831113,
+      "qpy_probability": 0.7751050708831106,
+      "difference": 6.661338147750939e-16
+    },
+    {
+      "label": "control-t0-0-2",
+      "qasm_probability": 0.7928316475012606,
+      "qpy_probability": 0.7928316475012613,
+      "difference": 7.771561172376096e-16
+    },
+    {
+      "label": "control-t0-1-2",
+      "qasm_probability": 0.7556965604147511,
+      "qpy_probability": 0.7556965604147519,
+      "difference": 7.771561172376096e-16
+    }
+  ]
+}

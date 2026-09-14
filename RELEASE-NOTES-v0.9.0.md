@@ -1,0 +1,12 @@
+# Gaussian response preservation and native quantum estimation
+
+Version 0.9.0 adds reproducible analyses of biological information, transient response preservation and the cost of estimating a small Gaussian response with quantum circuits.
+
+- **Biological comparisons.** Five held-out sequence sections test whether Gaussian response adds information to contact degree and receiver distance in previously inspected KRAS and GRB2 assays. GRB2 binding-percentile mean squared error falls by 9.92%, or 4.56% when harmonic response is already included. The corresponding KRAS changes are 1.02% and −0.04%. These are exploratory within-protein results.
+- **Transient response preservation.** Expanded Gaussian representations reproduce 288 fresh response matrices within 0.002 across KRAS, ABL, MYC/MAX and MYH7. Per-protein archives contain the operators, kernels and reference arrays needed for replay. Three targets pass numerical qualification; KRAS retains its failed mass-orthogonality check.
+- **Native quantum circuits.** Eighteen six-qubit data circuits and seven controls are compiled for a documented IQM Garnet subset and verified locally. The package records circuit sizes, shot budgets, assumed noise and proposed execution costs. No QPU execution was performed.
+- **Next computational tests.** The literature review and proposed protocols describe direct operator access, matched classical exponential-action comparisons, shallow amplitude amplification and a separate nonlinear-model adequacy test. Proposed studies are clearly separated from completed results.
+
+Start with the [experiment guide](https://github.com/orbion-life/allosteric-response-benchmark/blob/v0.9.0/experiments/response-evidence-2026-09-14/README.md). The [asset manifest](https://github.com/orbion-life/allosteric-response-benchmark/blob/v0.9.0/docs/evidence-v0.9.0/ASSET-MANIFEST-v0.9.0.json) lists the downloadable evidence and checksums. The [scientific report](https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/project-pulsar-scientific-report.pdf) and [editable source](https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/project-pulsar-editable-source.zip) describe the models, results and experimental plans together.
+
+Project code retains the MIT license. Upstream data retain their original terms; publisher workbooks and literature PDFs are excluded from this release.

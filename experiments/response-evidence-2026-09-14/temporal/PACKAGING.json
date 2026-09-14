@@ -1,0 +1,48 @@
+{
+  "release": "v0.9.0",
+  "scientific_results": "Preserved, including unfavorable results. Packaging updates only paths, excluded internal task text, removed provider IDs and default reference lookup.",
+  "modified_files": [
+    {
+      "path": "README.md",
+      "executed_sha256": "dcd14cb2e8caedcf82e752aca4a5e2d7705fd69e5de8cbc228cd519bd5adf275",
+      "packaged_sha256": "1698c4206a7403875d1eb30ebe128a8e63ee5848b4adf0f5aba8682cc4163140"
+    },
+    {
+      "path": "protocol.json",
+      "executed_sha256": "cb664cbcc00b42c7802b46ae190b1b787d2e2c8ab02b0dee6bb8975c1ea190cd",
+      "packaged_sha256": "259b2a33c630da1cb197caaadc66c7244ce65ad4cb01979bb27228d031818f7c"
+    },
+    {
+      "path": "analyze.py",
+      "executed_sha256": "50d937e10dd3dfdcbe75da628af44276c027b69817d54a0640d6225f96640180",
+      "packaged_sha256": "8844f93a8004a6ba9c24a6acc0930085cdfc4ee7cedd2510e66ea8bd1e3971ee"
+    },
+    {
+      "path": "history/initial-cuda-loader-failure/failure.json",
+      "executed_sha256": "f7cc9e91fa233ebc5a4489854708d5f4e14b56e0eed1d7464ad793340ea1f00c",
+      "packaged_sha256": "1b7263e0b93a11d0520c24aa4205ef94bc36afc2ca8f32567fc67ca9dc3ed2f5"
+    },
+    {
+      "path": "results/kras/receipt.json",
+      "executed_sha256": "e35c57fe8b51edf2781c4821856fb11943954701e911949d7574722f21d52610",
+      "packaged_sha256": "44eb03579dab942b88c39a03c41c7fabec2821d88704f304f8ac1c52ab3e135b"
+    },
+    {
+      "path": "results/myh7/receipt.json",
+      "executed_sha256": "5a37466c9d816efa3f92e48a9ea33796d33261020d107cf70fe07b183b453425",
+      "packaged_sha256": "9d8190bad7ba643a0e1f59d0e0078e6e1a0dac3950105fe13d4cc351fc532637"
+    },
+    {
+      "path": "results/abl/receipt.json",
+      "executed_sha256": "f635718ea796deb65cab188b67359d8c3d6b39cee3d16599f7b7881dac90733b",
+      "packaged_sha256": "3a7e48035e5113063e9a0e817c696df6ca16a75370dcc0ec5bf6248994f2b250"
+    },
+    {
+      "path": "results/myc/receipt.json",
+      "executed_sha256": "c835fcc205297d99ac9e0c7c2348422bbf78ab91744b5584cc8122bad77ffb89",
+      "packaged_sha256": "dbe6cd3ed3af0bfde6866ef6e81ede69fee96940fd21e7dc41a7d461b71be078"
+    }
+  ],
+  "excluded": "Python caches, cloud launch/download wrappers, local logs, generated archives, internal prose and account-specific receipts. No publisher assay workbooks or literature PDFs included.",
+  "additional_dependency_note": "Dependency packages are installed from requirements.txt, not redistributed. Provider task identifiers and original local output paths are excluded. Generated replay receipts record the new path-independent checks."
+}

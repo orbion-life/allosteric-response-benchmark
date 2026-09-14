@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "b53847a05a2cf9d8a886ba79f14325821da35b88fec98fab99b113c33a9e6519",
+  "bytes": 105948,
+  "pages": [
+    {
+      "page": 1,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 2578,
+      "min_font_pt": 10.26152229309082,
+      "out_of_page": []
+    },
+    {
+      "page": 2,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 3175,
+      "min_font_pt": 10.161890029907227,
+      "out_of_page": []
+    },
+    {
+      "page": 3,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 3067,
+      "min_font_pt": 10.161890029907227,
+      "out_of_page": []
+    },
+    {
+      "page": 4,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 2982,
+      "min_font_pt": 10.161890029907227,
+      "out_of_page": []
+    },
+    {
+      "page": 5,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 2841,
+      "min_font_pt": 10.26152229309082,
+      "out_of_page": []
+    },
+    {
+      "page": 6,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 3372,
+      "min_font_pt": 10.161890029907227,
+      "out_of_page": []
+    },
+    {
+      "page": 7,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 3031,
+      "min_font_pt": 10.161890029907227,
+      "out_of_page": []
+    },
+    {
+      "page": 8,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 3348,
+      "min_font_pt": 10.161890029907227,
+      "out_of_page": []
+    },
+    {
+      "page": 9,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "text_characters": 4129,
+      "min_font_pt": 10.26152229309082,
+      "out_of_page": []
+    }
+  ],
+  "main_pages": 6,
+  "appendices": 3,
+  "min_font_pt": 10.161890029907227,
+  "body_font_pt": 11,
+  "section_bookmarks": [
+    [
+      1,
+      "1 We will rank distal residues by the contact energy responses they induce at defined functional sites",
+      1
+    ],
+    [
+      1,
+      "2 Classical and quantum estimators evaluate the same reduced Gaussian contact energy response",
+      2
+    ],
+    [
+      1,
+      "3 Expanded Gaussian representations preserve 288 sampled transient matrices across four protein models",
+      3
+    ],
+    [
+      1,
+      "4 Six qubit response circuits provide a costed execution test before protein operator compilation",
+      4
+    ],
+    [
+      1,
+      "5 Gaussian response adds exploratory GRB2 binding information that we will test on independent regulatory evidence",
+      5
+    ],
+    [
+      1,
+      "6 We will validate regulatory predictions and measure quantum response costs within fourteen weeks",
+      6
+    ]
+  ],
+  "numbered_equations": 8,
+  "reference_entries": 19,
+  "reference_targets_resolved": true,
+  "external_links": [
+    "https://arxiv.org/abs/2601.15523v2",
+    "https://aws.amazon.com/braket/pricing/",
+    "https://doi.org/10.1021/jacs.6c08053",
+    "https://doi.org/10.1038/s41467-020-17618-2",
+    "https://doi.org/10.1038/s41467-026-71005-x",
+    "https://doi.org/10.1038/s41534-021-00379-1",
+    "https://doi.org/10.1038/s41534-024-00835-8",
+    "https://doi.org/10.1038/s41586-022-04586-4",
+    "https://doi.org/10.1038/s41586-023-06954-0",
+    "https://doi.org/10.1073/pnas.1707694114",
+    "https://doi.org/10.1103/PhysRevB.89.064302",
+    "https://doi.org/10.1137/100788860",
+    "https://doi.org/10.1186/s12859-015-0771-1",
+    "https://doi.org/10.22331/q-2019-03-05-128",
+    "https://github.com/amazon-braket/amazon-braket-examples/blob/fbd98fcd167baef5fb74c4f1675944a6cc0f7335/examples/braket_features/Device_emulation/garnet_device_properties_20250706.json",
+    "https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.9.0",
+    "https://github.com/orbion-life/allosteric-response-benchmark/tree/v0.9.0",
+    "https://mavedb.org/score-sets/urn:mavedb:00000115-a-6",
+    "https://nebula.orbion.life",
+    "https://quantumai.thequantuminsider.com/program/",
+    "https://www.ebi.ac.uk/pdbe/docs/sifts/",
+    "https://www.rcsb.org/structure/1NKP",
+    "https://www.rcsb.org/structure/1OPL",
+    "https://www.rcsb.org/structure/4OBE",
+    "https://www.rcsb.org/structure/5MO4",
+    "https://www.rcsb.org/structure/5TBY",
+    "https://www.rcsb.org/structure/6C1H",
+    "https://www.rcsb.org/structure/6OIM",
+    "https://www.rcsb.org/structure/6VJJ",
+    "https://www.uniprot.org/uniprotkb/P00519/entry",
+    "https://www.uniprot.org/uniprotkb/P12883/entry",
+    "mailto:aniruddh.goteti@orbion.life"
+  ],
+  "visual_review": "All nine pages inspected. No clipping, overlap or unreadable labels. Appendix A wording clarified after review without changing pagination; final page rechecked.",
+  "source_changes_from_independent_audit": "All three fixed and directly reread."
+}

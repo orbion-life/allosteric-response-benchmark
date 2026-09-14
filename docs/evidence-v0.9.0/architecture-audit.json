@@ -1,0 +1,58 @@
+{
+  "status": "READ_ONLY_DERIVED_OPERATOR_AUDIT",
+  "scope": "Shape, density and spectrum of saved expanded operators; no new quantum resource estimate or accepted replacement for failed KRAS numerical qualification. Density threshold is descriptive, not a tested sparsification.",
+  "rows": [
+    {
+      "target": "kras",
+      "rank": 810,
+      "residues": 166,
+      "address_qubits": 10,
+      "H_entries": 656100,
+      "H_density_above_1e_12_of_max_entry": 1.0,
+      "eigenvalue_min": 0.193852895624141,
+      "eigenvalue_max": 31.78189243493943,
+      "norm_times_tau": 417.94760517057017,
+      "minimum_eigenvalue_times_tau": 2.5492614590948803,
+      "input_sha256": "1df3edeace0d680a045376abc985e6d373fa7004bc4d2c0bb08d72ad39df8c88"
+    },
+    {
+      "target": "abl",
+      "rank": 1261,
+      "residues": 252,
+      "address_qubits": 11,
+      "H_entries": 1590121,
+      "H_density_above_1e_12_of_max_entry": 1.0,
+      "eigenvalue_min": 0.07414434812009225,
+      "eigenvalue_max": 29.977975142396026,
+      "norm_times_tau": 1193.2635156203257,
+      "minimum_eigenvalue_times_tau": 2.9512915759288743,
+      "input_sha256": "1e5728241c21cdf70f861fb7ee04452698678458c731f47dc996fe47f9e7ecd6"
+    },
+    {
+      "target": "myc",
+      "rank": 622,
+      "residues": 162,
+      "address_qubits": 10,
+      "H_entries": 386884,
+      "H_density_above_1e_12_of_max_entry": 1.0,
+      "eigenvalue_min": 0.032274419344776956,
+      "eigenvalue_max": 23.426504564272136,
+      "norm_times_tau": 17967.137368800937,
+      "minimum_eigenvalue_times_tau": 24.753113477725986,
+      "input_sha256": "58dc58aad94c1632eff87c1085dd53b08f8fe6f27996ac7541be00f65816c367"
+    },
+    {
+      "target": "myh7",
+      "rank": 2972,
+      "residues": 694,
+      "address_qubits": 12,
+      "H_entries": 8832784,
+      "H_density_above_1e_12_of_max_entry": 1.0,
+      "eigenvalue_min": 0.025575582241534205,
+      "eigenvalue_max": 28.921402923968845,
+      "norm_times_tau": 6392.245345444559,
+      "minimum_eigenvalue_times_tau": 5.652747792707929,
+      "input_sha256": "0a3ccca7ab181c7d1d6d7ef567d743bcfb7c271285367cba31dcbaf5c4260f6a"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-09-14T15:31:07.929969+00:00",
+  "protocol_sha256": "45d6ab5d1af9222ee0370831c45d02a601b04bcbfad5a5bd734b70af2b644529",
+  "status": "FROZEN_BEFORE_NEW_INCREMENTAL_COMPUTATIONS_ALREADY_OPENED_ASSAYS",
+  "executed_protocol_sha256": "c7b6dbdbb8a36ede9efa7e0b1b45d4c560468fbcb6141cd7216af9ccd477da91",
+  "packaging_note": "Scientific protocol unchanged; one internal task-administration sentence removed for publication."
+}

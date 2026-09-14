@@ -1,0 +1,9 @@
+{
+  "CPU_GPU_K_max_abs": 1.9081958235744878e-17,
+  "CPU_GPU_tau_derivative_max_abs": 1.7878049210279243e-15,
+  "seconds": 4.738745045999991,
+  "0.0_saved_reference_max_abs": 1.1657341758564144e-14,
+  "0.1_saved_reference_max_abs": 1.043544591017298e-18,
+  "1.0_saved_reference_max_abs": 4.5753932502818685e-28,
+  "10.0_saved_reference_max_abs": 5.428991427258013e-124
+}

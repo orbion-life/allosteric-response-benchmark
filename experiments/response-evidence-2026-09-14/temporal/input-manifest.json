@@ -1,0 +1,82 @@
+[
+  {
+    "target": "kras",
+    "file": "inputs/kras/static-model.npz",
+    "sha256": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd"
+  },
+  {
+    "target": "kras",
+    "file": "inputs/kras/fitted-covariance.npz",
+    "sha256": "ad108dd9de87306b46296e89f2fc308d0ec2bc60ab009e8e866fcdadf3272a3d"
+  },
+  {
+    "target": "kras",
+    "file": "inputs/kras/all-mode-harmonic-scales.npz",
+    "sha256": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c"
+  },
+  {
+    "target": "kras",
+    "file": "inputs/kras/ranking-metadata.npz",
+    "sha256": "6ebdd6ee923ace5f4d57401608d9083331d402d67b3b5c881f805ade8ea2991a"
+  },
+  {
+    "target": "abl",
+    "file": "inputs/abl/static-model.npz",
+    "sha256": "b3b5306ac6515bafd23419b1fc5bf9ec9b5f4ef01b57b8cecc15ea994fe885e7"
+  },
+  {
+    "target": "abl",
+    "file": "inputs/abl/fitted-covariance.npz",
+    "sha256": "e202bccb17020d1a02ddd87044eff7a210afa3371ddefb6e4bb4a3713134a372"
+  },
+  {
+    "target": "abl",
+    "file": "inputs/abl/all-mode-harmonic-scales.npz",
+    "sha256": "601783f315a4d4483a1154e6df6e5f76f0aa85e05eac50f24e16ac971293975c"
+  },
+  {
+    "target": "abl",
+    "file": "inputs/abl/ranking-metadata.npz",
+    "sha256": "88450049f582bfee3d86036c5f78917b990c0df9b0e23486cc5420680be30aba"
+  },
+  {
+    "target": "myc",
+    "file": "inputs/myc/static-model.npz",
+    "sha256": "59fdef840da54c8a2789f7bdb142dfa062b8e39bcbbeae41fabf45626cbaa554"
+  },
+  {
+    "target": "myc",
+    "file": "inputs/myc/fitted-covariance.npz",
+    "sha256": "8c9c0327da3f344c0d0c49ec961136e204a235d5a314797766cab31cf7d0de99"
+  },
+  {
+    "target": "myc",
+    "file": "inputs/myc/all-mode-harmonic-scales.npz",
+    "sha256": "bcb3a5fd1b0e16e03f87f55f1af61047d560c2206729106d32d443da38921c9b"
+  },
+  {
+    "target": "myc",
+    "file": "inputs/myc/ranking-metadata.npz",
+    "sha256": "85ddedd9ba58b3fe9833a676c6d12e3b25ddf43638331c05a4bad0e93d5b9081"
+  },
+  {
+    "target": "myh7",
+    "file": "inputs/myh7/static-model.npz",
+    "sha256": "fede6fb91ca2c963ec4c47bb4b90dbf47572117aeff7716a42ee7da6ab6b5881"
+  },
+  {
+    "target": "myh7",
+    "file": "inputs/myh7/fitted-covariance.npz",
+    "sha256": "d20c9273d27e7c9c01b31b10513e9e2ced0f63ff3463af74bbdcbc038593e6fe"
+  },
+  {
+    "target": "myh7",
+    "file": "inputs/myh7/all-mode-harmonic-scales.npz",
+    "sha256": "1cf1a7aadcdfb5111f5d8c2fb9efcb077ae92592979fe08fc5c2b026aeeb48b4"
+  },
+  {
+    "target": "myh7",
+    "file": "inputs/myh7/ranking-metadata.npz",
+    "sha256": "af00f811ef8de8cf5ab2e87d29941f200b115f9ac930854791e44c0c85ee6b92"
+  }
+]

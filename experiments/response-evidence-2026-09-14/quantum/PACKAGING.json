@@ -1,0 +1,13 @@
+{
+  "release": "v0.9.0",
+  "scientific_results": "Preserved, including unfavorable results. Packaging updates only paths, excluded internal task text, removed provider IDs and default reference lookup.",
+  "modified_files": [
+    {
+      "path": "validate_qasm.py",
+      "executed_sha256": "dbf3462f6d99b292cdc3d3ae8cbf1e919ce7c34af4cdb091c664b8045ef2d978",
+      "packaged_sha256": "e2b372ecef537efbbe50554b3dedb5aab8b99ea9109503e090106ea880ce8dfd"
+    }
+  ],
+  "excluded": "Python caches, cloud launch/download wrappers, local logs, generated archives, internal prose and account-specific receipts. No publisher assay workbooks or literature PDFs included.",
+  "additional_dependency_note": "Dependency packages are installed from requirements.txt, not redistributed. Provider task identifiers and original local output paths are excluded. Generated replay receipts record the new path-independent checks."
+}

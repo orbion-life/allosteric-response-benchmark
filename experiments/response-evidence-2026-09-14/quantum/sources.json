@@ -1,0 +1,18 @@
+{
+  "accessed": "2026-09-14",
+  "sources": {
+    "supported_devices": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+    "native_gates": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-submit-tasks.html",
+    "documented_topology": "https://aws.amazon.com/blogs/quantum-computing/amazon-braket-launches-new-superconducting-quantum-processor-from-iqm/",
+    "quotas": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-quotas.html",
+    "pricing": "https://aws.amazon.com/braket/pricing/",
+    "PRx_matrix": "https://amazon-braket-sdk-python.readthedocs.io/en/latest/_apidoc/braket.circuits.gates.html#braket.circuits.gates.PRx"
+  },
+  "device_calibration_retrieved": false,
+  "tariff": {
+    "per_shot_USD": 0.00145,
+    "per_task_USD": 0.3
+  },
+  "shots_per_task_max": 20000,
+  "noise_is_assumed": true
+}

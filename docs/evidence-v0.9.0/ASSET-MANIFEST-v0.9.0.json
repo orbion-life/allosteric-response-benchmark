@@ -1,0 +1,92 @@
+{
+  "release": "v0.9.0",
+  "date": "2026-09-14",
+  "scope": "Reproducible biological, temporal and quantum evidence with the scientific report and editable source. Earlier scientific archives remain in their original releases.",
+  "assets": [
+    {
+      "name": "pulsar-incremental-biology-evidence.zip",
+      "bytes": 17849844,
+      "sha256": "a104b4b94b84711b472276dca919c1f460dbef22679091b3c628a98a1e804180",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/pulsar-incremental-biology-evidence.zip",
+      "files": 36,
+      "study": "biology",
+      "target": null,
+      "part": null
+    },
+    {
+      "name": "pulsar-six-qubit-diagnostic-evidence.zip",
+      "bytes": 433819,
+      "sha256": "c8f5d7ea68293a31e4e0d42ac1e12f9a4efc3393dd43c88dd7187d2b5881670a",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/pulsar-six-qubit-diagnostic-evidence.zip",
+      "files": 121,
+      "study": "quantum",
+      "target": null,
+      "part": null
+    },
+    {
+      "name": "pulsar-temporal-kras-evidence.zip",
+      "bytes": 133402644,
+      "sha256": "5a39b8cf482fe30ef1c996640592e48225d5968ce19117a64782f33b25b96ffa",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/pulsar-temporal-kras-evidence.zip",
+      "files": 38,
+      "study": "temporal",
+      "target": "kras",
+      "part": null
+    },
+    {
+      "name": "pulsar-temporal-abl-evidence.zip",
+      "bytes": 317695710,
+      "sha256": "488871560290ffc6f7a4b3a82bf1e9df947bcbd7015f39445e023da79546c157",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/pulsar-temporal-abl-evidence.zip",
+      "files": 38,
+      "study": "temporal",
+      "target": "abl",
+      "part": null
+    },
+    {
+      "name": "pulsar-temporal-myc-evidence.zip",
+      "bytes": 121660940,
+      "sha256": "240c1bc03fdbfa69235916bc095ba9bab68e45f0a9b46faad4dfc5eb2c3b9073",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/pulsar-temporal-myc-evidence.zip",
+      "files": 38,
+      "study": "temporal",
+      "target": "myc",
+      "part": null
+    },
+    {
+      "name": "pulsar-temporal-myh7-evidence.zip",
+      "bytes": 1071627145,
+      "sha256": "7214df3b02321f408f80663e9fb7197cb7225d632281e67cd2d97fbe7b4af623",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/pulsar-temporal-myh7-evidence.zip",
+      "files": 33,
+      "study": "temporal",
+      "target": "myh7",
+      "part": "new"
+    },
+    {
+      "name": "pulsar-temporal-myh7-reference.zip",
+      "bytes": 1311417987,
+      "sha256": "5f3417b705be393b8d67f76300590d9a5a8fbb1c79e45347644f32b7bd98f6f5",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/pulsar-temporal-myh7-reference.zip",
+      "files": 20,
+      "study": "temporal",
+      "target": "myh7",
+      "part": "reference"
+    },
+    {
+      "name": "project-pulsar-scientific-report.pdf",
+      "bytes": 105948,
+      "sha256": "b53847a05a2cf9d8a886ba79f14325821da35b88fec98fab99b113c33a9e6519",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/project-pulsar-scientific-report.pdf",
+      "study": "report"
+    },
+    {
+      "name": "project-pulsar-editable-source.zip",
+      "bytes": 197151,
+      "sha256": "9b280388722af24626e19e92ab1ed345ee993d8f0ba4c4f3028826464a652e60",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.0/project-pulsar-editable-source.zip",
+      "study": "editable-source"
+    }
+  ],
+  "documentation": "Repository source and README files distinguish lightweight source checks from full saved-data replay. PDF and editable source may be added only after their final QA."
+}

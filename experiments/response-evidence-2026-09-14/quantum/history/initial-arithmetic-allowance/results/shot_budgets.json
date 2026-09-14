@@ -1,0 +1,42 @@
+{
+  "diagnostic": [
+    {
+      "shots_per_data_query": 16384,
+      "total_data_shots": 294912,
+      "control_shots": 81920,
+      "total_shots": 376832,
+      "tasks": 25,
+      "price_USD_at_verified_tariff": 553.9064,
+      "rigorous_statistical_response_halfwidth": 0.020067050836282147,
+      "projection_error": 2.0974341530588525e-05,
+      "arithmetic_compile_allowance": 1e-08,
+      "remaining_bias_allowance_for_0_05": 0.029911964822187265
+    },
+    {
+      "shots_per_data_query": 65536,
+      "total_data_shots": 1179648,
+      "control_shots": 81920,
+      "total_shots": 1261568,
+      "tasks": 79,
+      "price_USD_at_verified_tariff": 1852.9736,
+      "rigorous_statistical_response_halfwidth": 0.010033525418141074,
+      "projection_error": 2.0974341530588525e-05,
+      "arithmetic_compile_allowance": 1e-08,
+      "remaining_bias_allowance_for_0_05": 0.03994549024032834
+    }
+  ],
+  "final_precision": {
+    "total_response_target": 0.002,
+    "projection_error": 2.0974341530588525e-05,
+    "numerical_allowance": 1e-08,
+    "assumed_qualified_physical_bias": 0.0005,
+    "statistical_budget": 0.0014790156584694116,
+    "sufficient_shots_per_query": 3016071,
+    "query_count": 18,
+    "total_data_shots": 54289278,
+    "total_shots_with_diagnostic_controls": 54371198,
+    "tasks": 2725,
+    "price_USD_at_verified_tariff": 79655.7371,
+    "qualification": "Sampling bound assumes physical bias separately established at <=0.0005; these diagnostic controls do not establish that bias for all circuit errors"
+  }
+}

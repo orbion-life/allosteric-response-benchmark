@@ -1,0 +1,950 @@
+[
+  {
+    "name": "ideal",
+    "two_qubit_depolarizing_parameter": 0.0,
+    "one_qubit_depolarizing_parameter": 0.0,
+    "readout_flip_probability": 0.0,
+    "scope": "Assumed independent stochastic noise, not device calibration",
+    "maximum_data_response_bias": 1.7650673678204498e-07,
+    "maximum_identity_control_bias": 1.0547118733938987e-15,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "probability": 0.8559770743451931,
+        "response": -0.18914920338163171,
+        "bias_to_reduced_response": 5.551115123125783e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-1",
+        "probability": 0.6919255415736487,
+        "response": -0.11343917103977924,
+        "bias_to_reduced_response": 1.6237011735142914e-15,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-2",
+        "probability": 0.705196252531998,
+        "response": -0.11790932697337381,
+        "bias_to_reduced_response": 2.220446049250313e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-1",
+        "probability": 0.8520761620134838,
+        "response": -0.20948766216355735,
+        "bias_to_reduced_response": 1.942890293094024e-15,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-2",
+        "probability": 0.6774946566750628,
+        "response": -0.1092596074198274,
+        "bias_to_reduced_response": 8.465450562766819e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-2-2",
+        "probability": 0.8534222248242442,
+        "response": -0.20203772142835486,
+        "bias_to_reduced_response": 5.551115123125783e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-0",
+        "probability": 0.5297509911789209,
+        "response": -0.6175907412316916,
+        "bias_to_reduced_response": 1.2212453270876722e-15,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-1",
+        "probability": 0.5111804809188664,
+        "response": -0.35993695745945,
+        "bias_to_reduced_response": 6.106226635438361e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-2",
+        "probability": 0.5128571325704941,
+        "response": -0.3766926210210084,
+        "bias_to_reduced_response": 6.661338147750939e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-1",
+        "probability": 0.525993465702487,
+        "response": -0.6712813977236552,
+        "bias_to_reduced_response": 7.771561172376096e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-2",
+        "probability": 0.509581488826891,
+        "response": -0.34385909825549027,
+        "bias_to_reduced_response": 1.6653345369377348e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-2-2",
+        "probability": 0.5266271679745267,
+        "response": -0.6524806932963523,
+        "bias_to_reduced_response": 8.881784197001252e-16,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-0",
+        "probability": 0.5000001297143747,
+        "response": -0.6566633522090841,
+        "bias_to_reduced_response": 5.557300619685179e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-1",
+        "probability": 0.5000000713701642,
+        "response": -0.37518465604128953,
+        "bias_to_reduced_response": 1.2464362131314743e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-2",
+        "probability": 0.500000075968948,
+        "response": -0.393991189610544,
+        "bias_to_reduced_response": 1.4979316503849205e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-1",
+        "probability": 0.5000001297143745,
+        "response": -0.7080927951434404,
+        "bias_to_reduced_response": 1.7650673678204498e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-2",
+        "probability": 0.5000000663350389,
+        "response": -0.35724576034325667,
+        "bias_to_reduced_response": 9.152588154037744e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-2-2",
+        "probability": 0.5000001297143746,
+        "response": -0.6891824793073367,
+        "bias_to_reduced_response": 1.6332594909851395e-07,
+        "identity_control": false
+      },
+      {
+        "label": "control-t0-0-1",
+        "probability": 0.775105070883114,
+        "response": 1.0547118733938987e-15,
+        "bias_to_reduced_response": 1.0547118733938987e-15,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-0-2",
+        "probability": 0.7928316475012633,
+        "response": 2.7755575615628914e-16,
+        "bias_to_reduced_response": 2.7755575615628914e-16,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-1-2",
+        "probability": 0.7556965604147529,
+        "response": -2.220446049250313e-16,
+        "bias_to_reduced_response": 2.220446049250313e-16,
+        "identity_control": true
+      }
+    ]
+  },
+  {
+    "name": "optimistic",
+    "two_qubit_depolarizing_parameter": 1e-05,
+    "one_qubit_depolarizing_parameter": 1.0000000000000002e-06,
+    "readout_flip_probability": 0.0001,
+    "scope": "Assumed independent stochastic noise, not device calibration",
+    "maximum_data_response_bias": 0.0008800162614114315,
+    "maximum_identity_control_bias": 0.0006931866715460533,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "probability": 0.8553571613280095,
+        "response": -0.1899633519127289,
+        "bias_to_reduced_response": 0.0008141485310966257,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-1",
+        "probability": 0.6915813556793103,
+        "response": -0.11390856733068716,
+        "bias_to_reduced_response": 0.000469396290906296,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-2",
+        "probability": 0.7048324742688512,
+        "response": -0.11839877361979134,
+        "bias_to_reduced_response": 0.0004894466464173131,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-1",
+        "probability": 0.8514547632087314,
+        "response": -0.21036767842497073,
+        "bias_to_reduced_response": 0.0008800162614114315,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-2",
+        "probability": 0.6771691950890009,
+        "response": -0.10971432531572076,
+        "bias_to_reduced_response": 0.0004547178958941994,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-2-2",
+        "probability": 0.85280308494325,
+        "response": -0.202891122366195,
+        "bias_to_reduced_response": 0.0008534009378395879,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-0",
+        "probability": 0.529704271415517,
+        "response": -0.6176520995605121,
+        "bias_to_reduced_response": 6.135832882181447e-05,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-1",
+        "probability": 0.5111609373742485,
+        "response": -0.3599636106939541,
+        "bias_to_reduced_response": 2.6653234504736556e-05,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-2",
+        "probability": 0.5128351975099406,
+        "response": -0.3767221336195184,
+        "bias_to_reduced_response": 2.9512598510639254e-05,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-1",
+        "probability": 0.5259514092109148,
+        "response": -0.6713409575364493,
+        "bias_to_reduced_response": 5.9559812794818257e-05,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-2",
+        "probability": 0.5095638257619327,
+        "response": -0.3438837761655013,
+        "bias_to_reduced_response": 2.4677910011206006e-05,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-2-2",
+        "probability": 0.5265847166428831,
+        "response": -0.6525392067395165,
+        "bias_to_reduced_response": 5.851344316509799e-05,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-0",
+        "probability": 0.5000001295632575,
+        "response": -0.6566633524075505,
+        "bias_to_reduced_response": 5.577147255131365e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-1",
+        "probability": 0.5000000712845364,
+        "response": -0.3751846561580677,
+        "bias_to_reduced_response": 1.2452684317043605e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-2",
+        "probability": 0.5000000758782941,
+        "response": -0.3939911897325146,
+        "bias_to_reduced_response": 1.4967119443820565e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-1",
+        "probability": 0.5000001295551058,
+        "response": -0.7080927953689944,
+        "bias_to_reduced_response": 1.762811827621391e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-2",
+        "probability": 0.5000000662554045,
+        "response": -0.3572457604545177,
+        "bias_to_reduced_response": 9.141462048445348e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-2-2",
+        "probability": 0.5000001295542237,
+        "response": -0.6891824795280831,
+        "bias_to_reduced_response": 1.631052026773716e-07,
+        "identity_control": false
+      },
+      {
+        "label": "control-t0-0-1",
+        "probability": 0.7746161252597855,
+        "response": -0.0006668177453549862,
+        "bias_to_reduced_response": 0.0006668177453549862,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-0-2",
+        "probability": 0.7923164406952563,
+        "response": -0.0006931866715460533,
+        "bias_to_reduced_response": 0.0006931866715460533,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-1-2",
+        "probability": 0.7552317433618164,
+        "response": -0.0006494180614188272,
+        "bias_to_reduced_response": 0.0006494180614188272,
+        "identity_control": true
+      }
+    ]
+  },
+  {
+    "name": "low_noise",
+    "two_qubit_depolarizing_parameter": 0.0001,
+    "one_qubit_depolarizing_parameter": 1e-05,
+    "readout_flip_probability": 0.001,
+    "scope": "Assumed independent stochastic noise, not device calibration",
+    "maximum_data_response_bias": 0.00873086850103777,
+    "maximum_identity_control_bias": 0.006877279712990625,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "probability": 0.8498261339151147,
+        "response": -0.19722739980145543,
+        "bias_to_reduced_response": 0.008078196419823158,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-1",
+        "probability": 0.6885112465464426,
+        "response": -0.1180955426348928,
+        "bias_to_reduced_response": 0.004656371595111938,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-2",
+        "probability": 0.7015872641976478,
+        "response": -0.12276505205691146,
+        "bias_to_reduced_response": 0.004855725083537432,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-1",
+        "probability": 0.8459111040607102,
+        "response": -0.21821853066459707,
+        "bias_to_reduced_response": 0.00873086850103777,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-2",
+        "probability": 0.674266674416613,
+        "response": -0.1137695753036066,
+        "bias_to_reduced_response": 0.004509967883780039,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-2-2",
+        "probability": 0.8472791902988156,
+        "response": -0.21050506715443879,
+        "bias_to_reduced_response": 0.008467345726083375,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-0",
+        "probability": 0.529286997108919,
+        "response": -0.6182001171926064,
+        "bias_to_reduced_response": 0.0006093759609160365,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-1",
+        "probability": 0.5109865455088084,
+        "response": -0.36020144407454474,
+        "bias_to_reduced_response": 0.00026448661509537175,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-2",
+        "probability": 0.5126394200244222,
+        "response": -0.3769855430736791,
+        "bias_to_reduced_response": 0.0002929220526713405,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-1",
+        "probability": 0.5255758653946325,
+        "response": -0.6718727974155642,
+        "bias_to_reduced_response": 0.0005913996919096887,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-2",
+        "probability": 0.5094062834272143,
+        "response": -0.3441038860710176,
+        "bias_to_reduced_response": 0.00024478781552750295,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-2-2",
+        "probability": 0.5262055900018935,
+        "response": -0.6530617817519048,
+        "bias_to_reduced_response": 0.0005810884555533802,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-0",
+        "probability": 0.50000012821114,
+        "response": -0.6566633541833228,
+        "bias_to_reduced_response": 5.7547244858291435e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-1",
+        "probability": 0.5000000705186226,
+        "response": -0.375184657202611,
+        "bias_to_reduced_response": 1.234822998297247e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-2",
+        "probability": 0.500000075067392,
+        "response": -0.39399119082354556,
+        "bias_to_reduced_response": 1.4858016350594028e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-1",
+        "probability": 0.5000001281305427,
+        "response": -0.7080927973864406,
+        "bias_to_reduced_response": 1.742637365520494e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-2",
+        "probability": 0.5000000655431083,
+        "response": -0.3572457614497007,
+        "bias_to_reduced_response": 9.04194374928835e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-2-2",
+        "probability": 0.5000001281218379,
+        "response": -0.6891824815024339,
+        "bias_to_reduced_response": 1.6113085188340648e-07,
+        "identity_control": false
+      },
+      {
+        "label": "control-t0-0-1",
+        "probability": 0.770254520504293,
+        "response": -0.006615118150199106,
+        "bias_to_reduced_response": 0.006615118150199106,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-0-2",
+        "probability": 0.7877201509010141,
+        "response": -0.006877279712990625,
+        "bias_to_reduced_response": 0.006877279712990625,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-1-2",
+        "probability": 0.7510862171184464,
+        "response": -0.006441330383744115,
+        "bias_to_reduced_response": 0.006441330383744115,
+        "identity_control": true
+      }
+    ]
+  },
+  {
+    "name": "moderate_noise",
+    "two_qubit_depolarizing_parameter": 0.001,
+    "one_qubit_depolarizing_parameter": 0.0001,
+    "readout_flip_probability": 0.01,
+    "scope": "Assumed independent stochastic noise, not device calibration",
+    "maximum_data_response_bias": 0.08076427691883836,
+    "maximum_identity_control_bias": 0.06361812342648021,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "probability": 0.7990220865085212,
+        "response": -0.26394972926275173,
+        "bias_to_reduced_response": 0.07480052588111946,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-1",
+        "probability": 0.6603832055659136,
+        "response": -0.15645620274313754,
+        "bias_to_reduced_response": 0.043017031703356676,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-2",
+        "probability": 0.6718249904383248,
+        "response": -0.16280880001274398,
+        "bias_to_reduced_response": 0.04489947303936995,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-1",
+        "probability": 0.7950467327351473,
+        "response": -0.29025193908239766,
+        "bias_to_reduced_response": 0.08076427691883836,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-2",
+        "probability": 0.647724683078234,
+        "response": -0.15085265659821082,
+        "bias_to_reduced_response": 0.04159304917838426,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-2-2",
+        "probability": 0.7965618373528274,
+        "response": -0.28041210738477756,
+        "bias_to_reduced_response": 0.07837438595642215,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-0",
+        "probability": 0.5254162333047917,
+        "response": -0.6232836959818885,
+        "bias_to_reduced_response": 0.005692954750198154,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-1",
+        "probability": 0.5093831258886409,
+        "response": -0.3623881671066505,
+        "bias_to_reduced_response": 0.0024512096472011358,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-2",
+        "probability": 0.5108353459027725,
+        "response": -0.37941284046383067,
+        "bias_to_reduced_response": 0.002720219442822913,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-1",
+        "probability": 0.5220995163726028,
+        "response": -0.6767959540845789,
+        "bias_to_reduced_response": 0.005514556360924461,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-2",
+        "probability": 0.5079639926769978,
+        "response": -0.34611897922883195,
+        "bias_to_reduced_response": 0.0022598809733418435,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-2-2",
+        "probability": 0.5226910105241366,
+        "response": -0.6579061562050812,
+        "bias_to_reduced_response": 0.005425462908729806,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-0",
+        "probability": 0.5000001154454781,
+        "response": -0.656663370948812,
+        "bias_to_reduced_response": 7.431273407743078e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-1",
+        "probability": 0.5000000633092521,
+        "response": -0.37518466703465775,
+        "bias_to_reduced_response": 1.1365025309739707e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-2",
+        "probability": 0.5000000674315602,
+        "response": -0.39399120109720015,
+        "bias_to_reduced_response": 1.3830650891222263e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-1",
+        "probability": 0.5000001147262652,
+        "response": -0.7080928163693903,
+        "bias_to_reduced_response": 1.5528078689541758e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-2",
+        "probability": 0.5000000588390809,
+        "response": -0.3572457708162169,
+        "bias_to_reduced_response": 8.105292131910247e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-2-2",
+        "probability": 0.5000001146497548,
+        "response": -0.689182500071886,
+        "bias_to_reduced_response": 1.4256139979629268e-07,
+        "identity_control": false
+      },
+      {
+        "label": "control-t0-0-1",
+        "probability": 0.7302711372833591,
+        "response": -0.061143941354689924,
+        "bias_to_reduced_response": 0.061143941354689924,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-0-2",
+        "probability": 0.7455478615888727,
+        "response": -0.06361812342648021,
+        "bias_to_reduced_response": 0.06361812342648021,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-1-2",
+        "probability": 0.7131584072563745,
+        "response": -0.059432081473613285,
+        "bias_to_reduced_response": 0.059432081473613285,
+        "identity_control": true
+      }
+    ]
+  },
+  {
+    "name": "high_noise",
+    "two_qubit_depolarizing_parameter": 0.01,
+    "one_qubit_depolarizing_parameter": 0.001,
+    "readout_flip_probability": 0.01,
+    "scope": "Assumed independent stochastic noise, not device calibration",
+    "maximum_data_response_bias": 0.39503617458327445,
+    "maximum_identity_control_bias": 0.31122155504623955,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "probability": 0.5757837551227276,
+        "response": -0.5571346673820687,
+        "bias_to_reduced_response": 0.36798546400043647,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-1",
+        "probability": 0.5388125632713857,
+        "response": -0.3222526793420449,
+        "bias_to_reduced_response": 0.20881350830226403,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-2",
+        "probability": 0.542366427977201,
+        "response": -0.3369892436118741,
+        "bias_to_reduced_response": 0.21907991663850007,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-1",
+        "probability": 0.5731324453078843,
+        "response": -0.6045238367468337,
+        "bias_to_reduced_response": 0.39503617458327445,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-2",
+        "probability": 0.5344599894406177,
+        "response": -0.3091001591470793,
+        "bias_to_reduced_response": 0.19984055172725274,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-2-2",
+        "probability": 0.5743399271616404,
+        "response": -0.5867150808925239,
+        "bias_to_reduced_response": 0.3846773594641685,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-0",
+        "probability": 0.5073365390414131,
+        "response": -0.6470282474257188,
+        "bias_to_reduced_response": 0.029437506194028518,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-1",
+        "probability": 0.5023050538289199,
+        "response": -0.37204115064334875,
+        "bias_to_reduced_response": 0.012104193183899381,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-2",
+        "probability": 0.5027606387050796,
+        "response": -0.39027698150548323,
+        "bias_to_reduced_response": 0.013584360484475477,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-1",
+        "probability": 0.5060785684992267,
+        "response": -0.6994845954916772,
+        "bias_to_reduced_response": 0.028203197768022714,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-2",
+        "probability": 0.5017771155577501,
+        "response": -0.3547629601663527,
+        "bias_to_reduced_response": 0.010903861910862622,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-2-2",
+        "probability": 0.5063509163748782,
+        "response": -0.6804287752438984,
+        "bias_to_reduced_response": 0.027948081947547054,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-0",
+        "probability": 0.5000000495570737,
+        "response": -0.6566634574818354,
+        "bias_to_reduced_response": 1.6084575749086838e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-1",
+        "probability": 0.5000000267919591,
+        "response": -0.3751847168364717,
+        "bias_to_reduced_response": 6.3848439146863e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-2",
+        "probability": 0.5000000286834432,
+        "response": -0.39399125323098017,
+        "bias_to_reduced_response": 8.617272889699379e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-1",
+        "probability": 0.5000000467740163,
+        "response": -0.7080929126024108,
+        "bias_to_reduced_response": 5.9047766343134356e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-2",
+        "probability": 0.5000000249166576,
+        "response": -0.3572458182108515,
+        "bias_to_reduced_response": 3.3658286713311725e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-2-2",
+        "probability": 0.5000000465404179,
+        "response": -0.6891825939514338,
+        "bias_to_reduced_response": 4.868185199402575e-08,
+        "identity_control": false
+      },
+      {
+        "label": "control-t0-0-1",
+        "probability": 0.5567673478661823,
+        "response": -0.2977661753002413,
+        "bias_to_reduced_response": 0.2977661753002413,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-0-2",
+        "probability": 0.5615181068380628,
+        "response": -0.31122155504623955,
+        "bias_to_reduced_response": 0.31122155504623955,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-1-2",
+        "probability": 0.5507081743591987,
+        "response": -0.2863990454836799,
+        "bias_to_reduced_response": 0.2863990454836799,
+        "identity_control": true
+      }
+    ]
+  },
+  {
+    "name": "readout_only",
+    "two_qubit_depolarizing_parameter": 0.0,
+    "one_qubit_depolarizing_parameter": 0.0,
+    "readout_flip_probability": 0.01,
+    "scope": "Assumed independent stochastic noise, not device calibration",
+    "maximum_data_response_bias": 0.009972106333589137,
+    "maximum_identity_control_bias": 0.007879825836463905,
+    "queries": [
+      {
+        "label": "data-t0-0-0",
+        "probability": 0.8488575328582892,
+        "response": -0.19849948976532866,
+        "bias_to_reduced_response": 0.009350286383696393,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-1",
+        "probability": 0.6880870307421757,
+        "response": -0.11867408268648372,
+        "bias_to_reduced_response": 0.005234911646702853,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-0-2",
+        "probability": 0.7010923274813581,
+        "response": -0.12343096627037059,
+        "bias_to_reduced_response": 0.005521639296996561,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-1",
+        "probability": 0.8450346387732142,
+        "response": -0.21945976849714843,
+        "bias_to_reduced_response": 0.009972106333589137,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-1-2",
+        "probability": 0.6739447635415615,
+        "response": -0.11421933233189294,
+        "bias_to_reduced_response": 0.0049597249120663794,
+        "identity_control": false
+      },
+      {
+        "label": "data-t0-2-2",
+        "probability": 0.8463537803277593,
+        "response": -0.21178062016181043,
+        "bias_to_reduced_response": 0.009742898733455019,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-0",
+        "probability": 0.5291559713553424,
+        "response": -0.6183721968583874,
+        "bias_to_reduced_response": 0.0007814556266970696,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-1",
+        "probability": 0.5109568713004891,
+        "response": -0.36024191337776096,
+        "bias_to_reduced_response": 0.0003049559183115891,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-0-2",
+        "probability": 0.5125999899190843,
+        "response": -0.37703859443705245,
+        "bias_to_reduced_response": 0.0003459734160446981,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-1",
+        "probability": 0.5254735963884372,
+        "response": -0.6720176293460445,
+        "bias_to_reduced_response": 0.0007362316223900045,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-1-2",
+        "probability": 0.5093898590503532,
+        "response": -0.3441268333508426,
+        "bias_to_reduced_response": 0.00026773509535249485,
+        "identity_control": false
+      },
+      {
+        "label": "data-t1-2-2",
+        "probability": 0.5260946246150362,
+        "response": -0.6532147325924478,
+        "bias_to_reduced_response": 0.0007340392960963893,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-0",
+        "probability": 0.5000001271200871,
+        "response": -0.6566633556162321,
+        "bias_to_reduced_response": 5.8980154205023894e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-1",
+        "probability": 0.5000000699427609,
+        "response": -0.37518465798796374,
+        "bias_to_reduced_response": 1.2269694710242973e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-0-2",
+        "probability": 0.5000000744495691,
+        "response": -0.39399119165479735,
+        "bias_to_reduced_response": 1.4774891171631666e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-1",
+        "probability": 0.5000001271200869,
+        "response": -0.7080927988174339,
+        "bias_to_reduced_response": 1.7283274322821285e-07,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-1-2",
+        "probability": 0.500000065008338,
+        "response": -0.3572457621968537,
+        "bias_to_reduced_response": 8.967228448675257e-08,
+        "identity_control": false
+      },
+      {
+        "label": "data-t2-2-2",
+        "probability": 0.500000127120087,
+        "response": -0.6891824828832126,
+        "bias_to_reduced_response": 1.597500731698176e-07,
+        "identity_control": false
+      },
+      {
+        "label": "control-t0-0-1",
+        "probability": 0.7696029694654517,
+        "response": -0.007503695067499039,
+        "bias_to_reduced_response": 0.007503695067499039,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-0-2",
+        "probability": 0.7869750145512381,
+        "response": -0.007879825836463905,
+        "bias_to_reduced_response": 0.007879825836463905,
+        "identity_control": true
+      },
+      {
+        "label": "control-t0-1-2",
+        "probability": 0.7505826292064578,
+        "response": -0.007144917060462275,
+        "bias_to_reduced_response": 0.007144917060462275,
+        "identity_control": true
+      }
+    ]
+  }
+]

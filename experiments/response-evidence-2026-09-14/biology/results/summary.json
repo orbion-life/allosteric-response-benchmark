@@ -1,0 +1,1031 @@
+{
+  "status": "COMPLETED_EXPLORATORY_REANALYSIS_OF_PREVIOUSLY_OPENED_ASSAYS",
+  "created_utc": "2026-09-14T15:33:15.565275+00:00",
+  "protocol_sha256": "c7b6dbdbb8a36ede9efa7e0b1b45d4c560468fbcb6141cd7216af9ccd477da91",
+  "script_sha256": "f45cbea46d16ee27023a5aedd68507a60346ef5e130a7070cd56f5a55536f3c4",
+  "assays": {
+    "KRAS": {
+      "n": 110,
+      "endpoint": "Inverse-variance-weighted mean absolute KRAS RAF1-binding ddG, kcal/mol",
+      "input_sha256": "3116e73a4cdf4f3a123b82c45062def14f738ea8e8fcbf5b91e81791679b64e2",
+      "mask_canonical": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        60,
+        61,
+        62,
+        63,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        86,
+        88,
+        90,
+        91,
+        93,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        141,
+        142,
+        144,
+        145,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
+      ],
+      "prior_marginal_rho_reproduced": {
+        "gaussian": 0.29854157744065996,
+        "harmonic": 0.21945765615490387,
+        "ohm": -0.007028742210011813,
+        "degree": 0.3481149590917138,
+        "negative_distance": 0.23027748348849267
+      },
+      "partial_spearman": {
+        "gaussian_degree_distance": 0.14063619834281463,
+        "harmonic_degree_distance": 0.0561553134577654,
+        "ohm_degree_distance": -0.12392196540394657,
+        "gaussian_degree_distance_harmonic": 0.14489487397231862,
+        "gaussian_degree_distance_folding": 0.08426506712001205,
+        "harmonic_degree_distance_folding": -0.03653141274524111,
+        "gaussian_minus_harmonic_degree_distance": 0.08448088488504923
+      },
+      "fold_test_n": [
+        15,
+        14,
+        20,
+        33,
+        28
+      ],
+      "sequence_block10_sizes": [
+        9,
+        6,
+        8,
+        3,
+        3,
+        5,
+        7,
+        8,
+        10,
+        10,
+        10,
+        9,
+        6,
+        10,
+        6
+      ],
+      "oof_prediction": {
+        "geometry": {
+          "oof_spearman": 0.2902567015637168,
+          "oof_percentile_mse": 0.07945767877236834,
+          "fold_mse": [
+            0.09446794107716319,
+            0.05730225567709638,
+            0.07462949970967794,
+            0.08102863054666307,
+            0.08409139882465289
+          ]
+        },
+        "geometry_gaussian": {
+          "oof_spearman": 0.2986497757139959,
+          "oof_percentile_mse": 0.07864875329136892,
+          "fold_mse": [
+            0.09117397720284713,
+            0.05801486873443914,
+            0.07754911288848669,
+            0.08027508329036503,
+            0.08112446554906946
+          ]
+        },
+        "geometry_harmonic": {
+          "oof_spearman": 0.2363275702725244,
+          "oof_percentile_mse": 0.08329027214559667,
+          "fold_mse": [
+            0.09419959022283436,
+            0.07759880327527251,
+            0.08320225165521151,
+            0.08089127169335367,
+            0.08318199420837148
+          ]
+        },
+        "geometry_harmonic_gaussian": {
+          "oof_spearman": 0.23738250343754932,
+          "oof_percentile_mse": 0.08332572136282174,
+          "fold_mse": [
+            0.09315612748399006,
+            0.0699579838521878,
+            0.08035449848081938,
+            0.08737327765144146,
+            0.08209526898592694
+          ]
+        }
+      },
+      "oof_gaussian_addition": {
+        "mse_difference_positive_favours_gaussian": 0.0008089254809994229,
+        "relative_mse_reduction": 0.010180582839788786,
+        "delta_spearman": 0.008393074150279123,
+        "fold_mse_difference": [
+          0.003293963874316061,
+          -0.0007126130573427564,
+          -0.002919613178808747,
+          0.0007535472562980317,
+          0.002966933275583422
+        ],
+        "folds_improved": 3
+      },
+      "oof_gaussian_after_harmonic": {
+        "mse_difference_positive_favours_gaussian": -3.544921722506422e-05,
+        "relative_mse_reduction": -0.0004256105342421831
+      },
+      "bootstrap": {
+        "site": {
+          "partial": {
+            "gaussian_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.05130376087828797,
+                0.3200661313941877
+              ],
+              "percentile97_5": [
+                -0.08073856238214784,
+                0.34230610446342985
+              ]
+            },
+            "harmonic_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.11374211610248994,
+                0.2283249261067851
+              ],
+              "percentile97_5": [
+                -0.13832994890517988,
+                0.2532869914304321
+              ]
+            },
+            "ohm_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.3018386110589571,
+                0.06793416984399808
+              ],
+              "percentile97_5": [
+                -0.3260765877556427,
+                0.09375689543019199
+              ]
+            },
+            "gaussian_degree_distance_harmonic": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.05196896631061256,
+                0.31270341985203504
+              ],
+              "percentile97_5": [
+                -0.07775123344135126,
+                0.3349846955487281
+              ]
+            },
+            "gaussian_degree_distance_folding": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.11675784563840913,
+                0.28077570929011814
+              ],
+              "percentile97_5": [
+                -0.14636664824143453,
+                0.3085233590134618
+              ]
+            },
+            "harmonic_degree_distance_folding": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.2359277753056213,
+                0.1775063702618786
+              ],
+              "percentile97_5": [
+                -0.2624575602347612,
+                0.20564176083615457
+              ]
+            },
+            "gaussian_minus_harmonic_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.052637905860771626,
+                0.21093034312851575
+              ],
+              "percentile97_5": [
+                -0.07129220191199888,
+                0.22985542433510553
+              ]
+            }
+          },
+          "fixed_oof_loss": {
+            "baseline_minus_plus_gaussian_mse": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.0026931470236310068,
+                0.004549230354978358
+              ],
+              "percentile97_5": [
+                -0.0032129343701522897,
+                0.005077431218765534
+              ]
+            },
+            "relative_mse_reduction_gaussian": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.03615274579884416,
+                0.05461767701590612
+              ],
+              "percentile97_5": [
+                -0.04351460975354906,
+                0.0611669269028556
+              ]
+            },
+            "harmonic_minus_plus_gaussian_mse": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.003244324755869732,
+                0.003238232734289719
+              ],
+              "percentile97_5": [
+                -0.003673206171755649,
+                0.0037114064285522197
+              ]
+            },
+            "relative_mse_reduction_after_harmonic": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.03947206415755712,
+                0.038563992659569855
+              ],
+              "percentile97_5": [
+                -0.04516413682971095,
+                0.04436852952774599
+              ]
+            }
+          }
+        },
+        "sequence_block10": {
+          "partial": {
+            "gaussian_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.009610771034464866,
+                0.3183047316169243
+              ],
+              "percentile97_5": [
+                -0.03251533705580069,
+                0.35188559386561336
+              ]
+            },
+            "harmonic_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.1325703494747103,
+                0.28161262492627903
+              ],
+              "percentile97_5": [
+                -0.1717177815724634,
+                0.31342970689949456
+              ]
+            },
+            "ohm_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.2523742613077726,
+                0.030811442919107247
+              ],
+              "percentile97_5": [
+                -0.2688133029384155,
+                0.056034308959894565
+              ]
+            },
+            "gaussian_degree_distance_harmonic": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.04148007988502499,
+                0.29279987843133676
+              ],
+              "percentile97_5": [
+                -0.0667392938605958,
+                0.3194276445655058
+              ]
+            },
+            "gaussian_degree_distance_folding": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.055974747104972994,
+                0.2832071203907065
+              ],
+              "percentile97_5": [
+                -0.07639892698907813,
+                0.3164908949445372
+              ]
+            },
+            "harmonic_degree_distance_folding": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.2295266435495793,
+                0.2596244720063253
+              ],
+              "percentile97_5": [
+                -0.26356768928436075,
+                0.29606700700188904
+              ]
+            },
+            "gaussian_minus_harmonic_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.05598323242622941,
+                0.21666684504910952
+              ],
+              "percentile97_5": [
+                -0.07187884352115724,
+                0.24444714107603563
+              ]
+            }
+          },
+          "fixed_oof_loss": {
+            "baseline_minus_plus_gaussian_mse": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.0019454194439125557,
+                0.0037841311931099855
+              ],
+              "percentile97_5": [
+                -0.0023311496679385597,
+                0.004265601801125386
+              ]
+            },
+            "relative_mse_reduction_gaussian": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.024365977027301273,
+                0.048415046681641434
+              ],
+              "percentile97_5": [
+                -0.029434563757675964,
+                0.0540378900780588
+              ]
+            },
+            "harmonic_minus_plus_gaussian_mse": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.003503672297931692,
+                0.0035239225122407443
+              ],
+              "percentile97_5": [
+                -0.004033488239562085,
+                0.0039776962843344164
+              ]
+            },
+            "relative_mse_reduction_after_harmonic": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.04201065020173151,
+                0.04468288882989045
+              ],
+              "percentile97_5": [
+                -0.04801281062717642,
+                0.05124872697891369
+              ]
+            }
+          }
+        }
+      },
+      "shortlists": [
+        {
+          "method": "gaussian",
+          "canonical": [
+            60,
+            6,
+            7,
+            5,
+            15
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.48776200647029205,
+          "mean_folding_magnitude_kcal_per_mol": 1.047695084162769
+        },
+        {
+          "method": "harmonic",
+          "canonical": [
+            62,
+            63,
+            61,
+            60,
+            43
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.22421093797718328,
+          "mean_folding_magnitude_kcal_per_mol": 0.3828867385593962
+        },
+        {
+          "method": "ohm",
+          "canonical": [
+            16,
+            14,
+            9,
+            10,
+            12
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.22662854392568327,
+          "mean_folding_magnitude_kcal_per_mol": 0.7782627300079099
+        },
+        {
+          "method": "degree",
+          "canonical": [
+            82,
+            81,
+            114,
+            115,
+            15
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.28256820542756833,
+          "mean_folding_magnitude_kcal_per_mol": 0.9308870464553791
+        },
+        {
+          "method": "negative_distance",
+          "canonical": [
+            62,
+            52,
+            43,
+            12,
+            13
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.10408241641844565,
+          "mean_folding_magnitude_kcal_per_mol": 0.33168702115118764
+        }
+      ]
+    },
+    "GRB2": {
+      "n": 21,
+      "endpoint": "Equal-weight mean absolute GRB2 C-SH3 GAB2-binding ddG, kcal/mol",
+      "input_sha256": "d24dae9f0ce53476779cb3b7ceba77155afecf8acd54defcc789e119d818354d",
+      "mask_canonical": [
+        159,
+        160,
+        161,
+        162,
+        178,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        211,
+        212,
+        213,
+        214
+      ],
+      "prior_marginal_rho_reproduced": {
+        "gaussian": 0.38051948051948054,
+        "harmonic": 0.33506493506493507,
+        "ohm": -0.23766233766233766,
+        "degree": 0.48062726749317797,
+        "negative_distance": 0.2350649350649351
+      },
+      "partial_spearman": {
+        "gaussian_degree_distance": 0.32147408948096984,
+        "harmonic_degree_distance": 0.22009352667091728,
+        "ohm_degree_distance": -0.08864216618966106,
+        "gaussian_degree_distance_harmonic": 0.30767686421919355,
+        "gaussian_degree_distance_folding": 0.2616757479865595,
+        "harmonic_degree_distance_folding": 0.2435861289983757,
+        "gaussian_minus_harmonic_degree_distance": 0.10138056281005256
+      },
+      "fold_test_n": [
+        4,
+        3,
+        4,
+        6,
+        4
+      ],
+      "sequence_block10_sizes": [
+        4,
+        1,
+        6,
+        2,
+        4,
+        4
+      ],
+      "oof_prediction": {
+        "geometry": {
+          "oof_spearman": 0.24033778467961894,
+          "oof_percentile_mse": 0.10412513652941667,
+          "fold_mse": [
+            0.05295769609445726,
+            0.025790255479248788,
+            0.11934744259760045,
+            0.17178747033515526,
+            0.09732793097521031
+          ]
+        },
+        "geometry_gaussian": {
+          "oof_spearman": 0.29360183425726427,
+          "oof_percentile_mse": 0.09379386639845755,
+          "fold_mse": [
+            0.05183413229766802,
+            0.020106056313707273,
+            0.09911472053738112,
+            0.16461900901410195,
+            0.07946089000041967
+          ]
+        },
+        "geometry_harmonic": {
+          "oof_spearman": 0.22734655307531523,
+          "oof_percentile_mse": 0.10086397788720204,
+          "fold_mse": [
+            0.054520746721986424,
+            0.023327805277454153,
+            0.10699317253995726,
+            0.17579018356869028,
+            0.08684083533474099
+          ]
+        },
+        "geometry_harmonic_gaussian": {
+          "oof_spearman": 0.26502112472779604,
+          "oof_percentile_mse": 0.09626179854374602,
+          "fold_mse": [
+            0.050794038051369,
+            0.02023411693437354,
+            0.10092561057912042,
+            0.17267010601494423,
+            0.07947404700098071
+          ]
+        }
+      },
+      "oof_gaussian_addition": {
+        "mse_difference_positive_favours_gaussian": 0.010331270130959122,
+        "relative_mse_reduction": 0.09921975111207088,
+        "delta_spearman": 0.05326404957764533,
+        "fold_mse_difference": [
+          0.0011235637967892398,
+          0.005684199165541515,
+          0.020232722060219338,
+          0.00716846132105331,
+          0.017867040974790638
+        ],
+        "folds_improved": 5
+      },
+      "oof_gaussian_after_harmonic": {
+        "mse_difference_positive_favours_gaussian": 0.004602179343456025,
+        "relative_mse_reduction": 0.04562758122233414
+      },
+      "bootstrap": {
+        "site": {
+          "partial": {
+            "gaussian_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.3551135260647298,
+                0.7449441003125188
+              ],
+              "percentile97_5": [
+                -0.4414727251077817,
+                0.7909182352709305
+              ]
+            },
+            "harmonic_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.4060682531408938,
+                0.666319779312646
+              ],
+              "percentile97_5": [
+                -0.4855247759984293,
+                0.7151728465138871
+              ]
+            },
+            "ohm_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.5550704183539434,
+                0.5082279761411792
+              ],
+              "percentile97_5": [
+                -0.6178078582342924,
+                0.57491398422903
+              ]
+            },
+            "gaussian_degree_distance_harmonic": {
+              "valid_draws": 18688,
+              "undefined_draws": 1312,
+              "percentile95": [
+                -0.48417982787272756,
+                0.7140939530834401
+              ],
+              "percentile97_5": [
+                -0.5759715049701936,
+                0.7587492457408168
+              ]
+            },
+            "gaussian_degree_distance_folding": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.4902027364459428,
+                0.716895038374841
+              ],
+              "percentile97_5": [
+                -0.572943744067952,
+                0.769215542661384
+              ]
+            },
+            "harmonic_degree_distance_folding": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.4752381883574683,
+                0.6898957297585231
+              ],
+              "percentile97_5": [
+                -0.5594099109064279,
+                0.7451549945117153
+              ]
+            },
+            "gaussian_minus_harmonic_degree_distance": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.15832556489458696,
+                0.36034970639664365
+              ],
+              "percentile97_5": [
+                -0.21054916438795906,
+                0.4083252450295281
+              ]
+            }
+          },
+          "fixed_oof_loss": {
+            "baseline_minus_plus_gaussian_mse": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.00413778867864629,
+                0.024352534710821484
+              ],
+              "percentile97_5": [
+                -0.0064647187339545486,
+                0.026515094634702408
+              ]
+            },
+            "relative_mse_reduction_gaussian": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.04460361319421289,
+                0.23507823143901246
+              ],
+              "percentile97_5": [
+                -0.06750255892121919,
+                0.2550365433437391
+              ]
+            },
+            "harmonic_minus_plus_gaussian_mse": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.0009428182517110937,
+                0.010053452910400397
+              ],
+              "percentile97_5": [
+                -0.0017000324437166103,
+                0.010846507815361658
+              ]
+            },
+            "relative_mse_reduction_after_harmonic": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                -0.009632490137899371,
+                0.11290647252253763
+              ],
+              "percentile97_5": [
+                -0.01756805573986416,
+                0.12547322735449398
+              ]
+            }
+          }
+        },
+        "sequence_block10": {
+          "partial": {
+            "gaussian_degree_distance": {
+              "valid_draws": 19895,
+              "undefined_draws": 105,
+              "percentile95": [
+                -0.11773430514637438,
+                0.56678668669536
+              ],
+              "percentile97_5": [
+                -0.18451264931198416,
+                0.6181208474212616
+              ]
+            },
+            "harmonic_degree_distance": {
+              "valid_draws": 19895,
+              "undefined_draws": 105,
+              "percentile95": [
+                -0.1732160962860815,
+                0.48116328217570925
+              ],
+              "percentile97_5": [
+                -0.1981042081175654,
+                0.5593177107024347
+              ]
+            },
+            "ohm_degree_distance": {
+              "valid_draws": 19967,
+              "undefined_draws": 33,
+              "percentile95": [
+                -0.5585974466935526,
+                0.7170314980164612
+              ],
+              "percentile97_5": [
+                -0.6169865609553473,
+                0.8251863127228366
+              ]
+            },
+            "gaussian_degree_distance_harmonic": {
+              "valid_draws": 17690,
+              "undefined_draws": 2310,
+              "percentile95": [
+                -0.3676165388094427,
+                0.7457518369249411
+              ],
+              "percentile97_5": [
+                -0.4778664827610608,
+                0.787893449073941
+              ]
+            },
+            "gaussian_degree_distance_folding": {
+              "valid_draws": 19895,
+              "undefined_draws": 105,
+              "percentile95": [
+                -0.4038651329578033,
+                0.6314157606940437
+              ],
+              "percentile97_5": [
+                -0.48397013239020537,
+                0.788160186454857
+              ]
+            },
+            "harmonic_degree_distance_folding": {
+              "valid_draws": 19895,
+              "undefined_draws": 105,
+              "percentile95": [
+                -0.3553960571137066,
+                0.6817312191038188
+              ],
+              "percentile97_5": [
+                -0.42545370627514,
+                0.8381224100713617
+              ]
+            },
+            "gaussian_minus_harmonic_degree_distance": {
+              "valid_draws": 19895,
+              "undefined_draws": 105,
+              "percentile95": [
+                -0.10091910759116701,
+                0.3916826792865608
+              ],
+              "percentile97_5": [
+                -0.1508452152612998,
+                0.42071765567756647
+              ]
+            }
+          },
+          "fixed_oof_loss": {
+            "baseline_minus_plus_gaussian_mse": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                0.002845723087587057,
+                0.017562148781808715
+              ],
+              "percentile97_5": [
+                0.0014927655951761723,
+                0.018458359682309994
+              ]
+            },
+            "relative_mse_reduction_gaussian": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                0.026927816582922592,
+                0.16587185940351828
+              ],
+              "percentile97_5": [
+                0.0154652403208621,
+                0.1734820547143948
+              ]
+            },
+            "harmonic_minus_plus_gaussian_mse": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                0.003337892331273462,
+                0.005923517903159106
+              ],
+              "percentile97_5": [
+                0.003266621337662858,
+                0.006153428446046008
+              ]
+            },
+            "relative_mse_reduction_after_harmonic": {
+              "valid_draws": 20000,
+              "undefined_draws": 0,
+              "percentile95": [
+                0.02435547160961576,
+                0.07784388885028516
+              ],
+              "percentile97_5": [
+                0.02191295617504475,
+                0.08150050918873655
+              ]
+            }
+          }
+        }
+      },
+      "shortlists": [
+        {
+          "method": "gaussian",
+          "canonical": [
+            178,
+            211,
+            202,
+            183,
+            197
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.390733524881388,
+          "mean_folding_magnitude_kcal_per_mol": 0.952848459567084
+        },
+        {
+          "method": "harmonic",
+          "canonical": [
+            178,
+            211,
+            202,
+            183,
+            197
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.390733524881388,
+          "mean_folding_magnitude_kcal_per_mol": 0.952848459567084
+        },
+        {
+          "method": "ohm",
+          "canonical": [
+            202,
+            201,
+            199,
+            200,
+            162
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.33495420113883306,
+          "mean_folding_magnitude_kcal_per_mol": 0.914277212064302
+        },
+        {
+          "method": "degree",
+          "canonical": [
+            183,
+            197,
+            182,
+            185,
+            181
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.5801678012618827,
+          "mean_folding_magnitude_kcal_per_mol": 1.5281639147947899
+        },
+        {
+          "method": "negative_distance",
+          "canonical": [
+            178,
+            185,
+            197,
+            211,
+            202
+          ],
+          "mean_binding_magnitude_kcal_per_mol": 0.4249119896260557,
+          "mean_folding_magnitude_kcal_per_mol": 0.9033643203675397
+        }
+      ]
+    }
+  },
+  "runtime_seconds": 17.406136541976593
+}

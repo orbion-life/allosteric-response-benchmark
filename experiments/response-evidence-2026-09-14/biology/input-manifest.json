@@ -1,0 +1,12 @@
+{
+  "KRAS": {
+    "original_path": "historical-output/pulsar-field-switch-execution-2026-09-13/biology/results/all-residues-with-outcomes.csv",
+    "copied_path": "inputs/KRAS.csv",
+    "sha256": "3116e73a4cdf4f3a123b82c45062def14f738ea8e8fcbf5b91e81791679b64e2"
+  },
+  "GRB2": {
+    "original_path": "historical-output/pulsar-selection-experiments-2026-09-14/biology/results/site-aggregates-and-predictions.csv",
+    "copied_path": "inputs/GRB2.csv",
+    "sha256": "d24dae9f0ce53476779cb3b7ceba77155afecf8acd54defcc789e119d818354d"
+  }
+}

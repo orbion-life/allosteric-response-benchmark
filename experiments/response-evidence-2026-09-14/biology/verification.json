@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": {
+    "KRAS": {
+      "partial_inverse_correlation_identity": 0.1406361983428145,
+      "all_fold_predictions_independently_reproduced_max_abs_error": 1.0547118733938987e-15,
+      "fold_disjointness": true,
+      "bootstrap_first100_directly_reproduced": true,
+      "heldout_outcome_mutation_leaves_predictions_unchanged": true
+    },
+    "GRB2": {
+      "partial_inverse_correlation_identity": 0.32147408948096984,
+      "all_fold_predictions_independently_reproduced_max_abs_error": 5.551115123125783e-16,
+      "fold_disjointness": true,
+      "bootstrap_first100_directly_reproduced": true,
+      "heldout_outcome_mutation_leaves_predictions_unchanged": true
+    }
+  },
+  "replay_all_csv_json_and_bootstrap_arrays_equal": true,
+  "summary_sha256": "b0e91a76245d41d9c9fe13d3813b397a1f7a965441b8133d63bdeaeb4a696541"
+}

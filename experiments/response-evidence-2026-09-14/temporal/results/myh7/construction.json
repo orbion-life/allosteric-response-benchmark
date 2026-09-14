@@ -1,0 +1,106 @@
+{
+  "basis": {
+    "rank": 2972,
+    "seed_rank": 694,
+    "snapshot_rank": 2278,
+    "cutoff": 4.1547567939378966e-10,
+    "full_Gram_largest_eigenvalue": 4.154756793937897,
+    "minimum_Schur_eigenvalue": -5.1593113573278926e-23,
+    "mass_error": 4.383165539626198e-11
+  },
+  "checks": {
+    "mass_error": 4.383165539626198e-11,
+    "static_error": 9.703349235223868e-14,
+    "minimum_H_eigenvalue": 0.025575582241534205,
+    "maximum_H_eigenvalue": 28.921402923968845,
+    "PSD_allowance": 2.8921402923968846e-09,
+    "independent_exponential_max_abs": 5.452658723842374e-14
+  },
+  "reduction_seconds": 38.685469044,
+  "kernel_cost": [
+    {
+      "ratio": 0.0,
+      "seconds": 2.1254408700000056
+    },
+    {
+      "ratio": 0.0001,
+      "seconds": 2.129685643999977
+    },
+    {
+      "ratio": 0.0002,
+      "seconds": 2.127355236999989
+    },
+    {
+      "ratio": 0.001,
+      "seconds": 2.129406089000014
+    },
+    {
+      "ratio": 0.0011,
+      "seconds": 2.128812898999996
+    },
+    {
+      "ratio": 0.002,
+      "seconds": 2.1292678780000074
+    },
+    {
+      "ratio": 0.01,
+      "seconds": 2.1308522329999846
+    },
+    {
+      "ratio": 0.0101,
+      "seconds": 2.1283122319999848
+    },
+    {
+      "ratio": 0.011,
+      "seconds": 2.1300318829999867
+    },
+    {
+      "ratio": 0.02,
+      "seconds": 2.1311581510000224
+    },
+    {
+      "ratio": 0.1,
+      "seconds": 2.1329977999999983
+    },
+    {
+      "ratio": 0.1001,
+      "seconds": 2.1275789210000084
+    },
+    {
+      "ratio": 0.101,
+      "seconds": 2.1306611379999936
+    },
+    {
+      "ratio": 0.11,
+      "seconds": 2.129016704999998
+    },
+    {
+      "ratio": 0.2,
+      "seconds": 2.1299734309999963
+    },
+    {
+      "ratio": 1.0,
+      "seconds": 2.1309683580000183
+    },
+    {
+      "ratio": 1.0001,
+      "seconds": 2.128907632000022
+    },
+    {
+      "ratio": 1.001,
+      "seconds": 2.128794885000019
+    },
+    {
+      "ratio": 1.01,
+      "seconds": 2.1293625810000094
+    },
+    {
+      "ratio": 1.1,
+      "seconds": 2.129008760999966
+    },
+    {
+      "ratio": 2.0,
+      "seconds": 2.129383319999988
+    }
+  ]
+}

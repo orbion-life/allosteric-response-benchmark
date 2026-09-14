@@ -1,0 +1,1136 @@
+[
+  {
+    "label": "data-t0-0-0",
+    "time": 0.07873822765326266,
+    "i": 0,
+    "j": 0,
+    "time_index": 0,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.8559770743451892,
+    "expected_probability": 0.8559770743451928,
+    "probability_error": 3.552713678800501e-15,
+    "response": -0.18914920338163688,
+    "reference_response": -0.18914920338163227,
+    "response_error": 4.6074255521944e-15,
+    "response_probability_multiplier": 1.3133270451329608,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 618,
+      "ops": {
+        "r": 454,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 415
+    },
+    "compile_seconds": 0.02028283302206546,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t0-0-0.qasm"
+  },
+  {
+    "label": "data-t0-0-1",
+    "time": 0.07873822765326266,
+    "i": 0,
+    "j": 1,
+    "time_index": 0,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.6919255415736452,
+    "expected_probability": 0.6919255415736477,
+    "probability_error": 2.55351295663786e-15,
+    "response": -0.11343917103978407,
+    "reference_response": -0.11343917103978086,
+    "response_error": 3.2057689836051395e-15,
+    "response_probability_multiplier": 1.363787123845526,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 618,
+      "ops": {
+        "r": 454,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 415
+    },
+    "compile_seconds": 0.010122417006641626,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t0-0-1.qasm"
+  },
+  {
+    "label": "data-t0-0-2",
+    "time": 0.07873822765326266,
+    "i": 0,
+    "j": 2,
+    "time_index": 0,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.7051962525319952,
+    "expected_probability": 0.7051962525319977,
+    "probability_error": 2.4424906541753444e-15,
+    "response": -0.11790932697337753,
+    "reference_response": -0.11790932697337403,
+    "response_error": 3.497202527569243e-15,
+    "response_probability_multiplier": 1.3454532499651102,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 618,
+      "ops": {
+        "r": 454,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 415
+    },
+    "compile_seconds": 0.008298749977257103,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t0-0-2.qasm"
+  },
+  {
+    "label": "data-t0-1-1",
+    "time": 0.07873822765326266,
+    "i": 1,
+    "j": 1,
+    "time_index": 0,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.8520761620134805,
+    "expected_probability": 0.8520761620134828,
+    "probability_error": 2.3314683517128287e-15,
+    "response": -0.20948766216356202,
+    "reference_response": -0.2094876621635593,
+    "response_error": 2.7200464103316335e-15,
+    "response_probability_multiplier": 1.4161859576862321,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 617,
+      "ops": {
+        "r": 453,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 414
+    },
+    "compile_seconds": 0.008205333026126027,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t0-1-1.qasm"
+  },
+  {
+    "label": "data-t0-1-2",
+    "time": 0.07873822765326266,
+    "i": 1,
+    "j": 2,
+    "time_index": 0,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.6774946566750613,
+    "expected_probability": 0.6774946566750635,
+    "probability_error": 2.220446049250313e-15,
+    "response": -0.10925960741982962,
+    "reference_response": -0.10925960741982656,
+    "response_error": 3.066991105526995e-15,
+    "response_probability_multiplier": 1.3971476677028052,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 617,
+      "ops": {
+        "r": 453,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 414
+    },
+    "compile_seconds": 0.008639166015200317,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t0-1-2.qasm"
+  },
+  {
+    "label": "data-t0-2-2",
+    "time": 0.07873822765326266,
+    "i": 2,
+    "j": 2,
+    "time_index": 0,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.8534222248242413,
+    "expected_probability": 0.8534222248242438,
+    "probability_error": 2.4424906541753444e-15,
+    "response": -0.2020377214283588,
+    "reference_response": -0.2020377214283554,
+    "response_error": 3.3861802251067274e-15,
+    "response_probability_multiplier": 1.378365316202263,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 617,
+      "ops": {
+        "r": 453,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 414
+    },
+    "compile_seconds": 0.008776041970122606,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t0-2-2.qasm"
+  },
+  {
+    "label": "data-t1-0-0",
+    "time": 0.7873822765326265,
+    "i": 0,
+    "j": 0,
+    "time_index": 1,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5297509911789181,
+    "expected_probability": 0.5297509911789218,
+    "probability_error": 3.6637359812630166e-15,
+    "response": -0.6175907412316952,
+    "reference_response": -0.6175907412316903,
+    "response_error": 4.884981308350689e-15,
+    "response_probability_multiplier": 1.3133270451329608,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 618,
+      "ops": {
+        "r": 454,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 415
+    },
+    "compile_seconds": 0.008254333981312811,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t1-0-0.qasm"
+  },
+  {
+    "label": "data-t1-0-1",
+    "time": 0.7873822765326265,
+    "i": 0,
+    "j": 1,
+    "time_index": 1,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5111804809188639,
+    "expected_probability": 0.5111804809188668,
+    "probability_error": 2.886579864025407e-15,
+    "response": -0.3599369574594533,
+    "reference_response": -0.35993695745944937,
+    "response_error": 3.941291737419306e-15,
+    "response_probability_multiplier": 1.363787123845526,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 618,
+      "ops": {
+        "r": 454,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 415
+    },
+    "compile_seconds": 0.008455834002234042,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t1-0-1.qasm"
+  },
+  {
+    "label": "data-t1-0-2",
+    "time": 0.7873822765326265,
+    "i": 0,
+    "j": 2,
+    "time_index": 1,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5128571325704921,
+    "expected_probability": 0.5128571325704946,
+    "probability_error": 2.4424906541753444e-15,
+    "response": -0.3766926210210111,
+    "reference_response": -0.37669262102100776,
+    "response_error": 3.3306690738754696e-15,
+    "response_probability_multiplier": 1.3454532499651102,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 618,
+      "ops": {
+        "r": 454,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 415
+    },
+    "compile_seconds": 0.008476249990053475,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t1-0-2.qasm"
+  },
+  {
+    "label": "data-t1-1-1",
+    "time": 0.7873822765326265,
+    "i": 1,
+    "j": 1,
+    "time_index": 1,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5259934657024853,
+    "expected_probability": 0.5259934657024876,
+    "probability_error": 2.3314683517128287e-15,
+    "response": -0.6712813977236576,
+    "reference_response": -0.6712813977236545,
+    "response_error": 3.1086244689504383e-15,
+    "response_probability_multiplier": 1.4161859576862321,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 617,
+      "ops": {
+        "r": 453,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 414
+    },
+    "compile_seconds": 0.009454915998503566,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t1-1-1.qasm"
+  },
+  {
+    "label": "data-t1-1-2",
+    "time": 0.7873822765326265,
+    "i": 1,
+    "j": 2,
+    "time_index": 1,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5095814888268891,
+    "expected_probability": 0.5095814888268911,
+    "probability_error": 1.9984014443252818e-15,
+    "response": -0.34385909825549293,
+    "reference_response": -0.3438590982554901,
+    "response_error": 2.831068712794149e-15,
+    "response_probability_multiplier": 1.3971476677028052,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 617,
+      "ops": {
+        "r": 453,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 414
+    },
+    "compile_seconds": 0.008675625023897737,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t1-1-2.qasm"
+  },
+  {
+    "label": "data-t1-2-2",
+    "time": 0.7873822765326265,
+    "i": 2,
+    "j": 2,
+    "time_index": 1,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.526627167974525,
+    "expected_probability": 0.5266271679745272,
+    "probability_error": 2.220446049250313e-15,
+    "response": -0.6524806932963546,
+    "reference_response": -0.6524806932963514,
+    "response_error": 3.219646771412954e-15,
+    "response_probability_multiplier": 1.378365316202263,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 617,
+      "ops": {
+        "r": 453,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 414
+    },
+    "compile_seconds": 0.008112166018690914,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t1-2-2.qasm"
+  },
+  {
+    "label": "data-t2-0-0",
+    "time": 7.873822765326265,
+    "i": 0,
+    "j": 0,
+    "time_index": 2,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5000001297143732,
+    "expected_probability": 0.500000172029049,
+    "probability_error": 4.231467576332193e-08,
+    "response": -0.656663352209086,
+    "reference_response": -0.6566632966360779,
+    "response_error": 5.5573008084230935e-08,
+    "response_probability_multiplier": 1.3133270451329608,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 434,
+      "ops": {
+        "r": 314,
+        "cz": 120
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 280
+    },
+    "compile_seconds": 0.00687754200771451,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t2-0-0.qasm"
+  },
+  {
+    "label": "data-t2-0-1",
+    "time": 7.873822765326265,
+    "i": 0,
+    "j": 1,
+    "time_index": 2,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5000000713701631,
+    "expected_probability": 0.4999999799749464,
+    "probability_error": 9.139521672807405e-08,
+    "response": -0.37518465604129103,
+    "reference_response": -0.37518478068491085,
+    "response_error": 1.2464361981434635e-07,
+    "response_probability_multiplier": 1.363787123845526,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 434,
+      "ops": {
+        "r": 314,
+        "cz": 120
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 280
+    },
+    "compile_seconds": 0.006912167009431869,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t2-0-1.qasm"
+  },
+  {
+    "label": "data-t2-0-2",
+    "time": 7.873822765326265,
+    "i": 0,
+    "j": 2,
+    "time_index": 2,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.500000075968947,
+    "expected_probability": 0.49999996463608304,
+    "probability_error": 1.1133286398345987e-07,
+    "response": -0.39399118961054536,
+    "reference_response": -0.39399133940370906,
+    "response_error": 1.4979316370622442e-07,
+    "response_probability_multiplier": 1.3454532499651102,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 434,
+      "ops": {
+        "r": 314,
+        "cz": 120
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 280
+    },
+    "compile_seconds": 0.006897290993947536,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t2-0-2.qasm"
+  },
+  {
+    "label": "data-t2-1-1",
+    "time": 7.873822765326265,
+    "i": 1,
+    "j": 1,
+    "time_index": 2,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5000001297143732,
+    "expected_probability": 0.500000005079092,
+    "probability_error": 1.2463528120676415e-07,
+    "response": -0.708092795143442,
+    "reference_response": -0.7080929716501771,
+    "response_error": 1.7650673511671044e-07,
+    "response_probability_multiplier": 1.4161859576862321,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 433,
+      "ops": {
+        "r": 313,
+        "cz": 120
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 279
+    },
+    "compile_seconds": 0.007598124968353659,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t2-1-1.qasm"
+  },
+  {
+    "label": "data-t2-1-2",
+    "time": 7.873822765326265,
+    "i": 1,
+    "j": 2,
+    "time_index": 2,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.500000066335038,
+    "expected_probability": 0.5000000008259423,
+    "probability_error": 6.550909570357533e-08,
+    "response": -0.35724576034325795,
+    "reference_response": -0.3572458518691382,
+    "response_error": 9.152588026362096e-08,
+    "response_probability_multiplier": 1.3971476677028052,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 433,
+      "ops": {
+        "r": 313,
+        "cz": 120
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 279
+    },
+    "compile_seconds": 0.0071422079927288,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t2-1-2.qasm"
+  },
+  {
+    "label": "data-t2-2-2",
+    "time": 7.873822765326265,
+    "i": 2,
+    "j": 2,
+    "time_index": 2,
+    "identity_control": false,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.5000001297143739,
+    "expected_probability": 0.5000000112218769,
+    "probability_error": 1.1849249703654863e-07,
+    "response": -0.6891824793073376,
+    "reference_response": -0.6891826426332858,
+    "response_error": 1.6332594821033553e-07,
+    "response_probability_multiplier": 1.378365316202263,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 433,
+      "ops": {
+        "r": 313,
+        "cz": 120
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 279
+    },
+    "compile_seconds": 0.006928374990820885,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/data-t2-2-2.qasm"
+  },
+  {
+    "label": "control-t0-0-1",
+    "time": 0.0,
+    "i": 0,
+    "j": 1,
+    "time_index": -1,
+    "identity_control": true,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.7751050708831106,
+    "expected_probability": 0.7751050708831135,
+    "probability_error": 2.886579864025407e-15,
+    "response": -3.552713678800501e-15,
+    "reference_response": 0.0,
+    "response_error": 3.552713678800501e-15,
+    "response_probability_multiplier": 1.363787123845526,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 618,
+      "ops": {
+        "r": 454,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 415
+    },
+    "compile_seconds": 0.008018041029572487,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/control-t0-0-1.qasm"
+  },
+  {
+    "label": "control-t0-0-2",
+    "time": 0.0,
+    "i": 0,
+    "j": 2,
+    "time_index": -1,
+    "identity_control": true,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.7928316475012613,
+    "expected_probability": 0.792831647501263,
+    "probability_error": 1.6653345369377348e-15,
+    "response": -2.3869795029440866e-15,
+    "reference_response": 0.0,
+    "response_error": 2.3869795029440866e-15,
+    "response_probability_multiplier": 1.3454532499651102,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 618,
+      "ops": {
+        "r": 454,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 415
+    },
+    "compile_seconds": 0.008154750044923276,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/control-t0-0-2.qasm"
+  },
+  {
+    "label": "control-t0-1-2",
+    "time": 0.0,
+    "i": 1,
+    "j": 2,
+    "time_index": -1,
+    "identity_control": true,
+    "qubits": 6,
+    "mode_rank": 9,
+    "probability": 0.7556965604147519,
+    "expected_probability": 0.755696560414753,
+    "probability_error": 1.1102230246251565e-15,
+    "response": -1.609823385706477e-15,
+    "reference_response": 0.0,
+    "response_error": 1.609823385706477e-15,
+    "response_probability_multiplier": 1.3971476677028052,
+    "active_readout_local": 4,
+    "active_readout_device": 13,
+    "original": {
+      "qubits": 6,
+      "operations": 186,
+      "ops": {
+        "ry": 92,
+        "cx": 92,
+        "h": 2
+      },
+      "CX": 92,
+      "T": 0,
+      "rotations": 92,
+      "depth": 177
+    },
+    "compiled": {
+      "qubits": 6,
+      "operations": 617,
+      "ops": {
+        "r": 453,
+        "cz": 164
+      },
+      "CX": 0,
+      "T": 0,
+      "rotations": 0,
+      "depth": 414
+    },
+    "compile_seconds": 0.008170582994353026,
+    "final_index_layout": [
+      4,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "qasm_file": "circuits/control-t0-1-2.qasm"
+  }
+]

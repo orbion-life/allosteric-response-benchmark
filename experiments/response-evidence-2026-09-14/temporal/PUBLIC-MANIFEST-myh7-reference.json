@@ -1,0 +1,103 @@
+{
+  "release": "v0.9.0",
+  "study": "temporal",
+  "target": "myh7",
+  "part": "reference",
+  "files": [
+    {
+      "path": "DATA-AND-SOFTWARE-ATTRIBUTION.md",
+      "bytes": 1407,
+      "sha256": "b75ba43e48319793eb487d858886ac17715caac4ecccd0ca180767e7a576e8e8"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9"
+    },
+    {
+      "path": "PACKAGING.json",
+      "bytes": 2586,
+      "sha256": "d15535995acc3694e420d3112d07d35e5d1edbd064fcac88a170ee949fa6560d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3433,
+      "sha256": "1698c4206a7403875d1eb30ebe128a8e63ee5848b4adf0f5aba8682cc4163140"
+    },
+    {
+      "path": "analysis-reporting-corrections.json",
+      "bytes": 743,
+      "sha256": "0a85c3603b7015362fd969c2f668e07991ce80f58d917bae72510abf32fe1c9f"
+    },
+    {
+      "path": "analyze.py",
+      "bytes": 6754,
+      "sha256": "8844f93a8004a6ba9c24a6acc0930085cdfc4ee7cedd2510e66ea8bd1e3971ee"
+    },
+    {
+      "path": "campaign.py",
+      "bytes": 6072,
+      "sha256": "497b04438ed237886a7fdbfa29da53b1661ec57421866d6bb2fa9539dc79e352"
+    },
+    {
+      "path": "input-manifest.json",
+      "bytes": 2567,
+      "sha256": "3474a962b81567f1dbdac56ffdf761b198bdcddfc4bf7408beb219231c21c422"
+    },
+    {
+      "path": "portable-replay-verification.json",
+      "bytes": 1396,
+      "sha256": "7113f2e61f93554677fe528f0a51476f11a7c13c1519fa141b4b686577793aff"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 5226,
+      "sha256": "259b2a33c630da1cb197caaadc66c7244ce65ad4cb01979bb27228d031818f7c"
+    },
+    {
+      "path": "reference/event-aligned/protocol.json",
+      "bytes": 17894,
+      "sha256": "f0ea16936bd850e7245b9e7fd04cc60418caf83ffe34663856e9b01ae6879a4e"
+    },
+    {
+      "path": "reference/event-aligned/results/myh7/new-full-kernels.npy",
+      "bytes": 693555968,
+      "sha256": "cbd86082661a7c0f36adcef052237580bf70a4123d2c2f393acdf3718f152214"
+    },
+    {
+      "path": "reference/event-aligned/results/myh7/receipt.json",
+      "bytes": 5137,
+      "sha256": "3ee8b2211ec236e1c3cef1cbcdbec9459cc83251321e91b0e146b2c9121ada9c"
+    },
+    {
+      "path": "reference/protocol.json",
+      "bytes": 7703,
+      "sha256": "1f7793484c610efdd3a241c6a6154fb11089c612d15c3fd5835f90d19beda190"
+    },
+    {
+      "path": "reference/results/myh7/full-kernels.npy",
+      "bytes": 666584352,
+      "sha256": "7ecac5091d7b6f33e2058580d533a8c475f9b21414b5c8530877b249c06d954a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "35283d522c4a6935b7501123de6b7562a2486880ffc5a58e393a7fa11b0b4c5c"
+    },
+    {
+      "path": "source-seal.json",
+      "bytes": 1024,
+      "sha256": "39854149351fc2193d444eb70682afd45cad20255d2e32996acccedadb9f7d6b"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 6013,
+      "sha256": "1f1458bef5e9e0e8c8936a2af088838f18ba884e8bd612ece37764dfbceb4b8b"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 574,
+      "sha256": "065a1bc2f47745023ae56f9dd151384ce001500237cf688281bb1327b4038f3f"
+    }
+  ]
+}

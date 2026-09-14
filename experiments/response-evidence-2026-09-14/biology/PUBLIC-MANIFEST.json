@@ -1,0 +1,183 @@
+{
+  "release": "v0.9.0",
+  "study": "biology",
+  "target": null,
+  "part": null,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9"
+    },
+    {
+      "path": "PACKAGING.json",
+      "bytes": 1378,
+      "sha256": "1ff97080886f9a4982080ad23d0983868cb13844c0e90a082163aab7e8e42015"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 5615,
+      "sha256": "45d6ab5d1af9222ee0370831c45d02a601b04bcbfad5a5bd734b70af2b644529"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1993,
+      "sha256": "c0cee6ec2786c008f6c86bbc256f673d40ef9a90abd43dc158dd62ceccef2279"
+    },
+    {
+      "path": "SOURCES-AND-RIGHTS.md",
+      "bytes": 1691,
+      "sha256": "ae258be172aaaa461c5db00a892d61001999b8620dfd14ce3131433d5b7282bb"
+    },
+    {
+      "path": "analyze.py",
+      "bytes": 11161,
+      "sha256": "f45cbea46d16ee27023a5aedd68507a60346ef5e130a7070cd56f5a55536f3c4"
+    },
+    {
+      "path": "input-manifest.json",
+      "bytes": 539,
+      "sha256": "3695b1a8cc51bffb2e65439753301abf4c44bdc600407224df9ea73280d612b9"
+    },
+    {
+      "path": "inputs/GRB2.csv",
+      "bytes": 12481,
+      "sha256": "d24dae9f0ce53476779cb3b7ceba77155afecf8acd54defcc789e119d818354d"
+    },
+    {
+      "path": "inputs/KRAS.csv",
+      "bytes": 49094,
+      "sha256": "3116e73a4cdf4f3a123b82c45062def14f738ea8e8fcbf5b91e81791679b64e2"
+    },
+    {
+      "path": "portable-replay-verification.json",
+      "bytes": 490,
+      "sha256": "96f9fb71525395e8b5a5e51617be2bdc5627dec780ef57d384e09fecaa8b6971"
+    },
+    {
+      "path": "protocol-freeze.json",
+      "bytes": 444,
+      "sha256": "e225e9a884099d11c12d69c4264470cac5eb88119c4918e9a23107f13340ed58"
+    },
+    {
+      "path": "replay/GRB2-fold-models.json",
+      "bytes": 13241,
+      "sha256": "c429c9c74cc56bdad96b3309436d083832aa64736fa1ac2016a967380b6eb101"
+    },
+    {
+      "path": "replay/GRB2-per-site.csv",
+      "bytes": 8902,
+      "sha256": "1da7fd92e3b3c7d85a3f3fe6da73700a8f69b15b4240678dd8fd571a97518356"
+    },
+    {
+      "path": "replay/GRB2-sequence_block10-bootstrap.npz",
+      "bytes": 814985,
+      "sha256": "775a2ddf72e0b4dad91477d74d29e4d122f93c7d73e2919247c110d4bd816e17"
+    },
+    {
+      "path": "replay/GRB2-site-bootstrap.npz",
+      "bytes": 1949162,
+      "sha256": "b562e6d0199c13a7cd02b2762bb41a49f414eebf0a678bdae5699446962b139a"
+    },
+    {
+      "path": "replay/KRAS-fold-models.json",
+      "bytes": 18115,
+      "sha256": "c96ecd4494a2244beef0dc00cf883e8aba8c7db1f85147391f286cc03e839c01"
+    },
+    {
+      "path": "replay/KRAS-per-site.csv",
+      "bytes": 51642,
+      "sha256": "8ac2b77274b501c571c485fe57715cef2e0f5df3b28bd0af73101aa9652cdd15"
+    },
+    {
+      "path": "replay/KRAS-sequence_block10-bootstrap.npz",
+      "bytes": 2068695,
+      "sha256": "9dbe4aca00cb7824bc1bdeb957c40159e5c4eb5d332006847a94edada8459432"
+    },
+    {
+      "path": "replay/KRAS-site-bootstrap.npz",
+      "bytes": 4033728,
+      "sha256": "3b9cb8a9381b925358f5e9584132efd670c715b52147938d692fc9d5c6ea64ef"
+    },
+    {
+      "path": "replay/environment.json",
+      "bytes": 366,
+      "sha256": "720c661166bbdd22db730da2f1e51bf2c68a2500a44dbf89c0a8f5d134419c84"
+    },
+    {
+      "path": "replay/summary.json",
+      "bytes": 28992,
+      "sha256": "03bea3d646051a8b98ec27371e294a0ac870fb1fe8be13431aa9d874047ce898"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 41,
+      "sha256": "410b90af511363fe79884919395bb101292616971e0ccc116bae1bcabe123fd4"
+    },
+    {
+      "path": "results/GRB2-fold-models.json",
+      "bytes": 13241,
+      "sha256": "c429c9c74cc56bdad96b3309436d083832aa64736fa1ac2016a967380b6eb101"
+    },
+    {
+      "path": "results/GRB2-per-site.csv",
+      "bytes": 8902,
+      "sha256": "1da7fd92e3b3c7d85a3f3fe6da73700a8f69b15b4240678dd8fd571a97518356"
+    },
+    {
+      "path": "results/GRB2-sequence_block10-bootstrap.npz",
+      "bytes": 814985,
+      "sha256": "775a2ddf72e0b4dad91477d74d29e4d122f93c7d73e2919247c110d4bd816e17"
+    },
+    {
+      "path": "results/GRB2-site-bootstrap.npz",
+      "bytes": 1949162,
+      "sha256": "b562e6d0199c13a7cd02b2762bb41a49f414eebf0a678bdae5699446962b139a"
+    },
+    {
+      "path": "results/KRAS-fold-models.json",
+      "bytes": 18115,
+      "sha256": "c96ecd4494a2244beef0dc00cf883e8aba8c7db1f85147391f286cc03e839c01"
+    },
+    {
+      "path": "results/KRAS-per-site.csv",
+      "bytes": 51642,
+      "sha256": "8ac2b77274b501c571c485fe57715cef2e0f5df3b28bd0af73101aa9652cdd15"
+    },
+    {
+      "path": "results/KRAS-sequence_block10-bootstrap.npz",
+      "bytes": 2068695,
+      "sha256": "9dbe4aca00cb7824bc1bdeb957c40159e5c4eb5d332006847a94edada8459432"
+    },
+    {
+      "path": "results/KRAS-site-bootstrap.npz",
+      "bytes": 4033728,
+      "sha256": "3b9cb8a9381b925358f5e9584132efd670c715b52147938d692fc9d5c6ea64ef"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 366,
+      "sha256": "720c661166bbdd22db730da2f1e51bf2c68a2500a44dbf89c0a8f5d134419c84"
+    },
+    {
+      "path": "results/summary.json",
+      "bytes": 28992,
+      "sha256": "b0e91a76245d41d9c9fe13d3813b397a1f7a965441b8133d63bdeaeb4a696541"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 857,
+      "sha256": "ceac4132553485540111c6e3c95b7eb7c6ddcc253cd049d69718d863e986f392"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 4213,
+      "sha256": "0712d61b002036a4d28aa316f2d0c5d5ff4bbd55d6357f4b8704953cbd8f34f1"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 574,
+      "sha256": "065a1bc2f47745023ae56f9dd151384ce001500237cf688281bb1327b4038f3f"
+    }
+  ]
+}

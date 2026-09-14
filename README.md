@@ -1,5 +1,20 @@
 # Allosteric response benchmark
 
+## Version 0.9.0
+
+Project Pulsar computes residue responses in Gaussian protein models and compares classical and quantum estimators of the same quantities. This release adds held-out sequence comparisons, full transient response evidence and native six-qubit circuits.
+
+| Study | Result | Interpretation |
+|---|---|---|
+| Incremental biological information | GRB2 held-out binding-percentile mean squared error falls 9.92% after adding Gaussian response to degree and distance; KRAS falls 1.02%. | Exploratory within-protein information, not independent biological validation. |
+| Transient response preservation | 288 fresh matrices meet 0.002 across KRAS, ABL, MYC/MAX and MYH7. | Three targets pass numerical qualification; KRAS orthogonality still fails. |
+| Small quantum circuit | Six qubits, 18 data queries, 120–164 native CZ gates and maximum ideal response error 1.77 × 10⁻⁷. | Compiled and locally simulated, not executed on a QPU. |
+
+Read the [new experiment guide](experiments/response-evidence-2026-09-14/README.md), [scientific rationale](docs/evidence-v0.9.0/quantum-response-rationale.md), [release notes](RELEASE-NOTES-v0.9.0.md) and [asset manifest](docs/evidence-v0.9.0/ASSET-MANIFEST-v0.9.0.json). Large raw arrays are versioned release assets with complete local replay instructions.
+
+
+## Historical version 0.8.0
+
 **Pulsar investigates contact-energy responses in Gaussian protein models and explicit quantum estimators.** Version **0.8.0** adds constructed rank 347 KRAS spectral circuits and complete ideal adaptive cost accounting.
 
 | New question | Result | Evidence boundary |
@@ -9,7 +24,7 @@
 | Is the matched classical calculation charged? | 13.73 ms for diagonalization, all transformed observables and three response matrices after operator construction. | This preprocessing already permits fast classical evaluation; no quantum speedup. |
 | Can four targets prove general superiority? | Minimum conventional exact one-sided sign-test probability is 0.0625 for four independent nonzero differences. | Four-target delivery and a separately powered external study have different acceptance criteria. |
 
-Read the [v0.8.0 reviewer guide](docs/evidence-v0.8.0/README.md), [release notes](RELEASE-NOTES-v0.8.0.md), [asset manifest](docs/evidence-v0.8.0/ASSET-MANIFEST-v0.8.0.json) and [source with replay instructions](experiments/spectral-response-2026-09-14/README.md). Raw evidence and the revised proposal are versioned release assets. Earlier scientific failures and unknown labels remain explicit. Nothing has been submitted to the challenge.
+Read the [v0.8.0 reviewer guide](docs/evidence-v0.8.0/README.md), [release notes](RELEASE-NOTES-v0.8.0.md), [asset manifest](docs/evidence-v0.8.0/ASSET-MANIFEST-v0.8.0.json) and [source with replay instructions](experiments/spectral-response-2026-09-14/README.md). Raw evidence and the revised proposal are versioned release assets. Earlier scientific failures and unknown labels remain explicit.
 
 ## Historical version 0.7.0
 
@@ -24,7 +39,7 @@ Read the [v0.8.0 reviewer guide](docs/evidence-v0.8.0/README.md), [release notes
 
 Read the [v0.7.0 reviewer guide](docs/evidence-v0.7.0/README.md), [release notes](RELEASE-NOTES-v0.7.0.md), [asset manifest](docs/evidence-v0.7.0/ASSET-MANIFEST-v0.7.0.json) and [new experiment source](experiments/selection-2026-09-14/README.md). Large raw arrays and compiled circuits are versioned release assets. Publisher assay workbooks must be obtained separately under their source terms.
 
-The scoped new checks verify implementation and evidence integrity. Passing them does not repair the preserved original nonlinear, expanded temporal, noise or legacy strict-bound portability failures. Biological benefit, whole-estimator quantum execution at protein scale and practical quantum advantage remain unestablished. No proposal has been submitted to the challenge.
+The scoped new checks verify implementation and evidence integrity. Passing them does not repair the preserved original nonlinear, expanded temporal, noise or legacy strict-bound portability failures. Biological benefit, whole-estimator quantum execution at protein scale and practical quantum advantage remain unestablished.
 
 ## Historical version 0.6.0
 
