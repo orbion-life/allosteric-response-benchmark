@@ -49,9 +49,9 @@ def main(output):
             subprocess.run([sys.executable, "-W", "error", *args], cwd=cwd,
                            stdout=handle, stderr=subprocess.STDOUT, check=True)
 
-    run(["verify.py", "--mode", "protocol", "--output", str(output / "saved-protocol-tiny.json")],
+    run([str(ROOT / "ci_protocol_check.py"), "--root", str(ROOT), "--kind", "base", "--output", str(output / "saved-protocol-tiny.json")],
         ROOT, "saved-protocol-tiny.log")
-    run(["event-aligned/verify_addendum.py", "--mode", "protocol", "--output",
+    run([str(ROOT / "ci_protocol_check.py"), "--root", str(ROOT), "--kind", "event", "--output",
          str(output / "saved-event-protocol.json")], ROOT, "saved-event-protocol.log")
 
     fresh = output / "fresh-source"
@@ -65,9 +65,9 @@ def main(output):
     assert not (fresh / "inputs").exists()
     assert not list(fresh.rglob("*.npy"))
     run(["tiny_pulse.py"], fresh, "fresh-tiny-pulse.log")
-    run(["verify.py", "--mode", "protocol", "--output", str(output / "fresh-protocol-tiny.json")],
+    run([str(ROOT / "ci_protocol_check.py"), "--root", str(fresh), "--kind", "base", "--output", str(output / "fresh-protocol-tiny.json")],
         fresh, "fresh-protocol-tiny.log")
-    run(["event-aligned/verify_addendum.py", "--mode", "protocol", "--output",
+    run([str(ROOT / "ci_protocol_check.py"), "--root", str(fresh), "--kind", "event", "--output",
          str(output / "fresh-event-protocol.json")], fresh, "fresh-event-protocol.log")
 
     discrepancies = {}
@@ -87,6 +87,8 @@ def main(output):
         "status": "PASS",
         "scope": "Frozen source/protocol checks, archived tiny-pulse audit, fresh 64-state piecewise-field propagation, independent forward propagation, and saved/fresh tiny-array comparison. No four-protein reference-kernel or waveform replay.",
         "copied_public_file_hashes_verified": len(copied),
+        "ci_protocol_adapter_sha256": digest(ROOT / "ci_protocol_check.py"),
+        "grid_comparison_scope": "Only regenerated grid comparisons allow at most 32 binary64 ULPs. Historical exact-check outcomes and maximum discrepancies are retained in each protocol receipt. Saved times and kernel mappings are unchanged.",
         "fresh_tree_contains_protein_inputs": False,
         "corrected_receiver_peak_selector_fixture": correction_fixture,
         "peak_diagnostic_scope": "Original peak fields are withdrawn. CI checks the corrected selector fixture; replay of corrected protein peak metrics requires the separate waveform/correction workflow.",

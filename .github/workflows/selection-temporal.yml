@@ -30,14 +30,26 @@ jobs:
           python-version: '3.13'
       - name: Install the scoped numerical dependencies
         run: python -m pip install -r experiments/selection-2026-09-14/temporal/requirements-ci.txt
+      - name: Check rounding tolerance rejects altered or missing grid nodes
+        run: python -W error -m unittest discover -s experiments/selection-2026-09-14/temporal -p test_ci_protocol_check.py
       - name: Check protocols and rerun the 64-state pulse in a fresh tree
         working-directory: experiments/selection-2026-09-14/temporal
         run: python -W error ci_check.py --output "$RUNNER_TEMP/selection-temporal-check"
-      - name: Check typed receiver selectors and all four saved protein score fixtures
-        run: python -W error -m unittest discover -s experiments/response-evidence-2026-09-14/temporal -p test_receiver_ranking.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: selection-temporal-protocol-and-tiny-pulse
           path: ${{ runner.temp }}/selection-temporal-check
           if-no-files-found: warn
+  receiver-ranking-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install receiver analysis dependencies
+        run: python -m pip install -r experiments/response-evidence-2026-09-14/temporal/requirements.txt
+      - name: Check typed selectors and all four saved protein receiver scores
+        run: python -W error -m unittest discover -s experiments/response-evidence-2026-09-14/temporal -p test_receiver_ranking.py

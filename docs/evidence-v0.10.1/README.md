@@ -22,6 +22,8 @@ Informative means that the maximum eligible candidate receiver-RMS score exceeds
 
 The verifier separately diagonalizes the saved reduced generator, selects receiver columns explicitly and checks the scores and above-floor shortlists. All current full-matrix errors agree with their historical values. The old analyzer and verifier, which shared the indexing error, remain in the history directory with their superseded results. A software-check pass does not change the preserved nonlinear, biological, hardware or bound-portability findings.
 
+The [temporal CI adapter](../../experiments/selection-2026-09-14/temporal/ci_protocol_check.py) handles platform rounding when checking regenerated logarithmic grids. It requires unique stored matches within 32 binary64 ULPs and retains the exact historical check outcomes. Its adversarial tests reject changed, missing, duplicated or ambiguous nodes. The saved scientific times and all response thresholds are unchanged; the receiver tests run as a separate CI job.
+
 ## Download and replay
 
 The [v0.10.1 release](https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.10.1) contains the corrected report, editable source and `pulsar-temporal-receiver-correction-v0.10.1.zip`. The [asset manifest](ASSET-MANIFEST-v0.10.1.json) gives sizes and SHA256 hashes.
