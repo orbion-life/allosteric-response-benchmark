@@ -1,0 +1,38 @@
+{
+  "version": "0.9.1",
+  "date": "2026-09-14",
+  "release_type": "Report and documentation patch; no computational changes",
+  "scientific_evidence_release": "https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.9.0",
+  "scientific_evidence_commit": "0deb584047714a9ab886f81ae8ab17eeb2c217cf",
+  "assets": [
+    {
+      "name": "project-pulsar-scientific-report.pdf",
+      "bytes": 106602,
+      "sha256": "e87eb963b94f610b47883dbdfb392f5c3f2c9a228e5a76612c793e96f82df8de",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.1/project-pulsar-scientific-report.pdf"
+    },
+    {
+      "name": "project-pulsar-editable-source.zip",
+      "bytes": 298631,
+      "sha256": "e155f6c35949857a9fed1650b8f67868c3cf32fa6133cc5b0445c4656e050a6c",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.9.1/project-pulsar-editable-source.zip"
+    }
+  ],
+  "report_format": {
+    "main_pages": 6,
+    "appendices": 3,
+    "total_pages": 9,
+    "minimum_font_pt": 10.161890029907227
+  },
+  "verification": {
+    "changed_pages": [
+      2,
+      4,
+      9
+    ],
+    "other_pages_text_and_pixels_unchanged": true,
+    "all_pages_visually_checked": true,
+    "editable_rebuild_text_and_pixels_identical": true,
+    "numerical_results_unchanged": true
+  }
+}

@@ -1,5 +1,9 @@
 # Allosteric response benchmark
 
+## Version 0.9.1
+
+Version 0.9.1 clarifies the scientific report's literature rationale for mechanical allosteric screening and direct quantum overlap estimation. The [updated report and editable source](https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.9.1) accompany a [short explanation of the literature and its scope](docs/evidence-v0.9.1/README.md). Computational methods, measured results and raw evidence remain those of v0.9.0 below.
+
 ## Version 0.9.0
 
 Project Pulsar computes residue responses in Gaussian protein models and compares classical and quantum estimators of the same quantities. This release adds held-out sequence comparisons, full transient response evidence and native six-qubit circuits.
