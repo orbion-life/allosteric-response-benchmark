@@ -1,0 +1,25 @@
+{
+  "pdf_sha256": "56c0db977e28da2ad46f6e39f3a3121b8da63c51b75dbc4f0ba485051b314879",
+  "pdf_lines": 563,
+  "line_ids_unique": true,
+  "semantic_units": 242,
+  "prose_sentences": 178,
+  "headlines": 33,
+  "all_units_have_disposition": true,
+  "all_units_reviewed": "ACCEPT_FINAL",
+  "numbered_equations": 8,
+  "bibliography_entries": 20,
+  "source_sha256": {
+    "page1.tex": "0da1168330d83caf47531be1c1d5ac6dc042de55923ec70d417558c5add99d9b",
+    "page2.tex": "8fc7d858bf4b52115a6b6fa2a46c72e1b3e3700113d62233a74b483fb6054d0f",
+    "page3.tex": "2ccd104c4ba7bf9fdee6df79ff135965be0992e7613cbb493366bcda45899a4d",
+    "page4.tex": "400f14381f138d769cd11dab0b743a7749d472e06a97cba5cd2d25af2bf0e2d3",
+    "page5.tex": "c32309b4d32787d74591daaa4ef5e50ef5310d3f49b66396dee0eb0106741b70",
+    "page6.tex": "05c171cdf5b6670e77e6865fb7d4329a49b3c703c7f297a33690a5ee803b53cf",
+    "appendix-a.tex": "2622a16dbf77407e820e44254c8e3598c21d02b2ba387952f3536d09b284281e",
+    "appendix-b.tex": "41269951d0d32523744392c7fc930c36608c471e0922b89e6b6418f6ab3c728a",
+    "appendix-c.tex": "81539105ee550f51fe84f1ddec950146aa3f65f2d9dac90a44b7f166d3bee6bc",
+    "report.tex": "fcc6dbac80e3e199ade5db32393b3821f9f7a194267dd27d45e213933ec0bc55",
+    "selected-references.tex": "9c4ee23d97efd459260ffa38723c2341c5bb689a7816baf02db32780a8effc22"
+  }
+}

@@ -1,10 +1,9 @@
 {
   "release": "v0.10.1",
-  "study": "temporal",
-  "target": "kras",
-  "part": null,
-  "requires": "Original v0.9.0 target raw archive(s), then the v0.10.1 receiver correction overlay",
-  "historical_manifest": "history/receiver-ranking-before-2026-09-15/PUBLIC-MANIFEST-kras.json",
+  "study": "temporal-receiver-correction",
+  "date": "2026-09-15",
+  "scope": "Portable source, corrected summaries, independent verification, actual-data regression fixtures and preserved historical provenance. Original large arrays are reused without modification.",
+  "original_input_manifest": "correction-source-manifest.json",
   "files": [
     {
       "path": "CORRECTION-2026-09-15.md",
@@ -25,6 +24,31 @@
       "path": "PACKAGING.json",
       "bytes": 2979,
       "sha256": "4269d6fc1d0ede65beed8c9d560caae29489deef724340ee378d69afd899d1d6"
+    },
+    {
+      "path": "PUBLIC-MANIFEST-abl.json",
+      "bytes": 14169,
+      "sha256": "29d728c8438b0191e180743313ef2b784dc559de88b942bfa5b5d0b62bb76048"
+    },
+    {
+      "path": "PUBLIC-MANIFEST-kras.json",
+      "bytes": 14179,
+      "sha256": "93a18d8a6439cf142b46a7dae52c3de16ec2d51d3811c02c80b5d1cbf51df6dc"
+    },
+    {
+      "path": "PUBLIC-MANIFEST-myc.json",
+      "bytes": 14166,
+      "sha256": "cf1cf6e75c85a7621382d231b009a72a1ba882f07266998c63fb4f9d29776ded"
+    },
+    {
+      "path": "PUBLIC-MANIFEST-myh7-reference.json",
+      "bytes": 12850,
+      "sha256": "d71723cfe9cbf01caea87cfe532b98cc1099fda641081b0a24f40a569bfffba8"
+    },
+    {
+      "path": "PUBLIC-MANIFEST-myh7.json",
+      "bytes": 13300,
+      "sha256": "59d7f0ae6a2cd92765e4d8c7d05b4f97d2b18b16f4c2f384edc962f5df8e7605"
     },
     {
       "path": "README.md",
@@ -187,31 +211,6 @@
       "sha256": "3474a962b81567f1dbdac56ffdf761b198bdcddfc4bf7408beb219231c21c422"
     },
     {
-      "path": "inputs/kras/all-mode-harmonic-scales.npz",
-      "bytes": 1712,
-      "sha256": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c"
-    },
-    {
-      "path": "inputs/kras/fitted-covariance.npz",
-      "bytes": 3699057,
-      "sha256": "ad108dd9de87306b46296e89f2fc308d0ec2bc60ab009e8e866fcdadf3272a3d"
-    },
-    {
-      "path": "inputs/kras/ranking-metadata.npz",
-      "bytes": 951,
-      "sha256": "6ebdd6ee923ace5f4d57401608d9083331d402d67b3b5c881f805ade8ea2991a"
-    },
-    {
-      "path": "inputs/kras/reference-canary.npz",
-      "bytes": 797336,
-      "sha256": "f5d0cca1cb41d64409d783fba1da2a70cdc68e5c7b4591763f19d63f34fd7fab"
-    },
-    {
-      "path": "inputs/kras/static-model.npz",
-      "bytes": 2047314,
-      "sha256": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd"
-    },
-    {
       "path": "make_correction_package.py",
       "bytes": 5670,
       "sha256": "28f6a461b243b77c919dc2465601b5fd9909125bfee48714869600f1e241cb62"
@@ -235,31 +234,6 @@
       "path": "ranking.py",
       "bytes": 1705,
       "sha256": "6416e2cfd492e9a6bdeec58de85e2471cf336ee42484b513fe6174a3940a6ca1"
-    },
-    {
-      "path": "reference/event-aligned/protocol.json",
-      "bytes": 17894,
-      "sha256": "f0ea16936bd850e7245b9e7fd04cc60418caf83ffe34663856e9b01ae6879a4e"
-    },
-    {
-      "path": "reference/event-aligned/results/kras/new-full-kernels.npy",
-      "bytes": 39680768,
-      "sha256": "743e8a889a156e13826f63357dd11c6ad62e87656ce68366e7c34ea573bffcc8"
-    },
-    {
-      "path": "reference/event-aligned/results/kras/receipt.json",
-      "bytes": 5242,
-      "sha256": "821675eaaee48d9957b8d3b1e559038db5e7e475dc763d9bd654b331866c7b9a"
-    },
-    {
-      "path": "reference/protocol.json",
-      "bytes": 7703,
-      "sha256": "1f7793484c610efdd3a241c6a6154fb11089c612d15c3fd5835f90d19beda190"
-    },
-    {
-      "path": "reference/results/kras/full-kernels.npy",
-      "bytes": 38137632,
-      "sha256": "713e51b3283dbf394624ac4d6790ae995c1f5e8c71bc23fe972f466b52c32d8b"
     },
     {
       "path": "replay_correction.py",
@@ -297,11 +271,6 @@
       "sha256": "df455662b4e772c0aa176ecf8c6be5e4951ca4d0c0da8464daf66bf93c821095"
     },
     {
-      "path": "results/kras/basis-kernels.npz",
-      "bytes": 8362887,
-      "sha256": "df82cb0088b74bfa1a1e77a525de3e4af1075704fb4fbec3323c273cdfe053c2"
-    },
-    {
       "path": "results/kras/canary.json",
       "bytes": 361,
       "sha256": "138bd1a8655af471147e9c2687c414b659f18d999d541205470a63c0ca9617a7"
@@ -310,16 +279,6 @@
       "path": "results/kras/construction.json",
       "bytes": 2136,
       "sha256": "c6fee7165b27d18f70249c4418a9cdd5c903645c879277ece2f8d9a35eeb2f6d"
-    },
-    {
-      "path": "results/kras/fresh-kernels.npy",
-      "bytes": 15872384,
-      "sha256": "a216bfe254ead3333fbd26ba8cdffe7520d72310f037045c66c7e2a597615325"
-    },
-    {
-      "path": "results/kras/operator.npz",
-      "bytes": 33331162,
-      "sha256": "1df3edeace0d680a045376abc985e6d373fa7004bc4d2c0bb08d72ad39df8c88"
     },
     {
       "path": "results/kras/receipt.json",

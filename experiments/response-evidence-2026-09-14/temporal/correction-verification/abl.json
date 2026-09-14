@@ -1,0 +1,91 @@
+{
+  "target": "abl",
+  "status": "PASS",
+  "queries_verified": 554,
+  "fresh_queries_verified": 72,
+  "informative_queries": 47,
+  "identical_top5_order": 46,
+  "identical_top5_set": 46,
+  "maximum_fresh_matrix_error": 0.00018164937170861428,
+  "maximum_matrix_error_discrepancy": 8.326672684688674e-15,
+  "maximum_score_discrepancy": 1.1657341758564144e-15,
+  "receiver_indices": [
+    6,
+    7,
+    11,
+    14,
+    27,
+    28,
+    29,
+    44,
+    48,
+    71,
+    73,
+    74,
+    75,
+    76,
+    79,
+    128,
+    138,
+    139,
+    140
+  ],
+  "receiver_canonical": [
+    248,
+    249,
+    253,
+    256,
+    269,
+    270,
+    271,
+    286,
+    290,
+    313,
+    315,
+    316,
+    317,
+    318,
+    321,
+    370,
+    380,
+    381,
+    382
+  ],
+  "mismatches": [
+    {
+      "group": "fresh_removal",
+      "duration_over_tau": 0.7,
+      "time_over_tau": 0.7068193118118709,
+      "max_entry_error": 9.252471025433806e-05,
+      "candidate_receiver_max_entry_error": 1.4947832214756707e-05,
+      "candidate_score_max_abs": 4.107838192937523e-06,
+      "top5_set_agreement": 0.8,
+      "top5_order_identical": false,
+      "reference_top5": [
+        367,
+        267,
+        303,
+        298,
+        361
+      ],
+      "reduced_top5": [
+        367,
+        267,
+        303,
+        298,
+        385
+      ],
+      "reference_gap_5_6": 3.306259362297059e-08,
+      "reference_max_candidate_score": 0.007321339479038153,
+      "low_signal": false,
+      "post_removal_lag_over_tau": 0.006819311811870924
+    }
+  ],
+  "source_hashes": {
+    "metadata": "88450049f582bfee3d86036c5f78917b990c0df9b0e23486cc5420680be30aba",
+    "operator": "1e5728241c21cdf70f861fb7ee04452698678458c731f47dc996fe47f9e7ecd6",
+    "fresh_kernels": "a4845e4597fac629d725173fa60a85f6214c57952b1d2ee5761b8ddcd928ea1d",
+    "old_kernels": "30c7abc5f87783d70299b318b3629c9e44f6943f2fa5302668d8460a79d14913",
+    "event_kernels": "b8ba2881c64d8bb62d5a58962684b41045a4318524a07b67dab3f623db143e56"
+  }
+}

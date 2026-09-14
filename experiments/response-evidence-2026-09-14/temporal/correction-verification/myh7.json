@@ -1,0 +1,40 @@
+{
+  "target": "myh7",
+  "status": "PASS",
+  "queries_verified": 554,
+  "fresh_queries_verified": 72,
+  "informative_queries": 46,
+  "identical_top5_order": 46,
+  "identical_top5_set": 46,
+  "maximum_fresh_matrix_error": 0.0005560285367877116,
+  "maximum_matrix_error_discrepancy": 3.294077250554084e-14,
+  "maximum_score_discrepancy": 6.661338147750939e-16,
+  "receiver_indices": [
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "receiver_canonical": [
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "mismatches": [],
+  "source_hashes": {
+    "metadata": "af00f811ef8de8cf5ab2e87d29941f200b115f9ac930854791e44c0c85ee6b92",
+    "operator": "0a3ccca7ab181c7d1d6d7ef567d743bcfb7c271285367cba31dcbaf5c4260f6a",
+    "fresh_kernels": "a9331851bc78578c4c61b960a1760f983baf80b8c36629c5ddae99061a170531",
+    "old_kernels": "7ecac5091d7b6f33e2058580d533a8c475f9b21414b5c8530877b249c06d954a",
+    "event_kernels": "cbd86082661a7c0f36adcef052237580bf70a4123d2c2f393acdf3718f152214"
+  }
+}

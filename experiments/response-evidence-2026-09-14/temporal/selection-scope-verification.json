@@ -1,0 +1,232 @@
+{
+  "status": "PASS",
+  "scope": "Historical selection receiver RMS and complete candidate rankings, checked from all 28 saved waveform archives. The separately withdrawn ancillary peak fields remain withdrawn.",
+  "waveforms": 28,
+  "queries": 1916,
+  "rows": [
+    {
+      "target": "kras",
+      "file": "results/kras/pulse-0.03.npz",
+      "sha256": "afbde255c361bdfb14e6e94789faf14c3f2b988f90b50069d79ec8da65401d47",
+      "queries": 74,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "kras",
+      "file": "results/kras/pulse-0.3.npz",
+      "sha256": "0aa94ed71b23003d11d2f61acdfc8432d2c4b1689956bf4700e44e5ce9f5c42f",
+      "queries": 74,
+      "maximum_score_discrepancy": 8.326672684688674e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "kras",
+      "file": "results/kras/pulse-3.npz",
+      "sha256": "f58eba2d320970511352571d2df1c63aefe7f2ef48da15cb442fe6d6d76679ea",
+      "queries": 74,
+      "maximum_score_discrepancy": 8.326672684688674e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "kras",
+      "file": "results/kras/step.npz",
+      "sha256": "137f56c9426bc8aacf2d1510e41fc7dd6f81c29afed3e4095dc60e7f89b00e57",
+      "queries": 74,
+      "maximum_score_discrepancy": 8.326672684688674e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "kras",
+      "file": "event-aligned/results/kras/pulse-0.03.npz",
+      "sha256": "c802d4a44b3bace3fd5aecb60be42f07a903b3ad5a14525e30737efc39e014dc",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "kras",
+      "file": "event-aligned/results/kras/pulse-0.3.npz",
+      "sha256": "7729076d4689da73f6ae943c7328666c29720a54e54f738af6fa515a0126b83d",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "kras",
+      "file": "event-aligned/results/kras/pulse-3.npz",
+      "sha256": "262790bac99efa61554b81fe5052fb8c64077350c1d841bfe829693561e7fb1a",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "abl",
+      "file": "results/abl/pulse-0.03.npz",
+      "sha256": "5361eff1aebf9d33734ed751bed47aeb6846d26735aba208e38235269163a9b6",
+      "queries": 74,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "abl",
+      "file": "results/abl/pulse-0.3.npz",
+      "sha256": "6777e147b62b7e632d7f5c2b7be71c225ba0b742d8925f9183a7a991ca41dd15",
+      "queries": 74,
+      "maximum_score_discrepancy": 8.326672684688674e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "abl",
+      "file": "results/abl/pulse-3.npz",
+      "sha256": "4fafd55f72566b4b7899734613e7550ad19dc621269305723516b322fd0f1989",
+      "queries": 74,
+      "maximum_score_discrepancy": 8.326672684688674e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "abl",
+      "file": "results/abl/step.npz",
+      "sha256": "252a893910e0eaad6742ee275e09aa9456de7f34b1ed248586ce42709a66da74",
+      "queries": 74,
+      "maximum_score_discrepancy": 8.326672684688674e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "abl",
+      "file": "event-aligned/results/abl/pulse-0.03.npz",
+      "sha256": "9327a964988ae5ed4044b02a7fa22beb231a1d88d331fae70ae52868eeae3501",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "abl",
+      "file": "event-aligned/results/abl/pulse-0.3.npz",
+      "sha256": "5d1eef11dff3dc2a0bb050122408d52adf70472adc34a7a05c1be99be5377f4b",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "abl",
+      "file": "event-aligned/results/abl/pulse-3.npz",
+      "sha256": "19f202f4cc2048bdfeeab6922a74697e6966e356ea394c8942d74b2882177a73",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myc",
+      "file": "results/myc/pulse-0.03.npz",
+      "sha256": "a1b626546561485354b4a9d1a435a7f5d1e6ff445dd895cf4f3fa289e018e204",
+      "queries": 74,
+      "maximum_score_discrepancy": 2.7755575615628914e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myc",
+      "file": "results/myc/pulse-0.3.npz",
+      "sha256": "a4ad8c41f7bb1912a4df68f7f49e8669d591f71964f7b5d57b16ea07435ce206",
+      "queries": 74,
+      "maximum_score_discrepancy": 2.7755575615628914e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myc",
+      "file": "results/myc/pulse-3.npz",
+      "sha256": "54999cf5c0b93ff90b2e1a6a4a0c00ef97142180e5c04fe2974e09cb305d510e",
+      "queries": 74,
+      "maximum_score_discrepancy": 2.7755575615628914e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myc",
+      "file": "results/myc/step.npz",
+      "sha256": "3e6ff9e7bd5daa642632a497f9e230179b4075b090d6587ea44ea4628e31d356",
+      "queries": 74,
+      "maximum_score_discrepancy": 2.7755575615628914e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myc",
+      "file": "event-aligned/results/myc/pulse-0.03.npz",
+      "sha256": "4edbe8c1b4e926dc8d5ab56ec45971925086758e9e8ca495e27a9f1168973281",
+      "queries": 61,
+      "maximum_score_discrepancy": 6.938893903907228e-18,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myc",
+      "file": "event-aligned/results/myc/pulse-0.3.npz",
+      "sha256": "03e8220144c7fef5e3abf32733fd02c490eaecb53adeda70e3d85e90c3c73314",
+      "queries": 61,
+      "maximum_score_discrepancy": 6.938893903907228e-18,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myc",
+      "file": "event-aligned/results/myc/pulse-3.npz",
+      "sha256": "f6772744e5c8ce97f7c7e82ec31422f9d2b385a83bf535942e40f5cfca796120",
+      "queries": 61,
+      "maximum_score_discrepancy": 2.7755575615628914e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myh7",
+      "file": "results/myh7/pulse-0.03.npz",
+      "sha256": "d74ac023c6fd5b7030221f63c9d39f9065ef627d414745c149b6c1c630fa32c5",
+      "queries": 74,
+      "maximum_score_discrepancy": 1.1102230246251565e-16,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myh7",
+      "file": "results/myh7/pulse-0.3.npz",
+      "sha256": "d02c0503dba4d4c5f66b7e47209a7690dbc28002440a2c2caa1eafe34d616644",
+      "queries": 74,
+      "maximum_score_discrepancy": 1.1102230246251565e-16,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myh7",
+      "file": "results/myh7/pulse-3.npz",
+      "sha256": "bd5f89b9fe4c3548aad8c8ea9d6fd2e689410fa7277ffbdefda4970f8f3b20da",
+      "queries": 74,
+      "maximum_score_discrepancy": 1.1102230246251565e-16,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myh7",
+      "file": "results/myh7/step.npz",
+      "sha256": "d1152f202a974d1e7631deca592a42909644883f79ca5214fa3d4c47b1c35474",
+      "queries": 74,
+      "maximum_score_discrepancy": 1.1102230246251565e-16,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myh7",
+      "file": "event-aligned/results/myh7/pulse-0.03.npz",
+      "sha256": "80ed2c20e6406d9c23d728950f757140647a7f839d82152ed399f23d3c2541bb",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myh7",
+      "file": "event-aligned/results/myh7/pulse-0.3.npz",
+      "sha256": "b245d7c39cd3672c7f129b9935923b573f982ad210376f375e817b3b01c67ce4",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    },
+    {
+      "target": "myh7",
+      "file": "event-aligned/results/myh7/pulse-3.npz",
+      "sha256": "1963327c4139975d00133d32d2225244b3ee28b5d5346070efc2e89694c9750e",
+      "queries": 61,
+      "maximum_score_discrepancy": 5.551115123125783e-17,
+      "full_candidate_orders_match": true
+    }
+  ]
+}

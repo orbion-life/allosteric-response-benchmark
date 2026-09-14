@@ -1,0 +1,302 @@
+{
+  "date": "2026-09-15",
+  "release": "v0.10.1",
+  "status": "CORRECTED_FROM_ORIGINAL_SAVED_ARRAYS",
+  "sources": [
+    {
+      "path": "analyze.py",
+      "bytes": 8466,
+      "sha256": "93be3b8d9d94141046530ae464bb6d81e312e95c7c172a258dd4e563581fa1c4"
+    },
+    {
+      "path": "campaign.py",
+      "bytes": 6072,
+      "sha256": "497b04438ed237886a7fdbfa29da53b1661ec57421866d6bb2fa9539dc79e352"
+    },
+    {
+      "path": "history/initial-cuda-loader-failure/campaign.py",
+      "bytes": 6072,
+      "sha256": "497b04438ed237886a7fdbfa29da53b1661ec57421866d6bb2fa9539dc79e352"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/analyze.py",
+      "bytes": 6754,
+      "sha256": "8844f93a8004a6ba9c24a6acc0930085cdfc4ee7cedd2510e66ea8bd1e3971ee"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/previous-independent-verifier.py",
+      "bytes": 4042,
+      "sha256": "d397d74dc17ea4a01128ae7ec427a9f64b1d3bdaa19a640cd619cdeeafcd7bb4"
+    },
+    {
+      "path": "input-manifest.json",
+      "bytes": 2567,
+      "sha256": "3474a962b81567f1dbdac56ffdf761b198bdcddfc4bf7408beb219231c21c422"
+    },
+    {
+      "path": "make_correction_package.py",
+      "bytes": 5670,
+      "sha256": "28f6a461b243b77c919dc2465601b5fd9909125bfee48714869600f1e241cb62"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 5226,
+      "sha256": "259b2a33c630da1cb197caaadc66c7244ce65ad4cb01979bb27228d031818f7c"
+    },
+    {
+      "path": "provenance/executed-analyze.py",
+      "bytes": 6710,
+      "sha256": "50d937e10dd3dfdcbe75da628af44276c027b69817d54a0640d6225f96640180"
+    },
+    {
+      "path": "ranking.py",
+      "bytes": 1705,
+      "sha256": "6416e2cfd492e9a6bdeec58de85e2471cf336ee42484b513fe6174a3940a6ca1"
+    },
+    {
+      "path": "replay_correction.py",
+      "bytes": 2763,
+      "sha256": "263cc7963980f3b5d3a8be82de628510fd7d0643e830535fbc803e770d5c2d02"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "35283d522c4a6935b7501123de6b7562a2486880ffc5a58e393a7fa11b0b4c5c"
+    },
+    {
+      "path": "test_receiver_ranking.py",
+      "bytes": 4589,
+      "sha256": "22b59580cc5a0dc7afbc0a55f0ed760fda0936bbc56e1ef63a86e7e54083d2f3"
+    },
+    {
+      "path": "vendor/fixed_adapter.py",
+      "bytes": 10803,
+      "sha256": "dafbd7466852595a0b8e41de67edda5726a3995739fa9df31bdb536fdbf6e6c5"
+    },
+    {
+      "path": "vendor/gaussian_kernel.py",
+      "bytes": 17168,
+      "sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+    },
+    {
+      "path": "vendor/gaussian_protein.py",
+      "bytes": 17254,
+      "sha256": "d3af0a5a1612dbcfd009b8d51087fc7e4d7793859811e18fa0384e6e74318bac"
+    },
+    {
+      "path": "verify_correction.py",
+      "bytes": 9222,
+      "sha256": "d68728dc3e9c2be78440b2ab31bbc6e386baed7f643a3fa710902a625333ad5a"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 574,
+      "sha256": "065a1bc2f47745023ae56f9dd151384ce001500237cf688281bb1327b4038f3f"
+    },
+    {
+      "path": "verify_selection_scope.py",
+      "bytes": 2986,
+      "sha256": "b7a351d785deafd85039c2c4d36ac0d6e53f3ffb9ebbd691015e681a0793c7dd"
+    }
+  ],
+  "original_inputs": [
+    {
+      "target": "kras",
+      "path": "inputs/kras/ranking-metadata.npz",
+      "sha256": "6ebdd6ee923ace5f4d57401608d9083331d402d67b3b5c881f805ade8ea2991a",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "kras",
+      "path": "results/kras/operator.npz",
+      "sha256": "1df3edeace0d680a045376abc985e6d373fa7004bc4d2c0bb08d72ad39df8c88",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "kras",
+      "path": "results/kras/fresh-kernels.npy",
+      "sha256": "a216bfe254ead3333fbd26ba8cdffe7520d72310f037045c66c7e2a597615325",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "kras",
+      "path": "reference/results/kras/full-kernels.npy",
+      "sha256": "713e51b3283dbf394624ac4d6790ae995c1f5e8c71bc23fe972f466b52c32d8b",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "kras",
+      "path": "reference/event-aligned/results/kras/new-full-kernels.npy",
+      "sha256": "743e8a889a156e13826f63357dd11c6ad62e87656ce68366e7c34ea573bffcc8",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "abl",
+      "path": "inputs/abl/ranking-metadata.npz",
+      "sha256": "88450049f582bfee3d86036c5f78917b990c0df9b0e23486cc5420680be30aba",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "abl",
+      "path": "results/abl/operator.npz",
+      "sha256": "1e5728241c21cdf70f861fb7ee04452698678458c731f47dc996fe47f9e7ecd6",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "abl",
+      "path": "results/abl/fresh-kernels.npy",
+      "sha256": "a4845e4597fac629d725173fa60a85f6214c57952b1d2ee5761b8ddcd928ea1d",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "abl",
+      "path": "reference/results/abl/full-kernels.npy",
+      "sha256": "30c7abc5f87783d70299b318b3629c9e44f6943f2fa5302668d8460a79d14913",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "abl",
+      "path": "reference/event-aligned/results/abl/new-full-kernels.npy",
+      "sha256": "b8ba2881c64d8bb62d5a58962684b41045a4318524a07b67dab3f623db143e56",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myc",
+      "path": "inputs/myc/ranking-metadata.npz",
+      "sha256": "85ddedd9ba58b3fe9833a676c6d12e3b25ddf43638331c05a4bad0e93d5b9081",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myc",
+      "path": "results/myc/operator.npz",
+      "sha256": "58dc58aad94c1632eff87c1085dd53b08f8fe6f27996ac7541be00f65816c367",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myc",
+      "path": "results/myc/fresh-kernels.npy",
+      "sha256": "91018ad5d2517362885671292dfbd7377fc260b48b7118b4825fe1dc42d44459",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myc",
+      "path": "reference/results/myc/full-kernels.npy",
+      "sha256": "a62ff36dc4e1dc13f012291c52a5d7d77ac0cf1544650ce4c3339ccba98693ef",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myc",
+      "path": "reference/event-aligned/results/myc/new-full-kernels.npy",
+      "sha256": "f394b09a35394e4168c6207814fb4f21551350b0d0b8cc9adb498a4cdc2bac35",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myh7",
+      "path": "inputs/myh7/ranking-metadata.npz",
+      "sha256": "af00f811ef8de8cf5ab2e87d29941f200b115f9ac930854791e44c0c85ee6b92",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myh7",
+      "path": "results/myh7/operator.npz",
+      "sha256": "0a3ccca7ab181c7d1d6d7ef567d743bcfb7c271285367cba31dcbaf5c4260f6a",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myh7",
+      "path": "results/myh7/fresh-kernels.npy",
+      "sha256": "a9331851bc78578c4c61b960a1760f983baf80b8c36629c5ddae99061a170531",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myh7",
+      "path": "reference/results/myh7/full-kernels.npy",
+      "sha256": "7ecac5091d7b6f33e2058580d533a8c475f9b21414b5c8530877b249c06d954a",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    },
+    {
+      "target": "myh7",
+      "path": "reference/event-aligned/results/myh7/new-full-kernels.npy",
+      "sha256": "cbd86082661a7c0f36adcef052237580bf70a4123d2c2f393acdf3718f152214",
+      "status": "unchanged original saved input; supplied by v0.9.0 archives"
+    }
+  ],
+  "historical_provenance": [
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/PACKAGING.json",
+      "bytes": 2586,
+      "sha256": "d15535995acc3694e420d3112d07d35e5d1edbd064fcac88a170ee949fa6560d"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/PUBLIC-MANIFEST-abl.json",
+      "bytes": 6113,
+      "sha256": "375333750ddc237cd7177fdce89472af3c6885fb53cf3efcd92d41efa1c5c7ca"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/PUBLIC-MANIFEST-kras.json",
+      "bytes": 6126,
+      "sha256": "bd38332428215e03799bade52e79ae1b24e006c67f11f35061341c303c48be47"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/PUBLIC-MANIFEST-myc.json",
+      "bytes": 6110,
+      "sha256": "9b29f6df4fb0e15d162fc8ba7a4d73eb638cf71db97c75d059b7e8431d86bbfb"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/PUBLIC-MANIFEST-myh7-reference.json",
+      "bytes": 3130,
+      "sha256": "5bde9f5025a82adf14deeea460788e36c4b399152b2ca72bcefbed2f0aa6e0b0"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/PUBLIC-MANIFEST-myh7.json",
+      "bytes": 5247,
+      "sha256": "b47b847cc451d2552ccb3b065509a4d652928b0bfebaf279e00e615a1ad0715b"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/README.md",
+      "bytes": 3433,
+      "sha256": "1698c4206a7403875d1eb30ebe128a8e63ee5848b4adf0f5aba8682cc4163140"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/analyze.py",
+      "bytes": 6754,
+      "sha256": "8844f93a8004a6ba9c24a6acc0930085cdfc4ee7cedd2510e66ea8bd1e3971ee"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/portable-replay-verification.json",
+      "bytes": 1396,
+      "sha256": "7113f2e61f93554677fe528f0a51476f11a7c13c1519fa141b4b686577793aff"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/previous-independent-verifier.py",
+      "bytes": 4042,
+      "sha256": "d397d74dc17ea4a01128ae7ec427a9f64b1d3bdaa19a640cd619cdeeafcd7bb4"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/results/abl/analysis.json",
+      "bytes": 459438,
+      "sha256": "4b3412cfdc76b829c92e6e959d84af9e0bccfa091be7a9e483ba29d8bbdd6c50"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/results/kras/analysis.json",
+      "bytes": 450337,
+      "sha256": "9ab5a4e9d941a32a5f928b64d73ef429fc8b7064f834a6849d7dbe072f554fa2"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/results/myc/analysis.json",
+      "bytes": 452343,
+      "sha256": "3332ea8883992ed24cb397daa7d36b1d40190d57dea0098fa9cf2b07c1d14917"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/results/myh7/analysis.json",
+      "bytes": 453437,
+      "sha256": "af4cc69a5a2442c924020d571a1986dffdf046bb7f18cf3b66aeb1c3a0b664d7"
+    },
+    {
+      "path": "history/receiver-ranking-before-2026-09-15/summary.json",
+      "bytes": 6013,
+      "sha256": "1f1458bef5e9e0e8c8936a2af088838f18ba884e8bd612ece37764dfbceb4b8b"
+    }
+  ],
+  "scientific_status": "175/176 informative fresh shortlists preserved; all 288 fresh matrix errors pass; original KRAS mass-orthogonality failure and all historical bound-portability failures unchanged."
+}

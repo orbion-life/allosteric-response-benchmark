@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "sha256": "56c0db977e28da2ad46f6e39f3a3121b8da63c51b75dbc4f0ba485051b314879",
+  "bytes": 111113,
+  "pages": 9,
+  "main_pages": 6,
+  "appendices": 3,
+  "minimum_text_font_pt": 10.161890029907227,
+  "records": [
+    {
+      "page": 1,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.26152229309082,
+      "text_sha256": "81f3ab87d55a70b0e8c65e7497eca62cac046485022afb070dfc82a8a9b254e9"
+    },
+    {
+      "page": 2,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.161890029907227,
+      "text_sha256": "d21ee5452d7f1e36e398a85a1f145308489d0acc59fbb68db38b47bf04906ebc"
+    },
+    {
+      "page": 3,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.161890029907227,
+      "text_sha256": "647a06b742dc25f9c92e78a76c4245c15aee239eae5e78aa9f31d7b0b6fedd0f"
+    },
+    {
+      "page": 4,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.161890029907227,
+      "text_sha256": "ae1bacb4cecb6675d65bf92adcd95911622d1422ed20c85adb759db48f0a08ad"
+    },
+    {
+      "page": 5,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.26152229309082,
+      "text_sha256": "7d293abc79f73dd943996d1082fc8472a7329b7558388b58bd49539d045a4e23"
+    },
+    {
+      "page": 6,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.161890029907227,
+      "text_sha256": "0e94dfd91bea8341523805dfd0f650fb49de883178e4c415fb9f478565bc675e"
+    },
+    {
+      "page": 7,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.161890029907227,
+      "text_sha256": "5d1b11b633cdae5b207d00edf9685b030982a25c06e0a657cef54ccd374b86fe"
+    },
+    {
+      "page": 8,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.161890029907227,
+      "text_sha256": "912c778b07767edad75edf81b334a88b4ba29234b3f37bc109f2b8429c77144a"
+    },
+    {
+      "page": 9,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375,
+      "minimum_text_font_pt": 10.26152229309082,
+      "text_sha256": "bed07266eadbfb04cbe4086ddb02d1f7986bd9f115657ebe99a5e02dda5d4644"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "release": "v0.10.1",
-  "scientific_results": "Receiver-derived ranking and candidate-receiver fields corrected on 2026-09-15. Full saved matrices, operators, construction and numerical qualification unchanged. Historical unfavorable results preserved.",
+  "release": "v0.9.0",
+  "scientific_results": "Preserved, including unfavorable results. Packaging updates only paths, excluded internal task text, removed provider IDs and default reference lookup.",
   "modified_files": [
     {
       "path": "README.md",
@@ -44,8 +44,5 @@
     }
   ],
   "excluded": "Python caches, cloud launch/download wrappers, local logs, generated archives, internal prose and account-specific receipts. No publisher assay workbooks or literature PDFs included.",
-  "additional_dependency_note": "Dependency packages are installed from requirements.txt, not redistributed. Provider task identifiers and original local output paths are excluded. Generated replay receipts record the new path-independent checks.",
-  "correction": "CORRECTION-2026-09-15.md",
-  "historical_packaging": "history/receiver-ranking-before-2026-09-15/PACKAGING.json",
-  "modified_files_status": "The list below records the earlier v0.9.0 path adaptation. The current correction source and overlay hashes are in correction-source-manifest.json and CORRECTION-MANIFEST.json."
+  "additional_dependency_note": "Dependency packages are installed from requirements.txt, not redistributed. Provider task identifiers and original local output paths are excluded. Generated replay receipts record the new path-independent checks."
 }

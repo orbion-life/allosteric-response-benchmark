@@ -9,4 +9,4 @@ These studies add three complementary tests to the response benchmark: whether G
 
 Large arrays and historical replays are release assets. See the [asset manifest](../../docs/evidence-v0.9.0/ASSET-MANIFEST-v0.9.0.json) for exact names and hashes. A software verification pass is distinct from a scientific acceptance outcome.
 
-The [proposed nonlinear adequacy study](../../docs/evidence-v0.9.0/nonlinear-model-adequacy.md) compares unchanged Gaussian and harmonic controls with a qualified finite nonlinear triangle reference at predefined additional times. It introduces no new measured result.
+The nonlinear comparison was subsequently completed in [v0.10.0](../model-adequacy-2026-09-14/README.md). The [v0.10.1 receiver correction](temporal/CORRECTION-2026-09-15.md) supersedes the earlier 148/148 shortlist claim with 175/176 and preserves all 288 fresh matrix-error passes. Apply its correction overlay after extracting the original temporal archives.

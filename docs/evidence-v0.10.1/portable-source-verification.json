@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "reference_pdf_sha256": "56c0db977e28da2ad46f6e39f3a3121b8da63c51b75dbc4f0ba485051b314879",
+  "rebuilt_pdf_sha256": "4f641a3e10ab40153c2ae246ff903aa2f8a13943218f3c961c8f3ca8873aaf90",
+  "method": "Rebuild from ZIP extracted into a separate clean directory, compare all page text and Poppler RGB pixels at1600px",
+  "page_count": 9,
+  "all_page_text_identical": true,
+  "all_rendered_pixels_identical": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    },
+    {
+      "page": 2,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    },
+    {
+      "page": 3,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    },
+    {
+      "page": 4,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    },
+    {
+      "page": 5,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    },
+    {
+      "page": 6,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    },
+    {
+      "page": 7,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    },
+    {
+      "page": 8,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    },
+    {
+      "page": 9,
+      "text_identical": true,
+      "rendered_pixels_identical": true
+    }
+  ],
+  "editable_zip_sha256": "6025eec18a13a881d29874022fa404e06bd0b4fb105962ebe024ba46565affd5",
+  "editable_zip_bytes": 597210,
+  "all_final_archive_members_verified": true
+}

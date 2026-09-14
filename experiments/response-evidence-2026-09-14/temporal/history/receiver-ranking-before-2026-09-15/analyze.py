@@ -1,9 +1,8 @@
-"""Response and candidate ranking comparison with explicit typed selectors."""
+"""Response and candidate ranking comparison on frozen old and fresh queries."""
 import os
 for k in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','VECLIB_MAXIMUM_THREADS']:os.environ[k]='3'
 from pathlib import Path
-import sys,json,time,hashlib,resource,argparse
-from ranking import validated_indices, receiver_rms
+import sys,json,time,hashlib,resource
 import numpy as np
 from scipy.linalg.blas import dgemm
 ROOT=Path(__file__).resolve().parent
@@ -12,21 +11,15 @@ def sha(p):
     with Path(p).open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 def dump(p,x):Path(p).write_text(json.dumps(x,indent=2,allow_nan=False)+'\n')
 
-def run(target, data_root=ROOT, reference_root=OLD, output_root=ROOT):
-    data_root=Path(data_root); reference_root=Path(reference_root); output_root=Path(output_root)
-    destination=output_root/'results'/target
-    if (destination/'analysis.json').exists():raise FileExistsError('Output analysis already exists; choose a new destination')
-    start=time.perf_counter();out=data_root/'results'/target;z=np.load(out/'operator.npz');receipt=json.loads((out/'receipt.json').read_text())
+def run(target):
+    start=time.perf_counter();out=ROOT/'results'/target;z=np.load(out/'operator.npz');receipt=json.loads((out/'receipt.json').read_text())
     assert sha(out/'operator.npz')==receipt['operator_sha256'];assert sha(out/'fresh-kernels.npy')==receipt['fresh_kernel_sha256']
-    op=json.loads((reference_root/'protocol.json').read_text());ep=json.loads((reference_root/'event-aligned/protocol.json').read_text())
-    oldpath=reference_root/'results'/target/'full-kernels.npy';eventpath=reference_root/'event-aligned/results'/target/'new-full-kernels.npy'
+    op=json.loads((OLD/'protocol.json').read_text());ep=json.loads((OLD/'event-aligned/protocol.json').read_text())
+    oldpath=OLD/'results'/target/'full-kernels.npy';eventpath=OLD/'event-aligned/results'/target/'new-full-kernels.npy'
     er=json.loads((eventpath.parent/'receipt.json').read_text());assert sha(oldpath)==ep['prior_full_kernel_hashes'][target];assert sha(eventpath)==er['full_kernel_sha256']
     old=np.load(oldpath,mmap_mode='r');event=np.load(eventpath,mmap_mode='r');fresh=np.load(out/'fresh-kernels.npy',mmap_mode='r')
     oi={float(t):i for i,t in enumerate(op['all_exact_kernel_times_over_tau'])};ei={float(t):i for i,t in enumerate(ep['new_exact_kernel_times_over_tau'])};fi={float(t):i for i,t in enumerate(P['fresh_kernel_times_over_tau'])}
-    metadata_path=data_root/'inputs'/target/'ranking-metadata.npz'
-    expected=next(x['sha256'] for x in json.loads((ROOT/'input-manifest.json').read_text()) if x['target']==target and x['file'].endswith('/ranking-metadata.npz'))
-    if sha(metadata_path)!=expected:raise ValueError('Ranking metadata hash mismatch')
-    meta=np.load(metadata_path,allow_pickle=False);ids=meta['canonical'];cand=validated_indices(meta['candidate'],len(ids),kind='mask');rec=validated_indices(meta['receiver'],len(ids),kind='indices');tau=float(z['tau']);lam=z['lambda_'];QB=dgemm(1.,z['Q'].T,z['B']);G0=old[oi[0.]];cache={}
+    meta=np.load(ROOT/'inputs'/target/'ranking-metadata.npz');cand=np.flatnonzero(meta['candidate']);rec=np.flatnonzero(meta['receiver']);ids=meta['canonical'];tau=float(z['tau']);lam=z['lambda_'];QB=dgemm(1.,z['Q'].T,z['B']);G0=old[oi[0.]];cache={}
     def K(t):
         if t in fi:return fresh[fi[t]]
         if t in oi:return old[oi[t]]
@@ -40,7 +33,7 @@ def run(target, data_root=ROOT, reference_root=OLD, output_root=ROOT):
             t=float(t);f=K(t)-G0;r=C(t)
             if lags is not None:
                 lag=float(lags[it]);f=f-(K(lag)-G0);r=r-C(lag)
-            e=abs(r-f);fs=receiver_rms(f,rec);rs=receiver_rms(r,rec);fo=cand[np.lexsort((ids[cand],-fs[cand]))];ro=cand[np.lexsort((ids[cand],-rs[cand]))];membership=len(set(fo[:5])&set(ro[:5]))/5
+            e=abs(r-f);fs=np.sqrt(np.mean(f[:,rec]**2,axis=1));rs=np.sqrt(np.mean(r[:,rec]**2,axis=1));fo=cand[np.lexsort((ids[cand],-fs[cand]))];ro=cand[np.lexsort((ids[cand],-rs[cand]))];membership=len(set(fo[:5])&set(ro[:5]))/5
             row={'time_over_tau':t,'max_entry_error':float(e.max()),'candidate_receiver_max_entry_error':float(e[np.ix_(cand,rec)].max()),'candidate_score_max_abs':float(abs(fs[cand]-rs[cand]).max()),'top5_set_agreement':membership,'top5_order_identical':bool(np.array_equal(fo[:5],ro[:5])),'reference_top5':ids[fo[:5]].tolist(),'reduced_top5':ids[ro[:5]].tolist(),'reference_gap_5_6':float(fs[fo[4]]-fs[fo[5]]),'reference_max_candidate_score':float(fs[cand].max()),'low_signal':bool(fs[cand].max()<=.002)}
             if lags is not None:row['post_removal_lag_over_tau']=float(lags[it])
             rows.append(row)
@@ -60,14 +53,6 @@ def run(target, data_root=ROOT, reference_root=OLD, output_root=ROOT):
         q=metric(g['observation_times_over_tau'],g['post_removal_lags_over_tau']);q['duration_over_tau']=g['duration_over_tau'];results['historical_event_aligned'].append(q)
     checks=receipt['checks'];num=checks['mass_error']<=1e-8 and checks['static_error']<=1e-10 and checks['minimum_H_eigenvalue']>=-checks['PSD_allowance'] and checks['independent_exponential_max_abs']<=1e-8
     allgroups=[results['fresh_step']]+results['fresh_removal']+[results['historical_step']]+results['historical_pulse']+results['historical_event_aligned']
-    result={'target':target,'status':'COMPLETE','numerical_checks_pass':num,'all_sampled_fidelity_groups_pass':all(r['all_entries_pass'] for r in allgroups),'rank':len(lam),'N':len(G0),'checks':checks,'results':results,'seconds':time.perf_counter()-start,'peak_RSS_bytes':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*(1 if sys.platform=='darwin' else 1024),'protocol_sha256':sha(ROOT/'protocol.json'),'source_sha256':sha(__file__),'receiver_semantics':{'candidate_encoding':'boolean-mask','receiver_encoding':'integer-indices','receiver_indices':rec.tolist(),'receiver_canonical':ids[rec].tolist(),'metadata_sha256':sha(metadata_path)},'ranking_source_sha256':sha(ROOT/'ranking.py'),'inputs':{'old_full_kernel_sha256':sha(oldpath),'event_full_kernel_sha256':sha(eventpath),'fresh_full_kernel_sha256':sha(out/'fresh-kernels.npy')}}
-    destination=output_root/'results'/target;destination.mkdir(parents=True,exist_ok=True);dump(destination/'analysis.json',result);print(target,'COMPLETE',result['all_sampled_fidelity_groups_pass'],round(result['seconds'],2),flush=True);return result
-if __name__=='__main__':
-    parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('target',choices=P['targets'])
-    parser.add_argument('--data-root',type=Path,default=ROOT)
-    parser.add_argument('--reference-root',type=Path,default=OLD)
-    parser.add_argument('--output',type=Path,required=True,help='Separate destination for derived analysis; existing analysis is not overwritten')
-    args=parser.parse_args()
-    if (args.output/'results'/args.target/'analysis.json').exists():parser.error('Output analysis already exists; choose a new destination')
-    run(args.target,args.data_root,args.reference_root,args.output)
+    result={'target':target,'status':'COMPLETE','numerical_checks_pass':num,'all_sampled_fidelity_groups_pass':all(r['all_entries_pass'] for r in allgroups),'rank':len(lam),'N':len(G0),'checks':checks,'results':results,'seconds':time.perf_counter()-start,'peak_RSS_bytes':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*(1 if sys.platform=='darwin' else 1024),'protocol_sha256':sha(ROOT/'protocol.json'),'source_sha256':sha(__file__),'inputs':{'old_full_kernel_sha256':sha(oldpath),'event_full_kernel_sha256':sha(eventpath),'fresh_full_kernel_sha256':sha(out/'fresh-kernels.npy')}}
+    dump(out/'analysis.json',result);print(target,'COMPLETE',result['all_sampled_fidelity_groups_pass'],round(result['seconds'],2),flush=True);return result
+if __name__=='__main__':run(sys.argv[1])

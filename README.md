@@ -1,6 +1,14 @@
 # Allosteric response benchmark
 
-## Version 0.10.0
+## Version 0.10.1
+
+Version 0.10.1 corrects the temporal receiver-index analysis and publishes a replayable record of the change. Across the four fixed Gaussian protein models, the complete top-five order is preserved in **175 of 176 informative fresh queries**, with one ABL membership change. All **288 fresh full-matrix error checks** remain within 0.002. The models and raw kernel arrays are unchanged.
+
+The correction adds explicit selector validation, adversarial regression tests, saved receiver-score fixtures for all four proteins and an independent verifier covering 2,216 query records. The updated report and [research protocols](docs/evidence-v0.10.1/bounded-research-plan.md) distinguish these completed checks from the proposed physical-model, compact-loading and independent-family tests.
+
+Start with the [v0.10.1 guide](docs/evidence-v0.10.1/README.md), [correction record](experiments/response-evidence-2026-09-14/temporal/CORRECTION-2026-09-15.md) and [release files](https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.10.1). The small correction archive overlays the original v0.9.0 temporal data. Earlier releases remain available, with the superseded receiver results identified explicitly.
+
+## Historical version 0.10.0
 
 Version 0.10.0 implements ABL contact factors and a complete seventeen-qubit response circuit on a three-residue ABL fragment, then tests the unchanged Gaussian and harmonic approximations against the original nonlinear reference at ten times. The small circuit reproduces its Gaussian response in ideal simulation, while both physical approximations fail the nonlinear response target. Full-protein loading remains unresolved and matched classical ABL matrices take milliseconds after preparation.
 
