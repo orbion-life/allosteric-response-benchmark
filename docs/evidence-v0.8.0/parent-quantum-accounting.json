@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "Independent saved-schedule confidence inversion and complete cost reconstruction; actual QPY rotation bank checked against analytic Rz. No hardware or all-query statevector execution.",
+  "checks": [
+    {
+      "model": "triangle",
+      "outputs": 18,
+      "all_intervals_rebuilt": true,
+      "covered": 18,
+      "all_rotation_word_T_costs_rebuilt": true,
+      "max_bank_operator_error": 6.322327852257734e-11,
+      "total_readouts": 20992,
+      "total_T": 141682054144,
+      "total_CX": 118141952,
+      "T_ratio_to_fixed_Hoeffding_sampler": 0.03728436753206946,
+      "max_Grover_power": 212,
+      "complete_response_allowance": 0.0014596855595118802
+    },
+    {
+      "model": "kras",
+      "outputs": 41583,
+      "all_intervals_rebuilt": true,
+      "covered": 41583,
+      "all_rotation_word_T_costs_rebuilt": true,
+      "max_bank_operator_error": 1.2678331230315164e-12,
+      "total_readouts": 63497472,
+      "total_T": 56450203649724416,
+      "total_CX": 32712522454784,
+      "T_ratio_to_fixed_Hoeffding_sampler": 0.013360506234203108,
+      "max_Grover_power": 633,
+      "complete_response_allowance": 0.0019684674055921126
+    }
+  ]
+}

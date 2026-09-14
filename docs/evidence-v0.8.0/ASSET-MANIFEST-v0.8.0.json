@@ -1,0 +1,32 @@
+{
+  "release": "v0.8.0",
+  "date": "2026-09-14",
+  "scope": "New Pulsar proposal, editable source, complete spectral circuit evidence and independent review records. Existing large historical assets remain in earlier immutable releases.",
+  "assets": [
+    {
+      "name": "pulsar-scientific-report.pdf",
+      "bytes": 105200,
+      "sha256": "b704af0855cf7c4d7a0dbb60c942669dd8b2cb8c1aa7422588bc0460d9fc1507",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.8.0/pulsar-scientific-report.pdf"
+    },
+    {
+      "name": "pulsar-editable-source.zip",
+      "bytes": 187613,
+      "sha256": "b14297e315bcda34384465c749fa28d53494edf7767a2f647aa0b78c8555c717",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.8.0/pulsar-editable-source.zip"
+    },
+    {
+      "name": "pulsar-protein-quantum-cost-evidence.zip",
+      "bytes": 15025821,
+      "sha256": "1b2befa07d77b95d7ddc27522bd8e6d4f36a0bf30e897de3d30d2189f56957f0",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.8.0/pulsar-protein-quantum-cost-evidence.zip"
+    },
+    {
+      "name": "pulsar-evidence-review.zip",
+      "bytes": 17871,
+      "sha256": "9b97005a986e9b814be8d7f7d2ed3d2305414d9afbabe527d6800d73c98989c8",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.8.0/pulsar-evidence-review.zip"
+    }
+  ],
+  "repository_readme_adaptation": "experiments/spectral-response-2026-09-14/REPOSITORY-PACKAGING.json"
+}

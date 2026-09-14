@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-09-14T11:15:09.413257+00:00",
+  "scope": "Before full model IQAE and FT bank outcomes. Fresh-batch counter correction preserved in history.",
+  "files": {
+    "protocol.json": "159f0e73cfafbfea444efa34ca3362c9c2a7fc6d678614bfbb8f98d335d0ca72",
+    "iqae.py": "1ce1d5952008040f328e1aa9b8aed61f6c6eb96edc582974a64acf5360a55ad1",
+    "fault_tolerant.py": "812ce8764036d8b79dc654bf00295702a3a28e8dbe28bd7ddbb3b9082bfc5490",
+    "run_iqae.py": "b6d56e710b8f8c8027ff6862c5487aa4f53959345032d57254cc0f06f4dd8469",
+    "test_iqae.py": "3024ad84e60697e8d9b293dd34fe73428c0b01dccaea226fde89a192b590e592"
+  }
+}

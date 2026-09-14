@@ -1,0 +1,2024 @@
+{
+  "status": "CURATED_PUBLIC_EVIDENCE",
+  "archive_prefix": "pulsar-biological-quantum-resolution-2026-09-14/quantum/",
+  "excludes": [
+    "Installed runtimes and Python caches",
+    "Redundant relocated CI directory",
+    "Internal process profiler dumps",
+    "Redundant cached raw copy; primary cached raw retained"
+  ],
+  "minimum_source_CI": [
+    "ci_smoke.py",
+    "iqae.py",
+    "spectral.py",
+    "vendor/multiplexed.py",
+    "requirements-ci.txt"
+  ],
+  "scope": "Own scientific source, protocols, inputs, generated circuits/results and explicit correction history. No full articles, account inventories, credentials or personal memory.",
+  "files": [
+    {
+      "path": "CONFIDENCE-AND-ENCODING.md",
+      "bytes": 6884,
+      "sha256": "2d5592c4ac36e38dd1328a4bdd337473fc48a24361c179c551161bd9335d241d",
+      "repository": true
+    },
+    {
+      "path": "FT-kras.log",
+      "bytes": 1014,
+      "sha256": "9bea0ef8fafed17e0e6c5dff7914a1ce57d9873c5e3e39f1083ed57519f4888a",
+      "repository": false
+    },
+    {
+      "path": "FT-triangle.log",
+      "bytes": 1592,
+      "sha256": "2bfc4a069100a2a8f01c60735ec9d3208d7d44ef7c51973dcdfabe843ad250f0",
+      "repository": false
+    },
+    {
+      "path": "IQAE-kras-cached.log",
+      "bytes": 2695,
+      "sha256": "abff7e0575c08e792bbff790b2525fdf5d278448b970c424de379d74e89d9e97",
+      "repository": false
+    },
+    {
+      "path": "IQAE-kras.log",
+      "bytes": 2694,
+      "sha256": "9b8f2eebecf068d537ea54b7ca910f032941f6b297394b11c66fefd2e9109596",
+      "repository": false
+    },
+    {
+      "path": "IQAE-triangle.log",
+      "bytes": 2647,
+      "sha256": "a53bf8dcd6bd4da2c579c8dd0069eb7b81ee0abda142b0313c6a232b1ef6177c",
+      "repository": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 12411,
+      "sha256": "e27519b6a1df2fbd8a0570284a0cb516b973fb5246322d8770d12f34c8c3d964",
+      "repository": true
+    },
+    {
+      "path": "check_compiled_triangle.py",
+      "bytes": 1874,
+      "sha256": "75ad44ddeffdd211cc6670a0a9cf5a5aeee5728acffda944214961aaaccd0905",
+      "repository": true
+    },
+    {
+      "path": "ci-portability-verification.json",
+      "bytes": 953,
+      "sha256": "305f1061d7933c306b84632d66a990779b6420edc404be681babed6f0744278b",
+      "repository": true
+    },
+    {
+      "path": "ci_smoke.py",
+      "bytes": 1724,
+      "sha256": "116d8aaf09b466b7ad7a9936c0df381be02e1dc8c1cfffa9d0f9557e64a8eb59",
+      "repository": true
+    },
+    {
+      "path": "compiled-triangle.log",
+      "bytes": 675,
+      "sha256": "cc1140d73cbd5bd68de93eb2976c2a4d2111443f86f16fbfad9b4b99c8bd7480",
+      "repository": false
+    },
+    {
+      "path": "fault_tolerant.py",
+      "bytes": 4893,
+      "sha256": "812ce8764036d8b79dc654bf00295702a3a28e8dbe28bd7ddbb3b9082bfc5490",
+      "repository": true
+    },
+    {
+      "path": "final-source-seal.json",
+      "bytes": 1734,
+      "sha256": "8d3d39d27dce001c8e50d428c0f915a63a9d8849a30b0c61d30b73063c760df9",
+      "repository": true
+    },
+    {
+      "path": "history/fresh-batch-counter/IQAE-fixed-amplitude-tests.npz",
+      "bytes": 6835,
+      "sha256": "821b26e09502f1c0ac7e3fc477bb6cfde6fe9e77e8b890e049f881c4303b648e",
+      "repository": false
+    },
+    {
+      "path": "history/fresh-batch-counter/IQAE-test-receipt.json",
+      "bytes": 766,
+      "sha256": "d098b0fa9faa80a870ab5c7836e9fdc1658a9274e8072ec86808493afdc6f6fe",
+      "repository": false
+    },
+    {
+      "path": "history/fresh-batch-counter/correction.json",
+      "bytes": 526,
+      "sha256": "4e36eeedfee6e36480b79862ac1e0309abf3b7c4618f40c4645114468471d6d7",
+      "repository": false
+    },
+    {
+      "path": "history/fresh-batch-counter/iqae.py",
+      "bytes": 4603,
+      "sha256": "5c7d2964d21285fad57fb4b8944f47965447905da4962f10425bd3c818d5a4fd",
+      "repository": false
+    },
+    {
+      "path": "history/fresh-batch-counter/source-seal-native.json",
+      "bytes": 508,
+      "sha256": "ed7190f046a3df4e37d993fcc335ac71a04224059031f24385d7c6544d9b7dd0",
+      "repository": false
+    },
+    {
+      "path": "history/repeated-NPZ-decompression/IQAE-kras.log",
+      "bytes": 2694,
+      "sha256": "9b8f2eebecf068d537ea54b7ca910f032941f6b297394b11c66fefd2e9109596",
+      "repository": false
+    },
+    {
+      "path": "history/repeated-NPZ-decompression/cached-copy-IQAE-receipt.json",
+      "bytes": 2695,
+      "sha256": "abff7e0575c08e792bbff790b2525fdf5d278448b970c424de379d74e89d9e97",
+      "repository": false
+    },
+    {
+      "path": "history/repeated-NPZ-decompression/correction.json",
+      "bytes": 1336,
+      "sha256": "2d5c50001de062a0dfb77206b6cd528890b9a9abf8382da1ecc852636a95b272",
+      "repository": false
+    },
+    {
+      "path": "history/repeated-NPZ-decompression/original-IQAE-receipt.json",
+      "bytes": 2694,
+      "sha256": "9b8f2eebecf068d537ea54b7ca910f032941f6b297394b11c66fefd2e9109596",
+      "repository": false
+    },
+    {
+      "path": "history/repeated-NPZ-decompression/run_iqae.py",
+      "bytes": 6320,
+      "sha256": "b6d56e710b8f8c8027ff6862c5487aa4f53959345032d57254cc0f06f4dd8469",
+      "repository": false
+    },
+    {
+      "path": "history/repeated-NPZ-decompression/source-seal-IQAE.json",
+      "bytes": 624,
+      "sha256": "3c178354f85953f118a77efc32e3a3a84e1ef1f589458b97b29d19e91d998558",
+      "repository": false
+    },
+    {
+      "path": "independent-verification.json",
+      "bytes": 1315,
+      "sha256": "b56df23e1364b024b132c3a920fecc6087fc58d45a157511c292d8c5027cccff",
+      "repository": true
+    },
+    {
+      "path": "inputs/kras-primary-receipt.json",
+      "bytes": 35840,
+      "sha256": "4bf6d602fd63338d2dfbf25f0234ff07df38de330d9b937b0b9fe264f7bdb7fa",
+      "repository": false
+    },
+    {
+      "path": "inputs/kras-prior-receipt.json",
+      "bytes": 4775,
+      "sha256": "1fd64a68a4b8fe8e24139cfbecc571bc8d1850ed12083d3cd4ef3e65eeaf3e85",
+      "repository": false
+    },
+    {
+      "path": "inputs/kras.npz",
+      "bytes": 3013476,
+      "sha256": "33543fa36eba45f878c8ef313073570824be68e2c98e030698a46a9d585293b7",
+      "repository": false
+    },
+    {
+      "path": "inputs/provenance.json",
+      "bytes": 2249,
+      "sha256": "4c8639bab9b7d80af45fc23e9e3c190720c7d64407de6caeec9d9a7a69699ea6",
+      "repository": true
+    },
+    {
+      "path": "inputs/triangle-gradient-receipt.json",
+      "bytes": 13018,
+      "sha256": "947bd9b4ea0cffd815b546d1d6a96750d2b6270a0d5671655f983db200e05a20",
+      "repository": false
+    },
+    {
+      "path": "inputs/triangle-primary-receipt.json",
+      "bytes": 26394,
+      "sha256": "0671efbf191331bf135b83de908ab9d2b674c1d578897fa2ef48a4604234e0f3",
+      "repository": false
+    },
+    {
+      "path": "inputs/triangle.npz",
+      "bytes": 7453,
+      "sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+      "repository": true
+    },
+    {
+      "path": "iqae.py",
+      "bytes": 4595,
+      "sha256": "1ce1d5952008040f328e1aa9b8aed61f6c6eb96edc582974a64acf5360a55ad1",
+      "repository": true
+    },
+    {
+      "path": "native-kras.log",
+      "bytes": 183,
+      "sha256": "7dfa6a4fb5b87c099d186f1539ea8dae49ae759f93f7e3a09177a757b72b945e",
+      "repository": false
+    },
+    {
+      "path": "native-triangle.log",
+      "bytes": 711,
+      "sha256": "db4e83400b33b5d6befb0d3378833231edf1a98f33697c19f6a69cbadd918184",
+      "repository": false
+    },
+    {
+      "path": "package_evidence.py",
+      "bytes": 4136,
+      "sha256": "d0e9b087ad68a3447cdfa81ec62070910969e566d3c06e4fef0ba5e736c58deb",
+      "repository": true
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 3217,
+      "sha256": "159f0e73cfafbfea444efa34ca3362c9c2a7fc6d678614bfbb8f98d335d0ca72",
+      "repository": true
+    },
+    {
+      "path": "requirements-ci.txt",
+      "bytes": 41,
+      "sha256": "2f99eabe97e0fae261863098e87ac99e3c0aaaef11444659e8b00c60fb9d6b95",
+      "repository": true
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 217,
+      "sha256": "2466d79444365e181f8c683a2039a079c7646338d18a03d9dd2ca4ec14dc5cae",
+      "repository": true
+    },
+    {
+      "path": "results/IQAE-fixed-amplitude-tests.npz",
+      "bytes": 6829,
+      "sha256": "6c245753385a1c918717b9be7851cbf66434fd28cca0cb91d96a31bf014d7f7c",
+      "repository": false
+    },
+    {
+      "path": "results/IQAE-test-receipt.json",
+      "bytes": 763,
+      "sha256": "a69bf0b56f755619bbd7c01095aa6c6ee4afb8f2c3ce2af7ffdf56d5dec2086b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/A-case0.qpy",
+      "bytes": 337793,
+      "sha256": "21c3eb97a606deb7894c6937cab397d5f41b272c966884fb2ff823b493ad2106",
+      "repository": false
+    },
+    {
+      "path": "results/kras/A-case1.qpy",
+      "bytes": 337793,
+      "sha256": "f8830898ffb10b4b48dae8aff1dabbae875d7ae84cb894c0d7107349a0eb830f",
+      "repository": false
+    },
+    {
+      "path": "results/kras/A-case2.qpy",
+      "bytes": 275451,
+      "sha256": "c84cdedb5de20adfc4fe0578ffe09ccbe04f9cfd40be8832b0aa8db5e2c702c2",
+      "repository": false
+    },
+    {
+      "path": "results/kras/A-case3.qpy",
+      "bytes": 337793,
+      "sha256": "c67df2140c9b40c56bbef0bfdaca237d84887d9d3a56433e21ee22b9d79671cc",
+      "repository": false
+    },
+    {
+      "path": "results/kras/A-case4.qpy",
+      "bytes": 337793,
+      "sha256": "12fe94ebcfbd2af10dcb9944ce13acc8bbe3a66d9313ceb06e5af655618887af",
+      "repository": false
+    },
+    {
+      "path": "results/kras/IQAE-all-outputs.npz",
+      "bytes": 4683817,
+      "sha256": "203c8f39040e2e3ac71853047fdbb86c706d05fc4ea34e4c948bd9b3382ddc95",
+      "repository": false
+    },
+    {
+      "path": "results/kras/IQAE-receipt.json",
+      "bytes": 2695,
+      "sha256": "abff7e0575c08e792bbff790b2525fdf5d278448b970c424de379d74e89d9e97",
+      "repository": false
+    },
+    {
+      "path": "results/kras/Q-case0.qpy",
+      "bytes": 684003,
+      "sha256": "b6f13e9c9bc8dded9a49e69532c22b215601863a0ee38534f384c37956d038b3",
+      "repository": false
+    },
+    {
+      "path": "results/kras/Q-case1.qpy",
+      "bytes": 684003,
+      "sha256": "52d6af20e6621df6a4a73c7bcfe6fac4bda8d8466aa33c3928b40a622aa57405",
+      "repository": false
+    },
+    {
+      "path": "results/kras/Q-case2.qpy",
+      "bytes": 559319,
+      "sha256": "c5362151b7e06b4a1ed945c1c5e6ae669d1a352e7e9f9f767652423c3b7efd5b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/Q-case3.qpy",
+      "bytes": 684003,
+      "sha256": "ee93e504c8a8570fa87a203cf37ae478a01cd8baee651a1f2576d46ad38603c4",
+      "repository": false
+    },
+    {
+      "path": "results/kras/Q-case4.qpy",
+      "bytes": 684003,
+      "sha256": "a80053cbaaf03468a1ad41544acfc6a3f6060a4e689ef88b810e0a926664210b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/filter-0.qpy",
+      "bytes": 112860,
+      "sha256": "26b1bde65a3ddc8ce4bc653d3960f299472a9f7bbf7aad71661f95727933c77d",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/filter-1.qpy",
+      "bytes": 112860,
+      "sha256": "567793de82e9bbf6fec30ba8f24a2375ab3ec77084188badfe262f4983cd5cdf",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/filter-2.qpy",
+      "bytes": 50518,
+      "sha256": "29086a5864357f2cf1a1df0dc615c08c5f0f723e3792af01ece298c23ff9ad0d",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-0.qpy",
+      "bytes": 112642,
+      "sha256": "e66732e9df7463ecacf7c87604e2ae521f679ea4c47e31b4d7fd6ea089a4577e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-1.qpy",
+      "bytes": 112642,
+      "sha256": "49294d8e842276ae2816465382d8aec602f99f6ee1c66c30a936f2569257ce1a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-10.qpy",
+      "bytes": 112642,
+      "sha256": "7493bc03171b1d88fb50d0efb9c2c5eabf3dc3472fd4eaf7665c1f12d2444155",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-100.qpy",
+      "bytes": 112642,
+      "sha256": "38c78359197860307ddb9dbac10359675c92e18991360bad0fb1e7e8d4921450",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-101.qpy",
+      "bytes": 112642,
+      "sha256": "5e9be0e6dc550f2da06d1a0564106222eb7d3c60811399098735f073c43275f8",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-102.qpy",
+      "bytes": 112642,
+      "sha256": "a1de979b50c07747b194bfbcf66925f56dc3e8913878b66640f47ff097965690",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-103.qpy",
+      "bytes": 112642,
+      "sha256": "10c3d0f68f5e01d9e35fb5368b850f9a84ca3d3ddc7951f6ba4191d844a55b2b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-104.qpy",
+      "bytes": 112642,
+      "sha256": "0ed5fd03ae0ba290ec9e1e173e825a0034ae7b7addbca05671688986b0b5e7b2",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-105.qpy",
+      "bytes": 112642,
+      "sha256": "00485f0b8b8e6fd16159311cf57c3cbac370ab9990605f74318e64a89f214c71",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-106.qpy",
+      "bytes": 112642,
+      "sha256": "af637d3ce29d855fa1952487303d78e242165ab34dd3fcfc2271b3ed2b20d3d6",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-107.qpy",
+      "bytes": 112642,
+      "sha256": "9aa3042d57f56f3c1dbe7ec427bba3e00e00126672e3dd22df6220faf0cdb442",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-108.qpy",
+      "bytes": 112642,
+      "sha256": "9721b0065da2f3522a8b466d942731a167705ab988f91da5e87eac76695e5fc8",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-109.qpy",
+      "bytes": 112642,
+      "sha256": "80574df95c51ccc4e1ae0291157c512a5ff7876de2363a764788799a8e7f6c52",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-11.qpy",
+      "bytes": 112642,
+      "sha256": "7fb1a856e0021633b3cdcc03e1e1f10f49d81247161faa2e0514571a9af6834a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-110.qpy",
+      "bytes": 112642,
+      "sha256": "fece699f1bce2edfd4cfca088a29abadc60fa082166a06721937a8d5617690b2",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-111.qpy",
+      "bytes": 112642,
+      "sha256": "4bbe588e932b5c4caef16c554d41653075aee1bd8786b97063d77ed94d3b651e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-112.qpy",
+      "bytes": 112642,
+      "sha256": "40f81b6b2d677d9eb9e8fbfdf28dc7162e67fc6d7d2fa45ab8cf2f2ab0ebc152",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-113.qpy",
+      "bytes": 112642,
+      "sha256": "a47275f2e27793b290677e11479534d2fffd48debeba9610a57cb7441899f8d9",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-114.qpy",
+      "bytes": 112642,
+      "sha256": "6ee3f08a5a1225effbf1877e424f5d0df1109276f20e4fa8caef9c6a98af61e9",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-115.qpy",
+      "bytes": 112642,
+      "sha256": "9898a55bc37e2be165cc7d0e59ab21d0f5f05baec2575ff2fdb1324160e9d936",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-116.qpy",
+      "bytes": 112642,
+      "sha256": "a11006bdd437bcf883c2d862cea084c7f28f5543af8ee434370194d3c82b4015",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-117.qpy",
+      "bytes": 112642,
+      "sha256": "b84e27cb6900a24e884d783273425f48ee0abfc4ae3aea7271ff3eca840638ce",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-118.qpy",
+      "bytes": 112642,
+      "sha256": "8c756763d1ffe4bacce4beb3465e8b3d3e9f487fafa7f9f32fae3fac0d9271c5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-119.qpy",
+      "bytes": 112642,
+      "sha256": "68b3126655d8263fe3b5477819bd8e6122abe089f24be3dfe78f7bcd1506e04e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-12.qpy",
+      "bytes": 112642,
+      "sha256": "d48efaa9ada421c82f7777aec2bef329dc72e994a24f232b2d06c0e9352d69f3",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-120.qpy",
+      "bytes": 112642,
+      "sha256": "f8c6e322da551d4628c7e7c02385302e7c36e4fd6bc18c00db17cba796aef7fb",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-121.qpy",
+      "bytes": 112642,
+      "sha256": "13cbadb1cea7976a912d96ee17536b83960e47ced11b775ac373f715932e85ac",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-122.qpy",
+      "bytes": 112642,
+      "sha256": "cdb8484cd5d28c466533bd590ad76f96a16bb317652fbf375a7e28fc75e0e7bc",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-123.qpy",
+      "bytes": 112642,
+      "sha256": "6488e1a40a1c1e2ba0aed59fc52477117b590748dd1ab24b21e95ede95a53d2a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-124.qpy",
+      "bytes": 112642,
+      "sha256": "e2502e48ae0ab9a8e3098ada00101f077966550b863be1d02ff9842d0d8637cc",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-125.qpy",
+      "bytes": 112642,
+      "sha256": "bf1fa331f7baefd8e244c55c2c93f52ca5c505abeb34fd03bca6834015a70f44",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-126.qpy",
+      "bytes": 112642,
+      "sha256": "e5baf890bd116eb9c6993f3a68bcb1904c09600f42fc8c724325d0bb71a6ceb3",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-127.qpy",
+      "bytes": 112642,
+      "sha256": "0ce07b989870baf1b6acd59ea7a3be7e5e2f99eae7e118ee7c1753516e313a9d",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-128.qpy",
+      "bytes": 112642,
+      "sha256": "174d26a858a17ef364f17ac4988a74e0d2a09215b7336907db3638f5bbd79bbe",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-129.qpy",
+      "bytes": 112642,
+      "sha256": "83785c573d516463a7e8760626ebb6ee7a3f021e03139f9c525c50f0bc3d1d6e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-13.qpy",
+      "bytes": 112642,
+      "sha256": "513366b42e9976f878ca2f989e7e57fd30885471a61e694b1ef01a102c2dc831",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-130.qpy",
+      "bytes": 112642,
+      "sha256": "329f7833091addd893ababba2eceda11fcbf28c7725931e838e49559709e55b5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-131.qpy",
+      "bytes": 112642,
+      "sha256": "e42c16896e99ff68145a06d1fe1d0103f2455fa1336186aadbb439ebacf2bc6a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-132.qpy",
+      "bytes": 112642,
+      "sha256": "cc1a943686ea79cb976a9e2198cdbc6049e48f4a7b42fc7bf0dcc3f03ca0d8ba",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-133.qpy",
+      "bytes": 112642,
+      "sha256": "591046a4387993f3e8546e5e991552bef27f86ed4537ed1995cda77df9fc72af",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-134.qpy",
+      "bytes": 112642,
+      "sha256": "ff071730a4ad4d2d165301eb28ec4141a7bc19634c65651ddad2a361c61f25a6",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-135.qpy",
+      "bytes": 112642,
+      "sha256": "5ba109cd6181b0847aafed38d40cd8c0fb7e3dbb7493fe0cb81b5676a7df4034",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-136.qpy",
+      "bytes": 112642,
+      "sha256": "22291949d34526f71976ab2f6fda9bac54eb77ba710e3fcc15772ac05827a4d8",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-137.qpy",
+      "bytes": 112642,
+      "sha256": "15fe14d95d574272cc937a970c07c8d302dc988ca17bf4ba734157096ff842e0",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-138.qpy",
+      "bytes": 112642,
+      "sha256": "d29d13beec0962ecfab6a055334a7809cf1c2e51a14ba5d61cb90250e1dc0030",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-139.qpy",
+      "bytes": 112642,
+      "sha256": "c48c26f1276356c218aafa8222cda7a16bf94f49693f23205ea477991eff856e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-14.qpy",
+      "bytes": 112642,
+      "sha256": "07159e9a70acf2f81689d620923e25ab16762b5cf7b4d07a418f64cd52f061f6",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-140.qpy",
+      "bytes": 112642,
+      "sha256": "efd94847fd730511f00e721390655bf2b11a53f3e0d40653f29b77d615875572",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-141.qpy",
+      "bytes": 112642,
+      "sha256": "49dddc87c3987541faa0247d211ea2dc0b30bd3c68da64d07e16f2478543b975",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-142.qpy",
+      "bytes": 112642,
+      "sha256": "3eeb16c2c0fd66254a6f30868f0a5b788b13e6e85a80277cfc8592a6231aef96",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-143.qpy",
+      "bytes": 112642,
+      "sha256": "e23ae054065962dcafd9bd6cde63643f42f07564a172c1f8134ff17132c04611",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-144.qpy",
+      "bytes": 112642,
+      "sha256": "b702cff81f102f6957ac6ffbf6ef551a0afb5db5b547da005788b64a4e92e9f5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-145.qpy",
+      "bytes": 112642,
+      "sha256": "abd4acd04bf01409b903b5ce714ac4c07f3287a5f4c9160701735d831f5955b8",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-146.qpy",
+      "bytes": 112642,
+      "sha256": "7d56deb5e088018c7b0032da4091eae6808cda069ca833f06680e0eb3d9e4f5f",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-147.qpy",
+      "bytes": 112642,
+      "sha256": "884fcdd78a8473befe6f6443d47e6b24551ec2fffe91cee9a3e7277054000e2c",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-148.qpy",
+      "bytes": 112642,
+      "sha256": "33f6998989531aa28304371bdfe95403c79b10f9d78dd636fdfa2e7c75867576",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-149.qpy",
+      "bytes": 112642,
+      "sha256": "ed8e6b90017facba4bf750bb0ed7ffcae76e32dfd4704434b919a94680a6539f",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-15.qpy",
+      "bytes": 112642,
+      "sha256": "ae11bd5540df5a9032573767d417c3f41dd3f41a5ffd77b3d13f5dd76b09f2aa",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-150.qpy",
+      "bytes": 112642,
+      "sha256": "98845352f8512d59992f52c4a42724183feb5af609dd98daad7cf3f734315cd2",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-151.qpy",
+      "bytes": 112642,
+      "sha256": "d3bb8ed96593d9f71d008a183b0aacaa27369efc25218fcb8fc16cda3be7d2d7",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-152.qpy",
+      "bytes": 112642,
+      "sha256": "1e827ff776df10c5880542b0ff7a58ef7a76547ba470b8f1c2d9267ba3e38b43",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-153.qpy",
+      "bytes": 112642,
+      "sha256": "0ca2c2e7a94c41065958a0b019a8f1ec0780b408fc5381eceb4d3d8806940c11",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-154.qpy",
+      "bytes": 112642,
+      "sha256": "5a35c1ef9e43642ce7be7779f28542cf2ef766ac1372e312175756b37759fffb",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-155.qpy",
+      "bytes": 112642,
+      "sha256": "c95fea0cc3b4b7e2c8b4e34e0b51c124f475c681c606ed8b7d1ff280bc60e2b7",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-156.qpy",
+      "bytes": 112642,
+      "sha256": "f67f458009e4bde53a2c26172287d8b7edc80b50d9b8cc28adf4d951e92434f7",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-157.qpy",
+      "bytes": 112642,
+      "sha256": "250462d66b452972bb5b9a703c4453a0e1c5182ac09e3c5278db98fceea9000b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-158.qpy",
+      "bytes": 112642,
+      "sha256": "7f58cd5c2853139e3af692387ce080123cf747751e1d9f27ebe401ed8c505904",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-159.qpy",
+      "bytes": 112642,
+      "sha256": "05864d285d88b78d4f8ee53ed111c7fa3f052a39d8834a07563cdcf6de0e2b53",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-16.qpy",
+      "bytes": 112642,
+      "sha256": "a8a40ca118bfc6ee302364a70a8651a467c4cb1f15ce5273a2971375add81259",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-160.qpy",
+      "bytes": 112642,
+      "sha256": "b990c38acd8935aefba61bcdf02057d5f206ec98342a8963027b7ba801884286",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-161.qpy",
+      "bytes": 112642,
+      "sha256": "038181a26c167f60b4f25d73064388f87f68f64ffd0b02cdb026d657775f0f03",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-162.qpy",
+      "bytes": 112642,
+      "sha256": "b70a87da02b031f2acf7a3b70bb9ff13cbf1b323f3833bf6074ccbf1a5627cf9",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-163.qpy",
+      "bytes": 112642,
+      "sha256": "8c65329ad8d7d8229ec34e0e723ef04eced72d141539a33d3a35fcbe6e75611f",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-164.qpy",
+      "bytes": 112642,
+      "sha256": "2a2ad016e16962f0d7fc3b806c1864f4b6482e3032727f578fb1707ceb9e82d1",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-165.qpy",
+      "bytes": 112642,
+      "sha256": "54522c1ee291021689a41368923e5caa684daa988b3e3a5fe204355dc9d727dd",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-17.qpy",
+      "bytes": 112642,
+      "sha256": "335194776297e47534f0774e163533c70dbc4ba3da36e53d0b76c55dfd38b8f9",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-18.qpy",
+      "bytes": 112642,
+      "sha256": "4fc03c3b21d0edc5a2d9824d5a6d53162da6a3bfd09a11f07eb2dc81b498dc07",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-19.qpy",
+      "bytes": 112642,
+      "sha256": "a7fcc87c8329d85eea6f4139262b8b63276ec0270cf93b93964bdf46418fa3b7",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-2.qpy",
+      "bytes": 112642,
+      "sha256": "ee3d7c3a159ac94e27a04cbc42896fd44b624b1ce3e798d8ca891571fa003d6e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-20.qpy",
+      "bytes": 112642,
+      "sha256": "491f1cbdaabfd093eea745410a00ab5727784e56c06f929d405a8bca37cf5a69",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-21.qpy",
+      "bytes": 112642,
+      "sha256": "0618b4b2ba3356b8eea743dde6f06c61bd205a6a67664f0453309f8161a0b946",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-22.qpy",
+      "bytes": 112642,
+      "sha256": "f653cf6b2eedd6644c182bc9f6a43f19691c104537f3b710dcea192c7aba4eb5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-23.qpy",
+      "bytes": 112642,
+      "sha256": "b01286e8264409b9f3fbb09b7b1e6716f18c988f2435f26cfe8e40f787466237",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-24.qpy",
+      "bytes": 112642,
+      "sha256": "c829ecc495257b546d84363ca94eb8a9776cea3ba7205bb66a159548b4bd2390",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-25.qpy",
+      "bytes": 112642,
+      "sha256": "d43b48597097034e2e392b23db5db5f6b28c13364226154830342522d8593ff3",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-26.qpy",
+      "bytes": 112642,
+      "sha256": "1b033c4da84787940e9bda8d40a543313408324303235502012e20cf491d68b1",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-27.qpy",
+      "bytes": 112642,
+      "sha256": "20adfc410878c5670dbd6a478269e610ae887cb2a35a090539f824c6f9455c06",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-28.qpy",
+      "bytes": 112642,
+      "sha256": "302e7ccdeda1897b1d62a429c1616479bad6fac63f634df171e49a748e00a8cb",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-29.qpy",
+      "bytes": 112642,
+      "sha256": "2fa54436db21b87c7d2f569197924702247f78521889f0f6d3e247c2402b8f51",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-3.qpy",
+      "bytes": 112642,
+      "sha256": "b47195475a0b1d0ae8b29846054aa9a8c10b67b93f290bf7e649b2264c89ed4b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-30.qpy",
+      "bytes": 112642,
+      "sha256": "06899ec57401ec3fec89b08c7b9217ed98bf562a43eb2a1d9f59390a93e5db9b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-31.qpy",
+      "bytes": 112642,
+      "sha256": "38e34519f306118bc3ed46a98839a07850d644f336cc002e39e59450444c70a9",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-32.qpy",
+      "bytes": 112642,
+      "sha256": "4198893b13777d0f3017f8ca4f1a9a0a48597b4754684dd7b90e498ef6f1f1eb",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-33.qpy",
+      "bytes": 112642,
+      "sha256": "cff29a966308d47a955664f9b4ac67a97a09b7905fba1755da9e2318c81413bd",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-34.qpy",
+      "bytes": 112642,
+      "sha256": "d193df50aaaa833f66728dec174f2d56f73f121c2b55e2b361240fd9c8f87c3f",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-35.qpy",
+      "bytes": 112642,
+      "sha256": "8b73f185e4f9b84f8287e7b19098f16c5baf849cd701731e128166b8de71c312",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-36.qpy",
+      "bytes": 112642,
+      "sha256": "502b23f4a17f72347ce9287095eb7ba91daf51a0c176733ad56db9d513653675",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-37.qpy",
+      "bytes": 112642,
+      "sha256": "4816ffcdb0079253beeda42a01a87be02a8ac782d72899136feefe435f164e35",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-38.qpy",
+      "bytes": 112642,
+      "sha256": "efd76c75fb6bdce905734428f27a81ee9868267dcd765eadced5b87647663656",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-39.qpy",
+      "bytes": 112642,
+      "sha256": "19c0ea66876f888bd83da60eed52aea7512021d61e49f800f8f2aabf79cb5898",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-4.qpy",
+      "bytes": 112642,
+      "sha256": "4cc8071fa0013e9a97fdb5f29dfc459294a1f3589ba6c9757c9c33ebcac3938a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-40.qpy",
+      "bytes": 112642,
+      "sha256": "b01b46a478aa60439a2d161b95e68eb995ce7fa7c2f0e77a5aa9f7985ec33b51",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-41.qpy",
+      "bytes": 112642,
+      "sha256": "132575df104f133f7c3a06f41ba4c6c251303a2b97fb6fb7e708e3842174d19f",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-42.qpy",
+      "bytes": 112642,
+      "sha256": "da28e7b27582b2a31323344d86abc36fb32281fcfdb0cf66b5fb3efae4985bf5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-43.qpy",
+      "bytes": 112642,
+      "sha256": "da610533aee97c24a2dfd048846ebea0b1a78c2d11d362d3141bbc0198ccbbeb",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-44.qpy",
+      "bytes": 112642,
+      "sha256": "93a2544e14dc49a392c30c89805d805f05ed99f5b16af813bfacefd36edc57f1",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-45.qpy",
+      "bytes": 112642,
+      "sha256": "71628874e680d56b029b830c31d3226c26f78d8a43d0219012a86daedf2d1e32",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-46.qpy",
+      "bytes": 112642,
+      "sha256": "1ca025c34c846626a80455d765997ad35ccfaf4280c027486f9821820f6b0525",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-47.qpy",
+      "bytes": 112642,
+      "sha256": "9ea4b696ef6629d05a3087e28f20864558a4d47a049c908ae9d1fb51b1929fe7",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-48.qpy",
+      "bytes": 112642,
+      "sha256": "23409b9185b93f50e8a62028ce18d677511faf003ba364cba543a457a4525ec1",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-49.qpy",
+      "bytes": 112642,
+      "sha256": "edfe1d1daa84f3cfca5d19e9018eb4a006cdc937e07acbdf75b93403e978ae14",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-5.qpy",
+      "bytes": 112642,
+      "sha256": "35a2a8b1438d227b15d2daa5497c149817139f8fe0bd2b5fde559aa744c2d065",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-50.qpy",
+      "bytes": 112642,
+      "sha256": "157541bdef9e06d8b9691f50438228b2b2eb5501c1bb6ba9ec55717fdb7cb518",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-51.qpy",
+      "bytes": 112642,
+      "sha256": "2df2bd47bb5f09b535f219f6e884f40098f2d78225279e64dfcc7696508e7e17",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-52.qpy",
+      "bytes": 112642,
+      "sha256": "20f50a7db10d1c6729e21bc07bfbc11cf40712472b8401995de7410985705850",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-53.qpy",
+      "bytes": 112642,
+      "sha256": "a33b9035a56f893f725fcc3a8d33bdedd81aaf077b121fb9299d301cdb1d24c0",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-54.qpy",
+      "bytes": 112642,
+      "sha256": "9e44171536f2e02a6a161bb5701b777c10f70c91ebd47704ba1810307acfdb07",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-55.qpy",
+      "bytes": 112642,
+      "sha256": "92802829f7b101656c66110da512378a52385586e5184d88f0408be946348193",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-56.qpy",
+      "bytes": 112642,
+      "sha256": "df68c06def8f377ea34d1192a23913ec18584bcdf4c62b64429006f84d2f4e70",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-57.qpy",
+      "bytes": 112642,
+      "sha256": "1e9388d6eb7943175f340d4dee78ca8abe9879fe97c66b2bc3bbb6305abfbe15",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-58.qpy",
+      "bytes": 112642,
+      "sha256": "6c678d6cbe727d0ea816ceb3960231af1b24f7524842a162352f6aff97f61a5d",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-59.qpy",
+      "bytes": 112642,
+      "sha256": "bffa0811e3bfb5fb842e281e451f3678192caea564ce4691bac50e676e7c4080",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-6.qpy",
+      "bytes": 112642,
+      "sha256": "7cd3c17b39414283097353793f6971e526ccd9758802c6647be2d08cb7db2668",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-60.qpy",
+      "bytes": 112642,
+      "sha256": "440e2fee61dafae171177875ef54f0762a5011a3da2329fd489e9bc3973a54b7",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-61.qpy",
+      "bytes": 112642,
+      "sha256": "a31a740483f13a52997aca61e5294e340303f7ac42f925d09b7144afa6e808b5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-62.qpy",
+      "bytes": 112642,
+      "sha256": "78643b0d89b2da1cab23af5173d21baa61e1745bb48aeeec45873db53788ec84",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-63.qpy",
+      "bytes": 112642,
+      "sha256": "37864f6efdcaa7f779778713918cd0d1766f9aed14b1e76011680e470eab2db6",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-64.qpy",
+      "bytes": 112642,
+      "sha256": "528c11affdb4f7d7be71a886d8f577fd409564f4eaaf5d9e554820f83f154a2a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-65.qpy",
+      "bytes": 112642,
+      "sha256": "508f21bc4cf87daf13ed0bec08fc4315d5a7a8d98f8bb32e9af6746bf834a507",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-66.qpy",
+      "bytes": 112642,
+      "sha256": "742cc5a0490dbf640a42550b8b76a008dec066514ead5b66198c514626f61714",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-67.qpy",
+      "bytes": 112642,
+      "sha256": "2bb6950f9688674610fa0eea9dc2aa76fe7cc9bc85e56f2169e0bfd1b01174f5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-68.qpy",
+      "bytes": 112642,
+      "sha256": "568338c0b2d0de07762681527a974acb03069819cd70ac865bbca7b97666fd8a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-69.qpy",
+      "bytes": 112642,
+      "sha256": "c7c76c0b4ee9635b8bb82cdea200459ccd647a945d49b94acbc08939df17396b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-7.qpy",
+      "bytes": 112642,
+      "sha256": "f95cb6613e6381a2760d04487f096300f5d5a17b7ca27523fe247873cd3107af",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-70.qpy",
+      "bytes": 112642,
+      "sha256": "53170114445aa9dfdb11180ea5eab96e02995dfa6602fe8575d1545365dce1c8",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-71.qpy",
+      "bytes": 112642,
+      "sha256": "384061d5702db423c148558f6770859448b63de27d201ad1027e801c81a56bb8",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-72.qpy",
+      "bytes": 112642,
+      "sha256": "cdf7b769d715e72666416dbdba3c8afa44ca73032f9cf54087e304c7b2888d02",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-73.qpy",
+      "bytes": 112642,
+      "sha256": "93cd1ca76d3026e63457ee2ffb8d5fc78f2b7c77300fb77d1ed1c89bd2311a2f",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-74.qpy",
+      "bytes": 112642,
+      "sha256": "25db3af57a285894cda2998304f68607a96ef70d7a6968286a1a892ed077a730",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-75.qpy",
+      "bytes": 112642,
+      "sha256": "a91d92f5ed11279a4aee87687dfc0019b0d447616755fa9d222685b38a2d1419",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-76.qpy",
+      "bytes": 112642,
+      "sha256": "4907bdd2c62506a6237a4e92013978b0b67260bce98c35c4e96df58a1e82c492",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-77.qpy",
+      "bytes": 112642,
+      "sha256": "d9bf68a6fdf1062880b00d386be7676b69a62f4209d2f92d3b9fd2c462b8384a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-78.qpy",
+      "bytes": 112642,
+      "sha256": "2474d0c0d5b41598c09e6f57a87ab02f49170e487227ce30a4af3b6251d15d5e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-79.qpy",
+      "bytes": 112642,
+      "sha256": "feda10996f5f210e57c9272196506b9a9a5e03c2d37476760ae3dc40c304ffe9",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-8.qpy",
+      "bytes": 112642,
+      "sha256": "70fdc397a3572e630735357c6cd116d0deb14c83ce794444c87c6cc2b2937146",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-80.qpy",
+      "bytes": 112642,
+      "sha256": "b72f941a9aa5d98f5cea7365dea88144a7996f47a8bf6fda05aff94f25565633",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-81.qpy",
+      "bytes": 112642,
+      "sha256": "631a99d5f64c6156bd5c806cc7f3d4b47d53b3d1c2313e2f474165d22e7c115e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-82.qpy",
+      "bytes": 112642,
+      "sha256": "2bb8838ea05859b66a474081cc3099b8c94269488e3c97731d33d5c810444cdf",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-83.qpy",
+      "bytes": 112642,
+      "sha256": "f4556693aa43d9381e19774847433d8cb5389427c8893bc5d6bf4e96bf4912f1",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-84.qpy",
+      "bytes": 112642,
+      "sha256": "1403af741e01bf8d05452e2b8400e16ecb63fd7489a5a71c4ca65991add9d124",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-85.qpy",
+      "bytes": 112642,
+      "sha256": "fd0dc9706d7e5b4be66bad0ad6e9ab1b3f2180bab1589555a244a9354ad3d9cb",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-86.qpy",
+      "bytes": 112642,
+      "sha256": "112600075dfef5caf54883ec03c46111467fc146eba8f778de29ac1b927e2322",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-87.qpy",
+      "bytes": 112642,
+      "sha256": "7e611fedff7221095973104751018cc28d63ae582175d285db3d5b0024cddaa5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-88.qpy",
+      "bytes": 112642,
+      "sha256": "4dcf41a35f5a6d9d7b380758b82e6a9745ef50ba3003fa9c42188d41ec707118",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-89.qpy",
+      "bytes": 112642,
+      "sha256": "9853a322dd1b8825331bb1802a6c988a9cd3388a7afc4a39c179ef87ed7f7508",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-9.qpy",
+      "bytes": 112642,
+      "sha256": "3ae4e1496d82f98264e591eb7b43bacfc10403bf846820773281dc1190f5aabe",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-90.qpy",
+      "bytes": 112642,
+      "sha256": "08b5a378b9ba741cd9cb4cfa5f709797962f0aea5059471bd224caa179b3041b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-91.qpy",
+      "bytes": 112642,
+      "sha256": "9bc07b2260b6940af8ce856cc63413787445f0fc24ec5270a75988e4252ed778",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-92.qpy",
+      "bytes": 112642,
+      "sha256": "7a9619dee50d5cf2ce199b1e7bc7f5c559a6b30f1dff64db3693b55a80035f41",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-93.qpy",
+      "bytes": 112642,
+      "sha256": "ded37cf35af31645f153e29dc7e0b8dd52d6780192a6c8acfc27178e65e7d4b3",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-94.qpy",
+      "bytes": 112642,
+      "sha256": "bfd8cf64e40a9e9141423c37efae17f49087fddb71571ea70bc60d1ee0a18ee0",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-95.qpy",
+      "bytes": 112642,
+      "sha256": "7cce6dbc5cf0eafae2a592c51c1a147572364ef3bd57f8bf4bbaebba0ef10ddd",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-96.qpy",
+      "bytes": 112642,
+      "sha256": "2c1b634d3ec2607047b0fa95dba75a17a1ecf68e26a7112a06cfb60495de6e58",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-97.qpy",
+      "bytes": 112642,
+      "sha256": "7539c56ce4b14c69c87061a7640770213cb45a44dd61be56e52aff3630e0cb04",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-98.qpy",
+      "bytes": 112642,
+      "sha256": "8d413e24721a7034d86a4a66eff5e0184e44892ea8f1b9c02789e822620cefe5",
+      "repository": false
+    },
+    {
+      "path": "results/kras/components/prepare-99.qpy",
+      "bytes": 112642,
+      "sha256": "904ed7fe9a6808bef873c5a8e1b01193dae791ca1305d73f7ed69986df1d4d34",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-0.qpy",
+      "bytes": 14543,
+      "sha256": "7e50af4badef8efe8f6cc7c9d24df709f57fbc981b3275a82be27dca4dbd0a12",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-1.qpy",
+      "bytes": 15102,
+      "sha256": "1c62e7e7e2c52f4317a2b2443aa68dda8884a82b0ad74813894f642555d92d5a",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-10.qpy",
+      "bytes": 12952,
+      "sha256": "c2d9f6f7d050398865bf8398c38bb7dd184749da60140a1f24684c999c582970",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-11.qpy",
+      "bytes": 12737,
+      "sha256": "7fd344f8c930994181325f92ea0db57005e5cf90696786ed3e1ab2755f7f24bc",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-12.qpy",
+      "bytes": 13167,
+      "sha256": "a1a86214f8b7e21bb947564420d8c7c49e7a881e8345398f0076979e7e388877",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-13.qpy",
+      "bytes": 13124,
+      "sha256": "fdad329b688fbcb8407e279daff09275623286ed07fcdc9ed7dea86a66e9c0db",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-14.qpy",
+      "bytes": 13038,
+      "sha256": "f3218d722a148852576eabe55c755c1ac0b21aae38e4f5c5b46559f0d5b02104",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-15.qpy",
+      "bytes": 13253,
+      "sha256": "5b6d8d1764dd30f57fb27ca31a3e23eeea0a4c2047a8c5bcc1967c6037478250",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-16.qpy",
+      "bytes": 13167,
+      "sha256": "4383637dff65b3624b456da0df770da5e0b1a38a908f7e70e842f5fea575b028",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-17.qpy",
+      "bytes": 13081,
+      "sha256": "1983b834721ea2ec26f06a00be4a98df5992a2b23b660f90e8fe0882ec2455fc",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-18.qpy",
+      "bytes": 13425,
+      "sha256": "7ce42e358576ffc978048cfbabc7fe5864b3b1c26171b6d8870a553624ef5a23",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-19.qpy",
+      "bytes": 13124,
+      "sha256": "1fcece2d6ea1841772053b7e50bb894b737bfdefc6e55a9612948665ebd462a6",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-2.qpy",
+      "bytes": 14156,
+      "sha256": "83b04d280e7e4713cc3dfda1a56d95a0f751a3640497b16b43af801005db570d",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-20.qpy",
+      "bytes": 12996,
+      "sha256": "85f1ffbd04349fe9278a4b180de2e1040562303f24f82d5bd436778075087cb6",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-21.qpy",
+      "bytes": 12781,
+      "sha256": "d8aca8a5b151deca5f4ad6496c9d910a857b3856ded1800dc3e178ff38019ee2",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-22.qpy",
+      "bytes": 13039,
+      "sha256": "fe610fce2bdc408ebb84770eb763224d387da77a05970a83f9052b6dac3807cd",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-23.qpy",
+      "bytes": 13125,
+      "sha256": "0a53bffe37adf698170492b6b4ba52eafcff6a1157763cdf1810979da7eac672",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-24.qpy",
+      "bytes": 13899,
+      "sha256": "081f743831f8795f8a09cb489487d669b442b64cdb0836df6414c437aa3b87f1",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-25.qpy",
+      "bytes": 13297,
+      "sha256": "d407b96355cd2a5548420798e5b916fe90581061412c33bf9325c85c07a062dd",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-26.qpy",
+      "bytes": 13082,
+      "sha256": "bf9095fea2180eab2262b316db92f061e29b081764b359066016eb791e3695a1",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-27.qpy",
+      "bytes": 13082,
+      "sha256": "5bdd27cc8d06a9d036c2d62ddae7190d2021a4e17c55cf905b190562907e3c0b",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-28.qpy",
+      "bytes": 12996,
+      "sha256": "168845bd13f0ececbf5303f4476d406f1f67501eb6e2abc536d6ff0c7cd0a30c",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-29.qpy",
+      "bytes": 13039,
+      "sha256": "b7f15c5cbf7ef9e4cd3057024703535fbdb03859d3f49aa9a6b85e3da865ca38",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-3.qpy",
+      "bytes": 14801,
+      "sha256": "39d3c9a51e0a58dda42e8091c17f1eaacdf96abd414dafcdd84f30a16c460504",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-30.qpy",
+      "bytes": 12867,
+      "sha256": "9aab18db726b83ec6e43173bb53a8992184c938dd10241b55c3bb6d125a0c0c3",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-31.qpy",
+      "bytes": 12910,
+      "sha256": "78973c90bfaacc812e8b091c3814f7de3e12570d8c5e6b81096c37c924da2839",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-32.qpy",
+      "bytes": 182,
+      "sha256": "21f455b4ed1911576a218a90a70c7989799be82d563cb5e8ae595796244187bf",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-33.qpy",
+      "bytes": 182,
+      "sha256": "0030152a0de85fa1f546e5fa1e7df149a1947d6032c30a1efcdb28dec71527d1",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-34.qpy",
+      "bytes": 182,
+      "sha256": "06aa33b66b5c1ecba0b59b4a4585fbdc4a8dfb16e77551855c4787c852a48070",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-35.qpy",
+      "bytes": 139,
+      "sha256": "66948010d9ac4a6191a1cc06552686863aa528468df52687921eef8a9f23c1db",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-4.qpy",
+      "bytes": 14242,
+      "sha256": "7843871c46122f4e3a27a830153e376909f97f4d5522d49d8f1c18d86279145e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-5.qpy",
+      "bytes": 13511,
+      "sha256": "89c2819ec570eff9d472a1829d1b8d2f8c0a44ede30eb2052e6833bede98da3d",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-6.qpy",
+      "bytes": 13855,
+      "sha256": "ebb50074bfe5fab45eb8fb185eef96079a6a40d6973712455ad6c5abb4d31224",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-7.qpy",
+      "bytes": 14070,
+      "sha256": "52d06a96654fa5f0fff6a96242f49aeabc21814eca205ecce909eede6d7a0728",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-8.qpy",
+      "bytes": 13167,
+      "sha256": "49e02b05f83662f56cf48f0c33475273ab4ddfe7843d21b88466fd3bcffff5b8",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/Rz-bit-9.qpy",
+      "bytes": 13210,
+      "sha256": "384460e17ee136d21877129e49eb3ef8fce9f90ee6fdea254609bdb37449bccd",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/all-rotation-words.npz",
+      "bytes": 881784,
+      "sha256": "69930e86b0ed36054f301417d8d230fcd77c0c8893babf1ba845fe0263070c7e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/receipt.json",
+      "bytes": 34372,
+      "sha256": "c035b27ebf167dd48be3fd47cbfbbb43310809573d37e043eacfad2493fd818e",
+      "repository": false
+    },
+    {
+      "path": "results/kras/fault-tolerant/synthesis/rotation-records.json",
+      "bytes": 23903,
+      "sha256": "4bb06bcb594a17293ed933c003f8ad7900509576f2e67f22568cd60023b8654c",
+      "repository": false
+    },
+    {
+      "path": "results/kras/model.npz",
+      "bytes": 4506864,
+      "sha256": "b1d0cf86b4f34c314c707cbf954d8a125de9294dde464c2402ddcc0de76efcc3",
+      "repository": false
+    },
+    {
+      "path": "results/kras/native-receipt.json",
+      "bytes": 40876,
+      "sha256": "80a6b9df66c634cb8e28da3f55357c091e2b7e9d3cf204a651f8d0831c9cc8f6",
+      "repository": false
+    },
+    {
+      "path": "results/kras/zero-reflection.qpy",
+      "bytes": 8744,
+      "sha256": "b56da1e4ca34a42bb728318c2da3b9f0ea6d3633b2ff3cd577339b56b55b9b4c",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/A-case0.qpy",
+      "bytes": 10393,
+      "sha256": "1ab5c6a35fca65bd3de779f7a4c793a24329bc689f9a541ab3b51a0bdc3808ac",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/A-case1.qpy",
+      "bytes": 10393,
+      "sha256": "965740b0bd31206cd4bd7bc7cbd24a0062392c560ff438110f78c4820e45c6f6",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/A-case2.qpy",
+      "bytes": 10393,
+      "sha256": "fd6c8ac3e30fcedb186fcb53b1d6c0e65b995b2d1d72a30090a7623559ccd873",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/A-case3.qpy",
+      "bytes": 10393,
+      "sha256": "c1de68014c70fec0d251db8defa59217358567ae27a97493d421477c8c61de77",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/A-case4.qpy",
+      "bytes": 10393,
+      "sha256": "b7650be6fca771869c5e20d32b876e3623ac6aed4c41e1a3dc1c8e97abe316d5",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/IQAE-all-outputs.npz",
+      "bytes": 15852,
+      "sha256": "22e7ee74e22dde7b5d7f99aed0f634dbd6e304a2cd066fdac86ab6d4f316b74a",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/IQAE-receipt.json",
+      "bytes": 2647,
+      "sha256": "a53bf8dcd6bd4da2c579c8dd0069eb7b81ee0abda142b0313c6a232b1ef6177c",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/Q-case0.qpy",
+      "bytes": 24683,
+      "sha256": "f6d507063f1c9d8927b1073df6c44c3c77b1b614f08a8556bc3c379f682af5dc",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/Q-case1.qpy",
+      "bytes": 24683,
+      "sha256": "3d11fbd93724f8cc6113d954894d27523891b5bbcca837bdcbb281b9634bf060",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/Q-case2.qpy",
+      "bytes": 24683,
+      "sha256": "9984208aeb82f7aac8b06c93b8fad82fa48b1460aeb2fe2e15a5ad5b16f7b793",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/Q-case3.qpy",
+      "bytes": 24683,
+      "sha256": "97e60b2235acdf5f40b468e472c873148b105fd87576398ac60981cdd71d6fd1",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/Q-case4.qpy",
+      "bytes": 24683,
+      "sha256": "9997fa12ba0211f7b0993c05f3fb80aeb080cf6a8353870981414e6d9f03eea2",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/compiled-FT-check.json",
+      "bytes": 675,
+      "sha256": "cc1140d73cbd5bd68de93eb2976c2a4d2111443f86f16fbfad9b4b99c8bd7480",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/components/filter-0.qpy",
+      "bytes": 3699,
+      "sha256": "9e3138694501010e59e81706b48fd4eb6d7ae4186344d12e63ae1c2521662bbf",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/components/filter-1.qpy",
+      "bytes": 3699,
+      "sha256": "50c2c5c1d3d0e40120f7c61bd80254fb4f132ce6bd798d37c77e951ab89e8000",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/components/filter-2.qpy",
+      "bytes": 3699,
+      "sha256": "1169aca7d83037422384fbacd3871214f11c4123a6bffc0e42630e207a6a5465",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/components/prepare-0.qpy",
+      "bytes": 3482,
+      "sha256": "7c0026a6d6d2b7009532acf7b3771ffd8053093b50e9c3b65627a556046c7ae0",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/components/prepare-1.qpy",
+      "bytes": 3482,
+      "sha256": "9e77f8400012d6336722d483c2a07a1964e28b7c258f9b87d674a1207417f79a",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/components/prepare-2.qpy",
+      "bytes": 3482,
+      "sha256": "a63ef122912c70fa88640a8a5a4be2f1338ed83441d72ade92a3466ef9aaec0a",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/A-case1.qpy",
+      "bytes": 13571973,
+      "sha256": "3dbff4d1f8f2478bf688e17a62396a8ce9be89d35c4df7400f96ee058369bf1c",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Q-case1.qpy",
+      "bytes": 27525627,
+      "sha256": "788248e31782047216e66b8cbb43acad7d24e23279b683c04a0a4f0493366475",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-0.qpy",
+      "bytes": 13167,
+      "sha256": "f6d84eb0a59c5b0175db42be03f325cac02ccdd38da41943c64ad98052f44562",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-1.qpy",
+      "bytes": 12823,
+      "sha256": "fe337fae09371ae9b001cc2aed86529b74fa58191a32dc25723f34b01875e53c",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-10.qpy",
+      "bytes": 11834,
+      "sha256": "8e9802019906e81d487ae007b3bdd220faf1b483635b862aab038927352122f4",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-11.qpy",
+      "bytes": 10630,
+      "sha256": "509dd70f8a08f8c13f34a43d54e9a5a4ce28b7d3362af775dfd7287f4cecc579",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-12.qpy",
+      "bytes": 11232,
+      "sha256": "26d9fb1fa09091da07e5c2d9e03c8821516680992a586015859c50584b4a6243",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-13.qpy",
+      "bytes": 10587,
+      "sha256": "b3146f6c2506bfcfde1582ff3a8674a4a4aa8cf5abe304a5609e016b76c42172",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-14.qpy",
+      "bytes": 11490,
+      "sha256": "acb958260facb79f7acb74580b2d7ad8c3aa969b9a3477f018dec203a2ab98b4",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-15.qpy",
+      "bytes": 11146,
+      "sha256": "7038a9c1638a8992f25bb87cdcd2ce91a5981324e1258c2f56c573110f7ed14d",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-16.qpy",
+      "bytes": 10974,
+      "sha256": "8ac2b3cf893e43a7b89fa4bc6ffd01c95a85f116b8a5869971d9a0da48959f54",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-17.qpy",
+      "bytes": 10802,
+      "sha256": "a57100bf172ac5e40ed964478e99b6dfce88cfc5c5a19535415eefeb30d96ce2",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-18.qpy",
+      "bytes": 10802,
+      "sha256": "3671d0309d95394f29e27b79825a68fbc3b07b13a74d8991e75bbd996a3b6ff9",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-19.qpy",
+      "bytes": 11017,
+      "sha256": "e0e33817dff460addf9ecfee0a94c5047ad9baf68e77a0adbaf422d25734a62f",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-2.qpy",
+      "bytes": 12479,
+      "sha256": "82117ccb9019f6ca169c33ffbf0d6b134b95872771533287683c35b48359d220",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-20.qpy",
+      "bytes": 11276,
+      "sha256": "c85df4ec4cf3b6a8584be5a4b38363d02730b14a5476168212238d2c7b9f9489",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-21.qpy",
+      "bytes": 11620,
+      "sha256": "4183d09ccb7a4675745628f21ff5250294bee9a20206de83d8ccf273d0b3126f",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-22.qpy",
+      "bytes": 11104,
+      "sha256": "4f05b7edf57d8a9ca60e7274fe07f1c4aaa31aa257b42b0b4c9038b39988b22c",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-23.qpy",
+      "bytes": 11018,
+      "sha256": "0c073f65baf39a58f505f58b29c9085f68b9f72547d78440624490070b530973",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-24.qpy",
+      "bytes": 11104,
+      "sha256": "55baabb51c90351bba0aee52f4ef0861ffe3355764cbdf1d4deb74ed5e7dbb38",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-25.qpy",
+      "bytes": 10932,
+      "sha256": "ac793805b7facecf15524e07271168faba5ff55f286c873f94d50db198b0b0e2",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-26.qpy",
+      "bytes": 182,
+      "sha256": "a0f0a1f32bb9bd8051227e3e199fd205085ea58a39315bab6cbdc806c37803c0",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-27.qpy",
+      "bytes": 182,
+      "sha256": "a2e0aa7a5e508437bcd90000b90299d8d028ea957c843cb2fe452019b2128c8b",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-28.qpy",
+      "bytes": 182,
+      "sha256": "9e8446d790ec60e1e18c12d8543c871675359df8dc731e4ded310f27ee4dea8b",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-29.qpy",
+      "bytes": 139,
+      "sha256": "c8cefcc5d8815a36f673b716fe63e72e7550994bc388f60c5ec749d3ee1bbdf3",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-3.qpy",
+      "bytes": 12479,
+      "sha256": "e283ab902a05700c5ce0973a8a755b0ac0c92ec401ea1263522f21928301165c",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-4.qpy",
+      "bytes": 11490,
+      "sha256": "e471f2b524452629bdcf0485b499f988dd2db6c76b044a0e0523ac29ebf33db0",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-5.qpy",
+      "bytes": 12092,
+      "sha256": "46e3d119be4d3d5d9daddf3ecc930d4d28309296a09af0064c9b3a45d7cf7411",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-6.qpy",
+      "bytes": 11490,
+      "sha256": "7ca93301ae8bac89d90e7253091161adfe10e7842f71f868fedbd3ee5ae3c649",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-7.qpy",
+      "bytes": 10888,
+      "sha256": "ef5295c1358b1314b4756fcf3fcba11ad09325de608bc2c56c0777d139e7a2ed",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-8.qpy",
+      "bytes": 11318,
+      "sha256": "2e66e4621ff8adea7abb01f0e30f342b02203123adfdb6dd2fad4bae2de2dfba",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/Rz-bit-9.qpy",
+      "bytes": 11017,
+      "sha256": "179b724fac9b5d17fbbb9793cf7c5eea1a3963782c7d85b0a9905458ff3c5de5",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/all-rotation-words.npz",
+      "bytes": 1858,
+      "sha256": "d0da00f69d30637086086f7c31fc5d69906908d70e868fc8c3d89c3788a374f9",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/receipt.json",
+      "bytes": 8568,
+      "sha256": "27958d07cc003e499209ebcf76f43b2ab97dd9da71c641b17bfc1a67f61bdda8",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/fault-tolerant/synthesis/rotation-records.json",
+      "bytes": 18410,
+      "sha256": "0a10d2edcdc7d0606bf5af85aba7e7bcd7fd04c07d2356a6afaaf2055a823201",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/model.npz",
+      "bytes": 4100,
+      "sha256": "509f99226e5ba99c4686e716b29c925ec3fbfecf2a009e6092e800622ef5c5cb",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/native-receipt.json",
+      "bytes": 20944,
+      "sha256": "00c1c74d74ba3d330fa173fa7288151f05ddca43ee2595f536b850049466c249",
+      "repository": false
+    },
+    {
+      "path": "results/triangle/zero-reflection.qpy",
+      "bytes": 4144,
+      "sha256": "f580b9bae179681bfbb35476f68b84251dd0cf632a4e0cfa8c0a62b5cb8f0cc5",
+      "repository": false
+    },
+    {
+      "path": "run_iqae.py",
+      "bytes": 6345,
+      "sha256": "515f936ea833e4816599348eb8b2bb2a8d0c15c12a6d053490769738bd91f325",
+      "repository": true
+    },
+    {
+      "path": "run_iqae_cached.py",
+      "bytes": 6345,
+      "sha256": "515f936ea833e4816599348eb8b2bb2a8d0c15c12a6d053490769738bd91f325",
+      "repository": true
+    },
+    {
+      "path": "run_native.py",
+      "bytes": 5600,
+      "sha256": "385f0b6f29099421102b2038ba6593c3906b7adcb036574f498af2a4a8f07bf8",
+      "repository": true
+    },
+    {
+      "path": "source-seal-IQAE.json",
+      "bytes": 624,
+      "sha256": "3c178354f85953f118a77efc32e3a3a84e1ef1f589458b97b29d19e91d998558",
+      "repository": true
+    },
+    {
+      "path": "source-seal-native.json",
+      "bytes": 508,
+      "sha256": "ed7190f046a3df4e37d993fcc335ac71a04224059031f24385d7c6544d9b7dd0",
+      "repository": true
+    },
+    {
+      "path": "spectral.py",
+      "bytes": 2965,
+      "sha256": "ed08bc373e07599c7d716f02d08f46e8a8b78d8ea35336bc1e6aed6c82c0e459",
+      "repository": true
+    },
+    {
+      "path": "test_iqae.py",
+      "bytes": 2340,
+      "sha256": "3024ad84e60697e8d9b293dd34fe73428c0b01dccaea226fde89a192b590e592",
+      "repository": true
+    },
+    {
+      "path": "vendor/multiplexed.py",
+      "bytes": 4773,
+      "sha256": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5",
+      "repository": true
+    },
+    {
+      "path": "vendor/prior_gradient.py",
+      "bytes": 1697,
+      "sha256": "d79ec64cd289b07d1acc819fbb91eb398427ec3d3c84accff806e8f92b9c6cce",
+      "repository": true
+    },
+    {
+      "path": "vendor/prior_synthesis.py",
+      "bytes": 3793,
+      "sha256": "480d37a2f220ec6a302c4ac08915d022e1819586eb11f52f0065472b4181e086",
+      "repository": true
+    },
+    {
+      "path": "vendor/select_swap.py",
+      "bytes": 4332,
+      "sha256": "b0669ef703dd2a7bc5154f2359ef816326bdade52c52fe051420fe89f5d4d311",
+      "repository": true
+    },
+    {
+      "path": "verification.log",
+      "bytes": 1315,
+      "sha256": "b56df23e1364b024b132c3a920fecc6087fc58d45a157511c292d8c5027cccff",
+      "repository": false
+    },
+    {
+      "path": "verify.py",
+      "bytes": 5478,
+      "sha256": "0231a73a1aa0131652709db9ea69e53608ebcbad26012e74803df55f9c6475ca",
+      "repository": true
+    }
+  ]
+}

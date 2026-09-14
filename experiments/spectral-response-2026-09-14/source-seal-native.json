@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-09-14T11:11:34.542826+00:00",
+  "files": {
+    "protocol.json": "159f0e73cfafbfea444efa34ca3362c9c2a7fc6d678614bfbb8f98d335d0ca72",
+    "iqae.py": "5c7d2964d21285fad57fb4b8944f47965447905da4962f10425bd3c818d5a4fd",
+    "spectral.py": "ed08bc373e07599c7d716f02d08f46e8a8b78d8ea35336bc1e6aed6c82c0e459",
+    "run_native.py": "385f0b6f29099421102b2038ba6593c3906b7adcb036574f498af2a4a8f07bf8",
+    "test_iqae.py": "3024ad84e60697e8d9b293dd34fe73428c0b01dccaea226fde89a192b590e592"
+  }
+}

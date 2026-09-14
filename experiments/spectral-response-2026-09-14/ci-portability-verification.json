@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"exact_CP_minimum_coverage\": 0.9915266541011761,\n  \"tiny_spectral_Grover_maximum_error\": 3.219646771412954e-15,\n  \"scope\": \"Source-only confidence and actual four-qubit circuit semantics. No archived protein or complete resource-claim replay.\"\n}\n",
+  "stderr": "",
+  "scope": "Relocated source-only test with no input arrays, QPY results, synthesis runtime or original workspace imports.",
+  "files": {
+    "ci_smoke.py": "116d8aaf09b466b7ad7a9936c0df381be02e1dc8c1cfffa9d0f9557e64a8eb59",
+    "iqae.py": "1ce1d5952008040f328e1aa9b8aed61f6c6eb96edc582974a64acf5360a55ad1",
+    "spectral.py": "ed08bc373e07599c7d716f02d08f46e8a8b78d8ea35336bc1e6aed6c82c0e459",
+    "vendor/multiplexed.py": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5",
+    "requirements-ci.txt": "2f99eabe97e0fae261863098e87ac99e3c0aaaef11444659e8b00c60fb9d6b95"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "exhaustive_integer_enumeration": [
+    {
+      "n": 2,
+      "vectors": 121,
+      "smallest_one_sided": "1/4",
+      "smallest_two_sided": "1/2"
+    },
+    {
+      "n": 4,
+      "vectors": 14641,
+      "smallest_one_sided": "1/16",
+      "smallest_two_sided": "1/8"
+    }
+  ],
+  "illustrative_t_interval": [
+    0.09087768473578683,
+    0.40912231526421317
+  ],
+  "hoeffding_n_for_halfwidth_below_point1": 738,
+  "interpretation": "Tests require their stated null exchangeability/direction assumptions. These floors are not a universal impossibility theorem for parametric inference."
+}

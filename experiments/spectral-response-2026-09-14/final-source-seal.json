@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-09-14T11:31:55.793482+00:00",
+  "status": "FINAL_CURRENT_SOURCES_AND_RESULTS_FROZEN",
+  "canonical_IQAE_entrypoint": "run_iqae.py",
+  "historical_seals": "Earlier source seals remain unchanged; original sources and explicit corrections are retained in history. Final current code hashes are given here.",
+  "files": {
+    "check_compiled_triangle.py": "75ad44ddeffdd211cc6670a0a9cf5a5aeee5728acffda944214961aaaccd0905",
+    "ci_smoke.py": "116d8aaf09b466b7ad7a9936c0df381be02e1dc8c1cfffa9d0f9557e64a8eb59",
+    "fault_tolerant.py": "812ce8764036d8b79dc654bf00295702a3a28e8dbe28bd7ddbb3b9082bfc5490",
+    "iqae.py": "1ce1d5952008040f328e1aa9b8aed61f6c6eb96edc582974a64acf5360a55ad1",
+    "package_evidence.py": "d0e9b087ad68a3447cdfa81ec62070910969e566d3c06e4fef0ba5e736c58deb",
+    "run_iqae.py": "515f936ea833e4816599348eb8b2bb2a8d0c15c12a6d053490769738bd91f325",
+    "run_iqae_cached.py": "515f936ea833e4816599348eb8b2bb2a8d0c15c12a6d053490769738bd91f325",
+    "run_native.py": "385f0b6f29099421102b2038ba6593c3906b7adcb036574f498af2a4a8f07bf8",
+    "spectral.py": "ed08bc373e07599c7d716f02d08f46e8a8b78d8ea35336bc1e6aed6c82c0e459",
+    "test_iqae.py": "3024ad84e60697e8d9b293dd34fe73428c0b01dccaea226fde89a192b590e592",
+    "vendor/multiplexed.py": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5",
+    "vendor/prior_gradient.py": "d79ec64cd289b07d1acc819fbb91eb398427ec3d3c84accff806e8f92b9c6cce",
+    "vendor/prior_synthesis.py": "480d37a2f220ec6a302c4ac08915d022e1819586eb11f52f0065472b4181e086",
+    "vendor/select_swap.py": "b0669ef703dd2a7bc5154f2359ef816326bdade52c52fe051420fe89f5d4d311",
+    "verify.py": "0231a73a1aa0131652709db9ea69e53608ebcbad26012e74803df55f9c6475ca"
+  }
+}

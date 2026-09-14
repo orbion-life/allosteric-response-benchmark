@@ -1,0 +1,52 @@
+[
+  {
+    "path": "inputs/triangle.npz",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/inputs/triangle.npz",
+    "sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8"
+  },
+  {
+    "path": "inputs/kras.npz",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/inputs/kras-measured-arrays.npz",
+    "sha256": "33543fa36eba45f878c8ef313073570824be68e2c98e030698a46a9d585293b7"
+  },
+  {
+    "path": "inputs/kras-prior-receipt.json",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/inputs/kras-receipt.json",
+    "sha256": "1fd64a68a4b8fe8e24139cfbecc571bc8d1850ed12083d3cd4ef3e65eeaf3e85"
+  },
+  {
+    "path": "inputs/triangle-primary-receipt.json",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/results/select_swap/receipt.json",
+    "sha256": "0671efbf191331bf135b83de908ab9d2b674c1d578897fa2ef48a4604234e0f3"
+  },
+  {
+    "path": "inputs/triangle-gradient-receipt.json",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/phase-gradient-followup/results/receipt.json",
+    "sha256": "947bd9b4ea0cffd815b546d1d6a96750d2b6270a0d5671655f983db200e05a20"
+  },
+  {
+    "path": "inputs/kras-primary-receipt.json",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/results/proteins/kras/receipt.json",
+    "sha256": "4bf6d602fd63338d2dfbf25f0234ff07df38de330d9b937b0b9fe264f7bdb7fa"
+  },
+  {
+    "path": "vendor/multiplexed.py",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/vendor/multiplexed.py",
+    "sha256": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5"
+  },
+  {
+    "path": "vendor/prior_synthesis.py",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/synthesis.py",
+    "sha256": "480d37a2f220ec6a302c4ac08915d022e1819586eb11f52f0065472b4181e086"
+  },
+  {
+    "path": "vendor/select_swap.py",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/select_swap.py",
+    "sha256": "b0669ef703dd2a7bc5154f2359ef816326bdade52c52fe051420fe89f5d4d311"
+  },
+  {
+    "path": "vendor/prior_gradient.py",
+    "source": "pulsar-selection-experiments-2026-09-14/quantum/phase-gradient-followup/gradient.py",
+    "sha256": "d79ec64cd289b07d1acc819fbb91eb398427ec3d3c84accff806e8f92b9c6cce"
+  }
+]

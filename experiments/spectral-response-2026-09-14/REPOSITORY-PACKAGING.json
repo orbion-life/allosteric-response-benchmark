@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-14",
+  "scope": "Repository packaging adaptation only; scientific source and sealed evidence ZIP unchanged.",
+  "modified_file": "README.md",
+  "archive_original_sha256": "e27519b6a1df2fbd8a0570284a0cb516b973fb5246322d8770d12f34c8c3d964",
+  "repository_sha256": "79090a9f6e4060e058d718d2c053cb47a9a90ec3d6bb8f2651fb3e47e181a3bd",
+  "change": "Add explicit source-checkout versus full-evidence replay instructions and qualify the opening percentage against the evaluated sufficient sampling budget. publication-manifest.json describes the sealed evidence archive; this README is a documented repository adaptation."
+}

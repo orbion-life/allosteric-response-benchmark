@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "The exact shipped editable ZIP contents were built from a relocated directory. All nine page texts and 108-dpi rendered pixels match the delivered PDF. PDF binary identity is not asserted because document metadata differs.",
+  "source_zip_sha256": "b14297e315bcda34384465c749fa28d53494edf7767a2f647aa0b78c8555c717",
+  "pages": [
+    {
+      "page": 1,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    },
+    {
+      "page": 2,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    },
+    {
+      "page": 3,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    },
+    {
+      "page": 4,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    },
+    {
+      "page": 5,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    },
+    {
+      "page": 6,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    },
+    {
+      "page": 7,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    },
+    {
+      "page": 8,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    },
+    {
+      "page": 9,
+      "identical_text": true,
+      "identical_pixels_108dpi": true
+    }
+  ]
+}

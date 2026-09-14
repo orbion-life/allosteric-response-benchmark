@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-14",
+  "pdf": "pulsar-scientific-report.pdf",
+  "sha256": "b704af0855cf7c4d7a0dbb60c942669dd8b2cb8c1aa7422588bc0460d9fc1507",
+  "bytes": 105200,
+  "pages": 9,
+  "main_pages": 6,
+  "appendices": 3,
+  "paper": "A4",
+  "min_font_pt": 10.161890029907227,
+  "current_brand": "Pulsar",
+  "latest_team_language": "Experience-to-delivery mapping; Nebula supports quantum innovation expertise, not a development claim.",
+  "format_limits": "Verified against archived official Phase 1 guidelines: six main pages plus three appendix pages, A4, font >=10pt, size <=20MB. Current live guidelines could not be fetched during this task; no live portal compliance certification.",
+  "page_checks": [
+    {
+      "page": 1,
+      "words": 321,
+      "body_bottom_pt": 748.2777709960938,
+      "body_to_footer_clearance_pt": 48.417236328125,
+      "visual_inspection": "PASS: final-1.png inspected in full; no clipping or overlap"
+    },
+    {
+      "page": 2,
+      "words": 415,
+      "body_bottom_pt": 723.2440185546875,
+      "body_to_footer_clearance_pt": 73.45098876953125,
+      "visual_inspection": "PASS: final-2.png inspected in full; no clipping or overlap"
+    },
+    {
+      "page": 3,
+      "words": 456,
+      "body_bottom_pt": 770.9832763671875,
+      "body_to_footer_clearance_pt": 25.71173095703125,
+      "visual_inspection": "PASS: final-3.png inspected in full; no clipping or overlap"
+    },
+    {
+      "page": 4,
+      "words": 386,
+      "body_bottom_pt": 750.7963256835938,
+      "body_to_footer_clearance_pt": 45.898681640625,
+      "visual_inspection": "PASS: final-4.png inspected in full; no clipping or overlap"
+    },
+    {
+      "page": 5,
+      "words": 424,
+      "body_bottom_pt": 735.5032348632812,
+      "body_to_footer_clearance_pt": 61.1917724609375,
+      "visual_inspection": "PASS: final-5.png inspected in full; no clipping or overlap"
+    },
+    {
+      "page": 6,
+      "words": 459,
+      "body_bottom_pt": 752.802001953125,
+      "body_to_footer_clearance_pt": 43.89300537109375,
+      "visual_inspection": "PASS: final-6.png inspected in full; no clipping or overlap"
+    },
+    {
+      "page": 7,
+      "words": 406,
+      "body_bottom_pt": 776.8261108398438,
+      "body_to_footer_clearance_pt": 19.868896484375,
+      "visual_inspection": "PASS: final-7.png inspected in full; no clipping or overlap"
+    },
+    {
+      "page": 8,
+      "words": 530,
+      "body_bottom_pt": 776.8260498046875,
+      "body_to_footer_clearance_pt": 19.86895751953125,
+      "visual_inspection": "PASS: final-8.png inspected in full; no clipping or overlap"
+    },
+    {
+      "page": 9,
+      "words": 469,
+      "body_bottom_pt": 696.81640625,
+      "body_to_footer_clearance_pt": 99.87860107421875,
+      "visual_inspection": "PASS: final-9.png inspected in full; no clipping or overlap"
+    }
+  ],
+  "availability_status": "v0.8.0 pending publication verification; see final publication receipt.",
+  "unresolved": [
+    "biological benefit over controls",
+    "original nonlinear fidelity and arbitrary-time reduction",
+    "practical quantum execution",
+    "contributor affiliations and agreement",
+    "factual eligibility and terms acceptance"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "Independent selected ideal circuit replay from saved QPY; not QPU hardware or whole IQAE execution",
+  "checks": [
+    {
+      "model": "triangle",
+      "reference": "fresh scipy expm against original saved H and B",
+      "active_qubits": 6,
+      "grover_qubits": 10,
+      "A_CX": 92,
+      "Q_CX": 209,
+      "A_ry": 92,
+      "k": 1,
+      "p_exact": 0.4664809187693734,
+      "p_executed": 0.4664809187693737,
+      "absolute_error": 2.7755575615628914e-16,
+      "seconds": 0.010712416958995163,
+      "input_sha256": "509f99226e5ba99c4686e716b29c925ec3fbfecf2a009e6092e800622ef5c5cb"
+    },
+    {
+      "model": "kras",
+      "reference": "fresh scipy expm against original saved H and B",
+      "active_qubits": 11,
+      "grover_qubits": 20,
+      "A_CX": 3068,
+      "Q_CX": 6191,
+      "A_ry": 3068,
+      "k": 1,
+      "p_exact": 0.4999981162140217,
+      "p_executed": 0.499998116214022,
+      "absolute_error": 3.3306690738754696e-16,
+      "seconds": 28.85098533303244,
+      "input_sha256": "b1d0cf86b4f34c314c707cbf954d8a125de9294dde464c2402ddcc0de76efcc3"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS_INDEPENDENT_SAVED_EVIDENCE_CHECKS",
+  "records": [
+    {
+      "model": "triangle",
+      "status": "PASS",
+      "outputs": 18,
+      "reconstructed_total_T": 141682054144,
+      "reconstructed_total_CX": 118141952,
+      "all_raw_schedules_counts_and_intervals_reconstructed": true,
+      "interval_maximum_difference": 0.0,
+      "all_component_angle_words_and_T_counts_verified": true,
+      "maximum_emitted_bit_operator_error": 6.322327852257734e-11,
+      "full_raw_sha256": "22e7ee74e22dde7b5d7f99aed0f634dbd6e304a2cd066fdac86ab6d4f316b74a"
+    },
+    {
+      "model": "kras",
+      "status": "PASS",
+      "outputs": 41583,
+      "reconstructed_total_T": 56450203649724416,
+      "reconstructed_total_CX": 32712522454784,
+      "all_raw_schedules_counts_and_intervals_reconstructed": true,
+      "interval_maximum_difference": 0.0,
+      "all_component_angle_words_and_T_counts_verified": true,
+      "maximum_emitted_bit_operator_error": 1.2678331230315164e-12,
+      "full_raw_sha256": "203c8f39040e2e3ac71853047fdbb86c706d05fc4ea34e4c948bd9b3382ddc95"
+    }
+  ],
+  "seconds": 2.877718084026128,
+  "scope": "Independent reconstruction of saved current canonical replay. The original pre-cache raw KRAS archive was overwritten; this verifier does not claim a byte comparison to it."
+}

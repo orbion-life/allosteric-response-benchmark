@@ -1,0 +1,53 @@
+{
+  "frozen_utc": "2026-09-14T11:07:17.389092+00:00",
+  "status": "FROZEN_BEFORE_NEW_MODEL_CIRCUIT_OR_IQAE_OUTCOMES",
+  "models": [
+    "triangle rank9 N3",
+    "KRAS common global-Gram development revision rank347 N166"
+  ],
+  "representation": "New exact spectral representation: eigh(H), V.T@B, controlled signed real observable preparation, controlled Ry(2 acos(exp(-t lambda))) flag multiplexer, inverse other observable, Hadamard readout. No polynomial terms discarded; all eigenmodes retained. Classical diagonalization and all transformed observable costs charged.",
+  "query_times": "All three original saved times",
+  "outputs": "All unordered residue pairs at all three times; 18 triangle and41583 KRAS",
+  "response_tolerance": 0.002,
+  "projection_allowance": "Previously measured original Gaussian full versus reduced at declared times, carried unchanged from prior receipts",
+  "arithmetic_allowance": 1e-08,
+  "angle_rounding_response_allowance": 1e-06,
+  "synthesis_response_allowance": 1e-06,
+  "confidence_family_failure": 0.05,
+  "IQAE": {
+    "variant": "Adaptive single-monotonic-branch arcsine inversion with fresh-batch Clopper-Pearson; union bound across outputs and adaptive rounds",
+    "round_failure": "delta_output/[r*(r+1)] for r starting1",
+    "shots_base": 256,
+    "shots_if_same_power": "Double fresh batch each consecutive round at same power, maximum65536; never pool adaptive samples",
+    "maximum_rounds": 64,
+    "maximum_grover_power": 1048576,
+    "stop": "amplitude confidence interval halfwidth <= common epsilon_response/(2*maxnorm_squared)",
+    "empty_intersection": "Flag failure and retain receipt; no silent reset",
+    "seeds": {
+      "triangle": 2026091401,
+      "kras": 2026091402
+    },
+    "sample_scope": "Classical binomial draws from verified ideal spectral circuit probability, notQPU samples; true amplitude is not visible to adaptive schedule",
+    "validation": "Exact CP binomial coverage grid;352 fixed-amplitude simulations; actual representative circuit Grover probability formula"
+  },
+  "representative_cases": "Pair (0,1) at allthree times, pair(0,0) time1 and pair(N-2,N-1) time1; Grover powers0,1,2,4",
+  "fault_tolerant_construction": "Actual synthesized fixed binary Rz rotations, modulo4pi words, independently bounded rounding plus synthesis. Implemented inverse is exact sequence inverse, so IQAE estimates fixed approximate-A amplitude without a repeated gate-synthesis bias allowance. All preparation, A/A-dagger, objective and zero reflections charged.",
+  "caps": {
+    "worker_GiB": 12,
+    "threads": 4,
+    "compile_seconds": 1200,
+    "explicit_component_operations": 2000000,
+    "full_statevector_qubits": 22
+  },
+  "comparators": [
+    "Same spectral circuit with Hoeffding full confidence sampling",
+    "Previous fixed factor sampled estimator (historical resource comparator)",
+    "Exact classical spectral matrix multiplication after same eigendecomposition, plus scipy expm check"
+  ],
+  "limits": [
+    "No biological utility or original nonlinear fidelity inference",
+    "No globally optimal encoding/FT architecture claim",
+    "Physical runtime, routing and error correction not free",
+    "No QPU execution"
+  ]
+}

@@ -1,5 +1,18 @@
 # Allosteric response benchmark
 
+**Pulsar investigates contact-energy responses in Gaussian protein models and explicit quantum estimators.** Version **0.8.0** adds constructed rank 347 KRAS spectral circuits and complete ideal adaptive cost accounting.
+
+| New question | Result | Evidence boundary |
+|---|---|---|
+| Can a protein-derived response circuit be constructed? | All 166 KRAS preparations and three filters; 11 active qubits and 20 with Grover helpers. | Representative ideal circuit checks pass; no full QPU campaign. |
+| Does adaptive estimation reduce the matched quantum budget? | Calculated KRAS T cost is 1.336% of the fixed sufficient spectral sampling plan. | The remaining 5.65×10¹⁶ T gates and 3.92 million CX gates in the deepest shot leave practical execution unresolved. |
+| Is the matched classical calculation charged? | 13.73 ms for diagonalization, all transformed observables and three response matrices after operator construction. | This preprocessing already permits fast classical evaluation; no quantum speedup. |
+| Can four targets prove general superiority? | Minimum conventional exact one-sided sign-test probability is 0.0625 for four independent nonzero differences. | Four-target delivery and a separately powered external study have different acceptance criteria. |
+
+Read the [v0.8.0 reviewer guide](docs/evidence-v0.8.0/README.md), [release notes](RELEASE-NOTES-v0.8.0.md), [asset manifest](docs/evidence-v0.8.0/ASSET-MANIFEST-v0.8.0.json) and [source with replay instructions](experiments/spectral-response-2026-09-14/README.md). Raw evidence and the revised proposal are versioned release assets. Earlier scientific failures and unknown labels remain explicit. Nothing has been submitted to the challenge.
+
+## Historical version 0.7.0
+
 **Project Pulsar investigates contact-energy responses in Gaussian protein models and a prototype quantum estimator.** Version **0.7.0** adds an external GRB2 functional comparison, four-protein step and pulse tests, and compiled quantum circuits with complete logical query-cost accounting.
 
 | Question | Measured or calculated result | Evidence boundary |
