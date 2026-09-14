@@ -1,0 +1,64 @@
+{
+  "id": "all-five-grids-ten-times",
+  "mode": "reference",
+  "small_check": true,
+  "cases": [
+    {
+      "faces": [
+        8,
+        7,
+        19
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        9,
+        8,
+        20
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.1
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.08
+    }
+  ],
+  "times": [
+    0.0075,
+    0.025,
+    0.075,
+    0.1,
+    0.25,
+    0.75,
+    1,
+    2.5,
+    7.5,
+    10
+  ],
+  "independent": true,
+  "study_protocol_sha256": "6017e13a9c7b0cfeb32066b573fb5113a76af46818f9e40b53b6987c0cad0914",
+  "max_GPU_seconds": 1800,
+  "automatic_retries": 0,
+  "no_QPU": true
+}

@@ -1,0 +1,121 @@
+Export manifest verified
+{
+  "status": "PASS",
+  "scope": "Direct raw-array arithmetic and the declared unoptimized template planning formulas; no independent timing benchmark or full quantum execution.",
+  "maximum_threads": 2,
+  "dimensions": {
+    "residues": 252,
+    "coordinates": 750,
+    "saved_reduced_rank": 1261,
+    "Hermite_dimension": 13360196875,
+    "explicit_Hermite_by_rank_factor_bytes": 134777666075000,
+    "padded_generic_table_bytes": 281474976710656,
+    "padded_generic_table_loader_qubits": 46,
+    "dense_saved_Hr_factor_bytes": 12720968,
+    "dense_saved_Hr_loader_qubits": 23
+  },
+  "array_checks": {
+    "force_Gamma_vs_inverse_covariance_maxabs": 4.929712887902227e-12,
+    "factor_covariance_inverse_identity_maxabs": 5.551115123125783e-15,
+    "reduced_vs_full_Gaussian_maxabs": 2.3801156923131117e-05,
+    "matrix_free_vs_reduced_maxabs": 8.731904088676856e-14,
+    "factor_consistent_vs_original_Gaussian_maxabs": 2.517985819849855e-13
+  },
+  "independent_dense_Cholesky_Gram_maxabs": 4.085620730620576e-14,
+  "independent_dense_factor_gamma_minus_trace_Hr": 0.0,
+  "independent_shot_counts": {
+    "single_95pct_sufficient": 5839223,
+    "per_entry_for_joint95pct": 24448045,
+    "entries": 127512,
+    "total": 3117419114040
+  },
+  "planning_degrees_verified": [
+    {
+      "time_over_tau": 0.001,
+      "degree": 55,
+      "controlled_walk_calls": 63
+    },
+    {
+      "time_over_tau": 0.03,
+      "degree": 300,
+      "controlled_walk_calls": 511
+    },
+    {
+      "time_over_tau": 0.1,
+      "degree": 548,
+      "controlled_walk_calls": 1023
+    },
+    {
+      "time_over_tau": 1.0,
+      "degree": 1732,
+      "controlled_walk_calls": 2047
+    }
+  ]
+}
+{
+  "status": "PASS",
+  "checks": {
+    "direct_GH_coefficients_maxabs": 8.881784197001252e-16,
+    "direct_contact_reconstruction_maxabs": 3.197442310920451e-14,
+    "physical_force_Gram_maxabs": 1.5521869438801948e-17,
+    "polynomial_factor_Gram_vs_independent_ladder_generator_maxabs": 1.7763568394002505e-15,
+    "polynomial_generator_vs_covariance_rates_maxabs": 4.321876190260809e-12,
+    "factor_Frobenius_gamma_error": 0.0,
+    "QPY_all14_factor_columns_maxabs": 1.609823385706477e-15,
+    "QPY_all14_walk_columns_maxabs": 4.2988449830592035e-15
+  },
+  "responses": [
+    {
+      "time_over_tau": 0.01,
+      "native_circuit": {
+        "qubits": 17,
+        "operations": 120840,
+        "depth": 118507,
+        "gate_counts": {
+          "u": 60590,
+          "cx": 60250
+        }
+      },
+      "chosen_degree": 6,
+      "norm_L": 0.3425027387672795,
+      "static_subtraction": 0.27223529951917913,
+      "LCU_alpha": 0.9999999645248651,
+      "independent_factor_response": -0.01350483984379014,
+      "independent_fitted_Gaussian_response": -0.013504839843795302,
+      "independent_truncated_polynomial_response": -0.013504833249808335,
+      "tail_response_bound": 1.2150330875339621e-08,
+      "truncation_actual_error": 6.593981805025351e-09,
+      "frozen_resource_cap_pass": true,
+      "ideal_X": 0.7554114059908451,
+      "ideal_p_plus": 0.8777057029954225,
+      "norm_restored_QPY_response": -0.01350483324977192,
+      "QPY_vs_truncated_polynomial_error": 3.6415315207705135e-14,
+      "QPY_vs_fitted_Gaussian_error": 6.594023382877623e-09,
+      "response_replay_seconds": 28.64783383300528
+    },
+    {
+      "time_over_tau": 0.1,
+      "native_circuit": {
+        "qubits": 18,
+        "operations": 258802,
+        "depth": 253842,
+        "gate_counts": {
+          "u": 129756,
+          "cx": 129046
+        }
+      },
+      "chosen_degree": 13,
+      "norm_L": 0.3425027387672795,
+      "static_subtraction": 0.27223529951917913,
+      "LCU_alpha": 0.9999996337079505,
+      "independent_factor_response": -0.10365628184476469,
+      "independent_fitted_Gaussian_response": -0.1036562818448023,
+      "independent_truncated_polynomial_response": -0.10365628717113548,
+      "tail_response_bound": 1.2545603013201282e-07,
+      "truncation_actual_error": 5.32637078887177e-09,
+      "frozen_resource_cap_pass": false,
+      "replay": "Not simulated because it exceeds the frozen native-operation cap."
+    }
+  ],
+  "wall_seconds": 35.449743334029336
+}

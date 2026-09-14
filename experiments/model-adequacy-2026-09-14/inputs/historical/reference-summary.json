@@ -1,0 +1,142 @@
+{
+  "engineering_status": "COMPLETE",
+  "numerical_finite_reference_status": "PASS",
+  "scope": "Five new original nonlinear finite-model grids; numerical spacing/domain convergence at registered development times, with separate equilibrium-tail analysis. No interval-certified whole-space dynamic error bound.",
+  "comparisons": [
+    {
+      "kind": "domain",
+      "first": 0,
+      "second": 1,
+      "errors": {
+        "G0": 0.0007691295704730372,
+        "K_chebyshev": 0.000552300323123367,
+        "C_chebyshev": 0.0007690001896974996
+      },
+      "pass": true
+    },
+    {
+      "kind": "domain",
+      "first": 1,
+      "second": 2,
+      "errors": {
+        "G0": 6.058547478149379e-07,
+        "K_chebyshev": 4.3532448257277423e-07,
+        "C_chebyshev": 6.057559119310163e-07
+      },
+      "pass": true
+    },
+    {
+      "kind": "spacing",
+      "first": 2,
+      "second": 3,
+      "errors": {
+        "G0": 8.798517470154366e-14,
+        "K_chebyshev": 0.00022873100667872293,
+        "C_chebyshev": 0.00022873100659073775
+      },
+      "pass": true
+    },
+    {
+      "kind": "spacing",
+      "first": 3,
+      "second": 4,
+      "errors": {
+        "G0": 6.078471059822732e-14,
+        "K_chebyshev": 0.0001471864962318825,
+        "C_chebyshev": 0.0001471864961710978
+      },
+      "pass": true
+    }
+  ],
+  "independent_errors": [
+    2.8123853246242447e-10,
+    2.8129387708020204e-10,
+    2.812942101471094e-10,
+    2.3810031724025293e-10,
+    3.3882957550801507e-10
+  ],
+  "static_cross_implementation_errors": [
+    6.106226635438361e-16,
+    7.216449660063518e-16,
+    2.831068712794149e-15,
+    2.942091015256665e-15,
+    5.6066262743570405e-15
+  ],
+  "historical_comparison": {
+    "source": "historical-output/pulsar-phase1-execution-2026-09-13/reference/chebyshev-continuation/case-5.npz",
+    "errors": {
+      "G0": 2.3081536681957004e-13,
+      "K": 1.8846035843012032e-13,
+      "C": 2.324251902052765e-13
+    },
+    "passed": true
+  },
+  "cases": [
+    {
+      "path": "remote/remaining-reference-cases/data/case-0",
+      "faces": [
+        8.0,
+        7.0,
+        19.0
+      ],
+      "spacing": 0.125,
+      "states": 4358144,
+      "seconds": 11.679929635,
+      "GPU_pool_bytes": 1475085824,
+      "response_sha256": "4bde5b3103e233e41115176b58fa0139ff6be79ff92cafb311ac9a5f66d32568"
+    },
+    {
+      "path": "remote/remaining-reference-cases/data/case-1",
+      "faces": [
+        9.0,
+        8.0,
+        20.0
+      ],
+      "spacing": 0.125,
+      "states": 5898240,
+      "seconds": 7.082817725999998,
+      "GPU_pool_bytes": 1967154688,
+      "response_sha256": "400043dc7a969729a14b4023dc34379bc89592c6d189b5f4b53c6c712def4ec4"
+    },
+    {
+      "path": "remote/wide125-preflight-reference/data/case-0",
+      "faces": [
+        10.0,
+        9.0,
+        21.0
+      ],
+      "spacing": 0.125,
+      "states": 7741440,
+      "seconds": 7.467169311000001,
+      "GPU_pool_bytes": 2556422144,
+      "response_sha256": "0c518e52d8a54757c49b7bf8b66d9f16564a80e56c9fd66a6a75797d23dad317"
+    },
+    {
+      "path": "remote/remaining-reference-cases/data/case-2",
+      "faces": [
+        10.0,
+        9.0,
+        21.0
+      ],
+      "spacing": 0.1,
+      "states": 15120000,
+      "seconds": 26.686134055,
+      "GPU_pool_bytes": 4914476544,
+      "response_sha256": "9cfadfd29924b61fabb570c9e390127792f44144c78a33444e3ba6384bbe9458"
+    },
+    {
+      "path": "remote/remaining-reference-cases/data/case-3",
+      "faces": [
+        10.0,
+        9.0,
+        21.0
+      ],
+      "spacing": 0.08,
+      "states": 29531250,
+      "seconds": 77.724427796,
+      "GPU_pool_bytes": 9521684480,
+      "response_sha256": "e0f6c22b5a46ebdd1f01fcdd5eb17b4be6a31a1fffd0c26ffa8c7c7236a4aab0"
+    }
+  ],
+  "prior_failed_campaign_preserved": true
+}

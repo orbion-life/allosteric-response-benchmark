@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-09-14T20:39:32.564264+00:00",
+  "returncode": 0,
+  "containers": [],
+  "stderr": "",
+  "previous_campaign_ledger": "inputs/historical/resource-ledger.json",
+  "new_A100_ceiling_seconds": 3600,
+  "single_function_timeout_seconds": 1800,
+  "max_containers": 1
+}

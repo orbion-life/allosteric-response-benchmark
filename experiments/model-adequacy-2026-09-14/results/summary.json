@@ -1,0 +1,127 @@
+{
+  "status": "COMPLETED_FIXED_MODEL_ADEQUACY_COMPARISON",
+  "protocol_sha256": "6017e13a9c7b0cfeb32066b573fb5113a76af46818f9e40b53b6987c0cad0914",
+  "all_times_over_tau": [
+    0.0075,
+    0.025,
+    0.075,
+    0.1,
+    0.25,
+    0.75,
+    1.0,
+    2.5,
+    7.5,
+    10.0
+  ],
+  "reference_numerical_screens": "PASS",
+  "maximum_domain_spacing_difference": 0.0007691295704730372,
+  "maximum_independent_propagation_difference": 4.225244598643485e-10,
+  "static_independent_maximum": 5.6066262743570405e-15,
+  "historical_original_response_maximum_difference": 0.0,
+  "local_CPU_A100_pilot_response_difference": 2.070565940925917e-13,
+  "empirical_reference_envelope_by_time": [
+    6.7408901808353e-05,
+    0.0002082016519861076,
+    0.0004966479607951172,
+    0.0005929189686863295,
+    0.0008380121205711653,
+    0.0008666448553009242,
+    0.0008679433251918246,
+    0.000817012686121247,
+    0.0007773765510049091,
+    0.0007756498122566251
+  ],
+  "reference_error_scope": "Sum of observed domain/spacing differences plus independent propagation and tail allowances; empirical sensitivity envelope, not a certified whole-space error bound or proof of convergence. Ranking labels are conditional on this envelope.",
+  "ranking_rule": "Each receiver compares only two other sites; both reference and control magnitude gaps must exceed twice the combined empirical per-entry allowance; exact ties and overlapping intervals remain unresolved.",
+  "models": {
+    "Gaussian": {
+      "maximum_C_discrepancy": 0.40929799244468607,
+      "maximum_G0_discrepancy": 0.401079361903679,
+      "maximum_K_discrepancy": 0.3922032813120964,
+      "maximum_C_discrepancy_location": {
+        "time_over_tau": 1.0,
+        "sender": 1,
+        "receiver": 1
+      },
+      "total_entries": 90,
+      "observed_entries_within_0_002": 0,
+      "entries_within_0_002_with_empirical_envelope": 0,
+      "conditional_per_time_pass_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_order_counts": {
+        "agree": 16,
+        "reverse": 14,
+        "tie": 0
+      },
+      "conditional_order_counts": {
+        "agree": 16,
+        "reverse": 12,
+        "unresolved": 2
+      },
+      "original_time_raw_order_counts": {
+        "agree": 4,
+        "reverse": 5,
+        "tie": 0
+      },
+      "amplitude_adequacy": "FAIL",
+      "whole_space_fidelity_established": false
+    },
+    "harmonic": {
+      "maximum_C_discrepancy": 0.746435660988644,
+      "maximum_G0_discrepancy": 0.744415839337248,
+      "maximum_K_discrepancy": 0.7306977754130344,
+      "maximum_C_discrepancy_location": {
+        "time_over_tau": 7.5,
+        "sender": 0,
+        "receiver": 0
+      },
+      "total_entries": 90,
+      "observed_entries_within_0_002": 0,
+      "entries_within_0_002_with_empirical_envelope": 0,
+      "conditional_per_time_pass_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_order_counts": {
+        "agree": 16,
+        "reverse": 14,
+        "tie": 0
+      },
+      "conditional_order_counts": {
+        "agree": 16,
+        "reverse": 12,
+        "unresolved": 2
+      },
+      "original_time_raw_order_counts": {
+        "agree": 4,
+        "reverse": 5,
+        "tie": 0
+      },
+      "amplitude_adequacy": "FAIL",
+      "whole_space_fidelity_established": false
+    }
+  },
+  "new_fit": false,
+  "new_basis": false,
+  "biological_validation": false,
+  "whole_space_dynamic_certificate": false,
+  "scope": "Original nonlinear three-site finite reflecting model; no protein or experimental validation; fixed controls remain inadequate in normalized response amplitude."
+}

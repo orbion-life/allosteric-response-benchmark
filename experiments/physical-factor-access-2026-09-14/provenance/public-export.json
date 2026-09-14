@@ -1,0 +1,100 @@
+{
+  "status": "Public export prepared; no publication performed by this script",
+  "created_UTC": "2026-09-14T21:17:57.322005+00:00",
+  "original_protocol_sha256": "84f1b3558c347154d725ebe20b2973d9e24732d0d312efb68105bd2a7a306292",
+  "public_protocol_sha256": "b6cb49d631bb65df32df889e21e69a45a7c2a1c0d6be09486f5a6f55dc40652d",
+  "path_redactions": [
+    {
+      "path": "protocol.json",
+      "reason": "Private absolute provenance paths replaced by descriptive relative provenance labels. No scientific field changed.",
+      "original_sha256": "84f1b3558c347154d725ebe20b2973d9e24732d0d312efb68105bd2a7a306292",
+      "exported_sha256": "b6cb49d631bb65df32df889e21e69a45a7c2a1c0d6be09486f5a6f55dc40652d"
+    },
+    {
+      "path": "review/independent-math-audit/operator-Hermite-comparison.json",
+      "reason": "Private source path redacted; source_hashes and all scientific checks unchanged.",
+      "original_sha256": "e9e6ece0d4cf547cf309d29e2b3fd0c1b02a94a454a14fda6c2ae45901a22be5",
+      "exported_sha256": "90bbab9ac136e9aa09ade8a94e9ee0b83dea701534415aed5dec8858a712b873"
+    },
+    {
+      "path": "review/independent-math-audit/operator-results-check.json",
+      "reason": "Private absolute source-path keys changed to package-relative keys; hash values and scientific results unchanged.",
+      "original_sha256": "a0ea578fb010bc958ce1984b5ca75b27fabd3d69f21e9c684194dd6ac7ad2fae",
+      "exported_sha256": "36a8d97300a851e5f3eb102aa3184ca0c214e9f65e54dce5df5c06a3fde420cb"
+    }
+  ],
+  "unchanged_code": [
+    {
+      "path": "source/run_costs.py",
+      "sha256": "603858937e2a74ff288456173dba0026605ad742f5c9ba664c663641f6414c35"
+    },
+    {
+      "path": "source/core.py",
+      "sha256": "952b27c2fe6d5a0192fc2f4989e24ab25cbcb33c79968c07446e6f5dda05a947"
+    },
+    {
+      "path": "source/export_package.py",
+      "sha256": "f88ee06a4fd95d0b166979778c9d782ad70ac0de907ed120967f73095cbc8231"
+    },
+    {
+      "path": "source/check_precision.py",
+      "sha256": "779a9cb4455b0347ffb1565c3c4e5e83122fa449f01c6bd9f0ed6b22272b391a"
+    },
+    {
+      "path": "source/run_classical.py",
+      "sha256": "d08966f5d70a34217af760f5d21d71ba57ac00576b534c1bbb8ff058c3f224e7"
+    },
+    {
+      "path": "source/run_quantum.py",
+      "sha256": "d906eb9335823992a0a237fa96a7f179f7194ec3f908810137f2fef0bf25b497"
+    },
+    {
+      "path": "vendor/gaussian_protein.py",
+      "sha256": "d3af0a5a1612dbcfd009b8d51087fc7e4d7793859811e18fa0384e6e74318bac"
+    },
+    {
+      "path": "vendor/multiplexed.py",
+      "sha256": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5"
+    },
+    {
+      "path": "vendor/gaussian_kernel.py",
+      "sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+    },
+    {
+      "path": "vendor/fixed_adapter.py",
+      "sha256": "dafbd7466852595a0b8e41de67edda5726a3995739fa9df31bdb536fdbf6e6c5"
+    },
+    {
+      "path": "checks/verify.py",
+      "sha256": "f0c6bfc9fecb1e491a2183c5f7fa77e8928391444aa76e3fa9b333202702008c"
+    },
+    {
+      "path": "review/independent-math-audit/verify_operator_results.py",
+      "sha256": "c4dd9bfac823a720bfe0d02ffbfb4387978888e74b2be547177f0ed274383ba3"
+    },
+    {
+      "path": "review/independent-math-audit/hermite_quadrature_check.py",
+      "sha256": "97b26ced05667fa7de013eb976151e32900329f7ac9fec1171bf17b12cf2ba99"
+    },
+    {
+      "path": "review/independent-math-audit/compare_operator_hermite.py",
+      "sha256": "c58f21b47285681b930e0a3a6727c22304e74cb98a8b43ed6c01094cc392f957"
+    },
+    {
+      "path": "review/operator-independent-audit/verify_operator_circuit.py",
+      "sha256": "5fdd39dfcfc8f9a07733efa779329d6cd65782c8fa53611506c4c0f6bc6b8ea6"
+    },
+    {
+      "path": "review/operator-independent-audit/verify_scope_and_costs.py",
+      "sha256": "4e03c8d9a569c0bfcdecc783ecfeb80d799d22efa0e0f561c21a6b073342e6cb"
+    }
+  ],
+  "scientific_inputs_unchanged": {
+    "inputs/operator.npz": "1e5728241c21cdf70f861fb7ee04452698678458c731f47dc996fe47f9e7ecd6",
+    "inputs/static-model.npz": "b3b5306ac6515bafd23419b1fc5bf9ec9b5f4ef01b57b8cecc15ea994fe885e7",
+    "inputs/all-mode-harmonic-scales.npz": "601783f315a4d4483a1154e6df6e5f76f0aa85e05eac50f24e16ac971293975c",
+    "inputs/fitted-covariance.npz": "e202bccb17020d1a02ddd87044eff7a210afa3371ddefb6e4bb4a3713134a372"
+  },
+  "archived_receipt_hash_scope": "Archived audit receipts refer to their original local layout and hashes. Redacted metadata paths are mapped here. Portable verification emits new receipts for the exported layout.",
+  "portable_wrapper": "checks/verify.py overrides only BASE/OP/HERE directory variables in unchanged independent audit source."
+}

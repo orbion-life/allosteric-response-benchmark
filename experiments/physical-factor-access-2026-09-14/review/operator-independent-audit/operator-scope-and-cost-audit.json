@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "scope": "Direct raw-array arithmetic and the declared unoptimized template planning formulas; no independent timing benchmark or full quantum execution.",
+  "maximum_threads": 2,
+  "dimensions": {
+    "residues": 252,
+    "coordinates": 750,
+    "saved_reduced_rank": 1261,
+    "Hermite_dimension": 13360196875,
+    "explicit_Hermite_by_rank_factor_bytes": 134777666075000,
+    "padded_generic_table_bytes": 281474976710656,
+    "padded_generic_table_loader_qubits": 46,
+    "dense_saved_Hr_factor_bytes": 12720968,
+    "dense_saved_Hr_loader_qubits": 23
+  },
+  "array_checks": {
+    "force_Gamma_vs_inverse_covariance_maxabs": 4.929712887902227e-12,
+    "factor_covariance_inverse_identity_maxabs": 5.551115123125783e-15,
+    "reduced_vs_full_Gaussian_maxabs": 2.3801156923131117e-05,
+    "matrix_free_vs_reduced_maxabs": 8.731904088676856e-14,
+    "factor_consistent_vs_original_Gaussian_maxabs": 2.517985819849855e-13
+  },
+  "independent_dense_Cholesky_Gram_maxabs": 4.085620730620576e-14,
+  "independent_dense_factor_gamma_minus_trace_Hr": 0.0,
+  "independent_shot_counts": {
+    "single_95pct_sufficient": 5839223,
+    "per_entry_for_joint95pct": 24448045,
+    "entries": 127512,
+    "total": 3117419114040
+  },
+  "planning_degrees_verified": [
+    {
+      "time_over_tau": 0.001,
+      "degree": 55,
+      "controlled_walk_calls": 63
+    },
+    {
+      "time_over_tau": 0.03,
+      "degree": 300,
+      "controlled_walk_calls": 511
+    },
+    {
+      "time_over_tau": 0.1,
+      "degree": 548,
+      "controlled_walk_calls": 1023
+    },
+    {
+      "time_over_tau": 1.0,
+      "degree": 1732,
+      "controlled_walk_calls": 2047
+    }
+  ],
+  "source_sha256": {
+    "review/operator-independent-audit/verify_scope_and_costs.py": "4e03c8d9a569c0bfcdecc783ecfeb80d799d22efa0e0f561c21a6b073342e6cb",
+    "operator/protocol.json": "84f1b3558c347154d725ebe20b2973d9e24732d0d312efb68105bd2a7a306292",
+    "operator/results/complete-cost-accounting.json": "75dd89ac3a6ace3beb6c5f3ead92fbee9078211cec297aea8bff0e286e36b208",
+    "operator/results/classical-summary.json": "bfa4f64d44df93bbd75e7d8992856eb557c5b4b61a1e4ef945d7309f7a1e4148",
+    "operator/results/matched-responses.npz": "f52bd79cd685c7bd5bb2a32e834aec10aa4f290a4c8b2d7aec84a65db447d767",
+    "operator/results/physical-factor.npz": "bded6f1355146351c3485c6849ce0ae87239c2cd8bec8f273e2a36cfdd8815e3",
+    "operator/results/hermite-access.json": "d27659441da1c38f7a4273b71c89f347b76dcee696787ad7a69f58906a3a37ce",
+    "operator/source/run_costs.py": "603858937e2a74ff288456173dba0026605ad742f5c9ba664c663641f6414c35"
+  }
+}

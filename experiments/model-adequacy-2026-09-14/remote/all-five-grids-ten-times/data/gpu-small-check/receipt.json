@@ -1,0 +1,291 @@
+{
+  "status": "PASS",
+  "scope": "Finite implementation checks only; coarse grid is not continuum reference",
+  "grid": {
+    "faces": [
+      4.0,
+      4.0,
+      18.0
+    ],
+    "spacing": 2,
+    "shape": [
+      4,
+      4,
+      18
+    ],
+    "states": 288,
+    "field": null,
+    "backend": "cupy",
+    "build_seconds": 7.480338876000001,
+    "stationarity": 9.535780077102008e-17,
+    "G0": [
+      [
+        0.19548039529076697,
+        0.08549140990522452,
+        0.04997710831724835
+      ],
+      [
+        0.08549140990522452,
+        0.3609115243191208,
+        0.1786450639085523
+      ],
+      [
+        0.04997710831724835,
+        0.1786450639085523,
+        0.2907036617783757
+      ]
+    ],
+    "gamma": 4.235276583842391,
+    "spectral_upper": 6.715365190402184,
+    "eigenvalues": [
+      1.270031126943411,
+      1.7299688730565843,
+      2.9999999999999947
+    ],
+    "sd": [
+      0.7546235522986464,
+      0.6731356459964715,
+      0.7065206335498847
+    ],
+    "log_partition_cell_measure": 4.806927306324548,
+    "numpy_version": "2.2.6",
+    "backend_version": "14.1.1",
+    "GPU": "NVIDIA A100-SXM4-80GB",
+    "GPU_pool_reserved_bytes": 276480
+  },
+  "CSR_action_max_error": 8.326672684688674e-17,
+  "propagation": [
+    {
+      "time_over_tau": 0.0075,
+      "chebyshev_error": 1.3780643293159756e-13,
+      "uniformization_error": 3.3639757646142243e-14,
+      "chebyshev": {
+        "method": "chebyshev",
+        "degree": 4,
+        "time": 0.005905367073994697,
+        "time_over_tau": 0.0075,
+        "seconds": 0.0009629959999983839,
+        "operator_actions": 4,
+        "tail_bound_times_norms": 3.219089407024434e-12,
+        "norm_amplification": 0.36091152431912105,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      },
+      "uniformization": {
+        "method": "uniformization",
+        "degree": 5,
+        "time": 0.005905367073994697,
+        "time_over_tau": 0.0075,
+        "seconds": 0.0015864800000002788,
+        "operator_actions": 5,
+        "tail_bound_times_norms": 1.200969652784212e-13,
+        "norm_amplification": 0.36091152431912105,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      }
+    },
+    {
+      "time_over_tau": 0.1,
+      "chebyshev_error": 2.380246000299735e-11,
+      "uniformization_error": 2.1305179842556754e-13,
+      "chebyshev": {
+        "method": "chebyshev",
+        "degree": 6,
+        "time": 0.07873822765326265,
+        "time_over_tau": 0.1,
+        "seconds": 0.0005933039999987955,
+        "operator_actions": 6,
+        "tail_bound_times_norms": 5.217216014540934e-10,
+        "norm_amplification": 0.36091152431912105,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      },
+      "uniformization": {
+        "method": "uniformization",
+        "degree": 9,
+        "time": 0.07873822765326265,
+        "time_over_tau": 0.1,
+        "seconds": 0.0010933840000006967,
+        "operator_actions": 9,
+        "tail_bound_times_norms": 1.2497378766879687e-12,
+        "norm_amplification": 0.36091152431912105,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      }
+    },
+    {
+      "time_over_tau": 1,
+      "chebyshev_error": 8.128941964002934e-12,
+      "uniformization_error": 1.7725543255409093e-12,
+      "chebyshev": {
+        "method": "chebyshev",
+        "degree": 13,
+        "time": 0.7873822765326264,
+        "time_over_tau": 1.0,
+        "seconds": 0.0008210509999955207,
+        "operator_actions": 13,
+        "tail_bound_times_norms": 3.1281175142876764e-10,
+        "norm_amplification": 0.36091152431912105,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      },
+      "uniformization": {
+        "method": "uniformization",
+        "degree": 20,
+        "time": 0.7873822765326264,
+        "time_over_tau": 1.0,
+        "seconds": 0.0013018639999984316,
+        "operator_actions": 20,
+        "tail_bound_times_norms": 2.857597061290289e-11,
+        "norm_amplification": 0.36091152431912105,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      }
+    },
+    {
+      "time_over_tau": 10,
+      "chebyshev_error": 1.4215753574298162e-11,
+      "uniformization_error": 8.069621360018431e-13,
+      "chebyshev": {
+        "method": "chebyshev",
+        "degree": 34,
+        "time": 7.873822765326263,
+        "time_over_tau": 10.0,
+        "seconds": 0.0012799980000011146,
+        "operator_actions": 34,
+        "tail_bound_times_norms": 6.50734451245036e-10,
+        "norm_amplification": 0.36091152431912105,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      },
+      "uniformization": {
+        "method": "uniformization",
+        "degree": 73,
+        "time": 7.873822765326263,
+        "time_over_tau": 10.0,
+        "seconds": 0.00240974199999755,
+        "operator_actions": 73,
+        "tail_bound_times_norms": 3.2661269474670156e-10,
+        "norm_amplification": 0.36091152431912105,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      }
+    }
+  ],
+  "field": [
+    {
+      "source": 0,
+      "eta0": 0.01,
+      "successive_changes": [
+        1.7078510853793527e-07,
+        4.269545290230825e-08
+      ],
+      "FDT_error_final": 1.4231733708180982e-08,
+      "central": [
+        [
+          -0.01978138012278712,
+          -0.008295861498015897,
+          -0.005712065097746109
+        ],
+        [
+          -0.01978120933767858,
+          -0.00829575494937073,
+          -0.00571194012319266
+        ],
+        [
+          -0.019781166642225678,
+          -0.00829572831275785,
+          -0.005711908880092105
+        ]
+      ],
+      "reference": [
+        -0.01978115241049197,
+        -0.008295719433934229,
+        -0.005711898465769298
+      ]
+    },
+    {
+      "source": 1,
+      "eta0": 0.01,
+      "successive_changes": [
+        2.5523336430466337e-07,
+        6.3805374955761e-08
+      ],
+      "FDT_error_final": 2.1268170322108482e-08,
+      "central": [
+        [
+          -0.00829590765236577,
+          -0.03176760836318725,
+          -0.013662901944773735
+        ],
+        [
+          -0.00829576648732986,
+          -0.03176735312982294,
+          -0.013662715319452071
+        ],
+        [
+          -0.008295731197213371,
+          -0.031767289324447986,
+          -0.013662668664761977
+        ]
+      ],
+      "reference": [
+        -0.008295719433934215,
+        -0.031767268056277664,
+        -0.0136626531133541
+      ]
+    },
+    {
+      "source": 2,
+      "eta0": 0.01,
+      "successive_changes": [
+        2.002536919690212e-07,
+        5.0061318285221645e-08
+      ],
+      "FDT_error_final": 1.6686901298246237e-08,
+      "central": [
+        [
+          -0.005712083497585226,
+          -0.013662873505797908,
+          -0.028130529438241375
+        ],
+        [
+          -0.005711944722904157,
+          -0.013662708210063386,
+          -0.028130329184549406
+        ],
+        [
+          -0.005711910030003348,
+          -0.013662666887439764,
+          -0.02813027912323112
+        ]
+      ],
+      "reference": [
+        -0.005711898465769284,
+        -0.0136626531133541,
+        -0.028130262436329823
+      ]
+    }
+  ],
+  "finite_residual": [
+    {
+      "time_over_tau": 0.0075,
+      "max_error": 4.54185858006495e-06,
+      "max_bound": 0.0018117159583792338,
+      "all_errors_below_computed_bound": true
+    },
+    {
+      "time_over_tau": 0.025,
+      "max_error": 4.949643587032204e-05,
+      "max_bound": 0.005989115261211822,
+      "all_errors_below_computed_bound": true
+    },
+    {
+      "time_over_tau": 0.1,
+      "max_error": 0.0007291964535370288,
+      "max_bound": 0.023125399254558136,
+      "all_errors_below_computed_bound": true
+    },
+    {
+      "time_over_tau": 1.0,
+      "max_error": 0.028765570247905742,
+      "max_bound": 0.1567001283933273,
+      "all_errors_below_computed_bound": true
+    }
+  ],
+  "seconds": 8.028730234000001,
+  "source_sha256": "e0a53bb1694a3a9cb2379cb39eb18e59a8dac3bcbe304a98cec56d58e640c035",
+  "core_sha256": "abb598e0fdd52a34d19a1fd4dc3fadfe1bb61a485883facb7d04139ec45e34e6"
+}

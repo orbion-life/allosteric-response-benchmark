@@ -1,0 +1,245 @@
+Gaussian refit {'iteration': 0, 'beta_F_minus_constant': 438.78128463581714, 'whitened_gradient_frobenius': 17.539573344464685, 'elapsed_seconds': 0.05062079196795821}
+Gaussian refit {'iteration': 1, 'beta_F_minus_constant': 411.75531476416006, 'whitened_gradient_frobenius': 7.880424469649915, 'elapsed_seconds': 0.4361539589590393}
+Gaussian refit {'iteration': 2, 'beta_F_minus_constant': 407.698537075976, 'whitened_gradient_frobenius': 10.862968500762781, 'elapsed_seconds': 0.7026292919763364}
+Gaussian refit {'iteration': 3, 'beta_F_minus_constant': 407.10598544006496, 'whitened_gradient_frobenius': 4.841881312575669, 'elapsed_seconds': 0.875820749963168}
+Gaussian refit {'iteration': 4, 'beta_F_minus_constant': 406.9358483365883, 'whitened_gradient_frobenius': 1.7435443358099383, 'elapsed_seconds': 1.0480682919733226}
+Gaussian refit {'iteration': 5, 'beta_F_minus_constant': 406.8921079110404, 'whitened_gradient_frobenius': 0.3757685794867957, 'elapsed_seconds': 1.2215913749532774}
+Gaussian refit {'iteration': 6, 'beta_F_minus_constant': 406.88855701979065, 'whitened_gradient_frobenius': 0.028832440852861442, 'elapsed_seconds': 1.4478979999548756}
+Gaussian refit {'iteration': 7, 'beta_F_minus_constant': 406.88853544644905, 'whitened_gradient_frobenius': 0.0003974911899070941, 'elapsed_seconds': 1.6838798749959096}
+Gaussian refit {'iteration': 8, 'beta_F_minus_constant': 406.8885354390617, 'whitened_gradient_frobenius': 5.537997601225906e-07, 'elapsed_seconds': 2.2125731669948436}
+Gaussian refit {'iteration': 9, 'beta_F_minus_constant': 406.8885354390618, 'whitened_gradient_frobenius': 5.1874027424943185e-12, 'elapsed_seconds': 2.7648499999777414}
+{
+  "shared_classical_preprocessing": {
+    "harmonic_cartesian_assembly_seconds": 0.0281148329959251,
+    "dense_cartesian_harmonic_eigh_seconds": 0.08779074996709824,
+    "frozen_basis_harmonic_identity_maxabs": 4.927947258711913e-12,
+    "Gaussian_fit_objective_setup_seconds": 0.0013225420261733234,
+    "Gaussian_refit_seconds": 2.7705369999748655,
+    "Gaussian_refit": {
+      "converged": true,
+      "history": [
+        {
+          "iteration": 0,
+          "beta_F_minus_constant": 438.78128463581714,
+          "whitened_gradient_frobenius": 17.539573344464685,
+          "elapsed_seconds": 0.05062079196795821,
+          "cg_iterations": 4,
+          "cg_relative_tolerance": 0.1,
+          "step_length": 0.5,
+          "stable_objective_decrease": -27.025969871657143
+        },
+        {
+          "iteration": 1,
+          "beta_F_minus_constant": 411.75531476416006,
+          "whitened_gradient_frobenius": 7.880424469649915,
+          "elapsed_seconds": 0.4361539589590393,
+          "cg_iterations": 3,
+          "cg_relative_tolerance": 0.1,
+          "step_length": 1.0,
+          "stable_objective_decrease": -4.056777688184062
+        },
+        {
+          "iteration": 2,
+          "beta_F_minus_constant": 407.698537075976,
+          "whitened_gradient_frobenius": 10.862968500762781,
+          "elapsed_seconds": 0.7026292919763364,
+          "cg_iterations": 1,
+          "cg_relative_tolerance": 0.1,
+          "step_length": 1.0,
+          "stable_objective_decrease": -0.5925516359110007
+        },
+        {
+          "iteration": 3,
+          "beta_F_minus_constant": 407.10598544006496,
+          "whitened_gradient_frobenius": 4.841881312575669,
+          "elapsed_seconds": 0.875820749963168,
+          "cg_iterations": 1,
+          "cg_relative_tolerance": 0.1,
+          "step_length": 1.0,
+          "stable_objective_decrease": -0.17013710347664118
+        },
+        {
+          "iteration": 4,
+          "beta_F_minus_constant": 406.9358483365883,
+          "whitened_gradient_frobenius": 1.7435443358099383,
+          "elapsed_seconds": 1.0480682919733226,
+          "cg_iterations": 1,
+          "cg_relative_tolerance": 0.1,
+          "step_length": 1.0,
+          "stable_objective_decrease": -0.043740425547899496
+        },
+        {
+          "iteration": 5,
+          "beta_F_minus_constant": 406.8921079110404,
+          "whitened_gradient_frobenius": 0.3757685794867957,
+          "elapsed_seconds": 1.2215913749532774,
+          "cg_iterations": 2,
+          "cg_relative_tolerance": 0.06129996570038158,
+          "step_length": 1.0,
+          "stable_objective_decrease": -0.003550891249726392
+        },
+        {
+          "iteration": 6,
+          "beta_F_minus_constant": 406.88855701979065,
+          "whitened_gradient_frobenius": 0.028832440852861442,
+          "elapsed_seconds": 1.4478979999548756,
+          "cg_iterations": 2,
+          "cg_relative_tolerance": 0.016980118036356944,
+          "step_length": 1.0,
+          "stable_objective_decrease": -2.1573341612762094e-05
+        },
+        {
+          "iteration": 7,
+          "beta_F_minus_constant": 406.88853544644905,
+          "whitened_gradient_frobenius": 0.0003974911899070941,
+          "elapsed_seconds": 1.6838798749959096,
+          "cg_iterations": 3,
+          "cg_relative_tolerance": 0.001993718109229823,
+          "step_length": 1.0,
+          "stable_objective_decrease": -7.387286254338979e-09
+        },
+        {
+          "iteration": 8,
+          "beta_F_minus_constant": 406.8885354390617,
+          "whitened_gradient_frobenius": 5.537997601225906e-07,
+          "elapsed_seconds": 2.2125731669948436,
+          "cg_iterations": 5,
+          "cg_relative_tolerance": 7.441772370360375e-05,
+          "step_length": 1.0,
+          "stable_objective_decrease": -2.3264769070759627e-14
+        },
+        {
+          "iteration": 9,
+          "beta_F_minus_constant": 406.8885354390618,
+          "whitened_gradient_frobenius": 5.1874027424943185e-12,
+          "elapsed_seconds": 2.7648499999777414
+        }
+      ],
+      "hessian_actions": 22,
+      "seconds": 2.7649142089649104,
+      "gradient_tolerance": 1e-09,
+      "matrix_free_covariance_parameter_hessian": true
+    },
+    "fitted_covariance_replay_maxabs": 2.4868995751603507e-14,
+    "frozen_B0_kept_for_deterministic_access": true,
+    "covariance_fit_common_to_classical_and_quantum_Gaussian_routes": true,
+    "original_snapshot_and_whitening_construction": "Precomputed common input; NOT retimed in this run. It requires Gaussian kernels and dense whitening. Prior campaign provenance is retained; query timings alone are not end-to-end model construction."
+  },
+  "dense_reduced_fallback_factor": {
+    "scope": "A measured dense Cholesky fallback, not a cheap physical force oracle. It explicitly constructs the saved reduced operator first.",
+    "seconds": 0.04683945805300027,
+    "factor_float64_bytes": 12720968,
+    "factor_Gram_maxabs": 4.085620730620576e-14,
+    "gamma_Frobenius_squared": 12663.52607242309,
+    "gamma_over_Hr_spectral_norm": 422.4276660538635,
+    "factor_shape": [
+      1261,
+      1261
+    ],
+    "padded_dimension": 2048,
+    "generic_loader_qubits": 23,
+    "generic_loader_Ry_angles_per_UL": 4194304,
+    "estimated_native_operations_per_UL_before_optimization": 8388605,
+    "generic_loader_statevector_complex128_bytes": 134217728,
+    "status": "NOT_COMPILED_EXCEEDS_FROZEN_QUBIT_AND_GATE_CAP",
+    "observable_state_loading_Ry_angles_per_state": 2047,
+    "observable_state_loading_notes": "Generic real binary tree for one selected column of B, norm calculated classically; neither loading nor dense preprocessing is free."
+  },
+  "error_budget_planning_only": {
+    "reduction": 5e-05,
+    "force_and_covariance_difference": 1e-08,
+    "semigroup_approximation": 0.0005,
+    "combined_two_state_preparation_and_static_term": 0.00025,
+    "statistical_response_estimation": 0.001,
+    "sum": 0.00180001,
+    "target": 0.002,
+    "scope": "A hypothetical engineering budget, not a passed ABL quantum error certificate. Reduction and physical covariance checks only measured at frozen4times; full coherent state/circuit implementation absent."
+  },
+  "full_ABL_dense_factor_query_plan": [
+    {
+      "time": 0.039804673596275215,
+      "time_over_tau": 0.001,
+      "gamma_t_over2": 252.03376094536108,
+      "Chebyshev_degree_for_planning_budget": 55,
+      "binary_SELECT_controlled_walk_calls": 63,
+      "tail_response_bound": 0.00042774033602593545,
+      "generic_UL_invocations_in_SELECT": 126,
+      "generic_Ry_angles_in_SELECT_lower_component_count": 528482304,
+      "count_exclusions": [
+        "additional controls and reflections",
+        "observable preparations",
+        "coefficient loading",
+        "routing and fault tolerance",
+        "repeat measurements"
+      ],
+      "scope": "Extrapolated exact generic-loader formula; no full ABL circuit compiled."
+    },
+    {
+      "time": 1.1941402078882564,
+      "time_over_tau": 0.03,
+      "gamma_t_over2": 7561.012828360832,
+      "Chebyshev_degree_for_planning_budget": 300,
+      "binary_SELECT_controlled_walk_calls": 511,
+      "tail_response_bound": 0.0004883020092447364,
+      "generic_UL_invocations_in_SELECT": 1022,
+      "generic_Ry_angles_in_SELECT_lower_component_count": 4286578688,
+      "count_exclusions": [
+        "additional controls and reflections",
+        "observable preparations",
+        "coefficient loading",
+        "routing and fault tolerance",
+        "repeat measurements"
+      ],
+      "scope": "Extrapolated exact generic-loader formula; no full ABL circuit compiled."
+    },
+    {
+      "time": 3.9804673596275215,
+      "time_over_tau": 0.1,
+      "gamma_t_over2": 25203.376094536106,
+      "Chebyshev_degree_for_planning_budget": 548,
+      "binary_SELECT_controlled_walk_calls": 1023,
+      "tail_response_bound": 0.0004896572040642007,
+      "generic_UL_invocations_in_SELECT": 2046,
+      "generic_Ry_angles_in_SELECT_lower_component_count": 8581545984,
+      "count_exclusions": [
+        "additional controls and reflections",
+        "observable preparations",
+        "coefficient loading",
+        "routing and fault tolerance",
+        "repeat measurements"
+      ],
+      "scope": "Extrapolated exact generic-loader formula; no full ABL circuit compiled."
+    },
+    {
+      "time": 39.804673596275215,
+      "time_over_tau": 1.0,
+      "gamma_t_over2": 252033.76094536108,
+      "Chebyshev_degree_for_planning_budget": 1732,
+      "binary_SELECT_controlled_walk_calls": 2047,
+      "tail_response_bound": 0.0004969011919333762,
+      "generic_UL_invocations_in_SELECT": 4094,
+      "generic_Ry_angles_in_SELECT_lower_component_count": 17171480576,
+      "count_exclusions": [
+        "additional controls and reflections",
+        "observable preparations",
+        "coefficient loading",
+        "routing and fault tolerance",
+        "repeat measurements"
+      ],
+      "scope": "Extrapolated exact generic-loader formula; no full ABL circuit compiled."
+    }
+  ],
+  "readout_planning_only": {
+    "max_observable_norm_product": 0.8896420223037033,
+    "response_relation": "C=L*alpha*(2p_plus-1)-G0; alpha<=1, use alpha=1 for conservative shots",
+    "independent_shots_single_query_95pct_Hoeffding": 5839223,
+    "full_matrix_four_times_entries": 254016,
+    "symmetry_distinct_four_times_entries": 127512,
+    "per_query_shots_95pct_simultaneous_symmetric_matrices": 24448045,
+    "total_independent_shots_95pct_simultaneous_symmetric_matrices": 3117419114040,
+    "assumptions": "Exact independent Bernoulli outputs, no bias/noise, allocated absolute response statistical error. Conservative sufficient bound, not a minimum or measured QPU cost. Adaptive amplitude estimation is a separate unimplemented coherent protocol.",
+    "cached_classical_query_results_are_also_reused": true
+  },
+  "wall_seconds": 3.523264834017027,
+  "peak_RSS_bytes": 535887872
+}

@@ -1,0 +1,40 @@
+{
+  "UTC": "2026-09-14T20:55:30.198270+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.16.0",
+    "qiskit": "2.3.1",
+    "qiskit-aer": "0.17.2",
+    "threadpoolctl": "3.6.0"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 4,
+      "prefix": "libopenblas",
+      "filepath": "/opt/homebrew/Caskroom/miniconda/base/lib/libopenblas.0.dylib",
+      "version": "0.3.33",
+      "threading_layer": "openmp",
+      "architecture": "VORTEX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 4,
+      "prefix": "libomp",
+      "filepath": "/opt/homebrew/Caskroom/miniconda/base/lib/libomp.dylib",
+      "version": null
+    }
+  ],
+  "sources": {
+    "source/core.py": "952b27c2fe6d5a0192fc2f4989e24ab25cbcb33c79968c07446e6f5dda05a947",
+    "source/run_classical.py": "d08966f5d70a34217af760f5d21d71ba57ac00576b534c1bbb8ff058c3f224e7",
+    "vendor/gaussian_protein.py": "d3af0a5a1612dbcfd009b8d51087fc7e4d7793859811e18fa0384e6e74318bac",
+    "vendor/multiplexed.py": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5",
+    "vendor/gaussian_kernel.py": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5",
+    "vendor/fixed_adapter.py": "dafbd7466852595a0b8e41de67edda5726a3995739fa9df31bdb536fdbf6e6c5"
+  }
+}

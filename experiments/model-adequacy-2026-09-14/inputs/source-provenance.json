@@ -1,0 +1,97 @@
+[
+  {
+    "path": "source/dynamics/core.py",
+    "sha256": "abb598e0fdd52a34d19a1fd4dc3fadfe1bb61a485883facb7d04139ec45e34e6",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/core.py"
+  },
+  {
+    "path": "source/dynamics/check_small.py",
+    "sha256": "e0a53bb1694a3a9cb2379cb39eb18e59a8dac3bcbe304a98cec56d58e640c035",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/check_small.py"
+  },
+  {
+    "path": "source/dynamics/protocol.json",
+    "sha256": "b6fc7f26b530569cac6a752a8ec3e3c95743637420e0d12e1c13fc67a7bb2c94",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/protocol.json"
+  },
+  {
+    "path": "source/vendor/model.py",
+    "sha256": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/vendor/model.py"
+  },
+  {
+    "path": "source/vendor/chebyshev.py",
+    "sha256": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/vendor/chebyshev.py"
+  },
+  {
+    "path": "source/vendor/protocol.json",
+    "sha256": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/vendor/protocol.json"
+  },
+  {
+    "path": "source/gaussian/experiment.py",
+    "sha256": "dafbd7466852595a0b8e41de67edda5726a3995739fa9df31bdb536fdbf6e6c5",
+    "original": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/experiment.py"
+  },
+  {
+    "path": "source/gaussian/gaussian_kernel.py",
+    "sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5",
+    "original": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/gaussian_kernel.py"
+  },
+  {
+    "path": "inputs/frozen-gaussian-result.npz",
+    "sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+    "original": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/triangle/result.npz"
+  },
+  {
+    "path": "inputs/historical/controls.npz",
+    "sha256": "b891fd6fe1e561e307ffcae3f4aa34a99e07973f952cf17d9c03841aca92ed5a",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/representation/controls.npz"
+  },
+  {
+    "path": "inputs/historical/controls.json",
+    "sha256": "8f76b95223279d124403a8dfaa36a309240515132840789377b8d369f83ed1ec",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/representation/controls.json"
+  },
+  {
+    "path": "inputs/historical/reference-summary.json",
+    "sha256": "618ab5c0df123693ecd168491f98ba8beb29d299cbaf9c6383b17df6b756bebc",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/reference-summary.json"
+  },
+  {
+    "path": "inputs/historical/resource-ledger.json",
+    "sha256": "c96ef50b8ce8c643cf6bad5ae0ff5db6a7ad322cfbb451f7d3b11d52dceafc2a",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/compute/resource-ledger.json"
+  },
+  {
+    "path": "inputs/nonlinear-model-adequacy.md",
+    "sha256": "b0db0be59b87de41245404a5247c549c05609004c2e1193179162f487f967e36",
+    "original": "historical-output/pulsar-literature-clarification-2026-09-14/repository/docs/evidence-v0.9.0/nonlinear-model-adequacy.md"
+  },
+  {
+    "path": "inputs/historical/static-cell-0.json",
+    "sha256": "186771aae6fb33b5cd9f953847fa7c24e141f02cc329bae66cc9460ebfb07ffb",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-1.json"
+  },
+  {
+    "path": "inputs/historical/static-cell-1.json",
+    "sha256": "2c75accd8a7fc4c294d1d1a704878a71b28681963d9d347008aa7d0fe057e154",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-2.json"
+  },
+  {
+    "path": "inputs/historical/static-cell-2.json",
+    "sha256": "c9464443c35c7d9065c3de91030f1c7283516cc5ed15d5992208d0104bb804a0",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-3.json"
+  },
+  {
+    "path": "inputs/historical/static-cell-3.json",
+    "sha256": "a5a02e9bda6a51d20b6bb48858274e1c79a5cb1981acb23de4722d575d97b6e7",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-4.json"
+  },
+  {
+    "path": "inputs/historical/static-cell-4.json",
+    "sha256": "f5738f7929f3351e0fbd20d41b3e8c0c6b0c6f0ef200da077cd7e5db476efbe1",
+    "original": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-5.json"
+  }
+]

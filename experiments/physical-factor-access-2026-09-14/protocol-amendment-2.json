@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_BEFORE_QUANTUM_COMPILATION_AND_SIMULATION",
+  "UTC": "2026-09-14T20:57:44.509032+00:00",
+  "original_protocol_sha256": "84f1b3558c347154d725ebe20b2973d9e24732d0d312efb68105bd2a7a306292",
+  "observable_pair": "First two physical ABL-derived fixture residues, local indices0and1",
+  "polynomial_factor": "D_(r,beta),alpha=F_(r,a)*sqrt(alpha_a) with beta=alpha-e_a, complete sectors1..4",
+  "gamma": "Actual full small factor Frobenius squared; no spectral-norm substitution",
+  "block_checks": "All14 input basis columns using separate statevector executions, no dense unitary",
+  "propagation": "Chebyshev positive Bessel LCU; degree<=32 selected to bound norm-restored truncation by2.5e-7; binary controlled walk SELECT with first two actual normalized residue states",
+  "native_basis": [
+    "u",
+    "cx"
+  ],
+  "native_optimization_level": 1,
+  "native_seed": 20260914,
+  "statevector_simulator": "Qiskit Aer CPU double max4threads",
+  "caps": "Original protocol200000nativeops20qubits90seconds per simulation; record gates before attempting simulation",
+  "interpretation": "Full small fixture pass demonstrates Gaussian factor/overlap implementation only. No full ABL circuit or practical quantum advantage inferred."
+}

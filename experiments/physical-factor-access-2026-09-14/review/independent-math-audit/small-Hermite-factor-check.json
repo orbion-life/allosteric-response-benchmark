@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "Complete34-chaos-term check of existing9D Gaussian triangle snapshot model only; no full ABL factor, nonlinear fidelity, efficient input oracle, or QPU claim",
+  "basis": "Normalized probabilists Hermites He_alpha/sqrt(alpha!)",
+  "degrees": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "basis_size": 34,
+  "coefficient_method": "Order5 GH integration of direct quartic contact energies; no normal-ordering tensor formula",
+  "gradient_Gram_method": "Nested125x125 GH conditional averages of direct contact gradients; Dirichlet coefficient mu/beta",
+  "coordinate_phases": "Largest absolute component of each covariance eigenvector is positive",
+  "quadrature_order": 5,
+  "outer_nodes": 125,
+  "conditional_innovation_nodes": 125,
+  "randomness": "None",
+  "snapshot_times_over_tau": [
+    0.0,
+    0.1,
+    1.0
+  ],
+  "constants": {
+    "beta": 1.0,
+    "mu": 1.0,
+    "kappa": 1.0,
+    "tau": 0.7873822765326267
+  },
+  "raw_tolerance": 1e-10,
+  "embedding_tolerance": 1e-08,
+  "checks": {
+    "normalized_Hermite_Gram": 8.881784197001252e-16,
+    "pointwise_original_contact_reconstruction": 2.842170943040401e-14,
+    "pointwise_snapshot_reconstruction": 8.171241461241152e-14,
+    "direct_GH_M_vs_saved": 2.7755575615628914e-15,
+    "direct_gradient_GH_tauA_vs_saved": 1.363705094837739e-14,
+    "direct_GH_D_vs_saved": 2.1094237467877974e-15,
+    "Hermite_M_vs_direct_GH": 1.3322676295501878e-15,
+    "Hermite_tauA_vs_direct_gradient_GH": 6.993359460706354e-15,
+    "Hermite_D_vs_direct_GH": 8.881784197001252e-16,
+    "Psi_Gram_vs_identity": 7.602807272633072e-13,
+    "factor_tauHr_vs_saved": 4.965285217101511e-13,
+    "PsiT_h_vs_saved_B": 8.629738672899898e-15,
+    "response_vs_saved_three_times": 3.4416913763379853e-15,
+    "positive_local_factor_min_rate": 1.5658583214487891
+  },
+  "degree1_coefficient_norm": 0.6418611938554288,
+  "charged_preprocessing": "Saved covariance fit, original physical basis, coordinate covariance diagonalization, and saved snapshot whitening are inputs/preprocessing, not free oracles.",
+  "source_hashes": {
+    "script": "97b26ced05667fa7de013eb976151e32900329f7ac9fec1171bf17b12cf2ba99",
+    "controls": "e63be4595452766b1172b4f6bf0271da02ebcb189fef4790c32342422d163f1d",
+    "snapshot_model": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+    "output": "ea6b1038428e3112f43723c1b083c7821261b91359bcc18fd4c27913cda6d64e"
+  },
+  "seconds": 0.04648433299999999,
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "numpy": "2.0.2"
+}

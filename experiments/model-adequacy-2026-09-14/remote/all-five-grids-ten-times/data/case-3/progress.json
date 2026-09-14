@@ -1,0 +1,7 @@
+{
+  "method": "uniformization",
+  "time_over_tau": 10,
+  "action": 10000,
+  "total_actions": 10039,
+  "seconds": 42.80353883000001
+}

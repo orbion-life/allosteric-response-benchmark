@@ -1,0 +1,11 @@
+{
+  "status": "Historical measured common-input preparation; not a new run",
+  "platform": "NVIDIA A100-SXM4-40GB",
+  "operator_sha256": "1e5728241c21cdf70f861fb7ee04452698678458c731f47dc996fe47f9e7ecd6",
+  "operator_matches_current_input": true,
+  "snapshot_kernel_count": 21,
+  "snapshot_kernel_seconds_sum": 7.20886731799996,
+  "reduction_seconds": 3.3802407180000102,
+  "full_prior_campaign_seconds": 51.56288577,
+  "scope": "Original A100 campaign included basis kernels, reduction and72freshreferencekernels pluscanaries. Do not add to current CPU timings as a single-device end-to-end benchmark."
+}

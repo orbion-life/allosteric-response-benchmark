@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "scope": "Independent saved-array and download/provenance verification; finite reflecting triangle only. No new propagation, unbounded-dynamics certificate, or protein inference.",
+  "time_count": 10,
+  "per_model_response_entry_count": 90,
+  "per_model_two_other_site_ordering_count": 30,
+  "same_fine_grid_operator_shared_by_two_propagators": true,
+  "propagators": "Chebyshev/Bessel and Poisson uniformization; small CSR/expm tests supply independent implementation check",
+  "refinement": [
+    {
+      "kind": "domain",
+      "left": 0,
+      "right": 1,
+      "static_max": 0.0007691295704730372,
+      "lag_max": 0.0007567543033011603,
+      "response_max": 0.0007690001896974996
+    },
+    {
+      "kind": "domain",
+      "left": 1,
+      "right": 2,
+      "static_max": 6.058547478149379e-07,
+      "lag_max": 5.988929217271011e-07,
+      "response_max": 6.057559119310163e-07
+    },
+    {
+      "kind": "spacing",
+      "left": 2,
+      "right": 3,
+      "static_max": 8.798517470154366e-14,
+      "lag_max": 0.00022873100667872293,
+      "response_max": 0.00022873100659073775
+    },
+    {
+      "kind": "spacing",
+      "left": 3,
+      "right": 4,
+      "static_max": 6.078471059822732e-14,
+      "lag_max": 0.0001471864962318825,
+      "response_max": 0.0001471864961710978
+    }
+  ],
+  "maximum_independent_difference": 4.225244598643485e-10,
+  "empirical_envelope": [
+    6.7408901808353e-05,
+    0.0002082016519861076,
+    0.0004966479607951172,
+    0.0005929189686863295,
+    0.0008380121205711653,
+    0.0008666448553009242,
+    0.0008679433251918246,
+    0.000817012686121247,
+    0.0007773765510049091,
+    0.0007756498122566251
+  ],
+  "envelope_scope": "Sum of observed four successive response differences plus propagation discrepancy and both tail allowances; empirical only",
+  "historical_original_time_response_error": 0.0,
+  "remote_manifest_mismatches": [],
+  "model_results": [
+    {
+      "model": "Gaussian",
+      "all_entry_count": 90,
+      "offdiagonal_entry_count": 60,
+      "minimum_C_discrepancy": 0.005855822311830516,
+      "maximum_C_discrepancy": 0.40929799244468607,
+      "maximum_offdiagonal_C_discrepancy": 0.27350303459987635,
+      "entries_within_0p002_observed": 0,
+      "entries_within_0p002_with_envelope": 0,
+      "raw_order_counts": {
+        "agree": 16,
+        "reverse": 14,
+        "tie": 0
+      },
+      "conditional_order_counts": {
+        "agree": 16,
+        "reverse": 12,
+        "unresolved": 2
+      },
+      "original_times_raw": {
+        "agree": 4,
+        "reverse": 5,
+        "tie": 0
+      },
+      "unresolved": [
+        {
+          "time_over_tau": 0.0075,
+          "receiver": 1,
+          "reference_gap": 7.539922384180997e-05,
+          "model_gap": 0.0003532743010303263,
+          "threshold": 0.00013481780362381142
+        },
+        {
+          "time_over_tau": 0.025,
+          "receiver": 1,
+          "reference_gap": 0.0003009013729604604,
+          "model_gap": 0.0011513290276605193,
+          "threshold": 0.00041640330397932064
+        }
+      ]
+    },
+    {
+      "model": "harmonic",
+      "all_entry_count": 90,
+      "offdiagonal_entry_count": 60,
+      "minimum_C_discrepancy": 0.008296233369471606,
+      "maximum_C_discrepancy": 0.746435660988644,
+      "maximum_offdiagonal_C_discrepancy": 0.47673452417216683,
+      "entries_within_0p002_observed": 0,
+      "entries_within_0p002_with_envelope": 0,
+      "raw_order_counts": {
+        "agree": 16,
+        "reverse": 14,
+        "tie": 0
+      },
+      "conditional_order_counts": {
+        "agree": 16,
+        "reverse": 12,
+        "unresolved": 2
+      },
+      "original_times_raw": {
+        "agree": 4,
+        "reverse": 5,
+        "tie": 0
+      },
+      "unresolved": [
+        {
+          "time_over_tau": 0.0075,
+          "receiver": 1,
+          "reference_gap": 7.539922384180997e-05,
+          "model_gap": 0.000813756808933308,
+          "threshold": 0.0001348178036246996
+        },
+        {
+          "time_over_tau": 0.025,
+          "receiver": 1,
+          "reference_gap": 0.0003009013729604604,
+          "model_gap": 0.0026674546248922626,
+          "threshold": 0.0004164033039802088
+        }
+      ]
+    }
+  ],
+  "independent_direct_Gauss_Hermite_control_max_error": 1.9539925233402755e-14,
+  "source_hashes": {
+    "audit_script": "ddd3e457723151cac9ebd1aec0df5c26ac3ee23893b554c14a654765db625114",
+    "protocol": "6017e13a9c7b0cfeb32066b573fb5113a76af46818f9e40b53b6987c0cad0914",
+    "provider_receipt": "19d76b6169f046d41ca49d93314adb1140eedce19016e753601cad663a1a5072",
+    "analyzed_summary": "a235b9ca44461739a2c4e21713f16e51d2722ad4236126e35fc5ab8cb860ba34",
+    "controls": "e63be4595452766b1172b4f6bf0271da02ebcb189fef4790c32342422d163f1d",
+    "nonlinear_grid_0": "13a2c569757a5fe53fa8491a56422700a69d07075b47c03644a852d23ec27a8a",
+    "nonlinear_grid_1": "87ad28f45607e8d9e9ab89f3e5f2b8d7502fc0f205e0a0839b774249329a5d51",
+    "nonlinear_grid_2": "aa15d0a3f2122c8e8f60bd083da81c760cb5ee677cd1462128619a677aa951d6",
+    "nonlinear_grid_3": "9ea49b5c7e96ccf9225ff1e0ee59d1b2705668ff0b578f6b7aa8c5a0d342002e",
+    "nonlinear_grid_4": "c18e6048e420dae97aded0cb5407f418c6651c92ed64f60f0b4bd1addad94ebc"
+  },
+  "warnings": [
+    "Ordering comparisons are conditional on an empirical allowance, not certified whole-space rankings.",
+    "Ninety entries and thirty orderings are repeated outputs from one three-site fixture, not independent biological samples."
+  ],
+  "seconds": 0.016978875000000004,
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "numpy": "2.0.2"
+}

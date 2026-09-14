@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "source_under_test": "source/core.py",
+  "scope": "All 34 centered degree1-4 coefficients and factor rows for existing three-coordinate triangle only.",
+  "independence": "Expected coefficients are order5 GH integrals of direct energy values, without normal-ordering formulas; operator implementation is only the tested side.",
+  "coordinate_chart": "Covariance eigenvectors supplied by implementation to independent quadrature; avoids meaningless eigenvector sign differences.",
+  "quadrature_order": 5,
+  "randomness": "None",
+  "basis_size": 34,
+  "constants": {
+    "beta": 1.0,
+    "mu": 1.0,
+    "kappa": 1.0
+  },
+  "nonunit_rate_check": {
+    "mu": 3.0,
+    "beta": 2.0,
+    "Sigma": "held fixed"
+  },
+  "tolerances": {
+    "coefficients": 1e-10,
+    "embedding": 1e-08
+  },
+  "checks": {
+    "all_34_coefficients_maxabs": 2.220446049250313e-16,
+    "degree_coefficients_maxabs": {
+      "1": 1.1102230246251565e-16,
+      "2": 2.220446049250313e-16,
+      "3": 1.5265566588595902e-16,
+      "4": 2.1510571102112408e-16
+    },
+    "all_34_Psi_rows_maxabs": 2.489328188026718e-15,
+    "all_34_factor_rows_maxabs": 7.91033905045424e-15,
+    "all_34_rates_maxabs": 3.552713678800501e-15,
+    "factor_Gram_vs_saved_Hr_tau_maxabs": 4.958291857640805e-13,
+    "mass_vs_identity_maxabs": 7.602807272633072e-13,
+    "observable_embedding_vs_saved_B_maxabs": 7.622074815450572e-15,
+    "nonunit_mu_beta_rate_scaling_maxabs": 0.0
+  },
+  "source_hashes": {
+    "script": "c58f21b47285681b930e0a3a6727c22304e74cb98a8b43ed6c01094cc392f957",
+    "independent_helper": "97b26ced05667fa7de013eb976151e32900329f7ac9fec1171bf17b12cf2ba99",
+    "operator_source": "952b27c2fe6d5a0192fc2f4989e24ab25cbcb33c79968c07446e6f5dda05a947",
+    "controls": "e63be4595452766b1172b4f6bf0271da02ebcb189fef4790c32342422d163f1d",
+    "snapshot_model": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8"
+  },
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "numpy": "2.0.2"
+}

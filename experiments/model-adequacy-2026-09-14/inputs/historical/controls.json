@@ -1,0 +1,118 @@
+{
+  "status": "COMPARISON_IDENTITY_VERIFIED",
+  "checks": {
+    "geometry_maxabs": 0.0,
+    "edges_equal": true,
+    "positive_basis_maxabs": 6.661338147750939e-16,
+    "eigenvalue_maxabs": 6.661338147750939e-16,
+    "legacy_harmonic_sd_maxabs": 6.661338147750939e-16,
+    "saved_Gaussian_sd_maxabs": 6.661338147750939e-16,
+    "finite_reference_sd_maxabs": 4.440892098500626e-16,
+    "saved_physical_times_maxabs": 1.7763568394002505e-15,
+    "reference_ratios_equal": true,
+    "stiffness_equal": true,
+    "beta_equal": true,
+    "mobility_equal": true,
+    "original_U_pointwise_maxabs": 5.329070518200751e-15,
+    "original_E_pointwise_maxabs": 3.552713678800501e-15,
+    "saved_Gaussian_reference_reconstruction_maxabs": 1.1102230246251565e-16,
+    "saved_Gaussian_static_reconstruction_maxabs": 1.1102230246251565e-16
+  },
+  "comparisons": [
+    {
+      "model": "unbounded_native_harmonic",
+      "errors": {
+        "G0": 0.744415839337248,
+        "K": 0.5778544112658992,
+        "C": 0.7455994804843893
+      },
+      "per_time": [
+        {
+          "time_over_tau": 0.1,
+          "K_error": 0.5778544112658992,
+          "C_error": 0.17905297299710782
+        },
+        {
+          "time_over_tau": 1.0,
+          "K_error": 0.06293993998300002,
+          "C_error": 0.681475899354248
+        },
+        {
+          "time_over_tau": 10.0,
+          "K_error": 0.002524272021330016,
+          "C_error": 0.7455994804843893
+        }
+      ],
+      "passes_002": false
+    },
+    {
+      "model": "unbounded_fixed_centroid_fitted_Gaussian_OU",
+      "errors": {
+        "G0": 0.40107936190367965,
+        "K": 0.2944449691015397,
+        "C": 0.40929799244468607
+      },
+      "per_time": [
+        {
+          "time_over_tau": 0.1,
+          "K_error": 0.2944449691015397,
+          "C_error": 0.12780197156087986
+        },
+        {
+          "time_over_tau": 1.0,
+          "K_error": 0.04084704806282978,
+          "C_error": 0.40929799244468607
+        },
+        {
+          "time_over_tau": 10.0,
+          "K_error": 0.0025243304036064503,
+          "C_error": 0.4022676029528232
+        }
+      ],
+      "passes_002": false
+    }
+  ],
+  "reference": "Admitted original nonlinear finest finite model, faces(10,9,21), h=.08. Its whole-space dynamic error is not interval-certified.",
+  "interpretation": "Same geometry, original quartic residue observable, fixed harmonic normalization and physical times. Controls have different equilibrium laws and dynamics. Differences are model-fidelity errors for this triangle, separate from Hermite projection error and Gaussian-snapshot compression error.",
+  "limits": "Does not show biological validity of the original contact model or establish errors on proteins. Gaussian saved reference is exact for the fixed Gaussian surrogate, not a projected response.",
+  "source_receipts": [
+    {
+      "path": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/triangle/result.npz",
+      "sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8"
+    },
+    {
+      "path": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/remote/remaining-reference-cases/data/case-3/response.npz",
+      "sha256": "e0f6c22b5a46ebdd1f01fcdd5eb17b4be6a31a1fffd0c26ffa8c7c7236a4aab0"
+    },
+    {
+      "path": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/experiment.py",
+      "sha256": "dafbd7466852595a0b8e41de67edda5726a3995739fa9df31bdb536fdbf6e6c5"
+    },
+    {
+      "path": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/gaussian_kernel.py",
+      "sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+    },
+    {
+      "path": "historical-output/pulsar-phase1-execution-2026-09-13/galerkin/run.py",
+      "sha256": "6e4e80b5b74f6104f7411f655c36ac468443e1e938601dfa10b2a851509b3215"
+    },
+    {
+      "path": "historical-output/pulsar-phase1-execution-2026-09-13/galerkin/adapter.py",
+      "sha256": "c51a2b6b535dcacf8c62d2d55d4d63c7854808c916cf449913451f00ac8f9722"
+    },
+    {
+      "path": "historical-output/pulsar-phase1-execution-2026-09-13/galerkin/vendor/reference_source.py",
+      "sha256": "fbba55295943ea42ee63ca1c0607227d4f38a5fe71637f50e565f5bd2132b279"
+    },
+    {
+      "path": "historical-output/pulsar-phase1-execution-2026-09-13/galerkin/vendor/preanalysis.json",
+      "sha256": "530fede82261aec39165f06d0126e75e995ad131c0af0db170ce6f9c6880ada3"
+    },
+    {
+      "path": "historical-output/pulsar-field-switch-execution-2026-09-13/representation/vendor/model.py",
+      "sha256": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261"
+    }
+  ],
+  "new_fit_performed": false,
+  "new_feature_search": false
+}

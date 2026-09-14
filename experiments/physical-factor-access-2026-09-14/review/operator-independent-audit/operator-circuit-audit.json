@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "scope": "Independent direct quartic-energy quadrature, complete14-term small ABL polynomial generator, saved component/response QPY replay and prior audit provenance. No full-rank1261 quantum oracle or nonlinear validation claim.",
+  "threads_maximum": 2,
+  "source_coordinates_and_contacts_match": {
+    "coordinates": true,
+    "contacts": true,
+    "canonical": [
+      242,
+      243,
+      244
+    ]
+  },
+  "small_model": {
+    "residues": 3,
+    "coordinates": 2,
+    "Hermite_states": 14,
+    "factor_rows": 90,
+    "full_ABL_saved_response_rank": 1261
+  },
+  "checks": {
+    "direct_GH_coefficients_maxabs": 8.881784197001252e-16,
+    "direct_contact_reconstruction_maxabs": 3.197442310920451e-14,
+    "physical_force_Gram_maxabs": 1.5521869438801948e-17,
+    "polynomial_factor_Gram_vs_independent_ladder_generator_maxabs": 1.7763568394002505e-15,
+    "polynomial_generator_vs_covariance_rates_maxabs": 4.321876190260809e-12,
+    "factor_Frobenius_gamma_error": 0.0,
+    "QPY_all14_factor_columns_maxabs": 1.609823385706477e-15,
+    "QPY_all14_walk_columns_maxabs": 4.2988449830592035e-15
+  },
+  "component_circuits": {
+    "loader": {
+      "qubits": 12,
+      "operations": 4093,
+      "depth": 4084,
+      "gate_counts": {
+        "u": 2047,
+        "cx": 2046
+      }
+    },
+    "walk": {
+      "qubits": 12,
+      "operations": 8747,
+      "depth": 8546,
+      "gate_counts": {
+        "u": 4391,
+        "cx": 4356
+      }
+    },
+    "controlled_walk": {
+      "qubits": 13,
+      "operations": 17246,
+      "depth": 16914,
+      "gate_counts": {
+        "u": 8650,
+        "cx": 8596
+      }
+    }
+  },
+  "responses": [
+    {
+      "time_over_tau": 0.01,
+      "native_circuit": {
+        "qubits": 17,
+        "operations": 120840,
+        "depth": 118507,
+        "gate_counts": {
+          "u": 60590,
+          "cx": 60250
+        }
+      },
+      "chosen_degree": 6,
+      "norm_L": 0.3425027387672795,
+      "static_subtraction": 0.27223529951917913,
+      "LCU_alpha": 0.9999999645248651,
+      "independent_factor_response": -0.01350483984379014,
+      "independent_fitted_Gaussian_response": -0.013504839843795302,
+      "independent_truncated_polynomial_response": -0.013504833249808335,
+      "tail_response_bound": 1.2150330875339621e-08,
+      "truncation_actual_error": 6.593981805025351e-09,
+      "frozen_resource_cap_pass": true,
+      "ideal_X": 0.7554114059908451,
+      "ideal_p_plus": 0.8777057029954225,
+      "norm_restored_QPY_response": -0.01350483324977192,
+      "QPY_vs_truncated_polynomial_error": 3.6415315207705135e-14,
+      "QPY_vs_fitted_Gaussian_error": 6.594023382877623e-09,
+      "response_replay_seconds": 24.658812416018918
+    },
+    {
+      "time_over_tau": 0.1,
+      "native_circuit": {
+        "qubits": 18,
+        "operations": 258802,
+        "depth": 253842,
+        "gate_counts": {
+          "u": 129756,
+          "cx": 129046
+        }
+      },
+      "chosen_degree": 13,
+      "norm_L": 0.3425027387672795,
+      "static_subtraction": 0.27223529951917913,
+      "LCU_alpha": 0.9999996337079505,
+      "independent_factor_response": -0.10365628184476469,
+      "independent_fitted_Gaussian_response": -0.1036562818448023,
+      "independent_truncated_polynomial_response": -0.10365628717113548,
+      "tail_response_bound": 1.2545603013201282e-07,
+      "truncation_actual_error": 5.32637078887177e-09,
+      "frozen_resource_cap_pass": false,
+      "replay": "Not simulated because it exceeds the frozen native-operation cap."
+    }
+  ],
+  "prior_independent_audit_receipts": {
+    "operator-Hermite-comparison.json": {
+      "status": "PASS",
+      "current_source_hash_matches": {
+        "script": true,
+        "independent_helper": true,
+        "operator_source": true,
+        "controls": true,
+        "snapshot_model": true
+      },
+      "scope": "All 34 centered degree1-4 coefficients and factor rows for existing three-coordinate triangle only."
+    },
+    "small-Hermite-factor-check.json": {
+      "status": "PASS",
+      "current_source_hash_matches": {
+        "script": true,
+        "controls": true,
+        "snapshot_model": true,
+        "output": true
+      },
+      "scope": "Complete34-chaos-term check of existing9D Gaussian triangle snapshot model only; no full ABL factor, nonlinear fidelity, efficient input oracle, or QPU claim"
+    }
+  },
+  "current_source_sha256": {
+    "review/operator-independent-audit/verify_operator_circuit.py": "5fdd39dfcfc8f9a07733efa779329d6cd65782c8fa53611506c4c0f6bc6b8ea6",
+    "operator/source/core.py": "952b27c2fe6d5a0192fc2f4989e24ab25cbcb33c79968c07446e6f5dda05a947",
+    "operator/source/run_classical.py": "d08966f5d70a34217af760f5d21d71ba57ac00576b534c1bbb8ff058c3f224e7",
+    "operator/source/run_quantum.py": "d906eb9335823992a0a237fa96a7f179f7194ec3f908810137f2fef0bf25b497",
+    "operator/vendor/multiplexed.py": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5",
+    "operator/results/quantum-summary.json": "4a2d73374e7f11fe11d9441620ce3c37257be13af8553c8f0c1d845cf4815b83",
+    "operator/results/small-physical-model.npz": "54963aa70ea3a5814a78d08efdacb8e1d5ac68c33159503ece18aba4352f8b8c",
+    "operator/results/small-physical-factor.npz": "66b7ccae9d8cf155de94da5b36a5eccb923795cf3951bd28a1f9dd87b0dba626",
+    "operator/results/physical-factor-controlled-walk.qpy": "c23ba73d2df00dfa5691656b922ca0f8897466d18563ee3d03eefc3c2f6eb19a",
+    "operator/results/physical-factor-loader.qpy": "cbeea0fcf8dd2c2ab4dcc6269a4216f7529db0548148f716f01f216adff91c4d",
+    "operator/results/physical-factor-walk.qpy": "dd336a3d397637b85aa6d58dce063387cb44ef710c4aecd08b31cf7b250f3b08",
+    "operator/results/physical-response-0.01.qpy": "5cb251bbe428b7af0bed358eebea1cbd18e2f315827ee138919b33568f4aef33",
+    "operator/results/physical-response-0.1.qpy": "3b3918a71278f03a7f7885cbc1ac09cee99637f0737b99a1a42a16c4bae28ec8"
+  },
+  "software": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "numpy": "2.4.6"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libopenblas",
+      "filepath": "/opt/homebrew/Caskroom/miniconda/base/lib/libopenblas.0.dylib",
+      "version": "0.3.33",
+      "threading_layer": "openmp",
+      "architecture": "VORTEX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 2,
+      "prefix": "libomp",
+      "filepath": "/opt/homebrew/Caskroom/miniconda/base/lib/libomp.dylib",
+      "version": null
+    }
+  ],
+  "wall_seconds": 31.557136665971484
+}

@@ -10,3 +10,8 @@ experiments/kras/pilot/repeat-all/
 experiments/kras/pilot/replay-ohm/
 experiments/kras/quantum/results-ci/
 experiments/kras/quantum/results-reproduced/
+
+# Complete physical-factor arrays and circuits are versioned release assets.
+experiments/physical-factor-access-2026-09-14/**/*.npz
+experiments/physical-factor-access-2026-09-14/**/*.qpy
+experiments/physical-factor-access-2026-09-14/checks/replay/

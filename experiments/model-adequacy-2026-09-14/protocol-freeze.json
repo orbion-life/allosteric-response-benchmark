@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-14T20:38:11.811255+00:00",
+  "protocol_sha256": "6017e13a9c7b0cfeb32066b573fb5113a76af46818f9e40b53b6987c0cad0914",
+  "input_hashes": {
+    "source/dynamics/core.py": "abb598e0fdd52a34d19a1fd4dc3fadfe1bb61a485883facb7d04139ec45e34e6",
+    "source/dynamics/check_small.py": "e0a53bb1694a3a9cb2379cb39eb18e59a8dac3bcbe304a98cec56d58e640c035",
+    "source/dynamics/protocol.json": "b6fc7f26b530569cac6a752a8ec3e3c95743637420e0d12e1c13fc67a7bb2c94",
+    "source/vendor/model.py": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261",
+    "source/vendor/chebyshev.py": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340",
+    "source/vendor/protocol.json": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+    "source/gaussian/experiment.py": "dafbd7466852595a0b8e41de67edda5726a3995739fa9df31bdb536fdbf6e6c5",
+    "source/gaussian/gaussian_kernel.py": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5",
+    "inputs/frozen-gaussian-result.npz": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+    "inputs/historical/controls.npz": "b891fd6fe1e561e307ffcae3f4aa34a99e07973f952cf17d9c03841aca92ed5a",
+    "inputs/historical/controls.json": "8f76b95223279d124403a8dfaa36a309240515132840789377b8d369f83ed1ec",
+    "inputs/historical/reference-summary.json": "618ab5c0df123693ecd168491f98ba8beb29d299cbaf9c6383b17df6b756bebc",
+    "inputs/historical/resource-ledger.json": "c96ef50b8ce8c643cf6bad5ae0ff5db6a7ad322cfbb451f7d3b11d52dceafc2a",
+    "inputs/nonlinear-model-adequacy.md": "b0db0be59b87de41245404a5247c549c05609004c2e1193179162f487f967e36",
+    "inputs/historical/static-cell-0.json": "186771aae6fb33b5cd9f953847fa7c24e141f02cc329bae66cc9460ebfb07ffb",
+    "inputs/historical/static-cell-1.json": "2c75accd8a7fc4c294d1d1a704878a71b28681963d9d347008aa7d0fe057e154",
+    "inputs/historical/static-cell-2.json": "c9464443c35c7d9065c3de91030f1c7283516cc5ed15d5992208d0104bb804a0",
+    "inputs/historical/static-cell-3.json": "a5a02e9bda6a51d20b6bb48858274e1c79a5cb1981acb23de4722d575d97b6e7",
+    "inputs/historical/static-cell-4.json": "f5738f7929f3351e0fbd20d41b3e8c0c6b0c6f0ef200da077cd7e5db476efbe1"
+  }
+}

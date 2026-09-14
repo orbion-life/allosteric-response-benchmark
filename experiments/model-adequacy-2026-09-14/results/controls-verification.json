@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": {
+    "saved_scale_maxabs": 6.661338147750939e-16,
+    "gaussian_static_historical_maxabs": 8.881784197001252e-16,
+    "gaussian_response_historical_maxabs": 8.881784197001252e-16,
+    "harmonic_static_historical_maxabs": 0.0,
+    "harmonic_response_historical_maxabs": 0.0,
+    "gaussian_Wick_maxabs": 1.7763568394002505e-15,
+    "harmonic_Wick_maxabs": 1.9984014443252818e-15,
+    "independent_polynomial_energy_maxabs": 1.1102230246251565e-15
+  },
+  "independent_check_tolerance": 1e-10,
+  "model_changed_or_refitted": false,
+  "normalization": "original exact whole-harmonic standard deviations",
+  "source_sha256": "823b18bc549222f70e88b532f604645e0a5c508d777a0d7f92291533431f8d4f",
+  "protocol_sha256": "6017e13a9c7b0cfeb32066b573fb5113a76af46818f9e40b53b6987c0cad0914",
+  "Sigma_source_sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+  "seconds": 0.09233891700000002,
+  "environment": {
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "scope": "Independent numeric checks of force blocks, selected64 ABL coefficient rows, saved output arithmetic and complete14-term actual-ABL submodel. Full13.36-billion-term embedding identity and full quantum access remain unverified/unimplemented.",
+  "methods": {
+    "force": "Order5 GH of direct local quartic-energy Hessian in3 variables",
+    "coefficients": "Order5 GH over1..4 selected standard-normal modes after exact conditional Gaussian integration of other coordinates; no normal-ordered tensor formula",
+    "small_fixture": "Direct quartic energy GH with all2 coordinates and all14 Hermite coefficients",
+    "response": "Fresh eigendecomposition of saved Hr and complete matrix outputs"
+  },
+  "randomness": "No integration randomness; only prescribed seed20260914 used to verify selected row identities.",
+  "dimensions": {
+    "degree_counts": {
+      "1": 750,
+      "2": 281625,
+      "3": 70594000,
+      "4": 13289320500
+    },
+    "full_centered_Hermite_dimension": 13360196875,
+    "full_observable_coefficient_float64_bytes": 26934156900000,
+    "full_snapshot_embedding_float64_bytes": 134777666075000,
+    "full_factor_float64_bytes": 134777666075000,
+    "padded_factor_rows": 17179869184,
+    "padded_factor_columns": 2048,
+    "generic_table_loader_qubits": 46,
+    "generic_loader_Ry_angles_per_UL": 35184372088832,
+    "generic_loader_table_float64_bytes": 281474976710656,
+    "full_output_scalar_count_at_four_times": 254016,
+    "symmetric_scalar_count_at_four_times": 127512
+  },
+  "tolerances": {
+    "force_absolute": 1e-10,
+    "coefficient_absolute": 1e-10,
+    "embedding_absolute": 1e-07,
+    "saved_response_recompute": 1e-10
+  },
+  "force_checks": {
+    "GH_expected_Hessian_vs_saved_blocks_maxabs": 2.831068712794149e-15,
+    "GH_local_factor_Gram_vs_saved_Gamma_maxabs": 2.6645352591003757e-14,
+    "local_expected_Hessian_min_eigenvalue": 0.006965122494509918,
+    "stationarity_Gamma_minus_inverse_Sigma_maxabs": 4.930124884727771e-12,
+    "stationarity_relative_Frobenius": 1.0000600031359636e-13,
+    "stationarity_spectral_norm": 5.203327638393776e-12,
+    "saved_factor_covariance_identity_maxabs": 5.551115123125783e-15,
+    "dense_projected_factor_Frobenius_squared": 4648.838029355872
+  },
+  "coefficient_checks": {
+    "selected64_coefficients_maxabs": 3.946495907847236e-16,
+    "degree_maxabs": {
+      "1": 3.946495907847236e-16,
+      "2": 1.8821749714348357e-16,
+      "3": 6.01732205729455e-17,
+      "4": 1.2458573516778036e-16
+    },
+    "selected64_embedding_rows_maxabs": 1.2075973901404247e-12,
+    "selected64_factor_rows_maxabs": 3.288203856335187e-13,
+    "selected64_rates_maxabs": 0.0
+  },
+  "response_checks": {
+    "recomputed_spectral_vs_saved_spectral_maxabs": 3.9050360167713905e-14,
+    "matrix_free_vs_spectral_maxabs": 8.731904088676856e-14,
+    "reduced_vs_full_Gaussian_maxabs": 2.3801156923131117e-05,
+    "factor_consistent_vs_original_Gaussian_maxabs": 2.517985819849855e-13,
+    "Gram_static_vs_saved_G0_maxabs": 4.235164736271502e-22
+  },
+  "small_ABL_checks": {
+    "all14_direct_GH_coefficients_maxabs": 8.881784197001252e-16,
+    "force_Gram_maxabs": 1.5521869438801948e-17,
+    "source_coordinates_match_first_three_ABL_residues": true,
+    "source_contacts_match_inherited_ABL": true
+  },
+  "source_hashes": {
+    "review/independent-math-audit/verify_operator_results.py": "c4dd9bfac823a720bfe0d02ffbfb4387978888e74b2be547177f0ed274383ba3",
+    "review/independent-math-audit/hermite_quadrature_check.py": "97b26ced05667fa7de013eb976151e32900329f7ac9fec1171bf17b12cf2ba99",
+    "protocol.json": "84f1b3558c347154d725ebe20b2973d9e24732d0d312efb68105bd2a7a306292",
+    "protocol-amendment-1.json": "315c194333670daa63694130387b3ffb548741b2a516ee429d90ffa2bf48be71",
+    "source/core.py": "952b27c2fe6d5a0192fc2f4989e24ab25cbcb33c79968c07446e6f5dda05a947",
+    "source/run_classical.py": "d08966f5d70a34217af760f5d21d71ba57ac00576b534c1bbb8ff058c3f224e7",
+    "results/classical-summary.json": "bfa4f64d44df93bbd75e7d8992856eb557c5b4b61a1e4ef945d7309f7a1e4148",
+    "results/hermite-access.json": "d27659441da1c38f7a4273b71c89f347b76dcee696787ad7a69f58906a3a37ce",
+    "results/physical-factor.npz": "bded6f1355146351c3485c6849ce0ae87239c2cd8bec8f273e2a36cfdd8815e3",
+    "results/selected-hermite-rows.npz": "ac35e7fd835f4fec2766fbf769f21bbcdf43e8c45655492f3da660a69afd2933",
+    "results/matched-responses.npz": "f52bd79cd685c7bd5bb2a32e834aec10aa4f290a4c8b2d7aec84a65db447d767",
+    "results/small-physical-model.npz": "54963aa70ea3a5814a78d08efdacb8e1d5ac68c33159503ece18aba4352f8b8c"
+  },
+  "input_hashes": {
+    "static-model.npz": "b3b5306ac6515bafd23419b1fc5bf9ec9b5f4ef01b57b8cecc15ea994fe885e7",
+    "fitted-covariance.npz": "e202bccb17020d1a02ddd87044eff7a210afa3371ddefb6e4bb4a3713134a372",
+    "all-mode-harmonic-scales.npz": "601783f315a4d4483a1154e6df6e5f76f0aa85e05eac50f24e16ac971293975c",
+    "operator.npz": "1e5728241c21cdf70f861fb7ee04452698678458c731f47dc996fe47f9e7ecd6"
+  },
+  "seconds": 3.1423425420071,
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "numpy": "2.4.6"
+}

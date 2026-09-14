@@ -1,0 +1,124 @@
+{
+  "scope": "Actual ABL fixed Gaussian response; no original-nonlinear fidelity or quantum advantage inference",
+  "N": 252,
+  "d": 750,
+  "rank": 1261,
+  "tau": 39.804673596275215,
+  "times": [
+    0.039804673596275215,
+    1.1941402078882564,
+    3.9804673596275215,
+    39.804673596275215
+  ],
+  "times_over_tau": [
+    0.001,
+    0.03,
+    0.1,
+    1.0
+  ],
+  "pairs_zero_based": [
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ]
+  ],
+  "pairs_canonical": [
+    [
+      242,
+      248
+    ],
+    [
+      242,
+      249
+    ],
+    [
+      243,
+      248
+    ],
+    [
+      243,
+      249
+    ],
+    [
+      244,
+      248
+    ],
+    [
+      244,
+      249
+    ],
+    [
+      245,
+      248
+    ],
+    [
+      245,
+      249
+    ]
+  ],
+  "fixed_sd_sha256": "601783f315a4d4483a1154e6df6e5f76f0aa85e05eac50f24e16ac971293975c",
+  "physical_factor": {
+    "beta": 1.0,
+    "mu": 1.0,
+    "kappa": 1.0,
+    "contacts": 2146,
+    "coordinate_dimension": 750,
+    "cartesian_factor_shape": [
+      6438,
+      756
+    ],
+    "cartesian_factor_nnz": 38628,
+    "cartesian_factor_bytes": 489292,
+    "local_block_min_eigenvalue": 0.006965122494509793,
+    "local_root_reconstruction_maxabs": 2.886579864025407e-15,
+    "factor_identity_maxabs": 8.704148513061227e-14,
+    "factor_identity_relative_frobenius": 2.8040047778756324e-15,
+    "stationarity_maxabs": 4.929709418455275e-12,
+    "stationarity_relative_frobenius": 9.9994253361105e-14,
+    "coordinate_drift_mismatch_spectral_norm": 5.202234721173087e-12,
+    "factor_consistent_covariance_maxabs": 1.9237944570704713e-12,
+    "dense_B0_bytes": 4536000,
+    "dense_projected_factor_shape": [
+      6438,
+      750
+    ],
+    "dense_projected_factor_bytes": 38628000,
+    "force_factor_frobenius_squared": 4648.838029355873,
+    "cartesian_factor_frobenius_squared": 4648.934974437889,
+    "timing_seconds": {
+      "local_covariance_blocks_and_sparse_factor": 0.04015154199441895,
+      "coordinate_drift_assembly": 0.016389459022320807,
+      "explicit_dense_factor_projection": 0.01847941701998934,
+      "independent_factor_identity": 0.0414112500147894,
+      "reference_covariance_inverse": 0.022424958006013185
+    }
+  }
+}

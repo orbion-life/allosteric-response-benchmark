@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "frozen_protocol_and_inputs": "PASS",
+  "original_solver_bytes": "PASS",
+  "fresh_control_Wick_check": {
+    "saved_scale_maxabs": 6.661338147750939e-16,
+    "gaussian_static_historical_maxabs": 8.881784197001252e-16,
+    "gaussian_response_historical_maxabs": 8.881784197001252e-16,
+    "harmonic_static_historical_maxabs": 0.0,
+    "harmonic_response_historical_maxabs": 0.0,
+    "gaussian_Wick_maxabs": 1.7763568394002505e-15,
+    "harmonic_Wick_maxabs": 1.9984014443252818e-15,
+    "independent_polynomial_energy_maxabs": 1.1102230246251565e-15
+  },
+  "reference_grids": 5,
+  "propagations": 100,
+  "unique_amplitude_rows": 180,
+  "unique_two_site_rows": 60,
+  "independent_raw_order_counts": {
+    "Gaussian": {
+      "agree": 16,
+      "reverse": 14,
+      "tie": 0
+    },
+    "harmonic": {
+      "agree": 16,
+      "reverse": 14,
+      "tie": 0
+    }
+  },
+  "summary_replay_identical": true,
+  "no_GPU_execution": true
+}

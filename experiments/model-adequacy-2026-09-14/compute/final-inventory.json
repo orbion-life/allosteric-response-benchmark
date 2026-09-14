@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-09-14T20:44:57.993095+00:00",
+  "returncode": 0,
+  "containers": [],
+  "stderr": "",
+  "stop_action": "ephemeral app ended after local entrypoint; no separate stop needed if inventory is empty"
+}

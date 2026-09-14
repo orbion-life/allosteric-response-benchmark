@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_BEFORE_COEFFICIENT_OR_BENCHMARK_MEASUREMENTS",
+  "UTC": "2026-09-14T20:53:48.673395+00:00",
+  "original_protocol_sha256": "84f1b3558c347154d725ebe20b2973d9e24732d0d312efb68105bd2a7a306292",
+  "selected_Hermite_rows": "16perdegree1..4, each includes all0 and all749; remaining unique sorted samples from numpy.default_rng(20260914), sequential degrees. 64total; these rows are construction diagnostics, not full identity evidence.",
+  "snapshot_nodes_over_tau": [
+    0,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1
+  ],
+  "physical_drift_full_output": "Full physical-factor-consistent covariance response uses explicitly charged dense covariance eigensystem and exact Wick kernel. Matrix-free physical factor exponential action is independently checked on first physical covariance column at all4times. It is not mislabeled as full-output matrix-free."
+}

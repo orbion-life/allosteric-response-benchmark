@@ -1,0 +1,6 @@
+{
+  "status": "FROZEN_BEFORE_LOADING_COEFFICIENT_PRECISION_MEASUREMENTS",
+  "UTC": "2026-09-14T21:05:11.880668+00:00",
+  "scope": "Classical sensitivity of the explicit denseCholesky fallback and observable B to float32 and float16 coefficient rounding. Does not test quantum angle synthesis or hardware.",
+  "metric": "Full response maximum absolute difference at original four frozen times; symmetric generator perturbation norm and bilinear contraction bound; original harmonic normalization preserved."
+}

@@ -1,0 +1,21 @@
+ABL force factor
+ABL selected Hermite coefficient rows
+ABL matched classical baselines
+matrix-free action 0.001
+matrix-free action 0.03
+matrix-free action 0.1
+matrix-free action 1.0
+analytic Gaussian 0.001
+analytic Gaussian 0.03
+analytic Gaussian 0.1
+analytic Gaussian 1.0
+factor-derived drift action and covariance shift
+actual ABL small physical model
+{
+  "status": "COMPLETE_DIAGNOSTIC_NO_FULL_PROTEIN_QUANTUM_ORACLE",
+  "reduction_error_maxabs_vs_full_Gaussian": 2.3801156923131117e-05,
+  "matrix_free_error_maxabs": 8.731904088676856e-14,
+  "factor_covariance_response_change_maxabs": 2.517985819849855e-13,
+  "wall_seconds": 100.55303050001385,
+  "peak_RSS_bytes": 568360960
+}

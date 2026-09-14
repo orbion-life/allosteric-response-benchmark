@@ -1,0 +1,81 @@
+{
+  "faces": [
+    8.0,
+    7.0,
+    19.0
+  ],
+  "spacing": 0.125,
+  "shape": [
+    128,
+    112,
+    304
+  ],
+  "states": 4358144,
+  "field": null,
+  "backend": "numpy",
+  "build_seconds": 0.9104406249999999,
+  "stationarity": 2.4424906541753444e-15,
+  "G0": [
+    [
+      0.2548144252376735,
+      0.1141252046531335,
+      0.1260730019004337
+    ],
+    [
+      0.1141252046531335,
+      0.33941013684109633,
+      0.1691976478334474
+    ],
+    [
+      0.1260730019004337,
+      0.1691976478334474,
+      0.30051509890790684
+    ]
+  ],
+  "gamma": 770.2477095346535,
+  "spectral_upper": 1538.240631087299,
+  "eigenvalues": [
+    1.2700311269434106,
+    1.729968873056583,
+    2.999999999999994
+  ],
+  "sd": [
+    0.7546235522986466,
+    0.6731356459964717,
+    0.7065206335498851
+  ],
+  "log_partition_cell_measure": 5.270855669198445,
+  "numpy_version": "2.0.2",
+  "backend_version": "2.0.2",
+  "engineering_status": "COMPLETE",
+  "scientific_scope": "Stated finite reflecting model; reference convergence and coverage assessed separately",
+  "independent_error": 3.727085307048128e-11,
+  "independent_status": "PASS",
+  "propagation": [
+    {
+      "method": "chebyshev",
+      "degree": 16,
+      "time": 0.0059053670739947,
+      "time_over_tau": 0.0075,
+      "seconds": 1.753216708,
+      "operator_actions": 16,
+      "tail_bound_times_norms": 3.2417881178483303e-10,
+      "norm_amplification": 0.33941013684110577,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 23,
+      "time": 0.0059053670739947,
+      "time_over_tau": 0.0075,
+      "seconds": 2.219946583,
+      "operator_actions": 23,
+      "tail_bound_times_norms": 4.345748320421963e-11,
+      "norm_amplification": 0.33941013684110577,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    }
+  ],
+  "total_seconds": 4.929465667,
+  "process_peak_rss_bytes": 2009694208,
+  "source_sha256": "abb598e0fdd52a34d19a1fd4dc3fadfe1bb61a485883facb7d04139ec45e34e6"
+}

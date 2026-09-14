@@ -1,0 +1,118 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-09-14T20:48:21.241720+00:00",
+  "authorized_new_A100_seconds": 3600,
+  "requested_GPU": "A100-40GB",
+  "delivered_GPU": "NVIDIA A100-SXM4-80GB",
+  "remote_functions": 1,
+  "requested_CPU_cores": 8,
+  "requested_host_memory_MiB": 65536,
+  "max_containers": 1,
+  "retries": 0,
+  "timeout_seconds": 1800,
+  "instrumented_function_seconds": 258.730788027,
+  "instrumented_A100_hours": 0.07186966334083333,
+  "instrumented_requested_CPU_core_hours_not_measured_CPU_usage": 0.5749573067266667,
+  "client_seconds_including_download": 285.64100120798685,
+  "all_downloads_hash_verified": true,
+  "remote_peak_host_RSS_bytes": 1749028864,
+  "maximum_reported_GPU_pool_bytes_not_device_peak": 9521684480,
+  "per_grid": [
+    {
+      "faces": [
+        8.0,
+        7.0,
+        19.0
+      ],
+      "spacing": 0.125,
+      "states": 4358144,
+      "build_seconds": 0.06452756699999895,
+      "total_seconds": 8.728853553999997,
+      "GPU_pool_reserved_bytes": 1475360768,
+      "process_peak_rss_bytes": 1748701184,
+      "independent_status": "PASS"
+    },
+    {
+      "faces": [
+        9.0,
+        8.0,
+        20.0
+      ],
+      "spacing": 0.125,
+      "states": 5898240,
+      "build_seconds": 0.07097148100000084,
+      "total_seconds": 11.717560877000004,
+      "GPU_pool_reserved_bytes": 1967154688,
+      "process_peak_rss_bytes": 1748701184,
+      "independent_status": "PASS"
+    },
+    {
+      "faces": [
+        10.0,
+        9.0,
+        21.0
+      ],
+      "spacing": 0.125,
+      "states": 7741440,
+      "build_seconds": 0.0915926529999993,
+      "total_seconds": 15.390715667999999,
+      "GPU_pool_reserved_bytes": 2556147200,
+      "process_peak_rss_bytes": 1748701184,
+      "independent_status": "PASS"
+    },
+    {
+      "faces": [
+        10.0,
+        9.0,
+        21.0
+      ],
+      "spacing": 0.1,
+      "states": 15120000,
+      "build_seconds": 0.1569381710000073,
+      "total_seconds": 44.666020637,
+      "GPU_pool_reserved_bytes": 4914476544,
+      "process_peak_rss_bytes": 1748701184,
+      "independent_status": "PASS"
+    },
+    {
+      "faces": [
+        10.0,
+        9.0,
+        21.0
+      ],
+      "spacing": 0.08,
+      "states": 29531250,
+      "build_seconds": 0.26654865499999403,
+      "total_seconds": 132.077546186,
+      "GPU_pool_reserved_bytes": 9521684480,
+      "process_peak_rss_bytes": 1749028864,
+      "independent_status": "PASS"
+    }
+  ],
+  "local_workers": [
+    {
+      "kind": "small",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "outer_seconds": 1.416281,
+      "observed_peak_RSS_bytes": 77905920
+    },
+    {
+      "kind": "pilot",
+      "status": "COMPLETE",
+      "returncode": 0,
+      "outer_seconds": 5.540783125,
+      "observed_peak_RSS_bytes": 2009694208
+    }
+  ],
+  "final_inventory": {
+    "checked_utc": "2026-09-14T20:44:57.993095+00:00",
+    "returncode": 0,
+    "containers": [],
+    "stderr": "",
+    "stop_action": "ephemeral app ended after local entrypoint; no separate stop needed if inventory is empty"
+  },
+  "previous_ledger": "inputs/historical/resource-ledger.json",
+  "billing_reconciled": false,
+  "scope": "One completed instrumented GPU invocation; client duration includes downloads. Neither duration is a reconciled billing invoice. The ephemeral app ended; final inventory is empty. Provider delivered A10080GB despite requested40GB, recorded explicitly. Local CPU pilots and verification do not allocate GPU resources."
+}

@@ -1,0 +1,313 @@
+{
+  "status": "PUBLIC_METADATA_ADAPTATION",
+  "created_utc": "2026-09-14T20:50:55.407612+00:00",
+  "original_protocol_freeze_retained": true,
+  "protocol_sha256": "6017e13a9c7b0cfeb32066b573fb5113a76af46818f9e40b53b6987c0cad0914",
+  "scope": "Original protocol freeze attests the original local inputs; metadata-redacted files have distinct public hashes. Numeric values, source algorithms, raw arrays and all scientific outcomes are retained.",
+  "metadata_changes": [
+    {
+      "path": "inputs/historical/controls.json",
+      "original_path": "inputs/historical/controls.json",
+      "original_sha256": "8f76b95223279d124403a8dfaa36a309240515132840789377b8d369f83ed1ec",
+      "public_sha256": "fc0712c4c03e52442f60979a5d5acb2cc1ff124349ca168724f7c9c7672c01bd",
+      "allowed_changes": [
+        {
+          "json_pointer": "/source_receipts/0/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "c2086a8473e5e79503d4d7b826aac52bad31f39c3e477e25ec9321d0554e66f7",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/triangle/result.npz"
+        },
+        {
+          "json_pointer": "/source_receipts/1/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "3970fb45abe3f2fddcd8fd499a9f7e97d76a3998cdf059b849786a05ed909e03",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/remote/remaining-reference-cases/data/case-3/response.npz"
+        },
+        {
+          "json_pointer": "/source_receipts/2/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "99b55eff74cfcd7d3f8472959750f90d18c23c0acf57db7d45c3b55f06bc3fab",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/experiment.py"
+        },
+        {
+          "json_pointer": "/source_receipts/3/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "e619b916072a83c54ac7c04676ff796a609555520e6fc17e830953c2529b9f0f",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/gaussian_kernel.py"
+        },
+        {
+          "json_pointer": "/source_receipts/4/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "9a5af8f2691ff90cf0e5ff53d637618c1c1c54790a6ef9e8e183d6fc69032925",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/galerkin/run.py"
+        },
+        {
+          "json_pointer": "/source_receipts/5/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "d104c834a07e44ab6d2b1989d847b35cb18dac1296cd8a6cf238647689d982a4",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/galerkin/adapter.py"
+        },
+        {
+          "json_pointer": "/source_receipts/6/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "65b36a4a096bc0a8fe0953efb6918dd431c0b7d41c79c823cfb6d6580da9b5d2",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/galerkin/vendor/reference_source.py"
+        },
+        {
+          "json_pointer": "/source_receipts/7/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "89bbda2844be5fc1707d37bf5fb01b71322866dcf74e2a70dc90a131c5c2b4fe",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/galerkin/vendor/preanalysis.json"
+        },
+        {
+          "json_pointer": "/source_receipts/8/path",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "4de1b1ec7d6e0e964ef4ef41797076109bdfb890dc685606ee230965e38d6bcc",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/representation/vendor/model.py"
+        }
+      ],
+      "numeric_JSON_values_identical": true
+    },
+    {
+      "path": "inputs/historical/reference-summary.json",
+      "original_path": "inputs/historical/reference-summary.json",
+      "original_sha256": "618ab5c0df123693ecd168491f98ba8beb29d299cbaf9c6383b17df6b756bebc",
+      "public_sha256": "aec45b92f16216f469137a3b700abb4bbc48d72f41814d60059ec91e5362317f",
+      "allowed_changes": [
+        {
+          "json_pointer": "/historical_comparison/source",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "b38a0ca5816ed95426274edf9a75b6d111004019714d889f79990e6d188d3ae3",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/reference/chebyshev-continuation/case-5.npz"
+        }
+      ],
+      "numeric_JSON_values_identical": true
+    },
+    {
+      "path": "inputs/historical/resource-ledger.json",
+      "original_path": "inputs/historical/resource-ledger.json",
+      "original_sha256": "c96ef50b8ce8c643cf6bad5ae0ff5db6a7ad322cfbb451f7d3b11d52dceafc2a",
+      "public_sha256": "0b1957b155edb4be9954b663083481e05450ced8c43fa68df8e1d7bacb3ef3be",
+      "allowed_changes": [
+        {
+          "json_pointer": "/final_container_inventory/client",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "90484fefab0131c4d8a9342135c57ee2d16b634ba34f60f783dbda44f7114898",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/gpu/modal-client-venv/bin/modal"
+        }
+      ],
+      "numeric_JSON_values_identical": true
+    },
+    {
+      "path": "inputs/source-provenance.json",
+      "original_path": "inputs/source-provenance.json",
+      "original_sha256": "a7e05eb5afeb5e6fbaf1bea684df90c7e1864691fedcc49f21446933535029b6",
+      "public_sha256": "b55b8eed17aa9119bfa2ce0205a49c6352f4fbefd220278abf637f805b4467a5",
+      "allowed_changes": [
+        {
+          "json_pointer": "/0/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "d537814d424b8905b055a1234a90d2d77cdf9ae662acdc6295672f5fbaabdd03",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/core.py"
+        },
+        {
+          "json_pointer": "/1/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "d892648c561a67e38d182f3aad663715725de6e62029f0096b6da08e99ed3153",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/check_small.py"
+        },
+        {
+          "json_pointer": "/2/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "59e026928e169d04e3a63f93282ca9e4e3fc52925328e5fa1ac4c7cdd1912dee",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/protocol.json"
+        },
+        {
+          "json_pointer": "/3/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "c6a026d5a381c35f3c16f234b4265cc083a04eafdfd7af73840e43818bd18dc8",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/vendor/model.py"
+        },
+        {
+          "json_pointer": "/4/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "ecc2a10f5af1c002cec12e051ba594c73f5ef4de6bb5c083af3e849d31064504",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/vendor/chebyshev.py"
+        },
+        {
+          "json_pointer": "/5/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "26f8bf868172260cf6e175647dec97106e902b5f8e2dc2a1e5372d0da75c8d04",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/vendor/protocol.json"
+        },
+        {
+          "json_pointer": "/6/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "f86d0de7c243ac68c7e56db6f4a7b4eb71d09af755e240d53a3b8750c935da1a",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/experiment.py"
+        },
+        {
+          "json_pointer": "/7/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "fd1a52af4058f9a7f473920d9ecd595312d74751cd7f2bacd4379fac1a74f3ed",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/gaussian_kernel.py"
+        },
+        {
+          "json_pointer": "/8/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "32e9a27cd1b11eb298926607599691750317c922763ce1338549e896be11875a",
+          "public_value": "historical-output/pulsar-phase1-execution-2026-09-13/gaussian-galerkin/triangle/result.npz"
+        },
+        {
+          "json_pointer": "/9/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "d10f8a4e1f0d16c2194e9e703424c1d9cda64f1448ec295ec5af0ba2946d5b3c",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/representation/controls.npz"
+        },
+        {
+          "json_pointer": "/10/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "44e040e2bde20c1d01aa089e8aa1690d0f48901263857244fb9f3e97bd20643e",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/representation/controls.json"
+        },
+        {
+          "json_pointer": "/11/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "41e39d32ef8ffcb436a652a570ece2b663d13b952ca244ad09e10d8020128a01",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/dynamics/reference-summary.json"
+        },
+        {
+          "json_pointer": "/12/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "18f91e6d9cd5638a66803f84d498be97a32c632077e48842e5d0ce22a4ef6cbe",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/compute/resource-ledger.json"
+        },
+        {
+          "json_pointer": "/13/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "542e65d61862636979b9de674cf6006c92f4da5958fb42651f5c0775bd346763",
+          "public_value": "historical-output/pulsar-literature-clarification-2026-09-14/repository/docs/evidence-v0.9.0/nonlinear-model-adequacy.md"
+        },
+        {
+          "json_pointer": "/14/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "02feed1cc2992b00ee5000678e818bf1b774ebf6dd5e425730393d69cd21b4aa",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-1.json"
+        },
+        {
+          "json_pointer": "/15/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "721f8dfb0e4a4632aa865fa18d7fc439a655db7800c81362d1effdf4143b4f48",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-2.json"
+        },
+        {
+          "json_pointer": "/16/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "13aa64ab90317553f391621992c43deb610db769454ac7e75f3ac222977b7c92",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-3.json"
+        },
+        {
+          "json_pointer": "/17/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "f0e21310ab7e1e5b97b73d2a969f01b377dad1f433065d44d496eca0a7d8e2dc",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-4.json"
+        },
+        {
+          "json_pointer": "/18/original",
+          "kind": "local_path_prefix",
+          "original_value_sha256": "0e453bfd491258d5189f7fef21b1cb94431ce8f3c104cccd48003729f1cd013f",
+          "public_value": "historical-output/pulsar-field-switch-execution-2026-09-13/static/cell-5.json"
+        }
+      ],
+      "numeric_JSON_values_identical": true
+    },
+    {
+      "path": "remote/all-five-grids-ten-times/provider-receipt.json",
+      "original_path": "remote/all-five-grids-ten-times/provider-receipt.json",
+      "original_sha256": "fbecbd594563b82b8817fb81039ef7857229a32f21ed5dfce92167822ae54a99",
+      "public_sha256": "19d76b6169f046d41ca49d93314adb1140eedce19016e753601cad663a1a5072",
+      "allowed_changes": [
+        {
+          "json_pointer": "/modal_task_id",
+          "kind": "provider_identifier",
+          "original_value_sha256": "8f6ff138cd8ec002e077b6fb89d87f45fac96009910ba2ed9bcf78883db5cf40",
+          "public_value": "REDACTED_PROVIDER_IDENTIFIER"
+        }
+      ],
+      "numeric_JSON_values_identical": true
+    },
+    {
+      "path": "inputs/nonlinear-model-adequacy.md",
+      "original_path": "inputs/nonlinear-model-adequacy.md",
+      "original_sha256": "b0db0be59b87de41245404a5247c549c05609004c2e1193179162f487f967e36",
+      "public_sha256": "1be8b21fa5933c3e188b0029a3a8be3f775e4f9099dfececd0d25198c7569a61",
+      "allowed_changes": [
+        {
+          "kind": "historical_markdown_link_portability",
+          "original_relative_url": "../evidence-v0.6.0/ASSET-MANIFEST-v0.6.0.json",
+          "public_value": "https://github.com/orbion-life/allosteric-response-benchmark/blob/v0.6.0/docs/evidence-v0.6.0/ASSET-MANIFEST-v0.6.0.json"
+        },
+        {
+          "kind": "historical_markdown_link_portability",
+          "original_relative_url": "../evidence-v0.6.0/README.md",
+          "public_value": "https://github.com/orbion-life/allosteric-response-benchmark/blob/v0.6.0/docs/evidence-v0.6.0/README.md"
+        }
+      ],
+      "scientific_text_unchanged": true
+    }
+  ],
+  "excluded_files": [
+    {
+      "path": "__pycache__/modal_run.cpython-312.pyc",
+      "reason": "interpreter cache"
+    },
+    {
+      "path": "checks/analysis-final.log",
+      "reason": "redundant terminal log; scientific results and failure histories retained"
+    },
+    {
+      "path": "checks/analysis.log",
+      "reason": "redundant terminal log; scientific results and failure histories retained"
+    },
+    {
+      "path": "checks/controls-final.log",
+      "reason": "redundant terminal log; scientific results and failure histories retained"
+    },
+    {
+      "path": "checks/controls.log",
+      "reason": "redundant terminal log; scientific results and failure histories retained"
+    },
+    {
+      "path": "compute/modal-run.log",
+      "reason": "redundant terminal log; scientific results and failure histories retained"
+    },
+    {
+      "path": "local/pilot.log",
+      "reason": "redundant terminal log; scientific results and failure histories retained"
+    },
+    {
+      "path": "local/small.log",
+      "reason": "redundant terminal log; scientific results and failure histories retained"
+    }
+  ],
+  "code_adaptations": [
+    {
+      "path": "verify.py",
+      "original_sha256": "59bdd7f18eda8d4c212fbdb5ff415ca2891bba2199145c4039f276d07a7b65fd",
+      "public_sha256": "99c4ecbc775c104539d24cf72d9640a36c51399dd36443c397cd1d1ec29b7fd7",
+      "allowed_change": "Validate original protocol freeze against explicit original-to-public metadata hash mapping; validate PUBLIC-MANIFEST.json. Numerical verification unchanged."
+    },
+    {
+      "path": "audits/verify_controls.py",
+      "original_sha256": "c5d81c4fd409e635e220e0719d20f950d1c54e98f91325dfd1b8978563085734",
+      "public_sha256": "89498366f05c5df2ae7fe94ddf8e7725d2c05eb9082ce942707a72466146bf11",
+      "allowed_change": "Resolve source relative to package; write to required output directory; validate public input hash mapping. Quadrature and scientific comparisons unchanged."
+    },
+    {
+      "path": "audits/verify_nonlinear_results.py",
+      "original_sha256": "f0e50057c1107931a7547b200f49beef58b78e62979c7ac0238578e904793d22",
+      "public_sha256": "ddd3e457723151cac9ebd1aec0df5c26ac3ee23893b554c14a654765db625114",
+      "allowed_change": "Resolve source relative to package; explicit output and independent-control file parameters. Reference, amplitude and ranking calculations unchanged."
+    }
+  ]
+}

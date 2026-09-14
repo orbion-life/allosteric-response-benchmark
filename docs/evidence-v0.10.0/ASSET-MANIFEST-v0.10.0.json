@@ -1,0 +1,38 @@
+{
+  "release": "v0.10.0",
+  "date": "2026-09-14",
+  "scope": "Completed physical-factor and nonlinear-response experiments, updated scientific report and portable editable source. Earlier evidence remains in its original releases.",
+  "assets": [
+    {
+      "name": "project-pulsar-scientific-report.pdf",
+      "study": "report",
+      "bytes": 106946,
+      "sha256": "7449c938df1b5a9d1a4ae82716c2caa58e80188caa4baaab965fb13eafecc50b",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.10.0/project-pulsar-scientific-report.pdf"
+    },
+    {
+      "name": "project-pulsar-editable-source.zip",
+      "study": "editable-source",
+      "bytes": 299152,
+      "sha256": "b1ff49eeebe42ca61c8ddcc663c41d999c1c35c7b50bf34b8bb1d0eed6028d75",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.10.0/project-pulsar-editable-source.zip",
+      "files": 27
+    },
+    {
+      "name": "pulsar-physical-factor-access-2026-09-14.zip",
+      "study": "physical-factor-access",
+      "bytes": 112641533,
+      "sha256": "e534e36644dffb419ed4d238746b72b3047d07409573d631c0fe47d4bd2d2d9b",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.10.0/pulsar-physical-factor-access-2026-09-14.zip",
+      "files": 68
+    },
+    {
+      "name": "pulsar-nonlinear-adequacy-2026-09-14.zip",
+      "study": "nonlinear-adequacy",
+      "bytes": 213742,
+      "sha256": "6139218fd22ac3e7b1858aba0a31005346fb1ec01652d6192e5a8cfa3d4737fb",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.10.0/pulsar-nonlinear-adequacy-2026-09-14.zip",
+      "files": 92
+    }
+  ]
+}

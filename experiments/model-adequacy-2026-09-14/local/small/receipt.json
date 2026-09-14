@@ -1,0 +1,289 @@
+{
+  "status": "PASS",
+  "scope": "Finite implementation checks only; coarse grid is not continuum reference",
+  "grid": {
+    "faces": [
+      4.0,
+      4.0,
+      18.0
+    ],
+    "spacing": 2,
+    "shape": [
+      4,
+      4,
+      18
+    ],
+    "states": 288,
+    "field": null,
+    "backend": "numpy",
+    "build_seconds": 0.008381333999999852,
+    "stationarity": 1.3877787807814457e-16,
+    "G0": [
+      [
+        0.19548039529076672,
+        0.08549140990522436,
+        0.049977108317248255
+      ],
+      [
+        0.08549140990522436,
+        0.36091152431912077,
+        0.17864506390855212
+      ],
+      [
+        0.049977108317248255,
+        0.17864506390855212,
+        0.2907036617783753
+      ]
+    ],
+    "gamma": 4.23527658384239,
+    "spectral_upper": 6.71536519040218,
+    "eigenvalues": [
+      1.2700311269434106,
+      1.729968873056583,
+      2.999999999999994
+    ],
+    "sd": [
+      0.7546235522986466,
+      0.6731356459964717,
+      0.7065206335498851
+    ],
+    "log_partition_cell_measure": 4.806927306324548,
+    "numpy_version": "2.0.2",
+    "backend_version": "2.0.2"
+  },
+  "CSR_action_max_error": 7.632783294297951e-17,
+  "propagation": [
+    {
+      "time_over_tau": 0.0075,
+      "chebyshev_error": 1.3791745523406007e-13,
+      "uniformization_error": 3.3584246494910985e-14,
+      "chebyshev": {
+        "method": "chebyshev",
+        "degree": 4,
+        "time": 0.0059053670739947,
+        "time_over_tau": 0.0075,
+        "seconds": 0.0007233749999999706,
+        "operator_actions": 4,
+        "tail_bound_times_norms": 3.2190894070244317e-12,
+        "norm_amplification": 0.36091152431912077,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      },
+      "uniformization": {
+        "method": "uniformization",
+        "degree": 5,
+        "time": 0.0059053670739947,
+        "time_over_tau": 0.0075,
+        "seconds": 0.0014999590000002172,
+        "operator_actions": 5,
+        "tail_bound_times_norms": 1.200969652784215e-13,
+        "norm_amplification": 0.36091152431912077,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      }
+    },
+    {
+      "time_over_tau": 0.1,
+      "chebyshev_error": 2.3802348980694887e-11,
+      "uniformization_error": 2.1266322036694874e-13,
+      "chebyshev": {
+        "method": "chebyshev",
+        "degree": 6,
+        "time": 0.07873822765326267,
+        "time_over_tau": 0.1,
+        "seconds": 0.00022516699999997059,
+        "operator_actions": 6,
+        "tail_bound_times_norms": 5.21721601454093e-10,
+        "norm_amplification": 0.36091152431912077,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      },
+      "uniformization": {
+        "method": "uniformization",
+        "degree": 9,
+        "time": 0.07873822765326267,
+        "time_over_tau": 0.1,
+        "seconds": 0.00048795899999998227,
+        "operator_actions": 9,
+        "tail_bound_times_norms": 1.249737876687968e-12,
+        "norm_amplification": 0.36091152431912077,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      }
+    },
+    {
+      "time_over_tau": 1,
+      "chebyshev_error": 8.128941964002934e-12,
+      "uniformization_error": 1.772498814389678e-12,
+      "chebyshev": {
+        "method": "chebyshev",
+        "degree": 13,
+        "time": 0.7873822765326267,
+        "time_over_tau": 1.0,
+        "seconds": 0.00045070800000002187,
+        "operator_actions": 13,
+        "tail_bound_times_norms": 3.12811751428764e-10,
+        "norm_amplification": 0.36091152431912077,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      },
+      "uniformization": {
+        "method": "uniformization",
+        "degree": 20,
+        "time": 0.7873822765326267,
+        "time_over_tau": 1.0,
+        "seconds": 0.000821041999999883,
+        "operator_actions": 20,
+        "tail_bound_times_norms": 2.857597061290297e-11,
+        "norm_amplification": 0.36091152431912077,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      }
+    },
+    {
+      "time_over_tau": 10,
+      "chebyshev_error": 1.4215727553446023e-11,
+      "uniformization_error": 8.069586665548911e-13,
+      "chebyshev": {
+        "method": "chebyshev",
+        "degree": 34,
+        "time": 7.873822765326267,
+        "time_over_tau": 10.0,
+        "seconds": 0.00116654099999991,
+        "operator_actions": 34,
+        "tail_bound_times_norms": 6.507344512450379e-10,
+        "norm_amplification": 0.36091152431912077,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      },
+      "uniformization": {
+        "method": "uniformization",
+        "degree": 73,
+        "time": 7.873822765326267,
+        "time_over_tau": 10.0,
+        "seconds": 0.0024524999999999686,
+        "operator_actions": 73,
+        "tail_bound_times_norms": 3.266126947466922e-10,
+        "norm_amplification": 0.36091152431912077,
+        "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+      }
+    }
+  ],
+  "field": [
+    {
+      "source": 0,
+      "eta0": 0.01,
+      "successive_changes": [
+        1.707851051552245e-07,
+        4.2695456198282855e-08
+      ],
+      "FDT_error_final": 1.423173379144771e-08,
+      "central": [
+        [
+          -0.01978138012278703,
+          -0.00829586149801477,
+          -0.005712065097746716
+        ],
+        [
+          -0.019781209337681877,
+          -0.008295754949374373,
+          -0.005711940123193093
+        ],
+        [
+          -0.019781166642225678,
+          -0.008295728312755768,
+          -0.005711908880093319
+        ]
+      ],
+      "reference": [
+        -0.019781152410491887,
+        -0.008295719433934187,
+        -0.005711898465769291
+      ]
+    },
+    {
+      "source": 1,
+      "eta0": 0.01,
+      "successive_changes": [
+        2.5523336603938684e-07,
+        6.380536793360037e-08
+      ],
+      "FDT_error_final": 2.1268174721367217e-08,
+      "central": [
+        [
+          -0.008295907652365597,
+          -0.03176760836318647,
+          -0.01366290194477187
+        ],
+        [
+          -0.008295766487331074,
+          -0.03176735312982043,
+          -0.013662715319449209
+        ],
+        [
+          -0.00829573119720678,
+          -0.0317672893244525,
+          -0.01366266866476909
+        ]
+      ],
+      "reference": [
+        -0.008295719433934201,
+        -0.031767268056277775,
+        -0.0136626531133541
+      ]
+    },
+    {
+      "source": 2,
+      "eta0": 0.01,
+      "successive_changes": [
+        2.002536884579409e-07,
+        5.006131932605573e-08
+      ],
+      "FDT_error_final": 1.668690366440906e-08,
+      "central": [
+        [
+          -0.005712083497583925,
+          -0.013662873505795176,
+          -0.02813052943824116
+        ],
+        [
+          -0.005711944722903289,
+          -0.0136627082100646,
+          -0.028130329184552702
+        ],
+        [
+          -0.005711910030002654,
+          -0.013662666887445662,
+          -0.028130279123233376
+        ]
+      ],
+      "reference": [
+        -0.00571189846576927,
+        -0.013662653113354073,
+        -0.02813026243632971
+      ]
+    }
+  ],
+  "finite_residual": [
+    {
+      "time_over_tau": 0.0075,
+      "max_error": 4.541858580120461e-06,
+      "max_bound": 0.001811715958379231,
+      "all_errors_below_computed_bound": true
+    },
+    {
+      "time_over_tau": 0.025,
+      "max_error": 4.949643587082164e-05,
+      "max_bound": 0.005989115261211813,
+      "all_errors_below_computed_bound": true
+    },
+    {
+      "time_over_tau": 0.1,
+      "max_error": 0.0007291964535373618,
+      "max_bound": 0.0231253992545581,
+      "all_errors_below_computed_bound": true
+    },
+    {
+      "time_over_tau": 1.0,
+      "max_error": 0.028765570247905714,
+      "max_bound": 0.1567001283933271,
+      "all_errors_below_computed_bound": true
+    }
+  ],
+  "seconds": 0.06784725000000003,
+  "source_sha256": "e0a53bb1694a3a9cb2379cb39eb18e59a8dac3bcbe304a98cec56d58e640c035",
+  "core_sha256": "abb598e0fdd52a34d19a1fd4dc3fadfe1bb61a485883facb7d04139ec45e34e6"
+}

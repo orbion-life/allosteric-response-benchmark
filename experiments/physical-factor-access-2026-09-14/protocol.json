@@ -1,0 +1,72 @@
+{
+  "status": "FROZEN_BEFORE_NEW_MEASUREMENTS",
+  "created_utc": "2026-09-14T20:41:53.744235+00:00",
+  "question": "Can actual ABL Gaussian contact-force blocks provide a constructive operator route, and what prevents a complete competitive quantum response implementation?",
+  "input": {
+    "target": "ABL",
+    "expected_reduced_rank": 1261,
+    "files": {
+      "static-model.npz": {
+        "original": "prior-response-evidence/temporal/inputs/abl/static-model.npz",
+        "sha256": "b3b5306ac6515bafd23419b1fc5bf9ec9b5f4ef01b57b8cecc15ea994fe885e7"
+      },
+      "fitted-covariance.npz": {
+        "original": "prior-response-evidence/temporal/inputs/abl/fitted-covariance.npz",
+        "sha256": "e202bccb17020d1a02ddd87044eff7a210afa3371ddefb6e4bb4a3713134a372"
+      },
+      "all-mode-harmonic-scales.npz": {
+        "original": "prior-response-evidence/temporal/inputs/abl/all-mode-harmonic-scales.npz",
+        "sha256": "601783f315a4d4483a1154e6df6e5f76f0aa85e05eac50f24e16ac971293975c"
+      },
+      "operator.npz": {
+        "original": "prior-response-evidence/temporal/results/abl/operator.npz",
+        "sha256": "1e5728241c21cdf70f861fb7ee04452698678458c731f47dc996fe47f9e7ecd6"
+      }
+    }
+  },
+  "physical_construction": "For each actual contact derive Qe=kappa aaT/ell2 + kappa/ell2(Se+tr(Se)I/2), Se=Te Sigma TeT. Stack local3x3 roots times incidence. Gamma=mu B0T LcartT Lcart B0. Compare beta K to inverse Sigma, never assume fit equality.",
+  "quantum_scope": "The coordinate drift factor is not a factor oracle for saved rank1261 Hr. Derive degree1..4 Hermite generator and count polynomial-state/snapshot-reduction embedding. Compile bounded physical contact submodels only; identify every unimplemented full-protein component.",
+  "outputs": {
+    "times_over_tau": [
+      0.001,
+      0.03,
+      0.1,
+      1.0
+    ],
+    "selected_pairs": "first four eligible canonical residues ascending crossed with first two receiver residues ascending, fixed before results",
+    "full_output": "all252x252 at the same four times; also time single and first eight scalar entries separately",
+    "eligibility": "existing model receiver list and original at-least6Angstrom CA distance"
+  },
+  "comparators": [
+    "cached eigensystem weighted sums for saved Hr",
+    "matrix-free scipy expm_multiply with saved Hr action",
+    "full analytic Gaussian covariance/Wick kernel",
+    "physical contact-factor drift exponential action where practical"
+  ],
+  "timing": "fourCPUworkersmaximum; warm single pass then3 timed repetitions for cheap steps, one measured run for full kernels/exp-actions; identical outputs cached on both platforms; no simulator-to-QPU speedup comparison",
+  "accuracy": {
+    "normalized_response_total": 0.002,
+    "factor_identity_relative": 1e-10,
+    "local_block_psd_tolerance": 1e-12,
+    "small_compiled_response_tolerance": 1e-06,
+    "full_model_reference": "full original fitted Gaussian with fixed harmonic SD, beta=mu=kappa=1; report any factor-consistent covariance change separately"
+  },
+  "small_instances": "first three consecutive ABL C-alpha coordinates and inherited contacts; first two positive harmonic modes. Fit their Gaussian covariance, derive physical force factor and exact degree<=4 normalized Hermite observable states. Compile actual factor block and bounded Chebyshev-LCU overlap if caps permit; no synthetic uniform states.",
+  "small_evolution_times_over_tau": [
+    0.01,
+    0.1
+  ],
+  "caps": {
+    "cpu_workers": 4,
+    "rss_GiB": 8,
+    "statevector_qubits": 20,
+    "density_qubits": 10,
+    "native_operations": 200000,
+    "per_single_simulation_seconds": 90,
+    "maximum_chebyshev_degree": 32,
+    "full_unitary_materialization": false,
+    "cloud_or_QPU": false
+  },
+  "stopping": "Preserve every failure. If full polynomial/state/reduction access is not built, do not call the saved Hr direct-oracle implemented. If caps prevent construction, retain component circuits and count extrapolations explicitly. A failed factor/competitive-cost result is a complete diagnostic outcome.",
+  "no_prior_outputs_modified": true
+}

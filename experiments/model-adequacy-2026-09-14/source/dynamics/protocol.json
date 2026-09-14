@@ -1,0 +1,115 @@
+{
+  "status": "RECORDED_BEFORE_NEW_DYNAMIC_RESPONSE_RESULTS",
+  "created_utc": "2026-09-13T21:38:55.587343+00:00",
+  "scope": "Unchanged original nonlinear triangle; new finite-box continuation, independent propagation, field-switch and conditional response representation. Whole-plane status separately determined by static coverage.",
+  "source_model_sha256": {
+    "model.py": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261",
+    "protocol.json": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192",
+    "chebyshev.py": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340"
+  },
+  "cases": [
+    {
+      "faces": [
+        8,
+        7,
+        19
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        9,
+        8,
+        20
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.1
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.08
+    }
+  ],
+  "development_times_over_tau": [
+    0.1,
+    1,
+    10
+  ],
+  "confirmation_times_over_tau": [
+    0.0075,
+    0.025,
+    0.075,
+    0.25,
+    0.75,
+    2.5,
+    7.5
+  ],
+  "normalization": "same exact whole-harmonic SD for original quartic energies",
+  "static_gate_required_before_large_propagation": true,
+  "prior_fails_preserved": true,
+  "numerical_gates": {
+    "successive_G0_K_C": 0.001,
+    "independent_propagation": 1e-08,
+    "chebyshev_covariance_tail": 1e-09,
+    "uniformization_covariance_tail": 1e-09,
+    "stationarity": 1e-09,
+    "small_CSR_action": 1e-12,
+    "field_linearity": 0.0005,
+    "representation_G0_K_C": 0.002
+  },
+  "field": {
+    "initial": "unperturbed finite equilibrium",
+    "switched_dimensionless_potential": "beta U +/- eta f_i",
+    "eta0": "min(0.01,0.05 beta degree_i sd_i)",
+    "divisors": [
+      1,
+      2,
+      4
+    ],
+    "finite_difference": "(mean_plus - mean_minus)/(2 eta)",
+    "reference": "K-G0",
+    "all_source_residues": true,
+    "all_receiver_residues": true
+  },
+  "methods": {
+    "primary": "FP64 Chebyshev/Bessel symmetric-generator action",
+    "independent": "FP64 uniformization: exp(-tH)=sum Poisson(k;t gamma) (I-H/gamma)^k; gamma=max diagonal(H); exact finite-chain identity, truncation tail allocated from observable norms",
+    "small_parity": "fresh sparse SciPy Taylor expm_multiply and CPU/GPU action on same grid"
+  },
+  "resource_envelope": {
+    "local_memory_bytes": 8000000000,
+    "remote_host_memory_mib": 65536,
+    "remote_GPU": "one A100-40GB when useful",
+    "remote_concurrency": 1,
+    "planning_USD_ceiling": 50,
+    "maximum_A100_hours": 12,
+    "per_job_timeout_seconds": 3600,
+    "automatic_retries": 0,
+    "stop_on_error": true,
+    "billed_invoice_scope": "planning estimates are not invoice totals"
+  },
+  "stops": [
+    "Failed reference prevents original physical-fidelity claim. Explicit finite-operator diagnostics may proceed under separate scope.",
+    "Failure of representation development prevents fresh confirmation selection retries.",
+    "No protein extension of original-measure results without independently admitted integration."
+  ]
+}

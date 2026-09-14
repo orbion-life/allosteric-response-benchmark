@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_BEFORE_PREPROCESSING_REPLAY_AND_DENSE_FALLBACK_MEASUREMENTS",
+  "UTC": "2026-09-14T21:02:34.756950+00:00",
+  "purpose": "Charge common harmonic eigensystem and Gaussian fit setup; explicitly identify saved snapshot/whitening as unretimed common input. Measure dense Cholesky fallback, never label it physical factor access. Extrapolate named generic loader and independent-shot sufficient bounds without hardware claims.",
+  "planning_budget": {
+    "reduction": 5e-05,
+    "force_covariance": 1e-08,
+    "semigroup": 0.0005,
+    "states_static": 0.00025,
+    "statistics": 0.001
+  },
+  "statistical_assumptions": "Independent ideal unbiased Bernoulli, Hoeffding95pct; alpha<=1, max measured norm product; symmetry-aware full4matrix family correction. Sufficient planning counts, not observed or optimal lower bounds."
+}

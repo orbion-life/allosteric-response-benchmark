@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "scope": "Independent numeric checks of force blocks, selected64 ABL coefficient rows, saved output arithmetic and complete14-term actual-ABL submodel. Full13.36-billion-term embedding identity and full quantum access remain unverified/unimplemented.",
+  "methods": {
+    "force": "Order5 GH of direct local quartic-energy Hessian in3 variables",
+    "coefficients": "Order5 GH over1..4 selected standard-normal modes after exact conditional Gaussian integration of other coordinates; no normal-ordered tensor formula",
+    "small_fixture": "Direct quartic energy GH with all2 coordinates and all14 Hermite coefficients",
+    "response": "Fresh eigendecomposition of saved Hr and complete matrix outputs"
+  },
+  "randomness": "No integration randomness; only prescribed seed20260914 used to verify selected row identities.",
+  "dimensions": {
+    "degree_counts": {
+      "1": 750,
+      "2": 281625,
+      "3": 70594000,
+      "4": 13289320500
+    },
+    "full_centered_Hermite_dimension": 13360196875,
+    "full_observable_coefficient_float64_bytes": 26934156900000,
+    "full_snapshot_embedding_float64_bytes": 134777666075000,
+    "full_factor_float64_bytes": 134777666075000,
+    "padded_factor_rows": 17179869184,
+    "padded_factor_columns": 2048,
+    "generic_table_loader_qubits": 46,
+    "generic_loader_Ry_angles_per_UL": 35184372088832,
+    "generic_loader_table_float64_bytes": 281474976710656,
+    "full_output_scalar_count_at_four_times": 254016,
+    "symmetric_scalar_count_at_four_times": 127512
+  },
+  "tolerances": {
+    "force_absolute": 1e-10,
+    "coefficient_absolute": 1e-10,
+    "embedding_absolute": 1e-07,
+    "saved_response_recompute": 1e-10
+  },
+  "force_checks": {
+    "GH_expected_Hessian_vs_saved_blocks_maxabs": 2.831068712794149e-15,
+    "GH_local_factor_Gram_vs_saved_Gamma_maxabs": 2.6645352591003757e-14,
+    "local_expected_Hessian_min_eigenvalue": 0.006965122494509918,
+    "stationarity_Gamma_minus_inverse_Sigma_maxabs": 4.930124884727771e-12,
+    "stationarity_relative_Frobenius": 1.0000600031359636e-13,
+    "stationarity_spectral_norm": 5.203327638393776e-12,
+    "saved_factor_covariance_identity_maxabs": 5.551115123125783e-15,
+    "dense_projected_factor_Frobenius_squared": 4648.838029355872
+  },
+  "coefficient_checks": {
+    "selected64_coefficients_maxabs": 3.946495907847236e-16,
+    "degree_maxabs": {
+      "1": 3.946495907847236e-16,
+      "2": 1.8821749714348357e-16,
+      "3": 6.01732205729455e-17,
+      "4": 1.2458573516778036e-16
+    },
+    "selected64_embedding_rows_maxabs": 1.2075973901404247e-12,
+    "selected64_factor_rows_maxabs": 3.288203856335187e-13,
+    "selected64_rates_maxabs": 0.0
+  },
+  "response_checks": {
+    "recomputed_spectral_vs_saved_spectral_maxabs": 3.9050360167713905e-14,
+    "matrix_free_vs_spectral_maxabs": 8.731904088676856e-14,
+    "reduced_vs_full_Gaussian_maxabs": 2.3801156923131117e-05,
+    "factor_consistent_vs_original_Gaussian_maxabs": 2.517985819849855e-13,
+    "Gram_static_vs_saved_G0_maxabs": 4.235164736271502e-22
+  },
+  "small_ABL_checks": {
+    "all14_direct_GH_coefficients_maxabs": 8.881784197001252e-16,
+    "force_Gram_maxabs": 1.5521869438801948e-17,
+    "source_coordinates_match_first_three_ABL_residues": true,
+    "source_contacts_match_inherited_ABL": true
+  },
+  "seconds": 3.1423425420071,
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "numpy": "2.4.6"
+}

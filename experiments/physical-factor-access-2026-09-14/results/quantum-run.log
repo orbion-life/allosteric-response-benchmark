@@ -1,0 +1,196 @@
+small physical factor compiled/ideal checked {'all_factor_columns_maxabs': 1.609823385706477e-15, 'all_projected_walk_columns_maxabs': 4.376984753091743e-15, 'simulation_seconds': [0.07088241603923962, 0.14035720902029425, 0.06485862500267103, 0.14046562503790483, 0.06674358400050551, 0.13942562497686595, 0.06483979197219014, 0.1397388749755919, 0.06742445897543803, 0.13993945898255333, 0.0670311669819057, 0.13897820794954896, 0.06714341702172533, 0.14042875001905486, 0.06810862495331094, 0.14028083300217986, 0.06713041698094457, 0.13967608398525044, 0.06538320798426867, 0.13885208399733528, 0.06637095799669623, 0.13945675001014024, 0.0680862910230644, 0.13780608400702477, 0.06593870901269838, 0.13973595894640312, 0.065888500015717, 0.14128550002351403], 'validation_method': '28 separate statevector-column runs, no full unitary matrix'}
+LCU response 0.01 {'time_over_tau': 0.01, 'time': 0.015438626561070194, 'pair_canonical': [242, 243], 'norm_restoration_L': 0.34250273876727916, 'static_subtraction': 0.27223529951917896, 'a_gamma_t_over2': 0.5689650998164277, 'degree_cap32_tail_response_bound': 0.0, 'chosen_degree': 6, 'response_reference_factor': -0.01350483984379014, 'response_reference_fitted_covariance': -0.013504839843795358, 'LCU_alpha': 0.9999999645248651, 'truncation_response_bound': 1.2150330875339608e-08, 'controlled_walk_calls': 7, 'native_circuit': {'qubits': 17, 'operations': 120840, 'depth': 118507, 'gate_counts': {'u': 60590, 'cx': 60250}, 'statevector_complex128_bytes': 2097152}, 'unnormalized_response_from_probability': 'C=L*alpha*(2p_plus-1)-static; p_plus is X=+1 Hadamard probability', 'ideal_simulation_seconds': 15.475338666001335, 'ideal_X_expectation': 0.7554114059908389, 'ideal_plus_probability': 0.8777057029954194, 'norm_restored_response': -0.01350483324977414, 'error_vs_factor_response': 6.594015999894509e-09, 'error_vs_fitted_Gaussian_response': 6.594021217942725e-09, 'status': 'PASS'}
+LCU resource gate 0.1 {'qubits': 18, 'operations': 258802, 'depth': 253842, 'gate_counts': {'u': 129756, 'cx': 129046}, 'statevector_complex128_bytes': 4194304}
+{
+  "scope": "First3 actual ABL residues and first2 harmonic coordinates; complete degree1\u20134 polynomial observables. Not a full ABL response circuit.",
+  "canonical": [
+    242,
+    243,
+    244
+  ],
+  "coordinate_dimension": 2,
+  "Hermite_dimension": 14,
+  "factor_shape": [
+    90,
+    14
+  ],
+  "factor_nonzero_entries": 180,
+  "factor_bytes": 10080,
+  "gamma_constructed_Frobenius_squared": 73.70669891726268,
+  "factor_Gram_vs_covariance_generator_maxabs": 4.321876190260809e-12,
+  "factor_vs_covariance_generator_tau_scaled_maxabs": 6.672383254461739e-12,
+  "gamma_over_generator_spectral_norm": 7.0265451503998895,
+  "observable_norms": [
+    0.6013871983405973,
+    0.5695211665834327,
+    0.6013875819693055
+  ],
+  "classical_covariance_eigendecomposition_required": true,
+  "physical_force_roots_dimension": 3,
+  "full_reduced_Hr_eigendecomposition_used_for_circuit": false,
+  "precision_target_normalized_response": 1e-06,
+  "loader": {
+    "qubits": 12,
+    "operations": 4093,
+    "depth": 4084,
+    "gate_counts": {
+      "u": 2047,
+      "cx": 2046
+    },
+    "statevector_complex128_bytes": 65536
+  },
+  "walk": {
+    "qubits": 12,
+    "operations": 8747,
+    "depth": 8546,
+    "gate_counts": {
+      "u": 4391,
+      "cx": 4356
+    },
+    "statevector_complex128_bytes": 65536
+  },
+  "metadata": {
+    "nrow": 7,
+    "ncol": 4,
+    "padded_rows": 128,
+    "padded_columns": 16,
+    "F": 8.585260561990108,
+    "eta": 1.0,
+    "attenuation_angle": 0.0,
+    "col": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "row": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "flag": 11
+  },
+  "compiled_component_checks": {
+    "all_factor_columns_maxabs": 1.609823385706477e-15,
+    "all_projected_walk_columns_maxabs": 4.376984753091743e-15,
+    "simulation_seconds": [
+      0.07088241603923962,
+      0.14035720902029425,
+      0.06485862500267103,
+      0.14046562503790483,
+      0.06674358400050551,
+      0.13942562497686595,
+      0.06483979197219014,
+      0.1397388749755919,
+      0.06742445897543803,
+      0.13993945898255333,
+      0.0670311669819057,
+      0.13897820794954896,
+      0.06714341702172533,
+      0.14042875001905486,
+      0.06810862495331094,
+      0.14028083300217986,
+      0.06713041698094457,
+      0.13967608398525044,
+      0.06538320798426867,
+      0.13885208399733528,
+      0.06637095799669623,
+      0.13945675001014024,
+      0.0680862910230644,
+      0.13780608400702477,
+      0.06593870901269838,
+      0.13973595894640312,
+      0.065888500015717,
+      0.14128550002351403
+    ],
+    "validation_method": "28 separate statevector-column runs, no full unitary matrix"
+  },
+  "controlled_walk": {
+    "qubits": 13,
+    "operations": 17246,
+    "depth": 16914,
+    "gate_counts": {
+      "u": 8650,
+      "cx": 8596
+    },
+    "statevector_complex128_bytes": 131072
+  },
+  "LCU_responses": [
+    {
+      "time_over_tau": 0.01,
+      "time": 0.015438626561070194,
+      "pair_canonical": [
+        242,
+        243
+      ],
+      "norm_restoration_L": 0.34250273876727916,
+      "static_subtraction": 0.27223529951917896,
+      "a_gamma_t_over2": 0.5689650998164277,
+      "degree_cap32_tail_response_bound": 0.0,
+      "chosen_degree": 6,
+      "response_reference_factor": -0.01350483984379014,
+      "response_reference_fitted_covariance": -0.013504839843795358,
+      "LCU_alpha": 0.9999999645248651,
+      "truncation_response_bound": 1.2150330875339608e-08,
+      "controlled_walk_calls": 7,
+      "native_circuit": {
+        "qubits": 17,
+        "operations": 120840,
+        "depth": 118507,
+        "gate_counts": {
+          "u": 60590,
+          "cx": 60250
+        },
+        "statevector_complex128_bytes": 2097152
+      },
+      "unnormalized_response_from_probability": "C=L*alpha*(2p_plus-1)-static; p_plus is X=+1 Hadamard probability",
+      "ideal_simulation_seconds": 15.475338666001335,
+      "ideal_X_expectation": 0.7554114059908389,
+      "ideal_plus_probability": 0.8777057029954194,
+      "norm_restored_response": -0.01350483324977414,
+      "error_vs_factor_response": 6.594015999894509e-09,
+      "error_vs_fitted_Gaussian_response": 6.594021217942725e-09,
+      "status": "PASS"
+    },
+    {
+      "time_over_tau": 0.1,
+      "time": 0.15438626561070196,
+      "pair_canonical": [
+        242,
+        243
+      ],
+      "norm_restoration_L": 0.34250273876727916,
+      "static_subtraction": 0.27223529951917896,
+      "a_gamma_t_over2": 5.689650998164278,
+      "degree_cap32_tail_response_bound": 0.0,
+      "chosen_degree": 13,
+      "response_reference_factor": -0.10365628184476466,
+      "response_reference_fitted_covariance": -0.10365628184480233,
+      "LCU_alpha": 0.9999996337079505,
+      "truncation_response_bound": 1.254560301320127e-07,
+      "controlled_walk_calls": 15,
+      "native_circuit": {
+        "qubits": 18,
+        "operations": 258802,
+        "depth": 253842,
+        "gate_counts": {
+          "u": 129756,
+          "cx": 129046
+        },
+        "statevector_complex128_bytes": 4194304
+      },
+      "unnormalized_response_from_probability": "C=L*alpha*(2p_plus-1)-static; p_plus is X=+1 Hadamard probability",
+      "status": "FAIL_FROZEN_COMPILED_RESOURCE_CAP"
+    }
+  ],
+  "status": "COMPLETE_BOUNDED_DIRECT_FACTOR_DIAGNOSTIC",
+  "full_ABL_oracle_status": "NOT_IMPLEMENTED_RESOURCE_GATE_FAILED",
+  "hardware_execution": false,
+  "shot_cost_scope": "These are ideal compiled simulations. A sampled estimate needs uncertainty analysis and coherent hardware feasibility; no advantage from simulator runtimes.",
+  "wall_seconds": 23.09527591598453,
+  "peak_RSS_bytes": 444301312
+}

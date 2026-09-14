@@ -1,0 +1,281 @@
+{
+  "faces": [
+    9.0,
+    8.0,
+    20.0
+  ],
+  "spacing": 0.125,
+  "shape": [
+    144,
+    128,
+    320
+  ],
+  "states": 5898240,
+  "field": null,
+  "backend": "cupy",
+  "build_seconds": 0.07097148100000084,
+  "stationarity": 2.3670684417032693e-15,
+  "G0": [
+    [
+      0.255583554808153,
+      0.11449607500242927,
+      0.12642296863311397
+    ],
+    [
+      0.11449607500242927,
+      0.3396418311522158,
+      0.16930434891627125
+    ],
+    [
+      0.12642296863311397,
+      0.16930434891627125,
+      0.300715086407796
+    ]
+  ],
+  "gamma": 770.247709534654,
+  "spectral_upper": 1538.2406310872998,
+  "eigenvalues": [
+    1.270031126943411,
+    1.7299688730565843,
+    2.9999999999999947
+  ],
+  "sd": [
+    0.7546235522986464,
+    0.6731356459964715,
+    0.7065206335498847
+  ],
+  "log_partition_cell_measure": 5.2709014893959285,
+  "numpy_version": "2.2.6",
+  "backend_version": "14.1.1",
+  "GPU": "NVIDIA A100-SXM4-80GB",
+  "GPU_pool_reserved_bytes": 1967154688,
+  "engineering_status": "COMPLETE",
+  "scientific_scope": "Stated finite reflecting model; reference convergence and coverage assessed separately",
+  "independent_error": 2.8129387708020204e-10,
+  "independent_status": "PASS",
+  "propagation": [
+    {
+      "method": "chebyshev",
+      "degree": 16,
+      "time": 0.005905367073994697,
+      "time_over_tau": 0.0075,
+      "seconds": 0.01462013300000109,
+      "operator_actions": 16,
+      "tail_bound_times_norms": 3.2440010861224054e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 26,
+      "time": 0.01968455691331566,
+      "time_over_tau": 0.025,
+      "seconds": 0.021195293999994647,
+      "operator_actions": 26,
+      "tail_bound_times_norms": 9.126342404890515e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 44,
+      "time": 0.059053670739946974,
+      "time_over_tau": 0.075,
+      "seconds": 0.034958693999996626,
+      "operator_actions": 44,
+      "tail_bound_times_norms": 5.985106738572853e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 50,
+      "time": 0.07873822765326265,
+      "time_over_tau": 0.1,
+      "seconds": 0.03953520399999633,
+      "operator_actions": 50,
+      "tail_bound_times_norms": 9.260317779149612e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 79,
+      "time": 0.1968455691331566,
+      "time_over_tau": 0.25,
+      "seconds": 0.06160041900000124,
+      "operator_actions": 79,
+      "tail_bound_times_norms": 7.084107032471892e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 136,
+      "time": 0.5905367073994698,
+      "time_over_tau": 0.7500000000000001,
+      "seconds": 0.10504299000000117,
+      "operator_actions": 136,
+      "tail_bound_times_norms": 8.413137028164954e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 157,
+      "time": 0.7873822765326264,
+      "time_over_tau": 1.0,
+      "seconds": 0.12099308900000239,
+      "operator_actions": 157,
+      "tail_bound_times_norms": 8.5206032561368e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 248,
+      "time": 1.9684556913315658,
+      "time_over_tau": 2.5,
+      "seconds": 0.1902310689999993,
+      "operator_actions": 248,
+      "tail_bound_times_norms": 9.1043109449423e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 429,
+      "time": 5.9053670739946975,
+      "time_over_tau": 7.5,
+      "seconds": 0.32794789600000485,
+      "operator_actions": 429,
+      "tail_bound_times_norms": 9.9696839150462e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "chebyshev",
+      "degree": 496,
+      "time": 7.873822765326263,
+      "time_over_tau": 10.0,
+      "seconds": 0.379021238,
+      "operator_actions": 496,
+      "tail_bound_times_norms": 9.549958996585802e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 23,
+      "time": 0.005905367073994697,
+      "time_over_tau": 0.0075,
+      "seconds": 0.01738802699999553,
+      "operator_actions": 23,
+      "tail_bound_times_norms": 4.348714894056854e-11,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 44,
+      "time": 0.01968455691331566,
+      "time_over_tau": 0.025,
+      "seconds": 0.031615447000000074,
+      "operator_actions": 44,
+      "tail_bound_times_norms": 1.4928394979960667e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 91,
+      "time": 0.059053670739946974,
+      "time_over_tau": 0.075,
+      "seconds": 0.06363177400000097,
+      "operator_actions": 91,
+      "tail_bound_times_norms": 3.121350322739297e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 112,
+      "time": 0.07873822765326265,
+      "time_over_tau": 0.1,
+      "seconds": 0.07788653899999787,
+      "operator_actions": 112,
+      "tail_bound_times_norms": 4.2344742033016837e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 230,
+      "time": 0.1968455691331566,
+      "time_over_tau": 0.25,
+      "seconds": 0.15804317799999978,
+      "operator_actions": 230,
+      "tail_bound_times_norms": 4.3524602856120154e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 585,
+      "time": 0.5905367073994698,
+      "time_over_tau": 0.7500000000000001,
+      "seconds": 0.39925808699999976,
+      "operator_actions": 585,
+      "tail_bound_times_norms": 7.396388301931954e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 756,
+      "time": 0.7873822765326264,
+      "time_over_tau": 1.0,
+      "seconds": 0.5152895820000012,
+      "operator_actions": 756,
+      "tail_bound_times_norms": 7.402883862442371e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 1749,
+      "time": 1.9684556913315658,
+      "time_over_tau": 2.5,
+      "seconds": 1.1896403450000008,
+      "operator_actions": 1749,
+      "tail_bound_times_norms": 8.289753899518213e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 4948,
+      "time": 5.9053670739946975,
+      "time_over_tau": 7.5,
+      "seconds": 3.3624015470000046,
+      "operator_actions": 4948,
+      "tail_bound_times_norms": 8.444742903299403e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    },
+    {
+      "method": "uniformization",
+      "degree": 6524,
+      "time": 7.873822765326263,
+      "time_over_tau": 10.0,
+      "seconds": 4.432813620000005,
+      "operator_actions": 6524,
+      "tail_bound_times_norms": 9.256436115865158e-10,
+      "norm_amplification": 0.3396418311522156,
+      "arithmetic_scope": "Floating-point computation; no interval arithmetic certificate."
+    }
+  ],
+  "total_seconds": 11.717560877000004,
+  "process_peak_rss_bytes": 1748701184,
+  "source_sha256": "abb598e0fdd52a34d19a1fd4dc3fadfe1bb61a485883facb7d04139ec45e34e6"
+}

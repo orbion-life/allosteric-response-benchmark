@@ -1,5 +1,11 @@
 # Allosteric response benchmark
 
+## Version 0.10.0
+
+Version 0.10.0 implements ABL contact factors and a complete seventeen-qubit response circuit on a three-residue ABL fragment, then tests the unchanged Gaussian and harmonic approximations against the original nonlinear reference at ten times. The small circuit reproduces its Gaussian response in ideal simulation, while both physical approximations fail the nonlinear response target. Full-protein loading remains unresolved and matched classical ABL matrices take milliseconds after preparation.
+
+Read the [experiment guide](docs/evidence-v0.10.0/README.md), [ABL factor construction and circuit](experiments/physical-factor-access-2026-09-14/README.md), [nonlinear comparison](experiments/model-adequacy-2026-09-14/README.md) and [release notes](RELEASE-NOTES-v0.10.0.md). The [release](https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.10.0) contains complete raw evidence, compiled circuits, the updated report and its editable source; [SHA256 hashes](docs/evidence-v0.10.0/ASSET-MANIFEST-v0.10.0.json) identify every asset. Earlier results below retain their original scope and dates.
+
 ## Version 0.9.1
 
 Version 0.9.1 clarifies the scientific report's literature rationale for mechanical allosteric screening and direct quantum overlap estimation. The [updated report and editable source](https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.9.1) accompany a [short explanation of the literature and its scope](docs/evidence-v0.9.1/README.md). Computational methods, measured results and raw evidence remain those of v0.9.0 below.

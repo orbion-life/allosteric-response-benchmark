@@ -1,0 +1,109 @@
+{
+  "status": "FROZEN_BEFORE_NEW_CALCULATIONS",
+  "created_utc": "2026-09-14T20:38:11.811255+00:00",
+  "name": "Fixed Gaussian and harmonic model adequacy on the original nonlinear triangle",
+  "original_times": [
+    0.1,
+    1,
+    10
+  ],
+  "additional_times": [
+    0.0075,
+    0.025,
+    0.075,
+    0.25,
+    0.75,
+    2.5,
+    7.5
+  ],
+  "all_times_sorted": [
+    0.0075,
+    0.025,
+    0.075,
+    0.1,
+    0.25,
+    0.75,
+    1,
+    2.5,
+    7.5,
+    10
+  ],
+  "cases": [
+    {
+      "faces": [
+        8,
+        7,
+        19
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        9,
+        8,
+        20
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.125
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.1
+    },
+    {
+      "faces": [
+        10,
+        9,
+        21
+      ],
+      "spacing": 0.08
+    }
+  ],
+  "numerical_gates": {
+    "successive_G0_K_C": 0.001,
+    "independent_propagation": 1e-08,
+    "chebyshev_covariance_tail": 1e-09,
+    "uniformization_covariance_tail": 1e-09,
+    "stationarity": 1e-09,
+    "small_CSR_action": 1e-12,
+    "field_linearity": 0.0005,
+    "representation_G0_K_C": 0.002
+  },
+  "reference": "same finite reflecting nonlinear generator; unchanged FP64 Chebyshev/Bessel and independent FP64 uniformization",
+  "models": "unchanged fitted Gaussian covariance and native harmonic model; original quartic residue energies and exact whole-harmonic SD",
+  "normalization": "same original whole-harmonic standard deviations; tau=1/(mu*minimum original positive harmonic eigenvalue)",
+  "evaluation": "all nine entries at all ten times for each model, including diagonal; G0,K,C; each receiver compares the two other sites by absolute response magnitude, retaining signed values",
+  "reference_allowance": "Report each domain/spacing discrepancy. For conditional ranking use sum of both recorded domain and spacing comparison maxima plus worst independent propagation discrepancy and both tail allowances; this is an empirical envelope, not a certified whole-space error bound. Mark ranking unresolved whenever combined per-site envelope overlaps. No original-physics fidelity is established without a justified error bound.",
+  "model_accuracy_gate": "observed amplitude discrepancy + reference allowance + independently measured control numerical allowance <= .002 over all 90 entries; not a change to the target",
+  "no_refit": true,
+  "no_basis_search": true,
+  "resource_ceiling": {
+    "A100_seconds": 3600,
+    "remote_CPU": 8,
+    "remote_memory_MiB": 65536,
+    "max_containers": 1,
+    "retries": 0,
+    "local_peak_bytes": 8000000000,
+    "local_pilot_timeout_seconds": 300,
+    "remote_timeout_seconds": 1800
+  },
+  "planned_order": [
+    "local 288-state independent implementation check",
+    "NumPy first registered grid at .0075 tau with both propagators",
+    "one A100 job, GPU small check and all five grids at ten times with both propagators",
+    "frozen control evaluation and independent polynomial-moment check",
+    "reference qualification, complete amplitude and two-site ordering table, cost ledger and replay verifier"
+  ],
+  "failures": "Retain all records, stop on implementation failure; scientific failures do not permit model or time selection; no QPU."
+}

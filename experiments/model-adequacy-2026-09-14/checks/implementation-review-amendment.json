@@ -1,0 +1,7 @@
+{
+  "changes": [
+    "Added explicit beta=mu=kappa=1 assertion to frozen control entrypoint.",
+    "Aggregate reference admission now explicitly requires each independent_status PASS, every tail allowance <=1e-9, stationarity and implementation checks, rather than relying on completion status."
+  ],
+  "scope": "Acceptance safeguards only; no model, time, reference, numerical algorithm or tolerance changed; original control implementation and results retained under checks/history."
+}

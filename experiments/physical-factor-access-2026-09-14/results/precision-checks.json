@@ -1,0 +1,66 @@
+{
+  "scope": "Numerical coefficient-rounding sensitivity for explicitly dense Cholesky fallback. Does not validate physical gate synthesis precision, noise, compact factor oracle or full ABL circuit.",
+  "reference": "Frozen rank1261 ABL Gaussian reduced response, fixed harmonic normalization, same4times",
+  "results": [
+    {
+      "loading_coefficient_dtype": "float32",
+      "factor_stored_bytes": 6360484,
+      "observable_stored_bytes": 1271088,
+      "factor_Gram_perturbation_spectral_norm": 1.1054519124889569e-06,
+      "max_observable_vector_L2_error": 2.689708561548617e-08,
+      "static_Gram_maxabs_error": 1.8205504659363214e-08,
+      "by_time": [
+        {
+          "time": 0.039804673596275215,
+          "response_maxabs_error": 8.508090065806329e-09,
+          "conservative_fixed_response_bound": 1.080907817303066e-07
+        },
+        {
+          "time": 1.1941402078882564,
+          "response_maxabs_error": 1.821510886568234e-08,
+          "conservative_fixed_response_bound": 1.243329537236378e-06
+        },
+        {
+          "time": 3.9804673596275215,
+          "response_maxabs_error": 1.8210188579281805e-08,
+          "conservative_fixed_response_bound": 3.983561016044136e-06
+        },
+        {
+          "time": 39.804673596275215,
+          "response_maxabs_error": 1.8205628227185855e-08,
+          "conservative_fixed_response_bound": 3.921510860071531e-05
+        }
+      ]
+    },
+    {
+      "loading_coefficient_dtype": "float16",
+      "factor_stored_bytes": 3180242,
+      "observable_stored_bytes": 635544,
+      "factor_Gram_perturbation_spectral_norm": 0.009321868942708107,
+      "max_observable_vector_L2_error": 0.00022696914190984226,
+      "static_Gram_maxabs_error": 0.00014566552937811394,
+      "by_time": [
+        {
+          "time": 0.039804673596275215,
+          "response_maxabs_error": 8.634645869487478e-05,
+          "conservative_fixed_response_bound": 0.0009039806184334368
+        },
+        {
+          "time": 1.1941402078882564,
+          "response_maxabs_error": 0.0001459681719971906,
+          "conservative_fixed_response_bound": 0.010477031040575941
+        },
+        {
+          "time": 3.9804673596275215,
+          "response_maxabs_error": 0.0001458357392807308,
+          "conservative_fixed_response_bound": 0.033584394128506126
+        },
+        {
+          "time": 39.804673596275215,
+          "response_maxabs_error": 0.00014566790674819252,
+          "conservative_fixed_response_bound": 0.3306790624018942
+        }
+      ]
+    }
+  ]
+}
