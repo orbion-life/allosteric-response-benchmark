@@ -1,0 +1,1530 @@
+{
+  "status": "CURATED_PUBLIC_BRANCH",
+  "archive_prefix": "pulsar-selection-experiments-2026-09-14/quantum/",
+  "excludes": [
+    "Installed runtime and dependencies",
+    "Python caches",
+    "Redundant relocated CI copy",
+    "Mutable publication receipt"
+  ],
+  "scope": "Own source, generated circuits/results, copied own prior inputs and experiment provenance. No full articles, personal memory, challenge PDFs or cloud account inventory.",
+  "minimum_CI_files": [
+    "ci_smoke.py",
+    "select_swap.py",
+    "requirements-ci.txt"
+  ],
+  "repository_scope": "Current source, protocols, small triangle fixture and compact decision receipts. Full archived verification requires the release overlay.",
+  "source_seals_checked": [
+    "source-seal.json",
+    "phase-gradient-followup/source-seal.json"
+  ],
+  "input_provenance_checked": true,
+  "files": [
+    {
+      "path": "NOTICE.md",
+      "bytes": 1680,
+      "sha256": "74323e1ec7c455ac4693a2700503926ea62ed9f289482a3cec9ef2a973ac3df9",
+      "repository": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 9986,
+      "sha256": "79c19dfda11d0db9bd2fe9572f853a591fb0e33da75d61f05828138372d1935f",
+      "repository": true
+    },
+    {
+      "path": "baseline/dense_factor_normalization/controlled-walk.qpy",
+      "bytes": 205320,
+      "sha256": "3b1cc73fbae53afe745c9f1e5421c4ee50fb8451f551af97d811ea66f0371171",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_factor_normalization/prepare-0.qpy",
+      "bytes": 14540,
+      "sha256": "b3ae5d053234f645e743bc07cb5b62807040f916f9dd22ca85fd292f71d6ade4",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_factor_normalization/prepare-1.qpy",
+      "bytes": 16820,
+      "sha256": "f1960c5902c8d2eaa582b362428a48f10b76ee2f0b024915594e716ed3fcd722",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_factor_normalization/prepare-2.qpy",
+      "bytes": 16821,
+      "sha256": "4f0b04c0985907be5bebd7b41ae463a9aa54b42aca262f825f15757478f064ea",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_factor_normalization/readout-records.json",
+      "bytes": 6259,
+      "sha256": "a768b8b6f8f8e63f69f79994db17f708bc4add7fa8f33bf37d68d8cba7eed1bc",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_factor_normalization/receipt.json",
+      "bytes": 9356,
+      "sha256": "4199f876a9057f685e042a64e2454aece92360d221b0d98c01ba6eb182968b0f",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_factor_normalization/unprepare-0.qpy",
+      "bytes": 14543,
+      "sha256": "b6a6b0adc877026f47bfd90006390f2437001735ebd4323a58ed812e5dca8fb8",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_factor_normalization/unprepare-1.qpy",
+      "bytes": 16823,
+      "sha256": "cf9d77f097fc68a0778104572d31007bfd805d5579d82bbf996560fde11cf96b",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_factor_normalization/unprepare-2.qpy",
+      "bytes": 16824,
+      "sha256": "5abbd3eb1616a717208118c7c0a25d4577a7d6aa2b8df5e6bcb64a8df772d4bd",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/controlled-walk.qpy",
+      "bytes": 205696,
+      "sha256": "cfad7d00c9fbcf124326813ac703638879392f17bd5afeb3a74501bffcde06f7",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/prepare-0.qpy",
+      "bytes": 14540,
+      "sha256": "b3ae5d053234f645e743bc07cb5b62807040f916f9dd22ca85fd292f71d6ade4",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/prepare-1.qpy",
+      "bytes": 16820,
+      "sha256": "f1960c5902c8d2eaa582b362428a48f10b76ee2f0b024915594e716ed3fcd722",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/prepare-2.qpy",
+      "bytes": 16821,
+      "sha256": "4f0b04c0985907be5bebd7b41ae463a9aa54b42aca262f825f15757478f064ea",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/readout-records.json",
+      "bytes": 6235,
+      "sha256": "8805da6870faff10ac65f1fa151e2151522ad76c3eadf0eb5a475a1a9817ee6b",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/receipt.json",
+      "bytes": 9338,
+      "sha256": "cd5a07e492625c17009f17b054154ab569e1f012c39bbaa72cffed4bc056fd77",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/unprepare-0.qpy",
+      "bytes": 14543,
+      "sha256": "b6a6b0adc877026f47bfd90006390f2437001735ebd4323a58ed812e5dca8fb8",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/unprepare-1.qpy",
+      "bytes": 16823,
+      "sha256": "cf9d77f097fc68a0778104572d31007bfd805d5579d82bbf996560fde11cf96b",
+      "repository": false
+    },
+    {
+      "path": "baseline/dense_norm_optimal/unprepare-2.qpy",
+      "bytes": 16824,
+      "sha256": "5abbd3eb1616a717208118c7c0a25d4577a7d6aa2b8df5e6bcb64a8df772d4bd",
+      "repository": false
+    },
+    {
+      "path": "bounded-candidate.py",
+      "bytes": 2151,
+      "sha256": "69def219fd83347834c5a02642c27e2dc51ce8f36c35568ad37e59bc8e03744e",
+      "repository": true
+    },
+    {
+      "path": "bounded.py",
+      "bytes": 2141,
+      "sha256": "6c134e29d57ddcc81a7ba71335896c76813bf3b045124dca8df79efb13d4d44f",
+      "repository": true
+    },
+    {
+      "path": "candidate_experiment.py",
+      "bytes": 15037,
+      "sha256": "836428e307b465e64e1a3423280f92f0fbb247e8ed79e1e66894c2a3d760fa04",
+      "repository": true
+    },
+    {
+      "path": "ci-smoke-verification.json",
+      "bytes": 915,
+      "sha256": "209371aa4d704677d05612110ed1d024b32d9a565ec68301c718be0b7151c933",
+      "repository": true
+    },
+    {
+      "path": "ci_smoke.py",
+      "bytes": 2366,
+      "sha256": "eb893a19e49ddbe5aeb286a621c9c83462847766b29b9c18df536f93e7ddb60c",
+      "repository": true
+    },
+    {
+      "path": "comparison.json",
+      "bytes": 1341,
+      "sha256": "90c8adfeb65f9d22cd3e6973058057f1dab0ecf29ecfbf7626eb1f24f19cec91",
+      "repository": true
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 15007,
+      "sha256": "da9d9401e497fc97d3d90d9d5b3dd8e85165c4743ba5728852c4060949a600f1",
+      "repository": true
+    },
+    {
+      "path": "history/empty-address-array-check/correction.json",
+      "bytes": 761,
+      "sha256": "0019ecc23ddeffaa8250525e320dd311e7c1b9071ef3d99281d42dd6114e17ed",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/experiment.py",
+      "bytes": 15007,
+      "sha256": "da9d9401e497fc97d3d90d9d5b3dd8e85165c4743ba5728852c4060949a600f1",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/bit-controlled-rotation-bank.qpy",
+      "bytes": 784287,
+      "sha256": "24f985deab30a69abf45ef6a97b22fba5814a542c4621b4e9b9ceabe54cf4c52",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-column-0-data.npz",
+      "bytes": 520,
+      "sha256": "6c5e55fcc83560ffff855f546cfada303ccdba53af3e1d2841cd06fa00f7f6fe",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-column-0.qpy",
+      "bytes": 39257,
+      "sha256": "904c193350c345ad1ec978792f9b3b34d293d10ba2d57d5fb0fc73f0b7aa4d26",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-column-1-data.npz",
+      "bytes": 474,
+      "sha256": "edd178fac638989043f8740816083fdbecf878669a71afeeb640b675caaa3663",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-column-1.qpy",
+      "bytes": 40732,
+      "sha256": "824dcec8b5535ca09fb41338b33e30971ac96d2400cb4914bf920298d0e23a9b",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-column-2-data.npz",
+      "bytes": 551,
+      "sha256": "68266c93d961dfee62e0740b4c962699922c21a75034daa1f50d413cfc723e12",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-column-2.qpy",
+      "bytes": 96067,
+      "sha256": "0781c5acf03f09c8e633bab164bfd7eb9f5862b4818cc6e2b8a48d61c507eb1a",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-column-3-data.npz",
+      "bytes": 706,
+      "sha256": "14104fa7c209abd7b929c07f7419ca659cb3df1eb1a9566c4063079bce371142",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-column-3.qpy",
+      "bytes": 110404,
+      "sha256": "0a4a9085f7aa493a6cd78f5f5653035b234c3c7d9ee02632cb4475da95a53748",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable0-0-data.npz",
+      "bytes": 400,
+      "sha256": "ea6335c0d7116b52190dd92c764236dc810776bb4da63f46d4a4165ccc0bb058",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable0-0.qpy",
+      "bytes": 409,
+      "sha256": "8757bb176a51835a45c4c89ec2e1da3c7166bf925e4df2e70a0bf493e8568a43",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable0-1-data.npz",
+      "bytes": 401,
+      "sha256": "0eb9cfef364d5480f89a998ebd2b63696f95ea156f53d325bff2b79cf91df162",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable0-1.qpy",
+      "bytes": 425,
+      "sha256": "d59093c768bdceee44d9de71ae5cd3c1f7eb719093f40304fb4533427ca54b6c",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable0-2-data.npz",
+      "bytes": 423,
+      "sha256": "f80799251efb6d9ceb0b180bd73f533de1fd19fe980de65fe726f10016e1ca6c",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable0-2.qpy",
+      "bytes": 4559,
+      "sha256": "012bc7f863b62218a0f121a3b7ea42f4381e611df9a5ce7fa66064bc1dbfbba8",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable0-3-data.npz",
+      "bytes": 449,
+      "sha256": "c6cfacfa3e73423c5748795564010c80386fdfb3e38625f8093ac7015501385d",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable0-3.qpy",
+      "bytes": 7218,
+      "sha256": "003a08aec8e7f489331e96401fd83e203a8dfa46376210a1dc9909b6a4834c92",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable1-0-data.npz",
+      "bytes": 400,
+      "sha256": "1cf8bb7722b69e3a8f8e68b4f3206fff39a8f8bd366c5e8a7f809be32847bb20",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable1-0.qpy",
+      "bytes": 409,
+      "sha256": "8757bb176a51835a45c4c89ec2e1da3c7166bf925e4df2e70a0bf493e8568a43",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable1-1-data.npz",
+      "bytes": 402,
+      "sha256": "0feba5f29b4a214d393007e55d3020ef1e84b6011ea21f05bc79400266e0258e",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable1-1.qpy",
+      "bytes": 425,
+      "sha256": "d59093c768bdceee44d9de71ae5cd3c1f7eb719093f40304fb4533427ca54b6c",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable1-2-data.npz",
+      "bytes": 423,
+      "sha256": "ecbf5219daf0788e124106fdeede11e5d9a72c3bd733daf75ef60aca3ad386e8",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable1-2.qpy",
+      "bytes": 4314,
+      "sha256": "db4b0b53b8a397e3a8891a8c70227aa46dccda6057c9f09448afea669254b32d",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable1-3-data.npz",
+      "bytes": 450,
+      "sha256": "3246dd021fe7d5f5342eb5c93b0558d4e03922323c6e4462005ff816033ba0b3",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable1-3.qpy",
+      "bytes": 7365,
+      "sha256": "8e2c6f84cca38396f4ad6de923f8c88a19d9dfb64425f6ed5b9b8b7979ecec12",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable2-0-data.npz",
+      "bytes": 400,
+      "sha256": "c584f738322d0b60ce813f4c3ca6d3a956771982c88a4cba3a3cb46c6fed31de",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable2-0.qpy",
+      "bytes": 409,
+      "sha256": "8757bb176a51835a45c4c89ec2e1da3c7166bf925e4df2e70a0bf493e8568a43",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable2-1-data.npz",
+      "bytes": 402,
+      "sha256": "be4f883f326ac4d190b3f17f90da07064836c97a0b70b2af5aa58eb4bdea83f4",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable2-1.qpy",
+      "bytes": 425,
+      "sha256": "d59093c768bdceee44d9de71ae5cd3c1f7eb719093f40304fb4533427ca54b6c",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable2-2-data.npz",
+      "bytes": 422,
+      "sha256": "36036d86b74bd6b64a88c741d6c71d391f64022841f214bb7cc90ff0cfabc9b4",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable2-2.qpy",
+      "bytes": 4314,
+      "sha256": "58e80b7977dbd859af1f6a55722c2af1aabf7cc1093808bc3662e06dd0958d52",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable2-3-data.npz",
+      "bytes": 450,
+      "sha256": "a1e7ab41c33885b2b2b8b9ba4a552646034291b0c65d98f341c7716be632dc39",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-observable2-3.qpy",
+      "bytes": 7071,
+      "sha256": "b92f6484fa157d14872cc5b0fab4af70fbe0a93e405f8eac50480d78faf3eaca",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-row-0-data.npz",
+      "bytes": 405,
+      "sha256": "b9897c154c68ad4ac8fcba199fbb37d6eabdfecf4ceb9bce675dde99b89a340d",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-row-0.qpy",
+      "bytes": 1095,
+      "sha256": "fd19711394f68a39b04ea575a4747a2a0c7d198c492c1b690fe2b5fc8f321eea",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-row-1-data.npz",
+      "bytes": 408,
+      "sha256": "3c89da2bb6c767d272fd099f2000c84f895c5d1fbf56c0d646713d985da0325f",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-row-1.qpy",
+      "bytes": 2064,
+      "sha256": "99a697f69811cc074747ba92a082d0821669c5120cce53a6e27ed24a0bbb4b33",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-row-2-data.npz",
+      "bytes": 423,
+      "sha256": "b0c4d9bf45916b91728bc1012046248a89cde30612b947ae3d8209bc26715f6a",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-row-2.qpy",
+      "bytes": 4461,
+      "sha256": "9909db307358b95b6f95621926fa5a4c5ae56536642f59c3182b275c49b7ce59",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-row-3-data.npz",
+      "bytes": 454,
+      "sha256": "cb66065d507e6601b6e23164bc4df54187ea2aa7f898ed578ecea2302e732109",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/lookup-row-3.qpy",
+      "bytes": 8967,
+      "sha256": "327b454261a5e406e4adeb4b2c7532e57399e2d84bc4a29cd0af9e2f0946fae8",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/partial-select-swap/synthesis/rotation-records.json",
+      "bytes": 21762,
+      "sha256": "c60dd49f8b35c40b7cca049f0588480692549fecc5650e4cb16fbd444218d90f",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/select_swap.json",
+      "bytes": 270,
+      "sha256": "3bac4f067077a822fa6b9f792f00161d7eced5ce8489913c0cfa58d607f1c613",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/select_swap.log",
+      "bytes": 887,
+      "sha256": "f835a16d57fa0c193556b2fe830c3c17c5721346cc66d4035ec84062ab7876bc",
+      "repository": false
+    },
+    {
+      "path": "history/empty-address-array-check/source-seal.json",
+      "bytes": 979,
+      "sha256": "8e86bf0b4eef72a0943792ce9f0ed0bdb04cf162f1b6e7081cdb35e498719372",
+      "repository": false
+    },
+    {
+      "path": "history/semantic-check-preoptimization-count/correction.json",
+      "bytes": 490,
+      "sha256": "1b576852d8dc148531c638a2fe775e2e7507487eff2d280ff57dd7be023bee35",
+      "repository": false
+    },
+    {
+      "path": "history/semantic-check-preoptimization-count/second-run.log",
+      "bytes": 582,
+      "sha256": "34596b81d0ff0f24ab7fb0ebe2c8f6a30368b93d1533c0af3a8f4b4861cca51a",
+      "repository": false
+    },
+    {
+      "path": "history/semantic-check-preoptimization-count/semantic-run.log",
+      "bytes": 614,
+      "sha256": "b44a9af86fb2315decdac49fb82a93842e6570d33007ad43aaf1557715df27db",
+      "repository": false
+    },
+    {
+      "path": "history/semantic-check-preoptimization-count/semantic-source-seal.json",
+      "bytes": 574,
+      "sha256": "71ebee014268146e51d7f01dfb8f39628946c721443fe4144a67a0c9743d52f2",
+      "repository": false
+    },
+    {
+      "path": "history/semantic-check-preoptimization-count/test_semantics-second.py",
+      "bytes": 3562,
+      "sha256": "896ad84de637d799b2edf5c45c07525c359961c0e6e17262c865b3e58ea7f59a",
+      "repository": false
+    },
+    {
+      "path": "history/semantic-check-preoptimization-count/test_semantics.py",
+      "bytes": 3322,
+      "sha256": "b16b3462acf291c92ba312a05f8d2c7018e919c89c23ca4d0bf7adcacccd26b9",
+      "repository": false
+    },
+    {
+      "path": "history/setup-failures.json",
+      "bytes": 339,
+      "sha256": "059e3cacdc4c6f08665db3b047df0d92984b3be052f4ec3a689eadc7d6eeed66",
+      "repository": false
+    },
+    {
+      "path": "independent-verification.json",
+      "bytes": 4574,
+      "sha256": "19f585d323bbc25cc2197dcc00c82180e72d7a339f0f1f4396733eae0e4dd8f3",
+      "repository": true
+    },
+    {
+      "path": "inputs/abl-measured-arrays.npz",
+      "bytes": 6784163,
+      "sha256": "31e6a4bf78cd4e0cadbd0788895910f7e2f491fc6a9d7fcc9bbf5fa25e489812",
+      "repository": false
+    },
+    {
+      "path": "inputs/abl-receipt.json",
+      "bytes": 4697,
+      "sha256": "f27c37a94761b45f2abce998aafba5a201f5a541896c32b315f3a8931f9f5b08",
+      "repository": false
+    },
+    {
+      "path": "inputs/kras-measured-arrays.npz",
+      "bytes": 3013476,
+      "sha256": "33543fa36eba45f878c8ef313073570824be68e2c98e030698a46a9d585293b7",
+      "repository": false
+    },
+    {
+      "path": "inputs/kras-receipt.json",
+      "bytes": 4775,
+      "sha256": "1fd64a68a4b8fe8e24139cfbecc571bc8d1850ed12083d3cd4ef3e65eeaf3e85",
+      "repository": false
+    },
+    {
+      "path": "inputs/myc-measured-arrays.npz",
+      "bytes": 1655355,
+      "sha256": "a85b8df1c95155223d0455336bf86b2bcc2e52ec87fd42eb59b338d46609c1ef",
+      "repository": false
+    },
+    {
+      "path": "inputs/myc-receipt.json",
+      "bytes": 4620,
+      "sha256": "e7db8c62c2c236fef3cf811ae10d97c4f77d51e71d826965b3910cbe542a11cb",
+      "repository": false
+    },
+    {
+      "path": "inputs/myh7-measured-arrays.npz",
+      "bytes": 37145595,
+      "sha256": "1f7ed427df9bcc6b9dc9936f4c5f5dc90bb0ffaffac61abe117125f03e6f5b59",
+      "repository": false
+    },
+    {
+      "path": "inputs/myh7-receipt.json",
+      "bytes": 4622,
+      "sha256": "d0a12e70de0a552747734ff3ed5c10687229bd40b6ec4ba6dfaf07e8e4cf434f",
+      "repository": false
+    },
+    {
+      "path": "inputs/provenance.json",
+      "bytes": 7246,
+      "sha256": "a5fdbd17eed0ec0f0d4d0769b05a2d175316bf062a12b098d130807780e1ae4e",
+      "repository": true
+    },
+    {
+      "path": "inputs/triangle.npz",
+      "bytes": 7453,
+      "sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+      "repository": true
+    },
+    {
+      "path": "package_public.py",
+      "bytes": 7842,
+      "sha256": "a006370e45e862312540581e84c392fffb3340ab25b25905911e6390b443a96b",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/README.md",
+      "bytes": 4943,
+      "sha256": "2b4f8af07fd3e8daf0686d55ea81fd1f52595259a1dfab5f3a3ae16f9b8c45e1",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/full-bank-probe-protocol.json",
+      "bytes": 465,
+      "sha256": "ced9f2fd510fc8e186db44e7f9515e64eb323e4ca06226bac27baa512b48463c",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/full_bank_probe.py",
+      "bytes": 3322,
+      "sha256": "62834fd9452bd887a39af6508eb1d0524b5b0b92961d7a97b01e4dab19de74ea",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/gradient.py",
+      "bytes": 1697,
+      "sha256": "d79ec64cd289b07d1acc819fbb91eb398427ec3d3c84accff806e8f92b9c6cce",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/independent-verification.json",
+      "bytes": 749,
+      "sha256": "cf45c41cad00b4f5bf21843afda8239ebf8daa85f3c77394aaa31080b86d493c",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/low-word-probe-protocol.json",
+      "bytes": 426,
+      "sha256": "dd0bec48597728cabffb1b233949b6f4b70fe4f8f0e8da858ba997f131456184",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/low_word_probe.py",
+      "bytes": 3226,
+      "sha256": "18defb81bb78b365f1daa2f080cbef3493cdf549bc9632e03ac50521a9126482",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/protocol.json",
+      "bytes": 2681,
+      "sha256": "851491765e6bf8763696e0370a24dee591db734b73580d991ab71ce20e260ae2",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/results/complete-k0.qpy",
+      "bytes": 3085545,
+      "sha256": "bc9708fa92af1f0e6dc75a3e575baba690f8bb0cbed40082ed0a39a77be42520",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/complete-k1.qpy",
+      "bytes": 9900970,
+      "sha256": "5a279aa295cb95cea5b4a88428f4369f1973cd08b475223946cdb47412f1bb0c",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/component-probe-summary.json",
+      "bytes": 2222,
+      "sha256": "4cb0fa91edd0ff778d1157a005a8ba672b9e9f9e293af7286c9155c6feb608f2",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/results/controlled-adder-b33.qpy",
+      "bytes": 175918,
+      "sha256": "dd166f3b16339fe4b0cbdac887d9e0bc9ba4d34226d5fbfe372c317a2bee8b3a",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/controlled-walk.qpy",
+      "bytes": 6817012,
+      "sha256": "294a0f5e3a2d2b7bb1592c8be26b282cd84d7b86daa4e5b22d6ac3ccc21ae50a",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/dense_factor_normalization-constant-angle-bank.qpy",
+      "bytes": 437202,
+      "sha256": "7db95d40c4d179a2d5ca9a04bc01025b2d152d60db73737b3fb815ac5dfac25c",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/dense_factor_normalization-rotation-choice.json",
+      "bytes": 555305,
+      "sha256": "6733c1d62b52fddf2c937915c06bff0e1ac9738cdcf251cd0d37966cad3e6741",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/dense_norm_optimal-constant-angle-bank.qpy",
+      "bytes": 426526,
+      "sha256": "31dedc12d6cfbb137f1c68fddd0ad5d8e1e3e9f74199c4e3f8c6aa3cbf71fe39",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/dense_norm_optimal-rotation-choice.json",
+      "bytes": 555707,
+      "sha256": "465ca7f205dc472d08468a71ff12fe6f6002c9f7b8539eafd3b292cfd1596b28",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/full-bank-MPS-probes.json",
+      "bytes": 41359674,
+      "sha256": "4fc220d0e8476c4f4648533f31bf16bad3bd9e33ed13ae40d90f03e7ac59557a",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/full-bank-probe.log",
+      "bytes": 99,
+      "sha256": "a1ade1bd1d863b7e8f7248e44e06646f1b93f836dc3ff9b8ca1193a9579c942b",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/gradient-preparation-b33.qpy",
+      "bytes": 232079,
+      "sha256": "323d2b19e96d2be45bf5c4b367ecffd5385945b3445024f356276105c1d86818",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/gradient-preparation-synthesis/rotation-records.json",
+      "bytes": 17963,
+      "sha256": "6b4c5285f27ace53a6917e8246d4fce1ccc679c0d97aaf739581a3611d632c9d",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/independent-run.log",
+      "bytes": 749,
+      "sha256": "cf45c41cad00b4f5bf21843afda8239ebf8daa85f3c77394aaa31080b86d493c",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/low-word-MPS-probe.json",
+      "bytes": 4145314,
+      "sha256": "bb35129977bae9b65679862338d0606d31591d0cb979f908c809f8d86592021b",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/low-word-probe.log",
+      "bytes": 98,
+      "sha256": "544bd6876df4d736fc33080f5ce85c07d5f4d040aa821f4339b9e1ee518ce3af",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/mathematical-results.npz",
+      "bytes": 787573,
+      "sha256": "4ee8489a944dbd7b077cb8e5b4c067098c8c0d6166678b56173aa742826ed161",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/phase-bank-b1.qpy",
+      "bytes": 10162,
+      "sha256": "df34d7e20f7c43155fc149771e851162df17b2b5ee0931bab686db9d54eb00e7",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/phase-bank-b2.qpy",
+      "bytes": 20838,
+      "sha256": "188f7ae9e3b5ad602ff77986495ade5a05df44becd551f8cbd949ef8c707b104",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/phase-bank-b3.qpy",
+      "bytes": 31514,
+      "sha256": "bac3f8f86ffc2f1cfd410613f4d83863b9b25af1b374ba649c16fa01d22e489b",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/phase-gradient-bank-b33.qpy",
+      "bytes": 351794,
+      "sha256": "78499de59170cb92b2badac4e69159b6a7ec2ba30ec9f664abff913a51487377",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/prepare-0.qpy",
+      "bytes": 1427745,
+      "sha256": "d59a8b3e39c374fd70a116cfd72565ba151ac97a0182eee2f899d29c9679c661",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/prepare-1.qpy",
+      "bytes": 1427549,
+      "sha256": "4e8f686f2c50822ca9e980f8190338eb5d7019b2b1f22c2d7e5fb8ee0ec48d28",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/prepare-2.qpy",
+      "bytes": 1426961,
+      "sha256": "8c1a1dbc95768160fd6e1089f834ab4942505e4250543417fe9e93ada371a22c",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/receipt.json",
+      "bytes": 13018,
+      "sha256": "947bd9b4ea0cffd815b546d1d6a96750d2b6270a0d5671655f983db200e05a20",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/results/run.log",
+      "bytes": 13018,
+      "sha256": "947bd9b4ea0cffd815b546d1d6a96750d2b6270a0d5671655f983db200e05a20",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/results/semantic-tests.json",
+      "bytes": 2844,
+      "sha256": "00e8627066d37b3f76f69f5adca773bd188d957902235588d28e7f86a620ec74",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/results-semantic.log",
+      "bytes": 2844,
+      "sha256": "00e8627066d37b3f76f69f5adca773bd188d957902235588d28e7f86a620ec74",
+      "repository": false
+    },
+    {
+      "path": "phase-gradient-followup/run.py",
+      "bytes": 10605,
+      "sha256": "bd6092b40b4de32a25d768bd648e0fc88cc547c84287c6897503c03f11d1953d",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/semantic-source-seal.json",
+      "bytes": 387,
+      "sha256": "222a7be06d30704a347a98818237e8a8ced71e1dddc214720022fe7f71cf63d6",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/source-seal.json",
+      "bytes": 481,
+      "sha256": "c756c7d8c42c470f6c63a6b34c6199bf3b265f9794820bae05fcde16c788db92",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/test_semantics.py",
+      "bytes": 1952,
+      "sha256": "20a4104b22c3f65a979a38da23a7a7b3a939d8b895676ef4019a0e81eea47cb4",
+      "repository": true
+    },
+    {
+      "path": "phase-gradient-followup/verify.py",
+      "bytes": 3904,
+      "sha256": "1404a54ec66f06634e7bdb7d20603a60fcae25c841c7900b7840123b00a03b05",
+      "repository": true
+    },
+    {
+      "path": "protein-protocol.json",
+      "bytes": 855,
+      "sha256": "e545abaa30df8a541aed5816664e603302439e8958f3248e393cc84d1b817196",
+      "repository": true
+    },
+    {
+      "path": "protein_accounting.py",
+      "bytes": 7603,
+      "sha256": "ca0b19ac9ffa92b50ab14290bbde6b993a25d4e8239646f27604915717432057",
+      "repository": true
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 3463,
+      "sha256": "c56d125ed6af67007d0947ec33abfa2e4c254673d9897abc3a27c744cf0167cc",
+      "repository": true
+    },
+    {
+      "path": "requirements-ci.txt",
+      "bytes": 27,
+      "sha256": "4154dcfff08219e9847d33dd0fdbb53e6e262f4536e35faa8151f10f9a636c8b",
+      "repository": true
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 319,
+      "sha256": "72f3e16c7a126126a4d0b5c919a99dc572367004d35d6a2ddb6064e71af9e7ee",
+      "repository": true
+    },
+    {
+      "path": "results/dense_factor_normalization/complete-k0.qpy",
+      "bytes": 1942712,
+      "sha256": "c1b7970db384c410dabbc948c0194ffab272551d2404406ce1bc252e8053a537",
+      "repository": false
+    },
+    {
+      "path": "results/dense_factor_normalization/controlled-walk.qpy",
+      "bytes": 42678807,
+      "sha256": "385af9309ece72eded8fa11d797eaa76e5e398b97f7ae9c9a66e6728e3cdb89e",
+      "repository": false
+    },
+    {
+      "path": "results/dense_factor_normalization/mathematical-results.npz",
+      "bytes": 68652,
+      "sha256": "1aa39f951f9bc888dcd3eee75cd9a143ca4faf82243b540445a72d1ad180ffcf",
+      "repository": false
+    },
+    {
+      "path": "results/dense_factor_normalization/prepare-0.qpy",
+      "bytes": 910181,
+      "sha256": "16b8f7f56954c0d0da09ed2901897de3685270ad727d166539e44dce216a15e8",
+      "repository": false
+    },
+    {
+      "path": "results/dense_factor_normalization/prepare-1.qpy",
+      "bytes": 1007770,
+      "sha256": "42d24d38a1311f93b9361bca5adda35e0ecbef030f0d4b7729469221d950ddb9",
+      "repository": false
+    },
+    {
+      "path": "results/dense_factor_normalization/prepare-2.qpy",
+      "bytes": 993494,
+      "sha256": "c8db18f9e1736d1b6727e2b63fef776cfeef395a94a6caf6589cc8ab42d8fcca",
+      "repository": false
+    },
+    {
+      "path": "results/dense_factor_normalization/receipt.json",
+      "bytes": 8903,
+      "sha256": "3f708609f1f2dd782c9d4d98840c21b8b56a71a6f76c4031bce83318acb53510",
+      "repository": false
+    },
+    {
+      "path": "results/dense_factor_normalization/synthesis/rotation-records.json",
+      "bytes": 2140100,
+      "sha256": "f953ff5350097bfae7ede2d6469812373e9f94709195820e562e2c845c64fc55",
+      "repository": false
+    },
+    {
+      "path": "results/dense_norm_optimal/complete-k0.qpy",
+      "bytes": 1897726,
+      "sha256": "4b4b00452aafbead87fd20f99e4694a5fd1a09a8924ad498c1ebcc27419f888a",
+      "repository": false
+    },
+    {
+      "path": "results/dense_norm_optimal/controlled-walk.qpy",
+      "bytes": 42079223,
+      "sha256": "fb448246bfc2bb787152429eeaf8fdb425ff8221b8d307bf7c8e610e2b514fa0",
+      "repository": false
+    },
+    {
+      "path": "results/dense_norm_optimal/mathematical-results.npz",
+      "bytes": 67008,
+      "sha256": "1bd0055d3357186af2e90baf18f7b3c8ade69f5ad80b90724ff8f2c0af1dcead",
+      "repository": false
+    },
+    {
+      "path": "results/dense_norm_optimal/prepare-0.qpy",
+      "bytes": 892766,
+      "sha256": "a5946293004ecd811dcff8a906de5d5746c09f06d399f91a3e1ca174aa444679",
+      "repository": false
+    },
+    {
+      "path": "results/dense_norm_optimal/prepare-1.qpy",
+      "bytes": 980637,
+      "sha256": "da1ba7c7bab31028b72f877edd93bedd36b40a0796e8602dc99c476b40cadf58",
+      "repository": false
+    },
+    {
+      "path": "results/dense_norm_optimal/prepare-2.qpy",
+      "bytes": 982916,
+      "sha256": "4de8f1d6b06aa594245d83f15b9b0fc91d102e90c248aa24f9456f9189b4fc61",
+      "repository": false
+    },
+    {
+      "path": "results/dense_norm_optimal/receipt.json",
+      "bytes": 8886,
+      "sha256": "b7cff7a47c71182807b41405783ce4ced4e526d93764b0f4de5023ad6c9aab38",
+      "repository": false
+    },
+    {
+      "path": "results/dense_norm_optimal/synthesis/rotation-records.json",
+      "bytes": 2129390,
+      "sha256": "4b929f2530c8b283efc4664b9a115930860a6b46da1a499f544e066eeb6a326a",
+      "repository": false
+    },
+    {
+      "path": "results/independent-verification.log",
+      "bytes": 4574,
+      "sha256": "19f585d323bbc25cc2197dcc00c82180e72d7a339f0f1f4396733eae0e4dd8f3",
+      "repository": false
+    },
+    {
+      "path": "results/protein-run.log",
+      "bytes": 114,
+      "sha256": "08062d96ea72110af1cfb5b864c1f7e9f4d92ca249254dd141d00eae863ca5d7",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/abl/factor-angle-tables.npz",
+      "bytes": 1810665,
+      "sha256": "27e236a35efe72adfdcef406af2a780d7ebe215683c690e02b6c34a556fd3f32",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/abl/observable-angle-words.npz",
+      "bytes": 1260130,
+      "sha256": "c8e80c5a37d49084cdb4d190a975aac0d6f628127893c6414b7396801304b13a",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/abl/receipt.json",
+      "bytes": 48356,
+      "sha256": "fc1fc0d0042d80f666246deba57a50d6dc3b34d8efef663ea11d36e16780965e",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/abl/rotation-bank.qpy",
+      "bytes": 1160709,
+      "sha256": "a30896acbba4ae8e4fa79f76277e623d7d96df1bc0870214b2642ae019d99c83",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/abl/synthesis/rotation-records.json",
+      "bytes": 28795,
+      "sha256": "8dcfbc61f26ada490aad6a146ae3d8c0a12c17283d844a48f95f7dbbde4a80b7",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/kras/factor-angle-tables.npz",
+      "bytes": 869854,
+      "sha256": "f4cc306610bbb4b4f76b1ac20142545b73ef04adefb836c8ad23cd9a9eabb0ca",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/kras/observable-angle-words.npz",
+      "bytes": 664674,
+      "sha256": "3d7b1e99cfdfdf270d457428a32a8181d85b699481de470de67f6a7a1ceee3be",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/kras/receipt.json",
+      "bytes": 35840,
+      "sha256": "4bf6d602fd63338d2dfbf25f0234ff07df38de330d9b937b0b9fe264f7bdb7fa",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/kras/rotation-bank.qpy",
+      "bytes": 1105742,
+      "sha256": "6e71b09292c15c6c4911db62f2884be69035f79de35da91f4f7bcced916f9f5b",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/kras/synthesis/rotation-records.json",
+      "bytes": 27727,
+      "sha256": "d0de84820841d9d0fbcfb50b64d7215b5461a567eca720dd087c00cfcaf8ca05",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myc/factor-angle-tables.npz",
+      "bytes": 223791,
+      "sha256": "fcb5b1f8bfe13f7d8488f9cd4c083bb6ba9d98a030a900819bcb9f36cad7237a",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myc/observable-angle-words.npz",
+      "bytes": 437786,
+      "sha256": "9ac0d918e72ad5953ab34988b36df793c27bb049e23ad5c233d68d837b50f257",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myc/receipt.json",
+      "bytes": 34001,
+      "sha256": "396c5ecce11fbe61c2ddf06e558653faa151c646832228328c347df9cfeafde4",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myc/rotation-bank.qpy",
+      "bytes": 1105809,
+      "sha256": "c37f119f1c18d5b29bc3801f691b63f791956f7eb3c6872c1d72d0e2c371c037",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myc/synthesis/rotation-records.json",
+      "bytes": 27719,
+      "sha256": "e066c172744c424e0ea7c4a0a40e15053494dd021c5517bae27544dd14948639",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myh7/factor-angle-tables.npz",
+      "bytes": 6112709,
+      "sha256": "d28acbc10d29f8187a8821dd5082a7b17c7133a2c70e13048329264c159acce7",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myh7/observable-angle-words.npz",
+      "bytes": 5439792,
+      "sha256": "fcae89bdb505c8d22ff90e8628ba4157295af37efd5d47bdd680dde8916f4572",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myh7/receipt.json",
+      "bytes": 113859,
+      "sha256": "eba1c7fb5a78047c6be106cd02994c9a739f07dd02153f116578a5c61791cf22",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myh7/rotation-bank.qpy",
+      "bytes": 1161041,
+      "sha256": "b144af16e99c572c2ab640b01652659edb7c8432ea54c9b81255a733e36ae6e6",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/myh7/synthesis/rotation-records.json",
+      "bytes": 28885,
+      "sha256": "a95dc5faaab4ddb4f11851dee87f7297710a0a44971b7c92356c38cea2873ede",
+      "repository": false
+    },
+    {
+      "path": "results/proteins/receipt.json",
+      "bytes": 273618,
+      "sha256": "3a2d551e99d47c86ef0fcd60a827833b0f657c1f241b8582314a342e3babb0c2",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/bit-controlled-rotation-bank.qpy",
+      "bytes": 784287,
+      "sha256": "24f985deab30a69abf45ef6a97b22fba5814a542c4621b4e9b9ceabe54cf4c52",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/complete-k0.qpy",
+      "bytes": 6315854,
+      "sha256": "1d7f577db89e478bb9f8a4410429a9990e7c9036dfd27d7c6fc5c072a1e8bce2",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/complete-k1.qpy",
+      "bytes": 20055823,
+      "sha256": "d610dc4466e3d6cf33d7c47da19558555d625eede7e7c7937da79c6454d373bb",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/controlled-walk.qpy",
+      "bytes": 13741276,
+      "sha256": "db09b03300e5abfabf5b6e485a870ee94b68515db8de0e08d785eb6b4d10246a",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-column-0-data.npz",
+      "bytes": 520,
+      "sha256": "6c5e55fcc83560ffff855f546cfada303ccdba53af3e1d2841cd06fa00f7f6fe",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-column-0.qpy",
+      "bytes": 39257,
+      "sha256": "904c193350c345ad1ec978792f9b3b34d293d10ba2d57d5fb0fc73f0b7aa4d26",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-column-1-data.npz",
+      "bytes": 474,
+      "sha256": "edd178fac638989043f8740816083fdbecf878669a71afeeb640b675caaa3663",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-column-1.qpy",
+      "bytes": 40732,
+      "sha256": "824dcec8b5535ca09fb41338b33e30971ac96d2400cb4914bf920298d0e23a9b",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-column-2-data.npz",
+      "bytes": 551,
+      "sha256": "68266c93d961dfee62e0740b4c962699922c21a75034daa1f50d413cfc723e12",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-column-2.qpy",
+      "bytes": 96067,
+      "sha256": "0781c5acf03f09c8e633bab164bfd7eb9f5862b4818cc6e2b8a48d61c507eb1a",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-column-3-data.npz",
+      "bytes": 706,
+      "sha256": "14104fa7c209abd7b929c07f7419ca659cb3df1eb1a9566c4063079bce371142",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-column-3.qpy",
+      "bytes": 110404,
+      "sha256": "0a4a9085f7aa493a6cd78f5f5653035b234c3c7d9ee02632cb4475da95a53748",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable0-0-data.npz",
+      "bytes": 400,
+      "sha256": "ea6335c0d7116b52190dd92c764236dc810776bb4da63f46d4a4165ccc0bb058",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable0-0.qpy",
+      "bytes": 409,
+      "sha256": "8757bb176a51835a45c4c89ec2e1da3c7166bf925e4df2e70a0bf493e8568a43",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable0-1-data.npz",
+      "bytes": 401,
+      "sha256": "0eb9cfef364d5480f89a998ebd2b63696f95ea156f53d325bff2b79cf91df162",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable0-1.qpy",
+      "bytes": 425,
+      "sha256": "d59093c768bdceee44d9de71ae5cd3c1f7eb719093f40304fb4533427ca54b6c",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable0-2-data.npz",
+      "bytes": 423,
+      "sha256": "f80799251efb6d9ceb0b180bd73f533de1fd19fe980de65fe726f10016e1ca6c",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable0-2.qpy",
+      "bytes": 4559,
+      "sha256": "012bc7f863b62218a0f121a3b7ea42f4381e611df9a5ce7fa66064bc1dbfbba8",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable0-3-data.npz",
+      "bytes": 449,
+      "sha256": "c6cfacfa3e73423c5748795564010c80386fdfb3e38625f8093ac7015501385d",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable0-3.qpy",
+      "bytes": 7218,
+      "sha256": "003a08aec8e7f489331e96401fd83e203a8dfa46376210a1dc9909b6a4834c92",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable1-0-data.npz",
+      "bytes": 400,
+      "sha256": "1cf8bb7722b69e3a8f8e68b4f3206fff39a8f8bd366c5e8a7f809be32847bb20",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable1-0.qpy",
+      "bytes": 409,
+      "sha256": "8757bb176a51835a45c4c89ec2e1da3c7166bf925e4df2e70a0bf493e8568a43",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable1-1-data.npz",
+      "bytes": 402,
+      "sha256": "0feba5f29b4a214d393007e55d3020ef1e84b6011ea21f05bc79400266e0258e",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable1-1.qpy",
+      "bytes": 425,
+      "sha256": "d59093c768bdceee44d9de71ae5cd3c1f7eb719093f40304fb4533427ca54b6c",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable1-2-data.npz",
+      "bytes": 423,
+      "sha256": "ecbf5219daf0788e124106fdeede11e5d9a72c3bd733daf75ef60aca3ad386e8",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable1-2.qpy",
+      "bytes": 4314,
+      "sha256": "db4b0b53b8a397e3a8891a8c70227aa46dccda6057c9f09448afea669254b32d",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable1-3-data.npz",
+      "bytes": 450,
+      "sha256": "3246dd021fe7d5f5342eb5c93b0558d4e03922323c6e4462005ff816033ba0b3",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable1-3.qpy",
+      "bytes": 7365,
+      "sha256": "8e2c6f84cca38396f4ad6de923f8c88a19d9dfb64425f6ed5b9b8b7979ecec12",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable2-0-data.npz",
+      "bytes": 400,
+      "sha256": "c584f738322d0b60ce813f4c3ca6d3a956771982c88a4cba3a3cb46c6fed31de",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable2-0.qpy",
+      "bytes": 409,
+      "sha256": "8757bb176a51835a45c4c89ec2e1da3c7166bf925e4df2e70a0bf493e8568a43",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable2-1-data.npz",
+      "bytes": 402,
+      "sha256": "be4f883f326ac4d190b3f17f90da07064836c97a0b70b2af5aa58eb4bdea83f4",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable2-1.qpy",
+      "bytes": 425,
+      "sha256": "d59093c768bdceee44d9de71ae5cd3c1f7eb719093f40304fb4533427ca54b6c",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable2-2-data.npz",
+      "bytes": 422,
+      "sha256": "36036d86b74bd6b64a88c741d6c71d391f64022841f214bb7cc90ff0cfabc9b4",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable2-2.qpy",
+      "bytes": 4314,
+      "sha256": "58e80b7977dbd859af1f6a55722c2af1aabf7cc1093808bc3662e06dd0958d52",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable2-3-data.npz",
+      "bytes": 450,
+      "sha256": "a1e7ab41c33885b2b2b8b9ba4a552646034291b0c65d98f341c7716be632dc39",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-observable2-3.qpy",
+      "bytes": 7071,
+      "sha256": "b92f6484fa157d14872cc5b0fab4af70fbe0a93e405f8eac50480d78faf3eaca",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-row-0-data.npz",
+      "bytes": 405,
+      "sha256": "b9897c154c68ad4ac8fcba199fbb37d6eabdfecf4ceb9bce675dde99b89a340d",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-row-0.qpy",
+      "bytes": 1095,
+      "sha256": "fd19711394f68a39b04ea575a4747a2a0c7d198c492c1b690fe2b5fc8f321eea",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-row-1-data.npz",
+      "bytes": 408,
+      "sha256": "3c89da2bb6c767d272fd099f2000c84f895c5d1fbf56c0d646713d985da0325f",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-row-1.qpy",
+      "bytes": 2064,
+      "sha256": "99a697f69811cc074747ba92a082d0821669c5120cce53a6e27ed24a0bbb4b33",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-row-2-data.npz",
+      "bytes": 423,
+      "sha256": "b0c4d9bf45916b91728bc1012046248a89cde30612b947ae3d8209bc26715f6a",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-row-2.qpy",
+      "bytes": 4461,
+      "sha256": "9909db307358b95b6f95621926fa5a4c5ae56536642f59c3182b275c49b7ce59",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-row-3-data.npz",
+      "bytes": 454,
+      "sha256": "cb66065d507e6601b6e23164bc4df54187ea2aa7f898ed578ecea2302e732109",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/lookup-row-3.qpy",
+      "bytes": 8967,
+      "sha256": "327b454261a5e406e4adeb4b2c7532e57399e2d84bc4a29cd0af9e2f0946fae8",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/mathematical-results.npz",
+      "bytes": 1806454,
+      "sha256": "f12865068b2a9dbef2728aa52f086e59bc35d8302723201c996e48e70ec658ac",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/prepare-0.qpy",
+      "bytes": 3158602,
+      "sha256": "868c2f9ef62e7a6efd3c0c7bccb18d48a1a77a10b8627e9306df8a6ce168ba6d",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/prepare-1.qpy",
+      "bytes": 3158406,
+      "sha256": "cffdbaa42cfc260fe0aca07b5e947565abddced1cb0adfd18f172cad842e51da",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/prepare-2.qpy",
+      "bytes": 3157818,
+      "sha256": "b5384875658ad57e76a0b16a74a29175e7885427bfa59b6616b8d8f4a917f499",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/receipt.json",
+      "bytes": 26394,
+      "sha256": "0671efbf191331bf135b83de908ab9d2b674c1d578897fa2ef48a4604234e0f3",
+      "repository": false
+    },
+    {
+      "path": "results/select_swap/synthesis/rotation-records.json",
+      "bytes": 21762,
+      "sha256": "9dd41fadb050f8881ad0dce4851b913782104a763b31c9c23d98009db506e075",
+      "repository": false
+    },
+    {
+      "path": "results/semantic-circuits/clean_select.qpy",
+      "bytes": 7431,
+      "sha256": "88f821f428da89d6c0804a4e0a4c26b2917926a6f24e153f023514a57f86fb0c",
+      "repository": false
+    },
+    {
+      "path": "results/semantic-circuits/clean_swap.qpy",
+      "bytes": 2037,
+      "sha256": "2d7435dc419f23d659f9ef05d1efab20a827cb2eaefd1660c99b7bdf5d93a7c2",
+      "repository": false
+    },
+    {
+      "path": "results/semantic-circuits/dirty_echo.qpy",
+      "bytes": 7246,
+      "sha256": "dd64c713e574e57ac57c5040f6358fa9f31066eafbf8c770963b2bafd0331145",
+      "repository": false
+    },
+    {
+      "path": "results/semantic-run.log",
+      "bytes": 4370,
+      "sha256": "5b280cc5f787a5059e92aadc01d39594e439e1666e032f075b8f3dc3b5ce68b2",
+      "repository": false
+    },
+    {
+      "path": "results/semantic-tests.json",
+      "bytes": 4370,
+      "sha256": "5b280cc5f787a5059e92aadc01d39594e439e1666e032f075b8f3dc3b5ce68b2",
+      "repository": true
+    },
+    {
+      "path": "results/synthesis-fixture/rotation-records.json",
+      "bytes": 1870,
+      "sha256": "9fe6b562a60add6b4b5c626781a0a3b0fed932e75084056228e6a88aef7d2e2d",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/dense_factor_normalization-progress.json",
+      "bytes": 143,
+      "sha256": "384bfa9f507108e3e15a41b9d5b6390a091044a024ee63a3f49c51422c1004f0",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/dense_factor_normalization.json",
+      "bytes": 286,
+      "sha256": "835e26616eaf1f82cd1d220f1f6002890c13c6113b97f2db5e568096f097d2d7",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/dense_factor_normalization.log",
+      "bytes": 233,
+      "sha256": "33e1c7f7a75fa57364d5a62b6dc4812fdc303d17d3042e1e171e2255c6f70893",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/dense_norm_optimal-progress.json",
+      "bytes": 135,
+      "sha256": "82e71c82a931b109ff4a15df6523b28345e473bc0b4c5c0b94d5cd382c1327d0",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/dense_norm_optimal.json",
+      "bytes": 278,
+      "sha256": "456521b8b92d811d61a979563dfd7b31e42a5c6e92a62121a5a20eb63711e88b",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/dense_norm_optimal.log",
+      "bytes": 234,
+      "sha256": "a9649a6d7de37fbf60348fa5860c696996c20282ef29c39722508ab785c05e92",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/select_swap-progress.json",
+      "bytes": 138,
+      "sha256": "7e44e9196bf3ec5d38536f53d2a1785fa479ddaed6b4f104ccf4191ae70eec24",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/select_swap.json",
+      "bytes": 271,
+      "sha256": "bc1226bd7c57bf16d21667c62a73d5c5bd9709b97d0966db8aea777e37bb9be6",
+      "repository": false
+    },
+    {
+      "path": "results/watchdogs/select_swap.log",
+      "bytes": 223,
+      "sha256": "38e3884c62f160b048c5a8ae315c52f28cabade343696ec3bbba786ba35a4ae5",
+      "repository": false
+    },
+    {
+      "path": "select_swap.py",
+      "bytes": 4332,
+      "sha256": "b0669ef703dd2a7bc5154f2359ef816326bdade52c52fe051420fe89f5d4d311",
+      "repository": true
+    },
+    {
+      "path": "semantic-source-seal.json",
+      "bytes": 574,
+      "sha256": "71ebee014268146e51d7f01dfb8f39628946c721443fe4144a67a0c9743d52f2",
+      "repository": true
+    },
+    {
+      "path": "source-seal.json",
+      "bytes": 979,
+      "sha256": "8e86bf0b4eef72a0943792ce9f0ed0bdb04cf162f1b6e7081cdb35e498719372",
+      "repository": true
+    },
+    {
+      "path": "synthesis.py",
+      "bytes": 3793,
+      "sha256": "480d37a2f220ec6a302c4ac08915d022e1819586eb11f52f0065472b4181e086",
+      "repository": true
+    },
+    {
+      "path": "test_semantics.py",
+      "bytes": 3720,
+      "sha256": "6292141bc66724ef58d1f71efb12752aa1a0b6fc574299c7df4f83842c9139e9",
+      "repository": true
+    },
+    {
+      "path": "vendor/multiplexed.py",
+      "bytes": 4773,
+      "sha256": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5",
+      "repository": true
+    },
+    {
+      "path": "vendor/reduced_overlap.py",
+      "bytes": 9522,
+      "sha256": "aa9491ca8fe6e4f8db70f878682224f4e7285c0c02dc152854295f4524cebf6a",
+      "repository": true
+    },
+    {
+      "path": "verify_results.py",
+      "bytes": 6723,
+      "sha256": "1c2f7f30e68706447abc2ae42836702cc72dac1f5d4041b9d8c8028b37fb3df5",
+      "repository": true
+    }
+  ]
+}

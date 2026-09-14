@@ -1,0 +1,31 @@
+name: Verify GRB2 selection evidence
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  saved-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: experiments/selection-2026-09-14/biology/requirements.txt
+      - run: python -m pip install -r experiments/selection-2026-09-14/biology/requirements.txt
+      - name: Check sealed inputs and saved comparisons
+        working-directory: experiments/selection-2026-09-14/biology
+        run: |
+          python scripts/verify_saved.py
+          python scripts/verify_inputs.py
+          python scripts/verify_math.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: selection-biology-verification
+          path: experiments/selection-2026-09-14/biology/qa/*verification*.json

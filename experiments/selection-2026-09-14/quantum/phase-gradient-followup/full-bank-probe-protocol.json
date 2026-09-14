@@ -1,0 +1,6 @@
+{
+  "recorded_utc": "2026-09-14T10:05:26.233990+00:00",
+  "status": "FROZEN_BEFORE_EXTRA_FULL_BANK_PROBES",
+  "source_sha256": "62834fd9452bd887a39af6508eb1d0524b5b0b92961d7a97b01e4dab19de74ea",
+  "scope": "Numerical69qubit actualClifford+Tbankonly. Fourfixedcaseszero,+pi/2,-pi/2,coherentconditional2pisign. Inputactualcompiled33qubitgradientprep. OneCPUthread;MPSmaxbond256,truncation1e-20; expectationerror1e-8. No newmethodorcostgate. Maximum600s forprobes."
+}

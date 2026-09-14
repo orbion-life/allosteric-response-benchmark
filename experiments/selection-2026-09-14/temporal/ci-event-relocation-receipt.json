@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-14T09:52:52.829704+00:00",
+  "all_pass": true,
+  "original_protocol": {
+    "created_utc": "2026-09-14T09:52:52.704790+00:00",
+    "scope": "Offline implementation and provenance audit; a passing audit does not change scientific failures",
+    "protocol": {
+      "sealed_sources": true,
+      "targets": true,
+      "log_grid_contained": true,
+      "pulse_times_complete": true,
+      "strictly_increasing": true,
+      "zero_included": true,
+      "fixed_error": true,
+      "no_refit": true,
+      "tiny_model_dependency": true
+    },
+    "tiny_field": {
+      "central_response": true,
+      "receipt_metrics": true,
+      "independent_forward": true,
+      "pulse_gate": true
+    },
+    "passed": true
+  },
+  "event_protocol": {
+    "created_utc": "2026-09-14T09:52:52.817171+00:00",
+    "scope": "Implementation verification does not turn scientific temporal failures into passes",
+    "protocol": {
+      "sealed_sources": true,
+      "prior_protocol": true,
+      "new_and_old_disjoint": true,
+      "same_error_allocation": true,
+      "no_tuning": true,
+      "fixed_lag_rule": true,
+      "exact_time_construction": true
+    },
+    "passed": true
+  },
+  "scope": "Source/protocol and tiny saved-pulse audit including the event-aligned addendum; no four-protein kernel or waveform replay"
+}

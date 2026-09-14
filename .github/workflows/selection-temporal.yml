@@ -1,0 +1,39 @@
+name: Verify temporal protocols and rerun the tiny pulse
+on:
+  push:
+    paths:
+      - 'experiments/selection-2026-09-14/temporal/**'
+      - '.github/workflows/selection-temporal.yml'
+  pull_request:
+    paths:
+      - 'experiments/selection-2026-09-14/temporal/**'
+      - '.github/workflows/selection-temporal.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  OPENBLAS_NUM_THREADS: '3'
+  OMP_NUM_THREADS: '3'
+  MKL_NUM_THREADS: '3'
+  VECLIB_MAXIMUM_THREADS: '3'
+  PYTHONDONTWRITEBYTECODE: '1'
+jobs:
+  protocol-and-tiny-pulse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install the scoped numerical dependencies
+        run: python -m pip install -r experiments/selection-2026-09-14/temporal/requirements-ci.txt
+      - name: Check protocols and rerun the 64-state pulse in a fresh tree
+        working-directory: experiments/selection-2026-09-14/temporal
+        run: python -W error ci_check.py --output "$RUNNER_TEMP/selection-temporal-check"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: selection-temporal-protocol-and-tiny-pulse
+          path: ${{ runner.temp }}/selection-temporal-check
+          if-no-files-found: warn

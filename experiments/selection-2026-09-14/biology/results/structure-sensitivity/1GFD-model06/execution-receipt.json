@@ -1,0 +1,76 @@
+{
+  "N": 56,
+  "contacts": 457,
+  "internal_dimensions": 162,
+  "null_modes": 6,
+  "tau": 7.50263550320758,
+  "candidate_count": 20,
+  "build_seconds": 0.018474915996193886,
+  "gaussian_numerical_checks": {
+    "engineering_status": "COMPLETE",
+    "scientific_status": "PASS",
+    "scope": "Gaussian-surrogate fit and complete exact OU moment computation only",
+    "nonlinear_response_fidelity": "NOT_EVALUATED",
+    "biological_benefit": "NOT_EVALUATED",
+    "quantum_advantage": "NOT_EVALUATED",
+    "fit_converged": true,
+    "covariance_symmetry_max_abs": 3.469446951953614e-18,
+    "minimum_static_covariance_eigenvalue": 0.0017729355108823841,
+    "all_response_entries_finite": true,
+    "top5_by_time": [
+      [
+        188,
+        183,
+        202,
+        181,
+        197
+      ],
+      [
+        188,
+        183,
+        202,
+        181,
+        197
+      ],
+      [
+        188,
+        183,
+        202,
+        181,
+        211
+      ]
+    ]
+  },
+  "gaussian_cost": {
+    "backend": "numpy",
+    "numpy_version": "2.4.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "total_seconds_including_load_fit_covariance_readout_save": 0.9607392500038259,
+    "fit_seconds": 0.0508204170037061,
+    "moment_timings": [
+      {
+        "time": 0.0,
+        "seconds": 0.22168258402962238
+      },
+      {
+        "time": 0.7502635503207581,
+        "seconds": 0.21898429095745087
+      },
+      {
+        "time": 7.50263550320758,
+        "seconds": 0.2217334580491297
+      },
+      {
+        "time": 75.0263550320758,
+        "seconds": 0.22022566600935534
+      }
+    ],
+    "peak_process_rss_platform_units": 222691328,
+    "rss_units": "bytes on macOS; KiB on Linux",
+    "block_edges": 32,
+    "dense_covariance_parameter_hessian_allocated": false,
+    "source_sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+  },
+  "seconds": 1.4531827910104766,
+  "model_sha256": "24786ad422ed6fcb0d566a1f60766c91531e1fa9891da88c4501906e205d0256"
+}

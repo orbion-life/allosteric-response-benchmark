@@ -1,0 +1,50 @@
+{
+  "version": "0.7.0",
+  "date": "2026-09-14",
+  "status": "Artifacts locally hash verified; final server publication verification is recorded separately",
+  "assets": [
+    {
+      "name": "grb2-functional-evidence.zip",
+      "bytes": 26833032,
+      "sha256": "82d37f2ca660e858f910e220402a251a44710fd13f7b2b44919b3932b0c66a56",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.7.0/grb2-functional-evidence.zip"
+    },
+    {
+      "name": "project-pulsar-editable-source.zip",
+      "bytes": 291977,
+      "sha256": "94a3b1a367c388a48d176b3cb812b1b531d587b333c4dca1977373a0ea4d6f1b",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.7.0/project-pulsar-editable-source.zip"
+    },
+    {
+      "name": "project-pulsar-review-and-compliance.zip",
+      "bytes": 16883,
+      "sha256": "7fa99104f9faa31186421570d5b11f2a9501a306f972fac55ae9bcb9c1f25373",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.7.0/project-pulsar-review-and-compliance.zip"
+    },
+    {
+      "name": "project-pulsar-scientific-report.pdf",
+      "bytes": 108513,
+      "sha256": "c15985f496f3b84470c54c063664f50e63b324e63cc6b0ceee2407275cbce6eb",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.7.0/project-pulsar-scientific-report.pdf"
+    },
+    {
+      "name": "pulsar-feasibility-2026-09-14-public.zip",
+      "bytes": 1377300808,
+      "sha256": "139d7877f46491f60db74180d0e7ef7c0d79d621438a033ba25323758d169157",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.7.0/pulsar-feasibility-2026-09-14-public.zip"
+    },
+    {
+      "name": "pulsar-quantum-cost-evidence.zip",
+      "bytes": 70631146,
+      "sha256": "e5d5a6e9b8cb1aaa5aec5cf78fa45d0445de0280139174e19f98024bb1af8185",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.7.0/pulsar-quantum-cost-evidence.zip"
+    },
+    {
+      "name": "pulsar-temporal-response-evidence.zip",
+      "bytes": 1811762147,
+      "sha256": "7c137ad2bcf33c762d2a9a9406af4cf225a7bc71ca2443bca11e81701fc62910",
+      "url": "https://github.com/orbion-life/allosteric-response-benchmark/releases/download/v0.7.0/pulsar-temporal-response-evidence.zip"
+    }
+  ],
+  "integrity_scope": "SHA256 identifies exact downloadable bytes. Scientific conclusions and replay limits are in the reviewer guide."
+}

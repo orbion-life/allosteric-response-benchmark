@@ -1,8 +1,24 @@
 # Allosteric response benchmark
 
+**Project Pulsar investigates contact-energy responses in Gaussian protein models and a prototype quantum estimator.** Version **0.7.0** adds an external GRB2 functional comparison, four-protein step and pulse tests, and compiled quantum circuits with complete logical query-cost accounting.
+
+| Question | Measured or calculated result | Evidence boundary |
+|---|---|---|
+| Do GRB2 responses improve residue ranking? | Across 21 qualified distal sites, Gaussian Spearman correlation is 0.381, harmonic 0.335 and degree 0.481. | Paired intervals do not establish improvement over either control; the Gaussian and harmonic top-five sets coincide. |
+| Does the fixed projection preserve transient responses? | All 12 pulse curves fail the fixed 0.002 error threshold, including an additional grid aligned to field removal. | The three specified response queries still pass; this does not establish arbitrary-time fidelity. |
+| Can compiled quantum arithmetic lower T counts? | A phase-gradient follow-up reduces calculated full-plan T counts by 69.2% relative to the strongest evaluated dense implementation. | The nine-dimensional instance needs 182 logical qubits and 106.5 times as many CX gates; full hardware cost and advantage are unresolved. |
+| Can the new temporal data be reconstructed portably? | All 28 derived waveform archives are reproduced byte-for-byte from eight raw kernel arrays and fixed operators in a fresh local tree. | This is saved-data reconstruction, separate from recomputing the Gaussian kernels on a GPU. |
+
+Read the [v0.7.0 reviewer guide](docs/evidence-v0.7.0/README.md), [release notes](RELEASE-NOTES-v0.7.0.md), [asset manifest](docs/evidence-v0.7.0/ASSET-MANIFEST-v0.7.0.json) and [new experiment source](experiments/selection-2026-09-14/README.md). Large raw arrays and compiled circuits are versioned release assets. Publisher assay workbooks must be obtained separately under their source terms.
+
+The scoped new checks verify implementation and evidence integrity. Passing them does not repair the preserved original nonlinear, expanded temporal, noise or legacy strict-bound portability failures. Biological benefit, whole-estimator quantum execution at protein scale and practical quantum advantage remain unestablished. No proposal has been submitted to the challenge.
+
+## Historical version 0.6.0
+
 **Project Pulsar investigates contact-energy responses in Gaussian protein models and a prototype quantum estimator.** Version **0.6.0** adds complete four-target Gaussian calculations, an accepted six-qubit simulated estimator, an original-model reference and direct-field tests, finite-box sampling diagnostics and a retrospective KRAS–RAF1 comparison. The local Hermite representation still fails, and independent biological and quantum advantages remain unestablished.
 
 Read the [v0.6.0 reviewer guide](docs/evidence-v0.6.0/README.md), [release notes](RELEASE-NOTES-v0.6.0.md) and [asset manifest](docs/evidence-v0.6.0/ASSET-MANIFEST-v0.6.0.json). New scientific source and raw results are delivered as versioned archives; retained source and numerical files are byte-identical to their recorded executions. The earlier versions below remain historical records, with their original failed checks and provisional statements.
+
 
 ## Historical version 0.5.0 resource and convergence evidence
 

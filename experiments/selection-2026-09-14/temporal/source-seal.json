@@ -1,0 +1,54 @@
+{
+  "recorded_utc": "2026-09-14T09:28:50.129201+00:00",
+  "status": "sealed before new reference evaluation or scores",
+  "files": [
+    {
+      "file": "analyze.py",
+      "sha256": "173d14cb57c3d87afe711f478e8ea14f81c9b303617b6556b36a108017569660"
+    },
+    {
+      "file": "full_kernel.py",
+      "sha256": "6be90ba6a988f706c65d7608e10dc8365dca090329d40415e46f24a84e105271"
+    },
+    {
+      "file": "input-manifest.json",
+      "sha256": "729a341b34151b5ba4b0cc33a77e998a4ebb43ade25530dfb8b2896aee18cd74"
+    },
+    {
+      "file": "prepare.py",
+      "sha256": "76ef81535f5f3856a0d45062806d5d904fa88ea687ed6abf6c25eca407503247"
+    },
+    {
+      "file": "protocol.json",
+      "sha256": "1f7793484c610efdd3a241c6a6154fb11089c612d15c3fd5835f90d19beda190"
+    },
+    {
+      "file": "remote.py",
+      "sha256": "6bee6ece54f5a9b954a8e339a1495751ce39e0f56e29ca3327dcc7ee9ddf96b8"
+    },
+    {
+      "file": "tiny_pulse.py",
+      "sha256": "b7edbe8237c38c3667bfe171ad18e49f8ace924b067f294d37649bf67d582492"
+    },
+    {
+      "file": "vendor/chebyshev.py",
+      "sha256": "80a3e505525c3655ecdf29a745cf948c4b94d030d765b580bafd9fb56d266340"
+    },
+    {
+      "file": "vendor/check_independent.py",
+      "sha256": "f0c8670052c018dd4873899f063beec1af1e8b235ed41d54c891c543b7c4ce8c"
+    },
+    {
+      "file": "vendor/finite_core.py",
+      "sha256": "abb598e0fdd52a34d19a1fd4dc3fadfe1bb61a485883facb7d04139ec45e34e6"
+    },
+    {
+      "file": "vendor/gaussian_protein.py",
+      "sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+    },
+    {
+      "file": "vendor/model.py",
+      "sha256": "0f98139c0c1f5ff06f80f83900c14acc7f340cf48c020792a8a143f16a75d261"
+    }
+  ]
+}

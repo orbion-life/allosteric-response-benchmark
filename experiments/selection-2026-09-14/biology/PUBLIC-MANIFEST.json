@@ -1,0 +1,1711 @@
+{
+  "status": "CURATED_PUBLIC_PACKET",
+  "excluded": [
+    "local-only/**",
+    "ohm/bin/**",
+    "source/inherited-input-manifest.json",
+    "qa temporary replay trees"
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "b642a3f68aad1855aa60d4b0e8f796678498bff495a5f41b4873270cab1b7be9"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 6786,
+      "sha256": "0d55e95c4ab1533bc49bf2f256446a6769fafc4536e42da0aeadf632daa41bb4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6214,
+      "sha256": "3609d6d9318d4ee4fcf827bfad0c278945c383152b3f27440c771c5adf423bd3"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 3118,
+      "sha256": "200cc15ee20fbf39037fc535d7c7fad2a5bfb8d1f9eb820972f86d2535be15bd"
+    },
+    {
+      "path": "SOURCES-AND-RIGHTS.md",
+      "bytes": 3099,
+      "sha256": "2c3c80e74920d97e2d9f66fbfab6e49185be059dc583fb8283582e894eb9b4e7"
+    },
+    {
+      "path": "figures/grb2-control-comparison.pdf",
+      "bytes": 20892,
+      "sha256": "ef6f734f62b020534e4dc14777ac5dbfe44b7a9bdc7adfa1017cd58c17f3874b"
+    },
+    {
+      "path": "figures/grb2-control-comparison.png",
+      "bytes": 139709,
+      "sha256": "7bd7a46035088ea29413b243d18cc75c0978a89f22270a700f73907b34f4e8f5"
+    },
+    {
+      "path": "figures/grb2-control-comparison.svg",
+      "bytes": 18278,
+      "sha256": "513d240072b20cb1680053a8dd864714bdca8a409c2f896777a27a5662adf138"
+    },
+    {
+      "path": "inputs/1GFC.cif",
+      "bytes": 120812,
+      "sha256": "5e1d4bb282b33ea1571175c00d200d7321be693556b42139ff1f8508e003e5bd"
+    },
+    {
+      "path": "inputs/1GFC.pdb",
+      "bytes": 90801,
+      "sha256": "c77716efc5c68c3383019989f0be4002f58d815f93f96cb2d20b02729c645320"
+    },
+    {
+      "path": "inputs/1GFD.cif",
+      "bytes": 1657504,
+      "sha256": "dd5e0d15f2aa1e53f5312679a3b8d9bde1103c767789aac3e2f14a134cf7b854"
+    },
+    {
+      "path": "inputs/1GFD.pdb",
+      "bytes": 1510083,
+      "sha256": "1a6424cd93b530e0f1fc1318f1683acf19341a958daf62f697d8bfdf7e92f2eb"
+    },
+    {
+      "path": "inputs/2VWF.cif",
+      "bytes": 112338,
+      "sha256": "c169141057808034112f3ad0a9fd8a248618f8f8ca6f5ed6a7bda18a79e24af0"
+    },
+    {
+      "path": "inputs/apo-selection-result.json",
+      "bytes": 2298,
+      "sha256": "4fd7381dfe80d6a40d8d496d56c89aeb9fe9d74699d063357c771b1037cd2a38"
+    },
+    {
+      "path": "inputs/assay-domain-input.npz",
+      "bytes": 4576,
+      "sha256": "16e0674281a44f7787a48d656505a38c3124b5005c92f363100b9a62de7e2499"
+    },
+    {
+      "path": "inputs/assay-mapping.csv",
+      "bytes": 3487,
+      "sha256": "6ae1315f8f44075dc485529dddb2f937d0922032fda7c77cf9a8fe1e0ad9c532"
+    },
+    {
+      "path": "inputs/wwpdb-validation.json",
+      "bytes": 7592,
+      "sha256": "d80321e6dec7ea2f9965cb2ff49111597a8abf3cd37ec62335deb5bf82de1c9d"
+    },
+    {
+      "path": "ohm/grb2.ind",
+      "bytes": 831,
+      "sha256": "871ec1908aa257b0bc0d1a855baf9646b070235fd0dc183370fe4626d03d80ab"
+    },
+    {
+      "path": "ohm/grb2.mat",
+      "bytes": 7317,
+      "sha256": "f63add5ec0234cd32cfef3dbbdbd95129fb3f845b1ca0cf35e943800bbfdbf5c"
+    },
+    {
+      "path": "ohm/grb2.pdb",
+      "bytes": 37025,
+      "sha256": "8d0e0733ef978c0b24d117ed7c779d75c6b7d429c23d7ece7a674c654fc79d08"
+    },
+    {
+      "path": "ohm/repeat11.bonds",
+      "bytes": 7270,
+      "sha256": "ceb4de06c72744976218ebc006ccd9845426cb4d20200ece7b64f43d179c8968"
+    },
+    {
+      "path": "ohm/repeat11.mdist",
+      "bytes": 444,
+      "sha256": "cf0bf6af2a309f5b4696a42180be7933b44b8e9096c6b69eb5140bb1407f09e3"
+    },
+    {
+      "path": "ohm/repeat11.nodes",
+      "bytes": 348,
+      "sha256": "c47c35863f5262f2ec74bcb859a27d3c29dec19a13995199283b4ece003a201a"
+    },
+    {
+      "path": "ohm/seed11.bonds",
+      "bytes": 7270,
+      "sha256": "ceb4de06c72744976218ebc006ccd9845426cb4d20200ece7b64f43d179c8968"
+    },
+    {
+      "path": "ohm/seed11.mdist",
+      "bytes": 444,
+      "sha256": "cf0bf6af2a309f5b4696a42180be7933b44b8e9096c6b69eb5140bb1407f09e3"
+    },
+    {
+      "path": "ohm/seed11.nodes",
+      "bytes": 348,
+      "sha256": "c47c35863f5262f2ec74bcb859a27d3c29dec19a13995199283b4ece003a201a"
+    },
+    {
+      "path": "ohm/seed29.bonds",
+      "bytes": 7310,
+      "sha256": "2890b49420f2b88677b6fed35f7252d6dc2af175d144f901b380ebdbd0ece020"
+    },
+    {
+      "path": "ohm/seed29.mdist",
+      "bytes": 444,
+      "sha256": "cf0bf6af2a309f5b4696a42180be7933b44b8e9096c6b69eb5140bb1407f09e3"
+    },
+    {
+      "path": "ohm/seed29.nodes",
+      "bytes": 350,
+      "sha256": "7b5c5b2057e831abebcc31765b56caad4bafbd03f82950135ef4c8941bcbb6a1"
+    },
+    {
+      "path": "ohm/seed47.bonds",
+      "bytes": 7298,
+      "sha256": "78889cb7c76903d9049823a1e785b6fc4a8b8da349424385756e1d1a0532f414"
+    },
+    {
+      "path": "ohm/seed47.mdist",
+      "bytes": 444,
+      "sha256": "cf0bf6af2a309f5b4696a42180be7933b44b8e9096c6b69eb5140bb1407f09e3"
+    },
+    {
+      "path": "ohm/seed47.nodes",
+      "bytes": 348,
+      "sha256": "89e3246100630ff2790773f8c525c45b7a927eb6c885a45b768125c2435ee966"
+    },
+    {
+      "path": "protocol-freeze.json",
+      "bytes": 343,
+      "sha256": "cc04de5014cab3d622dcf73cb698d59bdb84e0f36af735b61df881fa98b517b3"
+    },
+    {
+      "path": "qa/input-verification.json",
+      "bytes": 403,
+      "sha256": "bafb313b49228634f4bd641eaecdddd0859d0de2cbe09a683b7755e1a0e18896"
+    },
+    {
+      "path": "qa/math-verification.json",
+      "bytes": 2824,
+      "sha256": "2b419093f30a971ff3d181a471608834af2d730eafcd04058624319f2b7f5335"
+    },
+    {
+      "path": "qa/ohm-source-build-receipt.json",
+      "bytes": 9311,
+      "sha256": "3b6bc4e2e9e0683ad954873e9fa166c5d6f8012fa9cf8bbdc686645c7dc95057"
+    },
+    {
+      "path": "qa/relocation-and-fresh-replay.json",
+      "bytes": 1485,
+      "sha256": "f8a71a7e10615293ccffc65dd0f112db19af9d31d89208dab8d114d8e022bb3e"
+    },
+    {
+      "path": "qa/saved-verification.json",
+      "bytes": 414,
+      "sha256": "7ceb06072b66c4c4392fb41cf194c6e08eba8a604761ffdf021c6ce9f3df087a"
+    },
+    {
+      "path": "qa/source-verification.json",
+      "bytes": 385,
+      "sha256": "4bfe62b8260cdc108899228c99e1fe7e2c04a66c10da689d7d5db41f549f0635"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 92,
+      "sha256": "c8a9b7d62329f9a99ee81b37382647b2507d51a89039dbf0f9997d3e0e1cc6bf"
+    },
+    {
+      "path": "results/marginal-fit-spread-sensitivity.npz",
+      "bytes": 331449,
+      "sha256": "8f7886274fa2bb1742eac6d1add3d024bedb75e9d6b232327a35850413afd529"
+    },
+    {
+      "path": "results/paired-site-bootstrap.npz",
+      "bytes": 1399288,
+      "sha256": "1cc24a83ef0026a44f8483054a634cbafe5059f58896592b44d2b12210aad619"
+    },
+    {
+      "path": "results/prediction-receipt.json",
+      "bytes": 5821,
+      "sha256": "7d15d08b4e5c1471e958e74866a0ad2ef9b5b4fe03f8780b103bc19c35fe664b"
+    },
+    {
+      "path": "results/predictions-before-label-join.csv",
+      "bytes": 7073,
+      "sha256": "e5c45fd32559fbb2739b852ce13b89b9088b806028597b69a5f7553d54fb3b9c"
+    },
+    {
+      "path": "results/primary-model/execution-receipt.json",
+      "bytes": 1993,
+      "sha256": "ed15ec0039e235da401ea3682f480de6a5641bed82701fe22390d02fb8d74f2b"
+    },
+    {
+      "path": "results/primary-model/gaussian/fit-progress.json",
+      "bytes": 163,
+      "sha256": "9be09bfbdaa88b80aaf5d9636a20222f40066b17873eee8187c9fa55d930ee70"
+    },
+    {
+      "path": "results/primary-model/gaussian/fit-receipt.json",
+      "bytes": 2918,
+      "sha256": "85e0d8195ae91619e973c140a159a5c7edea51198756f482b09be67126046515"
+    },
+    {
+      "path": "results/primary-model/gaussian/fitted-covariance.npz",
+      "bytes": 368257,
+      "sha256": "6373e7e4dc07badb5ef1245bbf491133d4246e615ffeb04cbb14365cae5a7d8f"
+    },
+    {
+      "path": "results/primary-model/gaussian/input-and-model-manifest.json",
+      "bytes": 1327,
+      "sha256": "06c87c4349b29000d06fb8e54f2e6cde599158a8649bfd4b31c3b9a619f5345d"
+    },
+    {
+      "path": "results/primary-model/gaussian/numerical-checks.json",
+      "bytes": 691,
+      "sha256": "712f8671818284f17f8e8e4ac2cca2492fec4d64846e8cad873e132d153e8346"
+    },
+    {
+      "path": "results/primary-model/gaussian/raw-moments.npz",
+      "bytes": 73069,
+      "sha256": "2b9dda8e969da0e614d584981fdc315c984779d41c358267d9029036613e694a"
+    },
+    {
+      "path": "results/primary-model/gaussian/residue-shortlists.csv",
+      "bytes": 2312,
+      "sha256": "c7daecd0a476762e1122ee3814528af1a6b1f8eb3335a0bc7f28418d1e533379"
+    },
+    {
+      "path": "results/primary-model/gaussian/response-matrices.npz",
+      "bytes": 126457,
+      "sha256": "18d43be133e258c545a32b18bc2c54e8672f8fa451b7a065ca6cc0f464ab8ba8"
+    },
+    {
+      "path": "results/primary-model/gaussian/total-cost-receipt.json",
+      "bytes": 829,
+      "sha256": "927c16b90b4d22413890558316c795ec56ef934b1bc3f34d1d19802e02d4d688"
+    },
+    {
+      "path": "results/primary-model/harmonic-response.npz",
+      "bytes": 53899,
+      "sha256": "a2f6b74b51df588066f38c86bb62c1db03d8fec8cd997fc0ed4f855c4f362475"
+    },
+    {
+      "path": "results/primary-model/harmonic-scales.npz",
+      "bytes": 690,
+      "sha256": "4659b81dc59d05499fcde34174516ff6d632712e378a1f19b99cfbbaccfc1424"
+    },
+    {
+      "path": "results/primary-model/static-model.npz",
+      "bytes": 258202,
+      "sha256": "7d7b30307279427ce07a255cfe8a35a9dbdd1a8c6a7d4396315d2942b8d5ce74"
+    },
+    {
+      "path": "results/site-aggregates-and-predictions.csv",
+      "bytes": 12481,
+      "sha256": "d24dae9f0ce53476779cb3b7ceba77155afecf8acd54defcc789e119d818354d"
+    },
+    {
+      "path": "results/structure-sensitivity-metrics.csv",
+      "bytes": 1452,
+      "sha256": "4440e475b87378cff616f0858e0e0b473cfc7117d9fae8eb0320035da4f33d72"
+    },
+    {
+      "path": "results/structure-sensitivity-predictions.csv",
+      "bytes": 59124,
+      "sha256": "a0b4de802a5e6cefb925a87da00973496815fe7c199d1eeced9554787802c2f0"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/execution-receipt.json",
+      "bytes": 1996,
+      "sha256": "df4c274927706012289df81973fcebb8ce08a3f68bd2be0d7e41ef549c65440b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/fit-progress.json",
+      "bytes": 163,
+      "sha256": "e49b99a5ed8036dbe73eee576efa66852a8e41e4d3b9c2d48efe7d99dfce5535"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/fit-receipt.json",
+      "bytes": 2567,
+      "sha256": "352cc585dc58ad7ca184e7f9792ca766f971bfe8343a24beff6cd7ea61b58fdd"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/fitted-covariance.npz",
+      "bytes": 368377,
+      "sha256": "3521f15b125d6e74f024963bec0731b3748d62f024988e40906d3c4d1ed6d555"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/input-and-model-manifest.json",
+      "bytes": 1370,
+      "sha256": "6f65198bb6edaf3fc8094181e9ca8f41b83816b81a6e430c7b6a0bb08c44bf36"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/numerical-checks.json",
+      "bytes": 694,
+      "sha256": "6c92ae26021ed6af567f207a01d2c27e28407b4cbbaf360b3c95e2b0259d2354"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/raw-moments.npz",
+      "bytes": 73085,
+      "sha256": "f69391a664d8ac329bc93081c992985918c6b99d898cb5006c3ff61c208a664b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/residue-shortlists.csv",
+      "bytes": 2305,
+      "sha256": "80e3c516f3471231eb94b5514282c3460cb12a474efe8f20ad164a58bac50d73"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/response-matrices.npz",
+      "bytes": 126633,
+      "sha256": "c59a526d7ea9682d69289462e6f7c79374bb8e7b1ab04f22d85b3babd3ea9a2a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/gaussian/total-cost-receipt.json",
+      "bytes": 830,
+      "sha256": "34f56f5e09e7decd2967139b88f2340261706cde2db4477b59956249bd2b6d05"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/harmonic-response.npz",
+      "bytes": 53933,
+      "sha256": "b4001a7dffa28175609fa0cb541e6b54406cb113055a70d60db115c4df235676"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/harmonic-scales.npz",
+      "bytes": 690,
+      "sha256": "64cd0a4d9e58f1201115d73aecbd2234fe08c401deaba792f8bb0c9748a165c9"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model01/static-model.npz",
+      "bytes": 257954,
+      "sha256": "d7bf84d3ac259e2e53ac579d6eee94bd174f44609fe22da18fd42345d9e73bad"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/execution-receipt.json",
+      "bytes": 1995,
+      "sha256": "e79a97c2b09d9cd4316676d4b54373b16edc69bb0194be79e545082950aded6f"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "8c18ce1efb62dc5ec0849a511bc34186653e4ad2d86397b16871936114593b6c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/fit-receipt.json",
+      "bytes": 2543,
+      "sha256": "8972f874e2a5b290a3d46fb70643a5f9b669281b4abf2741178844f38aaf7007"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/fitted-covariance.npz",
+      "bytes": 368284,
+      "sha256": "654437958406fc341b475a716d4e1fbc804508bc1b3dd87d1711c1b7ea912fcb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/input-and-model-manifest.json",
+      "bytes": 1368,
+      "sha256": "1e58f3c21aaf8fb12d54ffff90c847c16c8df89f3fe5d65bda537a247e42ab46"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "ff68d12a21e055839451a4562b2c3876fbcac2c3b248c3d57cde55b560a89406"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/raw-moments.npz",
+      "bytes": 73387,
+      "sha256": "0d6f67593f3aa7d97c010d44b5a97c075224a1d64066bbaa34264a7869f7abba"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/residue-shortlists.csv",
+      "bytes": 2315,
+      "sha256": "126068be69d725b22841f7e00e964949ae85a8c6980b83b4882d455a418b8060"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/response-matrices.npz",
+      "bytes": 126532,
+      "sha256": "a4754a8a92c6324a9a156b3cbb98a994a9dcf4e11b5e3821426d237d367d5a29"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/gaussian/total-cost-receipt.json",
+      "bytes": 828,
+      "sha256": "430db85f937f9d454e1a5c0d0bc4a2e00aa6c67a5ce1cbb33877be9a38bc5dd8"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/harmonic-response.npz",
+      "bytes": 53930,
+      "sha256": "612529bbd3e834f7a23f5c4a04bf8d9f81b414916cbc4000224c9c9fd1c76308"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/harmonic-scales.npz",
+      "bytes": 689,
+      "sha256": "9aac175172f3b3bbf652e002ae31f45cf81c821967f4afd4824d8ffade066021"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model02/static-model.npz",
+      "bytes": 258483,
+      "sha256": "0c72cf0c88d733e15d3151c1e05739e9a4ca9fa7156b4d75e2087c37057df0a1"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/execution-receipt.json",
+      "bytes": 1994,
+      "sha256": "b6f3ce4509699c70a3ced051fde49c508f61ce254d0f991096d90a254bf627b7"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "b102d19838c4e690cd4c9466e61ee93500cb320aedcf5edf5611609bed03b802"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/fit-receipt.json",
+      "bytes": 2923,
+      "sha256": "55988adfd200635d3685761c2c2c2b3c1eae3505ae5a474d04876aa534fe51fd"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/fitted-covariance.npz",
+      "bytes": 368390,
+      "sha256": "9a622b6f7f13f2ad00560fa7e34fe9309d716620da69179e7f3d59a8a57da1bc"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/input-and-model-manifest.json",
+      "bytes": 1369,
+      "sha256": "fa7c527421b7a2a792793ec14b8dc8123a22583119a199df8446d4f2cae6f84d"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/numerical-checks.json",
+      "bytes": 692,
+      "sha256": "5252f18ccf3e303d96399b0ba9e5fbc61e66a186e8d29a311d2c53b4f83a1114"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/raw-moments.npz",
+      "bytes": 73277,
+      "sha256": "09a677cf939bafcd6179a07a8a7786484672e4b39cd8d6bd74a16f2b21a7ad70"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/residue-shortlists.csv",
+      "bytes": 2305,
+      "sha256": "2dc63da949d64d617e38b74dfc72e2804a2326b9c37535a6b629d30de68c498d"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/response-matrices.npz",
+      "bytes": 126616,
+      "sha256": "d4aa335977be09ef8c89e53f8e3c779f1e0a9148c66634930ff1a593f29ea5f6"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/gaussian/total-cost-receipt.json",
+      "bytes": 829,
+      "sha256": "7d693a2a6419d28343db65a5d834fbaa3c25f04332df8fb45043875220f4d36f"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/harmonic-response.npz",
+      "bytes": 53917,
+      "sha256": "cf33c9f790fa827d42b86ed1becc204a381f7d93c84bde1269a8a5cccf935ad7"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/harmonic-scales.npz",
+      "bytes": 691,
+      "sha256": "2cfbd90e823f5bd43263b81b61ffcd827ba486e4d96f01c350f87ae754168807"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model03/static-model.npz",
+      "bytes": 258505,
+      "sha256": "328d6c3708f02f3570f86b5b4b7c754b86dd279065950abec6d06f734a48adf1"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/execution-receipt.json",
+      "bytes": 1996,
+      "sha256": "8743473e84849e0760e037234c6e59200a51f3ff51cfbafcfca5a9a93da8c8fb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/fit-progress.json",
+      "bytes": 166,
+      "sha256": "7dc2e1f9d993e9abd1bb6ebd7242ba5e3fc68dc9ba5831656c46c98864a19b16"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/fit-receipt.json",
+      "bytes": 2569,
+      "sha256": "13f6403f6b6d17b31f93678606164dc3d125943689e72ffd9d8b0f2020d097cb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/fitted-covariance.npz",
+      "bytes": 368294,
+      "sha256": "a817ba98c1b2d5fde605010f3a714602243e1ed5aa6fd6ad97b5211a228f0834"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/input-and-model-manifest.json",
+      "bytes": 1369,
+      "sha256": "dc5b609073966b04e09e255881afecd6f9ff2942ff700f48dcead32e4dd916a2"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/numerical-checks.json",
+      "bytes": 692,
+      "sha256": "d712a554f564f61340536b1a62bec4f647a7c6073ee483d19b7155bbad822b35"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/raw-moments.npz",
+      "bytes": 73239,
+      "sha256": "50743fbd3ea39573e09f5f197c0a615656e9e37512b5e4425f8c2f5621879cd3"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/residue-shortlists.csv",
+      "bytes": 2314,
+      "sha256": "3333197920f86ec7fadeea2689f9abcfc704c7bfd37f9f5f93e59bd93243dc5d"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/response-matrices.npz",
+      "bytes": 126787,
+      "sha256": "84931f323171d86d6a5cdbafc87f3c417bb8e67ff06539cb9d2f0f1d04427e21"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/gaussian/total-cost-receipt.json",
+      "bytes": 830,
+      "sha256": "ad503b321078a4a1c51ad936760cd105da40e7cb6a0417ee695f1400beb6089c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/harmonic-response.npz",
+      "bytes": 53916,
+      "sha256": "085d6d68db9d07842cce4903dd2d327519a14145d89414969d84e9f679cc1bac"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/harmonic-scales.npz",
+      "bytes": 691,
+      "sha256": "967f05a83102d0f8952c506eb93372730ede115b5feba9b86d93963b7432760d"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model04/static-model.npz",
+      "bytes": 257381,
+      "sha256": "8fd90c37d44a6d3cb1457fbea0ad833f95e3c030d9a6bbd7c0e25772d4460c8e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/execution-receipt.json",
+      "bytes": 1993,
+      "sha256": "0e1f742f5b312a4094cb19a8d3b2302587cfdd616b9179699994689d6428042b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "38bbe37fcf6f4054ca6171195c29169cc536f9acf9a05889e1d10affedd475e6"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/fit-receipt.json",
+      "bytes": 2896,
+      "sha256": "67576b4afce8b86e17807cc45be81ec332a0774cd6a479c0ca08c82b17655864"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/fitted-covariance.npz",
+      "bytes": 368366,
+      "sha256": "224e8f3d2e2fb29d8db692da61b8b2bb3ec9735d783851ba725305cffe87e65e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/input-and-model-manifest.json",
+      "bytes": 1369,
+      "sha256": "3ee21477d38725fe24d237760e4eef508f76dfa369a83051831a6a728969603a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "a4861e3a5c4eb915fef5360fab65f4183361dd45db5ec8e4c48d2e359996b9ac"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/raw-moments.npz",
+      "bytes": 73432,
+      "sha256": "ea2d7c1cd552ef48a40e581fc260ca9d60864faafc132afd71b160f626e1ee61"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/residue-shortlists.csv",
+      "bytes": 2313,
+      "sha256": "8d76d479da7a9cde2442830d331687d9f81fbb1c43b9f18ca6ffe2fc8809f192"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/response-matrices.npz",
+      "bytes": 126877,
+      "sha256": "6e53c5049ec38f78cf3949c4b279be5b0413f98c02b28b243754f2388db14d8e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/gaussian/total-cost-receipt.json",
+      "bytes": 827,
+      "sha256": "95d498954245366b5f573cd6972aa7288103ad1105d7e2ed5fa6f1ee7a7073eb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/harmonic-response.npz",
+      "bytes": 54023,
+      "sha256": "7c61bc8f1d0d3be6344eb9b674fea4c9ea7b10be7be55c65e009bb461f22c7f8"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/harmonic-scales.npz",
+      "bytes": 691,
+      "sha256": "94ce6fabd0012ca5f2f9c22837bc9191520b4c27bcc67b9a96a1b3072ca744ae"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model05/static-model.npz",
+      "bytes": 257629,
+      "sha256": "8b1e08baf3fa1445e15743f761e63fb50292eaca3879b14ff41636a22799dad5"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/execution-receipt.json",
+      "bytes": 1992,
+      "sha256": "8f0f0f952b5319fd52f8bd1637334795e059161a23898e7961118b54c1ceb0a6"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "fc06f1df45a5ccf2f885603b0c65e0975ee77bfd488aaf4e0f5ca4d1d0fe5a3e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/fit-receipt.json",
+      "bytes": 2902,
+      "sha256": "0db069a4397cedf9d7bebb45426f5fdbd546e56162a6cbe49d9ec83375ee9cbe"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/fitted-covariance.npz",
+      "bytes": 368283,
+      "sha256": "8b51cc0ba3104414b47f4e986ec4340fb839bb7c9ed9a5ca1cd57be706ac9b41"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/input-and-model-manifest.json",
+      "bytes": 1366,
+      "sha256": "10807df25cf0c9cdaf7652e1e3bd99f98e86a6bb2c3118408fd9d47cedd12ed5"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "e0fe170b3231a026d7598b145d33875b9c50ccf8e5d1711fbd3a9553dd0cf9e5"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/raw-moments.npz",
+      "bytes": 73492,
+      "sha256": "8d770d17317984b8e397101a2c7b369bff8645f39b63a7983509924f322d2fbf"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/residue-shortlists.csv",
+      "bytes": 2206,
+      "sha256": "c1f63b058e82e07896addf77e587ba01f0d1379da13d3a8130513f645ad496c6"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/response-matrices.npz",
+      "bytes": 127079,
+      "sha256": "f6879d51454dd66a149a55df50fb5f88c14ea6f7e70fe49c09d66cf96fa418be"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/gaussian/total-cost-receipt.json",
+      "bytes": 826,
+      "sha256": "da63f0285069104af5f709fc51868a74ac4894a47fbeb7c2a8d6a49eeb70185c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/harmonic-response.npz",
+      "bytes": 54088,
+      "sha256": "1528c35301aa803a7dde855dfcd81c8146142aeb7b87b53038498912bb5936ca"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/harmonic-scales.npz",
+      "bytes": 691,
+      "sha256": "4dfa65c987ca8e8730b2d0a5d98f43f8d7ee005b952a6220e9f330e4b3b95067"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model06/static-model.npz",
+      "bytes": 258445,
+      "sha256": "24786ad422ed6fcb0d566a1f60766c91531e1fa9891da88c4501906e205d0256"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/execution-receipt.json",
+      "bytes": 1996,
+      "sha256": "a2acc7e7066aba86673b53d397792633d7f7ab38c1681e2d57d21e160709e5bb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/fit-progress.json",
+      "bytes": 165,
+      "sha256": "6068493c88cf605689f108c7ab8213e04a00f1a78e3cbbcf459c1ad3e1993395"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/fit-receipt.json",
+      "bytes": 3234,
+      "sha256": "3af9d30179bfa720e9a25a784d3b8c2fe6b80021c7b99ee0315bceec39c19a01"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/fitted-covariance.npz",
+      "bytes": 368336,
+      "sha256": "3080967a84211982662f7ed7b239c95203fcb15cfdf407304987af484c9fddd8"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/input-and-model-manifest.json",
+      "bytes": 1369,
+      "sha256": "a3d66074d37eb2b0840e15ae6a7ce9113aaeae8363c8f7fa94c479cb549c5ab1"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "41e31d50f4edc797a17bbc5c3ae78ede2cb6a14e16fe6deb1d43308dea550a04"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/raw-moments.npz",
+      "bytes": 73289,
+      "sha256": "aac830a32032d884d4090ffc487568137a4427fb6f2507951cdba552b960f110"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/residue-shortlists.csv",
+      "bytes": 2203,
+      "sha256": "c91393de3daf77412a79fc5245a53aec25643d04cf27d1f2881180e1df9935ad"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/response-matrices.npz",
+      "bytes": 126535,
+      "sha256": "732c9efddc8851de1780723b9260e58b5e7d9863c813bb160d27ce3fca775b8b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/gaussian/total-cost-receipt.json",
+      "bytes": 829,
+      "sha256": "ef6c9e5b99265d41c4665d5cd0ba377894e476c203fe403adc254099f9def10b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/harmonic-response.npz",
+      "bytes": 54088,
+      "sha256": "6189e1c0087a0a2e4e67c856a34ecd24ed74e5c98c73174af29f043201ba4a32"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/harmonic-scales.npz",
+      "bytes": 688,
+      "sha256": "59801ed2f662de69b7088b84e8ac77d23fc5305ab38e0fcac3663db0649a87a1"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model07/static-model.npz",
+      "bytes": 258617,
+      "sha256": "d96aa15e6aa9204fd21c2e7b22f6fe73bd9afa572c58802c05417ac0513d4851"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/execution-receipt.json",
+      "bytes": 1992,
+      "sha256": "25f92b3e693247a88b1b79e1bd565d3cdff92fb5a2e7d9e4d0352713295b074c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "d60bfd9e2ef0a88501eedb994287bb2e5056c3c73a715992d436da903284b3e5"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/fit-receipt.json",
+      "bytes": 2570,
+      "sha256": "d558a316042a4611add6592987252f35292948db61a67de77735e58345f6bc8d"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/fitted-covariance.npz",
+      "bytes": 368470,
+      "sha256": "94e444d170d7a0297b0697490d213b1a32b59c61f0e4c529a06b374e122cafc2"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/input-and-model-manifest.json",
+      "bytes": 1369,
+      "sha256": "fcb0b8ccd5cf6fdf2d7c594fa16694e6fca44f378a86723ae3b1fe783ce659ff"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/numerical-checks.json",
+      "bytes": 692,
+      "sha256": "272d944a4d6bd6607a6ee2f93efcd91eb9d869831806e89ca67577d8f7dfb859"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/raw-moments.npz",
+      "bytes": 73277,
+      "sha256": "219793323f9abc923c8568cb81e585aeda4e235e5be6ab23b1743e488943951c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/residue-shortlists.csv",
+      "bytes": 2307,
+      "sha256": "fa90513aad5bbc8c7386cd864d1d09082ab7a5894e273990ea01db458f7e2130"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/response-matrices.npz",
+      "bytes": 126816,
+      "sha256": "e5e0f73d17f225fecc0d6cf75f8daecc279956152e6713daf24929ca7f650a58"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/gaussian/total-cost-receipt.json",
+      "bytes": 826,
+      "sha256": "4c8983484a035174c6f06ce1fefa710e914838622230fad6abbbb288b337f141"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/harmonic-response.npz",
+      "bytes": 53889,
+      "sha256": "07c26d7e44239da31a69357c86e20cfb515924f4f42a98432a9379c57219a418"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/harmonic-scales.npz",
+      "bytes": 693,
+      "sha256": "803d912e953c070dc9c81002325d7d79e880d47b8b2db09693c8a9dac99908ac"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model08/static-model.npz",
+      "bytes": 258784,
+      "sha256": "c01c9305a17654528ccaca62adaff1eceae723184f5cb77ff77a15b5db58da25"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/execution-receipt.json",
+      "bytes": 1998,
+      "sha256": "e733865c762ac2b21978402fc1b4b3dadf31978de65b7eabf833ac62f4f68018"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/fit-progress.json",
+      "bytes": 163,
+      "sha256": "b56e52087b9e12e7e9a4c738c524a74f703b553145502857e81563519b8b7b96"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/fit-receipt.json",
+      "bytes": 3212,
+      "sha256": "2dc784ae2540cb43466b94b6c97db90d596fd365d56c6d15ff8a9016ac39f417"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/fitted-covariance.npz",
+      "bytes": 368337,
+      "sha256": "bd288feb5d37d94ad2b0288941bb5dedd23c5015b3ab21b8254ca18b7ada6b80"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/input-and-model-manifest.json",
+      "bytes": 1372,
+      "sha256": "900d36e4b6ff1901708db720ed5653797877f04b017535f8d364c7a3096d6ce5"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "b1547018588310b8704ea3dfa52e407c58bae0b0b5a47d8d25660641448a15c3"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/raw-moments.npz",
+      "bytes": 73427,
+      "sha256": "984f62d63254476c86a27501170d69c9ecde752a01ef319e318a52780f253748"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/residue-shortlists.csv",
+      "bytes": 2209,
+      "sha256": "8f45cbc971c69aff599deb8f1dcc85d717171d5fc1814eb7789c9d5edde7d0d1"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/response-matrices.npz",
+      "bytes": 126826,
+      "sha256": "b6d091008c68a270a3a254ad5d3768e49c204b4566872fa411a062280f843ceb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/gaussian/total-cost-receipt.json",
+      "bytes": 831,
+      "sha256": "79e625fb41a99c4f1adf3368c049661cc0b7c6146e27b8ba23e0f7364c2017ff"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/harmonic-response.npz",
+      "bytes": 54141,
+      "sha256": "5e67c2f0663f4f4009bf89acfda5ba449b1138bdd9f097f9dddc14ea46c539f3"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/harmonic-scales.npz",
+      "bytes": 690,
+      "sha256": "a1fb6035dc6a3919d76e071a6025a719754aeeaef69e274704ebd06b3c3b39b9"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model09/static-model.npz",
+      "bytes": 258192,
+      "sha256": "a9da30960d17981efb4628294d88440ecc723e096777aff2b8957c3e4e87fdf1"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/execution-receipt.json",
+      "bytes": 1996,
+      "sha256": "b8e3c625f3777d58d00d2bd03008f12ca1d9b4f2d9736a56b1ee10b5f34036cf"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/fit-progress.json",
+      "bytes": 165,
+      "sha256": "55ef9cfb069f7c6f30ed7cac9f1113aad220b89e0e5e1680b28451a021b3a789"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/fit-receipt.json",
+      "bytes": 2568,
+      "sha256": "37fccdd76534432b98f43bce55dae82428c393b656dc5dfab1fb0fba58937142"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/fitted-covariance.npz",
+      "bytes": 368382,
+      "sha256": "8efbc44f275e827114172d86816797927e579d19b2582ad77e34debadd8f76b6"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/input-and-model-manifest.json",
+      "bytes": 1370,
+      "sha256": "260f10c1b4296c7edc8c790304f7dde2b9ce919af8b9902b11204e0efdab6325"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/numerical-checks.json",
+      "bytes": 692,
+      "sha256": "5b87adb20b9f39b049e8558055092696b901a432483b7757ef343bdf2fd4d76c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/raw-moments.npz",
+      "bytes": 73122,
+      "sha256": "36d39a92857d21683cd072ea3409a45f41c9d138bd7ae370ad0a45f03e288e80"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/residue-shortlists.csv",
+      "bytes": 2425,
+      "sha256": "28eb4c848e1a524ed2a63bd856739a76c9ce28f58ec96b14e602cbd7b297edbd"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/response-matrices.npz",
+      "bytes": 126679,
+      "sha256": "a551a54ba49a105d77f9fb4268979b52cbed134ac3d73182e2f513f9328a3cbb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/gaussian/total-cost-receipt.json",
+      "bytes": 830,
+      "sha256": "d7fa72744486443105a4ad884e51e9894cdad40a2298c5ee299557f0be426268"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/harmonic-response.npz",
+      "bytes": 54002,
+      "sha256": "b5392e75021cd4c241b64b553942362fae074eaf3736ce581f15d2b5a9cddb04"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/harmonic-scales.npz",
+      "bytes": 691,
+      "sha256": "6ad8eeb0765dc5765e13caed423e0a9888d9ce5389e1d044068635fd3c5b7eff"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model10/static-model.npz",
+      "bytes": 257524,
+      "sha256": "bb66ec2f6d222b69b6945eb86ebf5eb54a43672d7077fb62ecace20f4bba0893"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/execution-receipt.json",
+      "bytes": 1989,
+      "sha256": "4bed0ed32051e49db89cf49f1c9e620d22cc05cec714453791c7d6df781ee8dd"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/fit-progress.json",
+      "bytes": 166,
+      "sha256": "fc6088c934a3ba39e4dcd0dd3a23b3333fef032e6b12902a00c334ecd351616a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/fit-receipt.json",
+      "bytes": 2567,
+      "sha256": "554f93709af224f08efd342e250eabbbda090e97105a6936cbc4d0663b5a1c88"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/fitted-covariance.npz",
+      "bytes": 368400,
+      "sha256": "8743f149bcde57003e0f5466dad2c54bd931a01a78113c9a0b7ee5fec21d03c8"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/input-and-model-manifest.json",
+      "bytes": 1370,
+      "sha256": "f55b6a2dcd59d8b94c8a83e8ebd8408d32c4b87d8602f9d4573a6a94f7d6902a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/numerical-checks.json",
+      "bytes": 692,
+      "sha256": "1b9b973beeb252dee6895d6cd1379e40b19d2c81eaabf9e5556eb3994c517153"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/raw-moments.npz",
+      "bytes": 73320,
+      "sha256": "570c3952c5cb470dc1a8eee91030d0424982e1abec51b4ca1c9f6cd10da59e8b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/residue-shortlists.csv",
+      "bytes": 2316,
+      "sha256": "01a51c76d863de3b3b511182942a1eaf2ef409cb98a28fac2d7d5b3338cd8d95"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/response-matrices.npz",
+      "bytes": 126555,
+      "sha256": "2fc8e419f22783ee5556cbcb441c892837945f46096b0f0c8ca049604cf72db4"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/gaussian/total-cost-receipt.json",
+      "bytes": 827,
+      "sha256": "e0ab0827f2c4afffb4769d6f6f1136950107271226ffcadd01ff5c2e5c3b3476"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/harmonic-response.npz",
+      "bytes": 54001,
+      "sha256": "2d2bac4fdbfc5f629bc12941143ab495e81fe5682f390df401e3b15b7cafebf9"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/harmonic-scales.npz",
+      "bytes": 693,
+      "sha256": "8b6738a8241af9a006a39876e256af7d170269f35eb87cee47aeb98064c7f7d2"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model11/static-model.npz",
+      "bytes": 258165,
+      "sha256": "bf73cefc2316ad07d63d3fc5e0704b85ac2f0cff718ef786c8758f02a4398aac"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/execution-receipt.json",
+      "bytes": 1992,
+      "sha256": "d8e456a148c912366f132e907ae6a70f7b83f2785edb802bf9e771f4f3a8ace2"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "5abaecca7e9506018d0ac1e2c848164950243e6ba3dd5cd77562e2413452b06e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/fit-receipt.json",
+      "bytes": 2567,
+      "sha256": "366f480c0c3f0f5eac216c2d2330b66c657adb293ba3b98a29b2682d99f2f39a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/fitted-covariance.npz",
+      "bytes": 368319,
+      "sha256": "3d36cceffcbc54b70ccebc35b73ab25149e2189d2ccd180f885a47cab4d8a26e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/input-and-model-manifest.json",
+      "bytes": 1370,
+      "sha256": "e2366ff5809f9470542e962b9b5583d23701b3d1369166d37aafb9dd0101f809"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "05cac25bad3c78b1ce6bc2b569db9513f1aeacbe50a5228a42a8206cbc229ddb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/raw-moments.npz",
+      "bytes": 73018,
+      "sha256": "f4c1afef184855aee8f97b4be9e6991f75ea85a72ca47a49b080cf99006bc190"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/residue-shortlists.csv",
+      "bytes": 2423,
+      "sha256": "a6bc2f8c123cfd5b79cacc80f5831db0a9bba56fb7500416443d1e74df14eeaa"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/response-matrices.npz",
+      "bytes": 126498,
+      "sha256": "d4c9c0127a02baa800cd53d46e8c6e6e4230a61cea9a94ceec1e704731555e55"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/gaussian/total-cost-receipt.json",
+      "bytes": 827,
+      "sha256": "5349a656dbd539427d2d65f0563ad81bd0140f00028c87a83bea19bc19d0db19"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/harmonic-response.npz",
+      "bytes": 53980,
+      "sha256": "ffa9d58970ecde054156608f81782320c2d5f8cf52de3895d5922784a5e3d754"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/harmonic-scales.npz",
+      "bytes": 690,
+      "sha256": "3eb5d91885176afa2ccda6928aefb84f134810f1cb02b647dcaa2e50d6d39166"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model12/static-model.npz",
+      "bytes": 258089,
+      "sha256": "b4d3df96e6c9f5e3a673db7eadbd1234509cee8e8db8f9a99dae6662fc4fe717"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/execution-receipt.json",
+      "bytes": 1993,
+      "sha256": "071f531c564dd3b336d519590f118e4d4a79d581a6b25a0d98541e1a3f5252d3"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/fit-progress.json",
+      "bytes": 166,
+      "sha256": "b18d9140967bd2db33e800b44b428a0914b57868821d1cdb87a2ec93c2bfb706"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/fit-receipt.json",
+      "bytes": 2924,
+      "sha256": "3bace3ba63c538d1186b876166d856cff3f6d49a7d40ee636e3accf6604e3a9f"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/fitted-covariance.npz",
+      "bytes": 368330,
+      "sha256": "e6a1f7900b4a1131e803f3c33b5fe0e9875abf0eefbf42511b248fee76c496a6"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/input-and-model-manifest.json",
+      "bytes": 1370,
+      "sha256": "62082bc1482b254e5ffa6af2f0d649b884af71d2d1381807bb9b6b13f884505c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "8a6a6ba2b5697b5e401ca54869e1b860daa01632f8eaceae841e859c3be75234"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/raw-moments.npz",
+      "bytes": 73212,
+      "sha256": "5c990768e7f61bb6e2c0ab78f81746e1b1ec6dfd63d5d88331ad324f13884ae0"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/residue-shortlists.csv",
+      "bytes": 2198,
+      "sha256": "e146113e21e56b38f91e187ad966f3b9f46bdc2ba8b849d7bae8854323c3ff05"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/response-matrices.npz",
+      "bytes": 126440,
+      "sha256": "f8acbdc2a3d27aaabcf4a83763c5828d0b8746c90efa457478c50e76a1d17a58"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/gaussian/total-cost-receipt.json",
+      "bytes": 827,
+      "sha256": "9157b87330ab77e1750bc0557781550d3331ad9d386c5686bb460999e0b0e5c4"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/harmonic-response.npz",
+      "bytes": 53980,
+      "sha256": "6e0a888752bf7de099e13f5b5b8ee7e6be9f3709494232be3694b2636c12862f"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/harmonic-scales.npz",
+      "bytes": 689,
+      "sha256": "1cdddbb3a30d8a47bfbb27ab0fa5f9be2527192c1ac40904d15ef6b85e171422"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model13/static-model.npz",
+      "bytes": 258107,
+      "sha256": "c3b0515fe55ce84ffdd2a0d67f187e24d5cb69f74d5db243f3280d0bbdd6d0f6"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/execution-receipt.json",
+      "bytes": 1997,
+      "sha256": "cf402ae9f2ce80ee304c2b09dde3830e3d06f83f5d42e569b0a2be146731be82"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/fit-progress.json",
+      "bytes": 165,
+      "sha256": "89da8ab355280844119a998691eafbf3b17b1c1ba402732f9a57738907686d86"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/fit-receipt.json",
+      "bytes": 3236,
+      "sha256": "6de30d41cbece942d21f93cb17ca9cac4ce2012eee9b703ecf7772d50b411061"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/fitted-covariance.npz",
+      "bytes": 368270,
+      "sha256": "dc3f19338efd8a114b960bd963474b2211bf049cda556ac8ca879e7a3d8883fe"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/input-and-model-manifest.json",
+      "bytes": 1373,
+      "sha256": "9c81a63faac789dd48bf4869d40f7daea1bc0852a61cb52e767ed6d8400c616f"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "32dfc7d133924c1537e49fdcc74a2f45e40feb94f5f3f1208931529b15ef57dd"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/raw-moments.npz",
+      "bytes": 73457,
+      "sha256": "5c3fbb1dd7c9ab15ce599c1a5022ab5e9f45e46c0e58e28cd60f193fc1667a26"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/residue-shortlists.csv",
+      "bytes": 2312,
+      "sha256": "c7b09ac32cbdd3be0632ece9235b7bb6dd384c5c02d326a2971ba0fe1868900e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/response-matrices.npz",
+      "bytes": 126948,
+      "sha256": "08ff988d661cbdb97406b7fe41462625969db40a2efc627d0e7f45ebac48da10"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/gaussian/total-cost-receipt.json",
+      "bytes": 830,
+      "sha256": "170756f9bfc12afefc78163b96e40a9b0d7ee9a55e9f1ced2b2ec8e0c6b297b1"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/harmonic-response.npz",
+      "bytes": 54093,
+      "sha256": "2cfe73ef6fe43347c8b07036eff9169ae7f1021fddf1250126776f6379684a95"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/harmonic-scales.npz",
+      "bytes": 689,
+      "sha256": "8d6d0b47ab983350a9f733710173a5a994e7027c5d22db99ace25b6406b93e3a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model14/static-model.npz",
+      "bytes": 257742,
+      "sha256": "783b270bbcd7d43fbd3692b17c8d3a51c9b7ea729ea136cf1d3df3726e6031f1"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/execution-receipt.json",
+      "bytes": 1997,
+      "sha256": "bd731f25a5aa277ac7fce5035bbcf328c96f679a433d7fef11e8cbc2d70fcf5a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "ccd84ff427abc356b8c943eca06f46865725011daf2d0b9039547859458f9a7c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/fit-receipt.json",
+      "bytes": 2577,
+      "sha256": "9c9c5328a3a8661053ffff05b32dd3a246d5ca5d2f22fe320c4064a470dc9c2c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/fitted-covariance.npz",
+      "bytes": 368363,
+      "sha256": "0846f9f495c47902f5b536dd5398e8df30bf54d62d5c5f0ae1d0f09c66713e8f"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/input-and-model-manifest.json",
+      "bytes": 1372,
+      "sha256": "fbafba4bfebf0495fff422266798646e400944f868dd0710af5b198dfd50aa58"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "77cb83f6e89f7bc4545c53c825e155d94147efd1747bf752ac37816a5d897e0b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/raw-moments.npz",
+      "bytes": 73253,
+      "sha256": "2e43ea87d1f7e7ec5420acf23da9fd3520c3948da22c8064137898551b6e02e3"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/residue-shortlists.csv",
+      "bytes": 2201,
+      "sha256": "78493fcf391f9282b7e8b3efce3f18bbe0d33305947e0bf5192514a0ad833a1e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/response-matrices.npz",
+      "bytes": 126648,
+      "sha256": "21b090cd5adb84af876be10f627be2dafb376d227ba6cf0ecdb7c92126786759"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/gaussian/total-cost-receipt.json",
+      "bytes": 829,
+      "sha256": "63677919e27d0126bc869236e2c9b57ef10ae0d035c8ac04cd86be2ef2c9e841"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/harmonic-response.npz",
+      "bytes": 53927,
+      "sha256": "6c8ce8c647fc55672ce1489c529a0143b13b5a6ec821e7cf6fc43abccac3da1b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/harmonic-scales.npz",
+      "bytes": 689,
+      "sha256": "18ab0541e2f057d7bba0bbb96d2c669bdefef190c2bebe03e686c15384130113"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model15/static-model.npz",
+      "bytes": 258066,
+      "sha256": "c759871cd6bb790dc150e36e42cc28d30e529b5c6664f8f3859cb53add192414"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/execution-receipt.json",
+      "bytes": 1993,
+      "sha256": "ea2a25bf77b02d283d3f4be5d96c41471bed56d1b111b14d0f0bc22e24986726"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "f3b703a8bb85f9d2650bea68e1ce4c97c0fcdd55653f8bedc6a738dc7b1bdbd9"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/fit-receipt.json",
+      "bytes": 3252,
+      "sha256": "601602fe680fc184d6f8dc6f36258f1b82d0b4d9a13cdd9c14f3d6fc64110d4d"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/fitted-covariance.npz",
+      "bytes": 368217,
+      "sha256": "eb77ed867e7a8567de1bbd1ecfeb1fdb32e3b08ada6ef5c58910472d67d4f4fc"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/input-and-model-manifest.json",
+      "bytes": 1370,
+      "sha256": "bdcff65d9353ddb4f1450ba1cf1433b4ab1bf85450dc4ee8493cf8648e085163"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/numerical-checks.json",
+      "bytes": 692,
+      "sha256": "dff6bac9dd1d13c4013650bb8997cf5b2f0fca37e199ced1c0e1018e7d36c0bb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/raw-moments.npz",
+      "bytes": 73083,
+      "sha256": "b6b64be221a093502fff6a67c88956f7242721aed55734afcac514141598a945"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/residue-shortlists.csv",
+      "bytes": 2206,
+      "sha256": "5ef9a4ea7b96d17b59a614c80769d611ad408f8c25103e9be590d5d8239ef901"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/response-matrices.npz",
+      "bytes": 126586,
+      "sha256": "36bd06a46e954598618fa8ce8c7d788182b564994848e395682d101ed636af57"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/gaussian/total-cost-receipt.json",
+      "bytes": 828,
+      "sha256": "555e0c9da8b0d0423eb37eeea480abe0ad5dc8e056b58d080dfb000b8ca178b3"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/harmonic-response.npz",
+      "bytes": 53975,
+      "sha256": "30980500605722420ce79fd67e0cfc2676c01413fd81b608b3828c549f6da49b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/harmonic-scales.npz",
+      "bytes": 689,
+      "sha256": "8c35e8f896246a8a96f7dfbb6c9de7a760f35d03e1f0a577b0a82f1d2cccb458"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model16/static-model.npz",
+      "bytes": 257929,
+      "sha256": "451ee60a926cf3458e47dc5fa860dd3a630a4dcd90dc33990ef8af44b61b80aa"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/execution-receipt.json",
+      "bytes": 1994,
+      "sha256": "8243570f17110649bd4e8e75abadddd7828f4246c805b7a319f66d205854199a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "c0f76a2eadcbd00cf96ac9fdd7301fde13af486bd37bd815c86810a4cbf5056a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/fit-receipt.json",
+      "bytes": 2902,
+      "sha256": "c1e903c926127da7ebc516cd8af19dc7c99fc3327076649cb0a5a58487811da4"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/fitted-covariance.npz",
+      "bytes": 368281,
+      "sha256": "aa70ee854de599ce16db7d7325906b1536de2bb1b204013b40c9a94f239b3f3b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/input-and-model-manifest.json",
+      "bytes": 1370,
+      "sha256": "d846a435d225d25b32022b3afe35651e79cd2b28dd653334d46f92b7a8f94500"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "ab97a6837fbf7b0848cbd8dc24cfea1587987ff7c8ace6d27195c30b8134fde2"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/raw-moments.npz",
+      "bytes": 73133,
+      "sha256": "d1623abeb206d72985f0cb6a8d48874ca28cf67855b1e64698f3b7a332579206"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/residue-shortlists.csv",
+      "bytes": 2206,
+      "sha256": "c1ccc263005f02f5eaf4a21aa339334fced2f2c9b4615aed7feaac971cd016e9"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/response-matrices.npz",
+      "bytes": 126664,
+      "sha256": "3aab294762ac3dce034ba33b672ec85f824f939a0f0ce3fa2a2546cc4537ad16"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/gaussian/total-cost-receipt.json",
+      "bytes": 828,
+      "sha256": "8c91b21739c381c2b19a50f6e66f86c4891ce93b4762cfa6e9f0dacc0cf3a896"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/harmonic-response.npz",
+      "bytes": 53967,
+      "sha256": "bcdeab91ebe77952f4e099cde043a6c5b41e65ce8380d99a4c618db09cca625c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/harmonic-scales.npz",
+      "bytes": 689,
+      "sha256": "66a9d08f9b2c0d1b9f568ea6c5aabfbe376efd3a451ad28e79602afba912fbef"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model17/static-model.npz",
+      "bytes": 258324,
+      "sha256": "b975e42ba29213970670a4f4aedd3b849fa1c885985735e4d924265ec78ff7ee"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/execution-receipt.json",
+      "bytes": 1997,
+      "sha256": "567707b3285493a0cca69b43394d1bea0388b5a9f3830d41800cc5552a7f739b"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "e08f907d7e895ebc6f2bf3f9b43a36726b4973a513913c83ca9659852ed9f00a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/fit-receipt.json",
+      "bytes": 2920,
+      "sha256": "2a68f919d61ee71d5cd5e2d74ce7d9c4353e7c2b67a3b73a36977409d402c58e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/fitted-covariance.npz",
+      "bytes": 368312,
+      "sha256": "07e8b8dd78019dcfd86edd3432942b6c683fc9e746d7c528dac965dcf126f8a6"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/input-and-model-manifest.json",
+      "bytes": 1372,
+      "sha256": "82e28954cf706401bc84df8150d14adef35ab4b6459759a7fafb802e0fae2172"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "802add0452a3db58c99933646946d63a87363b6b905eda84cf552d5897a780bf"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/raw-moments.npz",
+      "bytes": 73143,
+      "sha256": "3f741bb36c473d05705e5390145b820a327d45ae0d59b8f4020f508dd558d88d"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/residue-shortlists.csv",
+      "bytes": 2422,
+      "sha256": "5638268b3aa9bc58cbc86d6acc6d66c195961cac75ab6ffb6c5a26c080dbc8fd"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/response-matrices.npz",
+      "bytes": 126641,
+      "sha256": "dc9bbb848b4617a3d8b5c2aaf4820c33cbb57b75fa50f2f8b9080383d8306b8c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/gaussian/total-cost-receipt.json",
+      "bytes": 831,
+      "sha256": "eb70953ffe25ae9cff2f5a99ae6b57d8a04916ca0456a83be8b14e151c7e38fc"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/harmonic-response.npz",
+      "bytes": 53953,
+      "sha256": "0ad1c7c810292d78757e0723e63a0e328f60bd386bae220dbbdea85563884beb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/harmonic-scales.npz",
+      "bytes": 691,
+      "sha256": "f36a66e9c405969d2ae04381c2e79ec2f0f63f4ca7f6d68393d8c6c4914a51cb"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model18/static-model.npz",
+      "bytes": 258418,
+      "sha256": "e6ecfb030f7665e1b1f92d9d4b013aa7035263aa3ac9696682bdaa31e03180ba"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/execution-receipt.json",
+      "bytes": 1996,
+      "sha256": "480fb17f5e2cc6b9c85d36c766b8245aa8b2755e8f452c048714a0fda5af3816"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/fit-progress.json",
+      "bytes": 164,
+      "sha256": "f7ef487ec4d220759922b7435377e354277bed78eb3e384fdf2598809f040af2"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/fit-receipt.json",
+      "bytes": 2571,
+      "sha256": "f5740e3f35280837d19e50369eb18aa206141ae1ac24b8bd6fda6f2e40350eba"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/fitted-covariance.npz",
+      "bytes": 368355,
+      "sha256": "d7b4d7c7146bfd8843e75d09a46fd0b8b0c454feeb6271697eb48b09d93b1d54"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/input-and-model-manifest.json",
+      "bytes": 1371,
+      "sha256": "727a4597efd94363d8d6d843e99d0ee4e0784172026b77e0bc6c342d5fc65a69"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/numerical-checks.json",
+      "bytes": 693,
+      "sha256": "89e93bab94199b11021130c73641347c035047e270fa0273e2b12fed7ea67e5c"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/raw-moments.npz",
+      "bytes": 72990,
+      "sha256": "2fe86d291b1248069699fd8cfd578357c2b4a61ff90c6526648bdeecdecf195f"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/residue-shortlists.csv",
+      "bytes": 2191,
+      "sha256": "be210ac8a963a6073b24800a6aa5814ab48506aee9d0fe62e02c9bc7c435de39"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/response-matrices.npz",
+      "bytes": 126452,
+      "sha256": "5fdc30ded2b2af60fa1f7876d1ea54cfca2a71cc72a28ecb75aa37828007f253"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/gaussian/total-cost-receipt.json",
+      "bytes": 831,
+      "sha256": "b090748cecde96a6c9f02d3e6799029407ccaa078102233b7c16fec56d36b01e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/harmonic-response.npz",
+      "bytes": 53925,
+      "sha256": "0c2851c4e635c2dc2bf49bf4f89e0d73b51070ec1c7f35a9f9e73155aba1c381"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/harmonic-scales.npz",
+      "bytes": 691,
+      "sha256": "8859cb53f837b934d6217648f68eb2fdbf94efdb26e73c6cc11b59e86cbe5184"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model19/static-model.npz",
+      "bytes": 258649,
+      "sha256": "b6a4bc504510b348c44307a1c7dd7c72a0c9e8c30e37c3fa60af755b1e0352b0"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/execution-receipt.json",
+      "bytes": 1995,
+      "sha256": "f2d1a9782c2e0e185614ccb37717a0a3e4e361e0804c591af9f07b8945e4ffe0"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/fit-progress.json",
+      "bytes": 166,
+      "sha256": "249fc0832b43581a0d60838c0ce69ad94d96eee8ac68a09e5e0abf04be151d22"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/fit-receipt.json",
+      "bytes": 2571,
+      "sha256": "96cd01d534b5523429e1485604121ca83e8ad3b8ff0628faf48a637357815404"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/fitted-covariance.npz",
+      "bytes": 368487,
+      "sha256": "2adf96585686e808ec3863dfbb6dfc3f9d5e7fa5b95c742c803c58cc036fd42a"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/input-and-model-manifest.json",
+      "bytes": 1371,
+      "sha256": "b8c5c283b17bae615187a9e4f1d58416e1398748b4c261c50a733666058f686e"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/numerical-checks.json",
+      "bytes": 692,
+      "sha256": "ebe12881c278936b6bf26a10e90716af423c5b7816e20e525c04c58f173ed3f8"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/raw-moments.npz",
+      "bytes": 73182,
+      "sha256": "9f23c7db4a1b4d8844eaeeec0a5e7cacfd812bea9b46be0be6c24c23c9c48fef"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/residue-shortlists.csv",
+      "bytes": 2303,
+      "sha256": "7076124bc8b3ab865efc993fcd86e2c0709c2e42dee5581592dabf16094c89b8"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/response-matrices.npz",
+      "bytes": 126551,
+      "sha256": "ba508dfa2db08aa7d5bb56c9bbb45ca141512410362c11e1fa60076ace3d1060"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/gaussian/total-cost-receipt.json",
+      "bytes": 830,
+      "sha256": "1bf237d53eea95caaffc56a2c76c05795c64e46624c2a712950ec492a9098395"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/harmonic-response.npz",
+      "bytes": 54012,
+      "sha256": "973df12099550c78503ed62692d4488eca563f937f55620115807df05cc89d6f"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/harmonic-scales.npz",
+      "bytes": 692,
+      "sha256": "94acb4b3b463039c5fc2108688276a05f100cc5b0fd9d472d950aac67d8f7354"
+    },
+    {
+      "path": "results/structure-sensitivity/1GFD-model20/static-model.npz",
+      "bytes": 259076,
+      "sha256": "97ea20a43ba6604c6f5759d46c4f3013e553078991d6711774ce17571f54cf61"
+    },
+    {
+      "path": "results/summary.json",
+      "bytes": 12679,
+      "sha256": "c9926f55d850fcbd83fbaf471570ba441d38dce1ec1ed8b27a377191d677bdc1"
+    },
+    {
+      "path": "results/top-five.csv",
+      "bytes": 1883,
+      "sha256": "3df77c72110c845ff5f6c8faee355e81de03c7c4bd11a03e060ea3283a6ca73b"
+    },
+    {
+      "path": "results/whole-prediction-cost.json",
+      "bytes": 2685,
+      "sha256": "ce723e4702b103c7fafad010b502c2be38cc393132f45e706007ab292b34d223"
+    },
+    {
+      "path": "scripts/build_ohm.py",
+      "bytes": 2665,
+      "sha256": "753a501710abfefa9d4edefdbb548bd08f045cf4063a310674cf108235d3952a"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "bytes": 9239,
+      "sha256": "44c0a3de0695777ba812348edfe37c1c1f75f2a3d8f0da5cd6cef18ac9863261"
+    },
+    {
+      "path": "scripts/ingest_faure.py",
+      "bytes": 876,
+      "sha256": "c1261779adae32b5b244f9b0b0d3a45cbda21ebcd3b6306125d503f95866b0b9"
+    },
+    {
+      "path": "scripts/plot_results.py",
+      "bytes": 2791,
+      "sha256": "4939fd88b14aefe5767eea082f01542eedc319527d0c54aeff0c64aab43d89d7"
+    },
+    {
+      "path": "scripts/predict.py",
+      "bytes": 7699,
+      "sha256": "e19ae691378b3492b8a7e7796eb9df07f091c87a55b34fd3af0842c1d881fab8"
+    },
+    {
+      "path": "scripts/verify_inputs.py",
+      "bytes": 1436,
+      "sha256": "7cc7425fab184a778f53d7cd5aa65d680d8413f971600ffa94dbbb35d18fcf68"
+    },
+    {
+      "path": "scripts/verify_math.py",
+      "bytes": 3807,
+      "sha256": "8c121607d5c87b000434080d2f802fd555014c8fdd75815625ee0290e40a5a35"
+    },
+    {
+      "path": "scripts/verify_saved.py",
+      "bytes": 4223,
+      "sha256": "265e516b77ace0993f64baf23c1f3c0a16c845ffcdaf67e8ce502a9f72c8b4cf"
+    },
+    {
+      "path": "scripts/verify_source.py",
+      "bytes": 1904,
+      "sha256": "e8ecdd5a90b93a2ad77497681afae5ad3f7d991b072b546f94d85f84d3637008"
+    },
+    {
+      "path": "source/SOURCE-MANIFEST.json",
+      "bytes": 6388,
+      "sha256": "694c22f0446a873cd0171e3cd3ed66bc328fe9b2dfb5caba2729d5640f4d0553"
+    },
+    {
+      "path": "source/ohm-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "source/ohm-gcc15-portability.patch",
+      "bytes": 972,
+      "sha256": "d558b81d4870a6ad037958a36b1cc87cc06c50b606f787c0a696f9eb8f9f3b57"
+    },
+    {
+      "path": "source/ohm-upstream-462a3b1.tar.gz",
+      "bytes": 5718438,
+      "sha256": "395dc1c3e561e21a65a8a2929331b3eb719ae3d66dba64dfe4c879589da140d5"
+    },
+    {
+      "path": "source/prior-exposure-receipt.json",
+      "bytes": 1068,
+      "sha256": "7a8058e25369aba3c8392ce29cfa86271c3d88961771b675105142a6656fb022"
+    },
+    {
+      "path": "vendor/gaussian_protein.py",
+      "bytes": 17168,
+      "sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+    },
+    {
+      "path": "vendor/prepare.py",
+      "bytes": 9455,
+      "sha256": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b"
+    },
+    {
+      "path": "vendor/run_pilot.py",
+      "bytes": 10676,
+      "sha256": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053"
+    }
+  ]
+}

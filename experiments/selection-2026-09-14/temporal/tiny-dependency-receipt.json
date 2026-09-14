@@ -1,0 +1,6 @@
+{
+  "recorded_utc": "2026-09-14T09:29:32.197933+00:00",
+  "correction": "Missing unchanged historical model protocol supplied after initial setup failed before grid construction or scores. Scientific source and temporal protocol unchanged.",
+  "file": "vendor/protocol.json",
+  "sha256": "2327990f70d4c3319447cd7d51b8bcacf320d5eb52eb62b4a1f961f4e1661192"
+}

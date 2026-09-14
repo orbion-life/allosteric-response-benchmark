@@ -1,0 +1,18 @@
+{
+  "decision": "FAIL_PREDECLARED_HALF_EXPECTED_T_GATE",
+  "candidate_expected_T": 19869883844711.43,
+  "strongest_evaluated_dense_expected_T": 35265567413911.055,
+  "matched_normalization_dense_expected_T": 58613303217224.4,
+  "candidate_to_strong_dense_ratio": 0.5634358186130713,
+  "gate_max_ratio": 0.5,
+  "measured_cached_T_reduction_percent": 43.656418138692864,
+  "candidate_to_matched_norm_dense_ratio": 0.3389995573372218,
+  "rotation_T_per_walk": 112096,
+  "walk_T": 121512,
+  "rotation_fraction_walk_T": 0.9225097109750477,
+  "rotation_only_full_plan_T": 18455172232816.055,
+  "rotation_only_to_dense_ratio": 0.5233198722200659,
+  "diagnostic_scope": "Algebraic subtotal of the fixed measured rotation bank and output schedule. Even free lookup/reflections do not reachhalf. This is not a universal quantumlowerbound.",
+  "next_proposed_experiment": "Freeze and implement the paperD.1.2 phase-gradient/adder rotation method, charging gradient preparation/reinitialization, precision, clean/dirty workspace, reflection/loading and full readout. It is proposed, not tested. No amplitude-estimation or selected-output advantage is claimed.",
+  "strongest_baseline_scope": "Strongest of the evaluated exactsame-model normalizations with the pinned deterministic per-rotation compiler. No globally optimal Clifford+T circuit claim."
+}

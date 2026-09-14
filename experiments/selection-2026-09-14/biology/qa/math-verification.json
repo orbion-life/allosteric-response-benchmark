@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "actual_model_N": 56,
+  "actual_model_D": 162,
+  "independent_polynomial_Wick_checks": [
+    {
+      "edge_pair": [
+        0,
+        0
+      ],
+      "time": "static",
+      "independent_covariance": 1618.1889491766588,
+      "production_covariance": 1618.1889491766576,
+      "scaled_absolute_error": 7.025560134955832e-16
+    },
+    {
+      "edge_pair": [
+        0,
+        0
+      ],
+      "time": "tau",
+      "independent_covariance": 0.45223203700845716,
+      "production_covariance": 0.45223203700791154,
+      "scaled_absolute_error": 5.456191054520332e-13
+    },
+    {
+      "edge_pair": [
+        0,
+        227
+      ],
+      "time": "static",
+      "independent_covariance": 4.176749202596966,
+      "production_covariance": 4.176749202596101,
+      "scaled_absolute_error": 2.0711939808357177e-13
+    },
+    {
+      "edge_pair": [
+        0,
+        227
+      ],
+      "time": "tau",
+      "independent_covariance": 0.11809479377188836,
+      "production_covariance": 0.11809479377131486,
+      "scaled_absolute_error": 5.734995811579324e-13
+    },
+    {
+      "edge_pair": [
+        151,
+        453
+      ],
+      "time": "static",
+      "independent_covariance": -0.6408489328464384,
+      "production_covariance": -0.640848932845051,
+      "scaled_absolute_error": 1.3874457138740581e-12
+    },
+    {
+      "edge_pair": [
+        151,
+        453
+      ],
+      "time": "tau",
+      "independent_covariance": -1.562379626594975,
+      "production_covariance": -1.5623796265971293,
+      "scaled_absolute_error": 1.3788433491530158e-12
+    }
+  ],
+  "independent_free_energy_gradient_checks": [
+    {
+      "finite_difference": -0.006803066554539327,
+      "production_gradient": -0.006803064576465867,
+      "absolute_error": 1.978073459370233e-09
+    },
+    {
+      "finite_difference": 0.028040207666890634,
+      "production_gradient": 0.028040215386625073,
+      "absolute_error": 7.719734438499382e-09
+    },
+    {
+      "finite_difference": -0.00793813796917675,
+      "production_gradient": -0.007938141463133425,
+      "absolute_error": 3.4939566743302786e-09
+    },
+    {
+      "finite_difference": 0.0015616983262134452,
+      "production_gradient": 0.001561690090849094,
+      "absolute_error": 8.235364351181704e-09
+    },
+    {
+      "finite_difference": -0.0049840672033951705,
+      "production_gradient": -0.004984075695577454,
+      "absolute_error": 8.492182283770244e-09
+    },
+    {
+      "finite_difference": -0.004546205900624045,
+      "production_gradient": -0.004546192552617574,
+      "absolute_error": 1.3348006470959017e-08
+    }
+  ],
+  "independent_full_harmonic_covariance_max_error": 1.2212453270876722e-15,
+  "scope": "Actual finite Gaussian model implementation checks. No original-nonlinear physical fidelity or biological advantage inferred."
+}

@@ -1,0 +1,579 @@
+{
+  "created_utc": "2026-09-14T10:22:17.084082+00:00",
+  "scope": "Post-execution correction of an ancillary indexing defect; fixed data, basis, time grid, threshold and 1e-12 tie rule. Unique interior sampled maxima are not robust or continuous-time timing certificates.",
+  "source_sha256": "a3fd9544d8a3d50efc5ddb707599e870c9a3a4efb92b28e20e9edbc75eaa511a",
+  "error_threshold": 0.002,
+  "peak_tie_tolerance": 1e-12,
+  "endpoint_count": 28,
+  "pair_array_columns": [
+    "source_zero_based_index",
+    "actual_receiver_zero_based_index",
+    "reference_sample_index",
+    "reduced_sample_index",
+    "reference_peak_magnitude",
+    "unique_interior_reference_sampled_maximum_flag",
+    "sampled_peak_time_difference_over_tau"
+  ],
+  "rows": [
+    {
+      "grid": "original-grid",
+      "target": "kras",
+      "endpoint": "step",
+      "corrected": {
+        "candidate_receiver_pair_count": 2268,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 293,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 1975,
+        "maximum_sampled_peak_time_difference_over_tau": 12.362176905921935,
+        "fraction_same_sampled_peak_index": 0.6177474402730375
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1260,
+        "resolved_reference_interior_peaks": 286,
+        "low_flat_or_boundary_reference_peaks": 974,
+        "maximum_sampled_peak_time_error_over_tau": 12.362176905921935,
+        "fraction_same_sampled_peak_index": 0.7377622377622378,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "kras",
+      "endpoint": "pulse-0.03",
+      "corrected": {
+        "candidate_receiver_pair_count": 2268,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 388,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 1880,
+        "maximum_sampled_peak_time_difference_over_tau": 0.007963816690946594,
+        "fraction_same_sampled_peak_index": 0.9948453608247423
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1260,
+        "resolved_reference_interior_peaks": 377,
+        "low_flat_or_boundary_reference_peaks": 883,
+        "maximum_sampled_peak_time_error_over_tau": 0.0038329319401182033,
+        "fraction_same_sampled_peak_index": 0.9946949602122016,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "kras",
+      "endpoint": "pulse-0.3",
+      "corrected": {
+        "candidate_receiver_pair_count": 2268,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 475,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 1793,
+        "maximum_sampled_peak_time_difference_over_tau": 0.27,
+        "fraction_same_sampled_peak_index": 0.8336842105263158
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1260,
+        "resolved_reference_interior_peaks": 451,
+        "low_flat_or_boundary_reference_peaks": 809,
+        "maximum_sampled_peak_time_error_over_tau": 0.2689276749404614,
+        "fraction_same_sampled_peak_index": 0.8736141906873615,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "kras",
+      "endpoint": "pulse-3",
+      "corrected": {
+        "candidate_receiver_pair_count": 2268,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 476,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 1792,
+        "maximum_sampled_peak_time_difference_over_tau": 2.963102882508802,
+        "fraction_same_sampled_peak_index": 0.7605042016806722
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1260,
+        "resolved_reference_interior_peaks": 456,
+        "low_flat_or_boundary_reference_peaks": 804,
+        "maximum_sampled_peak_time_error_over_tau": 2.755770566265414,
+        "fraction_same_sampled_peak_index": 0.8355263157894737,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "abl",
+      "endpoint": "step",
+      "corrected": {
+        "candidate_receiver_pair_count": 3667,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 262,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 3405,
+        "maximum_sampled_peak_time_difference_over_tau": 10.554762696771926,
+        "fraction_same_sampled_peak_index": 0.6564885496183206
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1737,
+        "resolved_reference_interior_peaks": 36,
+        "low_flat_or_boundary_reference_peaks": 1701,
+        "maximum_sampled_peak_time_error_over_tau": 0.6626792675414326,
+        "fraction_same_sampled_peak_index": 0.6666666666666666,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "abl",
+      "endpoint": "pulse-0.03",
+      "corrected": {
+        "candidate_receiver_pair_count": 3667,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 383,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 3284,
+        "maximum_sampled_peak_time_difference_over_tau": 0.020666534241601652,
+        "fraction_same_sampled_peak_index": 0.8328981723237598
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1737,
+        "resolved_reference_interior_peaks": 73,
+        "low_flat_or_boundary_reference_peaks": 1664,
+        "maximum_sampled_peak_time_error_over_tau": 0.0189168904474376,
+        "fraction_same_sampled_peak_index": 0.821917808219178,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "abl",
+      "endpoint": "pulse-0.3",
+      "corrected": {
+        "candidate_receiver_pair_count": 3667,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 418,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 3249,
+        "maximum_sampled_peak_time_difference_over_tau": 0.29066653424160166,
+        "fraction_same_sampled_peak_index": 0.8038277511961722
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1737,
+        "resolved_reference_interior_peaks": 82,
+        "low_flat_or_boundary_reference_peaks": 1655,
+        "maximum_sampled_peak_time_error_over_tau": 0.28683925987047504,
+        "fraction_same_sampled_peak_index": 0.8414634146341463,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "abl",
+      "endpoint": "pulse-3",
+      "corrected": {
+        "candidate_receiver_pair_count": 3667,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 423,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 3244,
+        "maximum_sampled_peak_time_difference_over_tau": 2.986839259870475,
+        "fraction_same_sampled_peak_index": 0.7777777777777778
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1737,
+        "resolved_reference_interior_peaks": 84,
+        "low_flat_or_boundary_reference_peaks": 1653,
+        "maximum_sampled_peak_time_error_over_tau": 2.986839259870475,
+        "fraction_same_sampled_peak_index": 0.8333333333333334,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "myc",
+      "endpoint": "step",
+      "corrected": {
+        "candidate_receiver_pair_count": 816,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 30,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 786,
+        "maximum_sampled_peak_time_difference_over_tau": 1.3603972791592605,
+        "fraction_same_sampled_peak_index": 0.5666666666666667
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 408,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 408,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "myc",
+      "endpoint": "pulse-0.03",
+      "corrected": {
+        "candidate_receiver_pair_count": 816,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 59,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 757,
+        "maximum_sampled_peak_time_difference_over_tau": 0.028999999999999998,
+        "fraction_same_sampled_peak_index": 0.7796610169491526
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 408,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 408,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "myc",
+      "endpoint": "pulse-0.3",
+      "corrected": {
+        "candidate_receiver_pair_count": 816,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 59,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 757,
+        "maximum_sampled_peak_time_difference_over_tau": 0.299,
+        "fraction_same_sampled_peak_index": 0.7627118644067796
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 408,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 408,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "myc",
+      "endpoint": "pulse-3",
+      "corrected": {
+        "candidate_receiver_pair_count": 816,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 30,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 786,
+        "maximum_sampled_peak_time_difference_over_tau": 1.3603972791592605,
+        "fraction_same_sampled_peak_index": 0.5666666666666667
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 408,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 408,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "myh7",
+      "endpoint": "step",
+      "corrected": {
+        "candidate_receiver_pair_count": 5400,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 268,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 5132,
+        "maximum_sampled_peak_time_difference_over_tau": 4.242256654505776,
+        "fraction_same_sampled_peak_index": 0.7052238805970149
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 2700,
+        "resolved_reference_interior_peaks": 97,
+        "low_flat_or_boundary_reference_peaks": 2603,
+        "maximum_sampled_peak_time_error_over_tau": 6.38519395919828,
+        "fraction_same_sampled_peak_index": 0.5051546391752577,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "myh7",
+      "endpoint": "pulse-0.03",
+      "corrected": {
+        "candidate_receiver_pair_count": 5400,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 459,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 4941,
+        "maximum_sampled_peak_time_difference_over_tau": 0.02832561215462212,
+        "fraction_same_sampled_peak_index": 0.8474945533769063
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 2700,
+        "resolved_reference_interior_peaks": 188,
+        "low_flat_or_boundary_reference_peaks": 2512,
+        "maximum_sampled_peak_time_error_over_tau": 0.027196425343250827,
+        "fraction_same_sampled_peak_index": 0.7978723404255319,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "myh7",
+      "endpoint": "pulse-0.3",
+      "corrected": {
+        "candidate_receiver_pair_count": 5400,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 478,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 4922,
+        "maximum_sampled_peak_time_difference_over_tau": 0.2976390138583596,
+        "fraction_same_sampled_peak_index": 0.8284518828451883
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 2700,
+        "resolved_reference_interior_peaks": 191,
+        "low_flat_or_boundary_reference_peaks": 2509,
+        "maximum_sampled_peak_time_error_over_tau": 0.2966708695500833,
+        "fraction_same_sampled_peak_index": 0.7329842931937173,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "original-grid",
+      "target": "myh7",
+      "endpoint": "pulse-3",
+      "corrected": {
+        "candidate_receiver_pair_count": 5400,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 398,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 5002,
+        "maximum_sampled_peak_time_difference_over_tau": 2.9976390138583597,
+        "fraction_same_sampled_peak_index": 0.7989949748743719
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 2700,
+        "resolved_reference_interior_peaks": 141,
+        "low_flat_or_boundary_reference_peaks": 2559,
+        "maximum_sampled_peak_time_error_over_tau": 2.9966708695500834,
+        "fraction_same_sampled_peak_index": 0.6595744680851063,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "kras",
+      "endpoint": "pulse-0.03",
+      "corrected": {
+        "candidate_receiver_pair_count": 2268,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 0,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 2268,
+        "maximum_sampled_peak_time_difference_over_tau": null,
+        "fraction_same_sampled_peak_index": null
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1260,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 1260,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "kras",
+      "endpoint": "pulse-0.3",
+      "corrected": {
+        "candidate_receiver_pair_count": 2268,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 0,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 2268,
+        "maximum_sampled_peak_time_difference_over_tau": null,
+        "fraction_same_sampled_peak_index": null
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1260,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 1260,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "kras",
+      "endpoint": "pulse-3",
+      "corrected": {
+        "candidate_receiver_pair_count": 2268,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 1,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 2267,
+        "maximum_sampled_peak_time_difference_over_tau": 0.0027142648467592956,
+        "fraction_same_sampled_peak_index": 0.0
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1260,
+        "resolved_reference_interior_peaks": 2,
+        "low_flat_or_boundary_reference_peaks": 1258,
+        "maximum_sampled_peak_time_error_over_tau": 0.0027142648467592956,
+        "fraction_same_sampled_peak_index": 0.0,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "abl",
+      "endpoint": "pulse-0.03",
+      "corrected": {
+        "candidate_receiver_pair_count": 3667,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 1,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 3666,
+        "maximum_sampled_peak_time_difference_over_tau": 0.0010000000000000009,
+        "fraction_same_sampled_peak_index": 0.0
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1737,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 1737,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "abl",
+      "endpoint": "pulse-0.3",
+      "corrected": {
+        "candidate_receiver_pair_count": 3667,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 0,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 3667,
+        "maximum_sampled_peak_time_difference_over_tau": null,
+        "fraction_same_sampled_peak_index": null
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1737,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 1737,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "abl",
+      "endpoint": "pulse-3",
+      "corrected": {
+        "candidate_receiver_pair_count": 3667,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 1,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 3666,
+        "maximum_sampled_peak_time_difference_over_tau": 0.0010449453506211626,
+        "fraction_same_sampled_peak_index": 0.0
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 1737,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 1737,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "myc",
+      "endpoint": "pulse-0.03",
+      "corrected": {
+        "candidate_receiver_pair_count": 816,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 0,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 816,
+        "maximum_sampled_peak_time_difference_over_tau": null,
+        "fraction_same_sampled_peak_index": null
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 408,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 408,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "myc",
+      "endpoint": "pulse-0.3",
+      "corrected": {
+        "candidate_receiver_pair_count": 816,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 0,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 816,
+        "maximum_sampled_peak_time_difference_over_tau": null,
+        "fraction_same_sampled_peak_index": null
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 408,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 408,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "myc",
+      "endpoint": "pulse-3",
+      "corrected": {
+        "candidate_receiver_pair_count": 816,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 0,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 816,
+        "maximum_sampled_peak_time_difference_over_tau": null,
+        "fraction_same_sampled_peak_index": null
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 408,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 408,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "myh7",
+      "endpoint": "pulse-0.03",
+      "corrected": {
+        "candidate_receiver_pair_count": 5400,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 2,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 5398,
+        "maximum_sampled_peak_time_difference_over_tau": 0.0010000000000000009,
+        "fraction_same_sampled_peak_index": 0.0
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 2700,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 2700,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "myh7",
+      "endpoint": "pulse-0.3",
+      "corrected": {
+        "candidate_receiver_pair_count": 5400,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 2,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 5398,
+        "maximum_sampled_peak_time_difference_over_tau": 0.0011874591753432973,
+        "fraction_same_sampled_peak_index": 0.0
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 2700,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 2700,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    },
+    {
+      "grid": "event-aligned",
+      "target": "myh7",
+      "endpoint": "pulse-3",
+      "corrected": {
+        "candidate_receiver_pair_count": 5400,
+        "unique_interior_reference_sampled_maxima_under_fixed_tie_rule": 2,
+        "low_signal_tied_or_boundary_reference_sampled_maxima": 5398,
+        "maximum_sampled_peak_time_difference_over_tau": 0.0011874591753433528,
+        "fraction_same_sampled_peak_index": 0.0
+      },
+      "withdrawn_historical_peak_metrics": {
+        "eligible_source_receiver_pairs": 2700,
+        "resolved_reference_interior_peaks": 0,
+        "low_flat_or_boundary_reference_peaks": 2700,
+        "maximum_sampled_peak_time_error_over_tau": null,
+        "fraction_same_sampled_peak_index": null,
+        "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+      }
+    }
+  ]
+}

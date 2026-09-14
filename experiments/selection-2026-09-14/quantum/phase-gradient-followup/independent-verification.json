@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "decision": "PASS_SCOPED_FOLLOWUP_HALF_T_GATE",
+  "gradient_state_distance_from_emitted_gates_70_digits": "0.00000003685459066318622435011119772353391623976775509948947576437536122768697",
+  "gradient_distance_reconstruction_error": "2.457137337811342321990671830994719693701527094296789312870650920830349e-64",
+  "full_expected_T_reconstructed": 10845685943780.488,
+  "candidate_to_strongest_evaluated_dense_ratio": 0.30754321393683964,
+  "half_gate": true,
+  "response_error_upper": 2.1024540345952048e-05,
+  "full_statevector_executed": false,
+  "maximum_order_complete_circuit_executed": false,
+  "wall_seconds": 1.3005590829998255,
+  "source_sha256": "1404a54ec66f06634e7bdb7d20603a60fcae25c841c7900b7840123b00a03b05"
+}

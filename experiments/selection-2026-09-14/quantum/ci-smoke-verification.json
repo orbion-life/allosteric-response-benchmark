@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Relocated source-only directory contains exactly the smoke test, production lookup source and requirements. No archived input/results, synthesis module or runtime copied.",
+  "returncode": 0,
+  "wall_seconds": 0.5049123750068247,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"Source-only tiny exact semantic tests; no cost or full-size execution claim.\",\n  \"errors\": {\n    \"clean_lookup_with_swap\": 0.0,\n    \"dirty_echo_restores_arbitrary_workspace_and_phase\": 0.0,\n    \"signed_rotation_and_clean_uncompute\": 2.4492935982947064e-16\n  }\n}\n",
+  "stderr": "",
+  "source_hashes": {
+    "ci_smoke.py": "eb893a19e49ddbe5aeb286a621c9c83462847766b29b9c18df536f93e7ddb60c",
+    "select_swap.py": "b0669ef703dd2a7bc5154f2359ef816326bdade52c52fe051420fe89f5d4d311",
+    "requirements-ci.txt": "4154dcfff08219e9847d33dd0fdbb53e6e262f4536e35faa8151f10f9a636c8b"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-09-14T09:57:05.673320+00:00",
+  "status": "FROZEN_BEFORE_FOLLOWUP_TESTS",
+  "files": {
+    "protocol.json": "851491765e6bf8763696e0370a24dee591db734b73580d991ab71ce20e260ae2",
+    "gradient.py": "d79ec64cd289b07d1acc819fbb91eb398427ec3d3c84accff806e8f92b9c6cce",
+    "test_semantics.py": "20a4104b22c3f65a979a38da23a7a7b3a939d8b895676ef4019a0e81eea47cb4"
+  }
+}

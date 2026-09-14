@@ -1,0 +1,19 @@
+{
+  "quadrature_expected_energy_max_abs": 1.5543122344752192e-15,
+  "gradient_finite_difference_max_abs": 2.9765645503943006e-10,
+  "hessian_action_finite_difference_max_abs": 1.6793539892034914e-09,
+  "arbitrary_joint_gaussian_wick_max_abs": 1.0658141036401503e-14,
+  "joint_coordinate_rotation_max_abs": 1.7763568394002505e-14,
+  "harmonic_limit_covariance_max_abs": 0.0,
+  "two_initializations_covariance_max_abs": 2.596811654598241e-13,
+  "final_gradient_frobenius": 3.7821042688847626e-13,
+  "passed": true,
+  "cpu_gpu_max_abs": {
+    "Y": 2.220446049250313e-16,
+    "Sigma": 2.220446049250313e-16,
+    "covariances": 6.106226635438361e-16,
+    "means": 6.106226635438361e-16
+  },
+  "cpu_gpu_passed": true,
+  "gpu_fit_gradient_frobenius": 3.7823709999105207e-13
+}

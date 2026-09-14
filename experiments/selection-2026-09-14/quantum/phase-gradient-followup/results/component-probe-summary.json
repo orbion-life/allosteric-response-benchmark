@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "scope": "Actual compiled 69-qubit Clifford+T rotation bank, deterministic noiseless MPS component probes only; no full 182-qubit estimator or sampling claim.",
+  "MPS_maximum_bond_setting": 256,
+  "MPS_truncation_threshold": 1e-20,
+  "reporting_correction": "The separate low-word raw receipt inherited a four-input scope phrase. Its protocol and cases list contain exactly one additional fixed input; the primary probe contains four. Raw files are preserved.",
+  "records": [
+    {
+      "path": "phase-gradient-followup/results/full-bank-MPS-probes.json",
+      "sha256": "4fc220d0e8476c4f4648533f31bf16bad3bd9e33ed13ae40d90f03e7ac59557a",
+      "bytes": 41359674,
+      "status": "PASS",
+      "case_count": 4,
+      "maximum_expectation_error": 2.4376550607842293e-11,
+      "maximum_observed_MPS_bond": 4,
+      "wall_seconds": 1.6002394579700194,
+      "cases": [
+        {
+          "case": "zero",
+          "word": 0,
+          "coherent_word": false,
+          "maximum_expectation_error": 2.4433788325950445e-12
+        },
+        {
+          "case": "positive_pi_over_two",
+          "word": 1073741824,
+          "coherent_word": false,
+          "maximum_expectation_error": 2.4376550607842293e-11
+        },
+        {
+          "case": "negative_pi_over_two",
+          "word": 7516192768,
+          "coherent_word": false,
+          "maximum_expectation_error": 1.7602237525694322e-11
+        },
+        {
+          "case": "coherent_two_pi_sign",
+          "word": 0,
+          "coherent_word": true,
+          "maximum_expectation_error": 2.277733557320971e-12
+        }
+      ]
+    },
+    {
+      "path": "phase-gradient-followup/results/low-word-MPS-probe.json",
+      "sha256": "bb35129977bae9b65679862338d0606d31591d0cb979f908c809f8d86592021b",
+      "bytes": 4145314,
+      "status": "PASS",
+      "case_count": 1,
+      "maximum_expectation_error": 1.559863349598345e-12,
+      "maximum_observed_MPS_bond": 7,
+      "wall_seconds": 0.5644378329743631,
+      "cases": [
+        {
+          "case": "low_and_high_bits",
+          "word": 4886718345,
+          "coherent_word": false,
+          "maximum_expectation_error": 1.559863349598345e-12
+        }
+      ]
+    }
+  ]
+}

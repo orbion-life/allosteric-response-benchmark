@@ -1,0 +1,148 @@
+{
+  "scope": "Input provenance. Nonpublished table and executable hashes identify executed sources without redistributing them.",
+  "files": [
+    {
+      "local": "vendor/gaussian_protein.py",
+      "sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5",
+      "bytes": 17168,
+      "publish": true,
+      "source_release": "https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.6.0",
+      "replay_dependency": "Exact source is included locally; the release is provenance, not a runtime dependency."
+    },
+    {
+      "local": "vendor/run_pilot.py",
+      "sha256": "ec5ca6691fb0568d2ca971bf61b3a9b631ed63d7b6692f503a3ba705e343e053",
+      "bytes": 10676,
+      "publish": true,
+      "source_release": "https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.6.0",
+      "replay_dependency": "Exact source is included locally; the release is provenance, not a runtime dependency."
+    },
+    {
+      "local": "vendor/prepare.py",
+      "sha256": "3238b9a09773c21b51b427bedfad2b05fdeb53c6722681c6c170d40944428a8b",
+      "bytes": 9455,
+      "publish": true,
+      "source_release": "https://github.com/orbion-life/allosteric-response-benchmark/releases/tag/v0.6.0",
+      "replay_dependency": "Exact source is included locally; the release is provenance, not a runtime dependency."
+    },
+    {
+      "local": "inputs/1GFC.cif",
+      "sha256": "5e1d4bb282b33ea1571175c00d200d7321be693556b42139ff1f8508e003e5bd",
+      "bytes": 120812,
+      "publish": true,
+      "primary_source": "https://files.rcsb.org/download/1GFC.cif"
+    },
+    {
+      "local": "inputs/1GFC.pdb",
+      "sha256": "c77716efc5c68c3383019989f0be4002f58d815f93f96cb2d20b02729c645320",
+      "bytes": 90801,
+      "publish": true,
+      "primary_source": "https://files.rcsb.org/download/1GFC.pdb"
+    },
+    {
+      "local": "inputs/1GFD.cif",
+      "sha256": "dd5e0d15f2aa1e53f5312679a3b8d9bde1103c767789aac3e2f14a134cf7b854",
+      "bytes": 1657504,
+      "publish": true,
+      "primary_source": "https://files.rcsb.org/download/1GFD.cif"
+    },
+    {
+      "local": "inputs/1GFD.pdb",
+      "sha256": "1a6424cd93b530e0f1fc1318f1683acf19341a958daf62f697d8bfdf7e92f2eb",
+      "bytes": 1510083,
+      "publish": true,
+      "primary_source": "https://files.rcsb.org/download/1GFD.pdb"
+    },
+    {
+      "local": "inputs/assay-domain-input.npz",
+      "sha256": "16e0674281a44f7787a48d656505a38c3124b5005c92f363100b9a62de7e2499",
+      "bytes": 4576,
+      "publish": true,
+      "derivation": "Frozen prior apo qualification; included mapping, primary structures, validation receipt and verify_inputs.py document reconstruction."
+    },
+    {
+      "local": "inputs/assay-mapping.csv",
+      "sha256": "6ae1315f8f44075dc485529dddb2f937d0922032fda7c77cf9a8fe1e0ad9c532",
+      "bytes": 3487,
+      "publish": true,
+      "derivation": "Frozen prior apo qualification; included mapping, primary structures, validation receipt and verify_inputs.py document reconstruction."
+    },
+    {
+      "local": "inputs/apo-selection-result.json",
+      "sha256": "4fd7381dfe80d6a40d8d496d56c89aeb9fe9d74699d063357c771b1037cd2a38",
+      "bytes": 2298,
+      "publish": true,
+      "derivation": "Frozen prior apo qualification; included mapping, primary structures, validation receipt and verify_inputs.py document reconstruction."
+    },
+    {
+      "local": "inputs/wwpdb-validation.json",
+      "sha256": "d80321e6dec7ea2f9965cb2ff49111597a8abf3cd37ec62335deb5bf82de1c9d",
+      "bytes": 7592,
+      "publish": true,
+      "derivation": "Frozen prior apo qualification; included mapping, primary structures, validation receipt and verify_inputs.py document reconstruction."
+    },
+    {
+      "local": "local-only/faure-table7.csv",
+      "sha256": "a7828427cd25ab78b9644acf4dab882ca2a575ac8af7d1ed3f981be567017d2b",
+      "bytes": 898378,
+      "publish": false,
+      "primary_source": "https://www.nature.com/articles/s41586-022-04586-4",
+      "raw_table_download": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-022-04586-4/MediaObjects/41586_2022_4586_MOESM10_ESM.xlsx"
+    },
+    {
+      "local": "local-only/supplementary-table-7.xlsx",
+      "sha256": "58abcbd1a08ad9fed8778e3b3e8672bbca84ac5a576f1b0530ddd9f5164fbce2",
+      "bytes": 706298,
+      "publish": false,
+      "primary_source": "https://www.nature.com/articles/s41586-022-04586-4",
+      "raw_table_download": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-022-04586-4/MediaObjects/41586_2022_4586_MOESM10_ESM.xlsx"
+    },
+    {
+      "local": "source/ohm-upstream-462a3b1.tar.gz",
+      "sha256": "395dc1c3e561e21a65a8a2929331b3eb719ae3d66dba64dfe4c879589da140d5",
+      "bytes": 5718438,
+      "publish": true,
+      "primary_source": "https://bitbucket.org/dokhlab/ohm",
+      "commit": "462a3b1318e24ebe2061137fe88af719ef89c0ae"
+    },
+    {
+      "local": "source/ohm-gcc15-portability.patch",
+      "sha256": "d558b81d4870a6ad037958a36b1cc87cc06c50b606f787c0a696f9eb8f9f3b57",
+      "bytes": 972,
+      "publish": true,
+      "primary_source": "https://bitbucket.org/dokhlab/ohm",
+      "commit": "462a3b1318e24ebe2061137fe88af719ef89c0ae"
+    },
+    {
+      "local": "source/ohm-GPL-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "publish": true,
+      "primary_source": "https://bitbucket.org/dokhlab/ohm",
+      "commit": "462a3b1318e24ebe2061137fe88af719ef89c0ae"
+    },
+    {
+      "local": "ohm/bin/contacts",
+      "sha256": "c97cb5c211947128db6913eb8efeb541afddb919b9d0d573ecd81e1e53b04e7f",
+      "bytes": 344184,
+      "publish": false,
+      "primary_source": "https://bitbucket.org/dokhlab/ohm",
+      "commit": "462a3b1318e24ebe2061137fe88af719ef89c0ae"
+    },
+    {
+      "local": "ohm/bin/diffuse",
+      "sha256": "da748b409771ae1c134ffb680f17bffe64645500500206b048b8a764a1433cf0",
+      "bytes": 424568,
+      "publish": false,
+      "primary_source": "https://bitbucket.org/dokhlab/ohm",
+      "commit": "462a3b1318e24ebe2061137fe88af719ef89c0ae"
+    },
+    {
+      "local": "inputs/2VWF.cif",
+      "sha256": "c169141057808034112f3ad0a9fd8a248618f8f8ca6f5ed6a7bda18a79e24af0",
+      "bytes": 112338,
+      "publish": true,
+      "primary_source": "https://files.rcsb.org/download/2VWF.cif"
+    }
+  ]
+}

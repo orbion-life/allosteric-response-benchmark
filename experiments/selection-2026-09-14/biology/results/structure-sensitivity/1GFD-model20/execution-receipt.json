@@ -1,0 +1,76 @@
+{
+  "N": 56,
+  "contacts": 465,
+  "internal_dimensions": 162,
+  "null_modes": 6,
+  "tau": 5.457958334506339,
+  "candidate_count": 21,
+  "build_seconds": 0.01841362495906651,
+  "gaussian_numerical_checks": {
+    "engineering_status": "COMPLETE",
+    "scientific_status": "PASS",
+    "scope": "Gaussian-surrogate fit and complete exact OU moment computation only",
+    "nonlinear_response_fidelity": "NOT_EVALUATED",
+    "biological_benefit": "NOT_EVALUATED",
+    "quantum_advantage": "NOT_EVALUATED",
+    "fit_converged": true,
+    "covariance_symmetry_max_abs": 3.469446951953614e-18,
+    "minimum_static_covariance_eigenvalue": 0.001938502344004811,
+    "all_response_entries_finite": true,
+    "top5_by_time": [
+      [
+        178,
+        188,
+        211,
+        202,
+        197
+      ],
+      [
+        178,
+        188,
+        211,
+        202,
+        197
+      ],
+      [
+        178,
+        188,
+        211,
+        202,
+        197
+      ]
+    ]
+  },
+  "gaussian_cost": {
+    "backend": "numpy",
+    "numpy_version": "2.4.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "total_seconds_including_load_fit_covariance_readout_save": 1.0172033329727128,
+    "fit_seconds": 0.045458708016667515,
+    "moment_timings": [
+      {
+        "time": 0.0,
+        "seconds": 0.23221208300674334
+      },
+      {
+        "time": 0.5457958334506339,
+        "seconds": 0.23245099995983765
+      },
+      {
+        "time": 5.457958334506339,
+        "seconds": 0.234475500008557
+      },
+      {
+        "time": 54.579583345063384,
+        "seconds": 0.23577254201518372
+      }
+    ],
+    "peak_process_rss_platform_units": 257261568,
+    "rss_units": "bytes on macOS; KiB on Linux",
+    "block_edges": 32,
+    "dense_covariance_parameter_hessian_allocated": false,
+    "source_sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+  },
+  "seconds": 1.5253038340015337,
+  "model_sha256": "97ea20a43ba6604c6f5759d46c4f3013e553078991d6711774ce17571f54cf61"
+}

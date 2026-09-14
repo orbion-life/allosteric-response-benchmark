@@ -1,0 +1,76 @@
+{
+  "N": 56,
+  "contacts": 450,
+  "internal_dimensions": 162,
+  "null_modes": 6,
+  "tau": 6.657365575300916,
+  "candidate_count": 21,
+  "build_seconds": 0.01806970901088789,
+  "gaussian_numerical_checks": {
+    "engineering_status": "COMPLETE",
+    "scientific_status": "PASS",
+    "scope": "Gaussian-surrogate fit and complete exact OU moment computation only",
+    "nonlinear_response_fidelity": "NOT_EVALUATED",
+    "biological_benefit": "NOT_EVALUATED",
+    "quantum_advantage": "NOT_EVALUATED",
+    "fit_converged": true,
+    "covariance_symmetry_max_abs": 5.204170427930421e-18,
+    "minimum_static_covariance_eigenvalue": 0.0018710458976013843,
+    "all_response_entries_finite": true,
+    "top5_by_time": [
+      [
+        178,
+        202,
+        197,
+        183,
+        185
+      ],
+      [
+        178,
+        202,
+        197,
+        183,
+        185
+      ],
+      [
+        178,
+        202,
+        197,
+        183,
+        185
+      ]
+    ]
+  },
+  "gaussian_cost": {
+    "backend": "numpy",
+    "numpy_version": "2.4.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "total_seconds_including_load_fit_covariance_readout_save": 0.9308004169724882,
+    "fit_seconds": 0.0513957500224933,
+    "moment_timings": [
+      {
+        "time": 0.0,
+        "seconds": 0.21479487500619143
+      },
+      {
+        "time": 0.6657365575300916,
+        "seconds": 0.2117819999693893
+      },
+      {
+        "time": 6.657365575300916,
+        "seconds": 0.2131751659908332
+      },
+      {
+        "time": 66.57365575300916,
+        "seconds": 0.21233720798045397
+      }
+    ],
+    "peak_process_rss_platform_units": 221544448,
+    "rss_units": "bytes on macOS; KiB on Linux",
+    "block_edges": 32,
+    "dense_covariance_parameter_hessian_allocated": false,
+    "source_sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+  },
+  "seconds": 1.4075340410345234,
+  "model_sha256": "8b1e08baf3fa1445e15743f761e63fb50292eaca3879b14ff41636a22799dad5"
+}

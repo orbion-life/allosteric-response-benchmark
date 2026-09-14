@@ -1,0 +1,8 @@
+{
+  "recorded_utc": "2026-09-14T09:46:07.897830+00:00",
+  "status": "FROZEN_BEFORE_PROTEIN_ACCOUNTING",
+  "source_sha256": "ca0b19ac9ffa92b50ab14290bbde6b993a25d4e8239646f27604915717432057",
+  "scope": "Same four common-revision saved operators; actual factor and observable angle/word arrays. Same frozen SELECT\u2013SWAP lambda rule, nearest4pi rounding,1e-6angle and1e-6synthesis allowances. Actual highprecision rotationbank synthesis; all other gates are literalconstruction uppercounts, not compiled proteincircuits.",
+  "missing_polynomials": "Retain prior4096degreecap. Use4096only to state conditional precision throughthatlimit; do not assign expectedorder or fullcost to an unadmitted polynomial.",
+  "readout": "Allunorderedentries atthree originaltimes,\u03b4=.05; no amplitudeestimation, selectedoutput, newnormalization or modelvariant."
+}

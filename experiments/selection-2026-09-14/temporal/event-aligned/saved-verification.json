@@ -1,0 +1,140 @@
+{
+  "created_utc": "2026-09-14T09:57:55.006125+00:00",
+  "scope": "Implementation verification does not turn scientific temporal failures into passes",
+  "protocol": {
+    "sealed_sources": true,
+    "prior_protocol": true,
+    "new_and_old_disjoint": true,
+    "same_error_allocation": true,
+    "no_tuning": true,
+    "fixed_lag_rule": true,
+    "exact_time_construction": true
+  },
+  "targets": [
+    {
+      "target": "kras",
+      "implementation_checks_pass": true,
+      "input_hashes_pass": true,
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 0.3,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 3.0,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        }
+      ]
+    },
+    {
+      "target": "abl",
+      "implementation_checks_pass": true,
+      "input_hashes_pass": true,
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 0.3,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 3.0,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        }
+      ]
+    },
+    {
+      "target": "myc",
+      "implementation_checks_pass": true,
+      "input_hashes_pass": true,
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 0.3,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 3.0,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        }
+      ]
+    },
+    {
+      "target": "myh7",
+      "implementation_checks_pass": true,
+      "input_hashes_pass": true,
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 0.3,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 3.0,
+          "raw_full_identity_max_abs": 0.0,
+          "errors_agree": true,
+          "sign_count_agrees": true,
+          "rank_arrays_agree": true,
+          "scientific_all_times_pass": false
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

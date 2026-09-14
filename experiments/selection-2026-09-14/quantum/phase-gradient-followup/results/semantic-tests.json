@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "wall_seconds": 3.7296212499495596,
+  "cases": [
+    {
+      "bits": 1,
+      "adder_error": 3.663991459245246e-15,
+      "signed_Ry_and_gradient_return_error": 5.109700153011764e-15,
+      "metadata": {
+        "adder_boolean_ops": {
+          "cx": 4,
+          "ccx": 2
+        },
+        "word_bits": 1,
+        "adder_helper_qubits": 1,
+        "control_helper_qubits": 1
+      },
+      "bank": {
+        "qubits": 5,
+        "operations": 218,
+        "ops": {
+          "cx": 84,
+          "t": 50,
+          "tdg": 50,
+          "h": 30,
+          "x": 2,
+          "sdg": 1,
+          "s": 1
+        },
+        "T": 100,
+        "CX": 84,
+        "depth": 149,
+        "T_depth": 58
+      },
+      "adder": {
+        "qubits": 5,
+        "operations": 106,
+        "ops": {
+          "cx": 42,
+          "t": 28,
+          "tdg": 22,
+          "h": 14
+        },
+        "T": 50,
+        "CX": 42,
+        "depth": 72,
+        "T_depth": 29
+      }
+    },
+    {
+      "bits": 2,
+      "adder_error": 7.327945053656237e-15,
+      "signed_Ry_and_gradient_return_error": 7.216479803145956e-15,
+      "metadata": {
+        "adder_boolean_ops": {
+          "cx": 8,
+          "ccx": 4
+        },
+        "word_bits": 2,
+        "adder_helper_qubits": 1,
+        "control_helper_qubits": 1
+      },
+      "bank": {
+        "qubits": 7,
+        "operations": 450,
+        "ops": {
+          "cx": 180,
+          "t": 104,
+          "tdg": 104,
+          "h": 58,
+          "x": 2,
+          "sdg": 1,
+          "s": 1
+        },
+        "T": 208,
+        "CX": 180,
+        "depth": 295,
+        "T_depth": 116
+      },
+      "adder": {
+        "qubits": 7,
+        "operations": 222,
+        "ops": {
+          "cx": 90,
+          "t": 58,
+          "tdg": 46,
+          "h": 28
+        },
+        "T": 104,
+        "CX": 90,
+        "depth": 145,
+        "T_depth": 58
+      }
+    },
+    {
+      "bits": 3,
+      "adder_error": 1.1546712839249016e-14,
+      "signed_Ry_and_gradient_return_error": 7.438546047598636e-15,
+      "metadata": {
+        "adder_boolean_ops": {
+          "cx": 12,
+          "ccx": 6
+        },
+        "word_bits": 3,
+        "adder_helper_qubits": 1,
+        "control_helper_qubits": 1
+      },
+      "bank": {
+        "qubits": 9,
+        "operations": 682,
+        "ops": {
+          "cx": 276,
+          "t": 158,
+          "tdg": 158,
+          "h": 86,
+          "x": 2,
+          "sdg": 1,
+          "s": 1
+        },
+        "T": 316,
+        "CX": 276,
+        "depth": 445,
+        "T_depth": 176
+      },
+      "adder": {
+        "qubits": 9,
+        "operations": 338,
+        "ops": {
+          "cx": 138,
+          "t": 88,
+          "tdg": 70,
+          "h": 42
+        },
+        "T": 158,
+        "CX": 138,
+        "depth": 220,
+        "T_depth": 88
+      }
+    }
+  ]
+}

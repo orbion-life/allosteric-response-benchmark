@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-14T09:31:11.799916+00:00",
+  "scope": "Offline implementation and provenance audit; a passing audit does not change scientific failures",
+  "protocol": {
+    "sealed_sources": true,
+    "targets": true,
+    "log_grid_contained": true,
+    "pulse_times_complete": true,
+    "strictly_increasing": true,
+    "zero_included": true,
+    "fixed_error": true,
+    "no_refit": true,
+    "tiny_model_dependency": true
+  },
+  "tiny_field": {
+    "central_response": true,
+    "receipt_metrics": true,
+    "independent_forward": true,
+    "pulse_gate": true
+  },
+  "passed": true
+}

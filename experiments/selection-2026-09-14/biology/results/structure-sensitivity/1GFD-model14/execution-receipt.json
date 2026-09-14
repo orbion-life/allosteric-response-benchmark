@@ -1,0 +1,76 @@
+{
+  "N": 56,
+  "contacts": 450,
+  "internal_dimensions": 162,
+  "null_modes": 6,
+  "tau": 10.061358444405345,
+  "candidate_count": 21,
+  "build_seconds": 0.018496915989089757,
+  "gaussian_numerical_checks": {
+    "engineering_status": "COMPLETE",
+    "scientific_status": "PASS",
+    "scope": "Gaussian-surrogate fit and complete exact OU moment computation only",
+    "nonlinear_response_fidelity": "NOT_EVALUATED",
+    "biological_benefit": "NOT_EVALUATED",
+    "quantum_advantage": "NOT_EVALUATED",
+    "fit_converged": true,
+    "covariance_symmetry_max_abs": 1.734723475976807e-18,
+    "minimum_static_covariance_eigenvalue": 0.0020027548406133136,
+    "all_response_entries_finite": true,
+    "top5_by_time": [
+      [
+        178,
+        188,
+        202,
+        183,
+        181
+      ],
+      [
+        178,
+        188,
+        202,
+        183,
+        181
+      ],
+      [
+        178,
+        188,
+        202,
+        183,
+        181
+      ]
+    ]
+  },
+  "gaussian_cost": {
+    "backend": "numpy",
+    "numpy_version": "2.4.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "total_seconds_including_load_fit_covariance_readout_save": 0.9402857920504175,
+    "fit_seconds": 0.05848725000396371,
+    "moment_timings": [
+      {
+        "time": 0.0,
+        "seconds": 0.21294620796106756
+      },
+      {
+        "time": 1.0061358444405346,
+        "seconds": 0.2177400829968974
+      },
+      {
+        "time": 10.061358444405345,
+        "seconds": 0.21514745900640264
+      },
+      {
+        "time": 100.61358444405344,
+        "seconds": 0.2084069999982603
+      }
+    ],
+    "peak_process_rss_platform_units": 242696192,
+    "rss_units": "bytes on macOS; KiB on Linux",
+    "block_edges": 32,
+    "dense_covariance_parameter_hessian_allocated": false,
+    "source_sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+  },
+  "seconds": 1.433917084010318,
+  "model_sha256": "783b270bbcd7d43fbd3692b17c8d3a51c9b7ea729ea136cf1d3df3726e6031f1"
+}

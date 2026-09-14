@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "source_xlsx_sha256": "58abcbd1a08ad9fed8778e3b3e8672bbca84ac5a576f1b0530ddd9f5164fbce2",
+  "valid_common_substitutions": 756,
+  "independent_Decimal_site_aggregate_max_abs_error": 4.440892098500626e-16,
+  "scope": "Workbook parsed independently of production CSV and pandas aggregation. Publisher workbook is local-only and not packaged for redistribution."
+}

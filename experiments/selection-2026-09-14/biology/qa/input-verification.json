@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "apo_coordinate_max_abs_error_A": 9.30786132613548e-07,
+  "receiver_canonical": [
+    165,
+    167,
+    168,
+    170,
+    171,
+    172,
+    174,
+    190,
+    192,
+    193,
+    195,
+    204,
+    206,
+    208,
+    209
+  ],
+  "scope": "Sequence, deposited apo coordinates and independently recomputed 2VWF/GAB2 contact mask; P212A reference and structure-quality caveats remain."
+}

@@ -1,0 +1,304 @@
+{
+  "created_utc": "2026-09-14T09:57:54.870855+00:00",
+  "scope": "Separately frozen developmental event-aligned characterization; original grid retained unchanged",
+  "rows": [
+    {
+      "target": "kras",
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "max_absolute_error": 0.03772668436390764,
+          "worst_post_removal_lag_over_tau": 0.0110831095525624,
+          "passing_times": 35,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 14,
+          "sign_eligible_entries": 105452,
+          "high_signal_times": 25,
+          "high_signal_min_top5_membership": 0.8,
+          "high_signal_identical_top5_order_times": 3,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1260,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 1260,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 0.3,
+          "max_absolute_error": 0.046568022372467405,
+          "worst_post_removal_lag_over_tau": 0.0110831095525624,
+          "passing_times": 36,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 14,
+          "sign_eligible_entries": 142689,
+          "high_signal_times": 28,
+          "high_signal_min_top5_membership": 0.8,
+          "high_signal_identical_top5_order_times": 13,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1260,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 1260,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 3.0,
+          "max_absolute_error": 0.046522206046508294,
+          "worst_post_removal_lag_over_tau": 0.0110831095525624,
+          "passing_times": 36,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 10,
+          "sign_eligible_entries": 144476,
+          "high_signal_times": 28,
+          "high_signal_min_top5_membership": 0.8,
+          "high_signal_identical_top5_order_times": 13,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1260,
+            "resolved_reference_interior_peaks": 2,
+            "low_flat_or_boundary_reference_peaks": 1258,
+            "maximum_sampled_peak_time_error_over_tau": 0.0027142648467592956,
+            "fraction_same_sampled_peak_index": 0.0,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        }
+      ],
+      "independent_exponential_max_abs": 9.325873406851315e-14,
+      "GPU_seconds": 87.54742827800001,
+      "GPU_saved_CPU_parity": 2.6201263381153694e-14
+    },
+    {
+      "target": "abl",
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "max_absolute_error": 0.05850320093657577,
+          "worst_post_removal_lag_over_tau": 0.003329130449916673,
+          "passing_times": 39,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 82,
+          "sign_eligible_entries": 133139,
+          "high_signal_times": 22,
+          "high_signal_min_top5_membership": 0.4,
+          "high_signal_identical_top5_order_times": 6,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1737,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 1737,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 0.3,
+          "max_absolute_error": 0.059052830393489755,
+          "worst_post_removal_lag_over_tau": 0.003329130449916673,
+          "passing_times": 39,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 134,
+          "sign_eligible_entries": 154921,
+          "high_signal_times": 25,
+          "high_signal_min_top5_membership": 0.4,
+          "high_signal_identical_top5_order_times": 10,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1737,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 1737,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 3.0,
+          "max_absolute_error": 0.0590525310095559,
+          "worst_post_removal_lag_over_tau": 0.003329130449916673,
+          "passing_times": 39,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 130,
+          "sign_eligible_entries": 156080,
+          "high_signal_times": 26,
+          "high_signal_min_top5_membership": 0.6,
+          "high_signal_identical_top5_order_times": 11,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1737,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 1737,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        }
+      ],
+      "independent_exponential_max_abs": 7.252853505598084e-14,
+      "GPU_seconds": 75.54821150600002,
+      "GPU_saved_CPU_parity": 2.298161660974074e-14
+    },
+    {
+      "target": "myc",
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "max_absolute_error": 0.0197916197057121,
+          "worst_post_removal_lag_over_tau": 0.001,
+          "passing_times": 49,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 46,
+          "sign_eligible_entries": 5448,
+          "high_signal_times": 8,
+          "high_signal_min_top5_membership": 0.4,
+          "high_signal_identical_top5_order_times": 1,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 408,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 408,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 0.3,
+          "max_absolute_error": 0.01986716974344135,
+          "worst_post_removal_lag_over_tau": 0.001,
+          "passing_times": 49,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 48,
+          "sign_eligible_entries": 5548,
+          "high_signal_times": 8,
+          "high_signal_min_top5_membership": 0.4,
+          "high_signal_identical_top5_order_times": 1,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 408,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 408,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 3.0,
+          "max_absolute_error": 0.01986716974854395,
+          "worst_post_removal_lag_over_tau": 0.001,
+          "passing_times": 49,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 48,
+          "sign_eligible_entries": 5548,
+          "high_signal_times": 8,
+          "high_signal_min_top5_membership": 0.4,
+          "high_signal_identical_top5_order_times": 1,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 408,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 408,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        }
+      ],
+      "independent_exponential_max_abs": 1.8791934154605006e-16,
+      "GPU_seconds": 41.729331675,
+      "GPU_saved_CPU_parity": 1.1657341758564144e-14
+    },
+    {
+      "target": "myh7",
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "max_absolute_error": 0.06523291948854565,
+          "worst_post_removal_lag_over_tau": 0.001,
+          "passing_times": 43,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 2406,
+          "sign_eligible_entries": 166590,
+          "high_signal_times": 14,
+          "high_signal_min_top5_membership": 0.6,
+          "high_signal_identical_top5_order_times": 1,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 2700,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 2700,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 0.3,
+          "max_absolute_error": 0.06545953732949777,
+          "worst_post_removal_lag_over_tau": 0.001,
+          "passing_times": 43,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 2508,
+          "sign_eligible_entries": 179821,
+          "high_signal_times": 16,
+          "high_signal_min_top5_membership": 0.6,
+          "high_signal_identical_top5_order_times": 1,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 2700,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 2700,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 3.0,
+          "max_absolute_error": 0.06545953640475433,
+          "worst_post_removal_lag_over_tau": 0.001,
+          "passing_times": 43,
+          "total_times": 61,
+          "all_times_pass": false,
+          "sign_disagreements": 2526,
+          "sign_eligible_entries": 180149,
+          "high_signal_times": 16,
+          "high_signal_min_top5_membership": 0.6,
+          "high_signal_identical_top5_order_times": 1,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 2700,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 2700,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        }
+      ],
+      "independent_exponential_max_abs": 2.920034192606868e-14,
+      "GPU_seconds": 195.80913368900002,
+      "GPU_saved_CPU_parity": 3.064215547965432e-14
+    }
+  ],
+  "raw_full_kernel_rule": "180 newly evaluated times plus 64 reused and hash-verified prior kernel times; old full-kernel arrays are immutable",
+  "all_pulse_curves_pass": false
+}

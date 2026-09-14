@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-09-14T09:36:12.665111+00:00",
+  "scope": "Verification and reporting tools; these do not alter frozen experiment decisions",
+  "files": [
+    {
+      "file": "verify.py",
+      "sha256": "6fd2da615c80a775e10405a8b82720329ca14497d899899937f74f27d9c4d155"
+    },
+    {
+      "file": "summarize.py",
+      "sha256": "5e9fca22ae950964ec399554f8e3256d8c0ead23db13d1577f3ac4c070a86a9f"
+    },
+    {
+      "file": "download.py",
+      "sha256": "f514c8e1a5308023c116f8ae6bd39df6ebcd85a2c01ba1433f2850e970e45851"
+    }
+  ]
+}

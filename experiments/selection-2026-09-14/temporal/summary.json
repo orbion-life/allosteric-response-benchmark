@@ -1,0 +1,440 @@
+{
+  "created_utc": "2026-09-14T09:38:14.810723+00:00",
+  "status": "COMPLETE",
+  "scope": "Dense fixed-operator Gaussian numerical characterization, not fresh temporal holdout, nonlinear fidelity or biological validation",
+  "observation_times": 74,
+  "full_kernel_times": 173,
+  "rows": [
+    {
+      "target": "kras",
+      "rank": 347,
+      "step": {
+        "duration_over_tau": null,
+        "max_absolute_error": 0.04652220604637958,
+        "worst_time_over_tau": 0.0110831095525624,
+        "passing_times": 46,
+        "total_times": 74,
+        "max_error_strictly_after_removal": null,
+        "sign_disagreements": 0,
+        "sign_eligible_entries": 487252,
+        "all_top5_order_identical_times": 71,
+        "high_signal_times": 73,
+        "high_signal_min_top5_membership": 1.0,
+        "high_signal_identical_top5_order_times": 70,
+        "high_signal_gap_certifiable_times": 0,
+        "sampled_peak": {
+          "eligible_source_receiver_pairs": 1260,
+          "resolved_reference_interior_peaks": 286,
+          "low_flat_or_boundary_reference_peaks": 974,
+          "maximum_sampled_peak_time_error_over_tau": 12.362176905921935,
+          "fraction_same_sampled_peak_index": 0.7377622377622378,
+          "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+        }
+      },
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "max_absolute_error": 0.04652220604637958,
+          "worst_time_over_tau": 0.0110831095525624,
+          "passing_times": 43,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 0.036947350513165333,
+          "sign_disagreements": 8,
+          "sign_eligible_entries": 123345,
+          "all_top5_order_identical_times": 57,
+          "high_signal_times": 31,
+          "high_signal_min_top5_membership": 0.8,
+          "high_signal_identical_top5_order_times": 21,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1260,
+            "resolved_reference_interior_peaks": 377,
+            "low_flat_or_boundary_reference_peaks": 883,
+            "maximum_sampled_peak_time_error_over_tau": 0.0038329319401182033,
+            "fraction_same_sampled_peak_index": 0.9946949602122016,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 0.3,
+          "max_absolute_error": 0.04652220604637958,
+          "worst_time_over_tau": 0.0110831095525624,
+          "passing_times": 45,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 0.009578617584601434,
+          "sign_disagreements": 0,
+          "sign_eligible_entries": 233565,
+          "all_top5_order_identical_times": 66,
+          "high_signal_times": 41,
+          "high_signal_min_top5_membership": 1.0,
+          "high_signal_identical_top5_order_times": 37,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1260,
+            "resolved_reference_interior_peaks": 451,
+            "low_flat_or_boundary_reference_peaks": 809,
+            "maximum_sampled_peak_time_error_over_tau": 0.2689276749404614,
+            "fraction_same_sampled_peak_index": 0.8736141906873615,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 3.0,
+          "max_absolute_error": 0.04652220604637958,
+          "worst_time_over_tau": 0.0110831095525624,
+          "passing_times": 46,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 0.0003817389269237248,
+          "sign_disagreements": 0,
+          "sign_eligible_entries": 362775,
+          "all_top5_order_identical_times": 69,
+          "high_signal_times": 57,
+          "high_signal_min_top5_membership": 1.0,
+          "high_signal_identical_top5_order_times": 54,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1260,
+            "resolved_reference_interior_peaks": 456,
+            "low_flat_or_boundary_reference_peaks": 804,
+            "maximum_sampled_peak_time_error_over_tau": 2.755770566265414,
+            "fraction_same_sampled_peak_index": 0.8355263157894737,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        }
+      ],
+      "full_GPU_seconds": 54.66698424,
+      "analysis_seconds": 5.491928957984783,
+      "GPU_saved_CPU_parity": 2.6201263381153694e-14,
+      "independent_reduced_exponential_max_abs": 1.1879386363489175e-13
+    },
+    {
+      "target": "abl",
+      "rank": 506,
+      "step": {
+        "duration_over_tau": null,
+        "max_absolute_error": 0.059052531011841713,
+        "worst_time_over_tau": 0.003329130449916673,
+        "passing_times": 50,
+        "total_times": 74,
+        "max_error_strictly_after_removal": null,
+        "sign_disagreements": 0,
+        "sign_eligible_entries": 789949,
+        "all_top5_order_identical_times": 71,
+        "high_signal_times": 73,
+        "high_signal_min_top5_membership": 0.8,
+        "high_signal_identical_top5_order_times": 70,
+        "high_signal_gap_certifiable_times": 0,
+        "sampled_peak": {
+          "eligible_source_receiver_pairs": 1737,
+          "resolved_reference_interior_peaks": 36,
+          "low_flat_or_boundary_reference_peaks": 1701,
+          "maximum_sampled_peak_time_error_over_tau": 0.6626792675414326,
+          "fraction_same_sampled_peak_index": 0.6666666666666666,
+          "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+        }
+      },
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "max_absolute_error": 0.059052531011841713,
+          "worst_time_over_tau": 0.003329130449916673,
+          "passing_times": 46,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 0.04865724841516483,
+          "sign_disagreements": 40,
+          "sign_eligible_entries": 212804,
+          "all_top5_order_identical_times": 62,
+          "high_signal_times": 28,
+          "high_signal_min_top5_membership": 0.4,
+          "high_signal_identical_top5_order_times": 20,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1737,
+            "resolved_reference_interior_peaks": 73,
+            "low_flat_or_boundary_reference_peaks": 1664,
+            "maximum_sampled_peak_time_error_over_tau": 0.0189168904474376,
+            "fraction_same_sampled_peak_index": 0.821917808219178,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 0.3,
+          "max_absolute_error": 0.059052531011841713,
+          "worst_time_over_tau": 0.003329130449916673,
+          "passing_times": 50,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 0.0010095527895688239,
+          "sign_disagreements": 0,
+          "sign_eligible_entries": 398312,
+          "all_top5_order_identical_times": 68,
+          "high_signal_times": 41,
+          "high_signal_min_top5_membership": 0.8,
+          "high_signal_identical_top5_order_times": 38,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1737,
+            "resolved_reference_interior_peaks": 82,
+            "low_flat_or_boundary_reference_peaks": 1655,
+            "maximum_sampled_peak_time_error_over_tau": 0.28683925987047504,
+            "fraction_same_sampled_peak_index": 0.8414634146341463,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 3.0,
+          "max_absolute_error": 0.059052531011841713,
+          "worst_time_over_tau": 0.003329130449916673,
+          "passing_times": 50,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 3.07192605133455e-05,
+          "sign_disagreements": 0,
+          "sign_eligible_entries": 599870,
+          "all_top5_order_identical_times": 69,
+          "high_signal_times": 57,
+          "high_signal_min_top5_membership": 0.8,
+          "high_signal_identical_top5_order_times": 54,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 1737,
+            "resolved_reference_interior_peaks": 84,
+            "low_flat_or_boundary_reference_peaks": 1653,
+            "maximum_sampled_peak_time_error_over_tau": 2.986839259870475,
+            "fraction_same_sampled_peak_index": 0.8333333333333334,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        }
+      ],
+      "full_GPU_seconds": 57.76085134,
+      "analysis_seconds": 12.986273167014588,
+      "GPU_saved_CPU_parity": 2.298161660974074e-14,
+      "independent_reduced_exponential_max_abs": 1.1307839701494432e-13
+    },
+    {
+      "target": "myc",
+      "rank": 172,
+      "step": {
+        "duration_over_tau": null,
+        "max_absolute_error": 0.019867169748548297,
+        "worst_time_over_tau": 0.001,
+        "passing_times": 62,
+        "total_times": 74,
+        "max_error_strictly_after_removal": null,
+        "sign_disagreements": 0,
+        "sign_eligible_entries": 244923,
+        "all_top5_order_identical_times": 74,
+        "high_signal_times": 73,
+        "high_signal_min_top5_membership": 1.0,
+        "high_signal_identical_top5_order_times": 73,
+        "high_signal_gap_certifiable_times": 0,
+        "sampled_peak": {
+          "eligible_source_receiver_pairs": 408,
+          "resolved_reference_interior_peaks": 0,
+          "low_flat_or_boundary_reference_peaks": 408,
+          "maximum_sampled_peak_time_error_over_tau": null,
+          "fraction_same_sampled_peak_index": null,
+          "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+        }
+      },
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "max_absolute_error": 0.019867169748548297,
+          "worst_time_over_tau": 0.001,
+          "passing_times": 60,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 0.018459864134627746,
+          "sign_disagreements": 22,
+          "sign_eligible_entries": 73188,
+          "all_top5_order_identical_times": 66,
+          "high_signal_times": 23,
+          "high_signal_min_top5_membership": 0.4,
+          "high_signal_identical_top5_order_times": 22,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 408,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 408,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 0.3,
+          "max_absolute_error": 0.019867169748548297,
+          "worst_time_over_tau": 0.001,
+          "passing_times": 62,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 1.5419388720405713e-05,
+          "sign_disagreements": 0,
+          "sign_eligible_entries": 133416,
+          "all_top5_order_identical_times": 72,
+          "high_signal_times": 40,
+          "high_signal_min_top5_membership": 1.0,
+          "high_signal_identical_top5_order_times": 40,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 408,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 408,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 3.0,
+          "max_absolute_error": 0.019867169748548297,
+          "worst_time_over_tau": 0.001,
+          "passing_times": 62,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 9.379731435998906e-10,
+          "sign_disagreements": 0,
+          "sign_eligible_entries": 190859,
+          "all_top5_order_identical_times": 73,
+          "high_signal_times": 57,
+          "high_signal_min_top5_membership": 1.0,
+          "high_signal_identical_top5_order_times": 57,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 408,
+            "resolved_reference_interior_peaks": 0,
+            "low_flat_or_boundary_reference_peaks": 408,
+            "maximum_sampled_peak_time_error_over_tau": null,
+            "fraction_same_sampled_peak_index": null,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        }
+      ],
+      "full_GPU_seconds": 33.650026016,
+      "analysis_seconds": 4.095659582992084,
+      "GPU_saved_CPU_parity": 1.1657341758564144e-14,
+      "independent_reduced_exponential_max_abs": 2.7955360194700102e-14
+    },
+    {
+      "target": "myh7",
+      "rank": 934,
+      "step": {
+        "duration_over_tau": null,
+        "max_absolute_error": 0.06545953640476387,
+        "worst_time_over_tau": 0.001,
+        "passing_times": 55,
+        "total_times": 74,
+        "max_error_strictly_after_removal": null,
+        "sign_disagreements": 0,
+        "sign_eligible_entries": 2127205,
+        "all_top5_order_identical_times": 67,
+        "high_signal_times": 73,
+        "high_signal_min_top5_membership": 0.8,
+        "high_signal_identical_top5_order_times": 66,
+        "high_signal_gap_certifiable_times": 0,
+        "sampled_peak": {
+          "eligible_source_receiver_pairs": 2700,
+          "resolved_reference_interior_peaks": 97,
+          "low_flat_or_boundary_reference_peaks": 2603,
+          "maximum_sampled_peak_time_error_over_tau": 6.38519395919828,
+          "fraction_same_sampled_peak_index": 0.5051546391752577,
+          "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+        }
+      },
+      "pulses": [
+        {
+          "duration_over_tau": 0.03,
+          "max_absolute_error": 0.06545953640476387,
+          "worst_time_over_tau": 0.001,
+          "passing_times": 51,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 0.06451125947617153,
+          "sign_disagreements": 22,
+          "sign_eligible_entries": 605811,
+          "all_top5_order_identical_times": 59,
+          "high_signal_times": 24,
+          "high_signal_min_top5_membership": 0.6,
+          "high_signal_identical_top5_order_times": 15,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 2700,
+            "resolved_reference_interior_peaks": 188,
+            "low_flat_or_boundary_reference_peaks": 2512,
+            "maximum_sampled_peak_time_error_over_tau": 0.027196425343250827,
+            "fraction_same_sampled_peak_index": 0.7978723404255319,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 0.3,
+          "max_absolute_error": 0.06545953640476387,
+          "worst_time_over_tau": 0.001,
+          "passing_times": 55,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 7.603301399150553e-05,
+          "sign_disagreements": 0,
+          "sign_eligible_entries": 1126602,
+          "all_top5_order_identical_times": 65,
+          "high_signal_times": 40,
+          "high_signal_min_top5_membership": 0.8,
+          "high_signal_identical_top5_order_times": 33,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 2700,
+            "resolved_reference_interior_peaks": 191,
+            "low_flat_or_boundary_reference_peaks": 2509,
+            "maximum_sampled_peak_time_error_over_tau": 0.2966708695500833,
+            "fraction_same_sampled_peak_index": 0.7329842931937173,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        },
+        {
+          "duration_over_tau": 3.0,
+          "max_absolute_error": 0.06545953640476387,
+          "worst_time_over_tau": 0.001,
+          "passing_times": 55,
+          "total_times": 74,
+          "max_error_strictly_after_removal": 3.482515122943397e-07,
+          "sign_disagreements": 0,
+          "sign_eligible_entries": 1642037,
+          "all_top5_order_identical_times": 64,
+          "high_signal_times": 57,
+          "high_signal_min_top5_membership": 0.8,
+          "high_signal_identical_top5_order_times": 50,
+          "high_signal_gap_certifiable_times": 0,
+          "sampled_peak": {
+            "eligible_source_receiver_pairs": 2700,
+            "resolved_reference_interior_peaks": 141,
+            "low_flat_or_boundary_reference_peaks": 2559,
+            "maximum_sampled_peak_time_error_over_tau": 2.9966708695500834,
+            "fraction_same_sampled_peak_index": 0.6595744680851063,
+            "scope": "Discrete sampled absolute signed-entry peak only, no continuous-time timing guarantee"
+          }
+        }
+      ],
+      "full_GPU_seconds": 155.70258163199998,
+      "analysis_seconds": 95.78318783297436,
+      "GPU_saved_CPU_parity": 3.064215547965432e-14,
+      "independent_reduced_exponential_max_abs": 2.6445696655061433e-13
+    }
+  ],
+  "tiny_field": {
+    "status": "COMPLETE",
+    "scientific_status": "PASS",
+    "scope": "64-state original quartic finite box; independent dense eigensystem and forward-generator piecewise propagation, no physical convergence",
+    "states": 64,
+    "max_identity_error_by_amplitude": [
+      1.0496215232941308e-06,
+      2.6240616211870016e-07,
+      6.560160374646795e-08
+    ],
+    "successive_central_changes": [
+      7.872153611754307e-07,
+      1.968045583722322e-07
+    ],
+    "independent_forward_central_max_abs": 3.044786645034492e-14,
+    "max_probability_mass_error": 2.220446049250313e-15,
+    "minimum_probability": 8.285733258422348e-05,
+    "max_forward_probability_discrepancy": 2.2898349882893854e-16,
+    "seconds": 0.07055841700639576,
+    "protocol_sha256": "1f7793484c610efdd3a241c6a6154fb11089c612d15c3fd5835f90d19beda190",
+    "source_sha256": "b7edbe8237c38c3667bfe171ad18e49f8ace924b067f294d37649bf67d582492"
+  },
+  "rating_implication": "Measured characterization reveals the current temporal limitations; it does not establish improved biology or quantum advantage."
+}

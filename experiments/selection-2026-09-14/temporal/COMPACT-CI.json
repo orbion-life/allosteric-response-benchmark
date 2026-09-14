@@ -1,0 +1,41 @@
+{
+  "purpose": "Protocol/source and tiny saved-pulse verification without large inputs or GPU allocation",
+  "command": "python verify.py --mode protocol --output protocol-audit.json",
+  "requirements": [
+    "numpy",
+    "scipy"
+  ],
+  "required_files": [
+    "analyze.py",
+    "event-aligned/analyze_addendum.py",
+    "event-aligned/download_addendum.py",
+    "event-aligned/full_kernel_addendum.py",
+    "event-aligned/prepare_addendum.py",
+    "event-aligned/protocol.json",
+    "event-aligned/remote_addendum.py",
+    "event-aligned/source-seal.json",
+    "event-aligned/verify_addendum.py",
+    "full_kernel.py",
+    "input-manifest.json",
+    "prepare.py",
+    "protocol.json",
+    "remote.py",
+    "source-seal.json",
+    "tiny-dependency-receipt.json",
+    "tiny-field/raw.npz",
+    "tiny-field/receipt.json",
+    "tiny_pulse.py",
+    "vendor/chebyshev.py",
+    "vendor/check_independent.py",
+    "vendor/finite_core.py",
+    "vendor/gaussian_protein.py",
+    "vendor/model.py",
+    "vendor/protocol.json",
+    "verify.py"
+  ],
+  "scope": "Source/protocol and tiny saved-pulse audit including the event-aligned addendum; no four-protein kernel or waveform replay",
+  "commands": [
+    "python verify.py --mode protocol --output protocol-audit.json",
+    "python event-aligned/verify_addendum.py --mode protocol --output event-aligned/protocol-audit.json"
+  ]
+}

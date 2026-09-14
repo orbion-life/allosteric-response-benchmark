@@ -1,0 +1,182 @@
+{
+  "status": "PASS",
+  "seconds": 0.465533290989697,
+  "checks": [
+    {
+      "label": "clean_select",
+      "semantic_max_error": 5.107129436224582e-15,
+      "metadata": {
+        "N": 8,
+        "address_qubits": 3,
+        "word_bits": 2,
+        "lambda_value": 1,
+        "clean_data_qubits": 2,
+        "prefix_clean_qubits": 2,
+        "dirty_qubits": 0,
+        "lookup_T_exact_before_optimization": 96,
+        "select_Rccx": 24,
+        "swap_Fredkin": 0
+      },
+      "compiled": {
+        "qubits": 7,
+        "operations": 158,
+        "ops": {
+          "cx": 64,
+          "t": 30,
+          "tdg": 30,
+          "h": 24,
+          "x": 10
+        },
+        "T": 60,
+        "CX": 64,
+        "depth": 141,
+        "T_depth": 54
+      }
+    },
+    {
+      "label": "clean_swap",
+      "semantic_max_error": 9.992085100906606e-16,
+      "metadata": {
+        "N": 4,
+        "address_qubits": 2,
+        "word_bits": 2,
+        "lambda_value": 2,
+        "clean_data_qubits": 4,
+        "prefix_clean_qubits": 0,
+        "dirty_qubits": 0,
+        "lookup_T_exact_before_optimization": 14,
+        "select_Rccx": 0,
+        "swap_Fredkin": 2
+      },
+      "compiled": {
+        "qubits": 6,
+        "operations": 40,
+        "ops": {
+          "cx": 20,
+          "t": 8,
+          "tdg": 6,
+          "h": 4,
+          "x": 2
+        },
+        "T": 14,
+        "CX": 20,
+        "depth": 26,
+        "T_depth": 7
+      }
+    },
+    {
+      "label": "dirty_echo",
+      "semantic_max_error": 3.8860777427904e-15,
+      "metadata": {
+        "N": 4,
+        "address_qubits": 2,
+        "word_bits": 2,
+        "lambda_value": 2,
+        "clean_data_qubits": 2,
+        "prefix_clean_qubits": 0,
+        "dirty_qubits": 4,
+        "lookup_T_exact_before_optimization": 14,
+        "select_Rccx": 0,
+        "swap_Fredkin": 2
+      },
+      "compiled": {
+        "qubits": 8,
+        "operations": 152,
+        "ops": {
+          "cx": 76,
+          "t": 32,
+          "tdg": 24,
+          "h": 16,
+          "x": 4
+        },
+        "T": 56,
+        "CX": 76,
+        "depth": 95,
+        "T_depth": 28
+      }
+    },
+    {
+      "label": "signed_rotation_and_clean_uncompute",
+      "semantic_max_error": 2.4492935982947064e-16,
+      "words": [
+        0,
+        6,
+        4,
+        1
+      ]
+    }
+  ],
+  "rotation_synthesis": [
+    {
+      "angle": 0.137,
+      "angle_hex": "0x1.189374bc6a7f0p-3",
+      "epsilon": 1e-10,
+      "gates": "HTHTSHTSHTSHTSHTHTHTHTHTSHTHTHTHTHTSHTHTSHTSHTSHTHTHTHTSHTSHTHTSHTHTHTHTSHTSHTSHTSHTHTHTSHTSHTSHTSHTHTSHTHTSHTHTHTSHTHTHTSHTSHTHTHTSHTHTSHTHTHTSHTHTHTHTHTSHTHTHTSHTHTHTSHTHTSHTSHTSHTSHTSHTHTHTHTHTSHTSHTHTSHTHTHTHTSHTSHTHTSHTHTSHTSHTSHTHTSHTSHTSHTHTWW",
+      "error": 1.6731375674714283e-11,
+      "seconds": 0.045938082970678806,
+      "qubits": 1,
+      "operations": 248,
+      "ops": {
+        "t": 100,
+        "h": 100,
+        "s": 48
+      },
+      "T": 100,
+      "CX": 0,
+      "depth": 248,
+      "T_depth": 100
+    },
+    {
+      "angle": -1.193,
+      "angle_hex": "-0x1.316872b020c4ap+0",
+      "epsilon": 1e-10,
+      "gates": "HTHTHTSHTSHTHTHTHTSHTSHTHTHTHTSHTSHTSHTSHTHTSHTSHTSHTSHTHTSHTHTSHTHTHTHTSHTSHTHTSHTSHTSHTHTSHTSHTSHTHTSHTHTSHTHTHTHTHTHTHTHTHTHTSHTHTHTHTHTSHTSHTHTHTSHTSHTHTSHTSHTSHTHTSHTSHTHTHTSHTSHTSHTHTSHTSHTHTSHTHTHTHTSHTHTHTSHTSHTHTSHTHTSHTSHTSHTHTHTHTSHTSHTSHTSHTSHTHXS",
+      "error": 4.845270592941488e-11,
+      "seconds": 0.040705666004214436,
+      "qubits": 1,
+      "operations": 259,
+      "ops": {
+        "h": 103,
+        "t": 102,
+        "s": 53,
+        "x": 1
+      },
+      "T": 102,
+      "CX": 0,
+      "depth": 259,
+      "T_depth": 102
+    },
+    {
+      "angle": 0.7853981633974483,
+      "angle_hex": "0x1.921fb54442d18p-1",
+      "epsilon": 1e-10,
+      "gates": null,
+      "error": 7.021666937153402e-16,
+      "seconds": 0.0001959170331247151,
+      "qubits": 1,
+      "operations": 1,
+      "ops": {
+        "t": 1
+      },
+      "T": 1,
+      "CX": 0,
+      "depth": 1,
+      "T_depth": 1
+    },
+    {
+      "angle": 6.283185307179586,
+      "angle_hex": "0x1.921fb54442d18p+2",
+      "epsilon": 1e-10,
+      "gates": null,
+      "error": 2.4492935982947064e-16,
+      "seconds": 0.00010670797200873494,
+      "qubits": 1,
+      "operations": 0,
+      "ops": {},
+      "T": 0,
+      "CX": 0,
+      "depth": 0,
+      "T_depth": 0
+    }
+  ]
+}

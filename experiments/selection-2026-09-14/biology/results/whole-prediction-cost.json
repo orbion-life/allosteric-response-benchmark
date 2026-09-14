@@ -1,0 +1,129 @@
+{
+  "status": "COMPLETE",
+  "whole_primary_and_sensitivity_seconds": 31.68164975004038,
+  "primary_seconds": 2.669719541037921,
+  "models": [
+    {
+      "model": 1,
+      "status": "PASS",
+      "seconds": 1.417710417008493,
+      "tau": 5.042571455584588
+    },
+    {
+      "model": 2,
+      "status": "PASS",
+      "seconds": 1.4466420839889906,
+      "tau": 6.487317374326339
+    },
+    {
+      "model": 3,
+      "status": "PASS",
+      "seconds": 1.4651682919939049,
+      "tau": 5.778779640159847
+    },
+    {
+      "model": 4,
+      "status": "PASS",
+      "seconds": 1.3934889170341194,
+      "tau": 5.188847225456253
+    },
+    {
+      "model": 5,
+      "status": "PASS",
+      "seconds": 1.4075340410345234,
+      "tau": 6.657365575300916
+    },
+    {
+      "model": 6,
+      "status": "PASS",
+      "seconds": 1.4531827910104766,
+      "tau": 7.50263550320758
+    },
+    {
+      "model": 7,
+      "status": "PASS",
+      "seconds": 1.4791461669956334,
+      "tau": 9.221303815789867
+    },
+    {
+      "model": 8,
+      "status": "PASS",
+      "seconds": 1.4542878330103122,
+      "tau": 4.936059614667392
+    },
+    {
+      "model": 9,
+      "status": "PASS",
+      "seconds": 1.4377242499613203,
+      "tau": 12.147633909259794
+    },
+    {
+      "model": 10,
+      "status": "PASS",
+      "seconds": 1.4061237500282004,
+      "tau": 5.225053679503681
+    },
+    {
+      "model": 11,
+      "status": "PASS",
+      "seconds": 1.435778749990277,
+      "tau": 6.424887923993566
+    },
+    {
+      "model": 12,
+      "status": "PASS",
+      "seconds": 1.438583999988623,
+      "tau": 5.140797457301299
+    },
+    {
+      "model": 13,
+      "status": "PASS",
+      "seconds": 1.4352027080021799,
+      "tau": 6.577329745400288
+    },
+    {
+      "model": 14,
+      "status": "PASS",
+      "seconds": 1.433917084010318,
+      "tau": 10.061358444405345
+    },
+    {
+      "model": 15,
+      "status": "PASS",
+      "seconds": 1.3930147910141386,
+      "tau": 4.8922056310512065
+    },
+    {
+      "model": 16,
+      "status": "PASS",
+      "seconds": 1.394614916993305,
+      "tau": 7.935941319044024
+    },
+    {
+      "model": 17,
+      "status": "PASS",
+      "seconds": 1.415061833045911,
+      "tau": 6.818713357574288
+    },
+    {
+      "model": 18,
+      "status": "PASS",
+      "seconds": 1.47410829202272,
+      "tau": 5.1893190487301775
+    },
+    {
+      "model": 19,
+      "status": "PASS",
+      "seconds": 1.433590250031557,
+      "tau": 4.270195125738442
+    },
+    {
+      "model": 20,
+      "status": "PASS",
+      "seconds": 1.5253038340015337,
+      "tau": 5.457958334506339
+    }
+  ],
+  "peak_RSS_bytes": 257261568,
+  "predictions_never_read_outcomes": true
+}

@@ -1,0 +1,36 @@
+{
+  "status": "EXACT_UNLIGANDED_STRUCTURAL_INPUT_WITH_QUALITY_CAUTION",
+  "selected": {
+    "pdb": "1GFC",
+    "author_chain": "A",
+    "title": "SOLUTION STRUCTURE AND LIGAND-BINDING SITE OF THE C-TERMINAL SH3 DOMAIN OF GRB2",
+    "method": "SOLUTION NMR",
+    "resolution_A": null,
+    "polymer_entity_count": 1,
+    "target_polymer_length": 59,
+    "target_polymer_sequence": "GSTYVQALFDFDPQEDGELGFRRGDFIHVMDNSDPNWWKGACHGQTGMFPRNYVTPVNR",
+    "deposited_models": 1,
+    "biological_oligomer": "monomeric",
+    "nonpolymer_components": [],
+    "ca_positions": 56,
+    "exact_assay_positions": 56,
+    "mismatches_or_missing": [],
+    "eligible_isolated_unliganded_input": true,
+    "reason": "Exact complete isolated unliganded construct with recorded terminal extensions.",
+    "source_sha256": "5e1d4bb282b33ea1571175c00d200d7321be693556b42139ff1f8508e003e5bd"
+  },
+  "selection_rule": "selection-protocol.json frozen before comparisons",
+  "input": "selected-assay-domain-input.npz",
+  "input_sha256": "16e0674281a44f7787a48d656505a38c3124b5005c92f363100b9a62de7e2499",
+  "input_scope": "Coordinate-only static input, not a fit or predictor. The 59-residue deposited construct has GS N-terminal extension and R215 C-terminal residue beyond the56-residue assay; crop to159\u2013214 is explicit.",
+  "receiver_scope": "Fixed 2VWF-GAB2 author-reference heavy-atom contact threshold5A transferred by canonical residue numbering; the bound reference P212A caveat remains. No outcome labels used.",
+  "NMR_scope": "First deposited model only, no averaging, relaxation or state selection. Alternative deposited models/structures available for a separately declared sensitivity analysis.",
+  "domain_state": "Experimental isolated unliganded C-terminal SH3 NMR structure; not full-length1GRI extraction.",
+  "remaining": "This resolves the structural input gap only. Functional benchmark protocol, comparator execution, exposure disclosure and negative-pocket endpoint remain distinct.",
+  "validation_caution": {
+    "source": "validation-fetch-receipt.json",
+    "1GFC_clashscore": 36.3,
+    "1GFC_percent_Ramachandran_outliers": 10.53,
+    "boundary": "Exact sequence/state/coverage qualification only. Not an unqualified high-quality reference, model fidelity test or biological validation."
+  }
+}

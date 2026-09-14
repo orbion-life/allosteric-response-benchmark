@@ -1,0 +1,76 @@
+{
+  "N": 56,
+  "contacts": 460,
+  "internal_dimensions": 162,
+  "null_modes": 6,
+  "tau": 9.221303815789867,
+  "candidate_count": 20,
+  "build_seconds": 0.018266500032041222,
+  "gaussian_numerical_checks": {
+    "engineering_status": "COMPLETE",
+    "scientific_status": "PASS",
+    "scope": "Gaussian-surrogate fit and complete exact OU moment computation only",
+    "nonlinear_response_fidelity": "NOT_EVALUATED",
+    "biological_benefit": "NOT_EVALUATED",
+    "quantum_advantage": "NOT_EVALUATED",
+    "fit_converged": true,
+    "covariance_symmetry_max_abs": 3.469446951953614e-18,
+    "minimum_static_covariance_eigenvalue": 0.0017809235613896251,
+    "all_response_entries_finite": true,
+    "top5_by_time": [
+      [
+        178,
+        183,
+        202,
+        197,
+        181
+      ],
+      [
+        178,
+        183,
+        202,
+        197,
+        181
+      ],
+      [
+        178,
+        183,
+        202,
+        197,
+        181
+      ]
+    ]
+  },
+  "gaussian_cost": {
+    "backend": "numpy",
+    "numpy_version": "2.4.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "total_seconds_including_load_fit_covariance_readout_save": 0.9799775829887949,
+    "fit_seconds": 0.05762779200449586,
+    "moment_timings": [
+      {
+        "time": 0.0,
+        "seconds": 0.22474570898339152
+      },
+      {
+        "time": 0.9221303815789867,
+        "seconds": 0.22227033303352073
+      },
+      {
+        "time": 9.221303815789867,
+        "seconds": 0.2229122080025263
+      },
+      {
+        "time": 92.21303815789867,
+        "seconds": 0.22467758296988904
+      }
+    ],
+    "peak_process_rss_platform_units": 222724096,
+    "rss_units": "bytes on macOS; KiB on Linux",
+    "block_edges": 32,
+    "dense_covariance_parameter_hessian_allocated": false,
+    "source_sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+  },
+  "seconds": 1.4791461669956334,
+  "model_sha256": "d96aa15e6aa9204fd21c2e7b22f6fe73bd9afa572c58802c05417ac0513d4851"
+}

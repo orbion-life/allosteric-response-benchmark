@@ -1,0 +1,425 @@
+{
+  "status": "COMPLETED_PRESPECIFIED_RETROSPECTIVE_GRB2_EVALUATION",
+  "created_utc": "2026-09-14T09:30:17.549560+00:00",
+  "protocol_sha256": "0d55e95c4ab1533bc49bf2f256446a6769fafc4536e42da0aeadf632daa41bb4",
+  "prediction_sha256": "e5c45fd32559fbb2739b852ce13b89b9088b806028597b69a5f7553d54fb3b9c",
+  "source_Table7_sha256": "58abcbd1a08ad9fed8778e3b3e8672bbca84ac5a576f1b0530ddd9f5164fbce2",
+  "raw_single_substitution_rows": 1056,
+  "valid_common_variant_rows": 756,
+  "variant_exclusion_counts": {
+    "missing_nonfinite_estimate_or_uncertainty": 300
+  },
+  "common_mask_n": 21,
+  "common_mask_canonical": [
+    159,
+    160,
+    161,
+    162,
+    178,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    211,
+    212,
+    213,
+    214
+  ],
+  "structural_candidates": 21,
+  "site_exclusion_counts": {
+    "less_than_6A_from_receiver": 20,
+    "receiver": 15
+  },
+  "min10_coverage_excluded_structural_sites": [],
+  "metrics": [
+    {
+      "method": "gaussian",
+      "n": 21,
+      "rho": 0.38051948051948054,
+      "rho_site_bootstrap95": [
+        -0.0740983606557377,
+        0.7298404915884232
+      ],
+      "undefined_bootstrap_draws": 0,
+      "top5_canonical": [
+        178,
+        211,
+        202,
+        183,
+        197
+      ],
+      "top5_mean_binding_magnitude": 0.390733524881388,
+      "top5_mean_folding_magnitude": 0.952848459567084,
+      "folding_partial_rho": 0.1778916694084504,
+      "weighted_aggregation_rho": 0.3168831168831169,
+      "folding_degree_distance_partial_rho": 0.2616757479865597
+    },
+    {
+      "method": "harmonic",
+      "n": 21,
+      "rho": 0.33506493506493507,
+      "rho_site_bootstrap95": [
+        -0.10848841336646214,
+        0.6986431278389481
+      ],
+      "undefined_bootstrap_draws": 0,
+      "top5_canonical": [
+        178,
+        211,
+        202,
+        183,
+        197
+      ],
+      "top5_mean_binding_magnitude": 0.390733524881388,
+      "top5_mean_folding_magnitude": 0.952848459567084,
+      "folding_partial_rho": 0.16771231731399977,
+      "weighted_aggregation_rho": 0.2753246753246753,
+      "folding_degree_distance_partial_rho": 0.24358612899837553
+    },
+    {
+      "method": "ohm",
+      "n": 21,
+      "rho": -0.23766233766233766,
+      "rho_site_bootstrap95": [
+        -0.6020944127222038,
+        0.22091503267973855
+      ],
+      "undefined_bootstrap_draws": 0,
+      "top5_canonical": [
+        202,
+        201,
+        199,
+        200,
+        162
+      ],
+      "top5_mean_binding_magnitude": 0.33495420113883306,
+      "top5_mean_folding_magnitude": 0.914277212064302,
+      "folding_partial_rho": -0.16768645391804973,
+      "weighted_aggregation_rho": -0.2,
+      "folding_degree_distance_partial_rho": -0.10116360800759201
+    },
+    {
+      "method": "degree",
+      "n": 21,
+      "rho": 0.480627267493178,
+      "rho_site_bootstrap95": [
+        0.001969674091065868,
+        0.8085533839988942
+      ],
+      "undefined_bootstrap_draws": 0,
+      "top5_canonical": [
+        183,
+        197,
+        182,
+        185,
+        181
+      ],
+      "top5_mean_binding_magnitude": 0.5801678012618827,
+      "top5_mean_folding_magnitude": 1.5281639147947896,
+      "folding_partial_rho": 0.28396297236285495,
+      "weighted_aggregation_rho": 0.16216285854444623
+    },
+    {
+      "method": "negative_distance",
+      "n": 21,
+      "rho": 0.23506493506493506,
+      "rho_site_bootstrap95": [
+        -0.24231068388643107,
+        0.6418720901369536
+      ],
+      "undefined_bootstrap_draws": 0,
+      "top5_canonical": [
+        178,
+        185,
+        197,
+        211,
+        202
+      ],
+      "top5_mean_binding_magnitude": 0.42491198962605575,
+      "top5_mean_folding_magnitude": 0.9033643203675397,
+      "folding_partial_rho": 0.04642247559978752,
+      "weighted_aggregation_rho": 0.23766233766233766
+    }
+  ],
+  "gaussian_minus_controls": [
+    {
+      "comparator": "harmonic",
+      "delta_rho": 0.04545454545454547,
+      "paired_site_bootstrap95": [
+        -0.06860158311345643,
+        0.20901371652514694
+      ],
+      "paired_site_bootstrap98_75": [
+        -0.11439936348656661,
+        0.27916234987001304
+      ],
+      "undefined_bootstrap_draws": 0,
+      "fraction_draws_above_zero": 0.6965
+    },
+    {
+      "comparator": "ohm",
+      "delta_rho": 0.6181818181818182,
+      "paired_site_bootstrap95": [
+        0.03701011797992436,
+        1.0954310898671389
+      ],
+      "paired_site_bootstrap98_75": [
+        -0.1455825695968332,
+        1.2188778656296346
+      ],
+      "undefined_bootstrap_draws": 0,
+      "fraction_draws_above_zero": 0.98125
+    },
+    {
+      "comparator": "degree",
+      "delta_rho": -0.10010778697369749,
+      "paired_site_bootstrap95": [
+        -0.4569037577277728,
+        0.2445033438203627
+      ],
+      "paired_site_bootstrap98_75": [
+        -0.5704471347477313,
+        0.3628393919242893
+      ],
+      "undefined_bootstrap_draws": 0,
+      "fraction_draws_above_zero": 0.27775
+    },
+    {
+      "comparator": "negative_distance",
+      "delta_rho": 0.14545454545454548,
+      "paired_site_bootstrap95": [
+        -0.133248421510995,
+        0.4159581425768476
+      ],
+      "paired_site_bootstrap98_75": [
+        -0.2166448559342395,
+        0.49738419711027837
+      ],
+      "undefined_bootstrap_draws": 0,
+      "fraction_draws_above_zero": 0.8525
+    }
+  ],
+  "strong_within_assay_incremental_signal_gate": false,
+  "minimum12_sites_for_inference": true,
+  "ohm_seed_rho": {
+    "11": -0.14415584415584415,
+    "29": -0.33246753246753247,
+    "47": -0.2818181818181818
+  },
+  "marginal_fit_spread_sensitivity": [
+    {
+      "method": "gaussian",
+      "rho_marginal_spread95": [
+        0.24675324675324675,
+        0.4922077922077922
+      ],
+      "scope": "Marginal Normal independence sensitivity only; unavailable joint fit covariance prevents calibrated joint confidence."
+    },
+    {
+      "method": "harmonic",
+      "rho_marginal_spread95": [
+        0.21038961038961038,
+        0.4532792207792207
+      ],
+      "scope": "Marginal Normal independence sensitivity only; unavailable joint fit covariance prevents calibrated joint confidence."
+    },
+    {
+      "method": "ohm",
+      "rho_marginal_spread95": [
+        -0.39487012987012987,
+        -0.13633116883116886
+      ],
+      "scope": "Marginal Normal independence sensitivity only; unavailable joint fit covariance prevents calibrated joint confidence."
+    },
+    {
+      "method": "degree",
+      "rho_marginal_spread95": [
+        0.343163310194909,
+        0.5894522219621617
+      ],
+      "scope": "Marginal Normal independence sensitivity only; unavailable joint fit covariance prevents calibrated joint confidence."
+    },
+    {
+      "method": "negative_distance",
+      "rho_marginal_spread95": [
+        0.08698051948051948,
+        0.35584415584415585
+      ],
+      "scope": "Marginal Normal independence sensitivity only; unavailable joint fit covariance prevents calibrated joint confidence."
+    }
+  ],
+  "structure_sensitivity": [
+    {
+      "model": 1,
+      "gaussian_rho": 0.4025974025974026,
+      "harmonic_rho": 0.33246753246753247,
+      "gaussian_rank_correlation_with_primary": 0.9883116883116884,
+      "primary_sites_also_distal_in_own_geometry": 21,
+      "n": 21
+    },
+    {
+      "model": 2,
+      "gaussian_rho": 0.37792207792207794,
+      "harmonic_rho": 0.2779220779220779,
+      "gaussian_rank_correlation_with_primary": 0.9545454545454546,
+      "primary_sites_also_distal_in_own_geometry": 21,
+      "n": 21
+    },
+    {
+      "model": 3,
+      "gaussian_rho": 0.38441558441558443,
+      "harmonic_rho": 0.2896103896103896,
+      "gaussian_rank_correlation_with_primary": 0.987012987012987,
+      "primary_sites_also_distal_in_own_geometry": 21,
+      "n": 21
+    },
+    {
+      "model": 4,
+      "gaussian_rho": 0.39090909090909093,
+      "harmonic_rho": 0.3194805194805195,
+      "gaussian_rank_correlation_with_primary": 0.9805194805194806,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 5,
+      "gaussian_rho": 0.36103896103896105,
+      "harmonic_rho": 0.3090909090909091,
+      "gaussian_rank_correlation_with_primary": 0.9675324675324676,
+      "primary_sites_also_distal_in_own_geometry": 21,
+      "n": 21
+    },
+    {
+      "model": 6,
+      "gaussian_rho": 0.43896103896103894,
+      "harmonic_rho": 0.3935064935064935,
+      "gaussian_rank_correlation_with_primary": 0.9701298701298702,
+      "primary_sites_also_distal_in_own_geometry": 19,
+      "n": 21
+    },
+    {
+      "model": 7,
+      "gaussian_rho": 0.34025974025974026,
+      "harmonic_rho": 0.32987012987012987,
+      "gaussian_rank_correlation_with_primary": 0.9467532467532468,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 8,
+      "gaussian_rho": 0.3987012987012987,
+      "harmonic_rho": 0.37272727272727274,
+      "gaussian_rank_correlation_with_primary": 0.9857142857142858,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 9,
+      "gaussian_rho": 0.35714285714285715,
+      "harmonic_rho": 0.32727272727272727,
+      "gaussian_rank_correlation_with_primary": 0.948051948051948,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 10,
+      "gaussian_rho": 0.42207792207792205,
+      "harmonic_rho": 0.36493506493506495,
+      "gaussian_rank_correlation_with_primary": 0.974025974025974,
+      "primary_sites_also_distal_in_own_geometry": 21,
+      "n": 21
+    },
+    {
+      "model": 11,
+      "gaussian_rho": 0.43116883116883115,
+      "harmonic_rho": 0.38051948051948054,
+      "gaussian_rank_correlation_with_primary": 0.9753246753246754,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 12,
+      "gaussian_rho": 0.39090909090909093,
+      "harmonic_rho": 0.35454545454545455,
+      "gaussian_rank_correlation_with_primary": 0.9753246753246754,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 13,
+      "gaussian_rho": 0.38441558441558443,
+      "harmonic_rho": 0.32727272727272727,
+      "gaussian_rank_correlation_with_primary": 0.9792207792207792,
+      "primary_sites_also_distal_in_own_geometry": 19,
+      "n": 21
+    },
+    {
+      "model": 14,
+      "gaussian_rho": 0.38181818181818183,
+      "harmonic_rho": 0.35064935064935066,
+      "gaussian_rank_correlation_with_primary": 0.9441558441558442,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 15,
+      "gaussian_rho": 0.3974025974025974,
+      "harmonic_rho": 0.36623376623376624,
+      "gaussian_rank_correlation_with_primary": 0.9792207792207792,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 16,
+      "gaussian_rho": 0.4142857142857143,
+      "harmonic_rho": 0.32727272727272727,
+      "gaussian_rank_correlation_with_primary": 0.9688311688311688,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 17,
+      "gaussian_rho": 0.38051948051948054,
+      "harmonic_rho": 0.32597402597402597,
+      "gaussian_rank_correlation_with_primary": 0.9584415584415584,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 18,
+      "gaussian_rho": 0.36883116883116884,
+      "harmonic_rho": 0.32987012987012987,
+      "gaussian_rank_correlation_with_primary": 0.9792207792207792,
+      "primary_sites_also_distal_in_own_geometry": 21,
+      "n": 21
+    },
+    {
+      "model": 19,
+      "gaussian_rho": 0.41948051948051945,
+      "harmonic_rho": 0.33116883116883117,
+      "gaussian_rank_correlation_with_primary": 0.987012987012987,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    },
+    {
+      "model": 20,
+      "gaussian_rho": 0.34415584415584416,
+      "harmonic_rho": 0.2727272727272727,
+      "gaussian_rank_correlation_with_primary": 0.9753246753246754,
+      "primary_sites_also_distal_in_own_geometry": 20,
+      "n": 21
+    }
+  ],
+  "uncertainty_scope": "Paired resampling of sites conditional on observed aggregates; mutations not pseudoreplicates. Spatial dependence and one small domain limit inferential calibration and generalization. Fit spreads are not independent experimental replicates.",
+  "biology_scope": "One inferred GAB2-binding endpoint in GRB2 C-SH3; no supported negative pockets, no biological-family superiority, no original nonlinear fidelity or quantum claim.",
+  "evaluation_seconds": 0.4760374579927884,
+  "peak_RSS_bytes": 256147456
+}

@@ -1,0 +1,160 @@
+{
+  "created_utc": "2026-09-14T09:38:14.916234+00:00",
+  "scope": "Offline implementation and provenance audit; a passing audit does not change scientific failures",
+  "protocol": {
+    "sealed_sources": true,
+    "targets": true,
+    "log_grid_contained": true,
+    "pulse_times_complete": true,
+    "strictly_increasing": true,
+    "zero_included": true,
+    "fixed_error": true,
+    "no_refit": true,
+    "tiny_model_dependency": true
+  },
+  "tiny_field": {
+    "central_response": true,
+    "receipt_metrics": true,
+    "independent_forward": true,
+    "pulse_gate": true
+  },
+  "targets": [
+    {
+      "target": "kras",
+      "checks": {
+        "input_hashes": true,
+        "full_kernel_hash": true,
+        "canary_pass": true,
+        "step_full_identity": true,
+        "step_metrics": true,
+        "independent_exponential": true,
+        "pulse_identities_and_metrics": true
+      },
+      "all_implementation_checks_pass": true,
+      "step_scientific_all_times_pass": false,
+      "pulse_results": [
+        {
+          "duration_over_tau": 0.03,
+          "full_identity_max_abs": 1.1102230246251565e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 0.3,
+          "full_identity_max_abs": 1.1034513211967793e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 3.0,
+          "full_identity_max_abs": 1.081762717597412e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        }
+      ]
+    },
+    {
+      "target": "abl",
+      "checks": {
+        "input_hashes": true,
+        "full_kernel_hash": true,
+        "canary_pass": true,
+        "step_full_identity": true,
+        "step_metrics": true,
+        "independent_exponential": true,
+        "pulse_identities_and_metrics": true
+      },
+      "all_implementation_checks_pass": true,
+      "step_scientific_all_times_pass": false,
+      "pulse_results": [
+        {
+          "duration_over_tau": 0.03,
+          "full_identity_max_abs": 1.1102230246251565e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 0.3,
+          "full_identity_max_abs": 1.105699893502237e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 3.0,
+          "full_identity_max_abs": 1.0972125985553305e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        }
+      ]
+    },
+    {
+      "target": "myc",
+      "checks": {
+        "input_hashes": true,
+        "full_kernel_hash": true,
+        "canary_pass": true,
+        "step_full_identity": true,
+        "step_metrics": true,
+        "independent_exponential": true,
+        "pulse_identities_and_metrics": true
+      },
+      "all_implementation_checks_pass": true,
+      "step_scientific_all_times_pass": false,
+      "pulse_results": [
+        {
+          "duration_over_tau": 0.03,
+          "full_identity_max_abs": 1.087454779002961e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 0.3,
+          "full_identity_max_abs": 1.0719527448365258e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 3.0,
+          "full_identity_max_abs": 5.530386638719694e-17,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        }
+      ]
+    },
+    {
+      "target": "myh7",
+      "checks": {
+        "input_hashes": true,
+        "full_kernel_hash": true,
+        "canary_pass": true,
+        "step_full_identity": true,
+        "step_metrics": true,
+        "independent_exponential": true,
+        "pulse_identities_and_metrics": true
+      },
+      "all_implementation_checks_pass": true,
+      "step_scientific_all_times_pass": false,
+      "pulse_results": [
+        {
+          "duration_over_tau": 0.03,
+          "full_identity_max_abs": 1.1102230246251565e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 0.3,
+          "full_identity_max_abs": 1.100859257372995e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        },
+        {
+          "duration_over_tau": 3.0,
+          "full_identity_max_abs": 1.0928389968717421e-16,
+          "metrics_agree": true,
+          "scientific_all_times_pass": false
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,6 @@
+{
+  "recorded_utc": "2026-09-14T10:06:39.858295+00:00",
+  "status": "FROZEN_BEFORE_ADDITIONAL_LOW_WORD_PROBE",
+  "reason": "The fouroriginal33bitprobes usehigh powersoftwo. Add one fixedmixed low/high word0x123456789 to exercisecarrypaths throughouttheword. Samebank,preparedgradient,numericalthresholds; notanewmethodorcostcomparison.",
+  "source_sha256": "18defb81bb78b365f1daa2f080cbef3493cdf549bc9632e03ac50521a9126482"
+}

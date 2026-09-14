@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-09-14T09:40:23.948293+00:00",
+  "exit_code": 0,
+  "result": {
+    "created_utc": "2026-09-14T09:40:23.932522+00:00",
+    "scope": "Offline implementation and provenance audit; a passing audit does not change scientific failures",
+    "protocol": {
+      "sealed_sources": true,
+      "targets": true,
+      "log_grid_contained": true,
+      "pulse_times_complete": true,
+      "strictly_increasing": true,
+      "zero_included": true,
+      "fixed_error": true,
+      "no_refit": true,
+      "tiny_model_dependency": true
+    },
+    "tiny_field": {
+      "central_response": true,
+      "receipt_metrics": true,
+      "independent_forward": true,
+      "pulse_gate": true
+    },
+    "passed": true
+  },
+  "scope": "Minimal-file relocated source/protocol/tiny-result audit; no four-target array replay"
+}

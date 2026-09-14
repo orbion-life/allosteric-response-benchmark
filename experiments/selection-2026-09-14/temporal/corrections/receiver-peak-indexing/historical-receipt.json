@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-14T10:21:49.221870+00:00",
+  "reason": "Preserve documentation and publication manifests from before the independently discovered ancillary peak-indexing correction. Sealed scientific sources and all original results remain untouched.",
+  "files": [
+    {
+      "file": "corrections/receiver-peak-indexing/historical/COMPACT-PUBLICATION-MANIFEST.json",
+      "sha256": "31bd84a3721f58d7ecc3fbe671a527dc823edeb8b19043fb9f9a09c2d84b2546"
+    },
+    {
+      "file": "corrections/receiver-peak-indexing/historical/README.md",
+      "sha256": "1246b1723895bdf07dec638e354e86cfef9b7a06f785bed0b121734fbb9a76aa"
+    },
+    {
+      "file": "corrections/receiver-peak-indexing/historical/FULL-LOCAL-FILE-MANIFEST.json",
+      "sha256": "1dcd259885c0d57efd02be644ab113770730e0d82fb42ca678b2735d6857f10b"
+    },
+    {
+      "file": "corrections/receiver-peak-indexing/historical/event-aligned/README.md",
+      "sha256": "a63de6a70b0f0ae5bfae83f1a58d4a3f2f0d7c056ac488b9d70414219db44d5b"
+    }
+  ]
+}

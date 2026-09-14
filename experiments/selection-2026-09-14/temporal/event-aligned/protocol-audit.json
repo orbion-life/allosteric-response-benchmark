@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-14T09:45:54.335061+00:00",
+  "scope": "Implementation verification does not turn scientific temporal failures into passes",
+  "protocol": {
+    "sealed_sources": true,
+    "prior_protocol": true,
+    "new_and_old_disjoint": true,
+    "same_error_allocation": true,
+    "no_tuning": true,
+    "fixed_lag_rule": true,
+    "exact_time_construction": true
+  },
+  "passed": true
+}

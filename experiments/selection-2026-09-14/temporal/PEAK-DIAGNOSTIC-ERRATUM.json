@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-14T10:24:05.326298+00:00",
+  "status": "CORRECTION; historical sealed sources and results preserved unchanged",
+  "cause": "analyze.py:23 applies bitwise AND between a boolean candidate mask and integer receiver indices, selecting parity-dependent positions instead of actual receiver columns. event-aligned/analyze_addendum.py imports that function.",
+  "affected": [
+    "peaks arrays in all 28 original and event-aligned step/pulse archives",
+    "peak objects in all endpoint analysis.json records",
+    "sampled_peak objects in original and event-aligned summary.json",
+    "unqualified historical prose about the original peak metrics"
+  ],
+  "withdrawal": "Do not use any original peak fields as candidate-to-receiver diagnostics. Sealed replay intentionally reproduces these historical values.",
+  "unaffected_verified": [
+    "full and reduced response matrices",
+    "all full-matrix error arrays and .002 pass/fail gates",
+    "full-matrix signed-entry counts",
+    "reference/reduced RMS ranking arrays using actual receiver columns",
+    "secondary candidate-to-receiver errors, reference peaks and relative Frobenius errors",
+    "independent 64-state pulse experiment"
+  ],
+  "corrected_source": "corrections/receiver-peak-indexing/correct_peaks.py",
+  "corrected_summary": "corrections/receiver-peak-indexing/results/corrected-peak-summary.json",
+  "independent_verification": "corrections/receiver-peak-indexing/results/independent-verification.json",
+  "no_new_GPU_work": true,
+  "no_basis_model_time_or_threshold_change": true
+}

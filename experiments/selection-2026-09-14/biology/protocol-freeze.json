@@ -1,0 +1,6 @@
+{
+  "frozen_utc": "2026-09-14T09:25:58.216058+00:00",
+  "protocol_sha256": "0d55e95c4ab1533bc49bf2f256446a6769fafc4536e42da0aeadf632daa41bb4",
+  "status": "FROZEN_BEFORE_NEW_MODEL_OUTCOME_JOIN",
+  "prior_exposure": "Faure source values and metadata were read during qualification; no GRB2 model-score join or result inspection has occurred."
+}

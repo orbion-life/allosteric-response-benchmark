@@ -1,0 +1,37 @@
+{
+  "recorded_utc": "2026-09-14T09:26:57.062220+00:00",
+  "status": "FROZEN_BEFORE_NEW_SEMANTIC_AND_COST_OUTCOMES",
+  "candidate": "Real signed Ry-tree using clean SELECT\u2013SWAP angle lookup, bit-controlled Ry bank, exact lookup inverse; primary one fixed construction. Dirty echo is a semantic fixture and alternate resource accounting, not selected after observed response.",
+  "source": "Low,Kliuchnikov,Schaeffer Quantum8:1375(2024),Sections2,3,B.2.1,D.1.1; no phase-gradient/measurement-based uncomputation variant.",
+  "SELECT": "Reversible prefix tree; each prefix beyond first address bit is computed with RCCX and uncomputed with its exact inverse around data-CX and descendant blocks. This explicitly restores relative phases. For M>=2 addresses, exact component construction uses4M\u22128 RCCX;4T each. M1/2 need no T. This is an implemented conservative SELECT, not the best paper4N asymptotic constant.",
+  "SWAP": "Exact Fredkin=twoCX+one7T Toffoli; binary swap tree ascending low-address bits; lambda\u22121 swaps per output bit.",
+  "lambda_rule": "For each table separately choose power-of-two lambda<=N minimizing16max(N/lambda\u22122,0)+7*b*(lambda\u22121), tie smallerlambda. Choice depends only on dimensions/precision before measured outcomes.",
+  "angle_representation": "Nearest b-bit integer modulo4pi, preserving conditional Ry signs/global phase. Exact zero stayszero. b selected by whole max-order path error bound; all angle words and hashes retained.",
+  "normalization": "Same accepted triangle H,B and fixed upper Cholesky L. Gamma=||L||F\u00b2, alpha=Gamma/2; original degrees10,25,76/times/18queries retained. Dense norm-optimal6qubit comparison retains7,17,47 degrees. Also factor-normalization dense comparator retained.",
+  "precision": {
+    "total_response_max_absolute": 0.002,
+    "projection": "Prior measured exactGaussian discrepancy retained",
+    "polynomial_tail_response_max": 1e-08,
+    "angle_rounding_response_allowance": 1e-06,
+    "Clifford_T_synthesis_response_allowance": 1e-06,
+    "arithmetic_allowance": 1e-08,
+    "synthesis_rule": "Pinned pygridsynth2.0.0 RossSelinger, deterministic seed1729, arbitrary rotations operator-verified. Sum of per-rotation operator errors gives same whole-estimator output allowance in candidate/dense. Exact Clifford rotations recognized analytically; inverse synthesized strings reused.",
+    "full_sampling": "Recompute sufficient Hoeffding bound for all18queries \u03b4=.05 after all equal declared response allowances; no hardware shot claim."
+  },
+  "admission": {
+    "quantized_and_synthesized_Gaussian_response_error_max": 0.002,
+    "lookup_semantic_error_max": 1e-09,
+    "compiled_component_error_max": "respective declared error sum",
+    "complete_expected_T_candidate_over_strong_dense_max": 0.5,
+    "no_admission_if": "A missing complete component, unverified precision budget or only asymptotic resource formula cannot be called a compiled execution advantage."
+  },
+  "limits": {
+    "threads": 3,
+    "memory_GiB": 12,
+    "single_compilation_seconds": 600,
+    "single_circuit_native_operations": 1000000,
+    "whole_branch_seconds": 7200,
+    "qpu": false
+  },
+  "protein_accounting": "Same common4targetrevision actualL/angles; precise table dimensions, clean/dirtyworkspace, query/uncompute, rotation synthesis, reflection/preparation, degrees/caps and complete readout budgets; distinguish measured small components from uncompiled proteins."
+}

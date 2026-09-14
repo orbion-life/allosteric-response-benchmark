@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "scientific_status": "PASS",
+  "scope": "64-state original quartic finite box; independent dense eigensystem and forward-generator piecewise propagation, no physical convergence",
+  "states": 64,
+  "max_identity_error_by_amplitude": [
+    1.0496215232941308e-06,
+    2.6240616211870016e-07,
+    6.560160374646795e-08
+  ],
+  "successive_central_changes": [
+    7.872153611754307e-07,
+    1.968045583722322e-07
+  ],
+  "independent_forward_central_max_abs": 3.044786645034492e-14,
+  "max_probability_mass_error": 2.220446049250313e-15,
+  "minimum_probability": 8.285733258422348e-05,
+  "max_forward_probability_discrepancy": 2.2898349882893854e-16,
+  "seconds": 0.07055841700639576,
+  "protocol_sha256": "1f7793484c610efdd3a241c6a6154fb11089c612d15c3fd5835f90d19beda190",
+  "source_sha256": "b7edbe8237c38c3667bfe171ad18e49f8ace924b067f294d37649bf67d582492"
+}

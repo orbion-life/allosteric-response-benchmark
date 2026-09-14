@@ -1,0 +1,15 @@
+{
+  "status": "BOUNDED_PRIOR_EXPOSURE_DISCLOSED",
+  "source_receipt_sha256": "66d1f74fc3cd06447f8e9f4a88f4a10293877b5d0467dc62ee3a9089e91bead7",
+  "query_pattern": "\\b(GRB2|2VWF|P62993)\\b",
+  "matching_paths": 37,
+  "scope": "Orbion Quantum Research eligible project, listed text extensions, <=4 MB; not a lifetime guarantee. Compressed archives and larger files not searched by content.",
+  "current_acquisition_excluded_paths": 19,
+  "interpretation": "Search is not proof of lifetime blindness. Assay values and metadata were already inspected during qualification; the current protocol precedes the new model-outcome join. GRB2 is development evidence after this evaluation.",
+  "current_protocol_freeze": {
+    "frozen_utc": "2026-09-14T09:25:58.216058+00:00",
+    "protocol_sha256": "0d55e95c4ab1533bc49bf2f256446a6769fafc4536e42da0aeadf632daa41bb4",
+    "status": "FROZEN_BEFORE_NEW_MODEL_OUTCOME_JOIN",
+    "prior_exposure": "Faure source values and metadata were read during qualification; no GRB2 model-score join or result inspection has occurred."
+  }
+}

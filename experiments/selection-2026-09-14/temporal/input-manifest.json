@@ -1,0 +1,130 @@
+[
+  {
+    "target": "kras",
+    "original_operator_sha256": "66d3b7a04c329b977f3c91b0e566fb75e86e182c77fa8618cf9382e6c6ef16b6",
+    "original_operator": "/Users/aniruddhgoteti/workspace/Orbion Quantum Research/outputs/pulsar-feasibility-validation-2026-09-14/representation/global-gram-followup/kras/result.npz",
+    "files": [
+      {
+        "file": "inputs/kras/all-mode-harmonic-scales.npz",
+        "sha256": "a58e00475035b9733ab686ab981d1236f1c560b48b18b4da453e091b125ba14c",
+        "bytes": 1712
+      },
+      {
+        "file": "inputs/kras/fitted-covariance.npz",
+        "sha256": "ad108dd9de87306b46296e89f2fc308d0ec2bc60ab009e8e866fcdadf3272a3d",
+        "bytes": 3699057
+      },
+      {
+        "file": "inputs/kras/fixed-operator.npz",
+        "sha256": "680bf264f96a4069d56e415046ed4342fcc17a4e11127e8bf198f1a305767ca0",
+        "bytes": 3533114
+      },
+      {
+        "file": "inputs/kras/ranking-metadata.npz",
+        "sha256": "6ebdd6ee923ace5f4d57401608d9083331d402d67b3b5c881f805ade8ea2991a",
+        "bytes": 951
+      },
+      {
+        "file": "inputs/kras/static-model.npz",
+        "sha256": "1d22108cbfe0440f8ebb8fdbae7331623026f996831442b0b24bb194131538cd",
+        "bytes": 2047314
+      }
+    ]
+  },
+  {
+    "target": "abl",
+    "original_operator_sha256": "ec9beff677aff03c7ce4f8076577ad63e84312ccdbf268aeb2caa4527e726f5c",
+    "original_operator": "/Users/aniruddhgoteti/workspace/Orbion Quantum Research/outputs/pulsar-feasibility-validation-2026-09-14/representation/global-gram-followup/abl/result.npz",
+    "files": [
+      {
+        "file": "inputs/abl/all-mode-harmonic-scales.npz",
+        "sha256": "601783f315a4d4483a1154e6df6e5f76f0aa85e05eac50f24e16ac971293975c",
+        "bytes": 2364
+      },
+      {
+        "file": "inputs/abl/fitted-covariance.npz",
+        "sha256": "e202bccb17020d1a02ddd87044eff7a210afa3371ddefb6e4bb4a3713134a372",
+        "bytes": 8646012
+      },
+      {
+        "file": "inputs/abl/fixed-operator.npz",
+        "sha256": "d0062fe5acf070390ebd72eef2c3232bdd1624b0d89faec22f3d2268528d2682",
+        "bytes": 8174658
+      },
+      {
+        "file": "inputs/abl/ranking-metadata.npz",
+        "sha256": "88450049f582bfee3d86036c5f78917b990c0df9b0e23486cc5420680be30aba",
+        "bytes": 1128
+      },
+      {
+        "file": "inputs/abl/static-model.npz",
+        "sha256": "b3b5306ac6515bafd23419b1fc5bf9ec9b5f4ef01b57b8cecc15ea994fe885e7",
+        "bytes": 4614634
+      }
+    ]
+  },
+  {
+    "target": "myc",
+    "original_operator_sha256": "c5618e41f61966425bed2ee2e9b0d271a2031b60407541e86e1b1270f109461c",
+    "original_operator": "/Users/aniruddhgoteti/workspace/Orbion Quantum Research/outputs/pulsar-feasibility-validation-2026-09-14/representation/global-gram-followup/myc/result.npz",
+    "files": [
+      {
+        "file": "inputs/myc/all-mode-harmonic-scales.npz",
+        "sha256": "bcb3a5fd1b0e16e03f87f55f1af61047d560c2206729106d32d443da38921c9b",
+        "bytes": 1708
+      },
+      {
+        "file": "inputs/myc/fitted-covariance.npz",
+        "sha256": "8c9c0327da3f344c0d0c49ec961136e204a235d5a314797766cab31cf7d0de99",
+        "bytes": 3516432
+      },
+      {
+        "file": "inputs/myc/fixed-operator.npz",
+        "sha256": "5f785a6ece3fc1553d5cee54b4f468f64bb50b989003953aa5b6c4c30743547d",
+        "bytes": 2493105
+      },
+      {
+        "file": "inputs/myc/ranking-metadata.npz",
+        "sha256": "85ddedd9ba58b3fe9833a676c6d12e3b25ddf43638331c05a4bad0e93d5b9081",
+        "bytes": 943
+      },
+      {
+        "file": "inputs/myc/static-model.npz",
+        "sha256": "59fdef840da54c8a2789f7bdb142dfa062b8e39bcbbeae41fabf45626cbaa554",
+        "bytes": 1928387
+      }
+    ]
+  },
+  {
+    "target": "myh7",
+    "original_operator_sha256": "c9bb8ba85145fb085b5d08e3eea08ede6ede3b8bae747b781d5edc97ae03b4d6",
+    "original_operator": "/Users/aniruddhgoteti/workspace/Orbion Quantum Research/outputs/pulsar-feasibility-validation-2026-09-14/representation/global-gram-followup/myh7/result.npz",
+    "files": [
+      {
+        "file": "inputs/myh7/all-mode-harmonic-scales.npz",
+        "sha256": "1cf1a7aadcdfb5111f5d8c2fb9efcb077ae92592979fe08fc5c2b026aeeb48b4",
+        "bytes": 5681
+      },
+      {
+        "file": "inputs/myh7/fitted-covariance.npz",
+        "sha256": "d20c9273d27e7c9c01b31b10513e9e2ced0f63ff3463af74bbdcbc038593e6fe",
+        "bytes": 66519647
+      },
+      {
+        "file": "inputs/myh7/fixed-operator.npz",
+        "sha256": "cc02d10c003cce92493c4219e32fbc86ff9f0d316f234632971c4e3cfd9181be",
+        "bytes": 52580771
+      },
+      {
+        "file": "inputs/myh7/ranking-metadata.npz",
+        "sha256": "af00f811ef8de8cf5ab2e87d29941f200b115f9ac930854791e44c0c85ee6b92",
+        "bytes": 1744
+      },
+      {
+        "file": "inputs/myh7/static-model.npz",
+        "sha256": "fede6fb91ca2c963ec4c47bb4b90dbf47572117aeff7716a42ee7da6ab6b5881",
+        "bytes": 33976866
+      }
+    ]
+  }
+]

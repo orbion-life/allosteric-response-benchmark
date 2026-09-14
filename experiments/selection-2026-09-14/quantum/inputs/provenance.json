@@ -1,0 +1,150 @@
+{
+  "prior_evidence": "pulsar-feasibility-validation-2026-09-14/quantum",
+  "files": [
+    {
+      "path": "inputs/triangle.npz",
+      "source_relative_to_prior_quantum": "inputs/triangle.npz",
+      "sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8"
+    },
+    {
+      "path": "vendor/multiplexed.py",
+      "source_relative_to_prior_quantum": "multiplexed-followup/multiplexed.py",
+      "sha256": "eab1889365cdf19bcf1d71b6c27b927a5b1a6193ed6d6e44dc81b8c01d789bf5"
+    },
+    {
+      "path": "vendor/reduced_overlap.py",
+      "source_relative_to_prior_quantum": "vendor/reduced_overlap.py",
+      "sha256": "aa9491ca8fe6e4f8db70f878682224f4e7285c0c02dc152854295f4524cebf6a"
+    },
+    {
+      "path": "inputs/kras-measured-arrays.npz",
+      "source_relative_to_prior_quantum": "protein-accounting/kras-global-gram-followup/measured-arrays.npz",
+      "sha256": "33543fa36eba45f878c8ef313073570824be68e2c98e030698a46a9d585293b7"
+    },
+    {
+      "path": "inputs/kras-receipt.json",
+      "source_relative_to_prior_quantum": "protein-accounting/kras-global-gram-followup/receipt.json",
+      "sha256": "1fd64a68a4b8fe8e24139cfbecc571bc8d1850ed12083d3cd4ef3e65eeaf3e85"
+    },
+    {
+      "path": "inputs/abl-measured-arrays.npz",
+      "source_relative_to_prior_quantum": "protein-accounting/abl-global-gram-followup/measured-arrays.npz",
+      "sha256": "31e6a4bf78cd4e0cadbd0788895910f7e2f491fc6a9d7fcc9bbf5fa25e489812"
+    },
+    {
+      "path": "inputs/abl-receipt.json",
+      "source_relative_to_prior_quantum": "protein-accounting/abl-global-gram-followup/receipt.json",
+      "sha256": "f27c37a94761b45f2abce998aafba5a201f5a541896c32b315f3a8931f9f5b08"
+    },
+    {
+      "path": "inputs/myc-measured-arrays.npz",
+      "source_relative_to_prior_quantum": "protein-accounting/myc-global-gram-followup/measured-arrays.npz",
+      "sha256": "a85b8df1c95155223d0455336bf86b2bcc2e52ec87fd42eb59b338d46609c1ef"
+    },
+    {
+      "path": "inputs/myc-receipt.json",
+      "source_relative_to_prior_quantum": "protein-accounting/myc-global-gram-followup/receipt.json",
+      "sha256": "e7db8c62c2c236fef3cf811ae10d97c4f77d51e71d826965b3910cbe542a11cb"
+    },
+    {
+      "path": "inputs/myh7-measured-arrays.npz",
+      "source_relative_to_prior_quantum": "protein-accounting/myh7-global-gram-followup/measured-arrays.npz",
+      "sha256": "1f7ed427df9bcc6b9dc9936f4c5f5dc90bb0ffaffac61abe117125f03e6f5b59"
+    },
+    {
+      "path": "inputs/myh7-receipt.json",
+      "source_relative_to_prior_quantum": "protein-accounting/myh7-global-gram-followup/receipt.json",
+      "sha256": "d0a12e70de0a552747734ff3ed5c10687229bd40b6ec4ba6dfaf07e8e4cf434f"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/receipt.json",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/receipt.json",
+      "sha256": "cd5a07e492625c17009f17b054154ab569e1f012c39bbaa72cffed4bc056fd77"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/readout-records.json",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/readout-records.json",
+      "sha256": "8805da6870faff10ac65f1fa151e2151522ad76c3eadf0eb5a475a1a9817ee6b"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/controlled-walk.qpy",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/controlled-walk.qpy",
+      "sha256": "cfad7d00c9fbcf124326813ac703638879392f17bd5afeb3a74501bffcde06f7"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/prepare-0.qpy",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/prepare-0.qpy",
+      "sha256": "b3ae5d053234f645e743bc07cb5b62807040f916f9dd22ca85fd292f71d6ade4"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/prepare-1.qpy",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/prepare-1.qpy",
+      "sha256": "f1960c5902c8d2eaa582b362428a48f10b76ee2f0b024915594e716ed3fcd722"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/prepare-2.qpy",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/prepare-2.qpy",
+      "sha256": "4f0b04c0985907be5bebd7b41ae463a9aa54b42aca262f825f15757478f064ea"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/unprepare-0.qpy",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/unprepare-0.qpy",
+      "sha256": "b6a6b0adc877026f47bfd90006390f2437001735ebd4323a58ed812e5dca8fb8"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/unprepare-1.qpy",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/unprepare-1.qpy",
+      "sha256": "cf9d77f097fc68a0778104572d31007bfd805d5579d82bbf996560fde11cf96b"
+    },
+    {
+      "path": "baseline/dense_norm_optimal/unprepare-2.qpy",
+      "source_relative_to_prior_quantum": "results/dense_norm_optimal/unprepare-2.qpy",
+      "sha256": "5abbd3eb1616a717208118c7c0a25d4577a7d6aa2b8df5e6bcb64a8df772d4bd"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/receipt.json",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/receipt.json",
+      "sha256": "4199f876a9057f685e042a64e2454aece92360d221b0d98c01ba6eb182968b0f"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/readout-records.json",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/readout-records.json",
+      "sha256": "a768b8b6f8f8e63f69f79994db17f708bc4add7fa8f33bf37d68d8cba7eed1bc"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/controlled-walk.qpy",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/controlled-walk.qpy",
+      "sha256": "3b1cc73fbae53afe745c9f1e5421c4ee50fb8451f551af97d811ea66f0371171"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/prepare-0.qpy",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/prepare-0.qpy",
+      "sha256": "b3ae5d053234f645e743bc07cb5b62807040f916f9dd22ca85fd292f71d6ade4"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/prepare-1.qpy",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/prepare-1.qpy",
+      "sha256": "f1960c5902c8d2eaa582b362428a48f10b76ee2f0b024915594e716ed3fcd722"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/prepare-2.qpy",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/prepare-2.qpy",
+      "sha256": "4f0b04c0985907be5bebd7b41ae463a9aa54b42aca262f825f15757478f064ea"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/unprepare-0.qpy",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/unprepare-0.qpy",
+      "sha256": "b6a6b0adc877026f47bfd90006390f2437001735ebd4323a58ed812e5dca8fb8"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/unprepare-1.qpy",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/unprepare-1.qpy",
+      "sha256": "cf9d77f097fc68a0778104572d31007bfd805d5579d82bbf996560fde11cf96b"
+    },
+    {
+      "path": "baseline/dense_factor_normalization/unprepare-2.qpy",
+      "source_relative_to_prior_quantum": "results/dense_factor_normalization/unprepare-2.qpy",
+      "sha256": "5abbd3eb1616a717208118c7c0a25d4577a7d6aa2b8df5e6bcb64a8df772d4bd"
+    }
+  ]
+}

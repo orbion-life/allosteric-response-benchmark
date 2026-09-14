@@ -1,0 +1,30 @@
+{
+  "label": "GRB2-1GFD-20",
+  "model_path": "/Users/aniruddhgoteti/workspace/Orbion Quantum Research/outputs/pulsar-selection-experiments-2026-09-14/biology/results/structure-sensitivity/1GFD-model20/static-model.npz",
+  "model_sha256": "97ea20a43ba6604c6f5759d46c4f3013e553078991d6711774ce17571f54cf61",
+  "scales_path": "/Users/aniruddhgoteti/workspace/Orbion Quantum Research/outputs/pulsar-selection-experiments-2026-09-14/biology/results/structure-sensitivity/1GFD-model20/harmonic-scales.npz",
+  "scales_sha256": "94acb4b3b463039c5fc2108688276a05f100cc5b0fd9d472d950aac67d8f7354",
+  "residues": 56,
+  "contacts": 465,
+  "internal_coordinates": 162,
+  "beta": 1.0,
+  "mobility": 1.0,
+  "times_over_tau": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "tau": 5.457958334506339,
+  "times": [
+    0.5457958334506339,
+    5.457958334506339,
+    54.579583345063384
+  ],
+  "centroid": "fixed at native structure",
+  "domain": "all retained internal-coordinate space R^D for Gaussian surrogate",
+  "potential": "original biquadratic contact potential expectation in Gaussian family",
+  "observables": "original degree-averaged quartic contact energies",
+  "normalization": "original all-positive-mode harmonic SD of same quartic observables",
+  "source_sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5",
+  "created_utc": "2026-09-14T09:28:46.665483+00:00"
+}

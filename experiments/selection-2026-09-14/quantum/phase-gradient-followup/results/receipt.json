@@ -1,0 +1,452 @@
+{
+  "status": "FOLLOWUP_COMPONENTS_COMPILED_AND_COMPOSITION_BOUND_VERIFIED",
+  "source_sha256": "bd6092b40b4de32a25d768bd648e0fc88cc547c84287c6897503c03f11d1953d",
+  "input_sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+  "Gamma": 44.023640376039786,
+  "alpha": 22.011820188019893,
+  "polynomial_degrees": [
+    10,
+    25,
+    76
+  ],
+  "precision_bits": 33,
+  "gradient_bank": {
+    "qubits": 69,
+    "operations": 7642,
+    "ops": {
+      "cx": 3156,
+      "t": 1778,
+      "tdg": 1778,
+      "h": 926,
+      "x": 2,
+      "sdg": 1,
+      "s": 1
+    },
+    "T": 3556,
+    "CX": 3156,
+    "depth": 4945,
+    "T_depth": 1976
+  },
+  "controlled_adder": {
+    "qubits": 69,
+    "operations": 3818,
+    "ops": {
+      "cx": 1578,
+      "t": 988,
+      "tdg": 790,
+      "h": 462
+    },
+    "T": 1778,
+    "CX": 1578,
+    "depth": 2470,
+    "T_depth": 988
+  },
+  "adder_metadata": {
+    "adder_boolean_ops": {
+      "cx": 132,
+      "ccx": 66
+    },
+    "word_bits": 33,
+    "adder_helper_qubits": 1,
+    "control_helper_qubits": 1
+  },
+  "gradient_preparation": {
+    "qubits": 33,
+    "operations": 5388,
+    "ops": {
+      "h": 2149,
+      "t": 2099,
+      "s": 1123,
+      "x": 14,
+      "z": 3
+    },
+    "T": 2099,
+    "CX": 0,
+    "depth": 263,
+    "T_depth": 102
+  },
+  "gradient_state_phase_aligned_distance_70_digits": "0.00000003685459066318622435011119772353391623976775509948947576412964749390584",
+  "gradient_preparation_response_error_bound": 5.219295377347845e-08,
+  "gradient_initialization_policy": "Fresh oncepercompleteestimator shot; reusedthrough allwalkpowers andloaders. No unpreparationneededbecausegradientisdiscarded afterreadout. Initialstate normerror givesuniform wholecircuitexpectationbound despitepossible entanglement. No reuseacrossshots.",
+  "ideal_gradient_Gaussian_response_error": 2.097234739217857e-05,
+  "prepared_gradient_Gaussian_response_error_upper": 2.1024540345952048e-05,
+  "response_pass": true,
+  "system_qubits": 10,
+  "lookup_clean_workspace": 137,
+  "gradient_qubits": 33,
+  "adder_helper_qubits": 2,
+  "total_logical_qubits": 182,
+  "dirty_qubits": 0,
+  "sampling": {
+    "sampling_epsilon": 0.0019770056584691893,
+    "shots_per_entry": 1687996,
+    "entries": 18,
+    "scope": "Sufficient ideal sampling plan; no actual shots or noise guarantee",
+    "family_failure_probability": 0.05
+  },
+  "cost": {
+    "controlled_walk": {
+      "qubits": 182,
+      "operations": 148079,
+      "ops": {
+        "cx": 63614,
+        "t": 33156,
+        "tdg": 33156,
+        "h": 17748,
+        "x": 370,
+        "sdg": 16,
+        "s": 16,
+        "z": 3
+      },
+      "T": 66312,
+      "CX": 63614,
+      "depth": 84738,
+      "T_depth": 33076
+    },
+    "preparations": [
+      {
+        "qubits": 182,
+        "operations": 31034,
+        "ops": {
+          "cx": 12890,
+          "t": 7174,
+          "tdg": 7174,
+          "h": 3760,
+          "x": 28,
+          "sdg": 4,
+          "s": 4
+        },
+        "T": 14348,
+        "CX": 12890,
+        "depth": 19868,
+        "T_depth": 7927
+      },
+      {
+        "qubits": 182,
+        "operations": 31030,
+        "ops": {
+          "cx": 12886,
+          "t": 7174,
+          "tdg": 7174,
+          "h": 3760,
+          "x": 28,
+          "sdg": 4,
+          "s": 4
+        },
+        "T": 14348,
+        "CX": 12886,
+        "depth": 19931,
+        "T_depth": 7945
+      },
+      {
+        "qubits": 182,
+        "operations": 31018,
+        "ops": {
+          "cx": 12874,
+          "t": 7174,
+          "tdg": 7174,
+          "h": 3760,
+          "x": 28,
+          "sdg": 4,
+          "s": 4
+        },
+        "T": 14348,
+        "CX": 12874,
+        "depth": 19991,
+        "T_depth": 7957
+      }
+    ],
+    "queries": [
+      {
+        "time_index": 0,
+        "i": 0,
+        "j": 0,
+        "expected_order": 0.9616454994508575,
+        "shots": 1687996,
+        "expected_T_per_shot": 94563.63635958527,
+        "expected_CX_per_shot": 86954.11680206686,
+        "serial_T_depth_upper_per_shot": 47763.38653983656
+      },
+      {
+        "time_index": 0,
+        "i": 0,
+        "j": 1,
+        "expected_order": 0.9616454994508575,
+        "shots": 1687996,
+        "expected_T_per_shot": 94563.63635958527,
+        "expected_CX_per_shot": 86950.11680206686,
+        "serial_T_depth_upper_per_shot": 47781.38653983656
+      },
+      {
+        "time_index": 0,
+        "i": 0,
+        "j": 2,
+        "expected_order": 0.9616454994508575,
+        "shots": 1687996,
+        "expected_T_per_shot": 94563.63635958527,
+        "expected_CX_per_shot": 86938.11680206686,
+        "serial_T_depth_upper_per_shot": 47793.38653983656
+      },
+      {
+        "time_index": 0,
+        "i": 1,
+        "j": 1,
+        "expected_order": 0.9616454994508575,
+        "shots": 1687996,
+        "expected_T_per_shot": 94563.63635958527,
+        "expected_CX_per_shot": 86946.11680206686,
+        "serial_T_depth_upper_per_shot": 47799.38653983656
+      },
+      {
+        "time_index": 0,
+        "i": 1,
+        "j": 2,
+        "expected_order": 0.9616454994508575,
+        "shots": 1687996,
+        "expected_T_per_shot": 94563.63635958527,
+        "expected_CX_per_shot": 86934.11680206686,
+        "serial_T_depth_upper_per_shot": 47811.38653983656
+      },
+      {
+        "time_index": 0,
+        "i": 2,
+        "j": 2,
+        "expected_order": 0.9616454994508575,
+        "shots": 1687996,
+        "expected_T_per_shot": 94563.63635958527,
+        "expected_CX_per_shot": 86922.11680206686,
+        "serial_T_depth_upper_per_shot": 47823.38653983656
+      },
+      {
+        "time_index": 1,
+        "i": 0,
+        "j": 0,
+        "expected_order": 3.2974772858772714,
+        "shots": 1687996,
+        "expected_T_per_shot": 249457.31378109363,
+        "expected_CX_per_shot": 235545.72006379673,
+        "serial_T_depth_upper_per_shot": 125023.35870767663
+      },
+      {
+        "time_index": 1,
+        "i": 0,
+        "j": 1,
+        "expected_order": 3.2974772858772714,
+        "shots": 1687996,
+        "expected_T_per_shot": 249457.31378109363,
+        "expected_CX_per_shot": 235541.72006379673,
+        "serial_T_depth_upper_per_shot": 125041.35870767663
+      },
+      {
+        "time_index": 1,
+        "i": 0,
+        "j": 2,
+        "expected_order": 3.2974772858772714,
+        "shots": 1687996,
+        "expected_T_per_shot": 249457.31378109363,
+        "expected_CX_per_shot": 235529.72006379673,
+        "serial_T_depth_upper_per_shot": 125053.35870767663
+      },
+      {
+        "time_index": 1,
+        "i": 1,
+        "j": 1,
+        "expected_order": 3.2974772858772714,
+        "shots": 1687996,
+        "expected_T_per_shot": 249457.31378109363,
+        "expected_CX_per_shot": 235537.72006379673,
+        "serial_T_depth_upper_per_shot": 125059.35870767663
+      },
+      {
+        "time_index": 1,
+        "i": 1,
+        "j": 2,
+        "expected_order": 3.2974772858772714,
+        "shots": 1687996,
+        "expected_T_per_shot": 249457.31378109363,
+        "expected_CX_per_shot": 235525.72006379673,
+        "serial_T_depth_upper_per_shot": 125071.35870767663
+      },
+      {
+        "time_index": 1,
+        "i": 2,
+        "j": 2,
+        "expected_order": 3.2974772858772714,
+        "shots": 1687996,
+        "expected_T_per_shot": 249457.31378109363,
+        "expected_CX_per_shot": 235513.72006379673,
+        "serial_T_depth_upper_per_shot": 125083.35870767663
+      },
+      {
+        "time_index": 2,
+        "i": 0,
+        "j": 0,
+        "expected_order": 10.496564027340776,
+        "shots": 1687996,
+        "expected_T_per_shot": 726843.1537810216,
+        "expected_CX_per_shot": 693508.4240352561,
+        "serial_T_depth_upper_per_shot": 363140.3517683235
+      },
+      {
+        "time_index": 2,
+        "i": 0,
+        "j": 1,
+        "expected_order": 10.496564027340776,
+        "shots": 1687996,
+        "expected_T_per_shot": 726843.1537810216,
+        "expected_CX_per_shot": 693504.4240352561,
+        "serial_T_depth_upper_per_shot": 363158.3517683235
+      },
+      {
+        "time_index": 2,
+        "i": 0,
+        "j": 2,
+        "expected_order": 10.496564027340776,
+        "shots": 1687996,
+        "expected_T_per_shot": 726843.1537810216,
+        "expected_CX_per_shot": 693492.4240352561,
+        "serial_T_depth_upper_per_shot": 363170.3517683235
+      },
+      {
+        "time_index": 2,
+        "i": 1,
+        "j": 1,
+        "expected_order": 10.496564027340776,
+        "shots": 1687996,
+        "expected_T_per_shot": 726843.1537810216,
+        "expected_CX_per_shot": 693500.4240352561,
+        "serial_T_depth_upper_per_shot": 363176.3517683235
+      },
+      {
+        "time_index": 2,
+        "i": 1,
+        "j": 2,
+        "expected_order": 10.496564027340776,
+        "shots": 1687996,
+        "expected_T_per_shot": 726843.1537810216,
+        "expected_CX_per_shot": 693488.4240352561,
+        "serial_T_depth_upper_per_shot": 363188.3517683235
+      },
+      {
+        "time_index": 2,
+        "i": 2,
+        "j": 2,
+        "expected_order": 10.496564027340776,
+        "shots": 1687996,
+        "expected_T_per_shot": 726843.1537810216,
+        "expected_CX_per_shot": 693476.4240352561,
+        "serial_T_depth_upper_per_shot": 363200.3517683235
+      }
+    ],
+    "expected_total_T": 10845685943780.488,
+    "expected_total_CX": 10289702163168.28,
+    "all_query_readouts": 30383928,
+    "maximum_order": 76,
+    "maximum_order_pair01_cached_operations": 11321459,
+    "cost_scope": "Actual synthesized component counts, exact cached composition and coefficient-weighted repetition. Complete high-order circuits may exceed cap. Two Hadamards/readout charged; T=0. No routing, error correction, distillation or hardware runtime estimate."
+  },
+  "complete_circuits": [
+    {
+      "order": 0,
+      "status": "EXPORTED_ACTUAL_CLIFFORD_T_CIRCUIT",
+      "qubits": 182,
+      "operations": 67455,
+      "ops": {
+        "cx": 25776,
+        "t": 16447,
+        "tdg": 14348,
+        "h": 9671,
+        "s": 1131,
+        "x": 70,
+        "sdg": 8,
+        "z": 3,
+        "measure": 1
+      },
+      "T": 30795,
+      "CX": 25776,
+      "depth": 39858,
+      "T_depth": 15894
+    },
+    {
+      "order": 1,
+      "status": "EXPORTED_ACTUAL_CLIFFORD_T_CIRCUIT",
+      "qubits": 182,
+      "operations": 215534,
+      "ops": {
+        "cx": 89390,
+        "t": 49603,
+        "tdg": 47504,
+        "h": 27419,
+        "s": 1147,
+        "x": 440,
+        "sdg": 24,
+        "z": 6,
+        "measure": 1
+      },
+      "T": 97107,
+      "CX": 89390,
+      "depth": 124534,
+      "T_depth": 48952
+    }
+  ],
+  "full_maximum_order_circuit_status": "OPERATION_CAP",
+  "dense_fairness": [
+    {
+      "name": "dense_norm_optimal",
+      "precision_bits": 40,
+      "compiled_constant_bank": {
+        "qubits": 83,
+        "operations": 9266,
+        "ops": {
+          "cx": 3828,
+          "t": 2156,
+          "tdg": 2156,
+          "h": 1122,
+          "x": 2,
+          "sdg": 1,
+          "s": 1
+        },
+        "T": 4312,
+        "CX": 3828,
+        "depth": 5995,
+        "T_depth": 2396
+      },
+      "angles_compared": 3120,
+      "maximum_direct_Rz_T": 126,
+      "phase_gradient_selected": 0,
+      "expected_total_T_retained": 35265567413911.055,
+      "scope": "Same implemented controlledCDKMbank with classicalwordXinitialization/uninitialization haszeroextraT forlookup. EverydirectRz is cheaper. Gradientinitialization wouldaddnonnegativecost. Specializedconstantadders, jointrotation synthesis andgloballyoptimaldensecircuits remainunassessed."
+    },
+    {
+      "name": "dense_factor_normalization",
+      "precision_bits": 41,
+      "compiled_constant_bank": {
+        "qubits": 85,
+        "operations": 9498,
+        "ops": {
+          "cx": 3924,
+          "t": 2210,
+          "tdg": 2210,
+          "h": 1150,
+          "x": 2,
+          "sdg": 1,
+          "s": 1
+        },
+        "T": 4420,
+        "CX": 3924,
+        "depth": 6145,
+        "T_depth": 2456
+      },
+      "angles_compared": 3113,
+      "maximum_direct_Rz_T": 132,
+      "phase_gradient_selected": 0,
+      "expected_total_T_retained": 58613303217224.4,
+      "scope": "Same implemented controlledCDKMbank with classicalwordXinitialization/uninitialization haszeroextraT forlookup. EverydirectRz is cheaper. Gradientinitialization wouldaddnonnegativecost. Specializedconstantadders, jointrotation synthesis andgloballyoptimaldensecircuits remainunassessed."
+    }
+  ],
+  "candidate_to_strongest_evaluated_dense_T_ratio": 0.30754321393683964,
+  "half_T_cost_gate_pass": true,
+  "scope": "Measured exactClifford+T fullsizecomponents andexported lowordercompletecircuits; tinyfullunitarysemantictests. Largeworkspacefullstatevector andmaximumordercompletecircuit notexecuted. Modelresponse isideal-gradient semanticcomposition plusmeasuredpreparationstateerror bound. No hardware, faultcorrection or classicaladvantageclaim.",
+  "wall_seconds": 6.741396541008726,
+  "peak_RSS_bytes": 423886848
+}

@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-09-14T10:25:16.575288+00:00",
+  "status": "PASS",
+  "scope": "Frozen source/protocol checks, archived tiny-pulse audit, fresh 64-state piecewise-field propagation, independent forward propagation, and saved/fresh tiny-array comparison. No four-protein reference-kernel or waveform replay.",
+  "copied_public_file_hashes_verified": 111,
+  "fresh_tree_contains_protein_inputs": false,
+  "corrected_receiver_peak_selector_fixture": {
+    "status": "PASS",
+    "true_pair_count": 6,
+    "nonconsecutive_odd_and_even_receiver_indices": [
+      1,
+      6
+    ],
+    "historical_selector_fails_fixture": true
+  },
+  "peak_diagnostic_scope": "Original peak fields are withdrawn. CI checks the corrected selector fixture; replay of corrected protein peak metrics requires the separate waveform/correction workflow.",
+  "fresh_tiny_array_max_abs_discrepancies": {
+    "step_reference": 0.0,
+    "pulse_reference": 0.0,
+    "raw_on_off_means": 0.0,
+    "independent_forward_means": 0.0,
+    "central_response": 0.0,
+    "times_over_tau": 0.0,
+    "duration_over_tau": 0.0,
+    "eta": 0.0,
+    "base_H": 0.0,
+    "base_f": 0.0,
+    "base_pi": 0.0,
+    "base_sp": 0.0
+  },
+  "fresh_tiny_receipt": {
+    "status": "COMPLETE",
+    "scientific_status": "PASS",
+    "scope": "64-state original quartic finite box; independent dense eigensystem and forward-generator piecewise propagation, no physical convergence",
+    "states": 64,
+    "max_identity_error_by_amplitude": [
+      1.0496215232941308e-06,
+      2.6240616211870016e-07,
+      6.560160374646795e-08
+    ],
+    "successive_central_changes": [
+      7.872153611754307e-07,
+      1.968045583722322e-07
+    ],
+    "independent_forward_central_max_abs": 3.044786645034492e-14,
+    "max_probability_mass_error": 2.220446049250313e-15,
+    "minimum_probability": 8.285733258422348e-05,
+    "max_forward_probability_discrepancy": 2.2898349882893854e-16,
+    "seconds": 0.06078941700980067,
+    "protocol_sha256": "1f7793484c610efdd3a241c6a6154fb11089c612d15c3fd5835f90d19beda190",
+    "source_sha256": "b7edbe8237c38c3667bfe171ad18e49f8ace924b067f294d37649bf67d582492"
+  },
+  "seconds": 1.2424691669875756,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.4.6",
+    "scipy": "1.16.0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+  },
+  "scientific_status": "All twelve event-aligned protein pulse curves remain failures of the frozen 0.002 accuracy criterion."
+}

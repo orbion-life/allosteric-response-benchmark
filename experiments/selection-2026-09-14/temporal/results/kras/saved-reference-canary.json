@@ -1,0 +1,22 @@
+[
+  {
+    "time_over_tau": 0.0,
+    "saved_CPU_max_abs": 2.6201263381153694e-14,
+    "seconds": 4.057658771
+  },
+  {
+    "time_over_tau": 0.1,
+    "saved_CPU_max_abs": 8.673617379884035e-17,
+    "seconds": 0.19584952499999986
+  },
+  {
+    "time_over_tau": 1.0,
+    "saved_CPU_max_abs": 3.808260130855334e-18,
+    "seconds": 0.1939678609999973
+  },
+  {
+    "time_over_tau": 10.0,
+    "saved_CPU_max_abs": 4.528061595968608e-28,
+    "seconds": 0.19087696600000115
+  }
+]

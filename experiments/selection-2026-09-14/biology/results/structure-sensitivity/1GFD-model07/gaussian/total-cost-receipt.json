@@ -1,0 +1,30 @@
+{
+  "backend": "numpy",
+  "numpy_version": "2.4.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "total_seconds_including_load_fit_covariance_readout_save": 0.9799775829887949,
+  "fit_seconds": 0.05762779200449586,
+  "moment_timings": [
+    {
+      "time": 0.0,
+      "seconds": 0.22474570898339152
+    },
+    {
+      "time": 0.9221303815789867,
+      "seconds": 0.22227033303352073
+    },
+    {
+      "time": 9.221303815789867,
+      "seconds": 0.2229122080025263
+    },
+    {
+      "time": 92.21303815789867,
+      "seconds": 0.22467758296988904
+    }
+  ],
+  "peak_process_rss_platform_units": 222724096,
+  "rss_units": "bytes on macOS; KiB on Linux",
+  "block_edges": 32,
+  "dense_covariance_parameter_hessian_allocated": false,
+  "source_sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+}

@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-09-14T09:55:34.465672+00:00",
+  "status": "ONE_SEPARATE_FOLLOWUP_FROZEN_BEFORE_RESULTS",
+  "input_sha256": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8",
+  "fixed": "Same real upperCholesky,H,B,Gamma,33binaryanglebits,precisionbudgets,degrees10/25/76,18queries andstrongnormoptimaldense7/17/47. PreserveprimarySELECT\u2013SWAPhalf-costfailure.",
+  "method": "LowKliuchnikovSchaeffer AppendixD.1.2. Reuse one33-qubit Fourier phase-gradient state percompleteestimator shot. Prepare once, charge everyshot, reuse acrossallloaders andwalkpowers, discardafterreadout; no acrossshot reuseclaim. Fixed-width CDKM rippleaddition, explicitly control CNOT\u2192Toffoli andToffoli\u2192three-controlX usingpairedRCCXcleanAND andoneToffoli. Two controlledadders implementminusword onZ0 andplusword onZ1; Cliffordbasischange givespositiveRy(4piword/2^b).",
+  "gradient_error": "Synthesize the33singlequbitgradientpreparationRz rotations with summed stateerror atmost1e-6/(2maxobservable_scale). One-time initialstateerror underaunitary, evenwithgradiententanglement, boundsfullresponseby1e-6 independentlyofreusecount. Verifytheproductstateoverlapat70decimaldigits. Do notlabelidealgradientresponse as an actual full-width statevectorsimulation.",
+  "workspace": "Existing137cleanlookupworkspace plus33gradientqubits and2adderhelperqubits; helpersandlookupbitsrestore, gradientdiscarded onlyafterestimator. Dirtyvariantnotselected.",
+  "tests": "Exhaustive fixedadder/control semantics b1,2,3; signedphasegradientRy action inclzero,negativeperiod,2pi; actualClifford+T full33bit adder/control/gradientprep componentcounts; tinyfullcircuits versus idealphase unitary; exactrealmodelmatrixforidealgradient pluscertifiedpreparedgradienterror.",
+  "baseline_fairness": "Offerexactsameimplemented phase-gradient bank with aclassicallysetangleword to each known denseRz. DatawordXprep/unprep haszeroT; chargebankandgradientinitialization. KeepdirectRossSelinger whencheaper. Thisdoesnot establishglobaloptimality amongallpossibleconstantadders/unitarysynthesis. If strongerunimplemented denseoptimization remains, labelwinningcomparator as strongest evaluated.",
+  "gate": "CompleteexpectedT<=0.5strongestevaluateddense atsamefullqueryandresponsebudget, allcomponentsaccounted. Preservemax1moperations circuitcap andnoQPUclaim.",
+  "limit_seconds": 1500,
+  "threads": 3,
+  "memory_GiB": 12,
+  "local_cdkm_source": {
+    "path": "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/qiskit/circuit/library/arithmetic/adders/cdkm_ripple_carry_adder.py",
+    "sha256": "64f9223a646ca29e91107e817128d3845cd5d7a56e7e80ae5df3e49f7c0399e9"
+  }
+}

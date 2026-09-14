@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-14T09:29:34.303277+00:00",
+  "status": "FROZEN_BEFORE_SEMANTIC_TESTS",
+  "sha256": {
+    "protocol.json": "c56d125ed6af67007d0947ec33abfa2e4c254673d9897abc3a27c744cf0167cc",
+    "select_swap.py": "b0669ef703dd2a7bc5154f2359ef816326bdade52c52fe051420fe89f5d4d311",
+    "synthesis.py": "480d37a2f220ec6a302c4ac08915d022e1819586eb11f52f0065472b4181e086",
+    "test_semantics.py": "b16b3462acf291c92ba312a05f8d2c7018e919c89c23ca4d0bf7adcacccd26b9",
+    "inputs/triangle.npz": "34ed3e91ee2a4d98569be2b047359c1cecfda6ad1040bec4a63e0912b4fa7ee8"
+  }
+}

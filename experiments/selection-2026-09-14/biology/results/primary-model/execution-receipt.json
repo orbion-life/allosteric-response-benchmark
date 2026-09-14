@@ -1,0 +1,76 @@
+{
+  "N": 56,
+  "contacts": 454,
+  "internal_dimensions": 162,
+  "null_modes": 6,
+  "tau": 5.4056664229734706,
+  "candidate_count": 21,
+  "build_seconds": 0.02050491701811552,
+  "gaussian_numerical_checks": {
+    "engineering_status": "COMPLETE",
+    "scientific_status": "PASS",
+    "scope": "Gaussian-surrogate fit and complete exact OU moment computation only",
+    "nonlinear_response_fidelity": "NOT_EVALUATED",
+    "biological_benefit": "NOT_EVALUATED",
+    "quantum_advantage": "NOT_EVALUATED",
+    "fit_converged": true,
+    "covariance_symmetry_max_abs": 1.734723475976807e-18,
+    "minimum_static_covariance_eigenvalue": 0.00204941162428524,
+    "all_response_entries_finite": true,
+    "top5_by_time": [
+      [
+        178,
+        211,
+        202,
+        183,
+        197
+      ],
+      [
+        178,
+        211,
+        202,
+        183,
+        197
+      ],
+      [
+        178,
+        211,
+        202,
+        183,
+        197
+      ]
+    ]
+  },
+  "gaussian_cost": {
+    "backend": "numpy",
+    "numpy_version": "2.4.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "total_seconds_including_load_fit_covariance_readout_save": 0.9776357910013758,
+    "fit_seconds": 0.05298966699047014,
+    "moment_timings": [
+      {
+        "time": 0.0,
+        "seconds": 0.2197327499743551
+      },
+      {
+        "time": 0.5405666422973471,
+        "seconds": 0.21804708300624043
+      },
+      {
+        "time": 5.4056664229734706,
+        "seconds": 0.2175704160472378
+      },
+      {
+        "time": 54.05666422973471,
+        "seconds": 0.21850145800272003
+      }
+    ],
+    "peak_process_rss_platform_units": 195559424,
+    "rss_units": "bytes on macOS; KiB on Linux",
+    "block_edges": 32,
+    "dense_covariance_parameter_hessian_allocated": false,
+    "source_sha256": "50c7ff739d715176b92562915bef1a2f852ed3f2328cd706f62a5226d37031f5"
+  },
+  "seconds": 1.468927874986548,
+  "model_sha256": "7d7b30307279427ce07a255cfe8a35a9dbdd1a8c6a7d4396315d2942b8d5ce74"
+}

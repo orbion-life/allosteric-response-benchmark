@@ -1,0 +1,7 @@
+{
+  "recorded_utc": "2026-09-14T09:47:09.828506+00:00",
+  "failure": "libcusolver.so.11 unavailable on direct cupy.linalg.eigh import before any target canary or new kernel",
+  "correction": "Run the unchanged independent GPU fixture checks first, matching the successful primary campaign initialization order; preserve all failed setup sources/logs.",
+  "scientific_protocol_changed": false,
+  "new_kernel_evaluation_before_correction": false
+}

@@ -1,0 +1,35 @@
+{
+  "engineering_status": "COMPLETE",
+  "scientific_status": "PASS",
+  "scope": "Gaussian-surrogate fit and complete exact OU moment computation only",
+  "nonlinear_response_fidelity": "NOT_EVALUATED",
+  "biological_benefit": "NOT_EVALUATED",
+  "quantum_advantage": "NOT_EVALUATED",
+  "fit_converged": true,
+  "covariance_symmetry_max_abs": 3.469446951953614e-18,
+  "minimum_static_covariance_eigenvalue": 0.0017729355108823841,
+  "all_response_entries_finite": true,
+  "top5_by_time": [
+    [
+      188,
+      183,
+      202,
+      181,
+      197
+    ],
+    [
+      188,
+      183,
+      202,
+      181,
+      197
+    ],
+    [
+      188,
+      183,
+      202,
+      181,
+      211
+    ]
+  ]
+}

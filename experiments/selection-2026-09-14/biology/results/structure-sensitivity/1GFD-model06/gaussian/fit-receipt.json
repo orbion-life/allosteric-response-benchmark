@@ -1,0 +1,87 @@
+{
+  "converged": true,
+  "history": [
+    {
+      "iteration": 0,
+      "beta_F_minus_constant": 93.4897744065575,
+      "whitened_gradient_frobenius": 5.3906317479605645,
+      "elapsed_seconds": 0.0016122920205816627,
+      "cg_iterations": 3,
+      "cg_relative_tolerance": 0.1,
+      "step_length": 0.5,
+      "stable_objective_decrease": -4.720609116419025
+    },
+    {
+      "iteration": 1,
+      "beta_F_minus_constant": 88.76916529013849,
+      "whitened_gradient_frobenius": 2.2684823090443564,
+      "elapsed_seconds": 0.011042749974876642,
+      "cg_iterations": 2,
+      "cg_relative_tolerance": 0.1,
+      "step_length": 1.0,
+      "stable_objective_decrease": -0.6725528698948391
+    },
+    {
+      "iteration": 2,
+      "beta_F_minus_constant": 88.09661242024363,
+      "whitened_gradient_frobenius": 1.1969019146837443,
+      "elapsed_seconds": 0.017217624990735203,
+      "cg_iterations": 1,
+      "cg_relative_tolerance": 0.1,
+      "step_length": 1.0,
+      "stable_objective_decrease": -0.0617968499057337
+    },
+    {
+      "iteration": 3,
+      "beta_F_minus_constant": 88.03481557033793,
+      "whitened_gradient_frobenius": 0.24290819625355836,
+      "elapsed_seconds": 0.02228583296528086,
+      "cg_iterations": 2,
+      "cg_relative_tolerance": 0.04928571763234846,
+      "step_length": 1.0,
+      "stable_objective_decrease": -0.003253614418102613
+    },
+    {
+      "iteration": 4,
+      "beta_F_minus_constant": 88.03156195591983,
+      "whitened_gradient_frobenius": 0.015058817619851474,
+      "elapsed_seconds": 0.028476750012487173,
+      "cg_iterations": 2,
+      "cg_relative_tolerance": 0.012271437413706463,
+      "step_length": 1.0,
+      "stable_objective_decrease": -1.3426373445751333e-05
+    },
+    {
+      "iteration": 5,
+      "beta_F_minus_constant": 88.03154852954637,
+      "whitened_gradient_frobenius": 9.700159242374888e-05,
+      "elapsed_seconds": 0.0345977499964647,
+      "cg_iterations": 3,
+      "cg_relative_tolerance": 0.0009848938644531648,
+      "step_length": 1.0,
+      "stable_objective_decrease": -1.6111192021003454e-09
+    },
+    {
+      "iteration": 6,
+      "beta_F_minus_constant": 88.03154852793524,
+      "whitened_gradient_frobenius": 6.671642243230446e-08,
+      "elapsed_seconds": 0.04165487497812137,
+      "cg_iterations": 5,
+      "cg_relative_tolerance": 2.5829522340202978e-05,
+      "step_length": 1.0,
+      "stable_objective_decrease": -8.254855279208943e-16
+    },
+    {
+      "iteration": 7,
+      "beta_F_minus_constant": 88.03154852793526,
+      "whitened_gradient_frobenius": 5.947258609280828e-13,
+      "elapsed_seconds": 0.05072008300339803
+    }
+  ],
+  "hessian_actions": 18,
+  "seconds": 0.0508204170037061,
+  "gradient_tolerance": 1e-09,
+  "matrix_free_covariance_parameter_hessian": true,
+  "minimum_covariance_eigenvalue": 0.061732667481453944,
+  "normalized_stationarity_frobenius": 4.67260765788061e-14
+}
